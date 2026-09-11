@@ -43,6 +43,6 @@ For a failure, retain the visible error, app commit, browser/version and exact r
 
 Current contextual-playback checkpoint: floating Guide/Scripture/Resources tabs, per-card playback with measured per-clip time, and a focused current-step section index. A subsequent holistic composition checkpoint compacts the header/context, places term controls inside their cards and keeps guide actions stable while source text scrolls. Independent visual acceptance remains pending.
 
-The active source/Pause/time now stays in a matching floating glass dock beside navigation (stacked at narrow widths); card-corner Play starts that source. Dialogs expose the same owner while the page is inert. Current pack:141 recordings,160 files,88,710,635bytes. Existing voice remains the default after a limited user comparison; full-passage and offline heard-quality verification remain pending.
+The active source/Pause action and thin real progress now stay in a matching floating glass dock beside navigation (stacked at narrow widths); card-corner Play starts that source. Dialogs expose the same owner while the page is inert. Current pack:141 recordings,160 files,88,710,635bytes. Existing voice remains the default after a limited user comparison; full-passage and offline heard-quality verification remain pending.
 
 Compact transport revision: the dark source-labeled action toggles playback; a thin actual progress track replaces visible time numerals, with accessible timing semantics. Restart is under More. Failed recording errors remain visible at their source.
