@@ -1,0 +1,18 @@
+{
+  "name": "fia-functional-poc",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.12.0" },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "prepare:content": "node scripts/prepare-content.mjs",
+    "verify:content": "node scripts/verify-content.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": { "react": "19.3.0", "react-dom": "19.3.0", "dompurify": "3.4.15" },
+  "devDependencies": { "vite": "8.3.0", "@vitejs/plugin-react": "6.1.1", "@playwright/test": "1.63.0" }
+}

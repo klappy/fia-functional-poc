@@ -1,0 +1,78 @@
+
+> fia-functional-poc@0.1.0 prepare:content
+> node scripts/prepare-content.mjs
+
+{
+  "verified": true,
+  "counts": {
+    "steps": 6,
+    "units": 130,
+    "pauses": 39,
+    "resources": 32,
+    "terms": 21,
+    "images": 4,
+    "maps": 4,
+    "videoLinks": 3,
+    "scriptureVersions": 3,
+    "versesPerVersion": 13
+  },
+  "bytes": 23246971,
+  "assets": [
+    {
+      "id": "a112",
+      "width": 1000,
+      "height": 699,
+      "bytes": 163531,
+      "sha256": "9c58b5b5100b4324ab54000ac3c26b7ad2371fd964afa319fe0cda7da8e0291c"
+    },
+    {
+      "id": "a111",
+      "width": 1000,
+      "height": 563,
+      "bytes": 69973,
+      "sha256": "d314bac395b2aab8cf601f6a590bbf2547b71a54af67eb95dc927f5042883480"
+    },
+    {
+      "id": "a203",
+      "width": 1000,
+      "height": 563,
+      "bytes": 112424,
+      "sha256": "1471c9bec45fa044351c13078a7093be44ec2db8e987a62c1a3151a4b9fcb5c9"
+    },
+    {
+      "id": "a204",
+      "width": 1000,
+      "height": 563,
+      "bytes": 93501,
+      "sha256": "d1e3f8420046e066c981476e80cad3c0024d77694d9045a2ca248cdc0dc811c7"
+    },
+    {
+      "id": "c202",
+      "width": 4000,
+      "height": 3000,
+      "bytes": 1065016,
+      "sha256": "edece4856f059c482ff51d57f3b947ed4a6f97d998be548af2e96d6e4543fa0c"
+    },
+    {
+      "id": "c197",
+      "width": 3000,
+      "height": 4000,
+      "bytes": 6712636,
+      "sha256": "e634e8d7f17c55b5f8be3fdc1f91fee7708f30774f4e1ad3223efff8ef9f2f5d"
+    },
+    {
+      "id": "c201",
+      "width": 3000,
+      "height": 4000,
+      "bytes": 6646608,
+      "sha256": "cf0381a5cf019c2ae6ba1c925fa6237689e6df346d519c34b73eb3fbf12b2ea3"
+    },
+    {
+      "id": "c168",
+      "width": 3000,
+      "height": 4000,
+      "bytes": 7735008,
+      "sha256": "012583ca2ccc485fcb236b9e7d9580b35b1380bd0416758f36b023bd619e096e"
+    }
+  ]
+}

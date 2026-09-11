@@ -1,0 +1,250 @@
+{
+  "FIATranslationGuide": {
+    "repo": "FIATranslationGuide",
+    "commit": "5d6d59a22caa8f8539c5ff6a3e1ec74c4cfa5c6d",
+    "path": "eng/metadata.json",
+    "url": "https://raw.githubusercontent.com/BibleAquifer/FIATranslationGuide/5d6d59a22caa8f8539c5ff6a3e1ec74c4cfa5c6d/eng/metadata.json",
+    "retrievedAt": "2026-09-11T20:42:04.256Z",
+    "fileSha256": "9d013436d9e1afc08215552b447f642b1bd73c7e8b50ed52707de8bbeca72851",
+    "resourceTitle": "Familiarization, Internalization, Articulation (FIA)",
+    "metadataVersion": "1.1.2",
+    "licenseInfo": {
+      "title": "Familiarization, Internalization, Articulation (Fia)",
+      "copyright": {
+        "dates": "2025",
+        "holder": {
+          "name": "Word Collective",
+          "url": "https://wordcollective.com"
+        }
+      },
+      "licenses": [
+        {
+          "eng": {
+            "name": "CC BY-SA 4.0 license",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+          }
+        }
+      ],
+      "showAdaptationNoticeForEnglish": false,
+      "showAdaptationNoticeForNonEnglish": true
+    },
+    "adaptationNotice": "<p><b>Familiarization, Internalization, Articulation (FIA) Translation Guide</b> © 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Translation Guide</cite> has been adapted in the following languages Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> © 2025 Word Collective Released under CC BY-SA 4.0 license by Mission Mutual</p>"
+  },
+  "FIAMaps": {
+    "repo": "FIAMaps",
+    "commit": "7e56e7bc68d354a72b7a3e882beb78d5f084d7f5",
+    "path": "eng/metadata.json",
+    "url": "https://raw.githubusercontent.com/BibleAquifer/FIAMaps/7e56e7bc68d354a72b7a3e882beb78d5f084d7f5/eng/metadata.json",
+    "retrievedAt": "2026-09-11T20:42:04.256Z",
+    "fileSha256": "6f6be14964b62ea78a38627ee97f760ced77ac8bc9a2f3a80a85b4d39bcee21c",
+    "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Maps",
+    "metadataVersion": "1.1.2",
+    "licenseInfo": {
+      "title": "Familiarization, Internalization, Articulation (Fia) Maps",
+      "copyright": {
+        "dates": "2025",
+        "holder": {
+          "name": "Biblica",
+          "url": "https://www.biblica.com"
+        }
+      },
+      "licenses": [
+        {
+          "eng": {
+            "name": "CC BY-SA 4.0 license",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+          }
+        }
+      ],
+      "showAdaptationNoticeForEnglish": false,
+      "showAdaptationNoticeForNonEnglish": false
+    },
+    "adaptationNotice": "<p><b>Familiarization, Internalization, Articulation (FIA) Maps</b> © 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Maps</cite> has been adapted in the following languages Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> © 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>"
+  },
+  "FIAImages": {
+    "repo": "FIAImages",
+    "commit": "8fbb154360574ba2981fbaa4064a1e8979de7e82",
+    "path": "eng/metadata.json",
+    "url": "https://raw.githubusercontent.com/BibleAquifer/FIAImages/8fbb154360574ba2981fbaa4064a1e8979de7e82/eng/metadata.json",
+    "retrievedAt": "2026-09-11T20:42:04.256Z",
+    "fileSha256": "39291e9416443607da5b644b878126afd7772443b630d22982d47ee78d651e57",
+    "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Images",
+    "metadataVersion": "1.1.2",
+    "licenseInfo": {
+      "title": "Familiarization, Internalization, Articulation (Fia) Images",
+      "copyright": {
+        "dates": "2025",
+        "holder": {
+          "name": "Word Collective",
+          "url": "https://wordcollective.com"
+        }
+      },
+      "licenses": [
+        {
+          "eng": {
+            "name": "CC BY-SA 4.0 license",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+          }
+        }
+      ],
+      "showAdaptationNoticeForEnglish": false,
+      "showAdaptationNoticeForNonEnglish": false
+    },
+    "adaptationNotice": "<p><b>Familiarization, Internalization, Articulation (FIA) Images</b> © 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Images</cite> has been adapted in the following languages Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> © 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>"
+  },
+  "FIAKeyTerms": {
+    "repo": "FIAKeyTerms",
+    "commit": "5ce5c6bd152236e16cf23290a40ab625175df8e3",
+    "path": "eng/metadata.json",
+    "url": "https://raw.githubusercontent.com/BibleAquifer/FIAKeyTerms/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/metadata.json",
+    "retrievedAt": "2026-09-11T20:42:04.256Z",
+    "fileSha256": "429305b41f3b23d4f933b816d9d3485aa724f929f512bd8293ac2a8693d85f44",
+    "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Key Terms",
+    "metadataVersion": "1.1.2",
+    "licenseInfo": {
+      "title": "Familiarization, Internalization, Articulation (Fia) Terms",
+      "copyright": {
+        "dates": "2025",
+        "holder": {
+          "name": "Word Collective",
+          "url": "https://wordcollective.com"
+        }
+      },
+      "licenses": [
+        {
+          "eng": {
+            "name": "CC BY-SA 4.0 license",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+          }
+        }
+      ],
+      "showAdaptationNoticeForEnglish": false,
+      "showAdaptationNoticeForNonEnglish": true
+    },
+    "adaptationNotice": "<p><b>Familiarization, Internalization, Articulation (FIA) Key Terms</b> © 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Key Terms</cite> has been adapted in the following languages Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> © 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>"
+  },
+  "VideoBibleDictionary": {
+    "repo": "VideoBibleDictionary",
+    "commit": "85b4bec7634f3f5989d0767b372084eb19098227",
+    "path": "eng/metadata.json",
+    "url": "https://raw.githubusercontent.com/BibleAquifer/VideoBibleDictionary/85b4bec7634f3f5989d0767b372084eb19098227/eng/metadata.json",
+    "retrievedAt": "2026-09-11T20:42:04.256Z",
+    "fileSha256": "0ee926ba342a88c754f08f2eb9a735ea9826a0a9367aace67550460166eedcfc",
+    "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Videos",
+    "metadataVersion": "1.1.2",
+    "licenseInfo": {
+      "title": "Video Bible Dictionary",
+      "copyright": {
+        "dates": "2025",
+        "holder": {
+          "name": "Word Collective",
+          "url": "https://wordcollective.com"
+        }
+      },
+      "licenses": [
+        {
+          "eng": {
+            "name": "CC BY-SA 4.0 license",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+          }
+        }
+      ],
+      "showAdaptationNoticeForEnglish": false,
+      "showAdaptationNoticeForNonEnglish": false
+    },
+    "adaptationNotice": "<p><b>Video Bible Dictionary</b> © 2025 Word Collective. Released under CC BY-SA 4.0 license. <cite>Video Bible Dictionary</cite> has been adapted in the following languages: Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Video Bible Dictionary</cite> © 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>"
+  },
+  "BereanStandardBible": {
+    "repo": "BereanStandardBible",
+    "commit": "c7fbd7e8301d6b5aa03870780c04a7464b4dbb27",
+    "path": "eng/metadata.json",
+    "url": "https://raw.githubusercontent.com/BibleAquifer/BereanStandardBible/c7fbd7e8301d6b5aa03870780c04a7464b4dbb27/eng/metadata.json",
+    "retrievedAt": "2026-09-11T20:42:04.256Z",
+    "fileSha256": "ab0fc89bae70f62819ca768dc3195a949268e0e5e2beb74a06b6612f405681df",
+    "resourceTitle": "Berean Standard Bible",
+    "metadataVersion": "1.1.0",
+    "licenseInfo": {
+      "title": "Berean Standard Bible",
+      "copyright": {
+        "dates": null,
+        "holder": {
+          "name": "Berean Standard Bible",
+          "url": "https://berean.bible"
+        }
+      },
+      "licenses": [
+        {
+          "eng": {
+            "name": "Public Domain CC0",
+            "url": "https://creativecommons.org/public-domain/cc0/"
+          }
+        }
+      ],
+      "showAdaptationNoticeForEnglish": false,
+      "showAdaptationNoticeForNonEnglish": false
+    },
+    "adaptationNotice": ""
+  },
+  "unfoldingWordLiteral": {
+    "repo": "unfoldingWordLiteral",
+    "commit": "9c6a5e75d0849198240e38d22157b497bc84dc9f",
+    "path": "eng/metadata.json",
+    "url": "https://raw.githubusercontent.com/BibleAquifer/unfoldingWordLiteral/9c6a5e75d0849198240e38d22157b497bc84dc9f/eng/metadata.json",
+    "retrievedAt": "2026-09-11T20:42:04.256Z",
+    "fileSha256": "44c10dd60866a6c120cff00faa920dbdd2e179e8dd3ca3262ccd28fa032bb37d",
+    "resourceTitle": "unfoldingWord Literal Text",
+    "metadataVersion": "1.1.0",
+    "licenseInfo": {
+      "licenses": [
+        {
+          "eng": {
+            "name": "CC BY-SA 4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+          }
+        }
+      ],
+      "title": "unfoldingWord Literal Text",
+      "copyright": {
+        "holder": {
+          "name": "unfoldingWord",
+          "url": "https://unfoldingword.org"
+        },
+        "dates": "2026"
+      },
+      "showAdaptationNoticeForEnglish": false,
+      "showAdaptationNoticeForNonEnglish": false
+    },
+    "adaptationNotice": ""
+  },
+  "unfoldingWordSimplified": {
+    "repo": "unfoldingWordSimplified",
+    "commit": "90d02427ebc22dc9e4e961c38221f1711426f5db",
+    "path": "eng/metadata.json",
+    "url": "https://raw.githubusercontent.com/BibleAquifer/unfoldingWordSimplified/90d02427ebc22dc9e4e961c38221f1711426f5db/eng/metadata.json",
+    "retrievedAt": "2026-09-11T20:42:04.256Z",
+    "fileSha256": "93b82beefbd6ec7e4d19c8babf5b464ccba47e9363cd9bbcc6e27819178145c8",
+    "resourceTitle": "unfoldingWord Simplified Text",
+    "metadataVersion": "1.1.0",
+    "licenseInfo": {
+      "licenses": [
+        {
+          "eng": {
+            "name": "CC BY-SA 4.0",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+          }
+        }
+      ],
+      "title": "unfoldingWord Simplified Text",
+      "copyright": {
+        "holder": {
+          "name": "unfoldingWord",
+          "url": "https://unfoldingword.org"
+        },
+        "dates": "2026"
+      },
+      "showAdaptationNoticeForEnglish": false,
+      "showAdaptationNoticeForNonEnglish": false
+    },
+    "adaptationNotice": ""
+  }
+}

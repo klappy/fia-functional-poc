@@ -1,0 +1,27 @@
+{
+  "apiCaptureSha256": "0bc69d93842a212f010c9d365f7677979018444af7bf0752c330f8264acf8f3c",
+  "comparison": "Canonical selected verse plain text occurs in captured served API body; exact HTML preserved separately. This is a body comparison, not wrapper byte equality.",
+  "versions": [
+    {
+      "resourceCode": "BereanStandardBible",
+      "matches": 13,
+      "expected": 13,
+      "allMatch": true,
+      "canonicalFileSha256": "ab3a5d85d62c85bc7ec479078645c93904bacc0fd9443b5e2bcacf2936ad5a2b"
+    },
+    {
+      "resourceCode": "unfoldingWordLiteral",
+      "matches": 13,
+      "expected": 13,
+      "allMatch": true,
+      "canonicalFileSha256": "0394d5d4dcf0298a912301adc9b428dea016de054d15388f405598692427d8d5"
+    },
+    {
+      "resourceCode": "unfoldingWordSimplified",
+      "matches": 13,
+      "expected": 13,
+      "allMatch": true,
+      "canonicalFileSha256": "58e2a88def2c60cea362fd718169bf8929845c9845a454d2c7f3c3b73c15056d"
+    }
+  ]
+}

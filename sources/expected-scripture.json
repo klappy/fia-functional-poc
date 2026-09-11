@@ -1,0 +1,257 @@
+[
+  {
+    "repo": "BereanStandardBible",
+    "path": "eng/json/41.content.json",
+    "fileSha256": "ab3a5d85d62c85bc7ec479078645c93904bacc0fd9443b5e2bcacf2936ad5a2b",
+    "verses": [
+      {
+        "content_id": "10041001001",
+        "index_reference": "41001001",
+        "version": "1.0.2",
+        "contentSha256": "553d703384326188401bfab3c4960da6f3df07fe10fc148d36bce01c3c3a4ad0"
+      },
+      {
+        "content_id": "10041001002",
+        "index_reference": "41001002",
+        "version": "1.0.2",
+        "contentSha256": "2d583f85fc11fac0db86679c53b65c3180a7f760d60001a6629f2cd0bbc7d612"
+      },
+      {
+        "content_id": "10041001003",
+        "index_reference": "41001003",
+        "version": "1.0.2",
+        "contentSha256": "4184fc1cb6e3e1e0584eb9adb2d0266d6f806e055381564c34eb8329c432cd92"
+      },
+      {
+        "content_id": "10041001004",
+        "index_reference": "41001004",
+        "version": "1.0.2",
+        "contentSha256": "e4fb630bc759e18a9b1e1aba4c39de653753040d6dd775d1938499528ba561f6"
+      },
+      {
+        "content_id": "10041001005",
+        "index_reference": "41001005",
+        "version": "1.0.2",
+        "contentSha256": "3340f69e36071f37e1de49a6f7c8f114928755eaa70305100414885f53c79a70"
+      },
+      {
+        "content_id": "10041001006",
+        "index_reference": "41001006",
+        "version": "1.0.2",
+        "contentSha256": "157455aa7e282b4576121bbb3195bb84c9deee7d6230be2953ed115d3f95430b"
+      },
+      {
+        "content_id": "10041001007",
+        "index_reference": "41001007",
+        "version": "1.0.2",
+        "contentSha256": "f43cda484cfe1cc96e7a02a56d648e3baafb5e8e4a5a1934a12489ca06b9a45f"
+      },
+      {
+        "content_id": "10041001008",
+        "index_reference": "41001008",
+        "version": "1.0.2",
+        "contentSha256": "c31abba04f5cc4f900dafe72740385648ea1a355e3168275e37a1603723ac1c0"
+      },
+      {
+        "content_id": "10041001009",
+        "index_reference": "41001009",
+        "version": "1.0.2",
+        "contentSha256": "a3f104e7bcb2af7b066dd4ca0bb04785d76ecbfa2edd7c908d246f92a44d6743"
+      },
+      {
+        "content_id": "10041001010",
+        "index_reference": "41001010",
+        "version": "1.0.2",
+        "contentSha256": "61f2400242ad92d576987aa9360f27a4a1948a10cb46d91ddc313edf7f3c58d7"
+      },
+      {
+        "content_id": "10041001011",
+        "index_reference": "41001011",
+        "version": "1.0.2",
+        "contentSha256": "b5b44674c10699fb42cbc86d81bf7ec01061c8767de41f4e554039a99f35120d"
+      },
+      {
+        "content_id": "10041001012",
+        "index_reference": "41001012",
+        "version": "1.0.2",
+        "contentSha256": "59de47e24247ec598cb277349d5a1aaa70be87027db9ac8387141f2c09d59ee6"
+      },
+      {
+        "content_id": "10041001013",
+        "index_reference": "41001013",
+        "version": "1.0.2",
+        "contentSha256": "5dcc876712a7f4906af771c9ffde0e2a5377a510c9401976b964d5b7cc31d1d2"
+      }
+    ]
+  },
+  {
+    "repo": "unfoldingWordLiteral",
+    "path": "eng/json/41.content.json",
+    "fileSha256": "0394d5d4dcf0298a912301adc9b428dea016de054d15388f405598692427d8d5",
+    "verses": [
+      {
+        "content_id": "10041001001",
+        "index_reference": "41001001",
+        "version": "1.0.2",
+        "contentSha256": "325689b19016134eb8d2329bbf0918eff2020c1080042a212e25117959ae71ca"
+      },
+      {
+        "content_id": "10041001002",
+        "index_reference": "41001002",
+        "version": "1.0.2",
+        "contentSha256": "0458a0581e3dfd59477b6aee9dce874a5872c5350711a8187f9f2774e3b26d8c"
+      },
+      {
+        "content_id": "10041001003",
+        "index_reference": "41001003",
+        "version": "1.0.2",
+        "contentSha256": "02e57242dc9c8e047d4a61e54c8cba928b58cd06f347b31f026e60c80bd140ee"
+      },
+      {
+        "content_id": "10041001004",
+        "index_reference": "41001004",
+        "version": "1.0.2",
+        "contentSha256": "b08bfc0f35da8fc1b09b0352ff1479a5855113e163f51dcf2a285247370ebf42"
+      },
+      {
+        "content_id": "10041001005",
+        "index_reference": "41001005",
+        "version": "1.0.2",
+        "contentSha256": "5ea8972820a661283cae1e14389453d314af490ac66fa48a9b7a6032dba80528"
+      },
+      {
+        "content_id": "10041001006",
+        "index_reference": "41001006",
+        "version": "1.0.2",
+        "contentSha256": "6be3d189dd7a3738af66c1b7b61a9e619b6796959782516d987b436c016494b3"
+      },
+      {
+        "content_id": "10041001007",
+        "index_reference": "41001007",
+        "version": "1.0.2",
+        "contentSha256": "4e617976590e76dfb9a0e2c43a49e37724dc4ebf62898813c7361d442481bdb7"
+      },
+      {
+        "content_id": "10041001008",
+        "index_reference": "41001008",
+        "version": "1.0.2",
+        "contentSha256": "81fd90dfbaa3a5b68ab27ee54e6400fc1fedc2ec3de9405dfc0a7e67df95471e"
+      },
+      {
+        "content_id": "10041001009",
+        "index_reference": "41001009",
+        "version": "1.0.2",
+        "contentSha256": "2b54ff6e0751e0ab6ea59caf881bb81b0f5f0f037232514d4d087e01fef85900"
+      },
+      {
+        "content_id": "10041001010",
+        "index_reference": "41001010",
+        "version": "1.0.2",
+        "contentSha256": "35359181bb081f16bf21fbf5b7f3d586eef0c32a72a652a097c2478b483d7f90"
+      },
+      {
+        "content_id": "10041001011",
+        "index_reference": "41001011",
+        "version": "1.0.2",
+        "contentSha256": "26b6eb614888e2aee165ee6e0d5d3f86672e8372fd313f852b9f9ad2732d11df"
+      },
+      {
+        "content_id": "10041001012",
+        "index_reference": "41001012",
+        "version": "1.0.2",
+        "contentSha256": "c966982786d9663cf356b96614e2d5dcea749aba052510441efff7d2f30af19a"
+      },
+      {
+        "content_id": "10041001013",
+        "index_reference": "41001013",
+        "version": "1.0.2",
+        "contentSha256": "5985b1846ba53903bdb47b6d3ed08e54e016aeb7afbb2e2255e2cc9edefbfe50"
+      }
+    ]
+  },
+  {
+    "repo": "unfoldingWordSimplified",
+    "path": "eng/json/41.content.json",
+    "fileSha256": "58e2a88def2c60cea362fd718169bf8929845c9845a454d2c7f3c3b73c15056d",
+    "verses": [
+      {
+        "content_id": "10041001001",
+        "index_reference": "41001001",
+        "version": "1.0.2",
+        "contentSha256": "327c10838598de96172985c544c8f9bc9e86325a598d755cdd79bfe474559672"
+      },
+      {
+        "content_id": "10041001002",
+        "index_reference": "41001002",
+        "version": "1.0.2",
+        "contentSha256": "154c726da70ff1944df6b22b1e8c5b650eb861d2a421b5b95e0ebe846a2f99d0"
+      },
+      {
+        "content_id": "10041001003",
+        "index_reference": "41001003",
+        "version": "1.0.2",
+        "contentSha256": "82f5b76464e587d880afc5459656d84bdd41b68e1c2db5edf276e7d7c1c47a80"
+      },
+      {
+        "content_id": "10041001004",
+        "index_reference": "41001004",
+        "version": "1.0.2",
+        "contentSha256": "9d390539742de1d709e1d6ed1d28b2f88db70168a033ac613eebe9c4da8ed0d7"
+      },
+      {
+        "content_id": "10041001005",
+        "index_reference": "41001005",
+        "version": "1.0.2",
+        "contentSha256": "205e960c2317a6753d1ee5413fab5275662195af08deff7600e4af336346de40"
+      },
+      {
+        "content_id": "10041001006",
+        "index_reference": "41001006",
+        "version": "1.0.2",
+        "contentSha256": "6c16879bf8d2b43c018b1f69d4ce7108e13feb95a294204d3cfdd4425a5c5d2f"
+      },
+      {
+        "content_id": "10041001007",
+        "index_reference": "41001007",
+        "version": "1.0.2",
+        "contentSha256": "abea0b7e06382a616ad0f4b53bdabf1a31edfa79776b2e9971885b497846cca4"
+      },
+      {
+        "content_id": "10041001008",
+        "index_reference": "41001008",
+        "version": "1.0.2",
+        "contentSha256": "7ed6a1c1aa02846a6d594da6774a7fed40912a72465da94ade7274560633d9ae"
+      },
+      {
+        "content_id": "10041001009",
+        "index_reference": "41001009",
+        "version": "1.0.2",
+        "contentSha256": "15646827ddc5221fc0ebe7518f51691c755589d2364cddbe869350ac5d17b333"
+      },
+      {
+        "content_id": "10041001010",
+        "index_reference": "41001010",
+        "version": "1.0.2",
+        "contentSha256": "93687eec5b0ed0f63f088fed8e179d1e68ae358366173298f3c39904911460ad"
+      },
+      {
+        "content_id": "10041001011",
+        "index_reference": "41001011",
+        "version": "1.0.2",
+        "contentSha256": "a824dead7cfd7f9978442fa4b20d3f2686c35aae6bb29e4d0e53f5a9581a8a61"
+      },
+      {
+        "content_id": "10041001012",
+        "index_reference": "41001012",
+        "version": "1.0.2",
+        "contentSha256": "d6c11c4a01c3c5f6b50a20abb12a23a2f40ff646f41736764ba7f0ded066798a"
+      },
+      {
+        "content_id": "10041001013",
+        "index_reference": "41001013",
+        "version": "1.0.2",
+        "contentSha256": "08153edc0b6b1165eec55306299bf8ec0aa3494908e5aef9dde0ea1e649108ac"
+      }
+    ]
+  }
+]
