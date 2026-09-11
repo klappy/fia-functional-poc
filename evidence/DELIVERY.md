@@ -59,4 +59,6 @@ The follow-on candidate preserves all141 audio/source files, compacts app chrome
 
 ## Floating-player author delta
 
-Current160-file pack is88,709,107bytes with141 unchanged recordings. Active owner controls moved to the shared floating navigation dock; local starts and accessible modal counterpart remain. Actual726/390/320 non-overlap, exploration continuity and same-owner modal controls passed.27 unit checks passed. The user made a limited online comparison; the original default remains and full/offline heard quality is not inferred.
+Current160-file pack is88,710,635bytes with141 unchanged recordings. Active owner controls moved to the shared floating navigation dock; local starts and accessible modal counterpart remain. Actual726/390/320 non-overlap, exploration continuity and same-owner modal controls passed.27 unit checks passed. The user made a limited online comparison; the original default remains and full/offline heard quality is not inferred.
+
+Compact transport revision: the dark source-labeled action toggles playback; a thin actual progress track replaces visible time numerals, with accessible timing semantics. Restart is under More. Failed recording errors remain visible at their source.

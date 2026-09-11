@@ -54,7 +54,7 @@ function Session({ pack }) {
   const resource = item => setSelection({item});
   const playTerm=item=>{stop();const text=termInputs.find(x=>x.id===item.content_id)?.text;audio.current.speak([{id:`term-${item.content_id}`,text,owner:`term-${item.content_id}`,title:resourceLabel(item)}]);};
   const playScripture=()=>{stop();audio.current.speak([{id:`scripture-${bible.resourceCode}`,text:bible.verses.map(v=>v.text).join(' '),owner:'scripture',title:`Mark 1:1–13 · ${bible.resourceCode==='BereanStandardBible'?'BSB':bible.resourceCode==='unfoldingWordLiteral'?'ULT':'UST'}`}]);};
-  const player=(owner,label,onPlay,compact=false)=><AudioControls state={compact?audioState:{status:'idle',error:audioState.owner===owner?audioState.error:''}} owner={owner} label={label} onPlay={onPlay} onPause={()=>audio.current.pause()} onResume={()=>audio.current.resume()} onRestart={()=>audio.current.restart()} compact={compact}/>;
+  const player=(owner,label,onPlay,compact=false)=><AudioControls state={compact?audioState:{status:'idle',owner:audioState.owner,error:audioState.owner===owner?audioState.error:''}} owner={owner} label={label} onPlay={onPlay} onPause={()=>audio.current.pause()} onResume={()=>audio.current.resume()} onRestart={()=>audio.current.restart()} compact={compact}/>;
   const running=['starting','playing','paused'].includes(audioState.status);
   const mini=running?player(audioState.owner,'Now playing',()=>audio.current.restart(),true):null;
   const offlinePanel=<OfflineControls state={offlineState} onSave={()=>offline.current.save()} onCancel={()=>offline.current.cancel()} onCheck={()=>offline.current.check()} onRemove={()=>offline.current.remove()}/>;
