@@ -1,6 +1,6 @@
 # FIA functional PoC — guided session
 
-A working English Mark 1:1–13 six-step guide uses the verified source pack: explicit discussion stops, three Scripture versions, contextual maps/images/terms, online video links, optional source examples and device-local position. Narration and offline saving are **not implemented yet**. This is one preliminary passage experience, not the complete FIA corpus.
+A working English Mark 1:1–13 six-step guide uses the verified source pack: explicit discussion stops, three Scripture versions, contextual maps/images/terms, online video links, optional source examples and device-local position. Verified offline saving and a browser speech fallback are implemented. The user-requested ElevenLabs voice experience is **not connected yet**; final narration acceptance remains partial. This is one preliminary passage experience, not the complete FIA corpus.
 
 ## Run the guided session
 
@@ -38,3 +38,5 @@ Primary later runtime target: headed Chrome 152.0.7977.83 on macOS 26.2 build 25
 Source tests and evidence are in [evidence/source-foundation.md](evidence/source-foundation.md). The [accepted cookbook plan](https://github.com/klappy/fia-app-cookbook/blob/2d90436c80b0c5aa2f18bc7594347b1d6244e704/poc/PLAN.md) and kitchen gates govern the next dishes. No private conversations, translation recording, AI backend, credentials or paid service are included.
 
 Visual coherence uses the complete pinned Generative Glass CSS and actual shared components within the current guide/navigation structure. [Matched reference evidence](evidence/visual-coherence/READBACK.md) records all four views, source bindings and necessary wrappers. Earlier flat-white visual acceptance was withdrawn; FIA identity did not authorize removing aurora. The full font stylesheet is retained, with external Noto imports and system fallbacks; eight unavailable SF binaries are not included, and their build warnings are documented. Offline font behavior remains a later gate.
+
+B3 partial runtime evidence is in [evidence/b3/READBACK.md](evidence/b3/READBACK.md). `npm run build` emits a finite offline shell manifest. Save is verified by actual cache readback; optional network fonts/video are excluded. Browser voice events and localService flags are not audible proof or acceptance of the requested ElevenLabs voice.

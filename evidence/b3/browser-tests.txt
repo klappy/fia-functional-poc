@@ -1,0 +1,21 @@
+
+> fia-functional-poc@0.1.0 test:e2e
+> playwright test
+
+
+Running 12 tests using 1 worker
+
+  ✓   1 tests/guided-session.spec.js:4:1 › real guide, Scripture selection and exact position survive view changes and reload (5.6s)
+  ✓   2 tests/guided-session.spec.js:14:1 › contextual real map opens, renders and returns focus without moving the guide (3.9s)
+  ✓   3 tests/guided-session.spec.js:22:1 › examples require explicit reveal and every resource type is available (4.3s)
+  ✓   4 tests/guided-session.spec.js:31:1 › narrow layout, keyboard dialog and large text remain usable (2.4s)
+  ✓   5 tests/guided-session.spec.js:38:1 › failed required source renders a real error with retry, never substitute content (1.4s)
+  ✓   6 tests/guided-session.spec.js:44:1 › duplicate source names are distinguished by source meaning and inspected image (1.5s)
+  ✓   7 tests/guided-session.spec.js:49:1 › official FIA identity and colors render with readable contrast (761ms)
+  ✓   8 tests/guided-session.spec.js:57:1 › resources show all eight real previews, source metadata, search and honest online video (2.9s)
+  ✓   9 tests/guided-session.spec.js:67:1 › finished-session return from another view really restores the guide (2.3s)
+  ✓  10 tests/speech-offline.spec.js:4:1 › actual verified save survives a fresh offline page and reads every required file (4.8s)
+  ✓  11 tests/speech-offline.spec.js:12:1 › injected missing/corrupt transfer and cancellation preserve the previous verified pack (2.8s)
+  ✓  12 tests/speech-offline.spec.js:17:1 › actual cached corruption is detected and selected removal preserves the shell (3.0s)
+
+  12 passed (38.3s)

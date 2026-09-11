@@ -1,0 +1,122 @@
+
+> fia-functional-poc@0.1.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: official logo path bytes and viewBoxes match observed source receipt
+ok 1 - official logo path bytes and viewBoxes match observed source receipt
+  ---
+  duration_ms: 3.207417
+  type: 'test'
+  ...
+# Subtest: complete shared CSS and actual composed component sources retain pinned bytes
+ok 2 - complete shared CSS and actual composed component sources retain pinned bytes
+  ---
+  duration_ms: 4.522167
+  type: 'test'
+  ...
+# Subtest: complete source-guided traversal visits all39stops and never enters hidden examples
+ok 3 - complete source-guided traversal visits all39stops and never enters hidden examples
+  ---
+  duration_ms: 4.554042
+  type: 'test'
+  ...
+# Subtest: step selection and reverse navigation preserve Scripture but cannot enter examples
+ok 4 - step selection and reverse navigation preserve Scripture but cannot enter examples
+  ---
+  duration_ms: 0.288209
+  type: 'test'
+  ...
+# Subtest: storage validates exact source position and discards invalid or hidden units
+ok 5 - storage validates exact source position and discards invalid or hidden units
+  ---
+  duration_ms: 0.447041
+  type: 'test'
+  ...
+# Subtest: simulated storage quota failure cannot replace the previous active pointer
+ok 6 - simulated storage quota failure cannot replace the previous active pointer
+  ---
+  duration_ms: 23.929334
+  type: 'test'
+  ...
+# Subtest: complete selected source pack verifies from actual files
+ok 7 - complete selected source pack verifies from actual files
+  ---
+  duration_ms: 40.839958
+  type: 'test'
+  ...
+# Subtest: a missing or duplicated verse fails even with a valid transport digest
+ok 8 - a missing or duplicated verse fails even with a valid transport digest
+  ---
+  duration_ms: 111.409167
+  type: 'test'
+  ...
+# Subtest: altered Scripture or emitted guide text fails canonical comparison
+ok 9 - altered Scripture or emitted guide text fails canonical comparison
+  ---
+  duration_ms: 101.835542
+  type: 'test'
+  ...
+# Subtest: a missing resource and guessed map alias fail
+ok 10 - a missing resource and guessed map alias fail
+  ---
+  duration_ms: 108.185125
+  type: 'test'
+  ...
+# Subtest: discussion stops and example boundaries cannot silently change
+ok 11 - discussion stops and example boundaries cannot silently change
+  ---
+  duration_ms: 110.065417
+  type: 'test'
+  ...
+# Subtest: missing rights and flattened map notice fail
+ok 12 - missing rights and flattened map notice fail
+  ---
+  duration_ms: 126.499042
+  type: 'test'
+  ...
+# Subtest: video bytes are not an accepted offline resource
+ok 13 - video bytes are not an accepted offline resource
+  ---
+  duration_ms: 63.920375
+  type: 'test'
+  ...
+# Subtest: corrupt or missing actual media fails integrity verification
+ok 14 - corrupt or missing actual media fails integrity verification
+  ---
+  duration_ms: 41.2365
+  type: 'test'
+  ...
+# Subtest: a changed image cannot be legitimized by recomputing its manifest digest
+ok 15 - a changed image cannot be legitimized by recomputing its manifest digest
+  ---
+  duration_ms: 36.25375
+  type: 'test'
+  ...
+# Subtest: simulated speech events: cancellation rejects stale source advancement and old errors
+ok 16 - simulated speech events: cancellation rejects stale source advancement and old errors
+  ---
+  duration_ms: 7.344292
+  type: 'test'
+  ...
+# Subtest: simulated speech events: chunks preserve source and item advances only after final chunk
+ok 17 - simulated speech events: chunks preserve source and item advances only after final chunk
+  ---
+  duration_ms: 8.416458
+  type: 'test'
+  ...
+# Subtest: simulated pause/resume require actual adapter event and absent voices are honest
+ok 18 - simulated pause/resume require actual adapter event and absent voices are honest
+  ---
+  duration_ms: 5.749292
+  type: 'test'
+  ...
+1..18
+# tests 18
+# suites 0
+# pass 18
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 815.676458

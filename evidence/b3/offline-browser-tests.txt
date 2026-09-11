@@ -1,0 +1,8 @@
+
+Running 3 tests using 1 worker
+
+  ✓  1 tests/speech-offline.spec.js:4:1 › actual verified save survives a fresh offline page and reads every required file (2.3s)
+  ✓  2 tests/speech-offline.spec.js:12:1 › injected missing/corrupt transfer and cancellation preserve the previous verified pack (1.0s)
+  ✓  3 tests/speech-offline.spec.js:17:1 › actual cached corruption is detected and selected removal preserves the shell (1.5s)
+
+  3 passed (5.7s)
