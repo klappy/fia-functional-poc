@@ -1,0 +1,407 @@
+{
+  "attempts": 19,
+  "sourceCharacters": 2747,
+  "minimumStartGapSeconds": 4.099,
+  "totalBytes": 2157495,
+  "entries": [
+    {
+      "id": "S03-U007",
+      "startedAt": "2026-09-11T23:33:21.381Z",
+      "textSha256": "9873b21f2acd2d1ae6d1af78629c462eeb60e27d3f904fb87ec398d2c8704a42",
+      "characters": 142,
+      "outcome": "received",
+      "httpStatus": 200,
+      "mime": "audio/mpeg",
+      "path": "/tmp/fia-next-action-audio/S03-U007.mp3",
+      "bytes": 106997,
+      "sha256": "5580774b809909a3a2e3f36fffe5063bf3c73b82fb0dcab2c5c964bd7d2207b6",
+      "duration": "6.687313",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decodeExit": 0
+    },
+    {
+      "id": "S03-U019",
+      "startedAt": "2026-09-11T23:33:25.482Z",
+      "textSha256": "361cddcf1775560efe493fa28de39e45d1246f7cd2abd199223d700ec27eb8c7",
+      "characters": 116,
+      "outcome": "received",
+      "httpStatus": 200,
+      "mime": "audio/mpeg",
+      "path": "/tmp/fia-next-action-audio/S03-U019.mp3",
+      "bytes": 89025,
+      "sha256": "2d5f58431def6c3c93e489cccd7b404e826b8c2713304bd5fb3e142b07c7461c",
+      "duration": "5.564063",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decodeExit": 0
+    },
+    {
+      "id": "S03-U021",
+      "startedAt": "2026-09-11T23:33:29.583Z",
+      "textSha256": "2da79eef5f4e87fe50efd4d0a0dc7de5a7e6b6f7e0b45ff3ac3b0400d9a3bc47",
+      "characters": 83,
+      "outcome": "received",
+      "httpStatus": 200,
+      "mime": "audio/mpeg",
+      "path": "/tmp/fia-next-action-audio/S03-U021.mp3",
+      "bytes": 64365,
+      "sha256": "cd854877bafc37f54ec42fac5bf6928ec98c0c9551dcc39fa8861aa5f02eed4e",
+      "duration": "4.022813",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decodeExit": 0
+    },
+    {
+      "id": "S04-U014",
+      "startedAt": "2026-09-11T23:33:33.685Z",
+      "textSha256": "f44adcb3209fcb81eee55292305b69a6d4fe61e75410a474a3db4e964330e7b4",
+      "characters": 58,
+      "outcome": "received",
+      "httpStatus": 200,
+      "mime": "audio/mpeg",
+      "path": "/tmp/fia-next-action-audio/S04-U014.mp3",
+      "bytes": 47229,
+      "sha256": "25bc949e47e1a8da3ea3889de332f98d2ebbc4ef671ade4023bf6e58b6c06672",
+      "duration": "2.951813",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decodeExit": 0
+    },
+    {
+      "id": "S04-U016",
+      "startedAt": "2026-09-11T23:33:37.786Z",
+      "textSha256": "10bce4a6096f1a77506595b71c7af6df37baed97392fd3a1c501a62454e7f704",
+      "characters": 72,
+      "outcome": "received",
+      "httpStatus": 200,
+      "mime": "audio/mpeg",
+      "path": "/tmp/fia-next-action-audio/S04-U016.mp3",
+      "bytes": 56424,
+      "sha256": "03ab3b0b74b407199b45ee08af61cad3d25e772eee0e6e97b131944b0e75e9d2",
+      "duration": "3.526500",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decodeExit": 0
+    },
+    {
+      "id": "S02-U005",
+      "startedAt": "2026-09-11T23:33:41.887Z",
+      "textSha256": "f7fbe6ae09b69336cb5b1218ac3bd1b636ff2dd142ff5d93e2024b36788f5744",
+      "characters": 100,
+      "outcome": "received",
+      "httpStatus": 200,
+      "mime": "audio/mpeg",
+      "path": "/tmp/fia-next-action-audio/S02-U005.mp3",
+      "bytes": 72724,
+      "sha256": "82535a0c99c884d979f18bc77f2048f2dca7d2ff17fea5c4dfb32a2994d1c39b",
+      "duration": "4.545250",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decodeExit": 0
+    },
+    {
+      "id": "S02-U008",
+      "startedAt": "2026-09-11T23:33:45.987Z",
+      "textSha256": "8a16857a8fbe662a4935fc77fb47dd577f199f76027acb7c4d7b2d6f9e20b488",
+      "characters": 88,
+      "outcome": "received",
+      "httpStatus": 200,
+      "mime": "audio/mpeg",
+      "path": "/tmp/fia-next-action-audio/S02-U008.mp3",
+      "bytes": 70635,
+      "sha256": "b5aaea2372a5a992544c4b9337785f4e5bbc7dcabce506117e1fe8541bbeab49",
+      "duration": "4.414688",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decodeExit": 0
+    },
+    {
+      "id": "S05-U004",
+      "startedAt": "2026-09-11T23:33:50.089Z",
+      "textSha256": "22283afcd81d143179cf3ef57223105b42f99cb5fd73aaf8e27dbcbd0ddc32e0",
+      "characters": 166,
+      "outcome": "received",
+      "httpStatus": 200,
+      "mime": "audio/mpeg",
+      "path": "/tmp/fia-next-action-audio/S05-U004.mp3",
+      "bytes": 128313,
+      "sha256": "1c193c4485fb6e3f2c1a509a082967d87e51b6a8d66675ecb9ca44ca6a63a6e7",
+      "duration": "8.019563",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decodeExit": 0
+    },
+    {
+      "id": "S05-U006",
+      "startedAt": "2026-09-11T23:33:54.191Z",
+      "textSha256": "87e671c34ba1f6349b7c7e2babd480b96cd430a040e70a2a24f8abdcc8ea1522",
+      "characters": 189,
+      "outcome": "received",
+      "httpStatus": 200,
+      "mime": "audio/mpeg",
+      "path": "/tmp/fia-next-action-audio/S05-U006.mp3",
+      "bytes": 155898,
+      "sha256": "bec7623d4098b1604a09aaa8f7a0d627579f62cf8a2740aab20723df924b63b8",
+      "duration": "9.743625",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decodeExit": 0
+    },
+    {
+      "id": "S05-U008",
+      "startedAt": "2026-09-11T23:33:58.293Z",
+      "textSha256": "31dc8b744310287dafb84457c919f37c151a79d9ad6e478889c28a25f8a5cbca",
+      "characters": 171,
+      "outcome": "received",
+      "httpStatus": 200,
+      "mime": "audio/mpeg",
+      "path": "/tmp/fia-next-action-audio/S05-U008.mp3",
+      "bytes": 124551,
+      "sha256": "2c3476d29328ef4256d097d3d6657ec73bf0143c2e10ce10e7580803617e0f4d",
+      "duration": "7.784438",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decodeExit": 0
+    },
+    {
+      "id": "S05-U013",
+      "startedAt": "2026-09-11T23:34:02.393Z",
+      "textSha256": "f9712ca1fc94c778c9eb574924f9092bc5a6560f60776c2d60346367057861e5",
+      "characters": 163,
+      "outcome": "received",
+      "httpStatus": 200,
+      "mime": "audio/mpeg",
+      "path": "/tmp/fia-next-action-audio/S05-U013.mp3",
+      "bytes": 127059,
+      "sha256": "7d829442e9d3e60a008dd8b203af57ddff43af3582091d62ebee34c6735e4352",
+      "duration": "7.941188",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decodeExit": 0
+    },
+    {
+      "id": "S05-U015",
+      "startedAt": "2026-09-11T23:34:06.495Z",
+      "textSha256": "7206ddd5a1aa8cdcde6723ef46c482b4168e8ec0c543d5d02b9d5325db96003f",
+      "characters": 212,
+      "outcome": "received",
+      "httpStatus": 200,
+      "mime": "audio/mpeg",
+      "path": "/tmp/fia-next-action-audio/S05-U015.mp3",
+      "bytes": 171363,
+      "sha256": "a174e548d870104f4380aa96db1caa1de860f0129a3a0a967e4fbae5d34fc0e5",
+      "duration": "10.710188",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decodeExit": 0
+    },
+    {
+      "id": "S05-U017",
+      "startedAt": "2026-09-11T23:34:10.596Z",
+      "textSha256": "35ee148710ecb6e27af721db86ea8f53c801c58a13af724b669030dfc67338b8",
+      "characters": 157,
+      "outcome": "received",
+      "httpStatus": 200,
+      "mime": "audio/mpeg",
+      "path": "/tmp/fia-next-action-audio/S05-U017.mp3",
+      "bytes": 114938,
+      "sha256": "89e5d6105b095d2de6caf8a47b3464f8eba8191d2a02cc3801a96d11d39ab42c",
+      "duration": "7.183625",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decodeExit": 0
+    },
+    {
+      "id": "S05-U019",
+      "startedAt": "2026-09-11T23:34:14.699Z",
+      "textSha256": "72256b01b543161b97815ca8441ae4b58b7da97d89eabe4855b40cf83caf5972",
+      "characters": 198,
+      "outcome": "received",
+      "httpStatus": 200,
+      "mime": "audio/mpeg",
+      "path": "/tmp/fia-next-action-audio/S05-U019.mp3",
+      "bytes": 157988,
+      "sha256": "dd5c8b2705e9f06b2165c5e0790ebcf62fce3eb9619288429d59f645c4641c84",
+      "duration": "9.874250",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decodeExit": 0
+    },
+    {
+      "id": "S05-U031",
+      "startedAt": "2026-09-11T23:34:18.800Z",
+      "textSha256": "823b88d7156ced45b8359386bac8b108ea6b73f7a9916b4b86f74f562fe5ea2e",
+      "characters": 160,
+      "outcome": "received",
+      "httpStatus": 200,
+      "mime": "audio/mpeg",
+      "path": "/tmp/fia-next-action-audio/S05-U031.mp3",
+      "bytes": 134164,
+      "sha256": "f765184d0685314700f32d669d78cd35cb72da9209dc2023c4503bbe521c51bc",
+      "duration": "8.385250",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decodeExit": 0
+    },
+    {
+      "id": "S05-U035",
+      "startedAt": "2026-09-11T23:34:22.899Z",
+      "textSha256": "f6126454740a6085e6505885e4b1d5be9ef3be21b69bc0f60c778ac804b14eb9",
+      "characters": 176,
+      "outcome": "received",
+      "httpStatus": 200,
+      "mime": "audio/mpeg",
+      "path": "/tmp/fia-next-action-audio/S05-U035.mp3",
+      "bytes": 129149,
+      "sha256": "5584d9ee8461a90258704437da0a49ecc49b6058cf95eb61b99a63499cef45c3",
+      "duration": "8.071813",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decodeExit": 0
+    },
+    {
+      "id": "S05-U038",
+      "startedAt": "2026-09-11T23:34:27.001Z",
+      "textSha256": "ded6af18f9c8ef1473bd665a95d0d5fdd74bd06dd3b2607d07bd7ee0a83db44e",
+      "characters": 166,
+      "outcome": "received",
+      "httpStatus": 200,
+      "mime": "audio/mpeg",
+      "path": "/tmp/fia-next-action-audio/S05-U038.mp3",
+      "bytes": 131239,
+      "sha256": "810977fc82aeb139012cf41135b26a759c05a6d84744f2f8bb45b75d97c4d96f",
+      "duration": "8.202438",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decodeExit": 0
+    },
+    {
+      "id": "S05-U041",
+      "startedAt": "2026-09-11T23:34:31.103Z",
+      "textSha256": "893834bfae36d2538852468bcc69bb6a0dcb59b0069c1b5655f2cba59c62f763",
+      "characters": 164,
+      "outcome": "received",
+      "httpStatus": 200,
+      "mime": "audio/mpeg",
+      "path": "/tmp/fia-next-action-audio/S05-U041.mp3",
+      "bytes": 141688,
+      "sha256": "233e1ec3d3a2509e9111c1f35965cceb29db703c74c59e49a5840492a26ebef2",
+      "duration": "8.855500",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decodeExit": 0
+    },
+    {
+      "id": "S05-U043",
+      "startedAt": "2026-09-11T23:34:35.205Z",
+      "textSha256": "ebaff8d1798d3ef3a098e43ceab27b10e0825aaeea14b715a69717df461aba93",
+      "characters": 166,
+      "outcome": "received",
+      "httpStatus": 200,
+      "mime": "audio/mpeg",
+      "path": "/tmp/fia-next-action-audio/S05-U043.mp3",
+      "bytes": 133746,
+      "sha256": "a9397f10f29b544f612e5f945bafe8043dfd5ffbb9ce9b2ec026e949e4f7e0ed",
+      "duration": "8.359125",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "decodeExit": 0
+    }
+  ]
+}

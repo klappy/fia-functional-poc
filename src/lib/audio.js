@@ -1,10 +1,11 @@
+import nextActions from '../../public/audio/next-actions/manifest.json' with {type:'json'};
 import transitions from '../../public/audio/activity-transitions/manifest.json' with {type:'json'};
 import termManifest from '../../public/audio/terms/manifest.json' with {type:'json'};
 import recordingManifest from '../../public/audio/mark-1-1-13/manifest.json' with {type:'json'};
 const sha=async bytes=>[...new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))].map(x=>x.toString(16).padStart(2,'0')).join('');
 /** Verify only the selected source recording before playback; no runtime provider calls. */
 export class AudioController {
- constructor(AudioType,onState,{manifest={entries:[...transitions.entries,...recordingManifest.entries,...termManifest.entries]},fetcher=(...args)=>fetch(...args),urlApi=URL}={}){this.AudioType=AudioType;this.onState=onState;this.manifest=manifest;this.fetcher=fetcher;this.urlApi=urlApi;this.generation=0;this.events=[];}
+ constructor(AudioType,onState,{manifest={entries:[...nextActions.entries,...transitions.entries,...recordingManifest.entries,...termManifest.entries]},fetcher=(...args)=>fetch(...args),urlApi=URL}={}){this.AudioType=AudioType;this.onState=onState;this.manifest=manifest;this.fetcher=fetcher;this.urlApi=urlApi;this.generation=0;this.events=[];}
  emit(status,error=''){this.status=status;this.onState({status,error,sourceId:this.item?.id,title:this.item?.title??'',fullTitle:this.item?.fullTitle??this.item?.title??'',owner:this.item?.owner,elapsed:Number.isFinite(this.audio?.currentTime)?this.audio.currentTime:0,duration:Number.isFinite(this.audio?.duration)?this.audio.duration:0,events:this.events.slice(-30)});}
  release(){if(this.objectUrl){this.urlApi.revokeObjectURL(this.objectUrl);this.objectUrl=null;}}
  stop(){this.generation++;this.abort?.abort();if(this.audio){this.audio.pause();this.audio.removeAttribute?.('src');this.audio.load?.();this.audio=null;}this.release();this.item=null;this.emit('idle');}

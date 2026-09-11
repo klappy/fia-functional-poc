@@ -18,7 +18,7 @@ export default function StepFlow({ session, pack, onMove, onStep, onResource, on
   return <>
     <div className="secondary-band guide-chooser"><GlassSelect label="Guide step" aria-label="Guide step" value={step.id} onChange={onStep} options={pack.guide.steps.map((s,i)=>({value:s.id,label:`${i+1} of 6 · ${s.title}`}))}/><GlassButton onClick={onIndex}>Section {index+1} of {units.length} · Browse</GlassButton></div>
     <GlassSurface as="section" level={4} className="reading-card guide-card" aria-label="Source guide">
-      <div className="content-heading"><span className="eyebrow">{isStop?'Pause together':'Guide'}</span><div className="card-players"><GlassIconButton size={44} label="Read complete guide and attribution" onClick={onSource}><img src={infoIcon} width="18" height="18" alt=""/></GlassIconButton>{transport}{player}</div></div>
+      <div className="content-heading"><span className="eyebrow">{isStop?'Pause together':'Guide'}{session.metadataPosition&&<small style={{display:'block'}} title="The original unlinked source media request is available in Info.">Source media request restored · Info</small>}</span><div className="card-players"><GlassIconButton size={44} label="Read complete guide and attribution" onClick={onSource}><img src={infoIcon} width="18" height="18" alt=""/></GlassIconButton>{transport}{player}</div></div>
       <div className="source-scroll" ref={body}>
       <div className="current-unit" data-testid="current-unit" data-unit-id={unit.id}><SafeHtml html={unit.html}/></div>
 

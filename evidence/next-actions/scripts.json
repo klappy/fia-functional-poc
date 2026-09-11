@@ -1,0 +1,235 @@
+[
+  {
+    "id": "S03-U007",
+    "sourceText": "Pause the audio here and show your group a map that shows the region of Galilee that includes Nazareth and the Jordan River area.",
+    "sourceSha256": "b20ae2038847bcb26a2cd941f7a836befdddb740bb6cfc69fd02e54c225035be",
+    "text": "I will pause the audio here while you show your group a map that shows the region of Galilee that includes Nazareth and the Jordan River area.",
+    "expectedSpokenSha256": "9873b21f2acd2d1ae6d1af78629c462eeb60e27d3f904fb87ec398d2c8704a42",
+    "sourceCharacters": 142,
+    "adaptation": "leading-pause-only",
+    "resourcesAt": [
+      "c168"
+    ]
+  },
+  {
+    "id": "S03-U019",
+    "sourceText": "Pause the audio here and show your group a picture of the Jordan river and a picture of the wilderness.",
+    "sourceSha256": "d0fd48782f2bdfed479cd29f71cc00f1f5ee8103beaa85033846d227a2f855ee",
+    "text": "I will pause the audio here while you show your group a picture of the Jordan river and a picture of the wilderness.",
+    "expectedSpokenSha256": "361cddcf1775560efe493fa28de39e45d1246f7cd2abd199223d700ec27eb8c7",
+    "sourceCharacters": 116,
+    "adaptation": "leading-pause-only",
+    "resourcesAt": [
+      "a112",
+      "a111"
+    ]
+  },
+  {
+    "id": "S03-U021",
+    "sourceText": "Pause the audio here and show your group a map of Judea and Jerusalem.",
+    "sourceSha256": "0ac2d39638e0d6f2d3c32e018be548237acd81f8f89171924ed6f869e9a8e3dc",
+    "text": "I will pause the audio here while you show your group a map of Judea and Jerusalem.",
+    "expectedSpokenSha256": "2da79eef5f4e87fe50efd4d0a0dc7de5a7e6b6f7e0b45ff3ac3b0400d9a3bc47",
+    "sourceCharacters": 83,
+    "adaptation": "leading-pause-only",
+    "resourcesAt": [
+      "c201",
+      "c202"
+    ]
+  },
+  {
+    "id": "S04-U014",
+    "sourceText": "Pause this audio here and act out the passage.",
+    "sourceSha256": "966faa38a0db72824fcf7681804def536b6550e7587d3c45cc70646d6008d598",
+    "text": "I will pause the audio here while you act out the passage.",
+    "expectedSpokenSha256": "f44adcb3209fcb81eee55292305b69a6d4fe61e75410a474a3db4e964330e7b4",
+    "sourceCharacters": 58,
+    "adaptation": "leading-pause-only",
+    "resourcesAt": []
+  },
+  {
+    "id": "S04-U016",
+    "sourceText": "Pause this audio here and act out the passage a second time.",
+    "sourceSha256": "f87e85b2e1245e9c147233d6faa94b15e20b9ffde9c4b18348274fb3afb6ec70",
+    "text": "I will pause the audio here while you act out the passage a second time.",
+    "expectedSpokenSha256": "10bce4a6096f1a77506595b71c7af6df37baed97392fd3a1c501a62454e7f704",
+    "sourceCharacters": 72,
+    "adaptation": "leading-pause-only",
+    "resourcesAt": []
+  },
+  {
+    "id": "S02-U005",
+    "sourceText": "Stop here and look at a picture and map of the Jordan River as a group. Pause this audio here.",
+    "sourceSha256": "bcd0b87371b477506053d64c8d8b257bca25c314ada0742fc001b7e3f6620fd4",
+    "text": "Stop here and look at a picture and map of the Jordan River as a group. I will pause the audio here.",
+    "expectedSpokenSha256": "f7fbe6ae09b69336cb5b1218ac3bd1b636ff2dd142ff5d93e2024b36788f5744",
+    "sourceCharacters": 100,
+    "adaptation": "trailing-pause-only",
+    "resourcesAt": [
+      "a112",
+      "c197"
+    ]
+  },
+  {
+    "id": "S02-U008",
+    "sourceText": "Stop here and show the translation team a photo of sandals. Pause this audio here.",
+    "sourceSha256": "7d4cf4f969f14f97aaf3a855220cf6f46db606c8b4cec00eb8f4cca95cf23115",
+    "text": "Stop here and show the translation team a photo of sandals. I will pause the audio here.",
+    "expectedSpokenSha256": "8a16857a8fbe662a4935fc77fb47dd577f199f76027acb7c4d7b2d6f9e20b488",
+    "sourceCharacters": 88,
+    "adaptation": "trailing-pause-only",
+    "resourcesAt": [
+      "a203",
+      "a204"
+    ]
+  },
+  {
+    "id": "S05-U004",
+    "sourceText": "Stop here and discuss as a group what word or phrase you will use for gospel. Look up gospel in the Master Glossary for more information. Pause this audio here.",
+    "sourceSha256": "29490817bc381de9d953a409f7b972afa925b99429535cead9c96efefb8161c5",
+    "text": "Stop here and discuss as a group what word or phrase you will use for gospel. Look up gospel in the Master Glossary for more information. I will pause the audio here.",
+    "expectedSpokenSha256": "22283afcd81d143179cf3ef57223105b42f99cb5fd73aaf8e27dbcbd0ddc32e0",
+    "sourceCharacters": 166,
+    "adaptation": "trailing-pause-only",
+    "resourcesAt": [
+      "eng-t60-v1"
+    ]
+  },
+  {
+    "id": "S05-U006",
+    "sourceText": "Stop here and discuss as a group what word or phrase you will use for Messiah, or Christ. Look up Messiah or Christ in the Master Glossary for more information. Pause this audio here.",
+    "sourceSha256": "d4bf7769ca076999e7dffb20147f5d60b2211429bf16b64713cf04be4c1841f6",
+    "text": "Stop here and discuss as a group what word or phrase you will use for Messiah, or Christ. Look up Messiah or Christ in the Master Glossary for more information. I will pause the audio here.",
+    "expectedSpokenSha256": "87e671c34ba1f6349b7c7e2babd480b96cd430a040e70a2a24f8abdcc8ea1522",
+    "sourceCharacters": 189,
+    "adaptation": "trailing-pause-only",
+    "resourcesAt": [
+      "eng-t92-v1",
+      "eng-t23-v1"
+    ]
+  },
+  {
+    "id": "S05-U008",
+    "sourceText": "Stop here and discuss as a group what phrase you will use for Son of God. For more information about Son of God, refer to the Master Glossary. Pause this audio here.",
+    "sourceSha256": "750d8069726098b9f40c7e843ece6a19e3b1c2addf603d9c3ba0923b347619d7",
+    "text": "Stop here and discuss as a group what phrase you will use for Son of God. For more information about Son of God, refer to the Master Glossary. I will pause the audio here.",
+    "expectedSpokenSha256": "31dc8b744310287dafb84457c919f37c151a79d9ad6e478889c28a25f8a5cbca",
+    "sourceCharacters": 171,
+    "adaptation": "trailing-pause-only",
+    "resourcesAt": [
+      "eng-t129-v1"
+    ]
+  },
+  {
+    "id": "S05-U013",
+    "sourceText": "Stop here and discuss as a group what word you will use for prophet. For more information about prophet, refer to the Master Glossary. Pause this audio here.",
+    "sourceSha256": "76e052294d16f36c0e5976a63ae06263c41fd521564f2f5d67863e0d919f0cc5",
+    "text": "Stop here and discuss as a group what word you will use for prophet. For more information about prophet, refer to the Master Glossary. I will pause the audio here.",
+    "expectedSpokenSha256": "f9712ca1fc94c778c9eb574924f9092bc5a6560f60776c2d60346367057861e5",
+    "sourceCharacters": 163,
+    "adaptation": "trailing-pause-only",
+    "resourcesAt": [
+      "eng-t104-v1"
+    ]
+  },
+  {
+    "id": "S05-U015",
+    "sourceText": "Stop here and look at a picture of a desert/ wilderness as a group. Discuss what word you will use for wilderness. For more information about wilderness, refer to the Master Glossary. Pause this audio here.",
+    "sourceSha256": "66d6d7381ad3e1d6354b0080ad9df455e8ad9af8e7fd5d45e59a488fb1f65cff",
+    "text": "Stop here and look at a picture of a desert/ wilderness as a group. Discuss what word you will use for wilderness. For more information about wilderness, refer to the Master Glossary. I will pause the audio here.",
+    "expectedSpokenSha256": "7206ddd5a1aa8cdcde6723ef46c482b4168e8ec0c543d5d02b9d5325db96003f",
+    "sourceCharacters": 212,
+    "adaptation": "trailing-pause-only",
+    "resourcesAt": [
+      "a111",
+      "eng-t38-v1",
+      "eng-t145-v1"
+    ]
+  },
+  {
+    "id": "S05-U017",
+    "sourceText": "Stop here and discuss as a group what word you will use for Lord. For more information about Lord, refer to the Master Glossary. Pause this audio here.",
+    "sourceSha256": "d912af0d0f4541a47925c44e5549cbf9a9429d9cb89249c93b35207f81302839",
+    "text": "Stop here and discuss as a group what word you will use for Lord. For more information about Lord, refer to the Master Glossary. I will pause the audio here.",
+    "expectedSpokenSha256": "35ee148710ecb6e27af721db86ea8f53c801c58a13af724b669030dfc67338b8",
+    "sourceCharacters": 157,
+    "adaptation": "trailing-pause-only",
+    "resourcesAt": [
+      "eng-t87-v1",
+      "eng-t88-v1"
+    ]
+  },
+  {
+    "id": "S05-U019",
+    "sourceText": "Stop here and discuss as a group what word or phrase you will use for baptism and repentance. Look up baptism and repentance in the Master Glossary for more information. Pause this audio here.",
+    "sourceSha256": "4e5864583ca1e8e3933e0101d5a73482379e8d79a82760ad82dc8464c72efa23",
+    "text": "Stop here and discuss as a group what word or phrase you will use for baptism and repentance. Look up baptism and repentance in the Master Glossary for more information. I will pause the audio here.",
+    "expectedSpokenSha256": "72256b01b543161b97815ca8441ae4b58b7da97d89eabe4855b40cf83caf5972",
+    "sourceCharacters": 198,
+    "adaptation": "trailing-pause-only",
+    "resourcesAt": [
+      "eng-t9-v1",
+      "eng-t109-v1"
+    ]
+  },
+  {
+    "id": "S05-U031",
+    "sourceText": "Stop here and discuss as a group what word or phrase you will use for sin. Look up sin in the Master Glossary for more information. Pause this audio here.",
+    "sourceSha256": "1b05943c2ebd0e4e872a0583e1dd4bc854179e19f97d53f6c0194d4d7a3c428d",
+    "text": "Stop here and discuss as a group what word or phrase you will use for sin. Look up sin in the Master Glossary for more information. I will pause the audio here.",
+    "expectedSpokenSha256": "823b88d7156ced45b8359386bac8b108ea6b73f7a9916b4b86f74f562fe5ea2e",
+    "sourceCharacters": 160,
+    "adaptation": "trailing-pause-only",
+    "resourcesAt": [
+      "eng-t125-v1"
+    ]
+  },
+  {
+    "id": "S05-U035",
+    "sourceText": "Stop here and discuss as a group what word or phrase you will use for Holy Spirit. Look up Holy Spirit in the Master Glossary for more information. Pause this audio here.",
+    "sourceSha256": "1cc6863506ee09682719a3747264a4d2550902ecc58267b360961934fa573acd",
+    "text": "Stop here and discuss as a group what word or phrase you will use for Holy Spirit. Look up Holy Spirit in the Master Glossary for more information. I will pause the audio here.",
+    "expectedSpokenSha256": "f6126454740a6085e6505885e4b1d5be9ef3be21b69bc0f60c778ac804b14eb9",
+    "sourceCharacters": 176,
+    "adaptation": "trailing-pause-only",
+    "resourcesAt": [
+      "eng-t68-v1"
+    ]
+  },
+  {
+    "id": "S05-U038",
+    "sourceText": "Stop here and discuss as a group what word or phrase you will use for heaven. Look up heaven in the Master Glossary for more information. Pause this audio here.",
+    "sourceSha256": "14301f97a98f76438909cc98a2c23edbb166b3c45f424a8287931ab9c72da3a9",
+    "text": "Stop here and discuss as a group what word or phrase you will use for heaven. Look up heaven in the Master Glossary for more information. I will pause the audio here.",
+    "expectedSpokenSha256": "ded6af18f9c8ef1473bd665a95d0d5fdd74bd06dd3b2607d07bd7ee0a83db44e",
+    "sourceCharacters": 166,
+    "adaptation": "trailing-pause-only",
+    "resourcesAt": [
+      "eng-t63-v1"
+    ]
+  },
+  {
+    "id": "S05-U041",
+    "sourceText": "Stop here and discuss as a group what word or phrase you will use for Satan. Look up Satan in the Master Glossary for more information. Pause this audio here.",
+    "sourceSha256": "88ac3f70bced86a8f240d4d3019a6bb0172c6c572c18d91752d779031ef0ecb2",
+    "text": "Stop here and discuss as a group what word or phrase you will use for Satan. Look up Satan in the Master Glossary for more information. I will pause the audio here.",
+    "expectedSpokenSha256": "893834bfae36d2538852468bcc69bb6a0dcb59b0069c1b5655f2cba59c62f763",
+    "sourceCharacters": 164,
+    "adaptation": "trailing-pause-only",
+    "resourcesAt": [
+      "eng-t118-v1"
+    ]
+  },
+  {
+    "id": "S05-U043",
+    "sourceText": "Stop here and discuss as a group what word or phrase you will use for angels. Look up angels in the Master Glossary for more information. Pause this audio here.",
+    "sourceSha256": "f244f5eaca5a8e2249591c38e3c24c7791a54621d82a6c45284df916f17985f9",
+    "text": "Stop here and discuss as a group what word or phrase you will use for angels. Look up angels in the Master Glossary for more information. I will pause the audio here.",
+    "expectedSpokenSha256": "ebaff8d1798d3ef3a098e43ceab27b10e0825aaeea14b715a69717df461aba93",
+    "sourceCharacters": 166,
+    "adaptation": "trailing-pause-only",
+    "resourcesAt": [
+      "eng-t4-v1"
+    ]
+  }
+]

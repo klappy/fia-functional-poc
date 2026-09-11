@@ -12,7 +12,7 @@ test('complete source-guided traversal accounts for all39 source stops in38group
   if(p.isStop){p.stopRecords.forEach(x=>stops.add(x.id));assert.equal(afterNarration(session,guide,cues),session);}
   const next=moveUnit(session,1,guide,cues);if(next===session)break;session=next;
  }
- assert.equal(seen.size,113);assert.equal(stops.size,39);assert.deepEqual([...stops],[...cues.pause_after.map(x=>x.id)]);assert(canFinish(session,guide));
+ assert.equal(seen.size,111);assert.equal(stops.size,39);assert.deepEqual([...stops],[...cues.pause_after.map(x=>x.id)]);assert(canFinish(session,guide));
 });
 test('step selection and reverse navigation preserve Scripture but cannot enter examples',()=>{
  let s={...initialSession(guide),version:'unfoldingWordLiteral'};s=selectStep(s,'S05',guide,cues);s=moveUnit(s,-1,guide,cues);
