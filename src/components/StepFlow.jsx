@@ -1,3 +1,4 @@
+import ResourceTile from './ResourceTile.jsx';
 import { resourceLabel } from '../lib/resource-label.js';
 import React from 'react';
 import { GlassSurface } from '../vendor/glass/components/GlassSurface.jsx';
@@ -17,7 +18,7 @@ export default function StepFlow({ session, pack, onMove, onStep, onResource, on
       <div className="current-unit" data-testid="current-unit" data-unit-id={unit.id}><SafeHtml html={unit.html}/></div>
       {isStop && <div className="discussion-state" role="status"><strong>Take your time.</strong> Pause for the source's discussion, reading or activity. Continue when you are ready.</div>}
       {unit.text.startsWith('Listen to an audio') && <p className="reading-note">Narration is not available in this build. <button className="text-button" onClick={onScripture}>Read the selected Scripture</button> together.</p>}
-      {attached.length > 0 && <div className="context-resources"><h3>Explore at this point</h3>{attached.map(item => <GlassButton key={item.content_id} onClick={() => onResource(item)}>{resourceLabel(item)}<span aria-hidden="true">↗</span></GlassButton>)}</div>}
+      {attached.length > 0 && <div className="context-resources"><h3>Explore at this point</h3>{attached.map(item => <ResourceTile key={item.content_id} item={item} contextual onOpen={onResource}/>)}</div>}
       {step.id === 'S04' && <p className="example-note">The source includes possible drama responses. Keep them hidden while the group responds. <button className="text-button" onClick={onExamples}>Show source example</button></p>}
       <div className="guide-actions"><GlassButton onClick={() => onMove(-1)} disabled={step.id === 'S01' && index === 0}>Back</GlassButton>{atEnd ? <GlassButton variant="dark" onClick={onFinish} disabled={!canFinish(session, pack.guide)}>Finish session</GlassButton> : <GlassButton variant="dark" onClick={() => onMove(1)}>Continue <span aria-hidden="true">→</span></GlassButton>}</div>
       {atEnd && !canFinish(session,pack.guide) && <p>Visit all six steps before finishing this session.</p>}

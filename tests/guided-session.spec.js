@@ -14,7 +14,7 @@ test('contextual real map opens, renders and returns focus without moving the gu
  await page.getByRole('button',{name:'Step 2: Setting the Stage'}).click();
  for(let i=0;i<4;i++)await page.getByRole('button',{name:'Continue',exact:false}).click();
  const opener=page.getByRole('button',{name:'Locations in the Book of Mark'});await opener.click();
- await expect(page.getByRole('dialog')).toBeVisible();const image=page.getByRole('img',{name:'Locations in the Book of Mark'});await expect(image).toBeVisible();
+ await expect(page.getByRole('dialog')).toBeVisible();const image=page.getByRole('dialog').getByRole('img',{name:'Locations in the Book of Mark',exact:true});await expect(image).toBeVisible();
  await expect.poll(()=>image.evaluate(img=>img.naturalWidth)).toBe(3000);
  await page.keyboard.press('Escape');await expect(page.getByRole('dialog')).toHaveCount(0);await expect(opener).toBeFocused();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S02-U005');
 });
@@ -25,7 +25,7 @@ test('examples require explicit reveal and every resource type is available',asy
  await page.keyboard.press('Escape');await page.getByRole('button',{name:'Resources',exact:true}).click();await expect(page.locator('.resource-card')).toHaveCount(32);
  await page.getByLabel('Show resources', {exact:true}).selectOption('term');await expect(page.locator('.resource-card')).toHaveCount(21);
  await page.getByRole('button',{name:'Open gospel term'}).click();await expect(page.getByRole('dialog')).toContainText('gospel');await page.keyboard.press('Escape');
- await page.getByLabel('Show resources', {exact:true}).selectOption('video');await expect(page.locator('.resource-card')).toHaveCount(3);await page.locator('.resource-card button').first().click();await expect(page.getByRole('dialog')).toContainText('not downloaded');
+ await page.getByLabel('Show resources', {exact:true}).selectOption('video');await expect(page.locator('.resource-card')).toHaveCount(3);await page.locator('button.resource-card').first().click();await expect(page.getByRole('dialog')).toContainText('not downloaded');
 });
 test('narrow layout, keyboard dialog and large text remain usable',async({page})=>{
  await page.setViewportSize({width:320,height:844});await expect(page.locator('body')).toBeVisible();
@@ -50,5 +50,16 @@ test('official FIA identity and colors render with readable contrast',async({pag
  await expect(page.locator('body')).toHaveCSS('background-color','rgb(255, 255, 255)');await expect(page.locator('.official-fia-mark')).toHaveCSS('color','rgb(59, 96, 134)');await expect(page.getByRole('heading',{level:1})).toHaveCSS('color','rgb(65, 81, 104)');await expect(page.getByRole('button',{name:'Guide',exact:true})).toHaveCSS('background-color','rgb(51, 83, 116)');
  const luminance=rgb=>rgb.map(x=>{x/=255;return x<=.04045?x/12.92:((x+.055)/1.055)**2.4}).reduce((n,x,i)=>n+x*[.2126,.7152,.0722][i],0);
  for(const rgb of [[65,81,104],[51,83,116],[59,96,134]])expect(1.05/(luminance(rgb)+.05)).toBeGreaterThan(4.5);
+ await page.setViewportSize({width:320,height:844});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
+});
+
+test('resources show all eight real previews, source metadata, search and honest online video',async({page})=>{
+ const videos=[];page.on('request',req=>{if(/\.(mp4|webm)(\?|$)/i.test(req.url()))videos.push(req.url());});
+ await page.getByRole('button',{name:'Resources',exact:true}).click();const previews=page.locator('.resource-media img');await expect(previews).toHaveCount(8);
+ for(const image of await previews.all()){await expect.poll(()=>image.evaluate(i=>i.complete&&i.naturalWidth>0)).toBe(true);await expect(image).toHaveAttribute('src',/^\/assets\/mark-1-1-13\//);}
+ await expect(page.locator('.resource-map img').first()).toHaveCSS('object-fit','contain');await expect(page.locator('.resource-image img').first()).toHaveCSS('object-fit','cover');
+ await expect(page.locator('.resource-provenance')).toHaveCount(32);await expect(page.locator('.resource-provenance').first()).toContainText('CC');
+ await expect(page.locator('.video-affordance')).toHaveCount(3);await expect(page.locator('.resource-video img')).toHaveCount(0);expect(videos).toEqual([]);
+ await page.getByLabel('Search resources').fill('sandals');await expect(page.locator('.resource-card')).toHaveCount(3);await page.getByLabel('Search resources').fill('no-such-resource');await expect(page.getByRole('status')).toContainText('No resources match');await page.getByLabel('Search resources').fill('');
  await page.setViewportSize({width:320,height:844});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
 });
