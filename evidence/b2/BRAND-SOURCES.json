@@ -1,0 +1,44 @@
+{
+  "observedAt": "2026-09-11T21:05:57.237301+00:00",
+  "sourceUrl": "https://fia.bible/about",
+  "htmlSha256": "c865f30d2b4076a207f75a36bc01f8e534900f9eefcd1f647459542faf0d78ef",
+  "svgOriginalMarkupSha256": [
+    "92fd1b05b6df70de8f25cb335033110cefc3bf2d85ff3bbe4090cd10bea712cc",
+    "0f30dff04eb544cef3b170d81d07e8c0939d894110a3d0257f42f9736a1aac2c"
+  ],
+  "svgPathSets": [
+    [
+      "2c6dfc1612bb54be6d29426bab21e79160ff65a148eca8ca220c4150b80ca4fd",
+      "9e626744b3ddcc452bee094bd0a1b02c6215611667bc88535e209ed862f82654"
+    ],
+    [
+      "e484c62f9995f2016e7cd8c7a645eb933b56f4148be81f2925c57772e635086d"
+    ]
+  ],
+  "stylesheets": [
+    {
+      "url": "https://fia.bible/_next/static/chunks/018d9a8d78334b80.css",
+      "sha256": "b66e1f132e4ff12c48a0abbf48793cbf3be3f2990838774b3944bc5187331514"
+    },
+    {
+      "url": "https://fia.bible/_next/static/chunks/e0196a6161092658.css",
+      "sha256": "64056902079e469f4b4ba028e57a4d1acccd53f55eaf65d36083e2bebc8cc210"
+    },
+    {
+      "url": "https://fia.bible/_next/static/chunks/db3dcee14e51295d.css",
+      "sha256": "30dd58e49737c0780473090cf3dcc1ead52b59091edc3d55f2b6ec2b8523212f"
+    },
+    {
+      "url": "https://fia.bible/_next/static/chunks/213fd894e53c7aac.css",
+      "sha256": "09da7f7706c617fb7f93855a7d76090cb4f2b97a54b294b24ee04583f4dd14df"
+    }
+  ],
+  "observedComputedColors": {
+    "headings": "#415168",
+    "primaryButton": "#335374",
+    "linksAndLogo": "#3b6086",
+    "background": "#ffffff"
+  },
+  "transform": "Removed website scoped classes; preserved SVG path data, viewBoxes and currentColor. Added accessible FIA label and prototype qualifier. No official font copied. Color evidence from coordinator actual CUA computed-style readback; stylesheet contains heading/link values, primary button value is computed observation.",
+  "rights": "Official brand identification under explicit user direction in private PoC; no broad trademark/license clearance or production endorsement asserted."
+}

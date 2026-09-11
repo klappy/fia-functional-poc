@@ -1,0 +1,16 @@
+
+../assets/fonts/SF-Pro-Display-Regular.otf referenced in ../assets/fonts/SF-Pro-Display-Regular.otf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../assets/fonts/SF-Pro-Display-Medium.otf referenced in ../assets/fonts/SF-Pro-Display-Medium.otf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../assets/fonts/SF-Pro-Display-Semibold.otf referenced in ../assets/fonts/SF-Pro-Display-Semibold.otf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../assets/fonts/SF-Pro-Display-Bold.otf referenced in ../assets/fonts/SF-Pro-Display-Bold.otf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../assets/fonts/SF-Pro-Text-Regular.otf referenced in ../assets/fonts/SF-Pro-Text-Regular.otf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../assets/fonts/SF-Pro-Text-Medium.otf referenced in ../assets/fonts/SF-Pro-Text-Medium.otf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../assets/fonts/SF-Pro-Text-Semibold.otf referenced in ../assets/fonts/SF-Pro-Text-Semibold.otf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../assets/fonts/SF-Pro-Text-Bold.otf referenced in ../assets/fonts/SF-Pro-Text-Bold.otf didn't resolve at build time, it will remain unchanged to be resolved at runtime

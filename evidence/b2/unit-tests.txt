@@ -1,0 +1,86 @@
+
+> fia-functional-poc@0.1.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: complete source-guided traversal visits all39stops and never enters hidden examples
+ok 1 - complete source-guided traversal visits all39stops and never enters hidden examples
+  ---
+  duration_ms: 2.689208
+  type: 'test'
+  ...
+# Subtest: step selection and reverse navigation preserve Scripture but cannot enter examples
+ok 2 - step selection and reverse navigation preserve Scripture but cannot enter examples
+  ---
+  duration_ms: 0.100208
+  type: 'test'
+  ...
+# Subtest: storage validates exact source position and discards invalid or hidden units
+ok 3 - storage validates exact source position and discards invalid or hidden units
+  ---
+  duration_ms: 0.219166
+  type: 'test'
+  ...
+# Subtest: complete selected source pack verifies from actual files
+ok 4 - complete selected source pack verifies from actual files
+  ---
+  duration_ms: 42.343917
+  type: 'test'
+  ...
+# Subtest: a missing or duplicated verse fails even with a valid transport digest
+ok 5 - a missing or duplicated verse fails even with a valid transport digest
+  ---
+  duration_ms: 105.577875
+  type: 'test'
+  ...
+# Subtest: altered Scripture or emitted guide text fails canonical comparison
+ok 6 - altered Scripture or emitted guide text fails canonical comparison
+  ---
+  duration_ms: 87.356459
+  type: 'test'
+  ...
+# Subtest: a missing resource and guessed map alias fail
+ok 7 - a missing resource and guessed map alias fail
+  ---
+  duration_ms: 103.555083
+  type: 'test'
+  ...
+# Subtest: discussion stops and example boundaries cannot silently change
+ok 8 - discussion stops and example boundaries cannot silently change
+  ---
+  duration_ms: 103.221875
+  type: 'test'
+  ...
+# Subtest: missing rights and flattened map notice fail
+ok 9 - missing rights and flattened map notice fail
+  ---
+  duration_ms: 110.335333
+  type: 'test'
+  ...
+# Subtest: video bytes are not an accepted offline resource
+ok 10 - video bytes are not an accepted offline resource
+  ---
+  duration_ms: 54.32225
+  type: 'test'
+  ...
+# Subtest: corrupt or missing actual media fails integrity verification
+ok 11 - corrupt or missing actual media fails integrity verification
+  ---
+  duration_ms: 40.755917
+  type: 'test'
+  ...
+# Subtest: a changed image cannot be legitimized by recomputing its manifest digest
+ok 12 - a changed image cannot be legitimized by recomputing its manifest digest
+  ---
+  duration_ms: 38.879375
+  type: 'test'
+  ...
+1..12
+# tests 12
+# suites 0
+# pass 12
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 747.418625

@@ -1,0 +1,97 @@
+{
+  "revision": "8d6b48dd93b6efa43305724a0cf320a85feabe5b",
+  "files": [
+    {
+      "path": "styles.css",
+      "sha256": "d0bfdc1deef0a67c0ca54999855a4fe03a99cd8397fc0ca0e408bd391bfed44d"
+    },
+    {
+      "path": "tokens/colors.css",
+      "sha256": "722d14f41e77d9ae4b76e9cca4f545db2afc795f8a2d2aa2854299ef63558d76"
+    },
+    {
+      "path": "tokens/elevation.css",
+      "sha256": "a65971989b1569ff2ae38ea6ca8cf252de26c5c0c7c61c044e667979e80b3b9f"
+    },
+    {
+      "path": "tokens/fonts.css",
+      "sha256": "a80e3fe814bc3451fc2425d650278bba191152f79b5ff7be2c4ee93ed95a51b6"
+    },
+    {
+      "path": "tokens/glass.css",
+      "sha256": "6377a863545bb2b4e23cabf92b1bc527531755fc9ffe557cd4c514f9f1c81c65"
+    },
+    {
+      "path": "tokens/motion.css",
+      "sha256": "ff0e0901723b127f952e021de717eeaed92cf92c570ab4aec5165e513600604c"
+    },
+    {
+      "path": "tokens/radius.css",
+      "sha256": "79afe3a50ee04d00682373e8e8f630bf762fd0fa98f8e939606d82e588a83ace"
+    },
+    {
+      "path": "tokens/spacing.css",
+      "sha256": "3d94c244187d5cb6e3bd81f6e0350abc35cbfdb39db6683220cb8e64e356508a"
+    },
+    {
+      "path": "tokens/theme-dark.css",
+      "sha256": "9cc85c54c650491df11440774ad156e496151cabcf6351d16686fb795d8a7263"
+    },
+    {
+      "path": "tokens/typography.css",
+      "sha256": "db244caa413149246c65ce6ae42e04e699898e92018a38fc6a4690cf926b5b80"
+    },
+    {
+      "path": "components/glass/GlassSurface.jsx",
+      "sha256": "a31362a1e28936c2a650ebd872205c7ee756cf1c8b0e7c1d403a07ce87d611f1"
+    },
+    {
+      "path": "components/glass/GlassButton.jsx",
+      "sha256": "fd9b07d96b3721f2fae8567e3b1ac7ee5b11aca88e7ed4f40be5e48ed91bd554"
+    },
+    {
+      "path": "components/glass/GlassChip.jsx",
+      "sha256": "f8cff2dccddd40a5ead8d468341ea978fa5d2cbcba3f4eef8d4fdd5dd830ade4"
+    },
+    {
+      "path": "components/glass/AuroraField.jsx",
+      "sha256": "f270ec0f5e49040bcca8289fbc6d4ee419051f1a97a5f59262345be18580b564"
+    },
+    {
+      "path": "components/forms/GlassSearch.jsx",
+      "sha256": "fa0d2066a9ac8a5b70e2afa18745334867f3b15b23d8200a72cbec2142681f94"
+    },
+    {
+      "path": "components/forms/GlassSelect.jsx",
+      "sha256": "387a4df7d40c3ae31032c568b2ed4d2ec7184e61ab31d16ddaeb73c086881d10"
+    },
+    {
+      "path": "components/forms/FilterChips.jsx",
+      "sha256": "44c0eac3289e8a9abe63d47b69e09ff35153bed6b8d2fcab2942ce79b8dbb2f2"
+    },
+    {
+      "path": "components/forms/GlassSegmented.jsx",
+      "sha256": "05f9308800741543fc1f0f4a3f6f41d5e111dd8bd222c14698988b1b1e03dbd3"
+    },
+    {
+      "path": "components/resources/ResourceCard.jsx",
+      "sha256": "9e4b95caae7d33e24a95e95d9203d5ead13cfe1079aa2c8ef1476f58ef52bde3"
+    },
+    {
+      "path": "components/scripture/ScripturePassage.jsx",
+      "sha256": "99794b989dc0a5fb1c812848da4a31a8fa595773189897e3d8cfa7afcb44520d"
+    },
+    {
+      "path": "components/scripture/KeyTermPopover.jsx",
+      "sha256": "be6ddd09bc7a6778d0cd3ad2de62c9993ffbfdb9c46b4e5bc08f7b476a78d430"
+    },
+    {
+      "path": "components/scripture/SyncBadge.jsx",
+      "sha256": "407d72c296129d0d4a3cebea3e4765473a8eb67f4eedbf731ea671685ed414c5"
+    },
+    {
+      "path": "components/icons/Icon.jsx",
+      "sha256": "be1d9a1fbd5e4610fab0cac3cd2b1c3e765100f65c276136fd2ca1e584335fc7"
+    }
+  ]
+}

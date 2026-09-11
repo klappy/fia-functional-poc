@@ -1,0 +1,40 @@
+# Whole-experience visual-coherence evidence
+
+Code freeze e255b0f, based on held B2 candidate4634dfd. Actual fire is separate visual-coherence dish kitchen8831277f at2026-09-11T21:21:08Z;45 aggregate active minutes, not a reset of held B2. Current preview remains127.0.0.1:4173. Source/assets/pins are unchanged. User direction: preserve useful app IA and working behavior, use complete actual design-system CSS and components, retain actual FIA identity. The author's prior inference that the user requested white ground/aurora removal was wrong and is explicitly withdrawn in the prior documents.
+
+## Actual references and implementation
+
+Reference source: https://bible-glass.klappy.dev/ui_kits/fia/ and https://bible-glass.klappy.dev/ui_kits/aquifer-window/; published1.0.0 and pinned repo8d6b48dd93b6efa43305724a0cf320a85feabe5b. Author captured actual reference renders before app edits, including FIA Passage/Resources at390x844 and Aquifer Browse/Detail at1280x800. These are component/material references, not authority to copy their sample Ruth content, recording/sync demos or layout. A first reference automation addressed Resources as a button; actual shared tab role required correction before capture. Reference image-load gaps are not desired design patterns.
+
+| App view | Mobile implementation | Desktop implementation | Actual reference |
+|---|---|---|---|
+| Guide | mobile-guide.png | desktop-guide.png | reference-fia-passage.png (material/type/control hierarchy; source-guided IA preserved) |
+| Scripture | mobile-scripture.png | desktop-scripture.png | reference-fia-passage.png (actual ScripturePassage) |
+| Resources | mobile-resources.png | desktop-resources.png | reference-fia-resources.png; reference-aquifer-browse.png |
+| Resource detail | mobile-detail.png | desktop-detail.png | reference-aquifer-detail.png |
+
+All captures are actual browser screenshots. Early first-components-guide.png and parent early runtime review showed restored aurora through in-flow glass, stronger text hierarchy and preserved Guide/Scripture/Resources navigation. Parent also actually operated search/chips/map/focus-managed detail. Independent exact-head whole-screen verdict belongs the coordinator/reviewer, not this author evidence.
+
+## Shared code and targeted wrappers
+
+`shared-source-manifest.json` binds exact bytes for complete root styles.css, all nine token dependencies (including fonts and theme-dark) and13 actual component/dependency files. The new source test verifies every copied byte and all nine entry imports. Actual composed imports: AuroraField owns backdrop; GlassSurface owns in-flow and floating materials; GlassSelect supplies real native Scripture selector; GlassSearch and FilterChips supply resource controls; ResourceCard supplies real media/type/title/meta cards; ScripturePassage supplies quoted verse layout; GlassButton/GlassChip/Icon supply navigation/actions/type marks. KeyTermPopover and SyncBadge are transitive ScripturePassage dependencies but not shown with fake state. GlassSegmented is copied for the inspected control family but not used to replace the existing useful navigation. No claim every component in the repository is instantiated.
+
+Wrappers only bind actual data/actions, accessible labels, focus and source state. Map previews apply contain to the existing shared ResourceCard media band; full originals remain in the dialog. Hidden image probes detect actual source load failure; the visible preview is the shared card's actual CSS image, not a claim those hidden probes are the UI. Videos/terms use a shared Icon marker over the existing card band to make absence of a poster intentional; no image/video bytes are invented. Native dialog supplies focus/Escape/inertness around actual GlassSurface using material-floating. Source HTML remains sanitized/exact. Keyboard outline and44px touch minimums are accessibility adjustments; app CSS otherwise handles current IA/layout and authorized FIA primary/logo colors rather than recreating materials.
+
+Parent's c202 legend concern was independently diagnosed: actual4000x3000 source renders714x536, preserving ratio; dialog720px viewport/774px scroll exposes the whole original and legend with ordinary scrolling. map-scroll-bounds.json and map-legend-scroll.png record it. No object-fit crop existed. Shared image corner rounding could trim source-edge labels, so map-only corner radius was removed; photo corners remain. Full-size link is supplementary, not a substitute for reachable detail.
+
+## Verification and limits
+
+14 source/unit tests,8 browser tests and production build pass. The browser suite verifies real source/versions, exact restore, all eight source image loads and visible card background fit,32 cards/provenance, honest online-video/no-video-fetch behavior, search/filter, modal keyboard/focus, hidden examples, source failure/retry,320px fit, CSS-zoom layout and actual aurora/logo colors. The initial map-fit assertion expected a single CSS layer; actual shared card has two background layers. Corrected the assertion to inspect the first image layer's contain/cover semantics; no product behavior was changed to satisfy serialization.
+
+Complete fonts.css is retained. It imports Google Noto and references eight withheld SF font files; build warns those SF paths cannot resolve. No unlicensed binaries were copied. Actual fallback chains are used without a blanket app font override. font-runtime.json records CSS stacks and loaded/error FontFace states observed in isolated browser contexts; declarations alone are not proof a specific glyph came from that font. Offline cold-font behavior belongs B3 and remains untested. No audible narration, offline saving, physical-phone, native browser200%zoom, audience learning or full-system contract acceptance is claimed. CSS-zoom emulation is labeled as such.
+
+## Concurrent reviewed fix integration
+
+First push was rejected because Cursor Agent had independently pushed ec6f9fdbb61575b706c632b61873b39b732914e4 after the shared base. Inspected exact one-line change: completion-note Return to the guide now also selects the guide view. Merged normally without force or conflict, retaining both histories. Added a meaningful regression from a restored finished session opened in Resources; Return must restore visible guide and clear the completion note. Fresh14 source/unit tests,9 browser tests (integrated-browser-tests.txt) and build pass. This one-line functional correction is the only product change beyond code freeze e255b0f; it does not alter captured visual material/layout or source assets. Final independent/head checks must cover the integrated candidate, not the earlier remote success.
+
+## User-directed map preview correction — pre-edit lens
+
+The user explicitly requests map card previews fill their media wells like the actual ResourceCard and photo previews. The prior contain adaptation for thumbnail cards is superseded. Remove only the app thumbnail background-size/repeat override so actual shared center/cover applies. Keep full map detail original aspect, reachable legend, square map-image corners and full-size link unchanged. A facilitator distinguishes previews from full inspection by opening the real detail. Reversible CSS-only change; verify card cover and unchanged detail dimensions/source hashes, then inspect a real screenshot. No source/domain or full-detail change is authorized by this correction.
+
+Map-preview correction verified:9 browser tests and build pass, including shared cover media bands and unchanged actual full-map modal rendering/focus. mobile-map-cover.png is the current actual390px map-card capture; author inspected filled media wells. Earlier contained-thumbnail captures/rationale are historical and superseded only for card previews. Original map detail/source assets remain unchanged. MAP-COVER-CHALLENGE.json retains actual post-lens challenge; exact user instruction, bounded test evidence, reversible CSS change and unchanged detail are the responses to generic prerequisite prompts.

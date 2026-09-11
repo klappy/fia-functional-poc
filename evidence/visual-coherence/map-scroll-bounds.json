@@ -1,0 +1,13 @@
+{
+  "dialog": {
+    "client": 720,
+    "scroll": 774
+  },
+  "image": {
+    "width": 714,
+    "height": 536,
+    "naturalWidth": 4000,
+    "naturalHeight": 3000,
+    "cssFit": "fill"
+  }
+}

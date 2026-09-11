@@ -1,0 +1,15 @@
+
+> fia-functional-poc@0.1.0 test:e2e
+> playwright test
+
+
+Running 6 tests using 1 worker
+
+  ✓  1 tests/guided-session.spec.js:3:1 › real guide, Scripture selection and exact position survive view changes and reload (742ms)
+  ✓  2 tests/guided-session.spec.js:13:1 › contextual real map opens, renders and returns focus without moving the guide (830ms)
+  ✓  3 tests/guided-session.spec.js:21:1 › examples require explicit reveal and every resource type is available (563ms)
+  ✓  4 tests/guided-session.spec.js:30:1 › narrow layout, keyboard dialog and large text remain usable (401ms)
+  ✓  5 tests/guided-session.spec.js:37:1 › failed required source renders a real error with retry, never substitute content (426ms)
+  ✓  6 tests/guided-session.spec.js:43:1 › duplicate source names are distinguished by source meaning and inspected image (345ms)
+
+  6 passed (4.5s)
