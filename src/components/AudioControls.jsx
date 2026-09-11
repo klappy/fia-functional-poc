@@ -1,7 +1,10 @@
+import MediaIcon from './MediaIcon.jsx';
 import React from 'react';
-import {GlassSurface} from '../vendor/glass/components/glass/GlassSurface.jsx';
+import {GlassIconButton} from '../vendor/glass/components/glass/GlassIconButton.jsx';
 import {GlassButton} from '../vendor/glass/components/glass/GlassButton.jsx';
-export default function AudioControls({state,view,onGuide,onScripture,onPause,onResume,onStop}){
- const active=['starting','playing','paused'].includes(state.status);
- return <GlassSurface level={2} shadow="rest" className="audio-controls" style={{padding:'12px 16px',marginBottom:14}}><div className="narration-actions"><GlassButton variant="dark" onClick={view==='scripture'?onScripture:onGuide}>Listen {view==='scripture'?'to Scripture':'to this step'}</GlassButton>{active&&<><GlassButton disabled={state.status==='starting'} onClick={state.status==='paused'?onResume:onPause}>{state.status==='paused'?'Resume':'Pause'}</GlassButton><GlassButton onClick={onStop}>Stop</GlassButton></>}<span className="reading-note">ElevenLabs · synthetic voice</span></div><p className="narration-status" role="status">{state.error||({idle:'Ready · stops for discussion.',starting:'Loading recording…',playing:'Listening…',paused:'Paused.'}[state.status])}</p></GlassSurface>;
+import {Icon} from '../vendor/glass/components/icons/Icon.jsx';
+const time=n=>`${Math.floor(n/60)}:${String(Math.floor(n%60)).padStart(2,'0')}`;
+export default function AudioControls({state,owner,label,onPlay,onPause,onResume,onRestart,compact=false}){
+ const mine=state.owner===owner,active=mine&&['starting','playing','paused'].includes(state.status);
+ return <div className={`inline-player ${compact?'compact-player':''}`} aria-label={`${label} player`}><div className="inline-player-actions"><GlassIconButton size={44} tone={active?'dark':'light'} label={active?(state.status==='paused'?`Resume ${label}`:`Pause ${label}`):label} disabled={mine&&state.status==='starting'} onClick={active?(state.status==='paused'?onResume:onPause):onPlay}><MediaIcon paused={active&&state.status!=='paused'}/></GlassIconButton><div><strong>{active?state.title:label}</strong>{owner==='guide'&&<small>Stops for discussion</small>}{mine&&(active||state.error)&&<span role="status">{state.error||({starting:'Loading…',playing:'Playing',paused:'Paused',idle:'Ready',error:'Playback unavailable'}[state.status])}</span>}</div>{active&&<GlassButton size="sm" onClick={onRestart} aria-label={`Restart ${label}`}>Restart</GlassButton>}</div>{active&&state.duration>0&&<div className="media-progress"><progress aria-label={`${state.title} recording progress`} max={state.duration} value={state.elapsed}/><span>{time(state.elapsed)} / {time(state.duration)}</span></div>}</div>;
 }

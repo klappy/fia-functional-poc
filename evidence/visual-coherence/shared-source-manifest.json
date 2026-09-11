@@ -79,7 +79,9 @@
     },
     {
       "path": "components/scripture/ScripturePassage.jsx",
-      "sha256": "99794b989dc0a5fb1c812848da4a31a8fa595773189897e3d8cfa7afcb44520d"
+      "sha256": "1fa42d888fea1e43ac078f8dccdc7a95d1a08b46f50c01f2dc93cfc9ceaf5d8b",
+      "upstreamSha256": "99794b989dc0a5fb1c812848da4a31a8fa595773189897e3d8cfa7afcb44520d",
+      "adaptation": "Optional headerAction slot only; exact patch recorded in contextual-playback evidence"
     },
     {
       "path": "components/scripture/KeyTermPopover.jsx",
@@ -92,6 +94,18 @@
     {
       "path": "components/icons/Icon.jsx",
       "sha256": "be1d9a1fbd5e4610fab0cac3cd2b1c3e765100f65c276136fd2ca1e584335fc7"
+    },
+    {
+      "path": "components/glass/GlassIconButton.jsx",
+      "sha256": "1bfed28aa792301531c9b87726cc70c7859815844b72e2a6def24ec5905e38fb"
+    },
+    {
+      "path": "components/navigation/GlassTabBar.jsx",
+      "sha256": "ff0e3f931d3d615b73afefb0f0d44102bb393359fa58e5ede75eea4529282e61"
+    },
+    {
+      "path": "components/navigation/GlassSheet.jsx",
+      "sha256": "19fce46ea113cdb71c7443fa5a355dab69eacbd06875ab7fd1dcad65c95cad99"
     }
   ]
 }

@@ -1,0 +1,9 @@
+{
+  "repo": "lucide-icons/lucide",
+  "revision": "a79b2d131dab2bf20cb224bd0937b439a9c4fa99",
+  "files": [
+    "icons/play.svg",
+    "icons/pause.svg"
+  ],
+  "license": "Existing Lucide ISC/Feather MIT notices retained"
+}

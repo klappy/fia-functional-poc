@@ -1,0 +1,341 @@
+{
+  "method": "Exact source/output hash plus ffprobe stream inspection; not transcript or heard-quality verification",
+  "rows": [
+    {
+      "id": "term-eng-t63-v1",
+      "sha256": "1bad1233c8597e03387107b885e52223fc08fd909504d9eabdbd649711d707c5",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "107.781188"
+      }
+    },
+    {
+      "id": "term-eng-t68-v1",
+      "sha256": "75756aa773449509f3b4c70117cec9473b3925ab38bea32a0db06c71244f593e",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "111.072625"
+      }
+    },
+    {
+      "id": "term-eng-t23-v1",
+      "sha256": "e55ed73152d9c6bc2a6442d014959354e5a5f3d854e270e490e091f7810ee2c4",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "166.582813"
+      }
+    },
+    {
+      "id": "term-eng-t38-v1",
+      "sha256": "0276fcf2c6c6aa1bba0c3b6ae021f279023ec38b2c7a093e909034f5627570d3",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "11.728938"
+      }
+    },
+    {
+      "id": "term-eng-t226-v2",
+      "sha256": "6c41098965441a98f717db9f163adcca87e5fd30efd38c8f061de7464f76ae3e",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "15.124875"
+      }
+    },
+    {
+      "id": "term-eng-t103-v1",
+      "sha256": "316e7fa7a5abb54e89b57d898d56e9cc74e5aa9d595ce089b97e16e06a846a9d",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "243.800813"
+      }
+    },
+    {
+      "id": "term-eng-t104-v1",
+      "sha256": "0de43934a823f81b69b570175ac5019cacae884d7c6765ef56c08668e001a74f",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "345.364875"
+      }
+    },
+    {
+      "id": "term-eng-t109-v1",
+      "sha256": "4fa471a4fb32ffc484050881b3f1ccb5e0df82c51422cb1112a0cb5325497d31",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "114.181188"
+      }
+    },
+    {
+      "id": "term-eng-t76-v1",
+      "sha256": "d8aca61a24483d70a1d85559ffa3c9f44c1693bad0970f4dba9d9dec9bbbd795",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "41.822000"
+      }
+    },
+    {
+      "id": "term-eng-t9-v1",
+      "sha256": "8994e1f880ad34be1fc55dbd25cc05a8e1851061c872e38eb50cdeccfb636653",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "179.252188"
+      }
+    },
+    {
+      "id": "term-eng-t145-v1",
+      "sha256": "31c8be1f6ebeeb23324aff92894b9ed5da692ca4d6f3a08d4d559b4f71a7c194",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "10.866938"
+      }
+    },
+    {
+      "id": "term-eng-t87-v1",
+      "sha256": "a3e0ffb826a9a5b2f85548ac3024f0331c22674ba942c2f5a4feca3c88b408ff",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "80.248125"
+      }
+    },
+    {
+      "id": "term-eng-t88-v1",
+      "sha256": "6daf4335ca3cc0e4bdd2bcf80dcc3f72a23f1d6f8cf6686ec7b9486ed433dcf8",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "9.743625"
+      }
+    },
+    {
+      "id": "term-eng-t60-v1",
+      "sha256": "47eadf3ecc6e14d56dece61b9391bd692a3bccccee2b8e9af0669b29ce62a544",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "92.368938"
+      }
+    },
+    {
+      "id": "term-eng-t53-v1",
+      "sha256": "9d2672f0923b0363adf88c47c838ea6c80e1a4cd07eb6581a324ede9f40527cf",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "118.047313"
+      }
+    },
+    {
+      "id": "term-eng-t4-v1",
+      "sha256": "ee72c55fa12e3b13ab901938797fc4d2cdacc279f89bcae43bbe207abe9e7ed1",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "101.799125"
+      }
+    },
+    {
+      "id": "term-eng-t5-v1",
+      "sha256": "ed93dd9046d7fb5962b3d210bd1b99f6057018af46a303d11894feaac2f25400",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "124.577938"
+      }
+    },
+    {
+      "id": "term-eng-t92-v1",
+      "sha256": "ae655e26b823808d4d2361bef5e3967b6c8d6c6054c3f1601345001730d5ebb1",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "172.146938"
+      }
+    },
+    {
+      "id": "term-eng-t118-v1",
+      "sha256": "1265775a595944ee08a0069d4ca6382ecf60f216ec517e6da8c6a91b9c01dc17",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "75.833438"
+      }
+    },
+    {
+      "id": "term-eng-t125-v1",
+      "sha256": "6a356f7e4bc1e3b64bd5a923fe5e6759cdb1447afc144ed094521288ab753e67",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "326.321625"
+      }
+    },
+    {
+      "id": "term-eng-t129-v1",
+      "sha256": "e2d96edbba9660993784eb4255e856f66a7d83075ccec12859661ddf5f82b0bc",
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "format": {
+        "duration": "69.146063"
+      }
+    }
+  ]
+}
