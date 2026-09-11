@@ -6,9 +6,9 @@ const repoRoot = resolve(import.meta.dirname, '..');
 const readJson = async path => JSON.parse(await readFile(path, 'utf8'));
 export async function verifyPack(publicRoot = resolve(repoRoot, 'public')) {
   const dir = resolve(publicRoot, 'content/mark-1-1-13');
-  const [manifest, guide, scripture, resources, cues, expectedCues, expectedResources, expectedScripture, revisions] = await Promise.all([
+  const [manifest, guide, scripture, resources, cues, expectedCues, expectedResources, expectedScripture, revisions, expectedAssets] = await Promise.all([
     ...['manifest','guide','scripture','resources','cues'].map(name => readJson(resolve(dir, `${name}.json`))),
-    ...['expected-cues','expected-resources','expected-scripture','revisions'].map(name => readJson(resolve(repoRoot, `sources/${name}.json`)))
+    ...['expected-cues','expected-resources','expected-scripture','revisions','expected-assets'].map(name => readJson(resolve(repoRoot, `sources/${name}.json`)))
   ]);
   assert(JSON.stringify(manifest.sourceRevisions) === JSON.stringify(revisions), 'Manifest source revision mismatch');
   assert(manifest.files.length === 4 && manifest.assets.length === 8, 'Required file/asset count mismatch');
@@ -20,6 +20,8 @@ export async function verifyPack(publicRoot = resolve(repoRoot, 'public')) {
     assert(bytes.length === item.bytes && sha256(bytes) === item.sha256, `File integrity mismatch: ${item.path}`);
     if (item.path.startsWith('/assets/')) {
       const info = imageInfo(bytes);
+      const pin = expectedAssets.find(x => x.id === item.id);
+      assert(pin && item.sourceUrl === pin.sourceUrl && item.sha256 === pin.sha256 && item.bytes === pin.bytes && item.mime === pin.mime && item.width === pin.width && item.height === pin.height, 'Observed media pin mismatch');
       assert(info.mime === item.mime && info.width === item.width && info.height === item.height, 'Image type/dimensions mismatch');
     }
   }

@@ -7,3 +7,5 @@ Single loop: actual source/blob/verse/cue checks and eight image displays passed
 Double loop: the finite manifest is now the shared identity boundary for source preparation, tests and later offline behavior. Semantic corruption tests recompute transport digests to avoid falsely proving fidelity by hashing whatever was emitted. Both map notices stay machine-readable and visible rather than flattened.
 
 Triple loop: planning's independent manifests made implementation cheap and caught drift deterministically; reviewer can inspect a frozen commit while evidence is attached separately. Actual visual inspection adds information hashes cannot supply, while its geographic/rights limits remain explicit. No field outcomes or user time saved measured yet.
+
+Self-review before merge found that a future same-URL image change could otherwise be accepted on regeneration. Added separate observed image pins to prepare and verify plus a semantic tamper test. Existing data/assets unchanged; reviewer notified of affected code and new commit.

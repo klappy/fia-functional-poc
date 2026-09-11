@@ -10,4 +10,4 @@ computing gzip size...
 dist/index.html                  0.29 kB │ gzip:  0.22 kB
 dist/assets/index-DFlmbYiI.js  220.02 kB │ gzip: 68.84 kB
 
-✓ built in 103ms
+✓ built in 112ms

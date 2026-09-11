@@ -8,6 +8,7 @@ const revisions = await json('sources/revisions.json');
 const expectedResources = await json('sources/expected-resources.json');
 const expectedCues = await json('sources/expected-cues.json');
 const expectedScripture = await json('sources/expected-scripture.json');
+const expectedAssets = await json('sources/expected-assets.json');
 const observedAt = new Date().toISOString();
 const cache = new Map();
 async function fetchBytes(url) {
@@ -65,6 +66,8 @@ const assets = await Promise.all(resources.filter(x => ['image','map'].includes(
   assert(resource.mediaUrl, `No media URL: ${resource.content_id}`);
   const bytes = await fetchBytes(resource.mediaUrl);
   const info = imageInfo(bytes);
+  const pin = expectedAssets.find(x => x.id === resource.content_id);
+  assert(pin && pin.sourceUrl === resource.mediaUrl && pin.sha256 === sha256(bytes) && pin.bytes === bytes.length && pin.mime === info.mime && pin.width === info.width && pin.height === info.height, `Observed image pin mismatch: ${resource.content_id}`);
   assert(info.width > 100 && info.height > 100, 'Image dimensions unexpectedly small');
   const ext = info.mime === 'image/png' ? 'png' : 'jpg';
   const path = `/assets/mark-1-1-13/${resource.content_id}.${ext}`;

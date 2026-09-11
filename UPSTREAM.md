@@ -7,3 +7,5 @@ Generative Glass inspected binding: `klappy/bt-design-system-generative-glass@8d
 Public content sources are pinned in `sources/revisions.json`. `sources/expected-resources.json` records canonical paths, original blob/body hashes and prior API-wrapper body-comparison evidence. `sources/expected-cues.json` binds every source unit and stop. `sources/expected-scripture.json` binds three pinned Mark source blobs and each selected verse. Generated content preserves source metadata/notices and transforms only display paths/segmentation. See `NOTICE.md` for supplied terms.
 
 No legacy app backend, framework, conversation code or private source material imported. Sites portable profile reported configured=false; explicit delegated Git/local-only workflow retained, with no Site registration or hosting.
+
+`sources/expected-assets.json` binds the eight actually fetched and inspected original image bytes/dimensions/URLs. Regeneration fails if an unversioned upstream URL changes its bytes; updating those pins requires a new reviewed asset inspection.

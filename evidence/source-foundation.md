@@ -1,11 +1,11 @@
 # Source-foundation verification
 
-Observed 2026-09-11. Code/data freeze: `0cb4acbf8b921fe518ed616d3f3776dc6737a155`. This report adds evidence to that unchanged implementation. Initial private repository identity/default-main readback was observed at `a56bda9394555deba29126e96b370b5cb2486923`. Repository creation and source foundation do not establish a functional guided PoC.
+Observed 2026-09-11. Initial code/data freeze: `0cb4acbf8b921fe518ed616d3f3776dc6737a155`; subsequent bounded correction pins the eight observed image bytes against future same-URL changes. Actual asset/content bytes are unchanged. Initial private repository identity/default-main readback was observed at `a56bda9394555deba29126e96b370b5cb2486923`. Repository creation and source foundation do not establish a functional guided PoC.
 
 ## Actual results
 
 - `npm ci`: passed on Node 22.16.0; zero vulnerabilities reported by that install audit.
-- `npm test`: 8 tests passed, zero failures. Negative cases change semantic data and recompute transport hashes, so failures exercise source identity as well as file integrity.
+- `npm test`: 9 tests passed, zero failures. Negative cases change semantic data and recompute transport hashes, so failures exercise source identity as well as file integrity.
 - `npm run verify:content`: passed: 130 source units, 39 pauses, 32 resources, eight actual assets, 23,246,971 delivered content/asset bytes (manifest itself not included in that total).
 - `npm run build`: Vite 8.3.0 build passed. The entry explicitly says session/narration/offline are not implemented.
 - All 32 resource canonical blobs/body hashes match accepted pins. Prior served-API body comparison is preserved: 29 exact bodies, three documented relative-thumbnail expansions. Video descriptions remain links; no video or thumbnail bytes fetched.
@@ -37,3 +37,5 @@ Map license_info names Biblica while adaptation_notice names Word Collective. Bo
 Source data and build foundation are working in this checkout. Guided interaction, audible narration, saved browser content, offline narration, accessibility/phone behavior and end-user outcomes are unimplemented or untested, assigned to later dishes. Mock/simulated negative data corruptions are explicitly tests, not evidence of real runtime errors. No microphone/audio experiment, source rewriting, AI backend or translation capture was added.
 
 Actual PR checks and independent review/merge belong to the coordinator's later receipts; this document does not claim they have passed. The app author did not merge.
+
+Regeneration correction: `sources/expected-assets.json` binds the eight actual inspected images; prepare and verify now reject upstream byte/dimension/URL drift. A ninth test changes an image and recomputes its manifest hash, then observes rejection against the independent source pin.

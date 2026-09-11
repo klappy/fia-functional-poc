@@ -63,3 +63,17 @@ test('corrupt or missing actual media fails integrity verification', async () =>
   } finally { await rm(root,{recursive:true,force:true}); }
   assert.throws(()=>imageInfo(Buffer.from('not an image')), /Unsupported or corrupt/);
 });
+
+test('a changed image cannot be legitimized by recomputing its manifest digest', async () => {
+  const root = await mkdtemp(resolve(tmpdir(), 'fia-media-pin-'));
+  try {
+    await cp(original, root, { recursive: true });
+    const path = resolve(root, 'assets/mark-1-1-13/a112.jpg');
+    const bytes = await readFile(path); bytes[bytes.length - 20] ^= 1; await writeFile(path, bytes);
+    const manifestPath = resolve(root, 'content/mark-1-1-13/manifest.json');
+    const manifest = JSON.parse(await readFile(manifestPath, 'utf8'));
+    manifest.assets.find(x => x.id === 'a112').sha256 = sha256(bytes);
+    await writeFile(manifestPath, JSON.stringify(manifest));
+    await assert.rejects(verifyPack(root), /Observed media pin mismatch/);
+  } finally { await rm(root, { recursive: true, force: true }); }
+});
