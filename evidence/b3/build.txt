@@ -23,9 +23,9 @@ transforming...
 ✓ 47 modules transformed.
 rendering chunks...
 computing gzip size...
-dist/index.html                   0.36 kB │ gzip:   0.27 kB
+dist/index.html                   0.36 kB │ gzip:   0.28 kB
 dist/assets/index-DfooDR3u.css   16.89 kB │ gzip:   4.80 kB
-dist/assets/index-DST8wtFJ.js   346.02 kB │ gzip: 109.67 kB
+dist/assets/index-BPgLlXYQ.js   346.24 kB │ gzip: 109.74 kB
 
-✓ built in 865ms
-Offline manifest: 137 required local files, 48290252 bytes; remote fonts optional, video excluded.
+✓ built in 239ms
+Offline manifest: 137 required local files, 48290467 bytes; remote fonts optional, video excluded.

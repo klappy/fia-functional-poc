@@ -6,151 +6,151 @@ TAP version 13
 # Subtest: simulated HTMLAudio events advance only ended source units and suppress canceled callbacks
 ok 1 - simulated HTMLAudio events advance only ended source units and suppress canceled callbacks
   ---
-  duration_ms: 165.406542
+  duration_ms: 39.620042
   type: 'test'
   ...
 # Subtest: simulated HTMLAudio pause resumes same source and media errors do not advance
 ok 2 - simulated HTMLAudio pause resumes same source and media errors do not advance
   ---
-  duration_ms: 7.265333
+  duration_ms: 7.287125
   type: 'test'
   ...
 # Subtest: selected audio integrity failure and changed source fail before playback
 ok 3 - selected audio integrity failure and changed source fail before playback
   ---
-  duration_ms: 17.397208
+  duration_ms: 11.016667
   type: 'test'
   ...
 # Subtest: pure synthesis guards count uncertain attempts and reject changed input, repeated IDs and cumulative caps without network
 ok 4 - pure synthesis guards count uncertain attempts and reject changed input, repeated IDs and cumulative caps without network
   ---
-  duration_ms: 1.307
+  duration_ms: 0.486416
   type: 'test'
   ...
 # Subtest: complete prepared audio binds exactly117 visible guide units and3 Scripture passages to immutable source bytes
 ok 5 - complete prepared audio binds exactly117 visible guide units and3 Scripture passages to immutable source bytes
   ---
-  duration_ms: 183.559791
+  duration_ms: 66.724458
   type: 'test'
   ...
 # Subtest: a late resume rejection cannot overwrite a stopped session
 ok 6 - a late resume rejection cannot overwrite a stopped session
   ---
-  duration_ms: 24.427875
+  duration_ms: 6.259916
   type: 'test'
   ...
 # Subtest: actual shell builder refuses missing, duplicate and source-mismatched mandatory narration manifests
 ok 7 - actual shell builder refuses missing, duplicate and source-mismatched mandatory narration manifests
   ---
-  duration_ms: 531.942666
+  duration_ms: 112.566375
   type: 'test'
   ...
 # Subtest: official logo path bytes and viewBoxes match observed source receipt
 ok 8 - official logo path bytes and viewBoxes match observed source receipt
   ---
-  duration_ms: 6.942166
+  duration_ms: 4.898167
   type: 'test'
   ...
 # Subtest: complete shared CSS and actual composed component sources retain pinned bytes
 ok 9 - complete shared CSS and actual composed component sources retain pinned bytes
   ---
-  duration_ms: 49.5565
+  duration_ms: 14.432916
   type: 'test'
   ...
 # Subtest: complete source-guided traversal visits all39stops and never enters hidden examples
 ok 10 - complete source-guided traversal visits all39stops and never enters hidden examples
   ---
-  duration_ms: 35.173458
+  duration_ms: 4.325166
   type: 'test'
   ...
 # Subtest: step selection and reverse navigation preserve Scripture but cannot enter examples
 ok 11 - step selection and reverse navigation preserve Scripture but cannot enter examples
   ---
-  duration_ms: 0.303375
+  duration_ms: 0.097542
   type: 'test'
   ...
 # Subtest: storage validates exact source position and discards invalid or hidden units
 ok 12 - storage validates exact source position and discards invalid or hidden units
   ---
-  duration_ms: 1.371584
+  duration_ms: 0.208042
   type: 'test'
   ...
 # Subtest: simulated storage quota failure cannot replace the previous active pointer
 ok 13 - simulated storage quota failure cannot replace the previous active pointer
   ---
-  duration_ms: 142.229875
+  duration_ms: 24.080375
   type: 'test'
   ...
 # Subtest: complete selected source pack verifies from actual files
 ok 14 - complete selected source pack verifies from actual files
   ---
-  duration_ms: 154.450667
+  duration_ms: 38.361708
   type: 'test'
   ...
 # Subtest: a missing or duplicated verse fails even with a valid transport digest
 ok 15 - a missing or duplicated verse fails even with a valid transport digest
   ---
-  duration_ms: 2129.329041
+  duration_ms: 235.911125
   type: 'test'
   ...
 # Subtest: altered Scripture or emitted guide text fails canonical comparison
 ok 16 - altered Scripture or emitted guide text fails canonical comparison
   ---
-  duration_ms: 3303.001
+  duration_ms: 162.365708
   type: 'test'
   ...
 # Subtest: a missing resource and guessed map alias fail
 ok 17 - a missing resource and guessed map alias fail
   ---
-  duration_ms: 2002.9885
+  duration_ms: 174.21525
   type: 'test'
   ...
 # Subtest: discussion stops and example boundaries cannot silently change
 ok 18 - discussion stops and example boundaries cannot silently change
   ---
-  duration_ms: 1804.146916
+  duration_ms: 168.026416
   type: 'test'
   ...
 # Subtest: missing rights and flattened map notice fail
 ok 19 - missing rights and flattened map notice fail
   ---
-  duration_ms: 2079.269917
+  duration_ms: 178.992416
   type: 'test'
   ...
 # Subtest: video bytes are not an accepted offline resource
 ok 20 - video bytes are not an accepted offline resource
   ---
-  duration_ms: 1222.3725
+  duration_ms: 96.020666
   type: 'test'
   ...
 # Subtest: corrupt or missing actual media fails integrity verification
 ok 21 - corrupt or missing actual media fails integrity verification
   ---
-  duration_ms: 654.250167
+  duration_ms: 78.969541
   type: 'test'
   ...
 # Subtest: a changed image cannot be legitimized by recomputing its manifest digest
 ok 22 - a changed image cannot be legitimized by recomputing its manifest digest
   ---
-  duration_ms: 1054.884875
+  duration_ms: 123.025584
   type: 'test'
   ...
 # Subtest: simulated speech events: cancellation rejects stale source advancement and old errors
 ok 23 - simulated speech events: cancellation rejects stale source advancement and old errors
   ---
-  duration_ms: 11.128084
+  duration_ms: 5.595083
   type: 'test'
   ...
 # Subtest: simulated speech events: chunks preserve source and item advances only after final chunk
 ok 24 - simulated speech events: chunks preserve source and item advances only after final chunk
   ---
-  duration_ms: 14.445875
+  duration_ms: 8.477958
   type: 'test'
   ...
 # Subtest: simulated pause/resume require actual adapter event and absent voices are honest
 ok 25 - simulated pause/resume require actual adapter event and absent voices are honest
   ---
-  duration_ms: 15.860875
+  duration_ms: 6.077542
   type: 'test'
   ...
 1..25
@@ -161,4 +161,4 @@ ok 25 - simulated pause/resume require actual adapter event and absent voices ar
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 15206.25875
+# duration_ms 1344.083542
