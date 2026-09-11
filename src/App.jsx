@@ -1,3 +1,5 @@
+import { AudioController } from './lib/audio.js';
+import AudioControls from './components/AudioControls.jsx';
 import OfflineControls from './components/OfflineControls.jsx';
 import { OfflineController } from './lib/offline.js';
 import NarrationControls from './components/NarrationControls.jsx';
@@ -37,8 +39,9 @@ function Session({ pack }) {
   const [voices,setVoices]=useState([]),[voiceId,setVoiceId]=useState(''),[speechState,setSpeechState]=useState({status:'idle',error:''});
   const speech=useRef(null);if(!speech.current)speech.current=new SpeechController(window.speechSynthesis,window.SpeechSynthesisUtterance,setSpeechState);
   useEffect(()=>{const refresh=()=>{const available=englishVoices(window.speechSynthesis);setVoices(available);setVoiceId(old=>available.some(v=>v.voiceURI===old)?old:(available.find(v=>v.localService)??available[0])?.voiceURI??'');};refresh();window.speechSynthesis?.addEventListener('voiceschanged',refresh);return()=>{window.speechSynthesis?.removeEventListener('voiceschanged',refresh);speech.current.stop();};},[]);
-  const stop=()=>speech.current.stop();const changeView=value=>{stop();setView(value);};
-  const readGuide=()=>{const items=[];let cursor=session;for(let i=0;i<130;i++){const pos=currentPosition(cursor,pack.guide,pack.cues),next=pos.isStop?cursor:moveUnit(cursor,1,pack.guide,pack.cues);items.push({id:pos.unit.id,text:pos.unit.text,next});if(pos.isStop||next===cursor)break;cursor=next;}speech.current.speak(items,voices.find(v=>v.voiceURI===voiceId),item=>setSession(item.next));};
+  const [audioState,setAudioState]=useState({status:'idle',error:''});const audio=useRef(null);if(!audio.current)audio.current=new AudioController(window.Audio,setAudioState);useEffect(()=>()=>audio.current.stop(),[]);
+  const stop=()=>{speech.current.stop();audio.current.stop();};const changeView=value=>{stop();setView(value);};
+  const readGuide=(fallback=false)=>{stop();const items=[];let cursor=session;for(let i=0;i<130;i++){const pos=currentPosition(cursor,pack.guide,pack.cues),next=pos.isStop?cursor:moveUnit(cursor,1,pack.guide,pack.cues);items.push({id:pos.unit.id,text:pos.unit.text,next});if(pos.isStop||next===cursor)break;cursor=next;}(fallback?speech.current:audio.current).speak(items,voices.find(v=>v.voiceURI===voiceId),item=>setSession(item.next));};
 
   useEffect(() => { setStorageError(!persistSession(browserStorage(), session)); }, [session]);
   const bible = pack.scripture.find(x => x.resourceCode === session.version);
@@ -50,7 +53,8 @@ function Session({ pack }) {
     <SessionHeader view={view} setView={changeView} visited={session.visited.length}/>
     <main id="session-main" tabIndex="-1">
       <OfflineControls state={offlineState} onSave={()=>offline.current.save()} onCancel={()=>offline.current.cancel()} onCheck={()=>offline.current.check()} onRemove={()=>offline.current.remove()}/>
-      <NarrationControls voices={voices} voiceId={voiceId} setVoiceId={id=>{stop();setVoiceId(id);}} state={speechState} onGuide={readGuide} onScripture={()=>speech.current.speak([{text:bible.verses.map(v=>v.text).join(' ')}],voices.find(v=>v.voiceURI===voiceId))} onPause={()=>speech.current.pause()} onResume={()=>speech.current.resume()} onStop={stop}/>
+      <AudioControls state={audioState} view={view} onGuide={()=>readGuide()} onScripture={()=>{stop();audio.current.speak([{id:`scripture-${bible.resourceCode}`,text:bible.verses.map(v=>v.text).join(' ')}]);}} onPause={()=>audio.current.pause()} onResume={()=>audio.current.resume()} onStop={stop}/>
+      <NarrationControls voices={voices} voiceId={voiceId} setVoiceId={id=>{stop();setVoiceId(id);}} state={speechState} onGuide={()=>readGuide(true)} onScripture={()=>{stop();speech.current.speak([{text:bible.verses.map(v=>v.text).join(' ')}],voices.find(v=>v.voiceURI===voiceId));}} onPause={()=>speech.current.pause()} onResume={()=>speech.current.resume()} onStop={stop}/>
 
       {boot.restored && <p className="return-note">Your position on this device was restored. Reading restarts at the current guide section.</p>}
       {storageError && <p role="status" className="return-note">Your position could not be stored on this device. You can continue this session.</p>}
@@ -59,7 +63,7 @@ function Session({ pack }) {
       {view === 'scripture' && <ScripturePanel bible={bible} onVersion={version}/>}
       {view === 'resources' && <section aria-labelledby="resources-title"><div className="resource-heading"><div><p className="eyebrow">For this passage</p><h2 id="resources-title">Explore the resources</h2></div></div><p className="resource-count">21 key terms · 4 maps · 4 images · 3 online video links</p><GlassSearch aria-label="Search resources" value={query} onChange={e=>setQuery(e.target.value)} placeholder="Search this passage’s resources"/><FilterChips aria-label="Resource types" className="resource-filters" bleed={false} options={[{value:'all',label:'All'},{value:'map',label:'Maps'},{value:'image',label:'Images'},{value:'term',label:'Key terms'},{value:'video',label:'Video links'}]} value={[filter]} onChange={values=>setFilter(values.at(-1)??'all')} style={{flexWrap:'wrap',margin:'14px 0 20px',overflow:'visible'}}/><div className="resource-grid">{pack.resources.filter(item=>(filter==='all'||item.kind===filter)&&resourceLabel(item).toLowerCase().includes(query.trim().toLowerCase())).map(item=><ResourceTile key={`${item.resourceCode}/${item.content_id}`} item={item} onOpen={resource}/>)}{!pack.resources.some(item=>(filter==='all'||item.kind===filter)&&resourceLabel(item).toLowerCase().includes(query.trim().toLowerCase()))&&<p role="status">No resources match this search.</p>}</div></section>}
     </main>
-    <footer className="app-footer"><p>FIA · English passage PoC</p><p>Synthetic narration uses browser voices. Saved files are verified before offline availability is shown.</p><p>Speak and explore together; nothing is recorded.</p></footer>
+    <footer className="app-footer"><p>FIA · English passage PoC</p><p>Synthetic narration uses prepared ElevenLabs recordings; browser voices are an optional fallback. Saved files are verified before offline availability is shown.</p><p>Speak and explore together; nothing is recorded.</p></footer>
     {selection && <ResourceDialog key={selection.item?.content_id ?? selection.title} selection={selection} onClose={()=>setSelection(null)}/>}
   </div></AuroraField>;
 }

@@ -10,6 +10,7 @@
     "preview": "vite preview",
     "prepare:content": "node scripts/prepare-content.mjs",
     "verify:content": "node scripts/verify-content.mjs",
+    "verify:audio": "node scripts/verify-audio.mjs",
     "test": "node --test tests/*.test.mjs",
     "test:e2e": "playwright test"
   },

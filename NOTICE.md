@@ -267,3 +267,7 @@ Supplied license_info (verbatim JSON values):
 Supplied adaptation_notice (verbatim):
 
 (No adaptation notice supplied.)
+
+## Prepared synthetic narration
+
+The prepared English narration is a synthetic audio rendering of the same attributed FIA guide and selected Scripture texts. Source words and all source-specific license/adaptation notices above remain authoritative. Punctuation and whitespace are normalized by the inspected existing speech route; no LLM summary, persona rewrite, translation or added theology is used. The audio manifest identifies exact source text hashes and captured audio hashes. Its expected spoken-projection hash is a provenance prediction, not a verified transcription. ElevenLabs is the selected synthesis provider; the app does not claim official FIA endorsement or provider/voice-rights clearance beyond the user's authorized existing-account use.

@@ -1,0 +1,13 @@
+{
+  "requests": 120,
+  "sourceCharacters": 27325,
+  "projectedCharacters": 27325,
+  "maxRequestCharacters": 2074,
+  "hardRequestCap": 120,
+  "hardSourceCharacterCap": 30000,
+  "rateLimitPerMinute": 15,
+  "quota": "unknown; no available preflight endpoint",
+  "voiceId": "mTGIhA08MuOorUYSmCst",
+  "inspectedServerRevision": "ab5db936629f167380d5ee64060d425bc7fd1dd3",
+  "runtimeSettingsVerified": false
+}
