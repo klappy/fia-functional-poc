@@ -1,9 +1,10 @@
 import { test, expect } from '@playwright/test';
+test.use({serviceWorkers:'block'});
 test.beforeEach(async({page})=>{await page.goto('/');await expect(page.getByRole('heading',{name:'Mark 1:1–13',level:1})).toBeVisible();});
 test('real guide, Scripture selection and exact position survive view changes and reload',async({page})=>{
  await expect(page.getByTestId('current-unit')).toContainText('In this step, hear Mark');
  await page.getByRole('button',{name:'Continue',exact:false}).click();await page.getByRole('button',{name:'Continue',exact:false}).click();
- await expect(page.getByTestId('current-unit')).toContainText('What do you like');await expect(page.getByRole('status')).toContainText('Take your time');
+ await expect(page.getByTestId('current-unit')).toContainText('What do you like');await expect(page.locator('.discussion-state')).toContainText('Take your time');
  await page.getByLabel('Scripture version').selectOption('unfoldingWordLiteral');
  await page.getByRole('button',{name:'Scripture',exact:true}).click();await expect(page.locator('.scripture-text [lang="en"] > span')).toHaveCount(13);
  await expect(page.locator('.scripture-text')).toContainText('The beginning of the gospel');
@@ -60,7 +61,7 @@ test('resources show all eight real previews, source metadata, search and honest
  await expect(page.locator('.resource-map .resource-card > div').first()).toHaveCSS('background-size',/^cover/);await expect(page.locator('.resource-image .resource-card > div').first()).toHaveCSS('background-size',/^cover/);
  await expect(page.locator('.resource-card')).toHaveCount(32);await expect(page.locator('.resource-card').first()).toContainText('CC');
  await expect(page.locator('.video-affordance')).toHaveCount(3);await expect(page.locator('.resource-video img')).toHaveCount(0);expect(videos).toEqual([]);
- await page.getByLabel('Search resources').fill('sandals');await expect(page.locator('.resource-card')).toHaveCount(3);await page.getByLabel('Search resources').fill('no-such-resource');await expect(page.getByRole('status')).toContainText('No resources match');await page.getByLabel('Search resources').fill('');
+ await page.getByLabel('Search resources').fill('sandals');await expect(page.locator('.resource-card')).toHaveCount(3);await page.getByLabel('Search resources').fill('no-such-resource');await expect(page.getByText('No resources match this search.',{exact:true})).toBeVisible();await page.getByLabel('Search resources').fill('');
  await page.setViewportSize({width:320,height:844});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
 });
 test('finished-session return from another view really restores the guide',async({page})=>{

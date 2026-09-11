@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "id": "mark-1-1-13",
+  "revision": "aca70f6d5ca064c131ad7da5cae9238a7a385bde5ddef78f7ab8b38306c0cb13",
+  "entries": [
+    {
+      "path": "/index.html",
+      "bytes": 362,
+      "sha256": "2106bd380a9fc5bfc98ce539f2724f3596d1228a5ca4692b5c4f74a2cf227f14",
+      "mime": "text/html",
+      "group": "shell"
+    },
+    {
+      "path": "/assets/index-DfooDR3u.css",
+      "bytes": 16893,
+      "sha256": "290c491773ad55d2a7b51f98913436715d10c75c9b3170f1ae43bd5d161892b2",
+      "mime": "text/css",
+      "group": "shell"
+    },
+    {
+      "path": "/assets/index-Dg4ci1h6.js",
+      "bytes": 290153,
+      "sha256": "c18b1acc2da2217be9d6b38a4e69cb146af69d1d73e6469e1531ede1652a0b42",
+      "mime": "text/javascript",
+      "group": "shell"
+    },
+    {
+      "path": "/content/mark-1-1-13/manifest.json",
+      "bytes": 19911,
+      "sha256": "a7c976af1a25eb3d65939a45fb066d51a1e719abd103cc360b1994d76563b507",
+      "mime": "application/json",
+      "group": "pack"
+    },
+    {
+      "path": "/content/mark-1-1-13/guide.json",
+      "bytes": 121233,
+      "sha256": "615c7efbcb52f913648f11b0314666bb535b4f07d39bae9df43c85eb7d379295",
+      "mime": "application/json",
+      "group": "pack"
+    },
+    {
+      "path": "/content/mark-1-1-13/scripture.json",
+      "bytes": 31477,
+      "sha256": "ac3a3c56a04d63ca0e322983e7a6865bca3d9e4da500df298756f10d3c934cb7",
+      "mime": "application/json",
+      "group": "pack"
+    },
+    {
+      "path": "/content/mark-1-1-13/resources.json",
+      "bytes": 471122,
+      "sha256": "43b235920e5250e5c90afb2016b3312b2af5b10fb3d069662949902f0efef018",
+      "mime": "application/json",
+      "group": "pack"
+    },
+    {
+      "path": "/content/mark-1-1-13/cues.json",
+      "bytes": 24442,
+      "sha256": "e5881516012b3827a5813b0c3e5167f2d71d19b88e1e842cadad0583726c59d8",
+      "mime": "application/json",
+      "group": "pack"
+    },
+    {
+      "path": "/assets/mark-1-1-13/a112.jpg",
+      "bytes": 163531,
+      "sha256": "9c58b5b5100b4324ab54000ac3c26b7ad2371fd964afa319fe0cda7da8e0291c",
+      "mime": "image/jpeg",
+      "group": "pack"
+    },
+    {
+      "path": "/assets/mark-1-1-13/a111.jpg",
+      "bytes": 69973,
+      "sha256": "d314bac395b2aab8cf601f6a590bbf2547b71a54af67eb95dc927f5042883480",
+      "mime": "image/jpeg",
+      "group": "pack"
+    },
+    {
+      "path": "/assets/mark-1-1-13/a203.jpg",
+      "bytes": 112424,
+      "sha256": "1471c9bec45fa044351c13078a7093be44ec2db8e987a62c1a3151a4b9fcb5c9",
+      "mime": "image/jpeg",
+      "group": "pack"
+    },
+    {
+      "path": "/assets/mark-1-1-13/a204.jpg",
+      "bytes": 93501,
+      "sha256": "d1e3f8420046e066c981476e80cad3c0024d77694d9045a2ca248cdc0dc811c7",
+      "mime": "image/jpeg",
+      "group": "pack"
+    },
+    {
+      "path": "/assets/mark-1-1-13/c202.png",
+      "bytes": 1065016,
+      "sha256": "edece4856f059c482ff51d57f3b947ed4a6f97d998be548af2e96d6e4543fa0c",
+      "mime": "image/png",
+      "group": "pack"
+    },
+    {
+      "path": "/assets/mark-1-1-13/c197.png",
+      "bytes": 6712636,
+      "sha256": "e634e8d7f17c55b5f8be3fdc1f91fee7708f30774f4e1ad3223efff8ef9f2f5d",
+      "mime": "image/png",
+      "group": "pack"
+    },
+    {
+      "path": "/assets/mark-1-1-13/c201.png",
+      "bytes": 6646608,
+      "sha256": "cf0381a5cf019c2ae6ba1c925fa6237689e6df346d519c34b73eb3fbf12b2ea3",
+      "mime": "image/png",
+      "group": "pack"
+    },
+    {
+      "path": "/assets/mark-1-1-13/c168.png",
+      "bytes": 7735008,
+      "sha256": "012583ca2ccc485fcb236b9e7d9580b35b1380bd0416758f36b023bd619e096e",
+      "mime": "image/png",
+      "group": "pack"
+    }
+  ]
+}

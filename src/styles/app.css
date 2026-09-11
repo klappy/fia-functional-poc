@@ -13,3 +13,5 @@
 
 /* Preserve map edge labels rather than clipping them to an image corner radius. */
 .image-open-map img{border-radius:0}
+
+.narration-actions,.offline-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.narration-status{font:var(--type-caption);margin-top:12px}.narration-controls .reading-note{margin-top:10px}

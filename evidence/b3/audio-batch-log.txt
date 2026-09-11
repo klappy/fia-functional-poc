@@ -1,0 +1,132 @@
+{
+  requests: 120,
+  sourceCharacters: 27325,
+  projectedCharacters: 27325,
+  maxRequestCharacters: 2074,
+  hardRequestCap: 120,
+  hardSourceCharacterCap: 30000,
+  rateLimitPerMinute: 15,
+  quota: 'unknown; no available preflight endpoint',
+  voiceId: 'mTGIhA08MuOorUYSmCst',
+  inspectedServerRevision: 'ab5db936629f167380d5ee64060d425bc7fd1dd3',
+  runtimeSettingsVerified: false
+}
+S01-U002: 146285 audio/mpeg bytes
+S01-U003: 29675 audio/mpeg bytes
+S01-U004: 43885 audio/mpeg bytes
+S01-U005: 34690 audio/mpeg bytes
+S01-U006: 34690 audio/mpeg bytes
+S01-U007: 37198 audio/mpeg bytes
+S01-U008: 37198 audio/mpeg bytes
+S02-U001: 73560 audio/mpeg bytes
+S02-U002: 112849 audio/mpeg bytes
+S02-U003: 442618 audio/mpeg bytes
+S02-U004: 335621 audio/mpeg bytes
+S02-U005: 70635 audio/mpeg bytes
+S02-U006: 808333 audio/mpeg bytes
+S02-U007: 1087529 audio/mpeg bytes
+S02-U008: 66873 audio/mpeg bytes
+S02-U009: 360280 audio/mpeg bytes
+S02-U010: 1277701 audio/mpeg bytes
+S02-U011: 204382 audio/mpeg bytes
+S02-U012: 21315 audio/mpeg bytes
+S02-U013: 819617 audio/mpeg bytes
+S03-U001: 74814 audio/mpeg bytes
+S03-U002: 94040 audio/mpeg bytes
+S03-U003: 26749 audio/mpeg bytes
+S03-U004: 289645 audio/mpeg bytes
+S03-U005: 186409 audio/mpeg bytes
+S03-U006: 173035 audio/mpeg bytes
+S03-U007: 102400 audio/mpeg bytes
+S03-U008: 150883 audio/mpeg bytes
+S03-U009: 30511 audio/mpeg bytes
+S03-U010: 19226 audio/mpeg bytes
+S03-U011: 18390 audio/mpeg bytes
+S03-U012: 13374 audio/mpeg bytes
+S03-U013: 19226 audio/mpeg bytes
+S03-U014: 13374 audio/mpeg bytes
+S03-U015: 16300 audio/mpeg bytes
+S03-U016: 12538 audio/mpeg bytes
+S03-U017: 50991 audio/mpeg bytes
+S03-U018: 273345 audio/mpeg bytes
+S03-U019: 77740 audio/mpeg bytes
+S03-U020: 520777 audio/mpeg bytes
+S03-U021: 58514 audio/mpeg bytes
+S03-U022: 1294419 audio/mpeg bytes
+S03-U023: 250357 audio/mpeg bytes
+S03-U024: 415033 audio/mpeg bytes
+S03-U025: 82337 audio/mpeg bytes
+S04-U001: 72724 audio/mpeg bytes
+S04-U002: 45139 audio/mpeg bytes
+S04-U003: 25077 audio/mpeg bytes
+S04-U004: 31764 audio/mpeg bytes
+S04-U005: 20480 audio/mpeg bytes
+S04-U006: 20062 audio/mpeg bytes
+S04-U007: 13374 audio/mpeg bytes
+S04-U008: 19226 audio/mpeg bytes
+S04-U009: 12538 audio/mpeg bytes
+S04-U010: 16300 audio/mpeg bytes
+S04-U011: 12538 audio/mpeg bytes
+S04-U012: 64365 audio/mpeg bytes
+S04-U013: 224444 audio/mpeg bytes
+S04-U014: 37198 audio/mpeg bytes
+S04-U015: 278360 audio/mpeg bytes
+S04-U016: 48065 audio/mpeg bytes
+S05-U001: 70635 audio/mpeg bytes
+S05-U002: 61440 audio/mpeg bytes
+S05-U003: 241998 audio/mpeg bytes
+S05-U004: 140852 audio/mpeg bytes
+S05-U005: 438439 audio/mpeg bytes
+S05-U006: 163422 audio/mpeg bytes
+S05-U007: 438857 audio/mpeg bytes
+S05-U008: 128313 audio/mpeg bytes
+S05-U009: 129985 audio/mpeg bytes
+S05-U010: 33436 audio/mpeg bytes
+S05-U011: 28003 audio/mpeg bytes
+S05-U012: 64365 audio/mpeg bytes
+S05-U013: 135000 audio/mpeg bytes
+S05-U014: 371565 audio/mpeg bytes
+S05-U015: 185573 audio/mpeg bytes
+S05-U016: 132911 audio/mpeg bytes
+S05-U017: 119536 audio/mpeg bytes
+S05-U018: 579291 audio/mpeg bytes
+S05-U019: 166347 audio/mpeg bytes
+S05-U020: 629864 audio/mpeg bytes
+S05-U021: 32600 audio/mpeg bytes
+S05-U022: 28839 audio/mpeg bytes
+S05-U023: 20062 audio/mpeg bytes
+S05-U024: 18390 audio/mpeg bytes
+S05-U025: 18390 audio/mpeg bytes
+S05-U026: 17554 audio/mpeg bytes
+S05-U027: 17554 audio/mpeg bytes
+S05-U028: 22987 audio/mpeg bytes
+S05-U029: 350667 audio/mpeg bytes
+S05-U030: 176796 audio/mpeg bytes
+S05-U031: 133746 audio/mpeg bytes
+S05-U032: 685035 audio/mpeg bytes
+S05-U033: 104489 audio/mpeg bytes
+S05-U034: 245760 audio/mpeg bytes
+S05-U035: 136672 audio/mpeg bytes
+S05-U036: 298422 audio/mpeg bytes
+S05-U037: 160914 audio/mpeg bytes
+S05-U038: 125387 audio/mpeg bytes
+S05-U039: 50573 audio/mpeg bytes
+S05-U040: 196858 audio/mpeg bytes
+S05-U041: 124551 audio/mpeg bytes
+S05-U042: 488594 audio/mpeg bytes
+S05-U043: 136672 audio/mpeg bytes
+S05-U044: 19226 audio/mpeg bytes
+S05-U045: 25913 audio/mpeg bytes
+S06-U001: 63947 audio/mpeg bytes
+S06-U002: 52662 audio/mpeg bytes
+S06-U003: 178050 audio/mpeg bytes
+S06-U004: 198948 audio/mpeg bytes
+S06-U005: 23823 audio/mpeg bytes
+S06-U006: 169273 audio/mpeg bytes
+S06-U007: 22151 audio/mpeg bytes
+S06-U008: 168437 audio/mpeg bytes
+S06-U009: 22151 audio/mpeg bytes
+S06-U010: 140434 audio/mpeg bytes
+scripture-BereanStandardBible: 1236323 audio/mpeg bytes
+scripture-unfoldingWordLiteral: 1314481 audio/mpeg bytes
+scripture-unfoldingWordSimplified: 1804747 audio/mpeg bytes

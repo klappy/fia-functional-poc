@@ -1,0 +1,23 @@
+{
+  "sourceId": "c168",
+  "sourceUrl": "https://s3.amazonaws.com/cbbt-er.public/media/maps/eng/c168/v1/original.png",
+  "originalSha256": "012583ca2ccc485fcb236b9e7d9580b35b1380bd0416758f36b023bd619e096e",
+  "originalBytes": 7735008,
+  "request": {
+    "media_type": "image",
+    "q": "high",
+    "f": "webp",
+    "w": 3000,
+    "h": 4000
+  },
+  "derivativeUrl": "https://transcode.klappy.dev/image/w=3000,h=4000,q=high,f=webp/https://s3.amazonaws.com/cbbt-er.public/media/maps/eng/c168/v1/original.png",
+  "actualGet": {
+    "mime": "image/webp",
+    "width": 3000,
+    "height": 4000,
+    "bytes": 585486,
+    "sha256": "51abd413297e9e6dd4174c44baca342275f3982690dc945095a67c47d120d913"
+  },
+  "authorVisual": "Nazareth, Galilee, Judea, Jerusalem, Jordan River and both legend blocks readable; full source composition retained at inspected returned view.",
+  "disposition": "Assessment only; derivative not adopted or copied to Git. Original source pins and offline assets remain unchanged pending independent derivative/notice review."
+}
