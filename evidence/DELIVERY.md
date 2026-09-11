@@ -82,3 +82,5 @@ Ready-player revision: the dock remains visible for the currentGuide/Scripture/s
 ## Next-action author delta
 
 19independently source/hash/full-decode verified recordings add only reviewed pause wording; original145 remain unchanged,164storedclips.185required files91,958,017bytes.111activities+2source-metadata positions preserve all130canonical IDs with hidden13and39stopwitnesses. MediaRequests has no inventedmap link; legacy restoration is positional and disclosed. Full source/task/object/resources remain accessible.32unit checks passed; actual browser/offline receipts and truthful4.099sminimum generation-start gap are retained under next-actions. Upcoming automatic timing change is separate.
+
+Automatic guide clips now wait750ms between recordings; manualPlay is immediate and discussion pauses remain indefinite. Pause holds a queued nextclip; Resume starts it once; Restart replays the visible completedclip. Dock intrinsic width is capped to actual navigation width. Current185-file pack91,959,155bytes;164 audio files unchanged.
