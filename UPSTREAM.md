@@ -1,3 +1,5 @@
+> SUPERSEDED AUTHORITY INTERPRETATION — visual-coherence dish2026-09-11: the user requested actual FIA identity and blue-gray primary colors, not flat white or removal of aurora. Any prior statement below attributing aurora removal to the user is withdrawn. The current implementation restores the complete shared CSS/components and material hierarchy while retaining useful app IA. Earlier evidence is historical.
+
 # Upstream bindings
 
 Accepted product/source plan: klappy/fia-app-cookbook at `2d90436c80b0c5aa2f18bc7594347b1d6244e704`, `poc/PLAN.md`, `SOURCE-PACK.md`, `CUE-MANIFEST.json`, `RESOURCE-PATHS.json`.

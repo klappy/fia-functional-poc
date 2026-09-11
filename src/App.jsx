@@ -1,8 +1,11 @@
+import { AuroraField } from './vendor/glass/components/glass/AuroraField.jsx';
+import { GlassSearch } from './vendor/glass/components/forms/GlassSearch.jsx';
+import { FilterChips } from './vendor/glass/components/forms/FilterChips.jsx';
 import ResourceTile from './components/ResourceTile.jsx';
 import { resourceLabel } from './lib/resource-label.js';
 import React, { useEffect, useState } from 'react';
-import { GlassSurface } from './vendor/glass/components/GlassSurface.jsx';
-import { GlassButton } from './vendor/glass/components/GlassButton.jsx';
+import { GlassSurface } from './vendor/glass/components/glass/GlassSurface.jsx';
+import { GlassButton } from './vendor/glass/components/glass/GlassButton.jsx';
 import SessionHeader from './components/SessionHeader.jsx';
 import StepFlow from './components/StepFlow.jsx';
 import ScripturePanel, { VersionPicker } from './components/ScripturePanel.jsx';
@@ -30,7 +33,7 @@ function Session({ pack }) {
   const version = value => setSession(current => ({ ...current, version: value }));
   const step = id => { setSession(current => selectStep(current,id,pack.guide,pack.cues)); setView('guide'); };
   const resource = item => setSelection({ item });
-  return <div className="app-shell">
+  return <AuroraField className="app-aurora" drift={false}><div className="app-shell">
     <a className="skip-link" href="#session-main">Skip to passage</a>
     <SessionHeader view={view} setView={setView} visited={session.visited.length}/>
     <main id="session-main" tabIndex="-1">
@@ -39,11 +42,11 @@ function Session({ pack }) {
       {session.finished && <GlassSurface className="completion-note" level={4}><h2>Session finished</h2><p>All six steps were visited. This records your choice to finish, not an assessment of understanding.</p><GlassButton onClick={() => setSession(current => ({ ...current, finished: false }))}>Return to the guide</GlassButton></GlassSurface>}
       {view === 'guide' && <><VersionPicker value={session.version} onChange={version}/><StepFlow session={session} pack={pack} onMove={direction => setSession(current => moveUnit(current,direction,pack.guide,pack.cues))} onStep={step} onResource={resource} onScripture={() => setView('scripture')} onSource={() => setSelection({ title:'Complete source guide', children:<GuideSource pack={pack}/> })} onExamples={() => setSelection({ title:'Source example — possible responses', children:<GuideSource pack={pack} examplesOnly/> })} onFinish={() => { if (canFinish(session,pack.guide)) setSession(current=>({...current,finished:true})); }}/></>}
       {view === 'scripture' && <ScripturePanel bible={bible} onVersion={version}/>}
-      {view === 'resources' && <section aria-labelledby="resources-title"><div className="resource-heading"><div><p className="eyebrow">For this passage</p><h2 id="resources-title">Explore the resources</h2></div><label htmlFor="resource-type">Show<select id="resource-type" aria-label="Show resources" value={filter} onChange={e=>setFilter(e.target.value)}>{[['all','All resources'],['map','Maps'],['image','Images'],['term','Key terms'],['video','Video links']].map(([id,label])=><option key={id} value={id}>{label}</option>)}</select></label></div><p className="resource-count">21 key terms · 4 maps · 4 images · 3 online video links</p><label className="resource-search">Search resources<input type="search" value={query} onChange={e=>setQuery(e.target.value)} placeholder="Search this passage’s resources"/></label><div className="resource-grid">{pack.resources.filter(item=>(filter==='all'||item.kind===filter)&&resourceLabel(item).toLowerCase().includes(query.trim().toLowerCase())).map(item=><ResourceTile key={`${item.resourceCode}/${item.content_id}`} item={item} onOpen={resource}/>)}{!pack.resources.some(item=>(filter==='all'||item.kind===filter)&&resourceLabel(item).toLowerCase().includes(query.trim().toLowerCase()))&&<p role="status">No resources match this search.</p>}</div></section>}
+      {view === 'resources' && <section aria-labelledby="resources-title"><div className="resource-heading"><div><p className="eyebrow">For this passage</p><h2 id="resources-title">Explore the resources</h2></div></div><p className="resource-count">21 key terms · 4 maps · 4 images · 3 online video links</p><GlassSearch aria-label="Search resources" value={query} onChange={e=>setQuery(e.target.value)} placeholder="Search this passage’s resources"/><FilterChips aria-label="Resource types" className="resource-filters" bleed={false} options={[{value:'all',label:'All'},{value:'map',label:'Maps'},{value:'image',label:'Images'},{value:'term',label:'Key terms'},{value:'video',label:'Video links'}]} value={[filter]} onChange={values=>setFilter(values.at(-1)??'all')} style={{flexWrap:'wrap',margin:'14px 0 20px',overflow:'visible'}}/><div className="resource-grid">{pack.resources.filter(item=>(filter==='all'||item.kind===filter)&&resourceLabel(item).toLowerCase().includes(query.trim().toLowerCase())).map(item=><ResourceTile key={`${item.resourceCode}/${item.content_id}`} item={item} onOpen={resource}/>)}{!pack.resources.some(item=>(filter==='all'||item.kind===filter)&&resourceLabel(item).toLowerCase().includes(query.trim().toLowerCase()))&&<p role="status">No resources match this search.</p>}</div></section>}
     </main>
     <footer className="app-footer"><p>FIA · English passage PoC</p><p>Guide navigation is available. Narration and offline saving are not available in this build.</p><p>Speak and explore together; nothing is recorded.</p></footer>
     {selection && <ResourceDialog key={selection.item?.content_id ?? selection.title} selection={selection} onClose={()=>setSelection(null)}/>}
-  </div>;
+  </div></AuroraField>;
 }
 export default function App() {
   const [pack,setPack] = useState(null); const [error,setError] = useState(''); const [attempt,setAttempt] = useState(0);

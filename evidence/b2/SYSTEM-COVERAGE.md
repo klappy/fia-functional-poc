@@ -1,3 +1,5 @@
+> SUPERSEDED AUTHORITY INTERPRETATION — visual-coherence dish2026-09-11: the user requested actual FIA identity and blue-gray primary colors, not flat white or removal of aurora. Any prior statement below attributing aurora removal to the user is withdrawn. The current implementation restores the complete shared CSS/components and material hierarchy while retaining useful app IA. Earlier evidence is historical.
+
 # Repo-wide design-system inspection and selection
 
 User direction broadened inspection beyond the FIA kit. Actual repo HEAD reobserved8d6b48dd93b6efa43305724a0cf320a85feabe5b. This is an honest coverage inventory, not a claim every repository byte or rendered state was inspected.

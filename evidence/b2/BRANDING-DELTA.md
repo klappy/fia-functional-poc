@@ -1,3 +1,5 @@
+> SUPERSEDED AUTHORITY INTERPRETATION — visual-coherence dish2026-09-11: the user requested actual FIA identity and blue-gray primary colors, not flat white or removal of aurora. Any prior statement below attributing aurora removal to the user is withdrawn. The current implementation restores the complete shared CSS/components and material hierarchy while retaining useful app IA. Earlier evidence is historical.
+
 # Branding correction — driver-seat lens before edits
 
 User correction supersedes the initial app-theme choice: use actual FIA website identity, not the green/cream theme or typographic substitute mark. Functional source scope and accepted B1 bytes remain unchanged.

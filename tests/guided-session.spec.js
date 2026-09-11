@@ -5,7 +5,7 @@ test('real guide, Scripture selection and exact position survive view changes an
  await page.getByRole('button',{name:'Continue',exact:false}).click();await page.getByRole('button',{name:'Continue',exact:false}).click();
  await expect(page.getByTestId('current-unit')).toContainText('What do you like');await expect(page.getByRole('status')).toContainText('Take your time');
  await page.getByLabel('Scripture version').selectOption('unfoldingWordLiteral');
- await page.getByRole('button',{name:'Scripture',exact:true}).click();await expect(page.locator('.scripture-text p')).toHaveCount(13);
+ await page.getByRole('button',{name:'Scripture',exact:true}).click();await expect(page.locator('.scripture-text [lang="en"] > span')).toHaveCount(13);
  await expect(page.locator('.scripture-text')).toContainText('The beginning of the gospel');
  await page.getByRole('button',{name:'Guide',exact:true}).click();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S01-U003');
  await page.reload();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S01-U003');await expect(page.getByLabel('Scripture version')).toHaveValue('unfoldingWordLiteral');
@@ -23,9 +23,9 @@ test('examples require explicit reveal and every resource type is available',asy
  await expect(page.getByText('The following is an example of the drama and possible responses.')).toHaveCount(0);
  await page.getByRole('button',{name:'Show source example',exact:true}).click();await expect(page.getByRole('dialog')).toContainText('The following is an example');
  await page.keyboard.press('Escape');await page.getByRole('button',{name:'Resources',exact:true}).click();await expect(page.locator('.resource-card')).toHaveCount(32);
- await page.getByLabel('Show resources', {exact:true}).selectOption('term');await expect(page.locator('.resource-card')).toHaveCount(21);
+ await page.getByRole('button',{name:'Key terms',exact:true}).click();await expect(page.locator('.resource-card')).toHaveCount(21);
  await page.getByRole('button',{name:'Open gospel term'}).click();await expect(page.getByRole('dialog')).toContainText('gospel');await page.keyboard.press('Escape');
- await page.getByLabel('Show resources', {exact:true}).selectOption('video');await expect(page.locator('.resource-card')).toHaveCount(3);await page.locator('button.resource-card').first().click();await expect(page.getByRole('dialog')).toContainText('not downloaded');
+ await page.getByRole('button',{name:'Video links',exact:true}).click();await expect(page.locator('.resource-card')).toHaveCount(3);await page.locator('button.resource-card').first().click();await expect(page.getByRole('dialog')).toContainText('not downloaded');
 });
 test('narrow layout, keyboard dialog and large text remain usable',async({page})=>{
  await page.setViewportSize({width:320,height:844});await expect(page.locator('body')).toBeVisible();
@@ -47,7 +47,7 @@ test('duplicate source names are distinguished by source meaning and inspected i
 });
 test('official FIA identity and colors render with readable contrast',async({page})=>{
  await expect(page.getByRole('img',{name:'FIA',exact:true})).toBeVisible();await expect(page.locator('.official-fia-mark svg')).toHaveCount(2);await expect(page.getByText('Passage PoC',{exact:true})).toBeVisible();
- await expect(page.locator('body')).toHaveCSS('background-color','rgb(255, 255, 255)');await expect(page.locator('.official-fia-mark')).toHaveCSS('color','rgb(59, 96, 134)');await expect(page.getByRole('heading',{level:1})).toHaveCSS('color','rgb(65, 81, 104)');await expect(page.getByRole('button',{name:'Guide',exact:true})).toHaveCSS('background-color','rgb(51, 83, 116)');
+ await expect(page.locator('.app-aurora > div').first()).not.toHaveCSS('background-image','none');await expect(page.locator('.official-fia-mark')).toHaveCSS('color','rgb(59, 96, 134)');await expect(page.getByRole('heading',{level:1})).toHaveCSS('color','rgb(36, 44, 58)');await expect(page.getByRole('button',{name:'Guide',exact:true})).toHaveCSS('background-color','rgb(51, 83, 116)');
  const luminance=rgb=>rgb.map(x=>{x/=255;return x<=.04045?x/12.92:((x+.055)/1.055)**2.4}).reduce((n,x,i)=>n+x*[.2126,.7152,.0722][i],0);
  for(const rgb of [[65,81,104],[51,83,116],[59,96,134]])expect(1.05/(luminance(rgb)+.05)).toBeGreaterThan(4.5);
  await page.setViewportSize({width:320,height:844});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
@@ -55,10 +55,10 @@ test('official FIA identity and colors render with readable contrast',async({pag
 
 test('resources show all eight real previews, source metadata, search and honest online video',async({page})=>{
  const videos=[];page.on('request',req=>{if(/\.(mp4|webm)(\?|$)/i.test(req.url()))videos.push(req.url());});
- await page.getByRole('button',{name:'Resources',exact:true}).click();const previews=page.locator('.resource-media img');await expect(previews).toHaveCount(8);
+ await page.getByRole('button',{name:'Resources',exact:true}).click();const previews=page.locator('.preview-integrity-probe');await expect(previews).toHaveCount(8);
  for(const image of await previews.all()){await expect.poll(()=>image.evaluate(i=>i.complete&&i.naturalWidth>0)).toBe(true);await expect(image).toHaveAttribute('src',/^\/assets\/mark-1-1-13\//);}
- await expect(page.locator('.resource-map img').first()).toHaveCSS('object-fit','contain');await expect(page.locator('.resource-image img').first()).toHaveCSS('object-fit','cover');
- await expect(page.locator('.resource-provenance')).toHaveCount(32);await expect(page.locator('.resource-provenance').first()).toContainText('CC');
+ await expect(page.locator('.resource-map .resource-card > div').first()).toHaveCSS('background-size',/^contain/);await expect(page.locator('.resource-image .resource-card > div').first()).toHaveCSS('background-size',/^cover/);
+ await expect(page.locator('.resource-card')).toHaveCount(32);await expect(page.locator('.resource-card').first()).toContainText('CC');
  await expect(page.locator('.video-affordance')).toHaveCount(3);await expect(page.locator('.resource-video img')).toHaveCount(0);expect(videos).toEqual([]);
  await page.getByLabel('Search resources').fill('sandals');await expect(page.locator('.resource-card')).toHaveCount(3);await page.getByLabel('Search resources').fill('no-such-resource');await expect(page.getByRole('status')).toContainText('No resources match');await page.getByLabel('Search resources').fill('');
  await page.setViewportSize({width:320,height:844});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);

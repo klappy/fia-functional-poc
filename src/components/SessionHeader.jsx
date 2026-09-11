@@ -1,6 +1,6 @@
 import FiaBrand from './FiaBrand.jsx';
 import React from 'react';
-import { GlassButton } from '../vendor/glass/components/GlassButton.jsx';
+import { GlassButton } from '../vendor/glass/components/glass/GlassButton.jsx';
 export default function SessionHeader({ view, setView, visited }) {
   return <header className="session-header">
     <div className="identity"><FiaBrand/><div><p className="eyebrow">Familiarize · Internalize · Articulate</p><h1>Mark 1:1–13</h1><p className="subtitle">A passage to explore together</p></div></div>
