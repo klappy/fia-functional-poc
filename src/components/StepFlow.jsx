@@ -1,3 +1,5 @@
+import infoIcon from '../vendor/media-icons/info.svg';
+import{GlassIconButton}from'../vendor/glass/components/glass/GlassIconButton.jsx';
 import {GlassSelect} from '../vendor/glass/components/forms/GlassSelect.jsx';
 import { Icon } from '../vendor/glass/components/icons/Icon.jsx';
 import ResourceTile from './ResourceTile.jsx';
@@ -16,14 +18,14 @@ export default function StepFlow({ session, pack, onMove, onStep, onResource, on
   return <>
     <div className="secondary-band guide-chooser"><GlassSelect label="Guide step" aria-label="Guide step" value={step.id} onChange={onStep} options={pack.guide.steps.map((s,i)=>({value:s.id,label:`${i+1} of 6 · ${s.title}`}))}/><GlassButton onClick={onIndex}>Section {index+1} of {units.length} · Browse</GlassButton></div>
     <GlassSurface as="section" level={4} className="reading-card guide-card" aria-label="Source guide">
-      <div className="content-heading"><span className="eyebrow">{isStop?'Pause together':'Guide'}</span><div className="card-players">{transport}{player}</div></div>
+      <div className="content-heading"><span className="eyebrow">{isStop?'Pause together':'Guide'}</span><div className="card-players"><GlassIconButton size={44} label="Read complete guide and attribution" onClick={onSource}><img src={infoIcon} width="18" height="18" alt=""/></GlassIconButton>{transport}{player}</div></div>
       <div className="source-scroll" ref={body}>
       <div className="current-unit" data-testid="current-unit" data-unit-id={unit.id}><SafeHtml html={unit.html}/></div>
 
       {unit.text.startsWith('Listen to an audio') && <div className="scripture-prompt"><GlassButton variant="dark" onClick={onPlayScripture}>Play Scripture {versionLabel}</GlassButton><button className="text-button" onClick={onScripture}>Read the selected Scripture</button></div>}
       {attached.length > 0 && <div className="context-resources"><h3>Explore at this point</h3>{attached.map(item => <ResourceTile key={item.content_id} item={item} player={termPlayer(item)} contextual onOpen={onResource} onPlay={onTermPlay} audioAvailable={termAvailable(item.content_id)}/>)}</div>}
       {step.id === 'S04' && <p className="example-note">The source includes possible drama responses. Keep them hidden while the group responds. <button className="text-button" onClick={onExamples}>Show source example</button></p>}
-      <button className="text-button source-link" onClick={onSource}>Read complete guide and attribution</button>
+
       </div><div className="guide-footer">{isStop&&<p role="status">Discuss together, then continue.</p>}<div className="guide-actions"><GlassButton onClick={() => onMove(-1)} disabled={step.id === 'S01' && index === 0}>Back</GlassButton>{atEnd ? <GlassButton variant="dark" onClick={onFinish} disabled={!canFinish(session, pack.guide)}>Finish session</GlassButton> : <GlassButton variant={unit.text.startsWith('Listen to an audio')?'glass':'dark'} onClick={() => onMove(1)}>Continue <Icon name="chevronRight" size={18} aria-hidden="true"/></GlassButton>}</div>
       {atEnd && !canFinish(session,pack.guide) && <p>Visit all six steps before finishing this session.</p>}
       </div>

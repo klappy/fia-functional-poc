@@ -72,3 +72,7 @@ Parent actual Chrome readback also observed the requested source label inside th
 ## Pause-presentation author delta
 
 The new explicit four-pair projection yields113activities covering117ordinary IDs and all39source stops in38groups. Four legacy cue bookmarks normalize with retained cue state; primary activity stays visible on audio ended. Counts8/12/25/16/45/7; guide player numeric position has a full accessible description.130canonicalunits/141audiofiles are unchanged, and proposed spoken-transition recordings are not part of this revision. Pack160files88,711,558bytes. Exact source identity receipt and focused tests are under pause-groups.
+
+## Four spoken-transition integration
+
+Four independently text/hash/decode-verified combined recordings override only the four reviewed activity parents. Original141 remain unchanged;145stored clips/165required files total89,774,977bytes. Expected spoken text is not a provider transcript; complete/offline heard quality remains pending. The quiet44px Info action opens the same full source/attribution dialog. Actual tests/receipts are under activity-transitions; broader19cue adaptation is not implemented here.
