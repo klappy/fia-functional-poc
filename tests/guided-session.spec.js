@@ -63,3 +63,7 @@ test('resources show all eight real previews, source metadata, search and honest
  await page.getByLabel('Search resources').fill('sandals');await expect(page.locator('.resource-card')).toHaveCount(3);await page.getByLabel('Search resources').fill('no-such-resource');await expect(page.getByRole('status')).toContainText('No resources match');await page.getByLabel('Search resources').fill('');
  await page.setViewportSize({width:320,height:844});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
 });
+test('finished-session return from another view really restores the guide',async({page})=>{
+ await page.evaluate(()=>localStorage.setItem('fia.session.mark-1-1-13.v1',JSON.stringify({schemaVersion:1,passage:'mark-1-1-13',stepId:'S06',unitId:'S06-U001',version:'BereanStandardBible',visited:['S01','S02','S03','S04','S05','S06'],finished:true})));
+ await page.reload();await page.getByRole('button',{name:'Resources',exact:true}).click();await page.getByRole('button',{name:'Return to the guide',exact:true}).click();await expect(page.getByTestId('current-unit')).toBeVisible();await expect(page.getByRole('heading',{name:'Session finished',exact:true})).toHaveCount(0);
+});
