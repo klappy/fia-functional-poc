@@ -4,7 +4,7 @@ const sha=async bytes=>[...new Uint8Array(await crypto.subtle.digest('SHA-256',b
 /** Verify only the selected source recording before playback; no runtime provider calls. */
 export class AudioController {
  constructor(AudioType,onState,{manifest={entries:[...recordingManifest.entries,...termManifest.entries]},fetcher=(...args)=>fetch(...args),urlApi=URL}={}){this.AudioType=AudioType;this.onState=onState;this.manifest=manifest;this.fetcher=fetcher;this.urlApi=urlApi;this.generation=0;this.events=[];}
- emit(status,error=''){this.status=status;this.onState({status,error,sourceId:this.item?.id,title:this.item?.title??'',owner:this.item?.owner,elapsed:Number.isFinite(this.audio?.currentTime)?this.audio.currentTime:0,duration:Number.isFinite(this.audio?.duration)?this.audio.duration:0,events:this.events.slice(-30)});}
+ emit(status,error=''){this.status=status;this.onState({status,error,sourceId:this.item?.id,title:this.item?.title??'',fullTitle:this.item?.fullTitle??this.item?.title??'',owner:this.item?.owner,elapsed:Number.isFinite(this.audio?.currentTime)?this.audio.currentTime:0,duration:Number.isFinite(this.audio?.duration)?this.audio.duration:0,events:this.events.slice(-30)});}
  release(){if(this.objectUrl){this.urlApi.revokeObjectURL(this.objectUrl);this.objectUrl=null;}}
  stop(){this.generation++;this.abort?.abort();if(this.audio){this.audio.pause();this.audio.removeAttribute?.('src');this.audio.load?.();this.audio=null;}this.release();this.item=null;this.emit('idle');}
  restart(){const token=this.generation;if(this.audio){this.audio.currentTime=0;this.audio.play().catch(e=>{if(token===this.generation)this.emit('error',e.message);});}}

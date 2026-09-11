@@ -29,7 +29,7 @@ Open Offline passage and choose Save for offline before disconnecting. Saved mea
 
 ## Boundaries and support
 
-- Working: source-backed guide/Scripture/resources,117 ordinary guide units with39 stops,32 resource associations, source/output-verified audio playback and160-file offline pack. See the detailed matrix in [DELIVERY](evidence/DELIVERY.md).
+- Working: source-backed guide/Scripture/resources,113 visible activities representing117 ordinary source units and39 raw stop records (38 stop-bearing groups),32 resource associations, source/output-verified audio playback and160-file offline pack. See the detailed matrix in [DELIVERY](evidence/DELIVERY.md).
 - Unverified: human-perceived online/offline voice quality, exhaustive pronunciation, physical phones, screen readers and full browser/OS restart. Desktop320/390px and keyboard/large-text tests are narrower evidence.
 - Unsupported here: microphone commands or recording, translation production/checking/upload, shared sessions, AI answers, original human guide recordings and video playback/download.
 
@@ -43,6 +43,8 @@ For a failure, retain the visible error, app commit, browser/version and exact r
 
 Current contextual-playback checkpoint: floating Guide/Scripture/Resources tabs, per-card playback with measured per-clip time, and a focused current-step section index. A subsequent holistic composition checkpoint compacts the header/context, places term controls inside their cards and keeps guide actions stable while source text scrolls. Independent visual acceptance remains pending.
 
-The active source/Pause action and thin real progress now stay in a matching floating glass dock beside navigation (stacked at narrow widths); card-corner Play starts that source. Dialogs expose the same owner while the page is inert. Current pack:141 recordings,160 files,88,710,894bytes. Existing voice remains the default after a limited user comparison; full-passage and offline heard-quality verification remain pending.
+The active source/Pause action and thin real progress now stay in a matching floating glass dock beside navigation (stacked at narrow widths); card-corner Play starts that source. Dialogs expose the same owner while the page is inert. Current pack:141 recordings,160 files,88,711,558bytes. Existing voice remains the default after a limited user comparison; full-passage and offline heard-quality verification remain pending.
 
 Compact transport revision: the dark source-labeled action toggles playback; a thin actual progress track replaces visible time numerals, with accessible timing semantics. Restart is a direct44px icon action. Failed recording errors remain visible at their source.
+
+Four literal pause-only cues attach to their preceding activities. Legacy cue positions restore to that activity with cue state; Continue moves to the next activity. Group counts are8/12/25/16/45/7. All original source and141 recordings remain; natural spoken transition replacements are a separate pending change.
