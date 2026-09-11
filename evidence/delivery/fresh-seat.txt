@@ -1,0 +1,1 @@
+{"browser":"153.0.8010.12","guide":117,"stops":39,"versions":["BereanStandardBible","unfoldingWordLiteral","unfoldingWordSimplified"],"screenshots":8}

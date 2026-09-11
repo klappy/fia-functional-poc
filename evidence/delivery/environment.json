@@ -1,0 +1,19 @@
+{
+  "observedAt": "2026-09-11T22:20:39.032721+00:00",
+  "appCommit": "67b2d704b952c20b3cda953a60b07b2b4c4138a9",
+  "node": "22.16.0",
+  "npm": "10.9.2",
+  "os": "macOS26.2 build25C5048a",
+  "automatedBrowser": "Chromium153.0.8010.12",
+  "previewUrl": "http://127.0.0.1:4493",
+  "previewPid": 72156,
+  "execSession": 53429,
+  "npmCi": {
+    "exitCode": 0,
+    "addedPackages": 25,
+    "auditReportedVulnerabilities": 0,
+    "receiptKind": "observed-tool-output-summary"
+  },
+  "privateProviderCallsDuringValidation": 0,
+  "humanHeardAudio": false
+}

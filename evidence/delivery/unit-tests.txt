@@ -1,0 +1,164 @@
+
+> fia-functional-poc@0.1.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: simulated HTMLAudio events advance only ended source units and suppress canceled callbacks
+ok 1 - simulated HTMLAudio events advance only ended source units and suppress canceled callbacks
+  ---
+  duration_ms: 31.029791
+  type: 'test'
+  ...
+# Subtest: simulated HTMLAudio pause resumes same source and media errors do not advance
+ok 2 - simulated HTMLAudio pause resumes same source and media errors do not advance
+  ---
+  duration_ms: 7.125042
+  type: 'test'
+  ...
+# Subtest: selected audio integrity failure and changed source fail before playback
+ok 3 - selected audio integrity failure and changed source fail before playback
+  ---
+  duration_ms: 11.619625
+  type: 'test'
+  ...
+# Subtest: pure synthesis guards count uncertain attempts and reject changed input, repeated IDs and cumulative caps without network
+ok 4 - pure synthesis guards count uncertain attempts and reject changed input, repeated IDs and cumulative caps without network
+  ---
+  duration_ms: 0.532625
+  type: 'test'
+  ...
+# Subtest: complete prepared audio binds exactly117 visible guide units and3 Scripture passages to immutable source bytes
+ok 5 - complete prepared audio binds exactly117 visible guide units and3 Scripture passages to immutable source bytes
+  ---
+  duration_ms: 78.518542
+  type: 'test'
+  ...
+# Subtest: a late resume rejection cannot overwrite a stopped session
+ok 6 - a late resume rejection cannot overwrite a stopped session
+  ---
+  duration_ms: 6.719125
+  type: 'test'
+  ...
+# Subtest: actual shell builder refuses missing, duplicate and source-mismatched mandatory narration manifests
+ok 7 - actual shell builder refuses missing, duplicate and source-mismatched mandatory narration manifests
+  ---
+  duration_ms: 120.599833
+  type: 'test'
+  ...
+# Subtest: official logo path bytes and viewBoxes match observed source receipt
+ok 8 - official logo path bytes and viewBoxes match observed source receipt
+  ---
+  duration_ms: 1.921041
+  type: 'test'
+  ...
+# Subtest: complete shared CSS and actual composed component sources retain pinned bytes
+ok 9 - complete shared CSS and actual composed component sources retain pinned bytes
+  ---
+  duration_ms: 3.071917
+  type: 'test'
+  ...
+# Subtest: complete source-guided traversal visits all39stops and never enters hidden examples
+ok 10 - complete source-guided traversal visits all39stops and never enters hidden examples
+  ---
+  duration_ms: 3.199416
+  type: 'test'
+  ...
+# Subtest: step selection and reverse navigation preserve Scripture but cannot enter examples
+ok 11 - step selection and reverse navigation preserve Scripture but cannot enter examples
+  ---
+  duration_ms: 0.109833
+  type: 'test'
+  ...
+# Subtest: storage validates exact source position and discards invalid or hidden units
+ok 12 - storage validates exact source position and discards invalid or hidden units
+  ---
+  duration_ms: 0.205917
+  type: 'test'
+  ...
+# Subtest: simulated storage quota failure cannot replace the previous active pointer
+ok 13 - simulated storage quota failure cannot replace the previous active pointer
+  ---
+  duration_ms: 22.264792
+  type: 'test'
+  ...
+# Subtest: complete selected source pack verifies from actual files
+ok 14 - complete selected source pack verifies from actual files
+  ---
+  duration_ms: 42.764333
+  type: 'test'
+  ...
+# Subtest: a missing or duplicated verse fails even with a valid transport digest
+ok 15 - a missing or duplicated verse fails even with a valid transport digest
+  ---
+  duration_ms: 296.517916
+  type: 'test'
+  ...
+# Subtest: altered Scripture or emitted guide text fails canonical comparison
+ok 16 - altered Scripture or emitted guide text fails canonical comparison
+  ---
+  duration_ms: 280.51425
+  type: 'test'
+  ...
+# Subtest: a missing resource and guessed map alias fail
+ok 17 - a missing resource and guessed map alias fail
+  ---
+  duration_ms: 279.683708
+  type: 'test'
+  ...
+# Subtest: discussion stops and example boundaries cannot silently change
+ok 18 - discussion stops and example boundaries cannot silently change
+  ---
+  duration_ms: 241.5925
+  type: 'test'
+  ...
+# Subtest: missing rights and flattened map notice fail
+ok 19 - missing rights and flattened map notice fail
+  ---
+  duration_ms: 250.6365
+  type: 'test'
+  ...
+# Subtest: video bytes are not an accepted offline resource
+ok 20 - video bytes are not an accepted offline resource
+  ---
+  duration_ms: 124.107167
+  type: 'test'
+  ...
+# Subtest: corrupt or missing actual media fails integrity verification
+ok 21 - corrupt or missing actual media fails integrity verification
+  ---
+  duration_ms: 108.684709
+  type: 'test'
+  ...
+# Subtest: a changed image cannot be legitimized by recomputing its manifest digest
+ok 22 - a changed image cannot be legitimized by recomputing its manifest digest
+  ---
+  duration_ms: 101.167292
+  type: 'test'
+  ...
+# Subtest: simulated speech events: cancellation rejects stale source advancement and old errors
+ok 23 - simulated speech events: cancellation rejects stale source advancement and old errors
+  ---
+  duration_ms: 6.906917
+  type: 'test'
+  ...
+# Subtest: simulated speech events: chunks preserve source and item advances only after final chunk
+ok 24 - simulated speech events: chunks preserve source and item advances only after final chunk
+  ---
+  duration_ms: 10.249625
+  type: 'test'
+  ...
+# Subtest: simulated pause/resume require actual adapter event and absent voices are honest
+ok 25 - simulated pause/resume require actual adapter event and absent voices are honest
+  ---
+  duration_ms: 6.041208
+  type: 'test'
+  ...
+1..25
+# tests 25
+# suites 0
+# pass 25
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1811.991708

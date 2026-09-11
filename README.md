@@ -1,12 +1,14 @@
-# FIA functional PoC — guided session
+# FIA functional PoC
 
-A working English Mark 1:1–13 six-step guide uses the verified source pack: explicit discussion stops, three Scripture versions, contextual maps/images/terms, online video links, optional source examples and device-local position. Prepared ElevenLabs narration and verified offline saving are implemented. Browser voices remain an optional fallback; independent audible-quality acceptance is still separate from playback events. This is one preliminary passage experience, not the complete FIA corpus.
+A runnable English Mark 1:1–13 experience: six source-guided steps, intentional discussion stops, three Scripture versions, contextual resources, prepared synthetic narration and verified offline saving. **Delivery is partial:** real playback and offline operation pass; human-heard narration quality has not been verified. This is one passage, not the complete FIA product.
 
-## Run the guided session
+## Run
 
-Node 22.16.0 was used (Node >=22.12 required).
+Requires Node >=22.12 (tested 22.16.0), npm and private repository access. Normal setup uses committed content/audio and makes no paid generation calls or runtime API-key requests.
 
 ```sh
+git clone https://github.com/klappy/fia-functional-poc.git
+cd fia-functional-poc
 npm ci
 npm test
 npm run verify:content
@@ -15,29 +17,26 @@ npm run build
 npm run preview -- --host 127.0.0.1 --port 4173
 ```
 
-Open http://127.0.0.1:4173. This command starts a local preview; it is not a deployed or continuously monitored service. For isolated browser checks, run `npx playwright install chromium` then `npm run test:e2e`. These use a separate automated browser context and do not alter your preview session.
+Open http://127.0.0.1:4173. Keep that terminal running. If the port is occupied, choose another port explicitly; saved browser data belongs to that origin. This is a local preview, not a hosted or monitored service. No account sign-in is needed inside the app.
 
-The generated pack is in `public/content/mark-1-1-13/`; eight original images are in `public/assets/mark-1-1-13/`. The manifest records actual hashes, dimensions and bytes. It is content provenance, **not proof that the browser saved the passage offline**.
+For browser verification: `npx playwright install chromium`, then `npm run test:e2e`. The default suite expects ports 4173/4185; stop other test servers or use an isolated test configuration. [Independent delivery evidence](evidence/DELIVERY.md) records the clean checkout, actual versions, launch and full test results.
 
-## Reproduce the source pack
+## Use
 
-```sh
-npm run prepare:content
-npm run verify:content
-npm test
-npm run build
-```
+Choose a Scripture version and select Listen. Guide narration stops at the next source discussion/activity boundary. Use Continue when ready; resource exploration and navigation stop narration. Possible drama responses appear only after Show source example. Pause/Resume works within a recording; reloading restores the guide unit and version, not an audio timestamp. Finish records an explicit choice after visiting all six steps, not understanding or learning.
 
-Preparation needs a network connection. It fetches only the pinned canonical source files, selected English metadata and eight image assets. The 32 one-hop associations include 21 terms, four images, four maps and three **online-only video links**; video bytes and thumbnails are never fetched. Three Scripture versions each contain all 13 verses. Guide segmentation preserves 130 source units, 39 pauses and a hidden example region revealed only by an explicit session action. Failed source/digest validation prevents publication from staging. Preparation replaces only this passage's generated directories and updates its exact source notices.
+Open Offline passage and choose Save for offline before disconnecting. Saved means every required file passed transfer and cached readback checks. The full pack is about 48.3 MB, including120 prepared MP3s and eight original images. Online video links and optional network fonts are excluded. Reloading online can show Update available; the previous saved pack stays until a complete replacement succeeds. Browser storage eviction remains possible. Check saved files revalidates; Remove saved passage removes its cache, retaining the shell and local position.
 
-Read [NOTICE.md](NOTICE.md) and [UPSTREAM.md](UPSTREAM.md). Map metadata names different holders in its supplied license and adaptation fields; both are retained, and the discrepancy is unresolved. Actual asset inspection found no visible conflicting notice; this is not comprehensive legal or geographic certification. No theological correctness, audience validation or complete FIA-corpus claim is made.
+## Boundaries and support
 
-## Remaining acceptance
+- Working: source-backed guide/Scripture/resources,117 ordinary guide units with39 stops,32 resource associations, source/output-verified audio playback and137-file offline pack. See the detailed matrix in [DELIVERY](evidence/DELIVERY.md).
+- Unverified: human-perceived online/offline voice quality, exhaustive pronunciation, physical phones, screen readers and full browser/OS restart. Desktop320/390px and keyboard/large-text tests are narrower evidence.
+- Unsupported here: microphone commands or recording, translation production/checking/upload, shared sessions, AI answers, original human guide recordings and video playback/download.
 
-Primary later runtime target: headed Chrome 152.0.7977.83 on macOS 26.2 build 25C5048a, reobserved at B3; 320/390px responsive checks. Playwright Chromium is separate automation. Physical phones remain untested. Actual audible quality requires independent observation; successful decoding and playback events do not prove what a listener heard.
+Prepared ElevenLabs audio is explicitly synthetic. Browser voices are an optional fallback. No credentials or synthesis service are needed at runtime; do not run the maintenance generation script during setup. Future synthesis is a separately bounded operation, with changed-input/uncertain-attempt holds. Quota and provider-internal billing are unknown.
 
-Source tests and evidence are in [evidence/source-foundation.md](evidence/source-foundation.md). The [accepted cookbook plan](https://github.com/klappy/fia-app-cookbook/blob/2d90436c80b0c5aa2f18bc7594347b1d6244e704/poc/PLAN.md) and kitchen gates govern the next dishes. No private conversations, translation recording, runtime AI backend or credentials are included. Normal install/build/preview uses committed recordings and makes no paid synthesis calls.
+Read [NOTICE](NOTICE.md), [UPSTREAM](UPSTREAM.md) and the [selected source pack](https://github.com/klappy/fia-app-cookbook/blob/2d90436c80b0c5aa2f18bc7594347b1d6244e704/poc/SOURCE-PACK.md). Source-specific attribution and adaptations remain intact. Conflicting map-holder metadata is preserved, not resolved into blanket legal clearance. Source fidelity is not theological or geographic certification. Generated voice media stays in this private app; it is not published with cookbook findings.
 
-Visual coherence uses the complete pinned Generative Glass CSS and actual shared components within the current guide/navigation structure. [Matched reference evidence](evidence/visual-coherence/READBACK.md) records all four views, source bindings and necessary wrappers. Earlier flat-white visual acceptance was withdrawn; FIA identity did not authorize removing aurora. The full font stylesheet is retained, with external Noto imports and system fallbacks; eight unavailable SF binaries are not included, and their build warnings are documented. Offline Scripture font fallback has been rendered and inspected; unavailable SF files and external Noto availability are not implied by the stylesheet.
+The complete pinned Generative Glass CSS and actual shared components supply the visual system, including aurora, glass surfaces and resource cards. App wrappers supply source, accessibility and event behavior. Optional network Noto fonts and unavailable SF font binaries fall back locally; expected missing-SF build warnings do not mean those fonts shipped. The original image assets remain; no experimental image compression was adopted.
 
-B3 partial runtime evidence is in [evidence/b3/READBACK.md](evidence/b3/READBACK.md). `npm run build` emits a finite offline shell manifest. Save is verified by actual cache readback; optional network fonts/video are excluded. The full pack includes120 source-bound MP3 files. Selected recordings are hash-verified before native audio playback; browser voice events and localService flags are not audible-quality proof. Do not rerun synthesis during normal setup: the maintenance generator enforces cumulative request caps and holds uncertain or changed-input regeneration for review.
+For a failure, retain the visible error, app commit, browser/version and exact reproduction steps in the private repository issue. Source errors fail explicitly; no substitute content is generated. Product findings belong in the [FIA cookbook](https://github.com/klappy/fia-app-cookbook); claims, gates and final verdict remain in the authorized kitchen records. Never attach private conversations or credentials.

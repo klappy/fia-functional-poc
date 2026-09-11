@@ -1,0 +1,48 @@
+# Independent delivery validation
+
+Observed 2026-09-11. Validated clean GitHub checkout 67b2d704b952c20b3cda953a60b07b2b4c4138a9, equal to reviewed B3 product/evidence tree. This delivery change contains documentation/evidence only. Independent validator was not the implementation author.
+
+**Verdict: usable partial PoC.** Required human-heard online/offline narration quality remains unverified. Decoded audio and native playback events do not discharge that gate.
+
+## Repeatable launch and environment
+
+Fresh clone /tmp/fia-b4-delivery-20260911; clean npm ci installed25 packages, audit 0 reported vulnerabilities. Node 22.16.0/npm 10.9.2, macOS 26.2 build 25C5048a. Automated browser Chromium 153.0.8010.12, independent contexts. Coordinator's separate actual headed Chrome 152.0.7977.83 observations are B3 evidence, not this validator's fresh-browser identity.
+
+Fresh production preview http://127.0.0.1:4493, actual exec session 53429/process 72156 observed running. Command: `npm run preview -- --host 127.0.0.1 --port 4493 --strictPort`. User's existing4173preview was preserved. The process can be restarted with that command from this checkout; no uptime/monitoring promise. README uses4173 as a conventional available local port.
+
+## Actual checks
+
+| Check | Observed result | Evidence |
+|---|---|---|
+| Fresh install | npm ci exit 0, no reused node_modules | Environment receipt above |
+| Unit/source tests |25 passed, exit 0 |[log](delivery/unit-tests.txt) |
+| Canonical content | Verified selected sources/assets, exit 0 |[log](delivery/content-verification.txt) |
+| Audio identity |120 exact source/output identities, exit 0;0 stream probes in this command |[log](delivery/audio-verification.txt); B3 separately probed streams |
+| Production build | exit 0;137 files48,290,467 bytes |[log](delivery/build.txt) |
+| Complete browser suite |14 passed in 34.2 seconds, exit 0 |[log](delivery/browser-tests.txt) |
+| Independent fresh-seat traversal |117 ordinary units, all 39 stops, six steps, three 13-verse versions; Finish/return;320/390px no horizontal overflow |[readback](delivery/fresh-seat.json), [script](delivery/fresh-seat.mjs) |
+| Render inspection | Personally inspected guide 320, Scripture 390, resources 320 and map 390captures: readable hierarchy, visible aurora/glass, actual media and unobscured map; eight captures retained |[guide](delivery/guide-320.png), [Scripture](delivery/scripture-390.png), [resources](delivery/resources-320.png), [map](delivery/map-390.png) |
+
+Browser commands used an isolated config with preview 4483 and test fault server 4485, strict nonreuse, so no live user server was substituted. Port-only harness edits were restored afterward. Suite includes actual native audio playing/pause/resume/ended and cold offline replay;137-file cold SHA/length readback; missing/corrupt/canceled replacement retention; cache corruption/removal; exact old-saved shell upgrade preserving position and old cache until explicit save; resources/focus/examples/branding/narrow and CSS 200% large-text checks. Fault injection and quota fixtures are labeled simulations; live decode/cache/browser behavior is actual. CSS zoom is not fresh native browser zoom or a physical-phone test.
+
+## Capability matrix
+
+| Capability | Status and exact boundary |
+|---|---|
+| Guide and Scripture | Working for English Mark 1:1–13, all six steps/three versions × 13 verses; source data and cue hashes preserved. |
+| Stops and examples | Working117 ordinary guide units/39intentional boundaries;13 example units excluded from automatic flow and explicitly revealable. Automated full traversal does not prove group participation. |
+| Resources | Working32 associations:21 terms,4 maps,4 photos,3 online-only video links. All8original images decode and remain offline; full map detail preserves original aspect/legend. No video playback/download claim. |
+| Synthetic playback | Working selected-source/input/output verification, actual browser playback/pause/resume/cancel/end and offline replay.120 committed clips24,593,498 bytes. Human-heard quality remains untested and mandatory overall verdict partial. |
+| Save/offline/update | Working137-file verified staging/readback and fresh-page offline reload. Previous valid cache survives failed replacement; ordinary legacy upgrade preserves position. Full browser/OS restart and storage eviction recovery are not exhaustively tested. |
+| Resume/finish | Working source-unit/version restoration and in-recording pause/resume; no exact audio timestamp after reload. Finish means steps visited and explicit choice only. |
+| Design/accessibility | Actual complete pinned shared CSS plus the actual components used by this app ([UPSTREAM](../UPSTREAM.md)) and FIA identity; desktop 320/390px, keyboard/modal focus and CSS large-text checks. Physical devices/screen readers remain untested. |
+| Failure fixtures | Simulated corrupt transfer, quota and media-adapter events test failure handling. Never relabeled human audibility or field reliability. |
+| Outside slice | Microphone input/recording, translation production/upload/checking, sync/accounts, AI answers, localization, original recordings and complete FIA corpus unsupported. |
+
+## Provenance and remaining limits
+
+Accepted cookbook baseline 2d90436c80b0c5aa2f18bc7594347b1d6244e704 and app NOTICE/UPSTREAM bind source/rights/design history. Raw governing sources remain outside Git; the scoped review covers available recordings, not proof that every real-world utterance was captured. Other source-local extraction and broader audience/history assessment remain separate. No private transcript or source narrative is reproduced here.
+
+Expected spoken hashes model inspected deterministic punctuation/whitespace transformation; they are not a remote transcript or deployed-setting attestation. The actual generation ledger candidly recovers120 successful responses retrospectively; no invented request starts, quota proof or billing certainty. No paid provider calls were made during delivery validation.
+
+Image-holder metadata ambiguity and per-item notices remain preserved. No blanket legal, geographic or theological certification. Experimental image compression was not adopted; original 8assets ship. Optional network fonts/videos are excluded from saving and local font fallback was observed. Generated audio stays private. Parent separately reviews exact documentation; repository PR/check/merge readbacks and kitchen verdict remain coordinator-owned. This file does not imply those pending gates already passed.
