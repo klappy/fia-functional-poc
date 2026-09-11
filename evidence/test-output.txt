@@ -1,0 +1,62 @@
+
+> fia-functional-poc@0.1.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: complete selected source pack verifies from actual files
+ok 1 - complete selected source pack verifies from actual files
+  ---
+  duration_ms: 28.83625
+  type: 'test'
+  ...
+# Subtest: a missing or duplicated verse fails even with a valid transport digest
+ok 2 - a missing or duplicated verse fails even with a valid transport digest
+  ---
+  duration_ms: 95.607542
+  type: 'test'
+  ...
+# Subtest: altered Scripture or emitted guide text fails canonical comparison
+ok 3 - altered Scripture or emitted guide text fails canonical comparison
+  ---
+  duration_ms: 79.69925
+  type: 'test'
+  ...
+# Subtest: a missing resource and guessed map alias fail
+ok 4 - a missing resource and guessed map alias fail
+  ---
+  duration_ms: 85.93325
+  type: 'test'
+  ...
+# Subtest: discussion stops and example boundaries cannot silently change
+ok 5 - discussion stops and example boundaries cannot silently change
+  ---
+  duration_ms: 75.679834
+  type: 'test'
+  ...
+# Subtest: missing rights and flattened map notice fail
+ok 6 - missing rights and flattened map notice fail
+  ---
+  duration_ms: 96.034083
+  type: 'test'
+  ...
+# Subtest: video bytes are not an accepted offline resource
+ok 7 - video bytes are not an accepted offline resource
+  ---
+  duration_ms: 57.678208
+  type: 'test'
+  ...
+# Subtest: corrupt or missing actual media fails integrity verification
+ok 8 - corrupt or missing actual media fails integrity verification
+  ---
+  duration_ms: 39.53625
+  type: 'test'
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 607.552667
