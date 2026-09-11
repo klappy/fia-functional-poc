@@ -1,0 +1,47 @@
+import { test, expect } from '@playwright/test';
+test.beforeEach(async({page})=>{await page.goto('/');await expect(page.getByRole('heading',{name:'Mark 1:1–13',level:1})).toBeVisible();});
+test('real guide, Scripture selection and exact position survive view changes and reload',async({page})=>{
+ await expect(page.getByTestId('current-unit')).toContainText('In this step, hear Mark');
+ await page.getByRole('button',{name:'Continue',exact:false}).click();await page.getByRole('button',{name:'Continue',exact:false}).click();
+ await expect(page.getByTestId('current-unit')).toContainText('What do you like');await expect(page.getByRole('status')).toContainText('Take your time');
+ await page.getByLabel('Scripture version').selectOption('unfoldingWordLiteral');
+ await page.getByRole('button',{name:'Scripture',exact:true}).click();await expect(page.locator('.scripture-text p')).toHaveCount(13);
+ await expect(page.locator('.scripture-text')).toContainText('The beginning of the gospel');
+ await page.getByRole('button',{name:'Guide',exact:true}).click();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S01-U003');
+ await page.reload();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S01-U003');await expect(page.getByLabel('Scripture version')).toHaveValue('unfoldingWordLiteral');
+});
+test('contextual real map opens, renders and returns focus without moving the guide',async({page})=>{
+ await page.getByRole('button',{name:'Step 2: Setting the Stage'}).click();
+ for(let i=0;i<4;i++)await page.getByRole('button',{name:'Continue',exact:false}).click();
+ const opener=page.getByRole('button',{name:'Locations in the Book of Mark'});await opener.click();
+ await expect(page.getByRole('dialog')).toBeVisible();const image=page.getByRole('img',{name:'Locations in the Book of Mark'});await expect(image).toBeVisible();
+ await expect.poll(()=>image.evaluate(img=>img.naturalWidth)).toBe(3000);
+ await page.keyboard.press('Escape');await expect(page.getByRole('dialog')).toHaveCount(0);await expect(opener).toBeFocused();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S02-U005');
+});
+test('examples require explicit reveal and every resource type is available',async({page})=>{
+ await page.getByRole('button',{name:'Step 4: Embodying the Text'}).click();
+ await expect(page.getByText('The following is an example of the drama and possible responses.')).toHaveCount(0);
+ await page.getByRole('button',{name:'Show source example',exact:true}).click();await expect(page.getByRole('dialog')).toContainText('The following is an example');
+ await page.keyboard.press('Escape');await page.getByRole('button',{name:'Resources',exact:true}).click();await expect(page.locator('.resource-card')).toHaveCount(32);
+ await page.getByLabel('Show resources', {exact:true}).selectOption('term');await expect(page.locator('.resource-card')).toHaveCount(21);
+ await page.getByRole('button',{name:'Open gospel term'}).click();await expect(page.getByRole('dialog')).toContainText('gospel');await page.keyboard.press('Escape');
+ await page.getByLabel('Show resources', {exact:true}).selectOption('video');await expect(page.locator('.resource-card')).toHaveCount(3);await page.locator('.resource-card button').first().click();await expect(page.getByRole('dialog')).toContainText('not downloaded');
+});
+test('narrow layout, keyboard dialog and large text remain usable',async({page})=>{
+ await page.setViewportSize({width:320,height:844});await expect(page.locator('body')).toBeVisible();
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
+ await page.getByRole('button',{name:'Read complete guide and attribution'}).click();await expect(page.getByRole('button',{name:'Close resource'})).toBeFocused();
+ await page.keyboard.press('Tab');expect(await page.locator('dialog').evaluate(d=>d.contains(document.activeElement))).toBe(true);await page.keyboard.press('Escape');
+ await page.setViewportSize({width:780,height:844});await page.evaluate(()=>document.body.style.zoom='2');expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
+});
+test('failed required source renders a real error with retry, never substitute content',async({page})=>{
+ await page.route('**/content/mark-1-1-13/guide.json',route=>route.fulfill({status:503,body:'Unavailable'}));await page.reload();
+ await expect(page.getByRole('alert')).toContainText('required passage source');await expect(page.getByTestId('current-unit')).toHaveCount(0);
+ await page.unroute('**/content/mark-1-1-13/guide.json');await page.getByRole('button',{name:'Try again'}).click();await expect(page.getByTestId('current-unit')).toBeVisible();
+});
+
+test('duplicate source names are distinguished by source meaning and inspected image',async({page})=>{
+ await page.getByRole('button',{name:'Resources',exact:true}).click();
+ for(const label of ['Lord — title of authority term','Lord — reference to God term','Sandals — full view image','Sandals — close view image']) await expect(page.getByRole('button',{name:`Open ${label}`,exact:true})).toHaveCount(1);
+ await page.getByRole('button',{name:'Open Lord — reference to God term',exact:true}).click();await expect(page.getByRole('dialog')).toContainText('God himself');
+});
