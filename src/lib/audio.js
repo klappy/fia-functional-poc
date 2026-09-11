@@ -2,7 +2,7 @@ import recordingManifest from '../../public/audio/mark-1-1-13/manifest.json' wit
 const sha=async bytes=>[...new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))].map(x=>x.toString(16).padStart(2,'0')).join('');
 /** Verify only the selected source recording before playback; no runtime provider calls. */
 export class AudioController {
- constructor(AudioType,onState,{manifest=recordingManifest,fetcher=fetch,urlApi=URL}={}){this.AudioType=AudioType;this.onState=onState;this.manifest=manifest;this.fetcher=fetcher;this.urlApi=urlApi;this.generation=0;this.events=[];}
+ constructor(AudioType,onState,{manifest=recordingManifest,fetcher=(...args)=>fetch(...args),urlApi=URL}={}){this.AudioType=AudioType;this.onState=onState;this.manifest=manifest;this.fetcher=fetcher;this.urlApi=urlApi;this.generation=0;this.events=[];}
  emit(status,error=''){this.onState({status,error,events:this.events.slice(-30)});}
  release(){if(this.objectUrl){this.urlApi.revokeObjectURL(this.objectUrl);this.objectUrl=null;}}
  stop(){this.generation++;this.abort?.abort();if(this.audio){this.audio.pause();this.audio.removeAttribute?.('src');this.audio.load?.();this.audio=null;}this.release();this.emit('idle');}
