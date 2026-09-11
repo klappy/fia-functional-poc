@@ -1,3 +1,4 @@
+import { Icon } from '../vendor/glass/icons/Icon.jsx';
 import React, { useState } from 'react';
 import { resourceLabel } from '../lib/resource-label.js';
 // Adapted from the pinned shared components/resources/ResourceCard.jsx.
@@ -12,7 +13,7 @@ export default function ResourceTile({ item, onOpen, contextual = false }) {
       {visual && !failed && <img src={item.assetPath} alt={`${label} preview`} onLoad={()=>setLoaded(true)} onError={()=>setFailed(true)}/>}
       {visual && !loaded && !failed && <span className="media-status" role="status">Loading preview…</span>}
       {failed && <span className="media-status">Preview unavailable · open resource to retry</span>}
-      {item.kind==='video' && <span className="video-affordance"><span aria-hidden="true">↗</span><span>Open online video</span></span>}
+      {item.kind==='video' && <span className="video-affordance"><Icon name="arrowUpRight" size={38} aria-hidden="true"/><span>Open online video</span></span>}
       {item.kind==='term' && <span className="term-affordance" aria-hidden="true">Aa</span>}
       <span className="resource-type">{type}</span>
     </span>
