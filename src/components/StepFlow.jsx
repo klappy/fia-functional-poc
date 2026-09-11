@@ -26,7 +26,7 @@ export default function StepFlow({ session, pack, onMove, onStep, onResource, on
       {attached.length > 0 && <div className="context-resources"><h3>Explore at this point</h3>{attached.map(item => <ResourceTile key={item.content_id} item={item} player={termPlayer(item)} contextual onOpen={onResource} onPlay={onTermPlay} audioAvailable={termAvailable(item.content_id)}/>)}</div>}
       {step.id === 'S04' && <p className="example-note">The source includes possible drama responses. Keep them hidden while the group responds. <button className="text-button" onClick={onExamples}>Show source example</button></p>}
 
-      </div><div className="guide-footer">{isStop&&<p role="status">Discuss together, then continue.</p>}<div className="guide-actions"><GlassButton onClick={() => onMove(-1)} disabled={step.id === 'S01' && index === 0}>Back</GlassButton>{atEnd ? <GlassButton variant="dark" onClick={onFinish} disabled={!canFinish(session, pack.guide)}>Finish session</GlassButton> : <GlassButton variant={unit.text.startsWith('Listen to an audio')?'glass':'dark'} onClick={() => onMove(1)}>Continue <Icon name="chevronRight" size={18} aria-hidden="true"/></GlassButton>}</div>
+      </div><div className="guide-footer">{isStop&&<p role="status">Discuss together, then continue.</p>}{atEnd&&<GlassButton variant="dark" onClick={onFinish} disabled={!canFinish(session,pack.guide)}>Finish session</GlassButton>}
       {atEnd && !canFinish(session,pack.guide) && <p>Visit all six steps before finishing this session.</p>}
       </div>
     </GlassSurface>

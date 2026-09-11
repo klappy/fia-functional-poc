@@ -3,10 +3,11 @@ import { resourceLabel } from '../lib/resource-label.js';
 import React, { useEffect, useRef, useState } from 'react';
 import { GlassButton } from '../vendor/glass/components/glass/GlassButton.jsx';
 import SourceDetails, { SafeHtml } from './SourceDetails.jsx';
-export default function ResourceDialog({ selection, onClose,transport }) {
-  const dialog = useRef(null); const [imageError, setImageError] = useState(false); const [imageLoaded, setImageLoaded] = useState(false);
-  useEffect(() => { const opener = document.activeElement; const element = dialog.current; element.showModal(); return () => { element.close(); if (opener?.isConnected) opener.focus(); }; }, []);
+export default function ResourceDialog({ selection, onClose,transport,skipReturn }) {
+  const openerRef=useRef(document.activeElement); const dialog = useRef(null); const [imageError, setImageError] = useState(false); const [imageLoaded, setImageLoaded] = useState(false);
+  useEffect(() => { const opener = openerRef.current; const element = dialog.current; element.showModal();element.querySelector('[aria-label="Close resource"]')?.focus(); return () => { element.close(); if (!skipReturn?.current&&opener?.isConnected) opener.focus();if(skipReturn)skipReturn.current=false; }; }, []);
   const item = selection.item;
+  useEffect(()=>{setImageError(false);setImageLoaded(false);const body=dialog.current?.querySelector('.dialog-body');if(body)body.scrollTop=0;},[item?.content_id]);
   return <dialog ref={dialog} className="resource-dialog" aria-labelledby="dialog-title" onCancel={e => { e.preventDefault(); onClose(); }}>
     <GlassSurface level={4} radius="2xl" style={{background:'var(--material-floating)'}}><div className="dialog-header"><h2 id="dialog-title">{selection.title ?? (item && resourceLabel(item))}</h2><div className="dialog-header-actions">{transport}<GlassButton autoFocus variant="quiet" onClick={onClose} aria-label="Close resource">Close</GlassButton></div></div>
     <div className="dialog-body">

@@ -3,7 +3,7 @@ test.use({serviceWorkers:'block'});
 test.beforeEach(async({page})=>{await page.goto('/');await expect(page.getByRole('heading',{name:'Mark 1:1–13',level:1})).toBeVisible();});
 test('real guide, Scripture selection and exact position survive view changes and reload',async({page})=>{
  await expect(page.getByTestId('current-unit')).toContainText('In this step, hear Mark');
- await page.getByRole('button',{name:'Continue',exact:false}).click();await page.getByRole('button',{name:'Continue',exact:false}).click();
+ await page.getByRole('button',{name:'Next guide activity',exact:false}).click();await page.getByRole('button',{name:'Next guide activity',exact:false}).click();
  await expect(page.getByTestId('current-unit')).toContainText('What do you like');await expect(page.locator('.guide-footer')).toContainText('Discuss together');
  await page.getByRole('tab',{name:'Scripture',exact:true}).click();await page.getByRole('radio',{name:'ULT',exact:true}).click();
  await page.getByRole('tab',{name:'Scripture',exact:true}).click();await expect(page.locator('.scripture-text [lang="en"] > span')).toHaveCount(13);
@@ -13,7 +13,7 @@ test('real guide, Scripture selection and exact position survive view changes an
 });
 test('contextual real map opens, renders and returns focus without moving the guide',async({page})=>{
  await page.getByLabel('Guide step').selectOption('S02');
- for(let i=0;i<4;i++)await page.getByRole('button',{name:'Continue',exact:false}).click();
+ for(let i=0;i<4;i++)await page.getByRole('button',{name:'Next guide activity',exact:false}).click();
  const opener=page.getByRole('button',{name:'Locations in the Book of Mark'});await opener.click();
  await expect(page.getByRole('dialog')).toBeVisible();const image=page.getByRole('dialog').getByRole('img',{name:'Locations in the Book of Mark',exact:true});await expect(image).toBeVisible();
  await expect.poll(()=>image.evaluate(img=>img.naturalWidth)).toBe(3000);
