@@ -56,3 +56,7 @@ Author checks:27 unit tests and21 term source/hash/MP3-stream verifications pass
 ## Holistic composition author delta
 
 The follow-on candidate preserves all141 audio/source files, compacts app chrome, uses card-corner audio actions and stable source-scroll/footer geometry. Other-owner audio remains reachable when viewing a different term. Exact source/body content is unchanged; source prompt now provides explicit selected-version Scripture playback.27 unit tests passed. Whole-screen726/390/320 geometry and current-owner interaction checks passed; final browser/independent receipts accompany this candidate. Full CSS remains pinned; ResourceCard optional action slot is documented. No new synthesis or human-heard claim.
+
+## Floating-player author delta
+
+Current160-file pack is88,709,107bytes with141 unchanged recordings. Active owner controls moved to the shared floating navigation dock; local starts and accessible modal counterpart remain. Actual726/390/320 non-overlap, exploration continuity and same-owner modal controls passed.27 unit checks passed. The user made a limited online comparison; the original default remains and full/offline heard quality is not inferred.

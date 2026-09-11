@@ -1,0 +1,7 @@
+# Persistent playback dock
+
+User superseded persistent transport placement. The single existing audio owner now appears beside the actual GlassTabBar in an actual GlassSurface using material-floating. At narrow widths these stack within safe-area limits. Local card-corner Play remains an intentional source-start action; active source/time/Pause is in the dock. Native dialogs and the source index expose the same owner's counterpart while background is inert. No second controller, paid request, audio/source mutation or live time announcement was added.
+
+Driver-seat revision rejected top-page consoles and duplicate active card transports. Full CSS remains authoritative; narrow dock geometry and safe-area clearance are app layout only. Working claims depend on actual geometry/continuity/modal tests and independent root review. Any hidden/wrong owner or overlap returns this candidate. Human-heard quality remains a separate pending gate. Previous holistic evidence describes its exact predecessor, not this final dock.
+
+Author27unit PASS;5 targeted browser cases PASS. Upgrade case used an obsolete local-card Pause label loaded before its correction; actual expected control is dock Pause Now playing. Exact corrected upgrade recheck is separate. Production build160files88,709,107bytes;141 audio/source files unchanged. Author active upper4min under this separate10min dish; no silent earlier-budget reset.

@@ -1,0 +1,42 @@
+[WebServer] (node:12187) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 6 tests using 1 worker
+
+(node:12188) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/composition.spec.js:2:1 › whole reading composition has stable actions and reachable source at desktop and mobile (4.4s)
+  ✓  2 tests/composition.spec.js:3:1 › current owner remains controllable while a different term is explored and term player is inside card (3.5s)
+  ✓  3 tests/dock.spec.js:2:1 › one floating owner survives exploration with safe narrow dock and modal counterpart (12.5s)
+  ✓  4 tests/speech-offline.spec.js:6:1 › complete offline pack and real media survive cold page, exploration and new owner (10.5s)
+  ✓  5 tests/speech-offline.spec.js:13:1 › missing corrupt canceled transfers preserve a verified pack and removal remains explicit (7.5s)
+  ✘  6 tests/upgrade.spec.js:3:1 › ordinary reload upgrades a saved previous shell without deleting progress or its verified pack (12.8s)
+
+
+  1) tests/upgrade.spec.js:3:1 › ordinary reload upgrades a saved previous shell without deleting progress or its verified pack 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('button', { name: 'Pause Play guide' })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByRole('button', { name: 'Pause Play guide' }) with timeout 5000ms
+      - waiting for getByRole('button', { name: 'Pause Play guide' })
+
+
+      10 |  await expect(page.getByRole('button',{name:'Play guide',exact:true})).toBeVisible();expect(await page.locator('script[src]').evaluateAll(s=>s.map(x=>x.src))).not.toEqual(oldScripts);await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S01-U002');
+      11 |  await page.getByRole('button',{name:'Offline passage and settings'}).click();await expect(page.getByText('Offline passage · Update available',{exact:true})).toBeVisible();const retained=await page.evaluate(async()=>{const c=await caches.open('fia-meta-v1');return(await c.match('/__fia_active__')).json();});expect(retained.cache).toBe(old.cache);
+    > 12 |  await page.getByRole('button',{name:'Save for offline',exact:true}).click();await expect(page.locator('.offline-status')).toContainText('Saved on this device',{timeout:30000});await page.getByRole('button',{name:'Close resource'}).click();await context.setOffline(true);await page.reload();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S01-U002');await page.getByRole('button',{name:'Play guide',exact:true}).click();await expect(page.getByRole('button',{name:'Pause Now playing'})).toBeVisible();
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ^
+      13 | });
+      14 |
+        at /private/tmp/fia-functional-poc-app/tests/upgrade.spec.js:12:517
+
+    Error Context: test-results/upgrade-ordinary-reload-up-961ec-ogress-or-its-verified-pack/error-context.md
+
+  1 failed
+    tests/upgrade.spec.js:3:1 › ordinary reload upgrades a saved previous shell without deleting progress or its verified pack 
+  5 passed (52.8s)
