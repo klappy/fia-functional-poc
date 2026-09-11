@@ -1,0 +1,130 @@
+{
+  "server_time": "2026-09-11T23:12:08.896Z",
+  "result": {
+    "status": "CHALLENGED",
+    "mode": "planning",
+    "claim_type": "principle-extraction",
+    "matched_types": [
+      "principle-extraction",
+      "observation",
+      "strong-claim",
+      "assumption",
+      "comparative-positioning",
+      "pattern-coinage"
+    ],
+    "governance": [
+      {
+        "slug": "principle-extraction",
+        "name": "Principle Extraction",
+        "description": "A move that lifts a heuristic out of specific experience and elevates it to a principle — a named rule, an aphorism, an invariant the writer intends others to adopt. The failure mode is over-generalization: treating a pattern that held in one or two cases as universal. Principles are load-bearing once canonized; pressure here is about sample size, counter-examples, and scope."
+      },
+      {
+        "slug": "observation",
+        "name": "Observation",
+        "description": "A report of something seen or noticed, offered without strong claim or directive. Observations are the lightest-pressure claim type. They deserve sample-representativeness and context questions, not adversarial scrutiny. This is the fallback type — inputs that match no other type route here."
+      },
+      {
+        "slug": "strong-claim",
+        "name": "Strong Claim",
+        "description": "A definitive statement offered without qualification. Strong claims foreclose doubt and deserve the most pressure, because their cost of being wrong is proportional to the confidence they project."
+      },
+      {
+        "slug": "assumption",
+        "name": "Assumption",
+        "description": "An implicit premise treated as established. Assumptions are dangerous precisely because they are not examined — the work built on top of them silently inherits their uncertainty. Pressure here is about making the premise explicit and naming what would validate or invalidate it."
+      },
+      {
+        "slug": "comparative-positioning",
+        "name": "Comparative Positioning",
+        "description": "A claim that locates this work against other work — existing approaches, adjacent projects, viral repositories, published papers, competing frameworks. Comparative positioning lives or dies on whether the comparison target is characterized honestly and freshly. The failure mode is strawmanning, selective citation, or comparing against a stale snapshot of something that has since evolved."
+      },
+      {
+        "slug": "pattern-coinage",
+        "name": "Pattern Coinage",
+        "description": "A move that names a novel pattern, concept, or architecture and asks the reader to adopt the name. Coinage is high-stakes because a successful coinage becomes vocabulary others inherit; a failed coinage reinvents what another domain already named or promotes noise into canon. Pressure here is about novelty, precision, and survival against hostile readers."
+      }
+    ],
+    "governance_source": "knowledge_base",
+    "governance_uris": [
+      "klappy://odd/challenge/base-prerequisites",
+      "klappy://odd/challenge-types",
+      "klappy://odd/challenge/normative-vocabulary",
+      "klappy://odd/challenge/stakes-calibration"
+    ],
+    "tensions": [],
+    "missing_prerequisites": [
+      "Confidence level not signaled — is this a guess, a working belief, or an established fact?",
+      "Principle not anchored to multiple cases — one observation is a pattern; one pattern is a principle only with more cases",
+      "No disconfirmer acknowledged — what would change this claim?",
+      "Comparison target not specifically named — 'existing approaches' is not a comparison",
+      "Compared work not actually described — contrast requires describing what is being contrasted",
+      "Freshness of the comparison not established — comparisons against stale snapshots are misleading",
+      "Term not precisely defined — coinages without definitions become vibes"
+    ],
+    "challenges": [
+      "How many distinct cases does this principle rest on? One, two, many?",
+      "What's a counter-example you considered and rejected?",
+      "What's the scope? Does this hold for a specific domain, or are you making a universal claim?",
+      "Under what conditions would you retract this principle?",
+      "Is this observation based on a representative sample?",
+      "What context might change this observation?",
+      "Is this one data point, or a pattern?",
+      "What evidence would disprove this?",
+      "Under what conditions does this NOT hold?",
+      "Who or what would disagree with this, and why?",
+      "What is the strongest version of the opposing view?",
+      "Has this assumption been validated with evidence?",
+      "What if this assumption is wrong — what breaks?",
+      "Is this assumption documented or just implicit?",
+      "When was this last verified against reality?",
+      "Is the comparison target fairly represented or characterized in its weakest form?",
+      "When was the comparison target last examined? Has it changed since?",
+      "Have you engaged the strongest version of the compared work, or the most convenient?",
+      "What is the compared work trying to solve that yours isn't, and vice versa?",
+      "Does this already have a name in another field or literature?",
+      "Is the term precise enough that two careful readers would apply it the same way?",
+      "What does this term exclude? A term that means everything means nothing.",
+      "Would a hostile reader understand why this needs its own name rather than an existing one?"
+    ],
+    "suggested_reframings": [
+      "Reframe as scoped rule: \"In the context of C, the pattern I've seen is X; outside C, I don't know\"",
+      "Reframe with sample: \"Across cases A, B, and D, I observe X; I treat this as a principle within that class\"",
+      "Reframe as working heuristic: \"My current working rule is X; I'd revise it if I encountered W\"",
+      "Reframe as hypothesis under test: \"I'm treating X as a principle; the cases that would challenge it are A, B, C, and I'll watch for them\"",
+      "Reframe with context: \"In situation X, I observed Y; outside X, I have not checked\"",
+      "Distinguish instance from pattern: \"This happened once\" vs \"This happens consistently under condition C\"",
+      "Reframe as hypothesis: \"We believe X because Y, and would reconsider if Z\"",
+      "Reframe with scope: \"In contexts A and B, X holds; outside those, we have not tested\"",
+      "Reframe as falsifiable: \"If we observed W, we would retract this claim\"",
+      "Make explicit: \"We are assuming X; we believe it because Y; we would test it by Z\"",
+      "Reframe as known-unknown: \"X is assumed but unverified; impact if false is W\"",
+      "Promote to hypothesis: \"Assumption X is treated as true until evidence from test T says otherwise\"",
+      "Reframe with fairness: \"X and my approach share A and B; they diverge on C, where X does Y and I do Z\"",
+      "Reframe with recency: \"As of [date/version], X does Y; I'm aware this may have changed\"",
+      "Reframe with humility: \"I may be mischaracterizing X; the claim holds against my reading of their docs as of [date]\"",
+      "Reframe to acknowledge strongest version: \"The strongest defense of X is A; my claim is that even granting A, Z still holds\"",
+      "Reframe with prior-art check: \"I'm calling this X; the closest prior art I found is Y, and the distinction is Z\"",
+      "Reframe with narrow scope: \"In the context of A, I name the pattern X; I'm not claiming X holds outside A\"",
+      "Reframe as working vocabulary: \"I'll use X as shorthand here; if a better name exists or emerges, I'll adopt it\""
+    ],
+    "block_until_addressed": false,
+    "canon_constraints": [
+      {
+        "citation": "canon/constraints/reviewability-standard.md#Reviewability Standard — Nothing Goes to the Captain for Review Without a Low-Friction Way to Review It",
+        "quote": "> Companion to the legibility standard. The legibility standard makes work *readable*; the reviewability standard makes it *reviewable* — with as litt"
+      },
+      {
+        "citation": "odd/handoffs/2026-04-21-p1-3-2-gate-canary.md#Handoff — P1.3.2 oddkit_gate Vodka Refactor + governance_source Envelope",
+        "quote": "> P1.3.1 shipped clean to prod (PR #116 feat, #117 promotion, prod at 0.19.0). Challenge's envelope now declares `governance_source` and a four-peer `"
+      },
+      {
+        "citation": "odd/handoffs/2026-04-20-p1-3-challenge-canary.md#Handoff — P1.3.1 oddkit_challenge governance_source Retrofit",
+        "quote": "> P1.2 shipped. oddkit 0.18.0 is in prod (`oddkit.klappy.dev`, health confirms). Encode's envelope now declares `governance_source` + `governance_uri`"
+      },
+      {
+        "citation": "odd/handoffs/2026-04-30-cli-encode-deprecation.md#Handoff — Deprecate Node CLI Encode Path (src/tasks/encode.js Consumers, Worker Is Source of Truth)",
+        "quote": "> The Cloudflare Workers MCP server (`workers/src/orchestrate.ts:runEncodeAction`) is governance-driven and current. The Node CLI MCP server (`src/tas"
+      }
+    ]
+  }
+}

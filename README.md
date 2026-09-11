@@ -41,4 +41,4 @@ The complete pinned Generative Glass CSS and actual shared components supply the
 
 For a failure, retain the visible error, app commit, browser/version and exact reproduction steps in the private repository issue. Source errors fail explicitly; no substitute content is generated. Product findings belong in the [FIA cookbook](https://github.com/klappy/fia-app-cookbook); claims, gates and final verdict remain in the authorized kitchen records. Never attach private conversations or credentials.
 
-Current contextual-playback checkpoint: floating Guide/Scripture/Resources tabs, per-card playback with measured per-clip time, and a focused current-step section index. Overall composition remains returned for a separate correction; this checkpoint is not final visual acceptance.
+Current contextual-playback checkpoint: floating Guide/Scripture/Resources tabs, per-card playback with measured per-clip time, and a focused current-step section index. A subsequent holistic composition checkpoint compacts the header/context, places term controls inside their cards and keeps guide actions stable while source text scrolls. Independent visual acceptance remains pending.

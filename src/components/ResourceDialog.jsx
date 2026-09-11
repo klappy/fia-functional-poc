@@ -8,8 +8,8 @@ export default function ResourceDialog({ selection, onClose,transport }) {
   useEffect(() => { const opener = document.activeElement; const element = dialog.current; element.showModal(); return () => { element.close(); if (opener?.isConnected) opener.focus(); }; }, []);
   const item = selection.item;
   return <dialog ref={dialog} className="resource-dialog" aria-labelledby="dialog-title" onCancel={e => { e.preventDefault(); onClose(); }}>
-    <GlassSurface level={4} radius="2xl" style={{background:'var(--material-floating)'}}><div className="dialog-header"><h2 id="dialog-title">{selection.title ?? (item && resourceLabel(item))}</h2><GlassButton autoFocus variant="quiet" onClick={onClose} aria-label="Close resource">Close</GlassButton></div>
-    {transport}<div className="dialog-body">
+    <GlassSurface level={4} radius="2xl" style={{background:'var(--material-floating)'}}><div className="dialog-header"><h2 id="dialog-title">{selection.title ?? (item && resourceLabel(item))}</h2><div className="dialog-header-actions">{transport}<GlassButton autoFocus variant="quiet" onClick={onClose} aria-label="Close resource">Close</GlassButton></div></div>
+    <div className="dialog-body">
       {selection.children}
       {item && <>
         {['map','image'].includes(item.kind) && <>{!imageLoaded && !imageError && <p role="status">Loading image…</p>}{imageError ? <p role="alert">This image could not be displayed. Close and try again.</p> : <a href={item.assetPath} target="_blank" rel="noreferrer" className={`image-open image-open-${item.kind}`}><img src={item.assetPath} alt={resourceLabel(item)} onLoad={() => setImageLoaded(true)} onError={() => setImageError(true)}/><span>Open full-size image to inspect labels</span></a>}</>}

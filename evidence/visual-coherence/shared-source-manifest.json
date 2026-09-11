@@ -75,7 +75,9 @@
     },
     {
       "path": "components/resources/ResourceCard.jsx",
-      "sha256": "9e4b95caae7d33e24a95e95d9203d5ead13cfe1079aa2c8ef1476f58ef52bde3"
+      "sha256": "ab3253c23958271659954a0e6a74f4480993b1fe658a4566ae4cbe3e79e7a88f",
+      "upstreamSha256": "9e4b95caae7d33e24a95e95d9203d5ead13cfe1079aa2c8ef1476f58ef52bde3",
+      "adaptation": "Optional actions slot: noninteractive term card shell with independent Open and local player; default media branch unchanged."
     },
     {
       "path": "components/scripture/ScripturePassage.jsx",
@@ -106,6 +108,10 @@
     {
       "path": "components/navigation/GlassSheet.jsx",
       "sha256": "19fce46ea113cdb71c7443fa5a355dab69eacbd06875ab7fd1dcad65c95cad99"
+    },
+    {
+      "path": "components/resources/CatalogRow.jsx",
+      "sha256": "f8c89a49d3d55064c5a39f6cdb07c022c6bbd702d5844d7f8a1e368254bc3a65"
     }
   ]
 }

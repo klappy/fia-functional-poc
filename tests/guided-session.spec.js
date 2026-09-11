@@ -4,7 +4,7 @@ test.beforeEach(async({page})=>{await page.goto('/');await expect(page.getByRole
 test('real guide, Scripture selection and exact position survive view changes and reload',async({page})=>{
  await expect(page.getByTestId('current-unit')).toContainText('In this step, hear Mark');
  await page.getByRole('button',{name:'Continue',exact:false}).click();await page.getByRole('button',{name:'Continue',exact:false}).click();
- await expect(page.getByTestId('current-unit')).toContainText('What do you like');await expect(page.locator('.discussion-state')).toContainText('Take your time');
+ await expect(page.getByTestId('current-unit')).toContainText('What do you like');await expect(page.locator('.guide-footer')).toContainText('Discuss together');
  await page.getByRole('tab',{name:'Scripture',exact:true}).click();await page.getByRole('radio',{name:'ULT',exact:true}).click();
  await page.getByRole('tab',{name:'Scripture',exact:true}).click();await expect(page.locator('.scripture-text [lang="en"] > span')).toHaveCount(13);
  await expect(page.locator('.scripture-text')).toContainText('The beginning of the gospel');
@@ -47,7 +47,7 @@ test('duplicate source names are distinguished by source meaning and inspected i
  await page.getByRole('button',{name:'Open Lord — reference to God term',exact:true}).click();await expect(page.getByRole('dialog')).toContainText('God himself');
 });
 test('official FIA identity and colors render with readable contrast',async({page})=>{
- await expect(page.getByRole('img',{name:'FIA',exact:true})).toBeVisible();await expect(page.locator('.official-fia-mark svg')).toHaveCount(2);await expect(page.getByText('Passage PoC',{exact:true})).toBeVisible();
+ await expect(page.getByRole('img',{name:'FIA',exact:true})).toBeVisible();await expect(page.locator('.official-fia-mark svg')).toHaveCount(2);await expect(page.getByRole('heading',{name:'Mark 1:1–13',exact:true})).toBeVisible();
  await expect(page.locator('.app-aurora > div').first()).not.toHaveCSS('background-image','none');await expect(page.locator('.official-fia-mark')).toHaveCSS('color','rgb(59, 96, 134)');await expect(page.getByRole('heading',{level:1})).toHaveCSS('color','rgb(36, 44, 58)');await expect(page.getByRole('tab',{name:'Guide',exact:true})).toHaveCSS('background-color','rgb(51, 83, 116)');
  const luminance=rgb=>rgb.map(x=>{x/=255;return x<=.04045?x/12.92:((x+.055)/1.055)**2.4}).reduce((n,x,i)=>n+x*[.2126,.7152,.0722][i],0);
  for(const rgb of [[65,81,104],[51,83,116],[59,96,134]])expect(1.05/(luminance(rgb)+.05)).toBeGreaterThan(4.5);
@@ -59,7 +59,7 @@ test('resources show all eight real previews, source metadata, search and honest
  await page.getByRole('tab',{name:'Resources',exact:true}).click();const previews=page.locator('.preview-integrity-probe');await expect(previews).toHaveCount(8);
  for(const image of await previews.all()){await expect.poll(()=>image.evaluate(i=>i.complete&&i.naturalWidth>0)).toBe(true);await expect(image).toHaveAttribute('src',/^\/assets\/mark-1-1-13\//);}
  await expect(page.locator('.resource-map .resource-card > div').first()).toHaveCSS('background-size',/^cover/);await expect(page.locator('.resource-image .resource-card > div').first()).toHaveCSS('background-size',/^cover/);
- await expect(page.locator('.resource-card')).toHaveCount(32);await expect(page.locator('.resource-card').first()).toContainText('CC');
+ await expect(page.locator('.resource-card')).toHaveCount(32);await expect(page.locator('.resource-map .resource-card').first()).toContainText('CC');
  await expect(page.locator('.video-affordance')).toHaveCount(3);await expect(page.locator('.resource-video img')).toHaveCount(0);expect(videos).toEqual([]);
  await page.getByLabel('Search resources').fill('sandals');await expect(page.locator('.resource-card')).toHaveCount(3);await page.getByLabel('Search resources').fill('no-such-resource');await expect(page.getByText('No resources match this search.',{exact:true})).toBeVisible();await page.getByLabel('Search resources').fill('');
  await page.setViewportSize({width:320,height:844});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
