@@ -45,3 +45,10 @@ test('duplicate source names are distinguished by source meaning and inspected i
  for(const label of ['Lord — title of authority term','Lord — reference to God term','Sandals — full view image','Sandals — close view image']) await expect(page.getByRole('button',{name:`Open ${label}`,exact:true})).toHaveCount(1);
  await page.getByRole('button',{name:'Open Lord — reference to God term',exact:true}).click();await expect(page.getByRole('dialog')).toContainText('God himself');
 });
+test('official FIA identity and colors render with readable contrast',async({page})=>{
+ await expect(page.getByRole('img',{name:'FIA',exact:true})).toBeVisible();await expect(page.locator('.official-fia-mark svg')).toHaveCount(2);await expect(page.getByText('Passage PoC',{exact:true})).toBeVisible();
+ await expect(page.locator('body')).toHaveCSS('background-color','rgb(255, 255, 255)');await expect(page.locator('.official-fia-mark')).toHaveCSS('color','rgb(59, 96, 134)');await expect(page.getByRole('heading',{level:1})).toHaveCSS('color','rgb(65, 81, 104)');await expect(page.getByRole('button',{name:'Guide',exact:true})).toHaveCSS('background-color','rgb(51, 83, 116)');
+ const luminance=rgb=>rgb.map(x=>{x/=255;return x<=.04045?x/12.92:((x+.055)/1.055)**2.4}).reduce((n,x,i)=>n+x*[.2126,.7152,.0722][i],0);
+ for(const rgb of [[65,81,104],[51,83,116],[59,96,134]])expect(1.05/(luminance(rgb)+.05)).toBeGreaterThan(4.5);
+ await page.setViewportSize({width:320,height:844});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
+});

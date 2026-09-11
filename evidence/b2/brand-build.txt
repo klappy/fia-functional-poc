@@ -1,0 +1,14 @@
+
+> fia-functional-poc@0.1.0 build
+> vite build
+
+vite v8.3.0 building client environment for production...
+transforming...
+✓ 30 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.36 kB │ gzip:  0.27 kB
+dist/assets/index-DrHwEAAX.css   12.97 kB │ gzip:  4.14 kB
+dist/assets/index-BeHd4Bfl.js   269.26 kB │ gzip: 86.86 kB
+
+✓ built in 787ms

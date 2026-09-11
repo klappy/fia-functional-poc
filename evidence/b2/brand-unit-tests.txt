@@ -1,0 +1,92 @@
+
+> fia-functional-poc@0.1.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: official logo path bytes and viewBoxes match observed source receipt
+ok 1 - official logo path bytes and viewBoxes match observed source receipt
+  ---
+  duration_ms: 46.079125
+  type: 'test'
+  ...
+# Subtest: complete source-guided traversal visits all39stops and never enters hidden examples
+ok 2 - complete source-guided traversal visits all39stops and never enters hidden examples
+  ---
+  duration_ms: 98.713916
+  type: 'test'
+  ...
+# Subtest: step selection and reverse navigation preserve Scripture but cannot enter examples
+ok 3 - step selection and reverse navigation preserve Scripture but cannot enter examples
+  ---
+  duration_ms: 0.525167
+  type: 'test'
+  ...
+# Subtest: storage validates exact source position and discards invalid or hidden units
+ok 4 - storage validates exact source position and discards invalid or hidden units
+  ---
+  duration_ms: 3.855209
+  type: 'test'
+  ...
+# Subtest: complete selected source pack verifies from actual files
+ok 5 - complete selected source pack verifies from actual files
+  ---
+  duration_ms: 902.066791
+  type: 'test'
+  ...
+# Subtest: a missing or duplicated verse fails even with a valid transport digest
+ok 6 - a missing or duplicated verse fails even with a valid transport digest
+  ---
+  duration_ms: 4701.951042
+  type: 'test'
+  ...
+# Subtest: altered Scripture or emitted guide text fails canonical comparison
+ok 7 - altered Scripture or emitted guide text fails canonical comparison
+  ---
+  duration_ms: 859.066625
+  type: 'test'
+  ...
+# Subtest: a missing resource and guessed map alias fail
+ok 8 - a missing resource and guessed map alias fail
+  ---
+  duration_ms: 457.859333
+  type: 'test'
+  ...
+# Subtest: discussion stops and example boundaries cannot silently change
+ok 9 - discussion stops and example boundaries cannot silently change
+  ---
+  duration_ms: 510.2705
+  type: 'test'
+  ...
+# Subtest: missing rights and flattened map notice fail
+ok 10 - missing rights and flattened map notice fail
+  ---
+  duration_ms: 622.397
+  type: 'test'
+  ...
+# Subtest: video bytes are not an accepted offline resource
+ok 11 - video bytes are not an accepted offline resource
+  ---
+  duration_ms: 207.687334
+  type: 'test'
+  ...
+# Subtest: corrupt or missing actual media fails integrity verification
+ok 12 - corrupt or missing actual media fails integrity verification
+  ---
+  duration_ms: 136.849083
+  type: 'test'
+  ...
+# Subtest: a changed image cannot be legitimized by recomputing its manifest digest
+ok 13 - a changed image cannot be legitimized by recomputing its manifest digest
+  ---
+  duration_ms: 146.29225
+  type: 'test'
+  ...
+1..13
+# tests 13
+# suites 0
+# pass 13
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 9767.578458

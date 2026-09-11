@@ -9,3 +9,5 @@ Public content sources are pinned in `sources/revisions.json`. `sources/expected
 No legacy app backend, framework, conversation code or private source material imported. Sites portable profile reported configured=false; explicit delegated Git/local-only workflow retained, with no Site registration or hosting.
 
 `sources/expected-assets.json` binds the eight actually fetched and inspected original image bytes/dimensions/URLs. Regeneration fails if an unversioned upstream URL changes its bytes; updating those pins requires a new reviewed asset inspection.
+
+B2 user-directed branding correction: `src/components/FiaBrand.jsx` preserves exact two inline SVG path sets/viewBoxes from https://fia.bible/about. App CSS uses observed official blue-gray heading/primary/link/logo colors and white ground. Exact source/style hashes, computed-color origin and transformation details are in `evidence/b2/BRAND-SOURCES.json`. Earlier green screenshots are superseded by branding-corrected captures. No official font or production endorsement is implied.
