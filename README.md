@@ -50,3 +50,5 @@ Compact transport revision: the dark source-labeled action toggles playback; a t
 Four literal pause-only cues attach to their preceding activities. Legacy cue positions restore to that activity with cue state; Continue moves to the next activity. Group counts are8/12/25/16/45/7. All original source and141 recordings remain; natural spoken transition replacements are a separate pending change.
 
 Four explicit activity overrides now play the original paragraph followed by its reviewed natural pause transition, then stop on that activity. Original141 clips remain archived in the pack. The Info icon opens the complete source and attribution. Broader inline-pause adaptation remains separately planned.
+
+Ready-player revision: the dock remains visible for the currentGuide/Scripture/selectedterm, or disabled Chooseaudio when no resource audio is selected. Active playback survives exploration; paused context changes select a new ready source. MP3 playback uses0.95rate with pitch preservation on start/resume/restart, verified from a prior actual1.0baseline; no media regenerated. Current165-file pack89,776,196bytes.

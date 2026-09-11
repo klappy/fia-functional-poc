@@ -35,7 +35,7 @@ function Session({ pack }) {
   const [boot] = useState(() => restoreSession(browserStorage(), pack.guide, pack.cues));
   const [session, setSession] = useState(boot.session);
   const [view, setView] = useState('guide');
-  const [selection, setSelection] = useState(null);const [indexOpen,setIndexOpen]=useState(false);
+  const [selection, setSelection] = useState(null);const[selectedTerm,setSelectedTerm]=useState(null);const [indexOpen,setIndexOpen]=useState(false);
   const [storageError, setStorageError] = useState(boot.storageError);
   const [filter, setFilter] = useState('all'); const [query,setQuery]=useState('');
   const [offlineState,setOfflineState]=useState({status:'checking',saved:false});const offline=useRef(null);
@@ -44,24 +44,26 @@ function Session({ pack }) {
   const speech=useRef(null);if(!speech.current)speech.current=new SpeechController(window.speechSynthesis,window.SpeechSynthesisUtterance,setSpeechState);
   useEffect(()=>{const refresh=()=>{const available=englishVoices(window.speechSynthesis);setVoices(available);setVoiceId(old=>available.some(v=>v.voiceURI===old)?old:(available.find(v=>v.localService)??available[0])?.voiceURI??'');};refresh();window.speechSynthesis?.addEventListener('voiceschanged',refresh);return()=>{window.speechSynthesis?.removeEventListener('voiceschanged',refresh);speech.current.stop();};},[]);
   const [audioState,setAudioState]=useState({status:'idle',error:''});const audio=useRef(null);if(!audio.current)audio.current=new AudioController(window.Audio,setAudioState);useEffect(()=>()=>audio.current.stop(),[]);
-  const stop=()=>{speech.current.stop();audio.current.stop();};const changeView=value=>setView(value);
+  const stop=()=>{speech.current.stop();audio.current.stop();};const changeView=value=>{if(audioState.status==='paused'&&value!==view)stop();setView(value);};
   const readGuide=(fallback=false)=>{stop();const items=[];let cursor=session;for(let i=0;i<130;i++){const pos=currentPosition(cursor,pack.guide,pack.cues),next=pos.isStop?cursor:moveUnit(cursor,1,pack.guide,pack.cues);items.push({id:pos.unit.id,text:pos.unit.text,next,owner:'guide',title:`${pack.guide.steps.indexOf(pos.step)+1} · ${pos.index+1}/${pos.units.length}`,fullTitle:`${pos.step.title}, activity ${pos.index+1} of ${pos.units.length}`});if(pos.isStop||next===cursor)break;cursor=next;}(fallback?speech.current:audio.current).speak(items,voices.find(v=>v.voiceURI===voiceId),item=>setSession(item.next));};
 
   useEffect(() => { setStorageError(!persistSession(browserStorage(), session)); }, [session]);
   const bible = pack.scripture.find(x => x.resourceCode === session.version);
   const version = value => {stop();setSession(current => ({ ...current, version: value }));};
   const step = id => { stop();setSession(current => selectStep(current,id,pack.guide,pack.cues)); setView('guide'); };
-  const resource = item => setSelection({item});
-  const playTerm=item=>{stop();const text=termInputs.find(x=>x.id===item.content_id)?.text;audio.current.speak([{id:`term-${item.content_id}`,text,owner:`term-${item.content_id}`,title:resourceLabel(item)}]);};
+  const resource = item => {if(item.kind==='term'){if(audioState.status==='paused'&&audioState.owner!==`term-${item.content_id}`)stop();setSelectedTerm(item);}setSelection({item});};
+  const playTerm=item=>{setSelectedTerm(item);stop();const text=termInputs.find(x=>x.id===item.content_id)?.text;audio.current.speak([{id:`term-${item.content_id}`,text,owner:`term-${item.content_id}`,title:resourceLabel(item)}]);};
   const playScripture=()=>{stop();audio.current.speak([{id:`scripture-${bible.resourceCode}`,text:bible.verses.map(v=>v.text).join(' '),owner:'scripture',title:`Mark 1:1–13 · ${bible.resourceCode==='BereanStandardBible'?'BSB':bible.resourceCode==='unfoldingWordLiteral'?'ULT':'UST'}`}]);};
   const player=(owner,label,onPlay,compact=false)=><AudioControls state={compact?audioState:{status:'idle',owner:audioState.owner,error:audioState.owner===owner?audioState.error:''}} owner={owner} label={label} onPlay={onPlay} onPause={()=>audio.current.pause()} onResume={()=>audio.current.resume()} onRestart={()=>audio.current.restart()} compact={compact}/>;
   const running=['starting','playing','paused'].includes(audioState.status);
-  const mini=running?player(audioState.owner,'Now playing',()=>audio.current.restart(),true):null;
+  const pos=currentPosition(session,pack.guide,pack.cues),shortVersion=session.version==='BereanStandardBible'?'BSB':session.version==='unfoldingWordLiteral'?'ULT':'UST';
+  const ready=selection?.item?.kind==='term'?{owner:`term-${selection.item.content_id}`,title:resourceLabel(selection.item),play:()=>playTerm(selection.item)}:view==='guide'?{owner:'guide',title:`${pack.guide.steps.indexOf(pos.step)+1} · ${pos.index+1}/${pos.units.length}`,play:()=>readGuide()}:view==='scripture'?{owner:'scripture',title:`Mark 1:1–13 · ${shortVersion}`,play:playScripture}:selectedTerm?{owner:`term-${selectedTerm.content_id}`,title:resourceLabel(selectedTerm),play:()=>playTerm(selectedTerm)}:{owner:null,title:'Choose audio',play:null};
+  const mini=running?player(audioState.owner,'Now playing',()=>audio.current.restart(),true):<AudioControls compact state={{status:'idle',title:ready.title,error:audioState.error}} owner={ready.owner} label={ready.play?`Play ${ready.title}`:'Choose audio'} onPlay={ready.play}/>;
   const offlinePanel=<OfflineControls state={offlineState} onSave={()=>offline.current.save()} onCancel={()=>offline.current.cancel()} onCheck={()=>offline.current.check()} onRemove={()=>offline.current.remove()}/>;
   const fallback=<NarrationControls voices={voices} voiceId={voiceId} setVoiceId={id=>{stop();setVoiceId(id);}} state={speechState} onGuide={()=>readGuide(true)} onScripture={()=>{stop();speech.current.speak([{text:bible.verses.map(v=>v.text).join(' ')}],voices.find(v=>v.voiceURI===voiceId));}} onPause={()=>speech.current.pause()} onResume={()=>speech.current.resume()} onStop={stop}/>;
   const dialogSelection=selection?.settings?{title:'Passage settings',children:<>{offlinePanel}<p>English passage PoC · one shared device. {session.visited.length} of6 steps visited; visiting is not an assessment of understanding.</p><p>Synthetic ElevenLabs narration; browser voices are optional. Saved files are verified. Speak and explore together; nothing is recorded. Original attribution is available in each source detail.</p>{fallback}</>}:selection;
   const termPlayer=selection?.item?.kind==='term'&&termManifest.entries.some(e=>e.id===`term-${selection.item.content_id}`)?player(`term-${selection.item.content_id}`,`Play ${resourceLabel(selection.item)}`,()=>playTerm(selection.item)):null;
-  return <AuroraField className="app-aurora" drift={false}><div className={`app-shell ${running?'has-player':''}`}>
+  return <AuroraField className="app-aurora" drift={false}><div className={`app-shell has-player`}>
     <div className="app-content" aria-hidden={selection||indexOpen?true:undefined} inert={selection||indexOpen?true:undefined}><a className="skip-link" href="#session-main">Skip to passage</a>
     <SessionHeader visited={session.visited.length} offlineState={offlineState} onSettings={()=>setSelection({settings:true})}/>
     <main id="session-main" tabIndex="-1">
@@ -73,7 +75,7 @@ function Session({ pack }) {
       {view === 'resources' && <section role="tabpanel" id="panel-resources" aria-labelledby="tab-resources"><GlassSearch aria-label="Search resources" value={query} onChange={e=>setQuery(e.target.value)} placeholder="Search this passage’s resources"/><FilterChips aria-label="Resource types" className="resource-filters" bleed={false} options={[{value:'all',label:'All'},{value:'map',label:'Maps'},{value:'image',label:'Images'},{value:'term',label:'Key terms'},{value:'video',label:'Video links'}]} value={[filter]} onChange={values=>setFilter(values.at(-1)??'all')} style={{flexWrap:'wrap',margin:'14px 0 20px',overflow:'visible'}}/><div className="resource-grid">{pack.resources.filter(item=>(filter==='all'||item.kind===filter)&&resourceLabel(item).toLowerCase().includes(query.trim().toLowerCase())).map(item=><ResourceTile key={`${item.resourceCode}/${item.content_id}`} item={item} player={player(`term-${item.content_id}`,`Play ${resourceLabel(item)}`,()=>playTerm(item))} onOpen={resource} onPlay={playTerm} audioAvailable={termManifest.entries.some(e=>e.id===`term-${item.content_id}`)}/>)}{!pack.resources.some(item=>(filter==='all'||item.kind===filter)&&resourceLabel(item).toLowerCase().includes(query.trim().toLowerCase()))&&<p role="status">No resources match this search.</p>}</div></section>}
     </main>
     <div className="floating-dock"><PassageTabs value={view} onChange={changeView}/>{mini&&<GlassSurface className="playback-dock" level={4} radius="pill" style={{background:'var(--material-floating)'}}>{mini}</GlassSurface>}</div>
-    </div>{indexOpen&&<GuideIndex pack={pack} current={session.unitId} transport={mini} onClose={()=>setIndexOpen(false)} onSelect={(stepId,unitId)=>{stop();setSession(s=>({...selectStep(s,stepId,pack.guide,pack.cues),unitId}));setIndexOpen(false);}}/>}{selection && <ResourceDialog key={selection.item?.content_id ?? selection.title} selection={dialogSelection} transport={<>{mini}{termPlayer}</>} onClose={()=>setSelection(null)}/>}
+    </div>{indexOpen&&<GuideIndex pack={pack} current={session.unitId} transport={mini} onClose={()=>setIndexOpen(false)} onSelect={(stepId,unitId)=>{stop();setSession(s=>({...selectStep(s,stepId,pack.guide,pack.cues),unitId}));setIndexOpen(false);}}/>}{selection && <ResourceDialog key={selection.item?.content_id ?? selection.title} selection={dialogSelection} transport={<>{mini}{running?termPlayer:null}</>} onClose={()=>setSelection(null)}/>}
   </div></AuroraField>;
 }
 export default function App() {

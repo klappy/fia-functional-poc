@@ -76,3 +76,5 @@ The new explicit four-pair projection yields113activities covering117ordinary ID
 ## Four spoken-transition integration
 
 Four independently text/hash/decode-verified combined recordings override only the four reviewed activity parents. Original141 remain unchanged;145stored clips/165required files total89,774,977bytes. Expected spoken text is not a provider transcript; complete/offline heard quality remains pending. The quiet44px Info action opens the same full source/attribution dialog. Actual tests/receipts are under activity-transitions; broader19cue adaptation is not implemented here.
+
+Ready-player revision: the dock remains visible for the currentGuide/Scripture/selectedterm, or disabled Chooseaudio when no resource audio is selected. Active playback survives exploration; paused context changes select a new ready source. MP3 playback uses0.95rate with pitch preservation on start/resume/restart, verified from a prior actual1.0baseline; no media regenerated. Current165-file pack89,776,196bytes.
