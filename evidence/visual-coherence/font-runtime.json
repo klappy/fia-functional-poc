@@ -1,0 +1,72 @@
+[
+  {
+    "name": "mobile",
+    "body": "\"SF Pro Display\", \"SF Pro Text\", -apple-system, \"system-ui\", system-ui, sans-serif",
+    "scripture": "\"Noto Serif\", \"SF Pro Text\", Georgia, serif",
+    "faces": [
+      {
+        "family": "Noto Serif",
+        "status": "loaded"
+      },
+      {
+        "family": "SF Pro Display",
+        "status": "error"
+      },
+      {
+        "family": "SF Pro Display",
+        "status": "error"
+      },
+      {
+        "family": "SF Pro Display",
+        "status": "error"
+      },
+      {
+        "family": "SF Pro Text",
+        "status": "error"
+      },
+      {
+        "family": "SF Pro Text",
+        "status": "error"
+      },
+      {
+        "family": "SF Pro Text",
+        "status": "error"
+      }
+    ]
+  },
+  {
+    "name": "desktop",
+    "body": "\"SF Pro Display\", \"SF Pro Text\", -apple-system, \"system-ui\", system-ui, sans-serif",
+    "scripture": "\"Noto Serif\", \"SF Pro Text\", Georgia, serif",
+    "faces": [
+      {
+        "family": "Noto Serif",
+        "status": "loaded"
+      },
+      {
+        "family": "SF Pro Display",
+        "status": "error"
+      },
+      {
+        "family": "SF Pro Display",
+        "status": "error"
+      },
+      {
+        "family": "SF Pro Display",
+        "status": "error"
+      },
+      {
+        "family": "SF Pro Text",
+        "status": "error"
+      },
+      {
+        "family": "SF Pro Text",
+        "status": "error"
+      },
+      {
+        "family": "SF Pro Text",
+        "status": "error"
+      }
+    ]
+  }
+]
