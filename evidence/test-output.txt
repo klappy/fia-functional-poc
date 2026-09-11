@@ -6,55 +6,55 @@ TAP version 13
 # Subtest: complete selected source pack verifies from actual files
 ok 1 - complete selected source pack verifies from actual files
   ---
-  duration_ms: 48.261916
+  duration_ms: 25.125334
   type: 'test'
   ...
 # Subtest: a missing or duplicated verse fails even with a valid transport digest
 ok 2 - a missing or duplicated verse fails even with a valid transport digest
   ---
-  duration_ms: 110.698125
+  duration_ms: 110.298292
   type: 'test'
   ...
 # Subtest: altered Scripture or emitted guide text fails canonical comparison
 ok 3 - altered Scripture or emitted guide text fails canonical comparison
   ---
-  duration_ms: 117.29075
+  duration_ms: 104.955041
   type: 'test'
   ...
 # Subtest: a missing resource and guessed map alias fail
 ok 4 - a missing resource and guessed map alias fail
   ---
-  duration_ms: 94.733167
+  duration_ms: 104.565416
   type: 'test'
   ...
 # Subtest: discussion stops and example boundaries cannot silently change
 ok 5 - discussion stops and example boundaries cannot silently change
   ---
-  duration_ms: 100.643459
+  duration_ms: 101.736458
   type: 'test'
   ...
 # Subtest: missing rights and flattened map notice fail
 ok 6 - missing rights and flattened map notice fail
   ---
-  duration_ms: 104.975875
+  duration_ms: 117.717708
   type: 'test'
   ...
 # Subtest: video bytes are not an accepted offline resource
 ok 7 - video bytes are not an accepted offline resource
   ---
-  duration_ms: 53.861792
+  duration_ms: 58.802792
   type: 'test'
   ...
 # Subtest: corrupt or missing actual media fails integrity verification
 ok 8 - corrupt or missing actual media fails integrity verification
   ---
-  duration_ms: 42.096708
+  duration_ms: 40.856041
   type: 'test'
   ...
 # Subtest: a changed image cannot be legitimized by recomputing its manifest digest
 ok 9 - a changed image cannot be legitimized by recomputing its manifest digest
   ---
-  duration_ms: 34.927084
+  duration_ms: 30.985834
   type: 'test'
   ...
 1..9
@@ -65,4 +65,4 @@ ok 9 - a changed image cannot be legitimized by recomputing its manifest digest
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 760.343667
+# duration_ms 740.297625

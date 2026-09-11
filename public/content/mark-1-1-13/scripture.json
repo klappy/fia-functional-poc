@@ -179,7 +179,7 @@
       "commit": "c7fbd7e8301d6b5aa03870780c04a7464b4dbb27",
       "path": "eng/json/41.content.json",
       "url": "https://raw.githubusercontent.com/BibleAquifer/BereanStandardBible/c7fbd7e8301d6b5aa03870780c04a7464b4dbb27/eng/json/41.content.json",
-      "retrievedAt": "2026-09-11T20:37:29.168Z",
+      "retrievedAt": "2026-09-11T20:42:04.256Z",
       "fileSha256": "ab3a5d85d62c85bc7ec479078645c93904bacc0fd9443b5e2bcacf2936ad5a2b"
     },
     "rights": {
@@ -187,7 +187,7 @@
       "commit": "c7fbd7e8301d6b5aa03870780c04a7464b4dbb27",
       "path": "eng/metadata.json",
       "url": "https://raw.githubusercontent.com/BibleAquifer/BereanStandardBible/c7fbd7e8301d6b5aa03870780c04a7464b4dbb27/eng/metadata.json",
-      "retrievedAt": "2026-09-11T20:37:29.168Z",
+      "retrievedAt": "2026-09-11T20:42:04.256Z",
       "fileSha256": "ab0fc89bae70f62819ca768dc3195a949268e0e5e2beb74a06b6612f405681df",
       "resourceTitle": "Berean Standard Bible",
       "metadataVersion": "1.1.0",
@@ -394,7 +394,7 @@
       "commit": "9c6a5e75d0849198240e38d22157b497bc84dc9f",
       "path": "eng/json/41.content.json",
       "url": "https://raw.githubusercontent.com/BibleAquifer/unfoldingWordLiteral/9c6a5e75d0849198240e38d22157b497bc84dc9f/eng/json/41.content.json",
-      "retrievedAt": "2026-09-11T20:37:29.168Z",
+      "retrievedAt": "2026-09-11T20:42:04.256Z",
       "fileSha256": "0394d5d4dcf0298a912301adc9b428dea016de054d15388f405598692427d8d5"
     },
     "rights": {
@@ -402,7 +402,7 @@
       "commit": "9c6a5e75d0849198240e38d22157b497bc84dc9f",
       "path": "eng/metadata.json",
       "url": "https://raw.githubusercontent.com/BibleAquifer/unfoldingWordLiteral/9c6a5e75d0849198240e38d22157b497bc84dc9f/eng/metadata.json",
-      "retrievedAt": "2026-09-11T20:37:29.168Z",
+      "retrievedAt": "2026-09-11T20:42:04.256Z",
       "fileSha256": "44c10dd60866a6c120cff00faa920dbdd2e179e8dd3ca3262ccd28fa032bb37d",
       "resourceTitle": "unfoldingWord Literal Text",
       "metadataVersion": "1.1.0",
@@ -609,7 +609,7 @@
       "commit": "90d02427ebc22dc9e4e961c38221f1711426f5db",
       "path": "eng/json/41.content.json",
       "url": "https://raw.githubusercontent.com/BibleAquifer/unfoldingWordSimplified/90d02427ebc22dc9e4e961c38221f1711426f5db/eng/json/41.content.json",
-      "retrievedAt": "2026-09-11T20:37:29.168Z",
+      "retrievedAt": "2026-09-11T20:42:04.256Z",
       "fileSha256": "58e2a88def2c60cea362fd718169bf8929845c9845a454d2c7f3c3b73c15056d"
     },
     "rights": {
@@ -617,7 +617,7 @@
       "commit": "90d02427ebc22dc9e4e961c38221f1711426f5db",
       "path": "eng/metadata.json",
       "url": "https://raw.githubusercontent.com/BibleAquifer/unfoldingWordSimplified/90d02427ebc22dc9e4e961c38221f1711426f5db/eng/metadata.json",
-      "retrievedAt": "2026-09-11T20:37:29.168Z",
+      "retrievedAt": "2026-09-11T20:42:04.256Z",
       "fileSha256": "93b82beefbd6ec7e4d19c8babf5b464ccba47e9363cd9bbcc6e27819178145c8",
       "resourceTitle": "unfoldingWord Simplified Text",
       "metadataVersion": "1.1.0",

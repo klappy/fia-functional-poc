@@ -39,3 +39,5 @@ Source data and build foundation are working in this checkout. Guided interactio
 Actual PR checks and independent review/merge belong to the coordinator's later receipts; this document does not claim they have passed. The app author did not merge.
 
 Regeneration correction: `sources/expected-assets.json` binds the eight actual inspected images; prepare and verify now reject upstream byte/dimension/URL drift. A ninth test changes an image and recomputes its manifest hash, then observes rejection against the independent source pin.
+
+Final reproduction: ran `npm run prepare:content` again through the observed image pins, followed by all nine tests, verify and build. All passed. Only retrieval timestamps and their enclosing delivered-file digests changed; all eight original image bytes and canonical source bodies remained identical. The reproduced transfer report is prepare-output.json.txt.
