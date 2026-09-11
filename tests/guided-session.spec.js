@@ -57,7 +57,7 @@ test('resources show all eight real previews, source metadata, search and honest
  const videos=[];page.on('request',req=>{if(/\.(mp4|webm)(\?|$)/i.test(req.url()))videos.push(req.url());});
  await page.getByRole('button',{name:'Resources',exact:true}).click();const previews=page.locator('.preview-integrity-probe');await expect(previews).toHaveCount(8);
  for(const image of await previews.all()){await expect.poll(()=>image.evaluate(i=>i.complete&&i.naturalWidth>0)).toBe(true);await expect(image).toHaveAttribute('src',/^\/assets\/mark-1-1-13\//);}
- await expect(page.locator('.resource-map .resource-card > div').first()).toHaveCSS('background-size',/^contain/);await expect(page.locator('.resource-image .resource-card > div').first()).toHaveCSS('background-size',/^cover/);
+ await expect(page.locator('.resource-map .resource-card > div').first()).toHaveCSS('background-size',/^cover/);await expect(page.locator('.resource-image .resource-card > div').first()).toHaveCSS('background-size',/^cover/);
  await expect(page.locator('.resource-card')).toHaveCount(32);await expect(page.locator('.resource-card').first()).toContainText('CC');
  await expect(page.locator('.video-affordance')).toHaveCount(3);await expect(page.locator('.resource-video img')).toHaveCount(0);expect(videos).toEqual([]);
  await page.getByLabel('Search resources').fill('sandals');await expect(page.locator('.resource-card')).toHaveCount(3);await page.getByLabel('Search resources').fill('no-such-resource');await expect(page.getByRole('status')).toContainText('No resources match');await page.getByLabel('Search resources').fill('');
