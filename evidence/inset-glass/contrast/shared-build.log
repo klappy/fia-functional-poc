@@ -24,9 +24,9 @@ transforming...
 rendering chunks...
 computing gzip size...
 dist/index.html                   0.36 kB │ gzip:   0.28 kB
-dist/assets/index-Dp9dAS6b.css   27.64 kB │ gzip:   6.81 kB
-dist/assets/index-3Y0Mp0RN.js   456.02 kB │ gzip: 146.30 kB
+dist/assets/index-B0xS8NA6.css   27.76 kB │ gzip:   6.83 kB
+dist/assets/index-C1Lpvrz7.js   455.97 kB │ gzip: 146.29 kB
 
-✓ built in 6.09s
-Offline manifest: 195 required local files, 93577181 bytes; remote fonts optional, video excluded.
+✓ built in 2.04s
+Offline manifest: 195 required local files, 93577252 bytes; remote fonts optional, video excluded.
 Release audit PASS: 197 allowlisted files; 172 unchanged MP3s; no private voice identifiers/provider route; dist only.

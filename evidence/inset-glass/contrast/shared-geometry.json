@@ -5,7 +5,7 @@
     "view": "Guide",
     "padding": "4px",
     "radius": "999px",
-    "background": "linear-gradient(rgba(255, 255, 255, 0.78), rgba(255, 255, 255, 0.78)) repeat scroll 0% 0% / auto padding-box border-box, rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+    "background": "rgba(255, 255, 255, 0.62) none repeat scroll 0% 0% / auto padding-box border-box",
     "buttons": [
       {
         "width": 44,
@@ -30,7 +30,7 @@
     "view": "Scripture",
     "padding": "4px",
     "radius": "999px",
-    "background": "linear-gradient(rgba(255, 255, 255, 0.78), rgba(255, 255, 255, 0.78)) repeat scroll 0% 0% / auto padding-box border-box, rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+    "background": "rgba(255, 255, 255, 0.62) none repeat scroll 0% 0% / auto padding-box border-box",
     "buttons": [
       {
         "width": 44,
@@ -55,7 +55,7 @@
     "view": "Resources",
     "padding": "4px",
     "radius": "999px",
-    "background": "linear-gradient(rgba(255, 255, 255, 0.78), rgba(255, 255, 255, 0.78)) repeat scroll 0% 0% / auto padding-box border-box, rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+    "background": "rgba(255, 255, 255, 0.62) none repeat scroll 0% 0% / auto padding-box border-box",
     "buttons": [
       {
         "width": 44,
@@ -80,7 +80,7 @@
     "view": "Guide",
     "padding": "4px",
     "radius": "999px",
-    "background": "linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)) repeat scroll 0% 0% / auto padding-box border-box, rgb(27, 30, 35) none repeat scroll 0% 0% / auto padding-box border-box",
+    "background": "rgba(255, 255, 255, 0.14) none repeat scroll 0% 0% / auto padding-box border-box",
     "buttons": [
       {
         "width": 44,
@@ -105,7 +105,7 @@
     "view": "Scripture",
     "padding": "4px",
     "radius": "999px",
-    "background": "linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)) repeat scroll 0% 0% / auto padding-box border-box, rgb(27, 30, 35) none repeat scroll 0% 0% / auto padding-box border-box",
+    "background": "rgba(255, 255, 255, 0.14) none repeat scroll 0% 0% / auto padding-box border-box",
     "buttons": [
       {
         "width": 44,
@@ -130,7 +130,7 @@
     "view": "Resources",
     "padding": "4px",
     "radius": "999px",
-    "background": "linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)) repeat scroll 0% 0% / auto padding-box border-box, rgb(27, 30, 35) none repeat scroll 0% 0% / auto padding-box border-box",
+    "background": "rgba(255, 255, 255, 0.14) none repeat scroll 0% 0% / auto padding-box border-box",
     "buttons": [
       {
         "width": 44,
@@ -155,7 +155,7 @@
     "view": "Guide",
     "padding": "4px",
     "radius": "999px",
-    "background": "linear-gradient(rgba(255, 255, 255, 0.78), rgba(255, 255, 255, 0.78)) repeat scroll 0% 0% / auto padding-box border-box, rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+    "background": "rgba(255, 255, 255, 0.62) none repeat scroll 0% 0% / auto padding-box border-box",
     "buttons": [
       {
         "width": 44,
@@ -180,7 +180,7 @@
     "view": "Scripture",
     "padding": "4px",
     "radius": "999px",
-    "background": "linear-gradient(rgba(255, 255, 255, 0.78), rgba(255, 255, 255, 0.78)) repeat scroll 0% 0% / auto padding-box border-box, rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+    "background": "rgba(255, 255, 255, 0.62) none repeat scroll 0% 0% / auto padding-box border-box",
     "buttons": [
       {
         "width": 44,
@@ -205,7 +205,7 @@
     "view": "Resources",
     "padding": "4px",
     "radius": "999px",
-    "background": "linear-gradient(rgba(255, 255, 255, 0.78), rgba(255, 255, 255, 0.78)) repeat scroll 0% 0% / auto padding-box border-box, rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
+    "background": "rgba(255, 255, 255, 0.62) none repeat scroll 0% 0% / auto padding-box border-box",
     "buttons": [
       {
         "width": 44,
@@ -230,7 +230,7 @@
     "view": "Guide",
     "padding": "4px",
     "radius": "999px",
-    "background": "linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)) repeat scroll 0% 0% / auto padding-box border-box, rgb(27, 30, 35) none repeat scroll 0% 0% / auto padding-box border-box",
+    "background": "rgba(255, 255, 255, 0.14) none repeat scroll 0% 0% / auto padding-box border-box",
     "buttons": [
       {
         "width": 44,
@@ -255,7 +255,7 @@
     "view": "Scripture",
     "padding": "4px",
     "radius": "999px",
-    "background": "linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)) repeat scroll 0% 0% / auto padding-box border-box, rgb(27, 30, 35) none repeat scroll 0% 0% / auto padding-box border-box",
+    "background": "rgba(255, 255, 255, 0.14) none repeat scroll 0% 0% / auto padding-box border-box",
     "buttons": [
       {
         "width": 44,
@@ -280,7 +280,7 @@
     "view": "Resources",
     "padding": "4px",
     "radius": "999px",
-    "background": "linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)) repeat scroll 0% 0% / auto padding-box border-box, rgb(27, 30, 35) none repeat scroll 0% 0% / auto padding-box border-box",
+    "background": "rgba(255, 255, 255, 0.14) none repeat scroll 0% 0% / auto padding-box border-box",
     "buttons": [
       {
         "width": 44,
