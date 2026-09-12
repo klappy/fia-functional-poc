@@ -1,0 +1,5 @@
+# Scoped contrast and badge correction
+
+Product a09fae269142e36510d4a7ca573ac3b0e6171d80. Independent historical pixel-composited review found dark BSB badge1.67,verse1 1.73,sourcecredit2.02,link2.44. Actual corrections use existing title/body text tiers scoped to app/index and existing material-floating for the small Scripture version chip. Primary body and glass material ladder remain unchanged; original vendor palette/token CSS unchanged. Resource media badges regain canonical overline/letter-spacing/uppercase; duplicate type removed beneath images only, term labels retained.
+
+Build and35unit checks pass after exact adapted component hashes were recorded alongside previous/upstream hashes and patch descriptions. Actual targeted browser test passes dark semantic chip style, all8media90pxcover, original badge hierarchy and term labels; screenshots319/726. This style/geometry check is not composited contrast acceptance. Independent numeric contrast remeasurement and complete final audit remain pending.195files93,408,597bytes,172clips; source/audio unchanged. Author upper3active minutes in separate8minute correction.

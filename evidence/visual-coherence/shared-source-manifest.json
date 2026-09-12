@@ -75,15 +75,17 @@
     },
     {
       "path": "components/resources/ResourceCard.jsx",
-      "sha256": "ab3253c23958271659954a0e6a74f4480993b1fe658a4566ae4cbe3e79e7a88f",
+      "sha256": "c1ad8bf1477fddeaacb72c6121652ccff430c3f97ba23251addbadaa57303d00",
       "upstreamSha256": "9e4b95caae7d33e24a95e95d9203d5ead13cfe1079aa2c8ef1476f58ef52bde3",
-      "adaptation": "Optional actions slot: noninteractive term card shell with independent Open and local player; default media branch unchanged."
+      "adaptation": "Optional actions slot: noninteractive term card shell with independent Open and local player; default media branch unchanged. Reviewed current adaptation: actions branch preserves90pxcover/type badge and independent preview/title buttons beside player; uppercase badge/no repeated media type.",
+      "previousAdaptedSha256": "ab3253c23958271659954a0e6a74f4480993b1fe658a4566ae4cbe3e79e7a88f"
     },
     {
       "path": "components/scripture/ScripturePassage.jsx",
-      "sha256": "1fa42d888fea1e43ac078f8dccdc7a95d1a08b46f50c01f2dc93cfc9ceaf5d8b",
+      "sha256": "21555257320d2ddc83cdb080fbde850149c8d4ea5479421e117d05e01ff088e8",
       "upstreamSha256": "99794b989dc0a5fb1c812848da4a31a8fa595773189897e3d8cfa7afcb44520d",
-      "adaptation": "Optional headerAction slot only; exact patch recorded in contextual-playback evidence"
+      "adaptation": "Optional headerAction slot only; exact patch recorded in contextual-playback evidence Reviewed current adaptation: scripture-version class hook for scoped dark contrast composition, no other source change.",
+      "previousAdaptedSha256": "1fa42d888fea1e43ac078f8dccdc7a95d1a08b46f50c01f2dc93cfc9ceaf5d8b"
     },
     {
       "path": "components/scripture/KeyTermPopover.jsx",
