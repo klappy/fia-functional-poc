@@ -25,8 +25,8 @@ rendering chunks...
 computing gzip size...
 dist/index.html                   0.51 kB │ gzip:   0.34 kB
 dist/assets/index-DImsaVsm.css   28.01 kB │ gzip:   6.86 kB
-dist/assets/index-8Wy9fb3Y.js   478.85 kB │ gzip: 152.80 kB
+dist/assets/index-Cm-244Ro.js   478.98 kB │ gzip: 152.83 kB
 
-✓ built in 555ms
-Offline manifest: 200 required local files, 93641074 bytes; remote fonts optional, video excluded.
+✓ built in 542ms
+Offline manifest: 200 required local files, 93641203 bytes; remote fonts optional, video excluded.
 Release audit PASS: 210 allowlisted files; 172 unchanged MP3s; no private voice identifiers/provider route; dist only.
