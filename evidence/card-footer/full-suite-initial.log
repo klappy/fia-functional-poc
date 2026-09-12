@@ -1,0 +1,73 @@
+[WebServer] (node:41219) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 35 tests using 1 worker
+
+(node:41221) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/card-footer.spec.js:2:1 › card footer contains exact transport across reading views and modal without floating duplicate (13.7s)
+  ✓   2 tests/card-footer.spec.js:3:1 › footer controls preserve actual owner through resource exploration (1.2s)
+  ✓   3 tests/compact.spec.js:2:1 › actual missing recording exposes source error without a running dock (516ms)
+  ✓   4 tests/compact.spec.js:3:1 › compact labeled action and explicit secondary controls fit326 and726 (2.0s)
+  ✓   5 tests/composition.spec.js:2:1 › whole reading composition has stable actions and reachable source at desktop and mobile (7.5s)
+  ✓   6 tests/composition.spec.js:3:1 › current owner remains controllable while a different term is explored and term player is inside card (3.8s)
+  ✓   7 tests/contextual.spec.js:3:1 › floating tabs support keyboard and local controls fit desktop and320px without nested buttons (2.3s)
+  ✓   8 tests/contextual.spec.js:5:1 › current-step index preserves context and all117 source sections remain reachable (4.0s)
+  ✓   9 tests/contrast-badge.spec.js:2:1 › dark semantic labels and original media badge hierarchy use actual tokens (5.7s)
+  ✓  10 tests/dock.spec.js:2:1 › one floating owner survives exploration with safe narrow dock and modal counterpart (14.1s)
+  ✓  11 tests/error-dock.spec.js:2:1 › real404 compact Retry is source-scoped accessible and recovers in both themes (13.7s)
+  ✓  12 tests/gap.spec.js:2:1 › actual guide gap preserves completed context and narrow dock never exceeds actual menu (4.0s)
+  ✓  13 tests/guided-session.spec.js:4:1 › real guide, Scripture selection and exact position survive view changes and reload (2.8s)
+  ✓  14 tests/guided-session.spec.js:14:1 › contextual real map opens, renders and returns focus without moving the guide (2.2s)
+  ✓  15 tests/guided-session.spec.js:22:1 › examples require explicit reveal and every resource type is available (2.6s)
+  ✓  16 tests/guided-session.spec.js:31:1 › narrow layout, keyboard dialog and large text remain usable (1.6s)
+  ✓  17 tests/guided-session.spec.js:38:1 › failed required source renders a real error with retry, never substitute content (1.5s)
+  ✓  18 tests/guided-session.spec.js:44:1 › duplicate source names are distinguished by source meaning and inspected image (1.6s)
+  ✓  19 tests/guided-session.spec.js:49:1 › official FIA identity and colors render with readable contrast (918ms)
+  ✓  20 tests/guided-session.spec.js:57:1 › resources show all eight real previews, source metadata, search and honest online video (2.4s)
+  ✓  21 tests/guided-session.spec.js:67:1 › finished-session return from another view really restores the guide (1.5s)
+  ✘  22 tests/idle-player.spec.js:2:1 › ready context, real0.95rate, pause/resume and playing exploration remain truthful (7.7s)
+(node:43566) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  23 tests/next-actions.spec.js:2:1 › real adapted map action ends with its exact resource and metadata restores without invented association (4.9s)
+  ✓  24 tests/pause-groups.spec.js:2:1 › all four legacy cue bookmarks keep their activity through real audio ended and explicit Continue (6.2s)
+  ✓  25 tests/primary-ended.spec.js:1:78 › after owner ends current hidden idle selection becomes chooser (1.9s)
+  ✓  26 tests/primary-ended.spec.js:3:1 › paused owner resumes and intentional captured-list Next stays selected without autoplay (1.9s)
+  ✓  27 tests/primary.spec.js:2:1 › three controls, no autoplay adjacency, filtered modal focus and source cornerRestart (3.0s)
+  ✓  28 tests/speech-offline.spec.js:6:1 › complete offline pack and real media survive cold page, exploration and new owner (11.7s)
+  ✓  29 tests/speech-offline.spec.js:13:1 › missing corrupt canceled transfers preserve a verified pack and removal remains explicit (3.5s)
+  ✓  30 tests/speech-offline.spec.js:18:1 › combined transition plays offline and stops on the activity; source info returns focus (2.9s)
+  ✓  31 tests/theme-header.spec.js:2:1 › header utilities align and inline source glyph inherits theme across sizes (2.3s)
+  ✓  32 tests/theme.spec.js:2:1 › actual theme aliases and all views preserve active audio and position (4.6s)
+  ✓  33 tests/upgrade.spec.js:3:1 › ordinary reload upgrades a saved previous shell without deleting progress or its verified pack (5.8s)
+  ✓  34 tests/visual-audio.spec.js:2:1 › eight real visual clips verify and play cold offline with optional details and filtered owner (8.9s)
+  ✓  35 tests/visual-audio.spec.js:3:1 › missing visual recording exposes error while original image remains openable (765ms)
+
+
+  1) tests/idle-player.spec.js:2:1 › ready context, real0.95rate, pause/resume and playing exploration remain truthful 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  getByRole('dialog').getByRole('button', { name: 'Play heaven', exact: true })
+    Expected: 1
+    Received: 2
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" getByRole('dialog').getByRole('button', { name: 'Play heaven', exact: true }) with timeout 5000ms
+      - waiting for getByRole('dialog').getByRole('button', { name: 'Play heaven', exact: true })
+        14 × locator resolved to 2 elements
+           - unexpected value "2"
+
+
+      1 | import{test,expect}from'@playwright/test';test.use({serviceWorkers:'block'});
+    > 2 | test('ready context, real0.95rate, pause/resume and playing exploration remain truthful',async({page})=>{await page.addInitScript(()=>{const Native=window.Audio;window.Audio=class extends Native{constructor(...a){super(...a);window.__audio=this;}}});for(const width of[326,726]){await page.setViewportSize({width,height:987});await page.goto('/');const d=page.locator('.app-content .card-transport-footer>.compact-transport');await expect(d.getByRole('button',{name:'Play 1 · 1/8'})).toBeVisible();await page.getByRole('tab',{name:'Scripture',exact:true}).click();await expect(d.getByRole('button',{name:'Play Mark 1:1–13 · BSB'})).toBeVisible();await d.getByRole('button',{name:'Play Mark 1:1–13 · BSB'}).click();await expect(d.getByRole('button',{name:'Pause Now playing'})).toBeVisible();await expect.poll(()=>page.evaluate(()=>window.__audio?[window.__audio.playbackRate,window.__audio.preservesPitch]:null)).toEqual([.95,true]);await d.getByRole('button',{name:'Pause Now playing'}).click();await expect(d.getByRole('button',{name:'Resume Now playing'})).toBeVisible();await d.getByRole('button',{name:'Resume Now playing'}).click();await page.getByRole('button',{name:'Restart Scripture BSB'}).click();expect(await page.evaluate(()=>window.__audio.playbackRate)).toBe(.95);await page.getByRole('tab',{name:'Resources',exact:true}).click();await expect(d.getByRole('button',{name:'Pause Now playing'})).toContainText('BSB');await d.getByRole('button',{name:'Pause Now playing'}).click();await page.getByRole('tab',{name:'Guide',exact:true}).click();await expect(d.getByRole('button',{name:'Play 1 · 1/8'})).toBeVisible();await page.getByRole('tab',{name:'Resources',exact:true}).click();await expect(d.getByRole('button',{name:'Choose resource'})).toBeVisible();await page.getByRole('button',{name:'Open heaven term',exact:true}).click();await expect(page.getByRole('dialog').getByRole('button',{name:'Play heaven',exact:true})).toHaveCount(1);await page.keyboard.press('Escape');await expect(d.getByRole('button',{name:'Play heaven',exact:true})).toBeVisible();await expect.poll(()=>page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await page.screenshot({path:`evidence/idle-player/ready-${width}.png`,fullPage:true});}});
+        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ^
+      3 |
+        at /private/tmp/fia-functional-poc-app/tests/idle-player.spec.js:2:1935
+
+    Error Context: test-results/idle-player-ready-context--a1ec4-exploration-remain-truthful/error-context.md
+
+  1 failed
+    tests/idle-player.spec.js:2:1 › ready context, real0.95rate, pause/resume and playing exploration remain truthful 
+  34 passed (2.7m)
