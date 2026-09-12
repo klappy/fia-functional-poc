@@ -7,14 +7,14 @@
       "sha256": "57bf56bd95805904d6eed9b23a03ae16e164b0bd42c6fc924da142cf546fe3b3"
     },
     {
+      "path": "assets/index-CXCJ-10t.js",
+      "bytes": 461132,
+      "sha256": "f0bab5d5509ac3c9bbaeb59addfe7156cb2378ea9bc597bbe24be9f418dd0ceb"
+    },
+    {
       "path": "assets/index-DImsaVsm.css",
       "bytes": 28012,
       "sha256": "827e7e333bf579cf2d3ae71c8d04f545d5bc92717062e55073ae6acb56eb9ad3"
-    },
-    {
-      "path": "assets/index-Q38DabeQ.js",
-      "bytes": 459849,
-      "sha256": "5ec15b48f1991a2a1e0068fb63f3a03e564c7a54799f72ca5fdbeccc52e07f7f"
     },
     {
       "path": "assets/mark-1-1-13/a111.jpg",
@@ -999,12 +999,12 @@
     {
       "path": "index.html",
       "bytes": 517,
-      "sha256": "da4ed05351e6ded4c11442e04526f24ebb91c33ec9edddc1310395bdbff05657"
+      "sha256": "fdc9ef730dd200c47d4d43827a9cbc76d9da793aaffb7ab1dec4f14a4a436ffe"
     },
     {
       "path": "offline-shell.json",
       "bytes": 44085,
-      "sha256": "0fb523a69a4525bd62233384822bf42c9fc6e8d0ee00b5966f3410a2f75b142d"
+      "sha256": "8f850ee01b34d73c9353424b817006236772298767ef57175eb39d89bdfb2527"
     },
     {
       "path": "sw.js",
@@ -1013,6 +1013,6 @@
     }
   ],
   "packFiles": 200,
-  "packBytes": 93622064,
-  "distBytes": 93672219
+  "packBytes": 93623347,
+  "distBytes": 93673502
 }

@@ -1,0 +1,44 @@
+
+Running 2 tests using 1 worker
+
+(node:83725) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 tests/nested-direct.spec.js:2:1 › direct Guide Scripture and resource controls retain Guide adjacency through pause and end (1.3s)
+(node:83734) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 tests/nested-ready.spec.js:2:1 › native instruction ends ready selected ULT without autoplay; pause and nested completion keep Guide navigation (1.1s)
+
+
+  1) tests/nested-direct.spec.js:2:1 › direct Guide Scripture and resource controls retain Guide adjacency through pause and end 
+
+    Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4772/
+    Call log:
+      - navigating to "http://127.0.0.1:4772/", waiting until "load"
+
+
+      1 | import{test,expect}from'@playwright/test';
+    > 2 | test('direct Guide Scripture and resource controls retain Guide adjacency through pause and end',async({page})=>{await page.addInitScript(()=>{const A=window.Audio;window.Audio=class extends A{constructor(...a){super(...a);window.__audio=this;}}});await page.goto('/');await page.getByRole('tab',{name:'Scripture',exact:true}).click();await page.getByRole('radio',{name:'ULT',exact:true}).click();await page.getByRole('tab',{name:'Guide',exact:true}).click();await page.getByRole('button',{name:'Next guide activity',exact:true}).click();await page.getByRole('button',{name:'Play Scripture ULT',exact:true}).click();await expect.poll(()=>page.evaluate(()=>window.__audio?.duration||0)).toBeGreaterThan(0);await page.locator('.owner-toggle').click();await expect(page.locator('.owner-toggle')).toHaveAttribute('aria-label','Resume Now playing');await page.locator('.owner-toggle').click();await page.evaluate(()=>window.__audio.currentTime=window.__audio.duration-.1);await expect(page.getByRole('button',{name:'Next guide activity',exact:true})).toBeVisible();await expect(page.locator('.owner-toggle')).toHaveAttribute('aria-label','Play Mark 1:1–13 · ULT');await page.getByRole('button',{name:'Next guide activity',exact:true}).click();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S01-U003');await page.getByLabel('Guide step').selectOption('S02');await page.getByRole('button',{name:/Browse/}).click();await page.locator('[data-unit-id="S02-U005"]').click();await page.getByRole('button',{name:'Play Nazareth and Judea',exact:true}).click();await expect.poll(()=>page.evaluate(()=>window.__audio?.duration||0)).toBeGreaterThan(0);await page.locator('.owner-toggle').click();await expect(page.locator('.owner-toggle')).toHaveAttribute('aria-label','Resume Now playing');await page.locator('.owner-toggle').click();await page.evaluate(()=>window.__audio.currentTime=window.__audio.duration-.1);await expect(page.locator('.owner-toggle')).toHaveAttribute('aria-label','Play Nazareth and Judea');await expect(page.getByRole('dialog')).toHaveCount(0);await page.screenshot({path:'evidence/nested-ready/direct-resource-ended.png'});await page.getByRole('button',{name:'Next guide activity',exact:true}).click();await expect(page.getByTestId('current-unit')).not.toHaveAttribute('data-unit-id','S02-U005');});
+        |                                                                                                                                                                                                                                                                    ^
+      3 |
+        at /private/tmp/fia-nested-ready/tests/nested-direct.spec.js:2:260
+
+    Error Context: test-results/nested-direct-direct-Guide-b4ed0-cency-through-pause-and-end/error-context.md
+
+  2) tests/nested-ready.spec.js:2:1 › native instruction ends ready selected ULT without autoplay; pause and nested completion keep Guide navigation 
+
+    Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4772/
+    Call log:
+      - navigating to "http://127.0.0.1:4772/", waiting until "load"
+
+
+      1 | import{test,expect}from'@playwright/test';
+    > 2 | test('native instruction ends ready selected ULT without autoplay; pause and nested completion keep Guide navigation',async({page})=>{await page.addInitScript(()=>{const A=window.Audio;window.__made=0;window.Audio=class extends A{constructor(...a){super(...a);window.__audio=this;window.__made++;}}});await page.goto('/');await page.getByRole('tab',{name:'Scripture',exact:true}).click();await page.getByRole('radio',{name:'ULT',exact:true}).click();await page.getByRole('tab',{name:'Guide',exact:true}).click();await page.getByRole('button',{name:'Next guide activity',exact:true}).click();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S01-U002');await page.getByRole('button',{name:'Play guide',exact:true}).click();await expect.poll(()=>page.evaluate(()=>window.__audio?.duration||0)).toBeGreaterThan(0);await page.getByRole('button',{name:'Pause Now playing',exact:true}).click();await expect(page.getByRole('button',{name:'Resume Now playing',exact:true})).toBeVisible();await page.getByRole('button',{name:'Resume Now playing',exact:true}).click();await page.evaluate(()=>window.__audio.currentTime=window.__audio.duration-.1);const center=page.locator('.owner-toggle');await expect(center).toHaveAttribute('aria-label','Play Mark 1:1–13 · ULT');const count=await page.evaluate(()=>window.__made);await page.waitForTimeout(900);expect(await page.evaluate(()=>window.__made)).toBe(count);await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S01-U002');expect(await center.evaluate(e=>e.style.background)).toBe('var(--surface-inverse)');await page.screenshot({path:'evidence/nested-ready/ready.png'});await center.click();await expect.poll(()=>page.evaluate(()=>window.__made)).toBe(count+1);await expect.poll(()=>page.evaluate(()=>window.__audio?.duration||0)).toBeGreaterThan(0);await expect(center).toContainText('ULT');await center.click();await expect(center).toHaveAttribute('aria-label','Resume Now playing');await center.click();await expect(center).toHaveAttribute('aria-label','Pause Now playing');await page.evaluate(()=>window.__audio.currentTime=window.__audio.duration-.1);await expect(center).toHaveAttribute('aria-label','Play Mark 1:1–13 · ULT');const next=page.getByRole('button',{name:'Next guide activity',exact:true});expect(await next.evaluate(e=>e.style.background)).toBe('var(--surface-inverse)');for(const width of[319,466])for(const theme of['dark','light']){await page.setViewportSize({width,height:987});const t=page.getByRole('button',{name:`Switch to ${theme} theme`});if(await t.count())await t.click();await page.screenshot({path:`evidence/nested-ready/ended-${width}-${theme}.png`});}await next.click();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S01-U003');await expect(page.getByText('Discuss together, then continue.')).toBeVisible();});
+        |                                                                                                                                                                                                                                                                                                                         ^
+      3 |
+        at /private/tmp/fia-nested-ready/tests/nested-ready.spec.js:2:313
+
+    Error Context: test-results/nested-ready-native-instru-02ea3-etion-keep-Guide-navigation/error-context.md
+
+  2 failed
+    tests/nested-direct.spec.js:2:1 › direct Guide Scripture and resource controls retain Guide adjacency through pause and end 
+    tests/nested-ready.spec.js:2:1 › native instruction ends ready selected ULT without autoplay; pause and nested completion keep Guide navigation 
