@@ -1,0 +1,144 @@
+
+> fia-functional-poc@0.1.0 test:e2e
+> playwright test
+
+
+Running 35 tests using 1 worker
+
+(node:61140) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/card-footer.spec.js:3:1 › card footer contains exact transport across reading views and modal without floating duplicate (6.6s)
+  ✓   2 tests/card-footer.spec.js:4:1 › footer controls preserve actual owner through resource exploration (950ms)
+  ✓   3 tests/compact.spec.js:3:1 › actual missing recording exposes source error without a running dock (492ms)
+  ✓   4 tests/compact.spec.js:4:1 › compact labeled action and explicit secondary controls fit326 and726 (1.1s)
+  ✓   5 tests/composition.spec.js:2:1 › whole reading composition has stable actions and reachable source at desktop and mobile (822ms)
+  ✓   6 tests/composition.spec.js:3:1 › current owner remains controllable while a different term is explored and term player is inside card (808ms)
+  ✓   7 tests/contextual.spec.js:3:1 › floating tabs support keyboard and local controls fit desktop and320px without nested buttons (721ms)
+  ✓   8 tests/contextual.spec.js:5:1 › current-step index preserves context and all117 source sections remain reachable (1.0s)
+  ✓   9 tests/contrast-badge.spec.js:2:1 › dark semantic labels and original media badge hierarchy use actual tokens (1.3s)
+  ✓  10 tests/dock.spec.js:2:1 › one floating owner survives exploration with safe narrow dock and modal counterpart (3.3s)
+  ✓  11 tests/error-dock.spec.js:3:1 › real404 compact Retry is source-scoped accessible and recovers in both themes (2.7s)
+  ✓  12 tests/gap.spec.js:2:1 › actual guide gap preserves completed context and narrow dock never exceeds actual menu (2.0s)
+  ✓  13 tests/guided-session.spec.js:4:1 › real guide, Scripture selection and exact position survive view changes and reload (596ms)
+  ✓  14 tests/guided-session.spec.js:14:1 › contextual real map opens, renders and returns focus without moving the guide (582ms)
+  ✓  15 tests/guided-session.spec.js:22:1 › examples require explicit reveal and every resource type is available (623ms)
+  ✓  16 tests/guided-session.spec.js:31:1 › narrow layout, keyboard dialog and large text remain usable (435ms)
+  ✓  17 tests/guided-session.spec.js:38:1 › failed required source renders a real error with retry, never substitute content (598ms)
+  ✓  18 tests/guided-session.spec.js:44:1 › duplicate source names are distinguished by source meaning and inspected image (457ms)
+  ✓  19 tests/guided-session.spec.js:49:1 › official FIA identity and colors render with readable contrast (324ms)
+  ✓  20 tests/guided-session.spec.js:57:1 › resources show all eight real previews, source metadata, search and honest online video (761ms)
+  ✘  21 tests/guided-session.spec.js:67:1 › finished-session return from another view really restores the guide (30.0s)
+(node:61816) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  22 tests/idle-player.spec.js:3:1 › ready context, real0.95rate, pause/resume and playing exploration remain truthful (2.4s)
+  ✘  23 tests/next-actions.spec.js:2:1 › real adapted map action ends with its exact resource and metadata restores without invented association (6.0s)
+(node:62235) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  24 tests/pause-groups.spec.js:2:1 › all four legacy cue bookmarks keep their activity through real audio ended and explicit Continue (5.6s)
+(node:62449) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  25 tests/primary-ended.spec.js:1:78 › after owner ends current hidden idle selection becomes chooser (1.2s)
+  ✓  26 tests/primary-ended.spec.js:3:1 › paused owner resumes and intentional captured-list Next stays selected without autoplay (824ms)
+  ✘  27 tests/primary.spec.js:2:1 › three controls, no autoplay adjacency, filtered modal focus and source cornerRestart (1.1s)
+(node:62658) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  28 tests/speech-offline.spec.js:6:1 › complete offline pack and real media survive cold page, exploration and new owner (4.5s)
+  ✓  29 tests/speech-offline.spec.js:13:1 › missing corrupt canceled transfers preserve a verified pack and removal remains explicit (2.3s)
+  ✓  30 tests/speech-offline.spec.js:18:1 › combined transition plays offline and stops on the activity; source info returns focus (2.4s)
+  ✓  31 tests/theme-header.spec.js:3:1 › header utilities align and inline source glyph inherits theme across sizes (2.1s)
+  ✓  32 tests/theme.spec.js:3:1 › actual theme aliases and all views preserve active audio and position (6.2s)
+  ✓  33 tests/upgrade.spec.js:3:1 › ordinary reload upgrades a saved previous shell without deleting progress or its verified pack (4.5s)
+  ✓  34 tests/visual-audio.spec.js:2:1 › eight real visual clips verify and play cold offline with optional details and filtered owner (10.7s)
+  ✓  35 tests/visual-audio.spec.js:3:1 › missing visual recording exposes error while original image remains openable (1.6s)
+
+
+  1) tests/guided-session.spec.js:67:1 › finished-session return from another view really restores the guide 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Return to the guide', exact: true })
+
+
+      67 | test('finished-session return from another view really restores the guide',async({page})=>{
+      68 |  await page.evaluate(()=>localStorage.setItem('fia.session.mark-1-1-13.v1',JSON.stringify({schemaVersion:1,passage:'mark-1-1-13',stepId:'S06',unitId:'S06-U001',version:'BereanStandardBible',visited:['S01','S02','S03','S04','S05','S06'],finished:true})));
+    > 69 |  await page.reload();await page.getByRole('tab',{name:'Resources',exact:true}).click();await page.getByRole('button',{name:'Return to the guide',exact:true}).click();await expect(page.getByTestId('current-unit')).toBeVisible();await expect(page.getByRole('heading',{name:'Session finished',exact:true})).toHaveCount(0);
+         |                                                                                                                                                               ^
+      70 | });
+      71 |
+        at /private/tmp/fia-functional-poc-app/tests/guided-session.spec.js:69:159
+
+    Error Context: test-results/guided-session-finished-se-0783d-w-really-restores-the-guide/error-context.md
+
+  2) tests/next-actions.spec.js:2:1 › real adapted map action ends with its exact resource and metadata restores without invented association 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator:  getByTestId('current-unit')
+    Expected: "S05-U043"
+    Received: "S03-U007"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveAttribute" getByTestId('current-unit') with timeout 5000ms
+      - waiting for getByTestId('current-unit')
+        14 × locator resolved to <div class="current-unit" data-unit-id="S03-U007" data-testid="current-unit">…</div>
+           - unexpected value "S03-U007"
+
+
+      1 | import{test,expect}from'@playwright/test';
+    > 2 | test('real adapted map action ends with its exact resource and metadata restores without invented association',async({page})=>{await page.addInitScript(()=>{const Native=window.Audio;window.Audio=class extends Native{constructor(...a){super(...a);window.__audio=this;}}});await page.goto('/');await page.evaluate(()=>localStorage.removeItem('fia.workspace.mark-1-1-13.v2') || localStorage.setItem('fia.session.mark-1-1-13.v1',JSON.stringify({schemaVersion:1,passage:'mark-1-1-13',stepId:'S03',unitId:'S03-U007',version:'BereanStandardBible',visited:['S03'],finished:false})));await page.reload();await expect(page.getByTestId('current-unit')).toContainText('Galilee');await expect(page.getByTestId('current-unit')).toContainText('Nazareth');await expect(page.getByTestId('current-unit')).toContainText('Jordan River');const paths=[];page.on('request',r=>paths.push(r.url()));await page.getByRole('button',{name:'Play guide',exact:true}).click();await expect.poll(()=>page.evaluate(()=>window.__audio?.duration||0)).toBeGreaterThan(0);expect(paths.some(p=>p.includes('/next-actions/S03-U007.mp3'))).toBe(true);await page.evaluate(()=>window.__audio.currentTime=window.__audio.duration-.1);await expect.poll(()=>page.evaluate(()=>window.__audio?.ended)).toBe(true);await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S03-U007');await expect(page.locator('.context-resources .resource-map')).toHaveCount(1);await page.locator('.context-resources .resource-map').getByRole('button',{name:'Nazareth and Judea',exact:true}).click();await expect.poll(()=>page.getByRole('dialog').getByRole('img').evaluate(i=>i.naturalWidth)).toBeGreaterThan(0);await page.keyboard.press('Escape');await page.evaluate(()=>{const s=JSON.parse(localStorage.getItem('fia.session.mark-1-1-13.v1'));s.stepId='S05';s.unitId='S05-U045';localStorage.removeItem('fia.workspace.mark-1-1-13.v2') || localStorage.setItem('fia.session.mark-1-1-13.v1',JSON.stringify(s));});await page.reload();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S05-U043');await expect(page.getByText('Source media request restored · Info')).toBeVisible();await expect(page.locator('.context-resources .resource-map')).toHaveCount(0);await page.getByRole('button',{name:'Read complete guide and attribution'}).click();await expect(page.getByRole('dialog')).toContainText('Media Requests:');await page.keyboard.press('Escape');await page.getByRole('button',{name:'Next guide activity',exact:true}).click();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S06-U001');await page.screenshot({path:'evidence/next-actions/context.png',fullPage:true});});
+        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ^
+      3 |
+        at /private/tmp/fia-functional-poc-app/tests/next-actions.spec.js:2:2031
+
+    Error Context: test-results/next-actions-real-adapted--f6573-ithout-invented-association/error-context.md
+
+  3) tests/pause-groups.spec.js:2:1 › all four legacy cue bookmarks keep their activity through real audio ended and explicit Continue 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('.owner-toggle')
+    Expected substring: "2 ·"
+    Received string:    "Setting the Stage · 11 of 12"
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" locator('.owner-toggle') with timeout 5000ms
+      - waiting for locator('.owner-toggle')
+        3 × locator resolved to <button disabled class="owner-toggle" aria-label="Pause Now playing" aria-description="Setting the Stage, activity 11 of 12">…</button>
+          - unexpected value "Setting the Stage · 11 of 12"
+        11 × locator resolved to <button class="owner-toggle" aria-label="Pause Now playing" aria-description="Setting the Stage, activity 11 of 12">…</button>
+           - unexpected value "Setting the Stage · 11 of 12"
+
+
+      1 | import{test,expect}from'@playwright/test';test.use({serviceWorkers:'block'});
+    > 2 | test('all four legacy cue bookmarks keep their activity through real audio ended and explicit Continue',async({page})=>{await page.addInitScript(()=>{const Native=window.Audio;window.__realAudio=[];window.Audio=class extends Native{constructor(...args){super(...args);window.__realAudio.push(this);}};});const pairs={'S02-U012':'S02-U011','S06-U005':'S06-U004','S06-U007':'S06-U006','S06-U009':'S06-U008'};for(const[cue,primary]of Object.entries(pairs)){await page.goto('/');await page.evaluate(({cue})=>localStorage.removeItem('fia.workspace.mark-1-1-13.v2') || localStorage.setItem('fia.session.mark-1-1-13.v1',JSON.stringify({schemaVersion:1,passage:'mark-1-1-13',stepId:cue.slice(0,3),unitId:cue,version:'BereanStandardBible',visited:['S02','S06'],finished:false})),{cue});await page.reload();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id',primary);await expect(page.getByTestId('current-unit')).not.toHaveText('Pause this audio here.');await expect(page.getByRole('button',{name:'Pause Now playing'})).toHaveCount(0);const requested=[];const capture=r=>{if(r.url().endsWith('.mp3'))requested.push(r.url());};page.on('request',capture);await page.getByRole('button',{name:'Play guide',exact:true}).click();await expect(page.locator('.owner-toggle')).toContainText(cue.startsWith('S06')?'Speaking the Word':'Setting the Stage');await expect.poll(()=>page.evaluate(()=>window.__realAudio.at(-1)?.duration||0)).toBeGreaterThan(0);await page.evaluate(()=>{const a=window.__realAudio.at(-1);a.currentTime=Math.max(0,a.duration-.12);});await expect.poll(()=>page.evaluate(()=>window.__realAudio.at(-1)?.ended)).toBe(true);await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id',primary);expect(requested.some(u=>u.includes(cue))).toBe(false);await page.getByRole('button',{name:'Next guide activity',exact:true}).click();await expect(page.getByTestId('current-unit')).not.toHaveAttribute('data-unit-id',cue);await expect(page.getByTestId('current-unit')).not.toHaveAttribute('data-unit-id',primary);page.off('request',capture);}await page.screenshot({path:'evidence/pause-groups/final-activity.png',fullPage:true});});
+        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ^
+      3 |
+        at /private/tmp/fia-functional-poc-app/tests/pause-groups.spec.js:2:1286
+
+    Error Context: test-results/pause-groups-all-four-lega-c2d37-ended-and-explicit-Continue/error-context.md
+
+  4) tests/primary.spec.js:2:1 › three controls, no autoplay adjacency, filtered modal focus and source cornerRestart 
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 235.34375
+    Received:    291
+
+      1 | import{test,expect}from'@playwright/test';test.use({serviceWorkers:'block'});
+    > 2 | test('three controls, no autoplay adjacency, filtered modal focus and source cornerRestart',async({page})=>{await page.goto('/');const dock=page.locator('.app-content .card-transport-footer>.compact-transport');await expect(dock.getByRole('button')).toHaveCount(3);await expect(dock.getByRole('button',{name:'Previous guide activity'})).toBeDisabled();await dock.getByRole('button',{name:'Next guide activity'}).click();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S01-U002');await expect(page.getByRole('button',{name:'Pause Now playing'})).toHaveCount(0);await expect(page.getByRole('button',{name:'Play Scripture BSB',exact:true})).toBeVisible();await page.getByRole('tab',{name:'Scripture',exact:true}).click();await dock.getByRole('button',{name:'Next Scripture version'}).click();await expect(page.getByRole('radio',{name:'ULT',exact:true})).toHaveAttribute('aria-checked','true');await page.getByRole('tab',{name:'Resources',exact:true}).click();await page.getByRole('button',{name:'Maps',exact:true}).click();await page.locator('.resource-map button').first().click();let dialog=page.getByRole('dialog');await expect(dialog.getByRole('button',{name:'Close resource'})).toBeFocused();await dialog.getByRole('button',{name:'Next resource'}).click();await expect(dialog.getByRole('button',{name:'Next resource'})).toBeFocused();await expect(dialog.locator('img')).toHaveCount(1);await page.keyboard.press('Escape');await page.getByRole('button',{name:'Key terms',exact:true}).click();await expect(dock.getByRole('button',{name:'Choose resource'})).toBeVisible();await expect(dock.getByRole('button',{name:'Next resource'})).toBeDisabled();await page.getByRole('button',{name:'Play heaven',exact:true}).click();await expect(page.getByRole('button',{name:'Restart heaven'})).toBeVisible();await expect(page.getByRole('dialog')).toHaveCount(0);await page.getByRole('button',{name:'Maps',exact:true}).click();await dock.getByRole('button',{name:'Next resource'}).click();await expect(page.getByRole('button',{name:'Pause Now playing'})).toHaveCount(0);for(const width of[319,726]){await page.setViewportSize({width,height:987});await expect(dock.getByRole('button')).toHaveCount(3);for(const b of await dock.getByRole('button').all())expect((await b.boundingBox()).width).toBeGreaterThanOrEqual(44);expect((await dock.boundingBox()).width).toBeLessThanOrEqual((await page.locator('.floating-tabs').boundingBox()).width+1);await page.screenshot({path:`evidence/primary-transport/primary-${width}.png`,fullPage:true});}});
+        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ^
+      3 |
+        at /private/tmp/fia-functional-poc-app/tests/primary.spec.js:2:2376
+
+    Error Context: test-results/primary-three-controls-no--3a3f4-us-and-source-cornerRestart/error-context.md
+
+  4 failed
+    tests/guided-session.spec.js:67:1 › finished-session return from another view really restores the guide 
+    tests/next-actions.spec.js:2:1 › real adapted map action ends with its exact resource and metadata restores without invented association 
+    tests/pause-groups.spec.js:2:1 › all four legacy cue bookmarks keep their activity through real audio ended and explicit Continue 
+    tests/primary.spec.js:2:1 › three controls, no autoplay adjacency, filtered modal focus and source cornerRestart 
+  31 passed (1.9m)
