@@ -1,0 +1,488 @@
+[
+  {
+    "width": 319,
+    "theme": "light",
+    "v": "BSB",
+    "credit": "BereanStandardBible",
+    "font": "12px / 15.6px \"SF Pro Display\", \"SF Pro Text\", -apple-system, \"system-ui\", system-ui, sans-serif",
+    "creditBottom": 786.359375,
+    "footerTop": 824.59375,
+    "bodyBottom": 876.59375,
+    "backdrop": "blur(24px) saturate(1.6)",
+    "background": "rgba(255, 255, 255, 0.62)",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44
+      },
+      {
+        "width": 147,
+        "height": 44
+      },
+      {
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "noOverflow": true
+  },
+  {
+    "width": 319,
+    "theme": "light",
+    "v": "ULT",
+    "credit": "unfoldingWordLiteral",
+    "font": "12px / 15.6px \"SF Pro Display\", \"SF Pro Text\", -apple-system, \"system-ui\", system-ui, sans-serif",
+    "creditBottom": 786.046875,
+    "footerTop": 824.59375,
+    "bodyBottom": 876.59375,
+    "backdrop": "blur(24px) saturate(1.6)",
+    "background": "rgba(255, 255, 255, 0.62)",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44
+      },
+      {
+        "width": 147,
+        "height": 44
+      },
+      {
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "noOverflow": true
+  },
+  {
+    "width": 319,
+    "theme": "light",
+    "v": "UST",
+    "credit": "unfoldingWordSimplified",
+    "font": "12px / 15.6px \"SF Pro Display\", \"SF Pro Text\", -apple-system, \"system-ui\", system-ui, sans-serif",
+    "creditBottom": 786.359375,
+    "footerTop": 824.59375,
+    "bodyBottom": 876.59375,
+    "backdrop": "blur(24px) saturate(1.6)",
+    "background": "rgba(255, 255, 255, 0.62)",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44
+      },
+      {
+        "width": 147,
+        "height": 44
+      },
+      {
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "noOverflow": true
+  },
+  {
+    "width": 319,
+    "theme": "dark",
+    "v": "BSB",
+    "credit": "BereanStandardBible",
+    "font": "12px / 15.6px \"SF Pro Display\", \"SF Pro Text\", -apple-system, \"system-ui\", system-ui, sans-serif",
+    "creditBottom": 786.109375,
+    "footerTop": 824.59375,
+    "bodyBottom": 876.59375,
+    "backdrop": "blur(24px) saturate(1.6)",
+    "background": "rgba(255, 255, 255, 0.14)",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44
+      },
+      {
+        "width": 147,
+        "height": 44
+      },
+      {
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "noOverflow": true
+  },
+  {
+    "width": 319,
+    "theme": "dark",
+    "v": "ULT",
+    "credit": "unfoldingWordLiteral",
+    "font": "12px / 15.6px \"SF Pro Display\", \"SF Pro Text\", -apple-system, \"system-ui\", system-ui, sans-serif",
+    "creditBottom": 786.046875,
+    "footerTop": 824.59375,
+    "bodyBottom": 876.59375,
+    "backdrop": "blur(24px) saturate(1.6)",
+    "background": "rgba(255, 255, 255, 0.14)",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44
+      },
+      {
+        "width": 147,
+        "height": 44
+      },
+      {
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "noOverflow": true
+  },
+  {
+    "width": 319,
+    "theme": "dark",
+    "v": "UST",
+    "credit": "unfoldingWordSimplified",
+    "font": "12px / 15.6px \"SF Pro Display\", \"SF Pro Text\", -apple-system, \"system-ui\", system-ui, sans-serif",
+    "creditBottom": 786.359375,
+    "footerTop": 824.59375,
+    "bodyBottom": 876.59375,
+    "backdrop": "blur(24px) saturate(1.6)",
+    "background": "rgba(255, 255, 255, 0.14)",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44
+      },
+      {
+        "width": 147,
+        "height": 44
+      },
+      {
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "noOverflow": true
+  },
+  {
+    "width": 466,
+    "theme": "light",
+    "v": "BSB",
+    "credit": "BereanStandardBible",
+    "font": "12px / 15.6px \"SF Pro Display\", \"SF Pro Text\", -apple-system, \"system-ui\", system-ui, sans-serif",
+    "creditBottom": 787,
+    "footerTop": 824.59375,
+    "bodyBottom": 876.59375,
+    "backdrop": "blur(24px) saturate(1.6)",
+    "background": "rgba(255, 255, 255, 0.62)",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44
+      },
+      {
+        "width": 167.71875,
+        "height": 44
+      },
+      {
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "noOverflow": true
+  },
+  {
+    "width": 466,
+    "theme": "light",
+    "v": "ULT",
+    "credit": "unfoldingWordLiteral",
+    "font": "12px / 15.6px \"SF Pro Display\", \"SF Pro Text\", -apple-system, \"system-ui\", system-ui, sans-serif",
+    "creditBottom": 786.375,
+    "footerTop": 824.59375,
+    "bodyBottom": 876.59375,
+    "backdrop": "blur(24px) saturate(1.6)",
+    "background": "rgba(255, 255, 255, 0.62)",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44
+      },
+      {
+        "width": 166.0625,
+        "height": 44
+      },
+      {
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "noOverflow": true
+  },
+  {
+    "width": 466,
+    "theme": "light",
+    "v": "UST",
+    "credit": "unfoldingWordSimplified",
+    "font": "12px / 15.6px \"SF Pro Display\", \"SF Pro Text\", -apple-system, \"system-ui\", system-ui, sans-serif",
+    "creditBottom": 786.1875,
+    "footerTop": 824.59375,
+    "bodyBottom": 876.59375,
+    "backdrop": "blur(24px) saturate(1.6)",
+    "background": "rgba(255, 255, 255, 0.62)",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44
+      },
+      {
+        "width": 168.265625,
+        "height": 44
+      },
+      {
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "noOverflow": true
+  },
+  {
+    "width": 466,
+    "theme": "dark",
+    "v": "BSB",
+    "credit": "BereanStandardBible",
+    "font": "12px / 15.6px \"SF Pro Display\", \"SF Pro Text\", -apple-system, \"system-ui\", system-ui, sans-serif",
+    "creditBottom": 787,
+    "footerTop": 824.59375,
+    "bodyBottom": 876.59375,
+    "backdrop": "blur(24px) saturate(1.6)",
+    "background": "rgba(255, 255, 255, 0.14)",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44
+      },
+      {
+        "width": 167.71875,
+        "height": 44
+      },
+      {
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "noOverflow": true
+  },
+  {
+    "width": 466,
+    "theme": "dark",
+    "v": "ULT",
+    "credit": "unfoldingWordLiteral",
+    "font": "12px / 15.6px \"SF Pro Display\", \"SF Pro Text\", -apple-system, \"system-ui\", system-ui, sans-serif",
+    "creditBottom": 786.375,
+    "footerTop": 824.59375,
+    "bodyBottom": 876.59375,
+    "backdrop": "blur(24px) saturate(1.6)",
+    "background": "rgba(255, 255, 255, 0.14)",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44
+      },
+      {
+        "width": 166.0625,
+        "height": 44
+      },
+      {
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "noOverflow": true
+  },
+  {
+    "width": 466,
+    "theme": "dark",
+    "v": "UST",
+    "credit": "unfoldingWordSimplified",
+    "font": "12px / 15.6px \"SF Pro Display\", \"SF Pro Text\", -apple-system, \"system-ui\", system-ui, sans-serif",
+    "creditBottom": 786.1875,
+    "footerTop": 824.59375,
+    "bodyBottom": 876.59375,
+    "backdrop": "blur(24px) saturate(1.6)",
+    "background": "rgba(255, 255, 255, 0.14)",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44
+      },
+      {
+        "width": 168.265625,
+        "height": 44
+      },
+      {
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "noOverflow": true
+  },
+  {
+    "width": 726,
+    "theme": "light",
+    "v": "BSB",
+    "credit": "BereanStandardBible",
+    "font": "12px / 15.6px \"SF Pro Display\", \"SF Pro Text\", -apple-system, \"system-ui\", system-ui, sans-serif",
+    "creditBottom": 779.5625,
+    "footerTop": 834.59375,
+    "bodyBottom": 886.59375,
+    "backdrop": "blur(24px) saturate(1.6)",
+    "background": "rgba(255, 255, 255, 0.62)",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44
+      },
+      {
+        "width": 167.71875,
+        "height": 44
+      },
+      {
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "noOverflow": true
+  },
+  {
+    "width": 726,
+    "theme": "light",
+    "v": "ULT",
+    "credit": "unfoldingWordLiteral",
+    "font": "12px / 15.6px \"SF Pro Display\", \"SF Pro Text\", -apple-system, \"system-ui\", system-ui, sans-serif",
+    "creditBottom": 796.9375,
+    "footerTop": 834.59375,
+    "bodyBottom": 886.59375,
+    "backdrop": "blur(24px) saturate(1.6)",
+    "background": "rgba(255, 255, 255, 0.62)",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44
+      },
+      {
+        "width": 166.0625,
+        "height": 44
+      },
+      {
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "noOverflow": true
+  },
+  {
+    "width": 726,
+    "theme": "light",
+    "v": "UST",
+    "credit": "unfoldingWordSimplified",
+    "font": "12px / 15.6px \"SF Pro Display\", \"SF Pro Text\", -apple-system, \"system-ui\", system-ui, sans-serif",
+    "creditBottom": 796.4375,
+    "footerTop": 834.59375,
+    "bodyBottom": 886.59375,
+    "backdrop": "blur(24px) saturate(1.6)",
+    "background": "rgba(255, 255, 255, 0.62)",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44
+      },
+      {
+        "width": 168.265625,
+        "height": 44
+      },
+      {
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "noOverflow": true
+  },
+  {
+    "width": 726,
+    "theme": "dark",
+    "v": "BSB",
+    "credit": "BereanStandardBible",
+    "font": "12px / 15.6px \"SF Pro Display\", \"SF Pro Text\", -apple-system, \"system-ui\", system-ui, sans-serif",
+    "creditBottom": 779.5625,
+    "footerTop": 834.59375,
+    "bodyBottom": 886.59375,
+    "backdrop": "blur(24px) saturate(1.6)",
+    "background": "rgba(255, 255, 255, 0.14)",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44
+      },
+      {
+        "width": 167.71875,
+        "height": 44
+      },
+      {
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "noOverflow": true
+  },
+  {
+    "width": 726,
+    "theme": "dark",
+    "v": "ULT",
+    "credit": "unfoldingWordLiteral",
+    "font": "12px / 15.6px \"SF Pro Display\", \"SF Pro Text\", -apple-system, \"system-ui\", system-ui, sans-serif",
+    "creditBottom": 796.9375,
+    "footerTop": 834.59375,
+    "bodyBottom": 886.59375,
+    "backdrop": "blur(24px) saturate(1.6)",
+    "background": "rgba(255, 255, 255, 0.14)",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44
+      },
+      {
+        "width": 166.0625,
+        "height": 44
+      },
+      {
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "noOverflow": true
+  },
+  {
+    "width": 726,
+    "theme": "dark",
+    "v": "UST",
+    "credit": "unfoldingWordSimplified",
+    "font": "12px / 15.6px \"SF Pro Display\", \"SF Pro Text\", -apple-system, \"system-ui\", system-ui, sans-serif",
+    "creditBottom": 796.4375,
+    "footerTop": 834.59375,
+    "bodyBottom": 886.59375,
+    "backdrop": "blur(24px) saturate(1.6)",
+    "background": "rgba(255, 255, 255, 0.14)",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44
+      },
+      {
+        "width": 168.265625,
+        "height": 44
+      },
+      {
+        "width": 44,
+        "height": 44
+      }
+    ],
+    "noOverflow": true
+  }
+]

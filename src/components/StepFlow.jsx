@@ -1,3 +1,4 @@
+import InsetTransport from './InsetTransport.jsx';
 import SourceIcon from './SourceIcon.jsx';
 import{GlassIconButton}from'../vendor/glass/components/glass/GlassIconButton.jsx';
 import {GlassSelect} from '../vendor/glass/components/forms/GlassSelect.jsx';
@@ -26,7 +27,7 @@ export default function StepFlow({ session, pack, onMove, onStep, onResource, on
       {attached.length > 0 && <div className="context-resources"><h3>Explore at this point</h3>{attached.map(item => <ResourceTile key={item.content_id} item={item} player={termPlayer(item)} contextual onOpen={onResource} onPlay={onTermPlay} audioAvailable={termAvailable(item.content_id)}/>)}</div>}
       {step.id === 'S04' && <p className="example-note">The source includes possible drama responses. Keep them hidden while the group responds. <button className="text-button" onClick={onExamples}>Show source example</button></p>}
 
-      </div><div className="guide-footer card-transport-footer">{transport}{isStop&&<p role="status">Discuss together, then continue.</p>}{atEnd&&<GlassButton variant="dark" onClick={onFinish} disabled={!canFinish(session,pack.guide)}>Finish session</GlassButton>}
+      </div><div className="guide-footer card-transport-footer"><InsetTransport>{transport}</InsetTransport>{isStop&&<p role="status">Discuss together, then continue.</p>}{atEnd&&<GlassButton variant="dark" onClick={onFinish} disabled={!canFinish(session,pack.guide)}>Finish session</GlassButton>}
       {atEnd && !canFinish(session,pack.guide) && <p>Visit all six steps before finishing this session.</p>}
       </div>
     </GlassSurface>

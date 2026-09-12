@@ -79,3 +79,13 @@ html[data-theme="dark"] .scripture-version{background:var(--material-floating)!i
 /* Scroll gutter contains the canonical contextual-card shadows instead of cutting
    their falloff at the inner text rectangle; card material/backdrop unchanged. */
 .guide-card .source-scroll{margin-inline:-16px;padding:0 16px 36px}
+
+/* Bounded inset trial: original reading content scrolls beneath actual level3 glass. */
+.guide-card,.scripture-text{position:relative}
+.guide-card>.guide-footer,.scripture-text>.card-transport-footer{position:absolute;left:16px;right:16px;bottom:16px;border-top:0;padding-top:0;z-index:2}
+.guide-card .source-scroll,.scripture-text .scripture-scroll{padding-bottom:var(--inset-clearance,120px);scroll-padding-bottom:var(--inset-clearance,120px)}
+.inset-glass-shell{width:100%;min-width:0;order:2}.inset-glass{padding:6px}
+.inset-glass>.compact-transport{justify-content:center;gap:4px;max-width:100%}
+.inset-glass .compact-transport>button:first-child,.inset-glass .compact-transport>button:last-child{flex:none}
+.guide-footer>p{margin:0}
+@media(max-height:600px){.guide-card>.guide-footer,.scripture-text>.card-transport-footer{position:relative;left:auto;right:auto;bottom:auto}.guide-card .source-scroll,.scripture-text .scripture-scroll{padding-bottom:36px}}
