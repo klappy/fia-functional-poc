@@ -12,7 +12,7 @@ export function ScripturePassage({reference,version,source,script='latin',dir='l
     React.createElement('div',{style:{display:'flex',justifyContent:'space-between',alignItems:'center',gap:10,flexWrap:'wrap'}},
       React.createElement('div',{style:{display:'flex',alignItems:'center',gap:8,flex:'none'}},
         React.createElement('span',{style:{font:'var(--type-card-title)',letterSpacing:'var(--ls-title)',color:'var(--text-title)',whiteSpace:'nowrap'}},reference),
-        version?React.createElement(GlassChip,null,version):null),
+        version?React.createElement(GlassChip,{className:'scripture-version'},version):null),
       headerAction|| (sync?React.createElement(SyncBadge,{state:sync}):null)),
     React.createElement('div',{dir,lang,style:{marginTop:14,maxWidth:'40em',font:'var(--type-scripture)',fontFamily:FACE[script]||FACE.latin,color:'var(--text-title)',letterSpacing:0,textWrap:'pretty'}},
       verses.map((v,i)=>React.createElement('span',{key:i},

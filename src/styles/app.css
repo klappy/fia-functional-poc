@@ -44,3 +44,8 @@ html[data-theme="dark"]{color-scheme:dark}
 
 /* Native search placeholder is a semantic text label in both themes. */
 input::placeholder{color:var(--text-muted);opacity:1}
+
+/* Small text on layered dark glass uses the existing bright semantic tier.
+   Scoped to this app's content and portal, preserving the upstream palette. */
+html[data-theme="dark"] :is(.app-shell,.guide-index){--text-muted:var(--text-title);--text-dim:var(--text-title);--text-faint:var(--text-title);--link:var(--text-title);--link-hover:var(--text-body)}
+html[data-theme="dark"] .scripture-version{background:var(--material-floating)!important}
