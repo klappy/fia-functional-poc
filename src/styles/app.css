@@ -74,7 +74,7 @@ html[data-theme="dark"] .scripture-version{background:var(--material-floating)!i
 
 /* Resource catalog uses intrinsic column-major document flow; shared cards stay intact. */
 .resources-view{padding-bottom:calc(var(--floating-clearance,170px) + env(safe-area-inset-bottom))}
-.resources-view .playback-dock .owner-toggle span{max-width:140px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+.resources-view .playback-dock .owner-toggle span{max-width:none;white-space:normal;text-overflow:clip;overflow:visible}
 @media(max-width:360px){#panel-resources>.resource-grid{column-count:1}}
 /* Scroll gutter contains the canonical contextual-card shadows instead of cutting
    their falloff at the inner text rectangle; card material/backdrop unchanged. */
@@ -94,3 +94,6 @@ html[data-theme="dark"] .scripture-version{background:var(--material-floating)!i
 
 /* Keep disabled inset material opaque; dim only its glyph. */
 .inset-glass .inset-side-action:disabled{opacity:1}.inset-glass .inset-side-action:disabled>span{opacity:.45}
+
+/* Shared DS transport geometry; contextual placement alone varies. */
+.inset-glass{padding:var(--sp-2)!important;border-radius:var(--r-pill)!important}.playback-dock{padding:0!important}.inset-glass .owner-toggle{height:auto;min-height:44px;flex:0 1 auto}.inset-glass .owner-toggle span{max-width:none;white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere;line-height:1.35}.guide-card>.guide-footer,.scripture-text>.card-transport-footer{left:var(--sp-4);right:var(--sp-4);bottom:var(--sp-4)}
