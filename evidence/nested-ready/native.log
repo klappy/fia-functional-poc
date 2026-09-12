@@ -1,0 +1,8 @@
+
+Running 1 test using 1 worker
+
+(node:80281) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/nested-ready.spec.js:2:1 › native instruction ends ready selected ULT without autoplay; pause and nested completion keep Guide navigation (5.3s)
+
+  1 passed (6.0s)
