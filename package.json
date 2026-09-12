@@ -14,7 +14,9 @@
     "verify:content": "node scripts/verify-content.mjs",
     "verify:audio": "node scripts/verify-audio.mjs",
     "test": "node --test tests/*.test.mjs",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "verify:pwa": "node scripts/verify-pwa.mjs",
+    "test:pwa": "playwright test -c playwright.pwa.config.js"
   },
   "dependencies": {
     "dompurify": "3.4.15",

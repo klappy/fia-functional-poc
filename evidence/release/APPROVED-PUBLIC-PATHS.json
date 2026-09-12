@@ -191,5 +191,10 @@
   "content/mark-1-1-13/scripture.json",
   "content/term-narration.json",
   "content/visual-narration.json",
-  "sw.js"
+  "sw.js",
+  "app.webmanifest",
+  "icons/fia-192.png",
+  "icons/fia-512.png",
+  "icons/fia-maskable-512.png",
+  "icons/apple-touch-icon.png"
 ]
