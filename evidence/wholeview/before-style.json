@@ -1,0 +1,82 @@
+[
+  {
+    "class": "reading-card guide-card",
+    "background": "rgba(255, 255, 255, 0.78) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backdrop": "blur(24px) saturate(1.6)",
+    "overflow": "visible",
+    "rect": {
+      "x": 18,
+      "y": 169.59375,
+      "width": 430,
+      "height": 722,
+      "top": 169.59375,
+      "right": 448,
+      "bottom": 891.59375,
+      "left": 18
+    }
+  },
+  {
+    "class": "source-scroll",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backdrop": "none",
+    "overflow": "auto",
+    "rect": {
+      "x": 35,
+      "y": 242.59375,
+      "width": 396,
+      "height": 525.40625,
+      "top": 242.59375,
+      "right": 431,
+      "bottom": 768,
+      "left": 35
+    }
+  },
+  {
+    "class": "context-resources",
+    "background": "rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backdrop": "none",
+    "overflow": "visible",
+    "rect": {
+      "x": 35,
+      "y": 342.59375,
+      "width": 392,
+      "height": 353.546875,
+      "top": 342.59375,
+      "right": 427,
+      "bottom": 696.140625,
+      "left": 35
+    }
+  },
+  {
+    "class": "resource-card",
+    "background": "rgba(255, 255, 255, 0.62) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backdrop": "none",
+    "overflow": "hidden",
+    "rect": {
+      "x": 35,
+      "y": 372.140625,
+      "width": 392,
+      "height": 156,
+      "top": 372.140625,
+      "right": 427,
+      "bottom": 528.140625,
+      "left": 35
+    }
+  },
+  {
+    "class": "resource-card",
+    "background": "rgba(255, 255, 255, 0.62) none repeat scroll 0% 0% / auto padding-box border-box",
+    "backdrop": "none",
+    "overflow": "hidden",
+    "rect": {
+      "x": 35,
+      "y": 540.140625,
+      "width": 392,
+      "height": 156,
+      "top": 540.140625,
+      "right": 427,
+      "bottom": 696.140625,
+      "left": 35
+    }
+  }
+]

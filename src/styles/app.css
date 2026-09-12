@@ -61,8 +61,8 @@ html[data-theme="dark"] .scripture-version{background:var(--material-floating)!i
 .guide-footer>p{flex-basis:100%;text-align:center;margin:0}.guide-footer>.compact-transport{order:2}
 .scripture-text{height:calc(100dvh - 255px);min-height:320px;display:flex;flex-direction:column;gap:10px}
 .scripture-scroll{overflow:auto;min-height:0;flex:1;overscroll-behavior:contain;padding-right:4px}
-#panel-resources{height:calc(100dvh - 185px);min-height:360px;display:flex;flex-direction:column}
-#panel-resources>.resource-grid{overflow:auto;min-height:0;flex:1;padding:4px;overscroll-behavior:contain}
+#panel-resources{height:auto;min-height:0;display:block}
+#panel-resources>.resource-grid{display:block;column-count:2;column-gap:12px;overflow:visible;padding:4px}#panel-resources .resource-tile{break-inside:avoid;display:inline-block;width:100%;margin-bottom:12px}
 .resource-transport-footer{margin-top:10px}
 .resource-dialog>div{display:flex;flex-direction:column;max-height:90dvh;overflow:hidden}.resource-dialog .dialog-header{flex:none;position:static}.resource-dialog .dialog-body{min-height:0;overflow:auto;overscroll-behavior:contain}
 .dialog-transport-footer{padding:12px 18px 18px}.index-transport-footer{padding:12px 0}
@@ -71,3 +71,11 @@ html[data-theme="dark"] .scripture-version{background:var(--material-floating)!i
 
 /* The in-card player has room for a meaningful source name, unlike the former floating pill. */
 .card-transport-footer .owner-toggle{flex:0 1 auto;height:auto;min-height:44px}.card-transport-footer .owner-toggle span{max-width:none;white-space:normal;text-overflow:clip;overflow:visible;overflow-wrap:anywhere;line-height:1.35}
+
+/* Resource catalog uses intrinsic column-major document flow; shared cards stay intact. */
+.resources-view{padding-bottom:calc(var(--floating-clearance,170px) + env(safe-area-inset-bottom))}
+.resources-view .playback-dock .owner-toggle span{max-width:140px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+@media(max-width:360px){#panel-resources>.resource-grid{column-count:1}}
+/* Scroll gutter contains the canonical contextual-card shadows instead of cutting
+   their falloff at the inner text rectangle; card material/backdrop unchanged. */
+.guide-card .source-scroll{margin-inline:-16px;padding:0 16px 36px}
