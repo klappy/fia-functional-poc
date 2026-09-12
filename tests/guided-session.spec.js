@@ -5,7 +5,7 @@ test.beforeEach(async({page})=>{await page.addInitScript(()=>{const fixture=sess
 test('real guide, Scripture selection and exact position survive view changes and reload',async({page})=>{
  await expect(page.getByTestId('current-unit')).toContainText('In this step, hear Mark');
  await page.getByRole('button',{name:'Next guide activity',exact:false}).click();await page.getByRole('button',{name:'Next guide activity',exact:false}).click();
- await expect(page.getByTestId('current-unit')).toContainText('What do you like');await expect(page.locator('.guide-footer')).toContainText('Discuss together');
+ await expect(page.getByTestId('current-unit')).toContainText('What do you like');const discussionHint=page.locator('.source-scroll .guide-completion [role="status"]');await expect(discussionHint).toBeVisible();await expect(discussionHint).toContainText('Discuss together');
  await page.getByRole('tab',{name:'Scripture',exact:true}).click();await page.getByRole('radio',{name:'ULT',exact:true}).click();
  await page.getByRole('tab',{name:'Scripture',exact:true}).click();await expect(page.locator('.scripture-text [lang="en"] > span')).toHaveCount(13);
  await expect(page.locator('.scripture-text')).toContainText('The beginning of the gospel');

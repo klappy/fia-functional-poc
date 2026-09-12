@@ -1,0 +1,410 @@
+[
+  {
+    "width": 319,
+    "theme": "light",
+    "version": "BSB",
+    "buttons": [
+      {
+        "label": "Previous Scripture version",
+        "disabled": true,
+        "width": 46,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      },
+      {
+        "label": "Play Mark 1:1–13 · BSB",
+        "disabled": false,
+        "width": 143,
+        "height": 44,
+        "background": "rgb(51, 83, 116)",
+        "color": "rgb(255, 255, 255)",
+        "opacity": "1"
+      },
+      {
+        "label": "Next Scripture version",
+        "disabled": false,
+        "width": 46,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      }
+    ]
+  },
+  {
+    "width": 319,
+    "theme": "light",
+    "version": "ULT",
+    "buttons": [
+      {
+        "label": "Previous Scripture version",
+        "disabled": false,
+        "width": 46,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      },
+      {
+        "label": "Play Mark 1:1–13 · ULT",
+        "disabled": false,
+        "width": 143,
+        "height": 44,
+        "background": "rgb(51, 83, 116)",
+        "color": "rgb(255, 255, 255)",
+        "opacity": "1"
+      },
+      {
+        "label": "Next Scripture version",
+        "disabled": false,
+        "width": 46,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      }
+    ]
+  },
+  {
+    "width": 319,
+    "theme": "light",
+    "version": "UST",
+    "buttons": [
+      {
+        "label": "Previous Scripture version",
+        "disabled": false,
+        "width": 46,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      },
+      {
+        "label": "Play Mark 1:1–13 · UST",
+        "disabled": false,
+        "width": 143,
+        "height": 44,
+        "background": "rgb(51, 83, 116)",
+        "color": "rgb(255, 255, 255)",
+        "opacity": "1"
+      },
+      {
+        "label": "Next Scripture version",
+        "disabled": true,
+        "width": 46,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      }
+    ]
+  },
+  {
+    "width": 319,
+    "theme": "dark",
+    "version": "BSB",
+    "buttons": [
+      {
+        "label": "Previous Scripture version",
+        "disabled": true,
+        "width": 46,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      },
+      {
+        "label": "Play Mark 1:1–13 · BSB",
+        "disabled": false,
+        "width": 143,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      },
+      {
+        "label": "Next Scripture version",
+        "disabled": false,
+        "width": 46,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      }
+    ]
+  },
+  {
+    "width": 319,
+    "theme": "dark",
+    "version": "ULT",
+    "buttons": [
+      {
+        "label": "Previous Scripture version",
+        "disabled": false,
+        "width": 46,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      },
+      {
+        "label": "Play Mark 1:1–13 · ULT",
+        "disabled": false,
+        "width": 143,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      },
+      {
+        "label": "Next Scripture version",
+        "disabled": false,
+        "width": 46,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      }
+    ]
+  },
+  {
+    "width": 319,
+    "theme": "dark",
+    "version": "UST",
+    "buttons": [
+      {
+        "label": "Previous Scripture version",
+        "disabled": false,
+        "width": 46,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      },
+      {
+        "label": "Play Mark 1:1–13 · UST",
+        "disabled": false,
+        "width": 143,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      },
+      {
+        "label": "Next Scripture version",
+        "disabled": true,
+        "width": 46,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      }
+    ]
+  },
+  {
+    "width": 466,
+    "theme": "light",
+    "version": "BSB",
+    "buttons": [
+      {
+        "label": "Previous Scripture version",
+        "disabled": true,
+        "width": 46,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      },
+      {
+        "label": "Play Mark 1:1–13 · BSB",
+        "disabled": false,
+        "width": 167.71875,
+        "height": 44,
+        "background": "rgb(51, 83, 116)",
+        "color": "rgb(255, 255, 255)",
+        "opacity": "1"
+      },
+      {
+        "label": "Next Scripture version",
+        "disabled": false,
+        "width": 46,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      }
+    ]
+  },
+  {
+    "width": 466,
+    "theme": "light",
+    "version": "ULT",
+    "buttons": [
+      {
+        "label": "Previous Scripture version",
+        "disabled": false,
+        "width": 46,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      },
+      {
+        "label": "Play Mark 1:1–13 · ULT",
+        "disabled": false,
+        "width": 166.0625,
+        "height": 44,
+        "background": "rgb(51, 83, 116)",
+        "color": "rgb(255, 255, 255)",
+        "opacity": "1"
+      },
+      {
+        "label": "Next Scripture version",
+        "disabled": false,
+        "width": 46,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      }
+    ]
+  },
+  {
+    "width": 466,
+    "theme": "light",
+    "version": "UST",
+    "buttons": [
+      {
+        "label": "Previous Scripture version",
+        "disabled": false,
+        "width": 46,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      },
+      {
+        "label": "Play Mark 1:1–13 · UST",
+        "disabled": false,
+        "width": 168.265625,
+        "height": 44,
+        "background": "rgb(51, 83, 116)",
+        "color": "rgb(255, 255, 255)",
+        "opacity": "1"
+      },
+      {
+        "label": "Next Scripture version",
+        "disabled": true,
+        "width": 46,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      }
+    ]
+  },
+  {
+    "width": 466,
+    "theme": "dark",
+    "version": "BSB",
+    "buttons": [
+      {
+        "label": "Previous Scripture version",
+        "disabled": true,
+        "width": 46,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      },
+      {
+        "label": "Play Mark 1:1–13 · BSB",
+        "disabled": false,
+        "width": 167.71875,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      },
+      {
+        "label": "Next Scripture version",
+        "disabled": false,
+        "width": 46,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      }
+    ]
+  },
+  {
+    "width": 466,
+    "theme": "dark",
+    "version": "ULT",
+    "buttons": [
+      {
+        "label": "Previous Scripture version",
+        "disabled": false,
+        "width": 46,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      },
+      {
+        "label": "Play Mark 1:1–13 · ULT",
+        "disabled": false,
+        "width": 166.0625,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      },
+      {
+        "label": "Next Scripture version",
+        "disabled": false,
+        "width": 46,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      }
+    ]
+  },
+  {
+    "width": 466,
+    "theme": "dark",
+    "version": "UST",
+    "buttons": [
+      {
+        "label": "Previous Scripture version",
+        "disabled": false,
+        "width": 46,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      },
+      {
+        "label": "Play Mark 1:1–13 · UST",
+        "disabled": false,
+        "width": 168.265625,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      },
+      {
+        "label": "Next Scripture version",
+        "disabled": true,
+        "width": 46,
+        "height": 44,
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(14, 20, 32)",
+        "opacity": "1"
+      }
+    ]
+  }
+]

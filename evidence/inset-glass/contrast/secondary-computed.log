@@ -1,0 +1,47 @@
+[
+  {
+    label: 'Scripture source and attribution',
+    class: '',
+    bg: 'rgba(255, 255, 255, 0.14) none repeat scroll 0% 0% / auto padding-box border-box',
+    color: 'rgb(231, 234, 239)',
+    opacity: '1',
+    filter: 'blur(24px) saturate(1.6)',
+    inline: 'blur(var(--blur-medium)) var(--sat-glass)'
+  },
+  {
+    label: 'Play Scripture ULT',
+    class: '',
+    bg: 'rgba(255, 255, 255, 0.14) none repeat scroll 0% 0% / auto padding-box border-box',
+    color: 'rgb(231, 234, 239)',
+    opacity: '1',
+    filter: 'blur(24px) saturate(1.6)',
+    inline: 'blur(var(--blur-medium)) var(--sat-glass)'
+  },
+  {
+    label: null,
+    class: 'inset-glass',
+    bg: 'rgba(255, 255, 255, 0.14) none repeat scroll 0% 0% / auto padding-box border-box',
+    color: 'rgb(231, 234, 239)',
+    opacity: '1',
+    filter: 'blur(24px) saturate(1.6)',
+    inline: 'blur(var(--blur-medium)) var(--sat-glass)'
+  },
+  {
+    label: 'Previous Scripture version',
+    class: 'inset-side-action',
+    bg: 'rgba(255, 255, 255, 0.14) none repeat scroll 0% 0% / auto padding-box border-box',
+    color: 'rgb(231, 234, 239)',
+    opacity: '1',
+    filter: 'blur(24px) saturate(1.6)',
+    inline: 'blur(var(--blur-medium)) var(--sat-glass)'
+  },
+  {
+    label: 'Next Scripture version',
+    class: 'inset-side-action',
+    bg: 'rgba(255, 255, 255, 0.14) none repeat scroll 0% 0% / auto padding-box border-box',
+    color: 'rgb(231, 234, 239)',
+    opacity: '1',
+    filter: 'blur(24px) saturate(1.6)',
+    inline: 'blur(var(--blur-medium)) var(--sat-glass)'
+  }
+]

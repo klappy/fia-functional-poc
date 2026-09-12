@@ -1,0 +1,58 @@
+[
+  {
+    "width": 319,
+    "theme": "light",
+    "eligible": false,
+    "finishBottom": 478.46875,
+    "overlayTop": 549.59375
+  },
+  {
+    "width": 319,
+    "theme": "light",
+    "eligible": true,
+    "finishBottom": 496.46875,
+    "overlayTop": 549.59375
+  },
+  {
+    "width": 319,
+    "theme": "dark",
+    "eligible": false,
+    "finishBottom": 478.46875,
+    "overlayTop": 549.59375
+  },
+  {
+    "width": 319,
+    "theme": "dark",
+    "eligible": true,
+    "finishBottom": 496.46875,
+    "overlayTop": 549.59375
+  },
+  {
+    "width": 466,
+    "theme": "light",
+    "eligible": false,
+    "finishBottom": 440.375,
+    "overlayTop": 549.59375
+  },
+  {
+    "width": 466,
+    "theme": "light",
+    "eligible": true,
+    "finishBottom": 440.375,
+    "overlayTop": 549.59375
+  },
+  {
+    "width": 466,
+    "theme": "dark",
+    "eligible": false,
+    "finishBottom": 440.375,
+    "overlayTop": 549.59375
+  },
+  {
+    "width": 466,
+    "theme": "dark",
+    "eligible": true,
+    "finishBottom": 440.375,
+    "overlayTop": 549.59375
+  }
+]

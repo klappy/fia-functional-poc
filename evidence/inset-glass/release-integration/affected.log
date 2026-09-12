@@ -1,0 +1,9 @@
+
+Running 2 tests using 1 worker
+
+(node:59256) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/error-dock.spec.js:3:1 › real404 compact Retry is source-scoped accessible and recovers in both themes (3.2s)
+  ✓  2 tests/idle-player.spec.js:3:1 › ready context, real0.95rate, pause/resume and playing exploration remain truthful (2.9s)
+
+  2 passed (6.7s)
