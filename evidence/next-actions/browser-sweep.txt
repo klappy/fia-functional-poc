@@ -1,0 +1,40 @@
+[WebServer] (node:52126) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 6 tests using 1 worker
+
+(node:52127) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/contextual.spec.js:3:1 › floating tabs support keyboard and local controls fit desktop and320px without nested buttons (4.7s)
+  ✓  2 tests/contextual.spec.js:5:1 › current-step index preserves context and all117 source sections remain reachable (3.5s)
+  ✓  3 tests/next-actions.spec.js:2:1 › real adapted map action ends with its exact resource and metadata restores without invented association (3.3s)
+  ✓  4 tests/speech-offline.spec.js:6:1 › complete offline pack and real media survive cold page, exploration and new owner (10.6s)
+  ✓  5 tests/speech-offline.spec.js:13:1 › missing corrupt canceled transfers preserve a verified pack and removal remains explicit (9.1s)
+  ✘  6 tests/speech-offline.spec.js:18:1 › combined transition plays offline and stops on the activity; source info returns focus (30.0s)
+
+
+  1) tests/speech-offline.spec.js:18:1 › combined transition plays offline and stops on the activity; source info returns focus 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Offline passage and settings' })
+
+
+      1 | import {test,expect} from '@playwright/test';
+      2 | test.use({baseURL:'http://127.0.0.1:4185',serviceWorkers:'allow'});
+    > 3 | const settings=page=>page.getByRole('button',{name:'Offline passage and settings'}).click();
+        |                                                                                     ^
+      4 | async function save(page){await settings(page);await page.getByRole('button',{name:/^(Save for offline|Verify and save again)$/}).click();await expect(page.locator('.offline-status')).toContainText('Saved on this device',{timeout:60000});await page.getByRole('button',{name:'Close resource'}).click();}
+      5 | test.beforeEach(async({page,request})=>{await request.post('/__test__/mode',{data:'normal'});await page.goto('/');});
+      6 | test('complete offline pack and real media survive cold page, exploration and new owner',async({page,context})=>{
+        at settings (/private/tmp/fia-functional-poc-app/tests/speech-offline.spec.js:3:85)
+        at save (/private/tmp/fia-functional-poc-app/tests/speech-offline.spec.js:4:33)
+        at /private/tmp/fia-functional-poc-app/tests/speech-offline.spec.js:18:301
+
+    Error Context: test-results/speech-offline-combined-tr-233d4-y-source-info-returns-focus/error-context.md
+
+  1 failed
+    tests/speech-offline.spec.js:18:1 › combined transition plays offline and stops on the activity; source info returns focus 
+  5 passed (1.1m)

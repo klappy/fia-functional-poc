@@ -1,0 +1,38 @@
+
+> fia-functional-poc@0.1.0 test:e2e
+> playwright test
+
+[WebServer] (node:70207) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 25 tests using 1 worker
+
+(node:70208) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/compact.spec.js:2:1 › actual missing recording exposes source error without a running dock (1.4s)
+  ✓   2 tests/compact.spec.js:3:1 › compact labeled action and explicit secondary controls fit326 and726 (4.7s)
+  ✓   3 tests/composition.spec.js:2:1 › whole reading composition has stable actions and reachable source at desktop and mobile (2.1s)
+  ✓   4 tests/composition.spec.js:3:1 › current owner remains controllable while a different term is explored and term player is inside card (2.7s)
+  ✓   5 tests/contextual.spec.js:3:1 › floating tabs support keyboard and local controls fit desktop and320px without nested buttons (2.2s)
+  ✓   6 tests/contextual.spec.js:5:1 › current-step index preserves context and all117 source sections remain reachable (2.1s)
+  ✓   7 tests/dock.spec.js:2:1 › one floating owner survives exploration with safe narrow dock and modal counterpart (9.2s)
+  ✓   8 tests/gap.spec.js:2:1 › actual guide gap preserves completed context and narrow dock never exceeds actual menu (2.8s)
+  ✓   9 tests/guided-session.spec.js:4:1 › real guide, Scripture selection and exact position survive view changes and reload (1.6s)
+  ✓  10 tests/guided-session.spec.js:14:1 › contextual real map opens, renders and returns focus without moving the guide (1.6s)
+  ✓  11 tests/guided-session.spec.js:22:1 › examples require explicit reveal and every resource type is available (1.5s)
+  ✓  12 tests/guided-session.spec.js:31:1 › narrow layout, keyboard dialog and large text remain usable (711ms)
+  ✓  13 tests/guided-session.spec.js:38:1 › failed required source renders a real error with retry, never substitute content (845ms)
+  ✓  14 tests/guided-session.spec.js:44:1 › duplicate source names are distinguished by source meaning and inspected image (988ms)
+  ✓  15 tests/guided-session.spec.js:49:1 › official FIA identity and colors render with readable contrast (502ms)
+  ✓  16 tests/guided-session.spec.js:57:1 › resources show all eight real previews, source metadata, search and honest online video (894ms)
+  ✓  17 tests/guided-session.spec.js:67:1 › finished-session return from another view really restores the guide (982ms)
+  ✓  18 tests/idle-player.spec.js:2:1 › ready context, real0.95rate, pause/resume and playing exploration remain truthful (5.9s)
+  ✓  19 tests/next-actions.spec.js:2:1 › real adapted map action ends with its exact resource and metadata restores without invented association (2.3s)
+  ✓  20 tests/pause-groups.spec.js:2:1 › all four legacy cue bookmarks keep their activity through real audio ended and explicit Continue (3.7s)
+  ✓  21 tests/primary.spec.js:2:1 › three controls, no autoplay adjacency, filtered modal focus and source cornerRestart (3.9s)
+  ✓  22 tests/speech-offline.spec.js:6:1 › complete offline pack and real media survive cold page, exploration and new owner (12.1s)
+  ✓  23 tests/speech-offline.spec.js:13:1 › missing corrupt canceled transfers preserve a verified pack and removal remains explicit (8.6s)
+  ✓  24 tests/speech-offline.spec.js:18:1 › combined transition plays offline and stops on the activity; source info returns focus (6.7s)
+  ✓  25 tests/upgrade.spec.js:3:1 › ordinary reload upgrades a saved previous shell without deleting progress or its verified pack (11.8s)
+
+  25 passed (1.6m)

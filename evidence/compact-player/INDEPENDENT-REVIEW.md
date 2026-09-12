@@ -1,0 +1,7 @@
+# Independent compact transport review
+
+Bounded PASS at product commit `88a508815d53965256ca14f01280223b9e808c2a`, pending coordinator final evidence-only head comparison. Independent detached build and two affected browser tests passed in 14.9 seconds on isolated port 4587: real intercepted MP3 HTTP 404 exposes source error with no running dock; compact source-labeled Pause/Resume, hidden then explicitly opened Restart, and <=60px dock height at 326/726 pixels. Personally inspected 326px full Scripture capture; shared dark action contains icon and source title, no visible time numerals, navigation remains separate and long source remains scrollable.
+
+The previously returned failure defect is fixed: card state projection now retains owner, making the error branch reachable. Thin inset progress uses actual elapsed/duration values and an accessible time label, not an animation. One unchanged audio controller is retained. Source/audio assets and controller/library files have no delta from the previous candidate. Modal controls use the same compact component; prior exact continuity/inert/focus tests remain scoped evidence, not a fresh full-suite claim.
+
+Evidence logs: `/tmp/fia-compact-review-build.txt`, `/tmp/fia-compact-review-browser.txt`. This review does not assert human voice quality or broaden device support. No provider calls. Separate compact reviewer charge: 2 active minutes including receipt; original compact allocation extended by coordinator to seven aggregate minutes.

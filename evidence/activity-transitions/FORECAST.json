@@ -1,0 +1,12 @@
+{
+  "preparedAt": "2026-09-11T23:25:46.910574+00:00",
+  "requests": 4,
+  "maxAttempts": 4,
+  "sourceCharacters": 1255,
+  "maxRequestCharacters": 328,
+  "scriptsSha256": "c0ccf2465d86bb86adac0f3e4371ae945b02b5434b4b0bfa0c7fe0f431603c6c",
+  "requestsSha256": "ee5cae1440602541ecf021df139623107a9d72859d0e068512cd1810ecc70fc1",
+  "providerCallsMade": 0,
+  "releaseRequired": true,
+  "projection": "Original parent lexical text verbatim plus approved contextual pause transition; source display remains unchanged. Server punctuation projection is expected, not attested."
+}

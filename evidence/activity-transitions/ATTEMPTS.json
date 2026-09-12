@@ -1,0 +1,53 @@
+{
+  "release": "c7194271935acc4b0d3822978d8ec6d172ad5822",
+  "attempts": [
+    {
+      "id": "S02-U011-with-pause",
+      "startedAt": "2026-09-11T23:27:20.560Z",
+      "textSha256": "bc0991741465296028c2130d29f0f57eb138dde14b48b447bce02da03d8d5350",
+      "characters": 316,
+      "outcome": "received",
+      "httpStatus": 200,
+      "mime": "audio/mpeg",
+      "path": "/tmp/fia-contextual-cue-audio/S02-U011-with-pause.mp3",
+      "bytes": 273345,
+      "sha256": "759928e43a74d931bb7b9e3fb52e1ecd96c1713488f36a7030d25e3f124e4a35"
+    },
+    {
+      "id": "S06-U004-with-pause",
+      "startedAt": "2026-09-11T23:27:24.662Z",
+      "textSha256": "d24135716d01d62e30c742c11d98f643035456f9b9559eed52791c5257303fc1",
+      "characters": 328,
+      "outcome": "received",
+      "httpStatus": 200,
+      "mime": "audio/mpeg",
+      "path": "/tmp/fia-contextual-cue-audio/S06-U004-with-pause.mp3",
+      "bytes": 286720,
+      "sha256": "236181249302b044b23f9b1b078d7860044c9a0599f466aa6f3c21abb4722605"
+    },
+    {
+      "id": "S06-U006-with-pause",
+      "startedAt": "2026-09-11T23:27:28.762Z",
+      "textSha256": "8bfbc7346124fdba8c2f5b3608add2caf56538a353a7f2f01c9a7d7abe9bdca3",
+      "characters": 283,
+      "outcome": "received",
+      "httpStatus": 200,
+      "mime": "audio/mpeg",
+      "path": "/tmp/fia-contextual-cue-audio/S06-U006-with-pause.mp3",
+      "bytes": 237818,
+      "sha256": "76beab267e4342a8eded79c77490064989ea19511f57bb88b91d88ae44ea9ea1"
+    },
+    {
+      "id": "S06-U008-with-pause",
+      "startedAt": "2026-09-11T23:27:32.862Z",
+      "textSha256": "8723353d0625376a7a479bfb78eae61f4eb05d09d326e172edeb53b51a003d85",
+      "characters": 328,
+      "outcome": "received",
+      "httpStatus": 200,
+      "mime": "audio/mpeg",
+      "path": "/tmp/fia-contextual-cue-audio/S06-U008-with-pause.mp3",
+      "bytes": 256209,
+      "sha256": "aa89c2b50033dc2268fdedda5fd3eec2b63651da6c5a5b164fe2585ae9153e74"
+    }
+  ]
+}

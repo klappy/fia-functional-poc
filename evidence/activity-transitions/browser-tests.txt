@@ -1,0 +1,13 @@
+[WebServer] (node:39862) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 4 tests using 1 worker
+
+(node:39863) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/pause-groups.spec.js:2:1 › all four legacy cue bookmarks keep their activity through real audio ended and explicit Continue (8.2s)
+  ✓  2 tests/speech-offline.spec.js:6:1 › complete offline pack and real media survive cold page, exploration and new owner (6.7s)
+  ✓  3 tests/speech-offline.spec.js:13:1 › missing corrupt canceled transfers preserve a verified pack and removal remains explicit (3.5s)
+  ✓  4 tests/speech-offline.spec.js:18:1 › combined transition plays offline and stops on the activity; source info returns focus (3.3s)
+
+  4 passed (24.6s)

@@ -23,13 +23,13 @@ For browser verification: `npx playwright install chromium`, then `npm run test:
 
 ## Use
 
-Choose a Scripture version and select Listen. Guide narration stops at the next source discussion/activity boundary. Use Continue when ready; resource exploration and navigation stop narration. Possible drama responses appear only after Show source example. Pause/Resume works within a recording; reloading restores the guide unit and version, not an audio timestamp. Finish records an explicit choice after visiting all six steps, not understanding or learning.
+Use Play beside the current guide, selected Scripture or available term. Guide narration stops at the next source discussion/activity boundary. Use Continue when ready; resource exploration, tab changes and opening/closing maps keep the current narration playing. An intentional new Play, version, step or section selection replaces or stops it. Possible drama responses appear only after Show source example. Pause/Resume works within a recording; reloading restores the guide unit and version, not an audio timestamp. Finish records an explicit choice after visiting all six steps, not understanding or learning.
 
-Open Offline passage and choose Save for offline before disconnecting. Saved means every required file passed transfer and cached readback checks. The full pack is about 48.3 MB, including120 prepared MP3s and eight original images. Online video links and optional network fonts are excluded. Reloading online can show Update available; the previous saved pack stays until a complete replacement succeeds. Browser storage eviction remains possible. Check saved files revalidates; Remove saved passage removes its cache, retaining the shell and local position.
+Open Offline passage and choose Save for offline before disconnecting. Saved means every required file passed transfer and cached readback checks. The full pack is about92.0 MB, including164 prepared MP3s (original145 plus19 reviewed next-action recordings) and eight original images. Online video links and optional network fonts are excluded. Reloading online can show Update available; the previous saved pack stays until a complete replacement succeeds. Browser storage eviction remains possible. Check saved files revalidates; Remove saved passage removes its cache, retaining the shell and local position.
 
 ## Boundaries and support
 
-- Working: source-backed guide/Scripture/resources,117 ordinary guide units with39 stops,32 resource associations, source/output-verified audio playback and137-file offline pack. See the detailed matrix in [DELIVERY](evidence/DELIVERY.md).
+- Working: source-backed guide/Scripture/resources,111 visible activities representing115 activity-source units plus2 preserved source-metadata units and39 raw stop records (38 stop-bearing groups),32 resource associations, source/output-verified audio playback and185-file offline pack. See the detailed matrix in [DELIVERY](evidence/DELIVERY.md).
 - Unverified: human-perceived online/offline voice quality, exhaustive pronunciation, physical phones, screen readers and full browser/OS restart. Desktop320/390px and keyboard/large-text tests are narrower evidence.
 - Unsupported here: microphone commands or recording, translation production/checking/upload, shared sessions, AI answers, original human guide recordings and video playback/download.
 
@@ -40,3 +40,25 @@ Read [NOTICE](NOTICE.md), [UPSTREAM](UPSTREAM.md) and the [selected source pack]
 The complete pinned Generative Glass CSS and actual shared components supply the visual system, including aurora, glass surfaces and resource cards. App wrappers supply source, accessibility and event behavior. Optional network Noto fonts and unavailable SF font binaries fall back locally; expected missing-SF build warnings do not mean those fonts shipped. The original image assets remain; no experimental image compression was adopted.
 
 For a failure, retain the visible error, app commit, browser/version and exact reproduction steps in the private repository issue. Source errors fail explicitly; no substitute content is generated. Product findings belong in the [FIA cookbook](https://github.com/klappy/fia-app-cookbook); claims, gates and final verdict remain in the authorized kitchen records. Never attach private conversations or credentials.
+
+Current contextual-playback checkpoint: floating Guide/Scripture/Resources tabs, per-card playback with measured per-clip time, and a focused current-step section index. A subsequent holistic composition checkpoint compacts the header/context, places term controls inside their cards and keeps guide actions stable while source text scrolls. Independent visual acceptance remains pending.
+
+The active source/Pause action and thin real progress now stay in a matching floating glass dock beside navigation (stacked at narrow widths); card-corner Play starts that source. Dialogs expose the same owner while the page is inert. Current pack:164 recordings,185 files,91,958,017bytes. Existing voice remains the default after a limited user comparison; full-passage and offline heard-quality verification remain pending.
+
+Compact transport revision: the dark source-labeled action toggles playback; a thin actual progress track replaces visible time numerals, with accessible timing semantics. Restart is a direct44px icon action. Failed recording errors remain visible at their source.
+
+Four literal pause-only cues attach to their preceding activities. Legacy cue positions restore to that activity with cue state; Continue moves to the next activity. Current group counts are8/12/25/16/43/7. All original source and145 prior recordings remain; four reviewed spoken transitions are active.
+
+Four explicit activity overrides now play the original paragraph followed by its reviewed natural pause transition, then stop on that activity. Original141 clips remain archived in the pack. The Info icon opens the complete source and attribution. Nineteen reviewed inline-pause adaptations are also active.
+
+Ready-player revision: the dock remains visible for the currentGuide/Scripture/selectedterm, or disabled Chooseaudio when no resource audio is selected. Active playback survives exploration; paused context changes select a new ready source. MP3 playback uses0.95rate with pitch preservation on start/resume/restart, verified from a prior actual1.0baseline; no media regenerated. Current165-file pack89,776,196bytes.
+
+Nineteen source-backed action recordings now use reviewed natural pause wording while keeping the actual task/resources visible. Two MediaRequests snippets remain unlinked source metadata under Info instead of narrated activities. Legacy metadata positions restore with a quiet sourceInfo hint; no map association is inferred. Current185-file pack91,958,017bytes.
+
+Automatic guide clips now wait750ms between recordings; manualPlay is immediate and discussion pauses remain indefinite. Pause holds a queued nextclip; Resume starts it once; Restart replays the visible completedclip. Dock intrinsic width is capped to actual navigation width. Current185-file pack91,959,155bytes;164 audio files unchanged.
+
+Primary transport candidate: exactly Previous / source Play-Pause-Resume-or-Open / Next; matching card corner Restart. Guide111 activities, Scripture3 versions, resources captured visible filtered order, no adjacency autoplay. Modal focus and source-specific actions retained. Current185-file pack91,962,446bytes;164 audio assets unchanged. This supersedes earlier current-pack/transport wording; historical results remain historical. Final independent lifecycle review pending.
+
+Primary lifecycle correction: natural recording completion reconciles a hidden idle resource to Choose resource; deliberate captured-list Next remains selected without autoplay. Three targeted browser cases pass. Current185-file pack91,962,453bytes;164 audio assets unchanged.
+
+Eight reviewed visual descriptions now play directly from map/image cards or the central transport, with optional full-image Open.172stored MP3 files; original164 unchanged. Current195-file pack93,408,221bytes. All8 cold-offline media play/pause/resume/restart/end and missing-audio/Open tests pass; Range requests receive a full verified200body, not partial206. Both-theme header centers and inline glyph color pass319/390/627/726. Expanded independent theme/contrast audit remains pending.

@@ -1,0 +1,11 @@
+[WebServer] (node:74900) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 2 tests using 1 worker
+
+(node:74902) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/compact.spec.js:2:1 › actual missing recording exposes source error without a running dock (2.7s)
+  ✓  2 tests/compact.spec.js:3:1 › compact labeled action and explicit secondary controls fit326 and726 (7.8s)
+
+  2 passed (13.0s)

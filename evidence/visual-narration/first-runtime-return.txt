@@ -1,0 +1,68 @@
+[WebServer] (node:96664) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 5 tests using 1 worker
+
+(node:96723) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/primary-ended.spec.js:1:78 › after owner ends current hidden idle selection becomes chooser (3.3s)
+  ✓  2 tests/primary-ended.spec.js:3:1 › paused owner resumes and intentional captured-list Next stays selected without autoplay (2.5s)
+  ✓  3 tests/theme.spec.js:2:1 › actual theme aliases and all views preserve active audio and position (22.4s)
+  ✘  4 tests/visual-audio.spec.js:2:1 › eight real visual clips verify and play cold offline with optional details and filtered owner (15.5s)
+(node:97766) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  5 tests/visual-audio.spec.js:3:1 › missing visual recording exposes error while original image remains openable (8.8s)
+
+
+  1) tests/visual-audio.spec.js:2:1 › eight real visual clips verify and play cold offline with optional details and filtered owner 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 2
+    + Received  + 2
+
+      Object {
+    -   "bytes": 100,
+    -   "status": 206,
+    +   "bytes": 160914,
+    +   "status": 200,
+      }
+
+      1 | import{test,expect}from'@playwright/test';test.use({baseURL:'http://127.0.0.1:4185',serviceWorkers:'allow'});
+    > 2 | test('eight real visual clips verify and play cold offline with optional details and filtered owner',async({page,request,context})=>{test.setTimeout(90000);await request.post('/__test__/mode',{data:'normal'});await page.addInitScript(()=>{const A=window.Audio;window.Audio=class extends A{constructor(...a){super(...a);window.__audio=this;}}});await page.goto('/');await page.getByRole('button',{name:'Offline passage and settings'}).click();await page.getByRole('button',{name:/^(Save for offline|Verify and save again)$/}).click();await expect(page.locator('.offline-status')).toContainText('Saved on this device',{timeout:60000});await page.getByRole('button',{name:'Close resource'}).click();await context.setOffline(true);await page.reload();await page.getByRole('tab',{name:'Resources',exact:true}).click();const input=await page.evaluate(async()=>await(await fetch('/content/visual-narration.json')).json());for(const s of input){const tile=page.locator('.resource-tile').filter({has:page.locator(`.preview-integrity-probe[src="${s.assetPath}"]`)});await tile.getByRole('button',{name:/^Play /}).click();await expect.poll(()=>page.evaluate(()=>window.__audio?.duration||0)).toBeGreaterThan(0);await expect(page.getByRole('dialog')).toHaveCount(0);await expect.poll(()=>page.evaluate(()=>window.__audio.playbackRate)).toBe(.95);await page.getByRole('button',{name:'Pause Now playing'}).click();await page.getByRole('button',{name:'Resume Now playing'}).click();await tile.getByRole('button',{name:/^Restart /}).click();await tile.getByRole('button',{name:/^Open /}).click();await expect(page.getByRole('dialog').getByRole('button',{name:'Close resource'})).toBeFocused();await page.getByRole('dialog').getByText('Source and attribution',{exact:true}).click();await expect(page.getByRole('dialog')).toContainText('Audio description authored');await page.keyboard.press('Escape');await page.evaluate(()=>window.__audio.currentTime=window.__audio.duration-.1);await expect.poll(()=>page.evaluate(()=>window.__audio.ended)).toBe(true);}const range=await page.evaluate(async()=>{const r=await fetch('/audio/visual-resources/a111.mp3',{headers:{Range:'bytes=0-99'}});return{status:r.status,bytes:(await r.arrayBuffer()).byteLength};});expect(range).toEqual({status:206,bytes:100});for(const width of[319,726]){await page.setViewportSize({width,height:987});await page.screenshot({path:`evidence/visual-narration/offline-${width}.png`,fullPage:true});}});
+        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ^
+      3 | test('missing visual recording exposes error while original image remains openable',async({page,request})=>{await request.post('/__test__/mode',{data:'normal'});await page.route('**/audio/visual-resources/a112.mp3',r=>r.fulfill({status:404,body:'missing'}));await page.goto('/');await page.getByRole('tab',{name:'Resources',exact:true}).click();await page.getByRole('button',{name:'Play Jordan River',exact:true}).click();await expect(page.locator('.playback-dock')).toContainText('Playback could not start');await page.getByRole('button',{name:'Open Jordan River image'}).click();await expect(page.getByRole('dialog').getByRole('img',{name:'Jordan River',exact:true})).toBeVisible();});
+      4 |
+        at /private/tmp/fia-functional-poc-app/tests/visual-audio.spec.js:2:2250
+
+    Error Context: test-results/visual-audio-eight-real-vi-b75e2--details-and-filtered-owner/error-context.md
+
+  2) tests/visual-audio.spec.js:3:1 › missing visual recording exposes error while original image remains openable 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('.playback-dock')
+    Expected substring: "Playback could not start"
+    Received string:    "Jordan River "
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" locator('.playback-dock') with timeout 5000ms
+      - waiting for locator('.playback-dock')
+        12 × locator resolved to <div class="playback-dock">…</div>
+           - unexpected value "Jordan River "
+
+
+      1 | import{test,expect}from'@playwright/test';test.use({baseURL:'http://127.0.0.1:4185',serviceWorkers:'allow'});
+      2 | test('eight real visual clips verify and play cold offline with optional details and filtered owner',async({page,request,context})=>{test.setTimeout(90000);await request.post('/__test__/mode',{data:'normal'});await page.addInitScript(()=>{const A=window.Audio;window.Audio=class extends A{constructor(...a){super(...a);window.__audio=this;}}});await page.goto('/');await page.getByRole('button',{name:'Offline passage and settings'}).click();await page.getByRole('button',{name:/^(Save for offline|Verify and save again)$/}).click();await expect(page.locator('.offline-status')).toContainText('Saved on this device',{timeout:60000});await page.getByRole('button',{name:'Close resource'}).click();await context.setOffline(true);await page.reload();await page.getByRole('tab',{name:'Resources',exact:true}).click();const input=await page.evaluate(async()=>await(await fetch('/content/visual-narration.json')).json());for(const s of input){const tile=page.locator('.resource-tile').filter({has:page.locator(`.preview-integrity-probe[src="${s.assetPath}"]`)});await tile.getByRole('button',{name:/^Play /}).click();await expect.poll(()=>page.evaluate(()=>window.__audio?.duration||0)).toBeGreaterThan(0);await expect(page.getByRole('dialog')).toHaveCount(0);await expect.poll(()=>page.evaluate(()=>window.__audio.playbackRate)).toBe(.95);await page.getByRole('button',{name:'Pause Now playing'}).click();await page.getByRole('button',{name:'Resume Now playing'}).click();await tile.getByRole('button',{name:/^Restart /}).click();await tile.getByRole('button',{name:/^Open /}).click();await expect(page.getByRole('dialog').getByRole('button',{name:'Close resource'})).toBeFocused();await page.getByRole('dialog').getByText('Source and attribution',{exact:true}).click();await expect(page.getByRole('dialog')).toContainText('Audio description authored');await page.keyboard.press('Escape');await page.evaluate(()=>window.__audio.currentTime=window.__audio.duration-.1);await expect.poll(()=>page.evaluate(()=>window.__audio.ended)).toBe(true);}const range=await page.evaluate(async()=>{const r=await fetch('/audio/visual-resources/a111.mp3',{headers:{Range:'bytes=0-99'}});return{status:r.status,bytes:(await r.arrayBuffer()).byteLength};});expect(range).toEqual({status:206,bytes:100});for(const width of[319,726]){await page.setViewportSize({width,height:987});await page.screenshot({path:`evidence/visual-narration/offline-${width}.png`,fullPage:true});}});
+    > 3 | test('missing visual recording exposes error while original image remains openable',async({page,request})=>{await request.post('/__test__/mode',{data:'normal'});await page.route('**/audio/visual-resources/a112.mp3',r=>r.fulfill({status:404,body:'missing'}));await page.goto('/');await page.getByRole('tab',{name:'Resources',exact:true}).click();await page.getByRole('button',{name:'Play Jordan River',exact:true}).click();await expect(page.locator('.playback-dock')).toContainText('Playback could not start');await page.getByRole('button',{name:'Open Jordan River image'}).click();await expect(page.getByRole('dialog').getByRole('img',{name:'Jordan River',exact:true})).toBeVisible();});
+        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^
+      4 |
+        at /private/tmp/fia-functional-poc-app/tests/visual-audio.spec.js:3:468
+
+    Error Context: test-results/visual-audio-missing-visua-f4a97-inal-image-remains-openable/error-context.md
+
+  2 failed
+    tests/visual-audio.spec.js:2:1 › eight real visual clips verify and play cold offline with optional details and filtered owner 
+    tests/visual-audio.spec.js:3:1 › missing visual recording exposes error while original image remains openable 
+  3 passed (57.5s)

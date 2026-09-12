@@ -1,0 +1,27 @@
+
+> fia-functional-poc@0.1.0 test:e2e
+> playwright test
+
+[WebServer] (node:95590) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 14 tests using 1 worker
+
+(node:95591) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/contextual.spec.js:3:1 › floating tabs support keyboard and local controls fit desktop and320px without nested buttons (4.0s)
+  ✓   2 tests/contextual.spec.js:5:1 › current-step index preserves context and all117 source sections remain reachable (3.8s)
+  ✓   3 tests/guided-session.spec.js:4:1 › real guide, Scripture selection and exact position survive view changes and reload (3.7s)
+  ✓   4 tests/guided-session.spec.js:14:1 › contextual real map opens, renders and returns focus without moving the guide (2.4s)
+  ✓   5 tests/guided-session.spec.js:22:1 › examples require explicit reveal and every resource type is available (1.8s)
+  ✓   6 tests/guided-session.spec.js:31:1 › narrow layout, keyboard dialog and large text remain usable (861ms)
+  ✓   7 tests/guided-session.spec.js:38:1 › failed required source renders a real error with retry, never substitute content (843ms)
+  ✓   8 tests/guided-session.spec.js:44:1 › duplicate source names are distinguished by source meaning and inspected image (972ms)
+  ✓   9 tests/guided-session.spec.js:49:1 › official FIA identity and colors render with readable contrast (535ms)
+  ✓  10 tests/guided-session.spec.js:57:1 › resources show all eight real previews, source metadata, search and honest online video (1.9s)
+  ✓  11 tests/guided-session.spec.js:67:1 › finished-session return from another view really restores the guide (2.2s)
+  ✓  12 tests/speech-offline.spec.js:6:1 › complete offline pack and real media survive cold page, exploration and new owner (11.1s)
+  ✓  13 tests/speech-offline.spec.js:13:1 › missing corrupt canceled transfers preserve a verified pack and removal remains explicit (6.8s)
+  ✓  14 tests/upgrade.spec.js:3:1 › ordinary reload upgrades a saved previous shell without deleting progress or its verified pack (8.1s)
+
+  14 passed (50.9s)

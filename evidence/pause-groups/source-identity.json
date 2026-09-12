@@ -1,0 +1,22 @@
+[
+  {
+    "path": "public/content/mark-1-1-13/guide.json",
+    "sha256": "615c7efbcb52f913648f11b0314666bb535b4f07d39bae9df43c85eb7d379295",
+    "exactBase": "32a60d3"
+  },
+  {
+    "path": "public/content/mark-1-1-13/cues.json",
+    "sha256": "e5881516012b3827a5813b0c3e5167f2d71d19b88e1e842cadad0583726c59d8",
+    "exactBase": "32a60d3"
+  },
+  {
+    "path": "public/audio/mark-1-1-13/manifest.json",
+    "sha256": "8772e13f5e42cfd157c8b3cebb6495045a2122235379cc0aa5b285ad15f2b850",
+    "exactBase": "32a60d3"
+  },
+  {
+    "path": "public/audio/terms/manifest.json",
+    "sha256": "b5678f53d0d608962e7dc19e34cbda1cf29006dc8e4504e9e720a70d9625802d",
+    "exactBase": "32a60d3"
+  }
+]

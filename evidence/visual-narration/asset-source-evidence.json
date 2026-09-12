@@ -1,0 +1,476 @@
+[
+  {
+    "id": "a112",
+    "title": "Jordan River",
+    "assetSha256": "9c58b5b5100b4324ab54000ac3c26b7ad2371fd964afa319fe0cda7da8e0291c",
+    "assetBytes": 163531,
+    "assetPath": "/assets/mark-1-1-13/a112.jpg",
+    "source": {
+      "repo": "FIAImages",
+      "commit": "8fbb154360574ba2981fbaa4064a1e8979de7e82",
+      "path": "eng/json/010.content.json",
+      "url": "https://raw.githubusercontent.com/BibleAquifer/FIAImages/8fbb154360574ba2981fbaa4064a1e8979de7e82/eng/json/010.content.json",
+      "retrievedAt": "2026-09-11T20:42:04.256Z",
+      "fileSha256": "40d80d104a906354bc20e97d855e46a11e78aa1f0b5cd8c20b8c7e36e727dff9",
+      "contentSha256": "933e3a02578a04e74f1674542bbd7dd257ba66fce13b7ebf56d7b4e456008ee2",
+      "apiCaptureSha256": "8fc59387c05445ac35592423efe9863c59c3234bd4bcf70acf91814a4eb09dda",
+      "apiBodyComparison": "exact body in wrapper"
+    },
+    "rights": {
+      "repo": "FIAImages",
+      "commit": "8fbb154360574ba2981fbaa4064a1e8979de7e82",
+      "path": "eng/metadata.json",
+      "url": "https://raw.githubusercontent.com/BibleAquifer/FIAImages/8fbb154360574ba2981fbaa4064a1e8979de7e82/eng/metadata.json",
+      "retrievedAt": "2026-09-11T20:42:04.256Z",
+      "fileSha256": "39291e9416443607da5b644b878126afd7772443b630d22982d47ee78d651e57",
+      "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Images",
+      "metadataVersion": "1.1.2",
+      "licenseInfo": {
+        "title": "Familiarization, Internalization, Articulation (Fia) Images",
+        "copyright": {
+          "dates": "2025",
+          "holder": {
+            "name": "Word Collective",
+            "url": "https://wordcollective.com"
+          }
+        },
+        "licenses": [
+          {
+            "eng": {
+              "name": "CC BY-SA 4.0 license",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+            }
+          }
+        ],
+        "showAdaptationNoticeForEnglish": false,
+        "showAdaptationNoticeForNonEnglish": false
+      },
+      "adaptationNotice": "<p><b>Familiarization, Internalization, Articulation (FIA) Images</b> \u00a9 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Images</cite> has been adapted in the following languages Tok Pisin, \u0639\u0631\u0628\u064a, Fran\u00e7ais, \u0939\u093f\u0902\u0926\u0940, Bahasa Indonesia, Portugu\u00eas, \u0420\u0443\u0441\u0441\u043a\u0438\u0439, Espa\u00f1ol, Kiswahili, \u7b80\u4f53\u4e2d\u6587 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> \u00a9 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>"
+    },
+    "attachedUnits": [
+      {
+        "id": "S02-U005",
+        "text": "Stop here and look at a picture and map of the Jordan River as a group. Pause this audio here.",
+        "sha256": "bcd0b87371b477506053d64c8d8b257bca25c314ada0742fc001b7e3f6620fd4"
+      },
+      {
+        "id": "S03-U019",
+        "text": "Pause the audio here and show your group a picture of the Jordan river and a picture of the wilderness.",
+        "sha256": "d0fd48782f2bdfed479cd29f71cc00f1f5ee8103beaa85033846d227a2f855ee"
+      }
+    ],
+    "observation": "This photograph shows a person standing beside a river, with trees and reeds along the banks. The guide uses this picture to help the group picture the Jordan River. The person in the photograph is not identified as a person from the Bible story.",
+    "limits": "Visual description is app-authored interpretation of inspected image, not canonical FIA text. Map exact event locations, photographed personal identity, historic sandal reconstruction and machine-generated ACAI links are not asserted."
+  },
+  {
+    "id": "a111",
+    "title": "Wilderness or Desert",
+    "assetSha256": "d314bac395b2aab8cf601f6a590bbf2547b71a54af67eb95dc927f5042883480",
+    "assetBytes": 69973,
+    "assetPath": "/assets/mark-1-1-13/a111.jpg",
+    "source": {
+      "repo": "FIAImages",
+      "commit": "8fbb154360574ba2981fbaa4064a1e8979de7e82",
+      "path": "eng/json/023.content.json",
+      "url": "https://raw.githubusercontent.com/BibleAquifer/FIAImages/8fbb154360574ba2981fbaa4064a1e8979de7e82/eng/json/023.content.json",
+      "retrievedAt": "2026-09-11T20:42:04.256Z",
+      "fileSha256": "d468ebd5b5ffe7ba341b6b8300992a2ca3a4e6ebc5c1f38a477f573a800cb321",
+      "contentSha256": "ac854a1e29b8ed4d9784b8dca873c106c2ad4ec78a6df3e587cd6ca42e516901",
+      "apiCaptureSha256": "850fd0b865e0361f89d67ad695f9258795ddf87d0ae37a123311435b0fd6b5aa",
+      "apiBodyComparison": "exact body in wrapper"
+    },
+    "rights": {
+      "repo": "FIAImages",
+      "commit": "8fbb154360574ba2981fbaa4064a1e8979de7e82",
+      "path": "eng/metadata.json",
+      "url": "https://raw.githubusercontent.com/BibleAquifer/FIAImages/8fbb154360574ba2981fbaa4064a1e8979de7e82/eng/metadata.json",
+      "retrievedAt": "2026-09-11T20:42:04.256Z",
+      "fileSha256": "39291e9416443607da5b644b878126afd7772443b630d22982d47ee78d651e57",
+      "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Images",
+      "metadataVersion": "1.1.2",
+      "licenseInfo": {
+        "title": "Familiarization, Internalization, Articulation (Fia) Images",
+        "copyright": {
+          "dates": "2025",
+          "holder": {
+            "name": "Word Collective",
+            "url": "https://wordcollective.com"
+          }
+        },
+        "licenses": [
+          {
+            "eng": {
+              "name": "CC BY-SA 4.0 license",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+            }
+          }
+        ],
+        "showAdaptationNoticeForEnglish": false,
+        "showAdaptationNoticeForNonEnglish": false
+      },
+      "adaptationNotice": "<p><b>Familiarization, Internalization, Articulation (FIA) Images</b> \u00a9 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Images</cite> has been adapted in the following languages Tok Pisin, \u0639\u0631\u0628\u064a, Fran\u00e7ais, \u0939\u093f\u0902\u0926\u0940, Bahasa Indonesia, Portugu\u00eas, \u0420\u0443\u0441\u0441\u043a\u0438\u0439, Espa\u00f1ol, Kiswahili, \u7b80\u4f53\u4e2d\u6587 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> \u00a9 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>"
+    },
+    "attachedUnits": [
+      {
+        "id": "S03-U019",
+        "text": "Pause the audio here and show your group a picture of the Jordan river and a picture of the wilderness.",
+        "sha256": "d0fd48782f2bdfed479cd29f71cc00f1f5ee8103beaa85033846d227a2f855ee"
+      },
+      {
+        "id": "S05-U015",
+        "text": "Stop here and look at a picture of a desert/ wilderness as a group. Discuss what word you will use for wilderness. For more information about wilderness, refer to the Master Glossary. Pause this audio here.",
+        "sha256": "66d6d7381ad3e1d6354b0080ad9df455e8ad9af8e7fd5d45e59a488fb1f65cff"
+      }
+    ],
+    "observation": "This photograph shows dry, rounded hills and gullies with sparse vegetation. The guide uses it to help the group picture the wilderness and discuss the word they will use for wilderness.",
+    "limits": "Visual description is app-authored interpretation of inspected image, not canonical FIA text. Map exact event locations, photographed personal identity, historic sandal reconstruction and machine-generated ACAI links are not asserted."
+  },
+  {
+    "id": "a203",
+    "title": "Sandals",
+    "assetSha256": "1471c9bec45fa044351c13078a7093be44ec2db8e987a62c1a3151a4b9fcb5c9",
+    "assetBytes": 112424,
+    "assetPath": "/assets/mark-1-1-13/a203.jpg",
+    "source": {
+      "repo": "FIAImages",
+      "commit": "8fbb154360574ba2981fbaa4064a1e8979de7e82",
+      "path": "eng/json/019.content.json",
+      "url": "https://raw.githubusercontent.com/BibleAquifer/FIAImages/8fbb154360574ba2981fbaa4064a1e8979de7e82/eng/json/019.content.json",
+      "retrievedAt": "2026-09-11T20:42:04.256Z",
+      "fileSha256": "5760277e54df9eac99619ca9bd78b8aa2304905c3ca2f9d01180c42cf51f39e7",
+      "contentSha256": "62d2d6c25be355661ea8c2dfdb2a8322d779ff8944089e2c071d567011899192",
+      "apiCaptureSha256": "0b4fe56c997f7990a4d29a84fc2364b0d55001370975524a686e94e43f142591",
+      "apiBodyComparison": "exact body in wrapper"
+    },
+    "rights": {
+      "repo": "FIAImages",
+      "commit": "8fbb154360574ba2981fbaa4064a1e8979de7e82",
+      "path": "eng/metadata.json",
+      "url": "https://raw.githubusercontent.com/BibleAquifer/FIAImages/8fbb154360574ba2981fbaa4064a1e8979de7e82/eng/metadata.json",
+      "retrievedAt": "2026-09-11T20:42:04.256Z",
+      "fileSha256": "39291e9416443607da5b644b878126afd7772443b630d22982d47ee78d651e57",
+      "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Images",
+      "metadataVersion": "1.1.2",
+      "licenseInfo": {
+        "title": "Familiarization, Internalization, Articulation (Fia) Images",
+        "copyright": {
+          "dates": "2025",
+          "holder": {
+            "name": "Word Collective",
+            "url": "https://wordcollective.com"
+          }
+        },
+        "licenses": [
+          {
+            "eng": {
+              "name": "CC BY-SA 4.0 license",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+            }
+          }
+        ],
+        "showAdaptationNoticeForEnglish": false,
+        "showAdaptationNoticeForNonEnglish": false
+      },
+      "adaptationNotice": "<p><b>Familiarization, Internalization, Articulation (FIA) Images</b> \u00a9 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Images</cite> has been adapted in the following languages Tok Pisin, \u0639\u0631\u0628\u064a, Fran\u00e7ais, \u0939\u093f\u0902\u0926\u0940, Bahasa Indonesia, Portugu\u00eas, \u0420\u0443\u0441\u0441\u043a\u0438\u0439, Espa\u00f1ol, Kiswahili, \u7b80\u4f53\u4e2d\u6587 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> \u00a9 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>"
+    },
+    "attachedUnits": [
+      {
+        "id": "S02-U008",
+        "text": "Stop here and show the translation team a photo of sandals. Pause this audio here.",
+        "sha256": "7d4cf4f969f14f97aaf3a855220cf6f46db606c8b4cec00eb8f4cca95cf23115"
+      }
+    ],
+    "observation": "This photograph shows a person wearing sandals and holding a wooden staff under a shaded shelter. Look at the footwear. The guide uses this picture when the group considers sandals; the person is not identified as a person from the Bible story.",
+    "limits": "Visual description is app-authored interpretation of inspected image, not canonical FIA text. Map exact event locations, photographed personal identity, historic sandal reconstruction and machine-generated ACAI links are not asserted."
+  },
+  {
+    "id": "a204",
+    "title": "Sandals",
+    "assetSha256": "d1e3f8420046e066c981476e80cad3c0024d77694d9045a2ca248cdc0dc811c7",
+    "assetBytes": 93501,
+    "assetPath": "/assets/mark-1-1-13/a204.jpg",
+    "source": {
+      "repo": "FIAImages",
+      "commit": "8fbb154360574ba2981fbaa4064a1e8979de7e82",
+      "path": "eng/json/019.content.json",
+      "url": "https://raw.githubusercontent.com/BibleAquifer/FIAImages/8fbb154360574ba2981fbaa4064a1e8979de7e82/eng/json/019.content.json",
+      "retrievedAt": "2026-09-11T20:42:04.256Z",
+      "fileSha256": "5760277e54df9eac99619ca9bd78b8aa2304905c3ca2f9d01180c42cf51f39e7",
+      "contentSha256": "59eed35d0ee6d668566831ce3494df201daa099ed9db6febd4d7f17800e25ddf",
+      "apiCaptureSha256": "7bcc31b8b178d3400931bf901b3657b509ec37e7d0d62f80c6ce5c2307a7ef30",
+      "apiBodyComparison": "exact body in wrapper"
+    },
+    "rights": {
+      "repo": "FIAImages",
+      "commit": "8fbb154360574ba2981fbaa4064a1e8979de7e82",
+      "path": "eng/metadata.json",
+      "url": "https://raw.githubusercontent.com/BibleAquifer/FIAImages/8fbb154360574ba2981fbaa4064a1e8979de7e82/eng/metadata.json",
+      "retrievedAt": "2026-09-11T20:42:04.256Z",
+      "fileSha256": "39291e9416443607da5b644b878126afd7772443b630d22982d47ee78d651e57",
+      "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Images",
+      "metadataVersion": "1.1.2",
+      "licenseInfo": {
+        "title": "Familiarization, Internalization, Articulation (Fia) Images",
+        "copyright": {
+          "dates": "2025",
+          "holder": {
+            "name": "Word Collective",
+            "url": "https://wordcollective.com"
+          }
+        },
+        "licenses": [
+          {
+            "eng": {
+              "name": "CC BY-SA 4.0 license",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+            }
+          }
+        ],
+        "showAdaptationNoticeForEnglish": false,
+        "showAdaptationNoticeForNonEnglish": false
+      },
+      "adaptationNotice": "<p><b>Familiarization, Internalization, Articulation (FIA) Images</b> \u00a9 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Images</cite> has been adapted in the following languages Tok Pisin, \u0639\u0631\u0628\u064a, Fran\u00e7ais, \u0939\u093f\u0902\u0926\u0940, Bahasa Indonesia, Portugu\u00eas, \u0420\u0443\u0441\u0441\u043a\u0438\u0439, Espa\u00f1ol, Kiswahili, \u7b80\u4f53\u4e2d\u6587 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> \u00a9 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>"
+    },
+    "attachedUnits": [
+      {
+        "id": "S02-U008",
+        "text": "Stop here and show the translation team a photo of sandals. Pause this audio here.",
+        "sha256": "7d4cf4f969f14f97aaf3a855220cf6f46db606c8b4cec00eb8f4cca95cf23115"
+      }
+    ],
+    "observation": "This close-up photograph shows feet in open sandals, with straps and a buckle. It helps the group look closely at footwear when discussing sandals. It does not establish exactly what sandals looked like in the time of the story.",
+    "limits": "Visual description is app-authored interpretation of inspected image, not canonical FIA text. Map exact event locations, photographed personal identity, historic sandal reconstruction and machine-generated ACAI links are not asserted."
+  },
+  {
+    "id": "c202",
+    "title": "Important Locations in Jerusalem",
+    "assetSha256": "edece4856f059c482ff51d57f3b947ed4a6f97d998be548af2e96d6e4543fa0c",
+    "assetBytes": 1065016,
+    "assetPath": "/assets/mark-1-1-13/c202.png",
+    "source": {
+      "repo": "FIAMaps",
+      "commit": "7e56e7bc68d354a72b7a3e882beb78d5f084d7f5",
+      "path": "eng/json/009.content.json",
+      "url": "https://raw.githubusercontent.com/BibleAquifer/FIAMaps/7e56e7bc68d354a72b7a3e882beb78d5f084d7f5/eng/json/009.content.json",
+      "retrievedAt": "2026-09-11T20:42:04.256Z",
+      "fileSha256": "74b25ae05988a432a47cf3377c9023a2b8384f64a3799bd1a5e3c8b06f223cca",
+      "contentSha256": "cdb037e6a528a36677aae4a23ffa0506e5488644f2647b3f9b2e402c97936040",
+      "apiCaptureSha256": "e40cc11310d5a6e8941d226ce0de6c6bfdadede95f759b30703f4958970996ca",
+      "apiBodyComparison": "exact body in wrapper"
+    },
+    "rights": {
+      "repo": "FIAMaps",
+      "commit": "7e56e7bc68d354a72b7a3e882beb78d5f084d7f5",
+      "path": "eng/metadata.json",
+      "url": "https://raw.githubusercontent.com/BibleAquifer/FIAMaps/7e56e7bc68d354a72b7a3e882beb78d5f084d7f5/eng/metadata.json",
+      "retrievedAt": "2026-09-11T20:42:04.256Z",
+      "fileSha256": "6f6be14964b62ea78a38627ee97f760ced77ac8bc9a2f3a80a85b4d39bcee21c",
+      "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Maps",
+      "metadataVersion": "1.1.2",
+      "licenseInfo": {
+        "title": "Familiarization, Internalization, Articulation (Fia) Maps",
+        "copyright": {
+          "dates": "2025",
+          "holder": {
+            "name": "Biblica",
+            "url": "https://www.biblica.com"
+          }
+        },
+        "licenses": [
+          {
+            "eng": {
+              "name": "CC BY-SA 4.0 license",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+            }
+          }
+        ],
+        "showAdaptationNoticeForEnglish": false,
+        "showAdaptationNoticeForNonEnglish": false
+      },
+      "adaptationNotice": "<p><b>Familiarization, Internalization, Articulation (FIA) Maps</b> \u00a9 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Maps</cite> has been adapted in the following languages Tok Pisin, \u0639\u0631\u0628\u064a, Fran\u00e7ais, \u0939\u093f\u0902\u0926\u0940, Bahasa Indonesia, Portugu\u00eas, \u0420\u0443\u0441\u0441\u043a\u0438\u0439, Espa\u00f1ol, Kiswahili, \u7b80\u4f53\u4e2d\u6587 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> \u00a9 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>"
+    },
+    "attachedUnits": [
+      {
+        "id": "S03-U021",
+        "text": "Pause the audio here and show your group a map of Judea and Jerusalem.",
+        "sha256": "0ac2d39638e0d6f2d3c32e018be548237acd81f8f89171924ed6f869e9a8e3dc"
+      }
+    ],
+    "observation": "This map outlines Jerusalem and labels the Temple, the Mount of Olives, and nearby places. The guide uses it to help the group locate Jerusalem. Some labels belong to other parts of the wider story; they do not add events to this passage.",
+    "limits": "Visual description is app-authored interpretation of inspected image, not canonical FIA text. Map exact event locations, photographed personal identity, historic sandal reconstruction and machine-generated ACAI links are not asserted."
+  },
+  {
+    "id": "c197",
+    "title": "Locations in the Book of Mark",
+    "assetSha256": "e634e8d7f17c55b5f8be3fdc1f91fee7708f30774f4e1ad3223efff8ef9f2f5d",
+    "assetBytes": 6712636,
+    "assetPath": "/assets/mark-1-1-13/c197.png",
+    "source": {
+      "repo": "FIAMaps",
+      "commit": "7e56e7bc68d354a72b7a3e882beb78d5f084d7f5",
+      "path": "eng/json/011.content.json",
+      "url": "https://raw.githubusercontent.com/BibleAquifer/FIAMaps/7e56e7bc68d354a72b7a3e882beb78d5f084d7f5/eng/json/011.content.json",
+      "retrievedAt": "2026-09-11T20:42:04.256Z",
+      "fileSha256": "86adbd0d8ecd2a3af74fbfc5ae875a0c3c9641c22eec6d32cde1cc84479cf441",
+      "contentSha256": "947d41e8d66cd232dfd8ee45c56f83293f47b81304fa35ed4f5aabde41048e93",
+      "apiCaptureSha256": "99a4a41cd31a8d5576c032c24cefb17b8ba8aff375e08a00cbbeaa9a98f10eb1",
+      "apiBodyComparison": "exact body in wrapper"
+    },
+    "rights": {
+      "repo": "FIAMaps",
+      "commit": "7e56e7bc68d354a72b7a3e882beb78d5f084d7f5",
+      "path": "eng/metadata.json",
+      "url": "https://raw.githubusercontent.com/BibleAquifer/FIAMaps/7e56e7bc68d354a72b7a3e882beb78d5f084d7f5/eng/metadata.json",
+      "retrievedAt": "2026-09-11T20:42:04.256Z",
+      "fileSha256": "6f6be14964b62ea78a38627ee97f760ced77ac8bc9a2f3a80a85b4d39bcee21c",
+      "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Maps",
+      "metadataVersion": "1.1.2",
+      "licenseInfo": {
+        "title": "Familiarization, Internalization, Articulation (Fia) Maps",
+        "copyright": {
+          "dates": "2025",
+          "holder": {
+            "name": "Biblica",
+            "url": "https://www.biblica.com"
+          }
+        },
+        "licenses": [
+          {
+            "eng": {
+              "name": "CC BY-SA 4.0 license",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+            }
+          }
+        ],
+        "showAdaptationNoticeForEnglish": false,
+        "showAdaptationNoticeForNonEnglish": false
+      },
+      "adaptationNotice": "<p><b>Familiarization, Internalization, Articulation (FIA) Maps</b> \u00a9 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Maps</cite> has been adapted in the following languages Tok Pisin, \u0639\u0631\u0628\u064a, Fran\u00e7ais, \u0939\u093f\u0902\u0926\u0940, Bahasa Indonesia, Portugu\u00eas, \u0420\u0443\u0441\u0441\u043a\u0438\u0439, Espa\u00f1ol, Kiswahili, \u7b80\u4f53\u4e2d\u6587 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> \u00a9 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>"
+    },
+    "attachedUnits": [
+      {
+        "id": "S02-U005",
+        "text": "Stop here and look at a picture and map of the Jordan River as a group. Pause this audio here.",
+        "sha256": "bcd0b87371b477506053d64c8d8b257bca25c314ada0742fc001b7e3f6620fd4"
+      }
+    ],
+    "observation": "This map shows labeled regions and towns around the Jordan River, including Galilee, Nazareth, Judea, and Jerusalem. Blue lines mark rivers, and dashed lines mark roads. The guide uses it with the Jordan River picture to help the group locate the setting.",
+    "limits": "Visual description is app-authored interpretation of inspected image, not canonical FIA text. Map exact event locations, photographed personal identity, historic sandal reconstruction and machine-generated ACAI links are not asserted."
+  },
+  {
+    "id": "c201",
+    "title": "Aerial View of Judea and Jerusalem",
+    "assetSha256": "cf0381a5cf019c2ae6ba1c925fa6237689e6df346d519c34b73eb3fbf12b2ea3",
+    "assetBytes": 6646608,
+    "assetPath": "/assets/mark-1-1-13/c201.png",
+    "source": {
+      "repo": "FIAMaps",
+      "commit": "7e56e7bc68d354a72b7a3e882beb78d5f084d7f5",
+      "path": "eng/json/001.content.json",
+      "url": "https://raw.githubusercontent.com/BibleAquifer/FIAMaps/7e56e7bc68d354a72b7a3e882beb78d5f084d7f5/eng/json/001.content.json",
+      "retrievedAt": "2026-09-11T20:42:04.256Z",
+      "fileSha256": "8bb03174e05f5ec24bedaa22cde753375c32e5d6009bc184ecdb72688590afe1",
+      "contentSha256": "b9a7f5be4ef26342d187dc1f09f1f46fb1e07a3ae1ac0bf9bc5bac03e4738844",
+      "apiCaptureSha256": "29ce3e50b78d52dfb29189434b7e3402ca1455785ce7c91fd47476ac79568666",
+      "apiBodyComparison": "exact body in wrapper"
+    },
+    "rights": {
+      "repo": "FIAMaps",
+      "commit": "7e56e7bc68d354a72b7a3e882beb78d5f084d7f5",
+      "path": "eng/metadata.json",
+      "url": "https://raw.githubusercontent.com/BibleAquifer/FIAMaps/7e56e7bc68d354a72b7a3e882beb78d5f084d7f5/eng/metadata.json",
+      "retrievedAt": "2026-09-11T20:42:04.256Z",
+      "fileSha256": "6f6be14964b62ea78a38627ee97f760ced77ac8bc9a2f3a80a85b4d39bcee21c",
+      "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Maps",
+      "metadataVersion": "1.1.2",
+      "licenseInfo": {
+        "title": "Familiarization, Internalization, Articulation (Fia) Maps",
+        "copyright": {
+          "dates": "2025",
+          "holder": {
+            "name": "Biblica",
+            "url": "https://www.biblica.com"
+          }
+        },
+        "licenses": [
+          {
+            "eng": {
+              "name": "CC BY-SA 4.0 license",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+            }
+          }
+        ],
+        "showAdaptationNoticeForEnglish": false,
+        "showAdaptationNoticeForNonEnglish": false
+      },
+      "adaptationNotice": "<p><b>Familiarization, Internalization, Articulation (FIA) Maps</b> \u00a9 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Maps</cite> has been adapted in the following languages Tok Pisin, \u0639\u0631\u0628\u064a, Fran\u00e7ais, \u0939\u093f\u0902\u0926\u0940, Bahasa Indonesia, Portugu\u00eas, \u0420\u0443\u0441\u0441\u043a\u0438\u0439, Espa\u00f1ol, Kiswahili, \u7b80\u4f53\u4e2d\u6587 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> \u00a9 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>"
+    },
+    "attachedUnits": [
+      {
+        "id": "S03-U021",
+        "text": "Pause the audio here and show your group a map of Judea and Jerusalem.",
+        "sha256": "0ac2d39638e0d6f2d3c32e018be548237acd81f8f89171924ed6f869e9a8e3dc"
+      }
+    ],
+    "observation": "This illustrated terrain view shows hills and valleys around Judea and Jerusalem, with the Jordan River and the Dead Sea. It is an illustration, not an aerial photograph. The guide uses this map to help the group picture Judea and Jerusalem.",
+    "limits": "Visual description is app-authored interpretation of inspected image, not canonical FIA text. Map exact event locations, photographed personal identity, historic sandal reconstruction and machine-generated ACAI links are not asserted."
+  },
+  {
+    "id": "c168",
+    "title": "Nazareth and Judea",
+    "assetSha256": "012583ca2ccc485fcb236b9e7d9580b35b1380bd0416758f36b023bd619e096e",
+    "assetBytes": 7735008,
+    "assetPath": "/assets/mark-1-1-13/c168.png",
+    "source": {
+      "repo": "FIAMaps",
+      "commit": "7e56e7bc68d354a72b7a3e882beb78d5f084d7f5",
+      "path": "eng/json/013.content.json",
+      "url": "https://raw.githubusercontent.com/BibleAquifer/FIAMaps/7e56e7bc68d354a72b7a3e882beb78d5f084d7f5/eng/json/013.content.json",
+      "retrievedAt": "2026-09-11T20:42:04.256Z",
+      "fileSha256": "f63de55526c1d0b903d4617fb778bee323311964821937d7fcaae3c96a83c61c",
+      "contentSha256": "ceac16aac7ae853339752c1e16a4a1593b9d668f9410abf7bace3559cfc40806",
+      "apiCaptureSha256": "69edf641f653164342ea95d26a8fe39342107141ff8a871887428241ccf54e0f",
+      "apiBodyComparison": "exact body in wrapper"
+    },
+    "rights": {
+      "repo": "FIAMaps",
+      "commit": "7e56e7bc68d354a72b7a3e882beb78d5f084d7f5",
+      "path": "eng/metadata.json",
+      "url": "https://raw.githubusercontent.com/BibleAquifer/FIAMaps/7e56e7bc68d354a72b7a3e882beb78d5f084d7f5/eng/metadata.json",
+      "retrievedAt": "2026-09-11T20:42:04.256Z",
+      "fileSha256": "6f6be14964b62ea78a38627ee97f760ced77ac8bc9a2f3a80a85b4d39bcee21c",
+      "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Maps",
+      "metadataVersion": "1.1.2",
+      "licenseInfo": {
+        "title": "Familiarization, Internalization, Articulation (Fia) Maps",
+        "copyright": {
+          "dates": "2025",
+          "holder": {
+            "name": "Biblica",
+            "url": "https://www.biblica.com"
+          }
+        },
+        "licenses": [
+          {
+            "eng": {
+              "name": "CC BY-SA 4.0 license",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+            }
+          }
+        ],
+        "showAdaptationNoticeForEnglish": false,
+        "showAdaptationNoticeForNonEnglish": false
+      },
+      "adaptationNotice": "<p><b>Familiarization, Internalization, Articulation (FIA) Maps</b> \u00a9 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Maps</cite> has been adapted in the following languages Tok Pisin, \u0639\u0631\u0628\u064a, Fran\u00e7ais, \u0939\u093f\u0902\u0926\u0940, Bahasa Indonesia, Portugu\u00eas, \u0420\u0443\u0441\u0441\u043a\u0438\u0439, Espa\u00f1ol, Kiswahili, \u7b80\u4f53\u4e2d\u6587 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> \u00a9 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>"
+    },
+    "attachedUnits": [
+      {
+        "id": "S03-U007",
+        "text": "Pause the audio here and show your group a map that shows the region of Galilee that includes Nazareth and the Jordan River area.",
+        "sha256": "b20ae2038847bcb26a2cd941f7a836befdddb740bb6cfc69fd02e54c225035be"
+      }
+    ],
+    "observation": "This map labels Nazareth in Galilee, the Jordan River, Judea, and Jerusalem. Its legend identifies the black arrows as travels of Jesus. The guide uses the map to help the group locate Galilee, Nazareth, and the Jordan River area.",
+    "limits": "Visual description is app-authored interpretation of inspected image, not canonical FIA text. Map exact event locations, photographed personal identity, historic sandal reconstruction and machine-generated ACAI links are not asserted."
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "status": "proposed-source-freeze-no-provider-calls",
+  "requests": 21,
+  "sourceCharacters": 43800,
+  "reviewedFlatCharacters": 43659,
+  "maxRequestCharacters": 6194,
+  "expectedProcessedCharacters": 46620,
+  "hardRequestCap": 21,
+  "proposedSourceCharacterCap": 45000,
+  "sourceFileSha256": "43b235920e5250e5c90afb2016b3312b2af5b10fb3d069662949902f0efef018",
+  "independentReceiptSha256": "ffede90439963546531e634e17ef2790a24ed61cc0fa583eac4e8a23ade4400e",
+  "method": "Preserve inline text without added spaces; separate existing block/list elements with double newlines; retain every visible heading and source warning. Flat text equals independent21-term projection exactly. Expected server punctuation/SSML is prediction, not transcript."
+}

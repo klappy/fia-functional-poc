@@ -1,0 +1,10 @@
+{
+  "scriptSha256": "fe583b3fb23034f89eb230b2c8bc81230891deae190937b243ebc1829c246bec",
+  "requests": 19,
+  "sourceCharacters": 2747,
+  "maxCharacters": 212,
+  "noCalls": true,
+  "voice": "existing default only",
+  "quota": "unknown",
+  "providerBillableCharacters": "not attested"
+}

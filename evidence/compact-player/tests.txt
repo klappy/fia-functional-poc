@@ -1,0 +1,39 @@
+[WebServer] (node:22058) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 4 tests using 1 worker
+
+(node:22059) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/compact.spec.js:2:1 › actual missing recording exposes source error without a running dock (2.5s)
+  ✓  2 tests/compact.spec.js:3:1 › compact labeled action and explicit secondary controls fit326 and726 (5.9s)
+  ✘  3 tests/speech-offline.spec.js:6:1 › complete offline pack and real media survive cold page, exploration and new owner (10.8s)
+(node:22478) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  4 tests/speech-offline.spec.js:13:1 › missing corrupt canceled transfers preserve a verified pack and removal remains explicit (5.7s)
+
+
+  1) tests/speech-offline.spec.js:6:1 › complete offline pack and real media survive cold page, exploration and new owner 
+
+    Error: locator.click: Error: strict mode violation: getByLabel('More playback controls') resolved to 2 elements:
+        1) <summary aria-label="More playback controls">More</summary> aka getByLabel('More playback controls').first()
+        2) <summary aria-label="More playback controls">More</summary> aka getByRole('dialog', { name: 'heaven' }).getByLabel('More playback controls')
+
+    Call log:
+      - waiting for getByLabel('More playback controls')
+
+
+       9 |  await page.getByRole('tab',{name:'Scripture',exact:true}).click();await page.getByRole('button',{name:'Play Scripture BSB',exact:true}).click();await expect(page.getByRole('button',{name:'Pause Now playing'})).toBeVisible();await expect.poll(()=>page.locator('.playback-dock progress').getAttribute('value')).not.toBe('0');
+      10 |  await page.getByRole('tab',{name:'Resources',exact:true}).click();await expect(page.getByRole('button',{name:'Pause Now playing'})).toBeVisible();await page.getByRole('button',{name:'Open Locations in the Book of Mark map'}).click();await expect.poll(()=>page.getByRole('dialog').getByRole('img').evaluate(i=>i.naturalWidth)).toBe(3000);await page.getByRole('button',{name:'Pause Now playing'}).click();await expect(page.getByRole('button',{name:'Resume Now playing'})).toBeVisible();await page.getByRole('button',{name:'Resume Now playing'}).click();await page.getByRole('button',{name:'Close resource'}).click();
+    > 11 |  await page.getByRole('button',{name:'Play heaven',exact:true}).click();await page.getByRole('button',{name:'Open heaven term',exact:true}).click();await expect(page.getByRole('dialog').getByRole('heading',{name:'heaven'})).toBeVisible();await expect(page.getByRole('button',{name:'Pause Now playing'})).toBeVisible();await expect.poll(()=>page.getByRole('dialog').locator('progress').getAttribute('value')).not.toBe('0');await page.getByLabel('More playback controls').click();await page.getByRole('button',{name:'Restart Now playing'}).click();await page.screenshot({path:'evidence/contextual-playback/offline-term.png'});
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ^
+      12 | });
+      13 | test('missing corrupt canceled transfers preserve a verified pack and removal remains explicit',async({page,request,context})=>{
+      14 |  await save(page);await settings(page);
+        at /private/tmp/fia-functional-poc-app/tests/speech-offline.spec.js:11:471
+
+    Error Context: test-results/speech-offline-complete-of-8eb5f-e-exploration-and-new-owner/error-context.md
+
+  1 failed
+    tests/speech-offline.spec.js:6:1 › complete offline pack and real media survive cold page, exploration and new owner 
+  3 passed (27.8s)

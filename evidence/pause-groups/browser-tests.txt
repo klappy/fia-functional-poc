@@ -1,0 +1,12 @@
+[WebServer] (node:34087) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 3 tests using 1 worker
+
+(node:34088) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/contextual.spec.js:3:1 › floating tabs support keyboard and local controls fit desktop and320px without nested buttons (3.6s)
+  ✓  2 tests/contextual.spec.js:5:1 › current-step index preserves context and all117 source sections remain reachable (2.6s)
+  ✓  3 tests/pause-groups.spec.js:2:1 › all four legacy cue bookmarks keep their activity through real audio ended and explicit Continue (4.2s)
+
+  3 passed (11.8s)

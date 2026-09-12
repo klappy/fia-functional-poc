@@ -1,3 +1,4 @@
+import visualInputs from '../../public/content/visual-narration.json';
 import React from 'react';
 import DOMPurify from 'dompurify';
 export function SafeHtml({ html, className = '' }) {
@@ -16,6 +17,7 @@ export default function SourceDetails({ item }) {
     {rights.licenseInfo.licenses.map((license, i) => <p key={i}><a href={license.eng.url} target="_blank" rel="noreferrer">{license.eng.name}</a></p>)}
     {rights.adaptationNotice && <SafeHtml html={rights.adaptationNotice} />}
     {item.resourceCode === 'FIAMaps' && <p>Supplied notices name different holders. Both are preserved; the discrepancy is unresolved.</p>}
+    {visualInputs.some(x=>x.id===item.content_id)&&<><p>Audio description authored for this PoC from the inspected image and the guide’s explicit resource request. It is not original FIA narration. Photographed identities, historical reconstruction and exact event locations are not established by the image.</p><p>{visualInputs.find(x=>x.id===item.content_id).text}</p></>}
     <p>Formatting and source segmentation adapted for this PoC. Source meaning retained; no independent correctness certification.</p>
   </details>;
 }

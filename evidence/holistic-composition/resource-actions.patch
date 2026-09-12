@@ -1,0 +1,12 @@
+diff --git a/src/vendor/glass/components/resources/ResourceCard.jsx b/src/vendor/glass/components/resources/ResourceCard.jsx
+index acce82d..796a61c 100644
+--- a/src/vendor/glass/components/resources/ResourceCard.jsx
++++ b/src/vendor/glass/components/resources/ResourceCard.jsx
+@@ -1,5 +1,6 @@
+ import React from 'react';
+-export function ResourceCard({type,title,meta,image,onOpen,style,...rest}){
++export function ResourceCard({type,title,meta,image,onOpen,actions,style,...rest}){
++  if(actions)return <div {...rest} style={{borderRadius:'var(--r-lg)',overflow:'hidden',background:'var(--glass-fill-3)',border:'var(--border-glass)',boxShadow:'var(--shadow-card), var(--inner-top)',color:'inherit',...style}}><div style={{padding:'12px',display:'flex',alignItems:'flex-start',justifyContent:'space-between',gap:8}}><button onClick={onOpen} aria-label={rest['aria-label']} style={{border:0,background:'transparent',textAlign:'left',color:'var(--text-title)',padding:0,minWidth:0,font:'var(--type-label)',cursor:'pointer'}}><small style={{display:'block',font:'var(--type-overline)',color:'var(--text-muted)',marginBottom:6}}>{type}</small>{title}</button>{actions}</div></div>;
+   return React.createElement('button',{onClick:onOpen,style:{display:'block',textAlign:'start',padding:0,cursor:onOpen?'pointer':'default',borderRadius:'var(--r-lg)',overflow:'hidden',background:'var(--glass-fill-3)',border:'var(--border-glass)',boxShadow:'var(--shadow-card), var(--inner-top)',color:'inherit',...style},...rest},
+     React.createElement('div',{style:{position:'relative',height:90,background:image?`url(${image}) center/cover, var(--glass-fill-2)`:'var(--glass-fill-2)'}},
+       type?React.createElement('span',{style:{position:'absolute',left:8,top:8,padding:'4px 8px',borderRadius:'var(--r-pill)',background:'rgba(255,255,255,.85)',font:'var(--type-overline)',letterSpacing:'var(--ls-overline)',textTransform:'uppercase',color:'var(--ink-900)'}},type):null),

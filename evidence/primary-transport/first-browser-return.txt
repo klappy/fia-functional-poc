@@ -1,0 +1,207 @@
+
+> fia-functional-poc@0.1.0 test:e2e
+> playwright test
+
+[WebServer] (node:67270) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 25 tests using 1 worker
+
+(node:67275) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/compact.spec.js:2:1 › actual missing recording exposes source error without a running dock (984ms)
+  ✓   2 tests/compact.spec.js:3:1 › compact labeled action and explicit secondary controls fit326 and726 (1.7s)
+  ✘   3 tests/composition.spec.js:2:1 › whole reading composition has stable actions and reachable source at desktop and mobile (365ms)
+(node:67687) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   4 tests/composition.spec.js:3:1 › current owner remains controllable while a different term is explored and term player is inside card (1.3s)
+  ✓   5 tests/contextual.spec.js:3:1 › floating tabs support keyboard and local controls fit desktop and320px without nested buttons (1.1s)
+  ✓   6 tests/contextual.spec.js:5:1 › current-step index preserves context and all117 source sections remain reachable (1.1s)
+  ✘   7 tests/dock.spec.js:2:1 › one floating owner survives exploration with safe narrow dock and modal counterpart (30.0s)
+(node:68110) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   8 tests/gap.spec.js:2:1 › actual guide gap preserves completed context and narrow dock never exceeds actual menu (2.8s)
+  ✓   9 tests/guided-session.spec.js:4:1 › real guide, Scripture selection and exact position survive view changes and reload (656ms)
+  ✘  10 tests/guided-session.spec.js:14:1 › contextual real map opens, renders and returns focus without moving the guide (5.7s)
+(node:68120) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  11 tests/guided-session.spec.js:22:1 › examples require explicit reveal and every resource type is available (987ms)
+  ✓  12 tests/guided-session.spec.js:31:1 › narrow layout, keyboard dialog and large text remain usable (501ms)
+  ✓  13 tests/guided-session.spec.js:38:1 › failed required source renders a real error with retry, never substitute content (655ms)
+  ✓  14 tests/guided-session.spec.js:44:1 › duplicate source names are distinguished by source meaning and inspected image (562ms)
+  ✓  15 tests/guided-session.spec.js:49:1 › official FIA identity and colors render with readable contrast (317ms)
+  ✓  16 tests/guided-session.spec.js:57:1 › resources show all eight real previews, source metadata, search and honest online video (641ms)
+  ✓  17 tests/guided-session.spec.js:67:1 › finished-session return from another view really restores the guide (543ms)
+  ✓  18 tests/idle-player.spec.js:2:1 › ready context, real0.95rate, pause/resume and playing exploration remain truthful (2.8s)
+  ✘  19 tests/next-actions.spec.js:2:1 › real adapted map action ends with its exact resource and metadata restores without invented association (1.1s)
+(node:68142) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  20 tests/pause-groups.spec.js:2:1 › all four legacy cue bookmarks keep their activity through real audio ended and explicit Continue (3.1s)
+  ✓  21 tests/primary.spec.js:2:1 › three controls, no autoplay adjacency, filtered modal focus and source cornerRestart (1.4s)
+  ✘  22 tests/speech-offline.spec.js:6:1 › complete offline pack and real media survive cold page, exploration and new owner (3.3s)
+(node:68154) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  23 tests/speech-offline.spec.js:13:1 › missing corrupt canceled transfers preserve a verified pack and removal remains explicit (3.6s)
+  ✘  24 tests/speech-offline.spec.js:18:1 › combined transition plays offline and stops on the activity; source info returns focus (10.0s)
+(node:68561) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  25 tests/upgrade.spec.js:3:1 › ordinary reload upgrades a saved previous shell without deleting progress or its verified pack (30.0s)
+
+
+  1) tests/composition.spec.js:2:1 › whole reading composition has stable actions and reachable source at desktop and mobile 
+
+    Error: expect(received).toBeLessThan(expected)
+
+    Expected: < 900
+    Received:   964
+
+      1 | import{test,expect}from'@playwright/test';
+    > 2 | test('whole reading composition has stable actions and reachable source at desktop and mobile',async({page})=>{for(const width of[726,390,320]){await page.setViewportSize({width,height:987});await page.goto('/');await expect(page.getByTestId('current-unit')).toBeVisible();const a=await page.getByRole('button',{name:'Next guide activity',exact:true}).boundingBox();await page.getByLabel('Guide step').selectOption('S05');const b=await page.getByRole('button',{name:'Next guide activity',exact:true}).boundingBox();expect(Math.abs(a.y-b.y)).toBeLessThan(2);expect(b.y+b.height).toBeLessThan(900);await expect.poll(()=>page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await page.screenshot({path:`evidence/holistic-composition/guide-${width}.png`,fullPage:true});await page.locator('.source-scroll').evaluate(e=>e.scrollTop=e.scrollHeight);await expect(page.getByRole('button',{name:'Read complete guide and attribution'})).toBeVisible();}});
+        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ^
+      3 | test('current owner remains controllable while a different term is explored and term player is inside card',async({page})=>{await page.goto('/');await page.getByRole('tab',{name:'Scripture',exact:true}).click();await page.getByRole('button',{name:'Play Scripture BSB',exact:true}).click();await expect(page.getByRole('button',{name:'Pause Now playing'})).toBeVisible();await page.getByRole('tab',{name:'Resources',exact:true}).click();await expect(page.locator('.resource-term .resource-card').getByRole('button',{name:'Play heaven',exact:true})).toBeVisible();await page.getByRole('button',{name:'Open heaven term',exact:true}).click();const d=page.getByRole('dialog');await expect(d.getByRole('button',{name:'Pause Now playing'})).toBeVisible();await expect(d.getByRole('button',{name:'Play heaven',exact:true})).toBeVisible();await d.getByRole('button',{name:'Pause Now playing'}).click();await expect(d.getByRole('button',{name:'Resume Now playing'})).toBeVisible();await expect(page.locator('button button')).toHaveCount(0);await page.screenshot({path:'evidence/holistic-composition/other-owner-detail.png'});});
+      4 |
+        at /private/tmp/fia-functional-poc-app/tests/composition.spec.js:2:579
+
+    Error Context: test-results/composition-whole-reading--7dd05-ource-at-desktop-and-mobile/error-context.md
+
+  2) tests/dock.spec.js:2:1 › one floating owner survives exploration with safe narrow dock and modal counterpart 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.boundingBox: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Next guide activity', exact: true })
+
+
+      1 | import{test,expect}from'@playwright/test';
+    > 2 | test('one floating owner survives exploration with safe narrow dock and modal counterpart',async({page})=>{for(const width of[726,390,320]){await page.setViewportSize({width,height:987});await page.goto('/');await page.getByRole('tab',{name:'Scripture',exact:true}).click();await page.getByRole('button',{name:'Play Scripture BSB',exact:true}).click();await expect(page.locator('.playback-dock').getByRole('button',{name:'Pause Now playing'})).toBeVisible();await expect.poll(()=>page.locator('.playback-dock progress').getAttribute('value')).not.toBe('0');await page.getByRole('tab',{name:'Guide',exact:true}).click();const footer=await page.getByRole('button',{name:'Next guide activity',exact:true}).boundingBox(),dock=await page.locator('.floating-dock').boundingBox();expect(footer.y+footer.height).toBeLessThanOrEqual(dock.y);await expect(page.locator('.card-players .compact-player')).toHaveCount(0);await expect.poll(()=>page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await page.screenshot({path:`evidence/floating-player/dock-${width}.png`,fullPage:true});await page.getByRole('tab',{name:'Resources',exact:true}).click();await page.getByRole('button',{name:'Open heaven term',exact:true}).click();await expect(page.getByRole('button',{name:'Pause Now playing'})).toHaveCount(1);await page.getByRole('button',{name:'Pause Now playing'}).click();await expect(page.getByRole('button',{name:'Resume Now playing'})).toBeVisible();await page.keyboard.press('Escape');await expect(page.locator('.playback-dock').getByRole('button',{name:'Resume Now playing'})).toBeVisible();}});
+        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ^
+      3 |
+        at /private/tmp/fia-functional-poc-app/tests/dock.spec.js:2:704
+
+    Error Context: test-results/dock-one-floating-owner-su-19812--dock-and-modal-counterpart/error-context.md
+
+  3) tests/guided-session.spec.js:14:1 › contextual real map opens, renders and returns focus without moving the guide 
+
+    Error: expect(locator).toBeFocused() failed
+
+    Locator:  getByRole('button', { name: 'Locations in the Book of Mark' })
+    Expected: focused
+    Received: inactive
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toBeFocused" getByRole('button', { name: 'Locations in the Book of Mark' }) with timeout 5000ms
+      - waiting for getByRole('button', { name: 'Locations in the Book of Mark' })
+        14 × locator resolved to <button class="resource-card" aria-label="Locations in the Book of Mark">…</button>
+           - unexpected value "inactive"
+
+
+      18 |  await expect(page.getByRole('dialog')).toBeVisible();const image=page.getByRole('dialog').getByRole('img',{name:'Locations in the Book of Mark',exact:true});await expect(image).toBeVisible();
+      19 |  await expect.poll(()=>image.evaluate(img=>img.naturalWidth)).toBe(3000);
+    > 20 |  await page.keyboard.press('Escape');await expect(page.getByRole('dialog')).toHaveCount(0);await expect(opener).toBeFocused();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S02-U005');
+         |                                                                                                                 ^
+      21 | });
+      22 | test('examples require explicit reveal and every resource type is available',async({page})=>{
+      23 |  await page.getByLabel('Guide step').selectOption('S04');
+        at /private/tmp/fia-functional-poc-app/tests/guided-session.spec.js:20:113
+
+    Error Context: test-results/guided-session-contextual--da83f-us-without-moving-the-guide/error-context.md
+
+  4) tests/next-actions.spec.js:2:1 › real adapted map action ends with its exact resource and metadata restores without invented association 
+
+    Error: locator.evaluate: Error: strict mode violation: getByRole('dialog').getByRole('img') resolved to 3 elements:
+        1) <svg width="20" height="20" fill="none" stroke-width="1.7" viewBox="0 0 24 24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">…</svg> aka getByRole('button', { name: 'Previous resource' })
+        2) <svg width="20" height="20" fill="none" stroke-width="1.7" viewBox="0 0 24 24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">…</svg> aka getByRole('button', { name: 'Next resource' })
+        3) <img alt="Nazareth and Judea" src="/assets/mark-1-1-13/c168.png"/> aka getByRole('link', { name: 'Nazareth and Judea Open full-' })
+
+    Call log:
+      - waiting for getByRole('dialog').getByRole('img')
+
+
+      1 | import{test,expect}from'@playwright/test';
+    > 2 | test('real adapted map action ends with its exact resource and metadata restores without invented association',async({page})=>{await page.addInitScript(()=>{const Native=window.Audio;window.Audio=class extends Native{constructor(...a){super(...a);window.__audio=this;}}});await page.goto('/');await page.evaluate(()=>localStorage.setItem('fia.session.mark-1-1-13.v1',JSON.stringify({schemaVersion:1,passage:'mark-1-1-13',stepId:'S03',unitId:'S03-U007',version:'BereanStandardBible',visited:['S03'],finished:false})));await page.reload();await expect(page.getByTestId('current-unit')).toContainText('Galilee');await expect(page.getByTestId('current-unit')).toContainText('Nazareth');await expect(page.getByTestId('current-unit')).toContainText('Jordan River');const paths=[];page.on('request',r=>paths.push(r.url()));await page.getByRole('button',{name:'Play guide',exact:true}).click();await expect.poll(()=>page.evaluate(()=>window.__audio?.duration||0)).toBeGreaterThan(0);expect(paths.some(p=>p.includes('/next-actions/S03-U007.mp3'))).toBe(true);await page.evaluate(()=>window.__audio.currentTime=window.__audio.duration-.1);await expect.poll(()=>page.evaluate(()=>window.__audio?.ended)).toBe(true);await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S03-U007');await expect(page.locator('.context-resources .resource-map')).toHaveCount(1);await page.locator('.context-resources .resource-map button').click();await expect.poll(()=>page.getByRole('dialog').getByRole('img').evaluate(i=>i.naturalWidth)).toBeGreaterThan(0);await page.keyboard.press('Escape');await page.evaluate(()=>{const s=JSON.parse(localStorage.getItem('fia.session.mark-1-1-13.v1'));s.stepId='S05';s.unitId='S05-U045';localStorage.setItem('fia.session.mark-1-1-13.v1',JSON.stringify(s));});await page.reload();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S05-U043');await expect(page.getByText('Source media request restored · Info')).toBeVisible();await expect(page.locator('.context-resources .resource-map')).toHaveCount(0);await page.getByRole('button',{name:'Read complete guide and attribution'}).click();await expect(page.getByRole('dialog')).toContainText('Media Requests:');await page.keyboard.press('Escape');await page.getByRole('button',{name:'Next guide activity',exact:true}).click();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S06-U001');await page.screenshot({path:'evidence/next-actions/context.png',fullPage:true});});
+        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ^
+      3 |
+        at /private/tmp/fia-functional-poc-app/tests/next-actions.spec.js:2:1507
+        at /private/tmp/fia-functional-poc-app/tests/next-actions.spec.js:2:1443
+
+    Error Context: test-results/next-actions-real-adapted--f6573-ithout-invented-association/error-context.md
+
+  5) tests/speech-offline.spec.js:6:1 › complete offline pack and real media survive cold page, exploration and new owner 
+
+    Error: locator.evaluate: Error: strict mode violation: getByRole('dialog').getByRole('img') resolved to 3 elements:
+        1) <svg width="20" height="20" fill="none" stroke-width="1.7" viewBox="0 0 24 24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">…</svg> aka getByRole('button', { name: 'Previous Scripture version' })
+        2) <svg width="20" height="20" fill="none" stroke-width="1.7" viewBox="0 0 24 24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">…</svg> aka getByRole('button', { name: 'Next Scripture version' })
+        3) <img src="/assets/mark-1-1-13/c197.png" alt="Locations in the Book of Mark"/> aka getByRole('link', { name: 'Locations in the Book of Mark' })
+
+    Call log:
+      - waiting for getByRole('dialog').getByRole('img')
+
+
+       8 |  const ok=await page.evaluate(async entries=>{for(const e of entries){const r=await fetch(e.path),b=await r.arrayBuffer(),h=[...new Uint8Array(await crypto.subtle.digest('SHA-256',b))].map(x=>x.toString(16).padStart(2,'0')).join('');if(!r.ok||b.byteLength!==e.bytes||h!==e.sha256)return false;}return true;},manifest.entries);expect(ok).toBe(true);
+       9 |  await page.getByRole('tab',{name:'Scripture',exact:true}).click();await page.getByRole('button',{name:'Play Scripture BSB',exact:true}).click();await expect(page.getByRole('button',{name:'Pause Now playing'})).toBeVisible();await expect.poll(()=>page.locator('.playback-dock progress').getAttribute('value')).not.toBe('0');
+    > 10 |  await page.getByRole('tab',{name:'Resources',exact:true}).click();await expect(page.getByRole('button',{name:'Pause Now playing'})).toBeVisible();await page.getByRole('button',{name:'Open Locations in the Book of Mark map'}).click();await expect.poll(()=>page.getByRole('dialog').getByRole('img').evaluate(i=>i.naturalWidth)).toBe(3000);await page.getByRole('button',{name:'Pause Now playing'}).click();await expect(page.getByRole('button',{name:'Resume Now playing'})).toBeVisible();await page.getByRole('button',{name:'Resume Now playing'}).click();await page.getByRole('button',{name:'Close resource'}).click();
+         |                                                                                                                                                                                                                                                                                                           ^
+      11 |  await page.getByRole('button',{name:'Play heaven',exact:true}).click();await page.getByRole('button',{name:'Open heaven term',exact:true}).click();await expect(page.getByRole('dialog').getByRole('heading',{name:'heaven'})).toBeVisible();await expect(page.getByRole('button',{name:'Pause Now playing'})).toBeVisible();await expect.poll(()=>page.getByRole('dialog').locator('progress').getAttribute('value')).not.toBe('0');await page.getByRole('button',{name:'Restart heaven'}).click();await page.screenshot({path:'evidence/contextual-playback/offline-term.png'});
+      12 | });
+      13 | test('missing corrupt canceled transfers preserve a verified pack and removal remains explicit',async({page,request,context})=>{
+        at /private/tmp/fia-functional-poc-app/tests/speech-offline.spec.js:10:299
+        at /private/tmp/fia-functional-poc-app/tests/speech-offline.spec.js:10:235
+
+    Error Context: test-results/speech-offline-complete-of-8eb5f-e-exploration-and-new-owner/error-context.md
+
+  6) tests/speech-offline.spec.js:18:1 › combined transition plays offline and stops on the activity; source info returns focus 
+
+    Error: expect(locator).toBeFocused() failed
+
+    Locator:  getByRole('button', { name: 'Read complete guide and attribution' })
+    Expected: focused
+    Received: inactive
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toBeFocused" getByRole('button', { name: 'Read complete guide and attribution' }) with timeout 5000ms
+      - waiting for getByRole('button', { name: 'Read complete guide and attribution' })
+        14 × locator resolved to <button aria-label="Read complete guide and attribution">…</button>
+           - unexpected value "inactive"
+
+
+      16 |  await request.post('/__test__/mode',{data:'normal'});await page.getByRole('button',{name:'Check saved files'}).click();await expect(page.getByRole('alert')).toHaveCount(0);await page.evaluate(async()=>{const m=await caches.open('fia-meta-v1'),a=await(await m.match('/__fia_active__')).json();await(await caches.open(a.cache)).put('/assets/mark-1-1-13/a112.jpg',new Response('bad',{headers:{'Content-Type':'image/jpeg'}}));});await page.getByRole('button',{name:'Check saved files'}).click();await expect(page.getByRole('alert')).toContainText('Integrity failed');await page.getByRole('button',{name:'Remove saved passage'}).click();await page.getByRole('button',{name:'Confirm removal'}).click();await expect(page.locator('.offline-status')).toContainText('Not saved');await context.setOffline(true);await page.reload();await expect(page.getByRole('heading',{name:'The passage could not be opened'})).toBeVisible();
+      17 | });
+    > 18 | test('combined transition plays offline and stops on the activity; source info returns focus',async({page,context})=>{await page.addInitScript(()=>{const Native=window.Audio;window.__audio=[];window.Audio=class extends Native{constructor(...args){super(...args);window.__audio.push(this);}};});await save(page);await context.setOffline(true);await page.reload();await page.getByLabel('Guide step').selectOption('S06');for(let n=0;n<3;n++)await page.getByRole('button',{name:'Next guide activity',exact:true}).click();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S06-U004');const paths=[];page.on('request',r=>paths.push(r.url()));await page.getByRole('button',{name:'Play guide',exact:true}).click();await expect.poll(()=>page.evaluate(()=>window.__audio.at(-1)?.duration||0)).toBeGreaterThan(0);expect(paths.some(p=>p.includes('/activity-transitions/S06-U004-with-pause.mp3'))).toBe(true);await page.evaluate(()=>{const a=window.__audio.at(-1);a.currentTime=a.duration-.1;});await expect.poll(()=>page.evaluate(()=>window.__audio.at(-1)?.ended)).toBe(true);await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S06-U004');const info=page.getByRole('button',{name:'Read complete guide and attribution'});await info.click();await expect(page.getByRole('dialog')).toContainText('Original guide text');await page.keyboard.press('Escape');await expect(info).toBeFocused();});
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ^
+      19 |
+        at /private/tmp/fia-functional-poc-app/tests/speech-offline.spec.js:18:1414
+
+    Error Context: test-results/speech-offline-combined-tr-233d4-y-source-info-returns-focus/error-context.md
+
+  7) tests/upgrade.spec.js:3:1 › ordinary reload upgrades a saved previous shell without deleting progress or its verified pack 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Next guide activity', exact: true })
+
+
+      4 |  await request.post('/__test__/mode',{data:'legacy'});
+      5 |  await page.addInitScript(()=>{window.__controllerChanged=false;navigator.serviceWorker.addEventListener('controllerchange',()=>window.__controllerChanged=true);});
+    > 6 |  await page.goto('/');await page.getByRole('button',{name:'Next guide activity',exact:true}).click();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S01-U002');
+        |                                                                                              ^
+      7 |  await page.getByText('Offline passage · Not saved',{exact:true}).click();await page.getByRole('button',{name:'Save for offline',exact:true}).click();await expect(page.locator('.offline-status')).toContainText('Saved on this device',{timeout:30000});
+      8 |  const oldScripts=await page.locator('script[src]').evaluateAll(s=>s.map(x=>x.src));const old=await page.evaluate(async()=>{const c=await caches.open('fia-meta-v1');return(await c.match('/__fia_active__')).json();});
+      9 |  await request.post('/__test__/mode',{data:'normal'});await page.reload();
+        at /private/tmp/fia-functional-poc-app/tests/upgrade.spec.js:6:94
+
+    Error Context: test-results/upgrade-ordinary-reload-up-961ec-ogress-or-its-verified-pack/error-context.md
+
+  7 failed
+    tests/composition.spec.js:2:1 › whole reading composition has stable actions and reachable source at desktop and mobile 
+    tests/dock.spec.js:2:1 › one floating owner survives exploration with safe narrow dock and modal counterpart 
+    tests/guided-session.spec.js:14:1 › contextual real map opens, renders and returns focus without moving the guide 
+    tests/next-actions.spec.js:2:1 › real adapted map action ends with its exact resource and metadata restores without invented association 
+    tests/speech-offline.spec.js:6:1 › complete offline pack and real media survive cold page, exploration and new owner 
+    tests/speech-offline.spec.js:18:1 › combined transition plays offline and stops on the activity; source info returns focus 
+    tests/upgrade.spec.js:3:1 › ordinary reload upgrades a saved previous shell without deleting progress or its verified pack 
+  18 passed (1.8m)
