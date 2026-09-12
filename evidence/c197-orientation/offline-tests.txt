@@ -1,0 +1,11 @@
+[WebServer] (node:72675) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 2 tests using 1 worker
+
+(node:72676) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/c197-review.spec.js:2:1 › eight real visual clips verify and play cold offline with optional details and filtered owner (13.2s)
+  ✓  2 tests/c197-review.spec.js:3:1 › missing visual recording exposes error while original image remains openable (772ms)
+
+  2 passed (15.2s)

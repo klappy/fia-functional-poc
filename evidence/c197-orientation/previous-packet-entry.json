@@ -1,0 +1,13 @@
+{
+  "id": "term-c197",
+  "group": "visual-resources",
+  "path": "/audio/visual-resources/c197.mp3",
+  "exactRequestText": "Locations in the Book of Mark. This map labels regions and towns around the Jordan River, including Galilee, Nazareth, Judea, and Jerusalem. Blue lines mark rivers, and dashed lines mark roads. Find the Jordan River and notice the surrounding regions.",
+  "requestTextSha256": "3d6eeea97d12f773c85821c2524dc290be142a4e6f9a3d59ed1db8669e7e4798",
+  "audioSha256": "373e32507219586a1a2b64ea0b190a7ab58d9bc52b83dd3ce0abff5272c48adc",
+  "manifestAudioSha256": "373e32507219586a1a2b64ea0b190a7ab58d9bc52b83dd3ce0abff5272c48adc",
+  "audioHashMatches": true,
+  "bytes": 227787,
+  "manifestSourceSha256": "3d6eeea97d12f773c85821c2524dc290be142a4e6f9a3d59ed1db8669e7e4798",
+  "expectedProviderProjectionSha256": null
+}

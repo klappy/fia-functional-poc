@@ -1,6 +1,6 @@
 {
   "description": "App-authored visual description, exact reviewed script; provider response is not a transcript attestation.",
-  "scriptsSha256": "5e1186f720b87de0284ba1390ab744feeb518b1e2622c89408b2e39c998e0834",
+  "scriptsSha256": "150501ac9d3ee31ad091cf77c1eda7047346c185939d5efad4d4eed40b4f27c9",
   "entries": [
     {
       "id": "term-a112",
@@ -61,12 +61,12 @@
       "id": "term-c197",
       "resourceId": "c197",
       "path": "/audio/visual-resources/c197.mp3",
-      "sourceSha256": "3d6eeea97d12f773c85821c2524dc290be142a4e6f9a3d59ed1db8669e7e4798",
+      "sourceSha256": "6bce21fb4814f6fc272635fb124ce5211761e26a5d6cd6c76d2e93c1578d877b",
       "assetSha256": "e634e8d7f17c55b5f8be3fdc1f91fee7708f30774f4e1ad3223efff8ef9f2f5d",
-      "bytes": 227787,
-      "sha256": "373e32507219586a1a2b64ea0b190a7ab58d9bc52b83dd3ce0abff5272c48adc",
+      "bytes": 383268,
+      "sha256": "ee698be82482d61c22661277b0cfacd2f7588547a9afc59be9f1b71cfc1198b6",
       "mime": "audio/mpeg",
-      "duration": 14.236688
+      "duration": 23.95425
     },
     {
       "id": "term-c201",

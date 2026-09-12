@@ -2,14 +2,14 @@
   "classification": "Private build receipt; never deployed",
   "files": [
     {
-      "path": "assets/index-KxfWpl5p.js",
-      "bytes": 447032,
-      "sha256": "8319212ec4cd08da2f64c9f0090df1bb21f9118b5cd90ac71df441986e47277d"
+      "path": "assets/index-BIAgmj_a.css",
+      "bytes": 25696,
+      "sha256": "c6a7b3a43ef54f67421877dc157d88b0fd5f36334910d1ddf6088fc7e1f7b840"
     },
     {
-      "path": "assets/index-jS74ZpfN.css",
-      "bytes": 23841,
-      "sha256": "434f381a519a92ca677212e0036782ed0c6a9b7163c6954fc60277194be2cb73"
+      "path": "assets/index-BY2MLAN8.js",
+      "bytes": 454311,
+      "sha256": "c145c40de1858a37e1d7c20a8693433af0bf1f5ab13fe294011f64bd7c25bd89"
     },
     {
       "path": "assets/mark-1-1-13/a111.jpg",
@@ -918,8 +918,8 @@
     },
     {
       "path": "audio/visual-resources/c197.mp3",
-      "bytes": 227787,
-      "sha256": "373e32507219586a1a2b64ea0b190a7ab58d9bc52b83dd3ce0abff5272c48adc"
+      "bytes": 383268,
+      "sha256": "ee698be82482d61c22661277b0cfacd2f7588547a9afc59be9f1b71cfc1198b6"
     },
     {
       "path": "audio/visual-resources/c201.mp3",
@@ -933,8 +933,8 @@
     },
     {
       "path": "audio/visual-resources/manifest.json",
-      "bytes": 3892,
-      "sha256": "53173732898cafa44ed084147d8f87ff5c832cf64ccd90dd210e2445e0e4cb60"
+      "bytes": 3891,
+      "sha256": "b85e7d561cc0f763a3cd1e61d9d20ff6e836e4b07198efbb35419b866757708c"
     },
     {
       "path": "content/mark-1-1-13/cues.json",
@@ -968,18 +968,18 @@
     },
     {
       "path": "content/visual-narration.json",
-      "bytes": 5475,
-      "sha256": "5e1186f720b87de0284ba1390ab744feeb518b1e2622c89408b2e39c998e0834"
+      "bytes": 5664,
+      "sha256": "150501ac9d3ee31ad091cf77c1eda7047346c185939d5efad4d4eed40b4f27c9"
     },
     {
       "path": "index.html",
       "bytes": 362,
-      "sha256": "142b69a9ff9c527b63d69f6e55238d8b16493c3fede8d76ed28eec65a8ad4d27"
+      "sha256": "904de10e3acf429e053d18e8f25d3b61327ab68804f5dad61ce24a7105d6a353"
     },
     {
       "path": "offline-shell.json",
       "bytes": 43032,
-      "sha256": "269af65e0fac7dc4a0d40a17190666716d30c81435188beb4e0b9f43499272e6"
+      "sha256": "101afff89c0364cd71088efd7ae02eb412918e0842d503a28c9e64ffca1e35cb"
     },
     {
       "path": "sw.js",
@@ -988,6 +988,6 @@
     }
   ],
   "packFiles": 195,
-  "packBytes": 93408719,
-  "distBytes": 93457498
+  "packBytes": 93573522,
+  "distBytes": 93622301
 }
