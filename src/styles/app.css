@@ -41,3 +41,6 @@ html[data-theme="dark"]{color-scheme:dark}
 .playback-dock .compact-transport{max-width:calc(var(--actual-nav-width,240px) - 12px)}.playback-dock .owner-toggle{max-width:calc(var(--actual-nav-width,240px) - 64px)}.playback-dock .compact-transport>button:last-child:not(:first-child){flex-shrink:0}
 
 .playback-dock .owner-toggle{max-width:calc(var(--actual-nav-width,240px) - 116px);flex:1 1 auto;padding:8px!important}.playback-dock .compact-transport>button:first-child,.playback-dock .compact-transport>button:last-child{flex:none}.playback-dock .compact-transport{gap:4px}.owner-toggle span{min-width:0}
+
+/* Native search placeholder is a semantic text label in both themes. */
+input::placeholder{color:var(--text-muted);opacity:1}
