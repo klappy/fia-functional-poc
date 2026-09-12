@@ -14,7 +14,7 @@ test('real guide, Scripture selection and exact position survive view changes an
 test('contextual real map opens, renders and returns focus without moving the guide',async({page})=>{
  await page.getByLabel('Guide step').selectOption('S02');
  for(let i=0;i<4;i++)await page.getByRole('button',{name:'Next guide activity',exact:false}).click();
- const opener=page.getByRole('button',{name:'Locations in the Book of Mark'});await opener.click();
+ const opener=page.getByRole('button',{name:'Locations in the Book of Mark',exact:true});await opener.click();
  await expect(page.getByRole('dialog')).toBeVisible();const image=page.getByRole('dialog').getByRole('img',{name:'Locations in the Book of Mark',exact:true});await expect(image).toBeVisible();
  await expect.poll(()=>image.evaluate(img=>img.naturalWidth)).toBe(3000);
  await page.keyboard.press('Escape');await expect(page.getByRole('dialog')).toHaveCount(0);await expect(opener).toBeFocused();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S02-U005');
@@ -58,8 +58,8 @@ test('resources show all eight real previews, source metadata, search and honest
  const videos=[];page.on('request',req=>{if(/\.(mp4|webm)(\?|$)/i.test(req.url()))videos.push(req.url());});
  await page.getByRole('tab',{name:'Resources',exact:true}).click();const previews=page.locator('.preview-integrity-probe');await expect(previews).toHaveCount(8);
  for(const image of await previews.all()){await expect.poll(()=>image.evaluate(i=>i.complete&&i.naturalWidth>0)).toBe(true);await expect(image).toHaveAttribute('src',/^\/assets\/mark-1-1-13\//);}
- await expect(page.locator('.resource-map .resource-card > div').first()).toHaveCSS('background-size',/^cover/);await expect(page.locator('.resource-image .resource-card > div').first()).toHaveCSS('background-size',/^cover/);
- await expect(page.locator('.resource-card')).toHaveCount(32);await expect(page.locator('.resource-map .resource-card').first()).toContainText('CC');
+ await expect(page.locator('.resource-map .resource-media-open').first()).toHaveCSS('background-size',/^cover/);await expect(page.locator('.resource-image .resource-media-open').first()).toHaveCSS('background-size',/^cover/);
+ await expect(page.locator('.resource-card')).toHaveCount(32);await expect(page.locator('.resource-media-open')).toHaveCount(8);for(const media of await page.locator('.resource-media-open').all())await expect(media).toHaveCSS('height','90px');await page.getByRole('button',{name:'Open Locations in the Book of Mark map',exact:true}).click();await page.getByRole('dialog').getByText('Source and attribution',{exact:true}).click();await expect(page.getByRole('dialog')).toContainText('CC BY-SA 4.0');await page.keyboard.press('Escape');
  await expect(page.locator('.video-affordance')).toHaveCount(3);await expect(page.locator('.resource-video img')).toHaveCount(0);expect(videos).toEqual([]);
  await page.getByLabel('Search resources').fill('sandals');await expect(page.locator('.resource-card')).toHaveCount(3);await page.getByLabel('Search resources').fill('no-such-resource');await expect(page.getByText('No resources match this search.',{exact:true})).toBeVisible();await page.getByLabel('Search resources').fill('');
  await page.setViewportSize({width:320,height:844});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
