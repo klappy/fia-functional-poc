@@ -1,0 +1,1 @@
+import {defineConfig} from '@playwright/test';export default defineConfig({testDir:'./evidence/pwa/specs',workers:1,use:{baseURL:'http://127.0.0.1:4285',viewport:{width:390,height:844},headless:true,reducedMotion:'reduce'},webServer:{command:'FIA_TEST_PORT=4285 node scripts/test-offline-server.mjs',url:'http://127.0.0.1:4285',reuseExistingServer:false},reporter:[['list']]});

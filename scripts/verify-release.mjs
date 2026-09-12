@@ -5,13 +5,13 @@ const shell=JSON.parse(fs.readFileSync('dist/offline-shell.json'));
 const pinned=JSON.parse(fs.readFileSync('evidence/release/APPROVED-PUBLIC-PATHS.json'));
 const generated=fs.readdirSync('dist/assets').filter(p=>/^index-[A-Za-z0-9_-]+\.(js|css)$/.test(p)).map(p=>'assets/'+p);
 const allowed=new Set([...pinned,...generated,'index.html','offline-shell.json']);
-if(shell.entries.length!==195||allowed.size!==197||generated.length!==2)throw Error('Release inventory count changed');
+if(shell.entries.length!==200||allowed.size!==202||generated.length!==2)throw Error('Release inventory count changed');
 const walk=(dir,prefix='')=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(`${dir}/${e.name}`,`${prefix}${e.name}/`):[`${prefix}${e.name}`]);
 const files=walk('dist');
 if(files.length!==allowed.size||files.some(p=>!allowed.has(p)))throw Error('Unapproved release file');
 const originals=['mark-1-1-13','terms'].map(g=>JSON.parse(fs.readFileSync(`evidence/release/private-originals/${g}-manifest.json`)));
 const forbidden=[...originals.map(m=>m.voiceId).filter(Boolean),'zfqwbkgtsqkcnrguevha','podcast-tts-chunk','BEGIN PRIVATE KEY','EXACT-NARRATION-PACKET','raw-pages.json'];
-for(const p of files){const body=fs.readFileSync(`dist/${p}`);if(/\.(json|js|css|html)$/.test(p)&&forbidden.some(s=>body.includes(s)))throw Error(`Private release content: ${p}`);}
+for(const p of files){const body=fs.readFileSync(`dist/${p}`);if(/\.(json|webmanifest|js|css|html)$/.test(p)&&forbidden.some(s=>body.includes(s)))throw Error(`Private release content: ${p}`);}
 for(const e of shell.entries){const b=fs.readFileSync(`dist${e.path}`);if(b.length!==e.bytes||hash(b)!==e.sha256)throw Error(`Release hash mismatch: ${e.path}`);}
 const packet=JSON.parse(fs.readFileSync('evidence/release/EXACT-NARRATION-PACKET.json'));
 if(packet.records.length!==172||files.filter(p=>p.endsWith('.mp3')).length!==172)throw Error('Narration inventory changed');

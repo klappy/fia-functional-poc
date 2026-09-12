@@ -1,0 +1,8 @@
+{
+  "simulatedPromptDOM": "PASS; beforeinstallprompt fixture only, not physical OS install",
+  "promptCalls": 1,
+  "dismissedNotInstalled": true,
+  "manualSafariGuidance": "visible",
+  "zoom": "CSS zoom200% screenshot; not physical mobile browser zoom",
+  "emptyProfileOffline": "navigation failed; no false saved content"
+}
