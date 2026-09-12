@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "fia-functional-poc",
+  "compatibility_date": "2026-09-11",
+  "workers_dev": false,
+  "preview_urls": false,
+  "assets": {"directory": "./dist", "not_found_handling": "none"},
+  "routes": [{"pattern": "fia.klappy.dev", "custom_domain": true}]
+}

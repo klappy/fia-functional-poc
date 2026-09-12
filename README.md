@@ -1,64 +1,25 @@
 # FIA functional PoC
 
-A runnable English Mark 1:1–13 experience: six source-guided steps, intentional discussion stops, three Scripture versions, contextual resources, prepared synthetic narration and verified offline saving. **Delivery is partial:** real playback and offline operation pass; human-heard narration quality has not been verified. This is one passage, not the complete FIA product.
+**Status: partial completion — complete human-heard narration and field validation remain unverified.**
 
-## Run
+A runnable English Mark 1:1–13 guided passage experience using the current Generative Glass components, FIA identity and attributed Aquifer resources. This is a preliminary six-step PoC, not the complete FIA product or a translation recording/checking system.
 
-Requires Node >=22.12 (tested 22.16.0), npm and private repository access. Normal setup uses committed content/audio and makes no paid generation calls or runtime API-key requests.
+Run with Node 22.16.0: `npm ci`, `npm run build`, then `npm run preview -- --host 127.0.0.1`. Run `npm test`, `npm run verify:content`, `npm run verify:audio` and `npm run test:e2e` for the applicable checks.
 
-```sh
-git clone https://github.com/klappy/fia-functional-poc.git
-cd fia-functional-poc
-npm ci
-npm test
-npm run verify:content
-npm run verify:audio
-npm run build
-npm run preview -- --host 127.0.0.1 --port 4173
-```
+## Working experience
 
-Open http://127.0.0.1:4173. Keep that terminal running. If the port is occupied, choose another port explicitly; saved browser data belongs to that origin. This is a local preview, not a hosted or monitored service. No account sign-in is needed inside the app.
+Guide, Scripture and Resources use the shared floating navigation and contextual Previous / Play-Pause-Resume / Next transport. Guide has 111 visible activity groups preserving all 130 source units, hidden examples and 39 source stop coordinates. Scripture offers BSB, ULT and UST. Resources include 21 terms, four maps, four images and three external videos. Image/map previews remain visible alongside narration; complete detail and attribution are available separately.
 
-For browser verification: `npx playwright install chromium`, then `npm run test:e2e`. The default suite expects ports 4173/4185; stop other test servers or use an isolated test configuration. [Independent delivery evidence](evidence/DELIVERY.md) records the clean checkout, actual versions, launch and full test results.
+The app contains 172 captured synthetic narration clips, including retained superseded originals. Playback runs at 0.95 with pitch preservation. Automatic guide transitions wait 750 ms; discussion stops wait for explicit navigation. Exploring resources preserves the current audio owner. Light/dark themes use the full shared design-system CSS. Guide position and Scripture selection persist locally; theme, broader workspace state and audio offset persistence are planned separately and are not implemented here.
 
-## Use
+Save offline verifies the complete 195-file required pack before replacing a prior valid pack. Offline playback uses verified full audio bodies and Blob URLs; Range requests receive the full body (200), not partial-range 206 service. External video and optional web fonts are excluded; local font fallback remains available. Exact current pack and deployment bytes are recorded in `evidence/release/DEPLOYABLE-INVENTORY.json` after each build.
 
-Use Play beside the current guide, selected Scripture or available term. Guide narration stops at the next source discussion/activity boundary. Use Continue when ready; resource exploration, tab changes and opening/closing maps keep the current narration playing. An intentional new Play, version, step or section selection replaces or stops it. Possible drama responses appear only after Show source example. Pause/Resume works within a recording; reloading restores the guide unit and version, not an audio timestamp. Finish records an explicit choice after visiting all six steps, not understanding or learning.
+## Release boundary
 
-Open Offline passage and choose Save for offline before disconnecting. Saved means every required file passed transfer and cached readback checks. The full pack is about92.0 MB, including164 prepared MP3s (original145 plus19 reviewed next-action recordings) and eight original images. Online video links and optional network fonts are excluded. Reloading online can show Update available; the previous saved pack stays until a complete replacement succeeds. Browser storage eviction remains possible. Check saved files revalidates; Remove saved passage removes its cache, retaining the shell and local position.
+The release configuration targets Cloudflare Workers Builds for `fia.klappy.dev`, serving only `dist`. Reviewed main pushes are the deployment mechanism; local deployment commands and manual build triggers are not part of this workflow. Wrangler is pinned to 4.131.0. The build fails on unapproved files, changed approved audio bytes, private voice identifiers or the private provider route. Private narration/source-review evidence is retained in this private repository and must never be deployed. Configuration and local build success are not proof of publication.
 
-## Boundaries and support
+## Verified limits
 
-- Working: source-backed guide/Scripture/resources,111 visible activities representing115 activity-source units plus2 preserved source-metadata units and39 raw stop records (38 stop-bearing groups),32 resource associations, source/output-verified audio playback and185-file offline pack. See the detailed matrix in [DELIVERY](evidence/DELIVERY.md).
-- Unverified: human-perceived online/offline voice quality, exhaustive pronunciation, physical phones, screen readers and full browser/OS restart. Desktop320/390px and keyboard/large-text tests are narrower evidence.
-- Unsupported here: microphone commands or recording, translation production/checking/upload, shared sessions, AI answers, original human guide recordings and video playback/download.
+Browser tests verify playback events, timing, source binding, navigation, failure/retry, themes and cold offline behavior. They do not establish that every narration was heard or its quality accepted. Human audition was limited; complete spoken-content/quality review, physical-phone testing and field validation remain untested. The provider voice's human identity is not independently established. No runtime generation, speech recognition, microphone capture, translation recording, checking, synchronized multi-user state or offline video is implemented.
 
-Prepared ElevenLabs audio is explicitly synthetic. Browser voices are an optional fallback. No credentials or synthesis service are needed at runtime; do not run the maintenance generation script during setup. Future synthesis is a separately bounded operation, with changed-input/uncertain-attempt holds. Quota and provider-internal billing are unknown.
-
-Read [NOTICE](NOTICE.md), [UPSTREAM](UPSTREAM.md) and the [selected source pack](https://github.com/klappy/fia-app-cookbook/blob/2d90436c80b0c5aa2f18bc7594347b1d6244e704/poc/SOURCE-PACK.md). Source-specific attribution and adaptations remain intact. Conflicting map-holder metadata is preserved, not resolved into blanket legal clearance. Source fidelity is not theological or geographic certification. Generated voice media stays in this private app; it is not published with cookbook findings.
-
-The complete pinned Generative Glass CSS and actual shared components supply the visual system, including aurora, glass surfaces and resource cards. App wrappers supply source, accessibility and event behavior. Optional network Noto fonts and unavailable SF font binaries fall back locally; expected missing-SF build warnings do not mean those fonts shipped. The original image assets remain; no experimental image compression was adopted.
-
-For a failure, retain the visible error, app commit, browser/version and exact reproduction steps in the private repository issue. Source errors fail explicitly; no substitute content is generated. Product findings belong in the [FIA cookbook](https://github.com/klappy/fia-app-cookbook); claims, gates and final verdict remain in the authorized kitchen records. Never attach private conversations or credentials.
-
-Current contextual-playback checkpoint: floating Guide/Scripture/Resources tabs, per-card playback with measured per-clip time, and a focused current-step section index. A subsequent holistic composition checkpoint compacts the header/context, places term controls inside their cards and keeps guide actions stable while source text scrolls. Independent visual acceptance remains pending.
-
-The active source/Pause action and thin real progress now stay in a matching floating glass dock beside navigation (stacked at narrow widths); card-corner Play starts that source. Dialogs expose the same owner while the page is inert. Current pack:164 recordings,185 files,91,958,017bytes. Existing voice remains the default after a limited user comparison; full-passage and offline heard-quality verification remain pending.
-
-Compact transport revision: the dark source-labeled action toggles playback; a thin actual progress track replaces visible time numerals, with accessible timing semantics. Restart is a direct44px icon action. Failed recording errors remain visible at their source.
-
-Four literal pause-only cues attach to their preceding activities. Legacy cue positions restore to that activity with cue state; Continue moves to the next activity. Current group counts are8/12/25/16/43/7. All original source and145 prior recordings remain; four reviewed spoken transitions are active.
-
-Four explicit activity overrides now play the original paragraph followed by its reviewed natural pause transition, then stop on that activity. Original141 clips remain archived in the pack. The Info icon opens the complete source and attribution. Nineteen reviewed inline-pause adaptations are also active.
-
-Ready-player revision: the dock remains visible for the currentGuide/Scripture/selectedterm, or disabled Chooseaudio when no resource audio is selected. Active playback survives exploration; paused context changes select a new ready source. MP3 playback uses0.95rate with pitch preservation on start/resume/restart, verified from a prior actual1.0baseline; no media regenerated. Current165-file pack89,776,196bytes.
-
-Nineteen source-backed action recordings now use reviewed natural pause wording while keeping the actual task/resources visible. Two MediaRequests snippets remain unlinked source metadata under Info instead of narrated activities. Legacy metadata positions restore with a quiet sourceInfo hint; no map association is inferred. Current185-file pack91,958,017bytes.
-
-Automatic guide clips now wait750ms between recordings; manualPlay is immediate and discussion pauses remain indefinite. Pause holds a queued nextclip; Resume starts it once; Restart replays the visible completedclip. Dock intrinsic width is capped to actual navigation width. Current185-file pack91,959,155bytes;164 audio files unchanged.
-
-Primary transport candidate: exactly Previous / source Play-Pause-Resume-or-Open / Next; matching card corner Restart. Guide111 activities, Scripture3 versions, resources captured visible filtered order, no adjacency autoplay. Modal focus and source-specific actions retained. Current185-file pack91,962,446bytes;164 audio assets unchanged. This supersedes earlier current-pack/transport wording; historical results remain historical. Final independent lifecycle review pending.
-
-Primary lifecycle correction: natural recording completion reconciles a hidden idle resource to Choose resource; deliberate captured-list Next remains selected without autoplay. Three targeted browser cases pass. Current185-file pack91,962,453bytes;164 audio assets unchanged.
-
-Eight reviewed visual descriptions now play directly from map/image cards or the central transport, with optional full-image Open.172stored MP3 files; original164 unchanged. Current195-file pack93,408,221bytes. All8 cold-offline media play/pause/resume/restart/end and missing-audio/Open tests pass; Range requests receive a full verified200body, not partial206. Both-theme header centers and inline glyph color pass319/390/627/726. Expanded independent theme/contrast audit remains pending.
+See `NOTICE.md` for per-source rights and adaptation notices, `UPSTREAM.md` for exact design-system reuse, `evidence/DELIVERY.md` for historical delivery records, and `evidence/release/REVIEW-INDEX.json` for selected independent receipts and their original dispositions. Historical screenshots are evidence of the stated capture, not blanket proof of every pixel or state. Authoritative scope and subsequent dishes remain in the FIA cookbook and kitchen linked by `AGENTS.md`.

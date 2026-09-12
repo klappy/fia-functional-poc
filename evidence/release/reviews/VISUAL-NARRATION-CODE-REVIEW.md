@@ -1,0 +1,13 @@
+# Visual narration code review
+
+Exact candidate d8fa79ed6142fa7545abeba13b03e7856f56e54f, product through 91466d2. Isolated worktree /tmp/fia-visual-code-review. No provider calls. Reviewer authored staged media earlier; this review is independently of the implementation author, not an independent quality review of the reviewer's own media. The implementation author's source/output/full-decode receipt supplies that separate check.
+
+Functional code/runtime gate PASS with separate visual RETURN pending: actual ResourceCard action branch drops canonical uppercase/letter-spacing and repeats type below the image. Root requested correction; this report does not accept final visual fidelity or repaired theme.
+
+Fresh independent build passed: 195 files, 93,408,221 bytes. Fresh two browser tests passed in 20.8 seconds on isolated port 4695. Test-only modifications are port/config changes, no product edits. All eight real clips verified and played after cold offline reload; real duration, rate 0.95, pause/resume/restart and ended observed. Direct tile playback did not force a dialog. Optional Open retained images and attribution, explicit Close focus, Escape. Each image card had a 90px cover media preview. All eight actual previews visually inspected in the generated 319/726 full-page screenshots (tool resized displayed images). A separate service-worker-blocked real 404 exposed Playback could not start while the original image remained openable. These are real MP3/runtime checks, not speech fixtures or heard-quality acceptance.
+
+Code audit: exact eight script identities and script hash are pinned by the offline build; asset bytes, narration text hashes, MP3 bytes/hash and fixed paths checked. Runtime includes these entries in the existing verified single AudioController; media availability changes Play versus Open and preserves resource collection semantics. SourceDetails distinguishes app-authored visual description from original FIA narration and retains identity/site uncertainty. Git diff contains only eight new audio files plus their manifest and scripts: original 164 clips and canonical content unchanged. No runtime provider key or generation path added.
+
+Offline Range fetch returned HTTP 200 with the complete verified 160,914-byte a111 body; Blob playback works. No invented 206 claim. Evidence: /tmp/fia-visual-code-build.log; /tmp/fia-visual-code-runtime.log; /tmp/fia-visual-code-review/evidence/visual-narration/offline-{319,726}.png. The test title mentions filtered owner, but this particular test does not mutate the filter while playing; that continuity is not freshly proved here.
+
+Charge: 4 active minutes of allocated 5; remaining 1 reserved for exact final visual-delta readback. Theme review time is separate.

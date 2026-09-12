@@ -1,0 +1,2 @@
+Unapproved dist file rejected: true
+Installed Wrangler schema property membership verified; project static-only invariants enforced by release audit. Not a full JSON Schema validator. No deploy command run.

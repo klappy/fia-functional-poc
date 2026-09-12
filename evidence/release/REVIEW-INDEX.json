@@ -1,0 +1,45 @@
+{
+  "scope": "Selected independent receipts. Historical 168-state theme contact sheets are not 168 individual legibility certifications. Later affected checks address recorded returns.",
+  "records": [
+    {
+      "file": "reviews/B3-FINAL-INDEPENDENT-REVIEW.md",
+      "sha256": "ee3c3614dbcb1c67caee93c1ebd6449ce7cbcf1192281e3b8ebcaacc6b042b06",
+      "disposition": "Original receipt and source head preserved verbatim; historical returns remain returns."
+    },
+    {
+      "file": "reviews/THEME-FULL-AUDIT-RETURN.md",
+      "sha256": "670c2e2d41be93f2fa621db58a0807f1228d81df524c0d9265b83e451adb84e9",
+      "disposition": "Original receipt and source head preserved verbatim; historical returns remain returns."
+    },
+    {
+      "file": "reviews/THEME-FINAL-AFFECTED-REVIEW.md",
+      "sha256": "5e8e6dce669cb56467b1d37ee5b37531424ee62f1f6f926b885906618c4ce465",
+      "disposition": "Original receipt and source head preserved verbatim; historical returns remain returns."
+    },
+    {
+      "file": "reviews/ERROR-DOCK-FINAL-REVIEW.md",
+      "sha256": "fdc08eb998af019a3b2f449fc22c0f9b0e39fe15acd1bf92003502f014a21f19",
+      "disposition": "Original receipt and source head preserved verbatim; historical returns remain returns."
+    },
+    {
+      "file": "reviews/VISUAL-NARRATION-CODE-REVIEW.md",
+      "sha256": "a1457a459c33ecbf47709911cc325ab017eccaeb8346eb06476cbfe0828bc18d",
+      "disposition": "Original receipt and source head preserved verbatim; historical returns remain returns."
+    },
+    {
+      "file": "reviews/PAUSED-MERGE-REVIEW.md",
+      "sha256": "8900cc4b24ab91fea26912b3eae89b3bb205eb7c20285a40dbfb62ddbe8bda9d",
+      "disposition": "Original receipt and source head preserved verbatim; historical returns remain returns."
+    },
+    {
+      "file": "reviews/CI-ASSERTION-REVIEW.md",
+      "sha256": "ca39dac1bc5213cce2c7280d63e618a49f2476b6131fa1d098fde5a38f46e27e",
+      "disposition": "Original receipt and source head preserved verbatim; historical returns remain returns."
+    },
+    {
+      "file": "reviews/PRIMARY-CORRECTION-REVIEW.md",
+      "sha256": "f2176214bcc21ca82faea5b6b66f6ca5bf9727cb5251f3eff221ef9d10818cfc",
+      "disposition": "Original receipt and source head preserved verbatim; historical returns remain returns."
+    }
+  ]
+}
