@@ -30,3 +30,9 @@ for(const e of visual.entries){const input=visualScripts.find(s=>`term-${s.id}`=
 for(const[path,bytes]of[[visualPath,visualBody],['content/visual-narration.json',visualText]])entries.push({path:`/${path}`,bytes:bytes.length,sha256:hash(bytes),mime:'application/json',group:'pack'});
 entries.push(...visual.entries.map(({path,bytes,sha256,mime})=>({path,bytes,sha256,mime,group:'pack'})));
 const revision=crypto.createHash('sha256').update(JSON.stringify(entries)).digest('hex');fs.writeFileSync('dist/offline-shell.json',JSON.stringify({schemaVersion:1,id:manifest.id,revision,entries},null,2));console.log(`Offline manifest: ${entries.length} required local files, ${entries.reduce((n,e)=>n+e.bytes,0)} bytes; remote fonts optional, video excluded.`);
+
+// Spanish text/media uses a separate verified cache; English required membership stays unchanged.
+const spanishBase='content/spa/mark-1-1-13/',spanishManifest=fs.readFileSync('dist/'+spanishBase+'manifest.json'),spanish=JSON.parse(spanishManifest);
+const spanishEntries=[...entries.filter(e=>e.group==='shell'),{path:'/'+spanishBase+'manifest.json',bytes:spanishManifest.length,sha256:hash(spanishManifest),mime:'application/json',group:'pack'},...spanish.files.map(e=>({path:'/'+spanishBase+e.path,bytes:e.bytes,sha256:e.sha256,mime:e.path.endsWith('.png')?'image/png':e.path.endsWith('.jpg')?'image/jpeg':'application/json',group:'pack'}))];
+for(const e of spanishEntries){const b=fs.readFileSync('dist'+e.path);if(b.length!==e.bytes||hash(b)!==e.sha256)throw Error('Spanish release bytes mismatch');}
+fs.writeFileSync('dist/offline-spa.json',JSON.stringify({schemaVersion:1,id:spanish.packId,revision:hash(JSON.stringify(spanishEntries)),entries:spanishEntries},null,2));

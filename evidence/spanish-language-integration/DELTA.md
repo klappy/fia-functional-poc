@@ -1,0 +1,9 @@
+# S3 affected driver-seat delta before implementation
+
+Start from accepted S2 source projection8126d115 on released Resources06ddcbb; shared controls/PWA reconciliation remains explicit before final integration. Future facilitator opens Languages while English plays, selects Español, reads the original Spanish group, checks a separately labeled supplement and returns to paused English context. Selection must invalidate every old pending media operation before network work, never map numeric English positions to Spanish, and never advertise Spanish narration or a complete audio-first pack. Failed target verification retains current paused language with actionable feedback.
+
+Use full actual pinned LanguagePicker, extending only truthful per-row status text, optional AI legend, and narrow responsive row wrapping. Its filter/suggestions/search/autonym/coverage behaviors stay. Four actual GlassTabBar destinations order Languages, Guide, Scripture, Resources. Gateway locale remains English; Spanish content carries lang=es.
+
+Reuse service-worker verifier and atomic stage/commit patterns with a separate Spanish cache and metadata key; never evict English cache for Spanish. Selected text assets are explicitly text/media offline availability, not audio completeness. State namespace binds pack manifest/hash and source group identity. Reject unknown versions/IDs visibly; no stale restore/autoplay.
+
+Challenge: ordinary selected-language persistence cannot prove installed state; hash-read cache availability owns it. A text-only read surface must disclose missing audio rather than weaken final acceptance. Generic source HTML rendering must keep optional enactment and editorial metadata outside the core queue and show per-item derived labels. Reject forced whole-app Spanish localization and a two-option picker imitation. Actual finite switching/offline/keyboard tests remain mandatory; no gate claimed by this design note.

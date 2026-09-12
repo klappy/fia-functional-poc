@@ -116,6 +116,12 @@
     {
       "path": "components/resources/CatalogRow.jsx",
       "sha256": "f8c89a49d3d55064c5a39f6cdb07c022c6bbd702d5844d7f8a1e368254bc3a65"
+    },
+    {
+      "path": "components/language/LanguagePicker.jsx",
+      "sha256": "1c8249bd7c9338978316f2c249a6f4fb363447ecc9b2bbb1ff4c913517a6f807",
+      "upstreamSha256": "000c036724dc6c941f102cfc722afc2a51cf8b1bd2c4f93bd8890768cde35c07",
+      "adaptation": "Actual complete LanguagePicker; optional truthful statusNote/AI legend control, accessible search label, responsive row wrapping. Search/autonyms/suggestions/coverage retained."
     }
   ]
 }

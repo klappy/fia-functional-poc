@@ -191,5 +191,12 @@
   "content/mark-1-1-13/scripture.json",
   "content/term-narration.json",
   "content/visual-narration.json",
-  "sw.js"
+  "sw.js",
+  "content/spa/mark-1-1-13/pack.json",
+  "content/spa/mark-1-1-13/manifest.json",
+  "content/spa/mark-1-1-13/assets/a111.jpg",
+  "content/spa/mark-1-1-13/assets/a112.jpg",
+  "content/spa/mark-1-1-13/assets/a204.jpg",
+  "content/spa/mark-1-1-13/assets/c197.png",
+  "content/spa/mark-1-1-13/assets/c202.png"
 ]

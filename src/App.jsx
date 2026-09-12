@@ -1,3 +1,6 @@
+import LanguagesPanel from './components/LanguagesPanel.jsx';
+import SpanishSession from './components/SpanishSession.jsx';
+import {loadSpanish,languagePreferenceKey} from './lib/language-pack.js';
 import {restoreWorkspace,saveWorkspace,guideQueue,guideRestoreQueue} from './lib/workspace.js';
 import{transportItems,adjacent,resourceSnapshot}from'./lib/transport.js';
 import GuideIndex from './components/GuideIndex.jsx';
@@ -35,7 +38,7 @@ function GuideSource({ pack, examplesOnly = false }) {
     {pack.guide.steps.filter(step => !examplesOnly || step.id === 'S04').map(step => <section className="complete-source-section" key={step.id}><h3>{step.title}</h3>{step.units.filter(unit => examplesOnly ? hiddenUnit(unit.id, pack.cues) : showExamples || !hiddenUnit(unit.id, pack.cues)).map(unit => <SafeHtml key={unit.id} html={unit.html}/>)}</section>)}
   </>;
 }
-function Session({ pack }) {
+function Session({ pack,onLanguage,languageBusy,languageError }) {
   const [boot] = useState(() => restoreWorkspace(browserStorage(), pack));
   const [session, setSession] = useState(boot.session);
   const [view, setView] = useState(boot.view);const [theme,setTheme]=useState(boot.theme);useEffect(()=>{document.documentElement.dataset.theme=theme;},[theme]);
@@ -97,6 +100,7 @@ function Session({ pack }) {
       
       {storageError && <p role="status" className="return-note">Your position could not be stored on this device. You can continue this session.</p>}
       {session.finished && <GlassSurface className="completion-note" level={4}><h2>Session finished</h2><p>All six steps were visited. This records your choice to finish, not an assessment of understanding.</p><GlassButton onClick={() => { setSession(current => ({ ...current, finished: false })); changeView('guide'); }}>Return to the guide</GlassButton></GlassSurface>}
+      {view === 'languages' && <LanguagesPanel value="eng" onChange={code=>{writeWorkspace();stop();onLanguage(code);}} busy={languageBusy} error={languageError}/>}
       {view === 'guide' && <div role="tabpanel" id="panel-guide" aria-labelledby="tab-guide"><StepFlow onPlayScripture={playScripture} versionLabel={session.version==='BereanStandardBible'?'BSB':session.version==='unfoldingWordLiteral'?'ULT':'UST'} onIndex={()=>setIndexOpen(true)} termAvailable={id=>available(id)} player={player('guide','Play guide',()=>readGuide())} transport={mini} session={session} pack={pack} onMove={direction => {stop();setSession(current => moveUnit(current,direction,pack.guide,pack.cues));}} onStep={step} onResource={(item)=>resource(item,(pack.cues.resourcesAt[session.unitId]??[]).map(id=>pack.resources.find(r=>r.content_id===id)), 'guide')} onTermPlay={playTerm} termPlayer={item=>player(`term-${item.content_id}`,`Play ${resourceLabel(item)}`,()=>playTerm(item,(pack.cues.resourcesAt[session.unitId]??[]).map(id=>pack.resources.find(r=>r.content_id===id)), 'guide'))} onScripture={() => changeView('scripture')} onSource={() => {setSelection({ title:'Complete source guide', children:<GuideSource pack={pack}/> });}} onExamples={() => {setSelection({ title:'Source example — possible responses', children:<GuideSource pack={pack} examplesOnly/> });}} onFinish={() => { if (canFinish(session,pack.guide)) setSession(current=>({...current,finished:true})); }}/></div>}
       {view === 'scripture' && <div role="tabpanel" id="panel-scripture" aria-labelledby="tab-scripture"><ScripturePanel onSource={()=>setSelection({title:`${shortVersion} source and attribution`,children:<SourceDetails item={bible}/>})} transport={mini} bible={bible} onVersion={version} player={<>{player('scripture',`Play Scripture ${session.version==='BereanStandardBible'?'BSB':session.version==='unfoldingWordLiteral'?'ULT':'UST'}`,playScripture)}</>}/></div>}
       {view === 'resources' && <section role="tabpanel" id="panel-resources" aria-labelledby="tab-resources"><GlassSearch aria-label="Search resources" value={query} onChange={e=>{if(['paused','restoring'].includes(audioState.status))stop();setQuery(e.target.value);}} placeholder="Search this passage’s resources"/><FilterChips aria-label="Resource types" className="resource-filters" bleed={false} options={[{value:'all',label:'All'},{value:'map',label:'Maps'},{value:'image',label:'Images'},{value:'term',label:'Key terms'},{value:'video',label:'Video links'}]} value={[filter]} onChange={values=>{if(['paused','restoring'].includes(audioState.status))stop();setFilter(values.at(-1)??'all');}} style={{flexWrap:'wrap',margin:'14px 0 20px',overflow:'visible'}}/><div className="resource-grid">{pack.resources.filter(item=>(filter==='all'||item.kind===filter)&&resourceLabel(item).toLowerCase().includes(query.trim().toLowerCase())).map(item=><ResourceTile key={`${item.resourceCode}/${item.content_id}`} item={item} player={player(`term-${item.content_id}`,`Play ${resourceLabel(item)}`,()=>playTerm(item))} onOpen={resource} onPlay={playTerm} audioAvailable={available(item.content_id)}/>)}{!pack.resources.some(item=>(filter==='all'||item.kind===filter)&&resourceLabel(item).toLowerCase().includes(query.trim().toLowerCase()))&&<p role="status">No resources match this search.</p>}</div></section>}
@@ -106,9 +110,10 @@ function Session({ pack }) {
   </div></AuroraField>;
 }
 export default function App() {
-  const [pack,setPack] = useState(null); const [error,setError] = useState(''); const [attempt,setAttempt] = useState(0);
-  useEffect(()=>{ const controller=new AbortController(); setError(''); setPack(null); loadContent(controller.signal).then(setPack).catch(error=>{if(error.name!=='AbortError')setError(error.message);}); return()=>controller.abort(); },[attempt]);
-  if(error)return <main className="loading-state"><h1>The passage could not be opened</h1><p role="alert">{error}</p><p>No replacement content has been substituted.</p><GlassButton onClick={()=>setAttempt(x=>x+1)}>Try again</GlassButton></main>;
-  if(!pack)return <main className="loading-state"><h1>FIA</h1><p role="status">Opening the verified passage…</p></main>;
-  return <Session pack={pack}/>;
+ const initial=()=>{try{return browserStorage()?.getItem(languagePreferenceKey)==='spa'?'spa':'eng';}catch{return 'eng';}};
+ const[language,setLanguage]=useState(initial),[pack,setPack]=useState(null),[error,setError]=useState(''),[busy,setBusy]=useState(false),[attempt,setAttempt]=useState(0);const pending=useRef(null),generation=useRef(0);
+ const selectLanguage=async code=>{if(!['eng','spa'].includes(code)){setError('This language pack is unavailable.');return;}pending.current?.abort();const controller=new AbortController();pending.current=controller;const token=++generation.current;setBusy(true);setError('');try{const next=await(code==='spa'?loadSpanish(controller.signal):loadContent(controller.signal));if(token!==generation.current||controller.signal.aborted)return;setPack(next);setLanguage(code);try{browserStorage()?.setItem(languagePreferenceKey,code);}catch{setError('Language selection cannot be saved on this device.');}}catch(e){if(e.name!=='AbortError')setError(e.message+' Current language remains selected.');}finally{if(token===generation.current)setBusy(false);}};
+ useEffect(()=>{selectLanguage(language);return()=>{pending.current?.abort();generation.current++;};},[attempt]);
+ if(!pack)return <main className="loading-state"><h1>FIA</h1>{error?<><p role="alert">{error}</p><GlassButton onClick={()=>setAttempt(x=>x+1)}>Try again</GlassButton><GlassButton onClick={()=>selectLanguage('eng')}>Open English</GlassButton></>:<p role="status">Opening the verified passage…</p>}</main>;
+ return language==='spa'?<SpanishSession key="spa" pack={pack} onLanguage={selectLanguage} busy={busy} error={error}/>:<Session key="eng" pack={pack} onLanguage={selectLanguage} languageBusy={busy} languageError={error}/>;
 }
