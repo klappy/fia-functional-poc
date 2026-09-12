@@ -4,7 +4,7 @@ Implemented the accepted PWA plan at `/tmp/fia-pwa-planning` under the existing 
 
 ## Validation
 
-- Production build and privacy/release verification passed: 200 required files, 93,619,239 bytes; 202 allowlisted public files; all 172 narration MP3 hashes unchanged.
+- Production build and privacy/release verification passed: 200 required files, 93,622,064 bytes; 202 allowlisted public files; all 172 narration MP3 hashes unchanged.
 - Unit tests: 44/44 passed. Offline integration/upgrade tests: 4/4 passed.
 - Actual persistent Chromium profile saved the pack, reopened its page, restarted the browser profile offline, retained theme/edition/progress, played offline audio, and did not autoplay. Removing the pack preserved workspace progress and did not claim a saved pack.
 - Install event UI test used an explicitly simulated beforeinstallprompt event; dismissal consumed the prompt once. This is not OS installation evidence. Fresh unsaved offline navigation failed rather than inventing available content.
@@ -24,3 +24,5 @@ A returning offline user needs both their saved passage and their place in it; i
 ## Accounting
 
 Prior interrupted author work is conservatively charged 6 minutes, retained without reset. Resumed at 2026-09-12 12:52:04 UTC. Final charge will be reported with the PR handoff within the existing author20/root7/coord3 allowance. Independent root review is separate; root reports icon review PASS using 1 of 7 review minutes. This cargo is ready for the remaining independent review, not a deployment receipt.
+
+Final integration: rebased onto main df73ba6ddceb5f69753603f37275b28da069bc15, preserving accepted shared UI and Spanish source-only inputs. App overlap merged cleanly; generated inventory was regenerated. Integrated production/release build and actual persistent-profile offline verification passed. Final author charge conservatively 18 of 20 minutes, including the retained 6 before interruption. No budget reset.
