@@ -1,0 +1,40 @@
+TAP version 13
+# Subtest: install offer is consumed once; dismissal does not claim installation
+ok 1 - install offer is consumed once; dismissal does not claim installation
+  ---
+  duration_ms: 0.492416
+  type: 'test'
+  ...
+# Subtest: browser acceptance and launch mode are separate, with no persistent installed flag
+ok 2 - browser acceptance and launch mode are separate, with no persistent installed flag
+  ---
+  duration_ms: 0.253583
+  type: 'test'
+  ...
+# Subtest: missing or failed installation event is recoverable and never installed
+ok 3 - missing or failed installation event is recoverable and never installed
+  ---
+  duration_ms: 0.554625
+  type: 'test'
+  ...
+# Subtest: simulated storage quota failure cannot replace the previous active pointer
+ok 4 - simulated storage quota failure cannot replace the previous active pointer
+  ---
+  duration_ms: 14.773125
+  type: 'test'
+  ...
+# Subtest: failure between shell and active metadata writes restores the previous shell and pack
+ok 5 - failure between shell and active metadata writes restores the previous shell and pack
+  ---
+  duration_ms: 8.821666
+  type: 'test'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 67.088375
