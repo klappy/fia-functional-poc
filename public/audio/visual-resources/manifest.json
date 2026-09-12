@@ -1,0 +1,94 @@
+{
+  "description": "App-authored visual description, exact reviewed script; provider response is not a transcript attestation.",
+  "scriptsSha256": "5e1186f720b87de0284ba1390ab744feeb518b1e2622c89408b2e39c998e0834",
+  "entries": [
+    {
+      "id": "term-a112",
+      "resourceId": "a112",
+      "path": "/audio/visual-resources/a112.mp3",
+      "sourceSha256": "b83157a53dc4f256db3acf483f65a0d399222cfeb5729fec6ab584da7175cabc",
+      "assetSha256": "9c58b5b5100b4324ab54000ac3c26b7ad2371fd964afa319fe0cda7da8e0291c",
+      "bytes": 139598,
+      "sha256": "312a97e8cf6ea89715938b58733c2c7015b994c21b1b807505f47da0eef44898",
+      "mime": "audio/mpeg",
+      "duration": 8.724875
+    },
+    {
+      "id": "term-a111",
+      "resourceId": "a111",
+      "path": "/audio/visual-resources/a111.mp3",
+      "sourceSha256": "3da68fe049337a308527f84f147564ea5678e7340c64a0ace5fd55476e6118e7",
+      "assetSha256": "d314bac395b2aab8cf601f6a590bbf2547b71a54af67eb95dc927f5042883480",
+      "bytes": 160914,
+      "sha256": "5b94177494c7a78d3b32f7b9de198ddae5b1625dca4233647208b024248083db",
+      "mime": "audio/mpeg",
+      "duration": 10.057125
+    },
+    {
+      "id": "term-a203",
+      "resourceId": "a203",
+      "path": "/audio/visual-resources/a203.mp3",
+      "sourceSha256": "daafd5fc175b6fbadd5af0b6ac847010eff577fe5f0eec41ed7bdc08ab640a5d",
+      "assetSha256": "1471c9bec45fa044351c13078a7093be44ec2db8e987a62c1a3151a4b9fcb5c9",
+      "bytes": 128313,
+      "sha256": "48413e518114f629beb61796e25242274de532810fed7dee820bea1e6641972c",
+      "mime": "audio/mpeg",
+      "duration": 8.019563
+    },
+    {
+      "id": "term-a204",
+      "resourceId": "a204",
+      "path": "/audio/visual-resources/a204.mp3",
+      "sourceSha256": "c754ad3f316ac837e612f048fa7e5b5880ba865c61c791e3009053c72f39332a",
+      "assetSha256": "d1e3f8420046e066c981476e80cad3c0024d77694d9045a2ca248cdc0dc811c7",
+      "bytes": 100310,
+      "sha256": "98c802ebf3a8423db1017e23510586945fdd1da30cb80c1d519077af9ad14cf2",
+      "mime": "audio/mpeg",
+      "duration": 6.269375
+    },
+    {
+      "id": "term-c202",
+      "resourceId": "c202",
+      "path": "/audio/visual-resources/c202.mp3",
+      "sourceSha256": "010eb729e05d322d1da4dd545301dbcc5bab967b14b56d49caae012a3ab6ae59",
+      "assetSha256": "edece4856f059c482ff51d57f3b947ed4a6f97d998be548af2e96d6e4543fa0c",
+      "bytes": 190171,
+      "sha256": "5ac769744ea4b28c3266ff7246567375924dbd7cbd80e5d7fd8e4a5f11dd5615",
+      "mime": "audio/mpeg",
+      "duration": 11.885688
+    },
+    {
+      "id": "term-c197",
+      "resourceId": "c197",
+      "path": "/audio/visual-resources/c197.mp3",
+      "sourceSha256": "3d6eeea97d12f773c85821c2524dc290be142a4e6f9a3d59ed1db8669e7e4798",
+      "assetSha256": "e634e8d7f17c55b5f8be3fdc1f91fee7708f30774f4e1ad3223efff8ef9f2f5d",
+      "bytes": 227787,
+      "sha256": "373e32507219586a1a2b64ea0b190a7ab58d9bc52b83dd3ce0abff5272c48adc",
+      "mime": "audio/mpeg",
+      "duration": 14.236688
+    },
+    {
+      "id": "term-c201",
+      "resourceId": "c201",
+      "path": "/audio/visual-resources/c201.mp3",
+      "sourceSha256": "3458eb431d83c626a6c54a695b4ed9db2cdd48079482c98903f081d636025e5d",
+      "assetSha256": "cf0381a5cf019c2ae6ba1c925fa6237689e6df346d519c34b73eb3fbf12b2ea3",
+      "bytes": 204800,
+      "sha256": "2a5d5874af61f880eb7fb5efee568f1f36e8a8beb157aa29bbcb284a5a73a9b6",
+      "mime": "audio/mpeg",
+      "duration": 12.8
+    },
+    {
+      "id": "term-c168",
+      "resourceId": "c168",
+      "path": "/audio/visual-resources/c168.mp3",
+      "sourceSha256": "ee539321d9e454f4d4e247c4c677bdad5a509dbe49846d56c2588ff0af8b8c75",
+      "assetSha256": "012583ca2ccc485fcb236b9e7d9580b35b1380bd0416758f36b023bd619e096e",
+      "bytes": 275435,
+      "sha256": "241248dbe268058c1482917b89ebc636bd33f29d3f0329eee84d39653a1ba25a",
+      "mime": "audio/mpeg",
+      "duration": 17.214688
+    }
+  ]
+}
