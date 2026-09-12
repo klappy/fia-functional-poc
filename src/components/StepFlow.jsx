@@ -18,7 +18,7 @@ export default function StepFlow({ session, pack, onMove, onStep, onResource, on
   return <>
     <div className="secondary-band guide-chooser"><GlassSelect label="Guide step" aria-label="Guide step" value={step.id} onChange={onStep} options={pack.guide.steps.map((s,i)=>({value:s.id,label:`${i+1} of 6 · ${s.title}`}))}/><GlassButton onClick={onIndex}>Section {index+1} of {units.length} · Browse</GlassButton></div>
     <GlassSurface as="section" level={4} className="reading-card guide-card" aria-label="Source guide">
-      <div className="content-heading"><span className="eyebrow">{isStop?'Pause together':'Guide'}{session.metadataPosition&&<small style={{display:'block'}} title="The original unlinked source media request is available in Info.">Source media request restored · Info</small>}</span><div className="card-players"><GlassIconButton size={44} label="Read complete guide and attribution" onClick={onSource}><SourceIcon size={18}/></GlassIconButton>{transport}{player}</div></div>
+      <div className="content-heading"><span className="eyebrow">{isStop?'Pause together':'Guide'}{session.metadataPosition&&<small style={{display:'block'}} title="The original unlinked source media request is available in Info.">Source media request restored · Info</small>}</span><div className="card-players"><GlassIconButton size={44} label="Read complete guide and attribution" onClick={onSource}><SourceIcon size={18}/></GlassIconButton>{player}</div></div>
       <div className="source-scroll" ref={body}>
       <div className="current-unit" data-testid="current-unit" data-unit-id={unit.id}><SafeHtml html={unit.html}/></div>
 
@@ -26,7 +26,7 @@ export default function StepFlow({ session, pack, onMove, onStep, onResource, on
       {attached.length > 0 && <div className="context-resources"><h3>Explore at this point</h3>{attached.map(item => <ResourceTile key={item.content_id} item={item} player={termPlayer(item)} contextual onOpen={onResource} onPlay={onTermPlay} audioAvailable={termAvailable(item.content_id)}/>)}</div>}
       {step.id === 'S04' && <p className="example-note">The source includes possible drama responses. Keep them hidden while the group responds. <button className="text-button" onClick={onExamples}>Show source example</button></p>}
 
-      </div><div className="guide-footer">{isStop&&<p role="status">Discuss together, then continue.</p>}{atEnd&&<GlassButton variant="dark" onClick={onFinish} disabled={!canFinish(session,pack.guide)}>Finish session</GlassButton>}
+      </div><div className="guide-footer card-transport-footer">{transport}{isStop&&<p role="status">Discuss together, then continue.</p>}{atEnd&&<GlassButton variant="dark" onClick={onFinish} disabled={!canFinish(session,pack.guide)}>Finish session</GlassButton>}
       {atEnd && !canFinish(session,pack.guide) && <p>Visit all six steps before finishing this session.</p>}
       </div>
     </GlassSurface>

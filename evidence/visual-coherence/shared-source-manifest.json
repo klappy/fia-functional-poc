@@ -82,9 +82,9 @@
     },
     {
       "path": "components/scripture/ScripturePassage.jsx",
-      "sha256": "21555257320d2ddc83cdb080fbde850149c8d4ea5479421e117d05e01ff088e8",
+      "sha256": "277303bd530d9c61fd0ddeddab007a3907f87f6968847b542aa71d09f49a646f",
       "upstreamSha256": "99794b989dc0a5fb1c812848da4a31a8fa595773189897e3d8cfa7afcb44520d",
-      "adaptation": "Optional headerAction slot only; exact patch recorded in contextual-playback evidence Reviewed current adaptation: scripture-version class hook for scoped dark contrast composition, no other source change.",
+      "adaptation": "Existing header slot plus optional footer slot and scripture-scroll class hook; exact shared typography/material retained.",
       "previousAdaptedSha256": "1fa42d888fea1e43ac078f8dccdc7a95d1a08b46f50c01f2dc93cfc9ceaf5d8b"
     },
     {
