@@ -1,0 +1,85 @@
+[WebServer] (node:70097) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 3 tests using 1 worker
+
+(node:70098) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 tests/spanish-integration.spec.js:3:1 › full picker and English Spanish reload switches never autoplay (5.4s)
+(node:70307) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 tests/spanish-integration.spec.js:4:1 › Spanish saves separate verified text pack and restores offline (1.0m)
+(node:72212) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  3 tests/spanish-integration.spec.js:5:1 › Spanish narrow full picker source view and keyboard example return (1.0s)
+
+
+  1) tests/spanish-integration.spec.js:3:1 › full picker and English Spanish reload switches never autoplay
+
+    Error: expect(locator).toHaveText(expected) failed
+
+    Locator: getByRole('tab')
+    Timeout: 5000ms
+    - Expected  - 3
+    + Received  + 3
+
+      Array [
+    -   "Languages",
+    +   "",
+        "Guide",
+    -   "Scripture",
+    -   "Resources",
+    +   "",
+    +   "",
+      ]
+
+    Call log:
+      - Expect "toHaveText" getByRole('tab') with timeout 5000ms
+      - waiting for getByRole('tab')
+        - locator resolved to 0 elements
+        12 × locator resolved to 4 elements
+
+
+      1 | import{test,expect}from'@playwright/test';
+      2 | const language=async(page,name)=>{await page.getByRole('tab',{name:'Languages',exact:true}).click();await page.getByRole('button',{name:new RegExp(name)}).click();};
+    > 3 | test('full picker and English Spanish reload switches never autoplay',async({page})=>{await page.addInitScript(()=>{window.__plays=0;const play=HTMLMediaElement.prototype.play;HTMLMediaElement.prototype.play=function(){window.__plays++;return play.call(this);};});await page.goto('/');await expect(page.getByRole('tab')).toHaveText(['Languages','Guide','Scripture','Resources']);await page.getByRole('button',{name:'Play guide',exact:true}).click();await expect.poll(()=>page.evaluate(()=>window.__plays)).toBeGreaterThan(0);const plays=await page.evaluate(()=>window.__plays);await language(page,'Español');await expect(page.getByText('Español · text and images · narration unavailable')).toBeVisible();expect(await page.evaluate(()=>window.__plays)).toBe(plays);await page.getByRole('tab',{name:'Resources',exact:true}).click();await expect(page.getByText(/AI translated from English/).first()).toBeVisible();await page.reload();await expect(page.getByText('Español · text and images · narration unavailable')).toBeVisible();expect(await page.evaluate(()=>window.__plays)).toBe(0);await language(page,'English English');await expect(page.getByRole('button',{name:'Play guide',exact:true})).toBeVisible();expect(await page.evaluate(()=>window.__plays)).toBe(0);});
+        |                                                                                                                                                                                                                                                                                                                                  ^
+      4 | test('Spanish saves separate verified text pack and restores offline',async({page,context})=>{test.setTimeout(90000);await page.goto('/');await language(page,'Español');await page.getByRole('button',{name:'Offline passage and settings'}).click();await page.getByRole('button',{name:/^(Save for offline|Verify and save again)$/}).click();await expect(page.locator('.offline-status')).toContainText('Saved on this device',{timeout:60000});await page.keyboard.press('Escape');await context.setOffline(true);await page.reload();await expect(page.getByText('Español · text and images · narration unavailable')).toBeVisible();await page.getByRole('tab',{name:'Resources',exact:true}).click();await expect(page.getByText(/English map labels unchanged/).first()).toBeVisible();});
+      5 | test('Spanish narrow full picker source view and keyboard example return',async({page})=>{await page.goto('/');for(const width of[320,726]){await page.setViewportSize({width,height:987});await page.getByRole('tab',{name:'Languages',exact:true}).click();await page.getByRole('textbox',{name:'Search guide languages'}).fill('Español');await expect(page.getByRole('button',{name:/Español/})).toBeVisible();await page.screenshot({path:`evidence/spanish-language-integration/picker-${width}.png`,fullPage:true});await page.getByRole('textbox',{name:'Search guide languages'}).fill('');}await page.getByRole('button',{name:/Español/}).click();await page.getByRole('button',{name:'Show source example'}).click();await expect(page.getByRole('dialog')).toBeVisible();await page.keyboard.press('Escape');await expect(page.getByRole('button',{name:'Show source example'})).toBeFocused();await page.screenshot({path:'evidence/spanish-language-integration/spanish-guide.png',fullPage:true});});
+      6 |
+        at /private/tmp/fia-spanish-integration-app/tests/spanish-integration.spec.js:3:322
+
+    Error Context: test-results/spanish-integration-full-p-df539-oad-switches-never-autoplay/error-context.md
+
+  2) tests/spanish-integration.spec.js:4:1 › Spanish saves separate verified text pack and restores offline
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('.offline-status')
+    Expected substring: "Saved on this device"
+    Timeout: 60000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toContainText" locator('.offline-status') with timeout 60000ms
+      - waiting for locator('.offline-status')
+        - locator resolved to <p role="status" class="offline-status">Verified 0.0 MB…</p>
+        - unexpected value "Verified 0.0 MB…"
+        2 × locator resolved to <p role="status" class="offline-status">Verified 0.0 of 89.3 MB…</p>
+          - unexpected value "Verified 0.0 of 89.3 MB…"
+
+
+      2 | const language=async(page,name)=>{await page.getByRole('tab',{name:'Languages',exact:true}).click();await page.getByRole('button',{name:new RegExp(name)}).click();};
+      3 | test('full picker and English Spanish reload switches never autoplay',async({page})=>{await page.addInitScript(()=>{window.__plays=0;const play=HTMLMediaElement.prototype.play;HTMLMediaElement.prototype.play=function(){window.__plays++;return play.call(this);};});await page.goto('/');expect(await page.getByRole('tab').evaluateAll(es=>es.map(e=>e.getAttribute('aria-label')))).toEqual(['Languages','Guide','Scripture','Resources']);await page.getByRole('button',{name:'Play guide',exact:true}).click();await expect.poll(()=>page.evaluate(()=>window.__plays)).toBeGreaterThan(0);const plays=await page.evaluate(()=>window.__plays);await language(page,'Español');await expect(page.getByText('Español · text and images · narration unavailable')).toBeVisible();expect(await page.evaluate(()=>window.__plays)).toBe(plays);await page.getByRole('tab',{name:'Resources',exact:true}).click();await expect(page.getByText(/AI translated from English/).first()).toBeVisible();await page.reload();await expect(page.getByText('Español · text and images · narration unavailable')).toBeVisible();expect(await page.evaluate(()=>window.__plays)).toBe(0);await language(page,'English English');await page.getByRole('tab',{name:'Guide',exact:true}).click();await expect(page.getByRole('button',{name:'Play guide',exact:true})).toBeVisible();expect(await page.evaluate(()=>window.__plays)).toBe(0);});
+    > 4 | test('Spanish saves separate verified text pack and restores offline',async({page,context})=>{test.setTimeout(90000);await page.goto('/');await language(page,'Español');await page.getByRole('button',{name:'Offline passage and settings'}).click();await page.getByRole('button',{name:/^(Save for offline|Verify and save again)$/}).click();await expect(page.locator('.offline-status')).toContainText('Saved on this device',{timeout:60000});await page.keyboard.press('Escape');await context.setOffline(true);await page.reload();await expect(page.getByText('Español · text and images · narration unavailable')).toBeVisible();await page.getByRole('tab',{name:'Resources',exact:true}).click();await expect(page.getByText(/English map labels unchanged/).first()).toBeVisible();});
+        |                                                                                                                                                                                                                                                                                                                                                                                                ^
+      5 | test('Spanish narrow full picker source view and keyboard example return',async({page})=>{await page.goto('/');for(const width of[320,726]){await page.setViewportSize({width,height:987});await page.getByRole('tab',{name:'Languages',exact:true}).click();await page.getByRole('textbox',{name:'Search guide languages'}).fill('Español');await expect(page.getByRole('button',{name:/Español/})).toBeVisible();await page.screenshot({path:`evidence/spanish-language-integration/picker-${width}.png`,fullPage:true});await page.getByRole('textbox',{name:'Search guide languages'}).fill('');}await page.getByRole('button',{name:/Español/}).click();await page.getByRole('button',{name:'Show source example'}).click();await expect(page.getByRole('dialog')).toBeVisible();await page.keyboard.press('Escape');await expect(page.getByRole('button',{name:'Show source example'})).toBeFocused();await page.screenshot({path:'evidence/spanish-language-integration/spanish-guide.png',fullPage:true});});
+      6 |
+        at /private/tmp/fia-spanish-integration-app/tests/spanish-integration.spec.js:4:384
+
+    Error Context: test-results/spanish-integration-Spanis-48bfe-t-pack-and-restores-offline/error-context.md
+
+  2 failed
+    tests/spanish-integration.spec.js:3:1 › full picker and English Spanish reload switches never autoplay
+    tests/spanish-integration.spec.js:4:1 › Spanish saves separate verified text pack and restores offline
+  1 passed (1.2m)
