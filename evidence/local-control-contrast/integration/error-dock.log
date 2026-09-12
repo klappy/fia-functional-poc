@@ -1,0 +1,10 @@
+[WebServer] (node:20394) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:20395) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/error-dock.spec.js:3:1 › real404 compact Retry is source-scoped accessible and recovers in both themes (3.1s)
+
+  1 passed (3.9s)
