@@ -7,9 +7,9 @@
       "sha256": "57bf56bd95805904d6eed9b23a03ae16e164b0bd42c6fc924da142cf546fe3b3"
     },
     {
-      "path": "assets/index-CpmEUVPN.js",
-      "bytes": 461119,
-      "sha256": "2d37709d01793833ae7be7bade9f9eb9e196fd9af894e569415d313dd866ecf5"
+      "path": "assets/index-CXCJ-10t.js",
+      "bytes": 461132,
+      "sha256": "f0bab5d5509ac3c9bbaeb59addfe7156cb2378ea9bc597bbe24be9f418dd0ceb"
     },
     {
       "path": "assets/index-DImsaVsm.css",
@@ -999,12 +999,12 @@
     {
       "path": "index.html",
       "bytes": 517,
-      "sha256": "552b25077a0bd4a2aad60d605bb4f63ef69eac0a79804469477dedd9cd6dba86"
+      "sha256": "fdc9ef730dd200c47d4d43827a9cbc76d9da793aaffb7ab1dec4f14a4a436ffe"
     },
     {
       "path": "offline-shell.json",
       "bytes": 44085,
-      "sha256": "df5dead8c9330701358cbd33918bb8299765b69d591239649b8de1ff948baa3e"
+      "sha256": "8f850ee01b34d73c9353424b817006236772298767ef57175eb39d89bdfb2527"
     },
     {
       "path": "sw.js",
@@ -1013,6 +1013,6 @@
     }
   ],
   "packFiles": 200,
-  "packBytes": 93623334,
-  "distBytes": 93673489
+  "packBytes": 93623347,
+  "distBytes": 93673502
 }

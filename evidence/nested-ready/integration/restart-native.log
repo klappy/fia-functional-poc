@@ -1,0 +1,29 @@
+[WebServer] (node:6914) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:6916) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 tests/nested-direct.spec.js:2:1 › direct Guide Scripture and resource controls retain Guide adjacency through pause and end (30.0s)
+
+
+  1) tests/nested-direct.spec.js:2:1 › direct Guide Scripture and resource controls retain Guide adjacency through pause and end 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: /^Restart / })
+
+
+      1 | import{test,expect}from'@playwright/test';
+    > 2 | test('direct Guide Scripture and resource controls retain Guide adjacency through pause and end',async({page})=>{await page.addInitScript(()=>{const A=window.Audio;window.Audio=class extends A{constructor(...a){super(...a);window.__audio=this;}}});await page.goto('/');await page.getByRole('tab',{name:'Scripture',exact:true}).click();await page.getByRole('radio',{name:'ULT',exact:true}).click();await page.getByRole('tab',{name:'Guide',exact:true}).click();await page.getByRole('button',{name:'Next guide activity',exact:true}).click();await page.getByRole('button',{name:'Play Scripture ULT',exact:true}).click();await expect.poll(()=>page.evaluate(()=>window.__audio?.duration||0)).toBeGreaterThan(0);await page.getByRole('button',{name:/^Restart /,exact:false}).click();await expect(page.getByRole('button',{name:'Next guide activity',exact:true})).toBeVisible();await page.locator('.owner-toggle').click();await expect(page.locator('.owner-toggle')).toHaveAttribute('aria-label','Resume Now playing');await page.locator('.owner-toggle').click();await page.evaluate(()=>window.__audio.currentTime=window.__audio.duration-.1);await expect(page.getByRole('button',{name:'Next guide activity',exact:true})).toBeVisible();await expect(page.locator('.owner-toggle')).toHaveAttribute('aria-label','Play Mark 1:1–13 · ULT');await page.getByRole('button',{name:'Next guide activity',exact:true}).click();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S01-U003');await page.getByLabel('Guide step').selectOption('S02');await page.getByRole('button',{name:/Browse/}).click();await page.locator('[data-unit-id="S02-U005"]').click();await page.getByRole('button',{name:'Play Locations in the Book of Mark',exact:true}).click();await expect.poll(()=>page.evaluate(()=>window.__audio?.duration||0)).toBeGreaterThan(0);await page.getByRole('button',{name:/^Restart /,exact:false}).click();await expect(page.getByRole('button',{name:'Next guide activity',exact:true})).toBeVisible();await page.locator('.owner-toggle').click();await expect(page.locator('.owner-toggle')).toHaveAttribute('aria-label','Resume Now playing');await page.locator('.owner-toggle').click();await page.evaluate(()=>window.__audio.currentTime=window.__audio.duration-.1);await expect(page.locator('.owner-toggle')).toHaveAttribute('aria-label','Play Locations in the Book of Mark');await expect(page.getByRole('dialog')).toHaveCount(0);await page.screenshot({path:'evidence/nested-ready/direct-resource-ended.png'});await page.getByRole('button',{name:'Next guide activity',exact:true}).click();await expect(page.getByTestId('current-unit')).not.toHaveAttribute('data-unit-id','S02-U005');});
+        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ^
+      3 |
+        at /private/tmp/fia-nested-ready/tests/nested-direct.spec.js:2:768
+
+    Error Context: test-results/nested-direct-direct-Guide-b4ed0-cency-through-pause-and-end/error-context.md
+
+  1 failed
+    tests/nested-direct.spec.js:2:1 › direct Guide Scripture and resource controls retain Guide adjacency through pause and end 
