@@ -1,0 +1,12 @@
+[WebServer] (node:78813) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 3 tests using 1 worker
+
+(node:78814) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/primary-ended.spec.js:1:78 › after owner ends current hidden idle selection becomes chooser (19.8s)
+  ✓  2 tests/primary-ended.spec.js:3:1 › paused owner resumes and intentional captured-list Next stays selected without autoplay (3.1s)
+  ✓  3 tests/primary.spec.js:2:1 › three controls, no autoplay adjacency, filtered modal focus and source cornerRestart (23.3s)
+
+  3 passed (51.0s)
