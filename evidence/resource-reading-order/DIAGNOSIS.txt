@@ -1,0 +1,37 @@
+[WebServer] (node:22926) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:22927) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+click { x: 5, y: 5 } { tag: 'DIV', cls: 'resource-card' }
+  ✘  1 tests/resource-order.spec.js:2:1 › row order and full card native opening preserve independent audio (9.0s)
+
+
+  1) tests/resource-order.spec.js:2:1 › row order and full card native opening preserve independent audio
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  getByRole('dialog')
+    Expected: 1
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" getByRole('dialog') with timeout 5000ms
+      - waiting for getByRole('dialog')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      1 | import{test,expect}from'@playwright/test';
+    > 2 | test('row order and full card native opening preserve independent audio',async({page})=>{test.setTimeout(90000);await page.addInitScript(()=>{const A=window.Audio;window.Audio=class extends A{constructor(...a){super(...a);window.__audio=this;}}});await page.goto('/');await page.evaluate(()=>document.addEventListener('click',e=>window.__lastClick={tag:e.target.tagName,cls:e.target.className}));await page.getByRole('tab',{name:'Resources',exact:true}).click();const tiles=page.locator('#panel-resources .resource-tile');await expect(tiles).toHaveCount(32);for(const width of[319,466,726]){await page.setViewportSize({width,height:987});for(const theme of['dark','light']){const toggle=page.getByRole('button',{name:`Switch to ${theme} theme`});if(await toggle.count())await toggle.click();const rects=await tiles.evaluateAll(es=>es.map(e=>{const r=e.getBoundingClientRect();return{x:r.x,y:r.y}}));for(let i=1;i<rects.length;i++){expect(rects[i].y>=rects[i-1].y).toBe(true);if(rects[i].y===rects[i-1].y)expect(rects[i].x).toBeGreaterThan(rects[i-1].x);}await page.screenshot({path:`evidence/resource-reading-order/${theme}-${width}.png`,fullPage:true});}}const desert=tiles.filter({has:page.getByRole('button',{name:/^Open Wilderness or Desert image$/})}).first();const card=desert.locator('.resource-card');const open=desert.locator('.resource-surface-open');await expect(open).toHaveCount(1);for(const pos of[{x:5,y:5},{x:20,y:60}]){await card.click({position:pos});console.log('click',pos,await page.evaluate(()=>window.__lastClick));await expect(page.getByRole('dialog')).toHaveCount(1);await page.keyboard.press('Escape');await expect(open).toBeFocused();}await open.focus();await page.keyboard.press('Enter');await expect(page.getByRole('dialog')).toHaveCount(1);await page.keyboard.press('Escape');const play=desert.getByRole('button',{name:/^Play /});await play.click();await expect(page.getByRole('dialog')).toHaveCount(0);await expect.poll(()=>page.evaluate(()=>window.__audio?.currentTime||0)).toBeGreaterThan(0);const src=await page.evaluate(()=>window.__audio.src);await desert.getByRole('button',{name:/^Restart /}).click();await expect(page.getByRole('dialog')).toHaveCount(0);await open.click();expect(await page.evaluate(()=>window.__audio.src)).toBe(src);expect(await page.evaluate(()=>window.__audio.paused)).toBe(false);await expect(page.locator('button button')).toHaveCount(0);});
+        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ^
+      3 |
+        at /private/tmp/fia-resource-order-app/tests/resource-order.spec.js:2:1578
+
+    Error Context: test-results/resource-order-row-order-a-7419a--preserve-independent-audio/error-context.md
+
+  1 failed
+    tests/resource-order.spec.js:2:1 › row order and full card native opening preserve independent audio
