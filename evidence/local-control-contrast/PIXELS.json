@@ -1,0 +1,461 @@
+[
+  {
+    "scene": "319-light-BSB",
+    "index": 0,
+    "disabled": true,
+    "foregroundPixel": [
+      163,
+      166,
+      172
+    ],
+    "backgroundMode": [
+      255,
+      255,
+      255
+    ],
+    "foregroundDistance": 209.7832214453768,
+    "ratio": 2.4397314199073836
+  },
+  {
+    "scene": "319-light-BSB",
+    "index": 1,
+    "disabled": false,
+    "foregroundPixel": [
+      255,
+      255,
+      255
+    ],
+    "backgroundMode": [
+      51,
+      83,
+      116
+    ],
+    "foregroundDistance": 0,
+    "ratio": 7.984016979481901
+  },
+  {
+    "scene": "319-light-BSB",
+    "index": 2,
+    "disabled": false,
+    "foregroundPixel": [
+      52,
+      59,
+      72
+    ],
+    "backgroundMode": [
+      255,
+      255,
+      255
+    ],
+    "foregroundDistance": 26.019223662515376,
+    "ratio": 11.258999353487317
+  },
+  {
+    "scene": "319-light-ULT",
+    "index": 0,
+    "disabled": false,
+    "foregroundPixel": [
+      52,
+      59,
+      72
+    ],
+    "backgroundMode": [
+      255,
+      255,
+      255
+    ],
+    "foregroundDistance": 26.019223662515376,
+    "ratio": 11.258999353487317
+  },
+  {
+    "scene": "319-light-ULT",
+    "index": 1,
+    "disabled": false,
+    "foregroundPixel": [
+      255,
+      255,
+      255
+    ],
+    "backgroundMode": [
+      51,
+      83,
+      116
+    ],
+    "foregroundDistance": 0,
+    "ratio": 7.984016979481901
+  },
+  {
+    "scene": "319-light-ULT",
+    "index": 2,
+    "disabled": false,
+    "foregroundPixel": [
+      52,
+      59,
+      72
+    ],
+    "backgroundMode": [
+      255,
+      255,
+      255
+    ],
+    "foregroundDistance": 26.019223662515376,
+    "ratio": 11.258999353487317
+  },
+  {
+    "scene": "319-dark-BSB",
+    "index": 0,
+    "disabled": true,
+    "foregroundPixel": [
+      138,
+      140,
+      145
+    ],
+    "backgroundMode": [
+      73,
+      75,
+      79
+    ],
+    "foregroundDistance": 162.2374802565671,
+    "ratio": 2.597471457328359
+  },
+  {
+    "scene": "319-dark-BSB",
+    "index": 1,
+    "disabled": false,
+    "foregroundPixel": [
+      14,
+      20,
+      32
+    ],
+    "backgroundMode": [
+      253,
+      253,
+      253
+    ],
+    "foregroundDistance": 0,
+    "ratio": 18.116147711501213
+  },
+  {
+    "scene": "319-dark-BSB",
+    "index": 2,
+    "disabled": false,
+    "foregroundPixel": [
+      217,
+      220,
+      226
+    ],
+    "backgroundMode": [
+      73,
+      75,
+      79
+    ],
+    "foregroundDistance": 23.68543856465402,
+    "ratio": 6.362127931444513
+  },
+  {
+    "scene": "319-dark-ULT",
+    "index": 0,
+    "disabled": false,
+    "foregroundPixel": [
+      217,
+      220,
+      226
+    ],
+    "backgroundMode": [
+      73,
+      75,
+      79
+    ],
+    "foregroundDistance": 23.68543856465402,
+    "ratio": 6.362127931444513
+  },
+  {
+    "scene": "319-dark-ULT",
+    "index": 1,
+    "disabled": false,
+    "foregroundPixel": [
+      14,
+      20,
+      32
+    ],
+    "backgroundMode": [
+      253,
+      253,
+      253
+    ],
+    "foregroundDistance": 0,
+    "ratio": 18.116147711501213
+  },
+  {
+    "scene": "319-dark-ULT",
+    "index": 2,
+    "disabled": false,
+    "foregroundPixel": [
+      217,
+      220,
+      226
+    ],
+    "backgroundMode": [
+      73,
+      75,
+      79
+    ],
+    "foregroundDistance": 23.68543856465402,
+    "ratio": 6.362127931444513
+  },
+  {
+    "scene": "466-light-BSB",
+    "index": 0,
+    "disabled": true,
+    "foregroundPixel": [
+      163,
+      166,
+      172
+    ],
+    "backgroundMode": [
+      255,
+      255,
+      255
+    ],
+    "foregroundDistance": 209.7832214453768,
+    "ratio": 2.4397314199073836
+  },
+  {
+    "scene": "466-light-BSB",
+    "index": 1,
+    "disabled": false,
+    "foregroundPixel": [
+      255,
+      255,
+      255
+    ],
+    "backgroundMode": [
+      51,
+      83,
+      116
+    ],
+    "foregroundDistance": 0,
+    "ratio": 7.984016979481901
+  },
+  {
+    "scene": "466-light-BSB",
+    "index": 2,
+    "disabled": false,
+    "foregroundPixel": [
+      52,
+      59,
+      72
+    ],
+    "backgroundMode": [
+      255,
+      255,
+      255
+    ],
+    "foregroundDistance": 26.019223662515376,
+    "ratio": 11.258999353487317
+  },
+  {
+    "scene": "466-light-ULT",
+    "index": 0,
+    "disabled": false,
+    "foregroundPixel": [
+      52,
+      59,
+      72
+    ],
+    "backgroundMode": [
+      255,
+      255,
+      255
+    ],
+    "foregroundDistance": 26.019223662515376,
+    "ratio": 11.258999353487317
+  },
+  {
+    "scene": "466-light-ULT",
+    "index": 1,
+    "disabled": false,
+    "foregroundPixel": [
+      255,
+      255,
+      255
+    ],
+    "backgroundMode": [
+      51,
+      83,
+      116
+    ],
+    "foregroundDistance": 0,
+    "ratio": 7.984016979481901
+  },
+  {
+    "scene": "466-light-ULT",
+    "index": 2,
+    "disabled": false,
+    "foregroundPixel": [
+      52,
+      59,
+      72
+    ],
+    "backgroundMode": [
+      255,
+      255,
+      255
+    ],
+    "foregroundDistance": 26.019223662515376,
+    "ratio": 11.258999353487317
+  },
+  {
+    "scene": "466-dark-BSB",
+    "index": 0,
+    "disabled": true,
+    "foregroundPixel": [
+      138,
+      140,
+      145
+    ],
+    "backgroundMode": [
+      73,
+      75,
+      79
+    ],
+    "foregroundDistance": 162.2374802565671,
+    "ratio": 2.597471457328359
+  },
+  {
+    "scene": "466-dark-BSB",
+    "index": 1,
+    "disabled": false,
+    "foregroundPixel": [
+      14,
+      20,
+      32
+    ],
+    "backgroundMode": [
+      254,
+      254,
+      254
+    ],
+    "foregroundDistance": 0,
+    "ratio": 18.271493648495778
+  },
+  {
+    "scene": "466-dark-BSB",
+    "index": 2,
+    "disabled": false,
+    "foregroundPixel": [
+      217,
+      220,
+      226
+    ],
+    "backgroundMode": [
+      73,
+      75,
+      79
+    ],
+    "foregroundDistance": 23.68543856465402,
+    "ratio": 6.362127931444513
+  },
+  {
+    "scene": "466-dark-ULT",
+    "index": 0,
+    "disabled": false,
+    "foregroundPixel": [
+      217,
+      220,
+      226
+    ],
+    "backgroundMode": [
+      73,
+      75,
+      79
+    ],
+    "foregroundDistance": 23.68543856465402,
+    "ratio": 6.362127931444513
+  },
+  {
+    "scene": "466-dark-ULT",
+    "index": 1,
+    "disabled": false,
+    "foregroundPixel": [
+      14,
+      20,
+      32
+    ],
+    "backgroundMode": [
+      254,
+      254,
+      254
+    ],
+    "foregroundDistance": 0,
+    "ratio": 18.271493648495778
+  },
+  {
+    "scene": "466-dark-ULT",
+    "index": 2,
+    "disabled": false,
+    "foregroundPixel": [
+      217,
+      220,
+      226
+    ],
+    "backgroundMode": [
+      73,
+      75,
+      79
+    ],
+    "foregroundDistance": 23.68543856465402,
+    "ratio": 6.362127931444513
+  },
+  {
+    "scene": "completed",
+    "index": 0,
+    "disabled": false,
+    "foregroundPixel": [
+      217,
+      220,
+      226
+    ],
+    "backgroundMode": [
+      73,
+      75,
+      79
+    ],
+    "foregroundDistance": 23.68543856465402,
+    "ratio": 6.362127931444513
+  },
+  {
+    "scene": "completed",
+    "index": 1,
+    "disabled": false,
+    "foregroundPixel": [
+      254,
+      254,
+      254
+    ],
+    "backgroundMode": [
+      72,
+      74,
+      78
+    ],
+    "foregroundDistance": 1.7320508075688772,
+    "ratio": 8.803996938108565
+  },
+  {
+    "scene": "completed",
+    "index": 2,
+    "disabled": false,
+    "foregroundPixel": [
+      31,
+      37,
+      48
+    ],
+    "backgroundMode": [
+      254,
+      254,
+      254
+    ],
+    "foregroundDistance": 28.879058156387302,
+    "ratio": 15.247892967001503
+  }
+]
