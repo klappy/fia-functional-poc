@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 test.use({serviceWorkers:'block'});
 test.beforeEach(async({page})=>{await page.goto('/');await expect(page.getByRole('heading',{name:'Mark 1:1–13',level:1})).toBeVisible();});
+test.beforeEach(async({page})=>{await page.addInitScript(()=>{const fixture=sessionStorage.getItem('__fia_test_legacy__');if(fixture){localStorage.removeItem('fia.workspace.mark-1-1-13.v2');localStorage.setItem('fia.session.mark-1-1-13.v1',fixture);sessionStorage.removeItem('__fia_test_legacy__');}});});
 test('real guide, Scripture selection and exact position survive view changes and reload',async({page})=>{
  await expect(page.getByTestId('current-unit')).toContainText('In this step, hear Mark');
  await page.getByRole('button',{name:'Next guide activity',exact:false}).click();await page.getByRole('button',{name:'Next guide activity',exact:false}).click();
@@ -65,6 +66,6 @@ test('resources show all eight real previews, source metadata, search and honest
  await page.setViewportSize({width:320,height:844});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth)).toBe(true);
 });
 test('finished-session return from another view really restores the guide',async({page})=>{
- await page.evaluate(()=>localStorage.setItem('fia.session.mark-1-1-13.v1',JSON.stringify({schemaVersion:1,passage:'mark-1-1-13',stepId:'S06',unitId:'S06-U001',version:'BereanStandardBible',visited:['S01','S02','S03','S04','S05','S06'],finished:true})));
+ await page.evaluate(()=>sessionStorage.setItem('__fia_test_legacy__',JSON.stringify({schemaVersion:1,passage:'mark-1-1-13',stepId:'S06',unitId:'S06-U001',version:'BereanStandardBible',visited:['S01','S02','S03','S04','S05','S06'],finished:true})));
  await page.reload();await page.getByRole('tab',{name:'Resources',exact:true}).click();await page.getByRole('button',{name:'Return to the guide',exact:true}).click();await expect(page.getByTestId('current-unit')).toBeVisible();await expect(page.getByRole('heading',{name:'Session finished',exact:true})).toHaveCount(0);
 });
