@@ -31,8 +31,8 @@ html[data-theme="dark"]{color-scheme:dark}
 @media(max-height:600px){.guide-card{height:auto;min-height:320px}.source-scroll{max-height:none;overflow:visible}.app-shell{padding-bottom:110px}}
 
 /* One persistent transport beside canonical navigation; native-modal counterpart replaces its accessible surface. */
-.floating-dock{position:fixed;z-index:30;bottom:calc(16px + env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);display:flex;align-items:center;justify-content:center;gap:10px;max-width:calc(100vw - 24px)}.has-player .app-content{padding-bottom:60px}
-@media(max-width:620px){.floating-dock{flex-direction:column-reverse;gap:8px;width:calc(100vw - 24px)}.has-player .guide-card{height:calc(100dvh - 355px)}.has-player .app-shell{padding-bottom:190px}}
+.floating-dock{position:fixed;z-index:30;bottom:calc(16px + env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);display:flex;align-items:center;justify-content:center;gap:10px;max-width:calc(100vw - 24px)}.has-player .app-content{padding-bottom:0}
+@media(max-width:620px){.floating-dock{flex-direction:column-reverse;gap:8px;width:calc(100vw - 24px)}}
 
 .playback-dock{padding:6px;width:max-content;min-width:0;max-width:var(--actual-nav-width,240px)}.compact-transport{display:flex;align-items:center;gap:8px;min-width:0;position:relative}.owner-toggle{height:44px;min-width:0;flex:0 1 auto;gap:8px!important}.owner-toggle span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:140px;font:inherit}.owner-toggle svg{flex:none}.compact-transport time{font:var(--type-caption);white-space:nowrap}.transport-more{font:var(--type-caption)}.transport-more summary{cursor:pointer;list-style:none;min-height:44px;display:flex;align-items:center;padding:0 5px}.transport-more>div{position:absolute;bottom:calc(100% + 12px);right:0;padding:14px;min-width:220px;border-radius:var(--r-lg);background:var(--material-floating);box-shadow:var(--shadow-float);display:grid;gap:10px}.transport-more progress{width:100%}.dialog-header-actions .compact-transport{max-width:320px}.dialog-header-actions .transport-more>div{bottom:auto;top:calc(100% + 12px);z-index:3}@media(max-width:620px){.playback-dock{padding:6px;width:max-content;min-width:0;max-width:var(--actual-nav-width,240px)}.owner-toggle span{max-width:140px}}
 
@@ -51,3 +51,31 @@ html[data-theme="dark"] :is(.app-shell,.guide-index){--text-muted:var(--text-tit
 html[data-theme="dark"] .scripture-version{background:var(--material-floating)!important}
 
 .accessible-status{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+
+/* Card-footer trial: shared controls, stable reading-body/footer geometry. */
+.app-shell{padding-bottom:calc(94px + env(safe-area-inset-bottom))}
+.card-transport-footer{flex:none;border-top:var(--border-hairline);padding-top:12px;display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap}
+.card-transport-footer>.compact-transport{width:max-content;width:100%;max-width:100%;justify-content:center;gap:4px;padding:6px}
+.card-transport-footer .compact-transport>button:first-child,.card-transport-footer .compact-transport>button:last-child{flex:none}
+.card-transport-footer .owner-toggle{min-width:0;flex:0 1 auto}.card-transport-footer .owner-toggle span{max-width:140px}
+.guide-footer>p{flex-basis:100%;text-align:center;margin:0}.guide-footer>.compact-transport{order:2}
+.scripture-text{height:calc(100dvh - 255px);min-height:320px;display:flex;flex-direction:column;gap:10px}
+.scripture-scroll{overflow:auto;min-height:0;flex:1;overscroll-behavior:contain;padding-right:4px}
+#panel-resources{height:auto;min-height:0;display:block}
+#panel-resources>.resource-grid{display:block;column-count:2;column-gap:12px;overflow:visible;padding:4px}#panel-resources .resource-tile{break-inside:avoid;display:inline-block;width:100%;margin-bottom:12px}
+.resource-transport-footer{margin-top:10px}
+.resource-dialog>div{display:flex;flex-direction:column;max-height:90dvh;overflow:hidden}.resource-dialog .dialog-header{flex:none;position:static}.resource-dialog .dialog-body{min-height:0;overflow:auto;overscroll-behavior:contain}
+.dialog-transport-footer{padding:12px 18px 18px}.index-transport-footer{padding:12px 0}
+@media(max-width:520px){.scripture-text{height:calc(100dvh - 265px)}.card-transport-footer .owner-toggle span{max-width:115px}}
+@media(max-height:600px){.guide-card,.scripture-text,#panel-resources{height:auto;min-height:320px}.scripture-scroll,#panel-resources>.resource-grid{overflow:visible}.resource-dialog .dialog-body{overflow:auto}}
+
+/* The in-card player has room for a meaningful source name, unlike the former floating pill. */
+.card-transport-footer .owner-toggle{flex:0 1 auto;height:auto;min-height:44px}.card-transport-footer .owner-toggle span{max-width:none;white-space:normal;text-overflow:clip;overflow:visible;overflow-wrap:anywhere;line-height:1.35}
+
+/* Resource catalog uses intrinsic column-major document flow; shared cards stay intact. */
+.resources-view{padding-bottom:calc(var(--floating-clearance,170px) + env(safe-area-inset-bottom))}
+.resources-view .playback-dock .owner-toggle span{max-width:140px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+@media(max-width:360px){#panel-resources>.resource-grid{column-count:1}}
+/* Scroll gutter contains the canonical contextual-card shadows instead of cutting
+   their falloff at the inner text rectangle; card material/backdrop unchanged. */
+.guide-card .source-scroll{margin-inline:-16px;padding:0 16px 36px}

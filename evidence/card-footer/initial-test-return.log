@@ -1,0 +1,50 @@
+[WebServer] (node:38695) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 2 tests using 1 worker
+
+(node:38696) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 tests/card-footer.spec.js:2:1 › card footer contains exact transport across reading views and modal without floating duplicate (2.4s)
+(node:39012) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 tests/card-footer.spec.js:3:1 › footer controls preserve actual owner through resource exploration (30.0s)
+
+
+  1) tests/card-footer.spec.js:2:1 › card footer contains exact transport across reading views and modal without floating duplicate 
+
+    Error: expect(received).toBeLessThan(expected)
+
+    Expected: < 3
+    Received:   25.59375
+
+      1 | import{test,expect}from'@playwright/test';
+    > 2 | test('card footer contains exact transport across reading views and modal without floating duplicate',async({page})=>{for(const width of[319,390,627,726,1280]){await page.setViewportSize({width,height:987});await page.goto('/');await expect(page.locator('.floating-dock .compact-transport')).toHaveCount(0);const positions=[];for(const step of['S01','S05']){await page.getByLabel('Guide step').selectOption(step);const footer=page.locator('.guide-card>.card-transport-footer');await expect(footer.locator('.compact-transport')).toBeVisible();positions.push((await footer.boundingBox()).y);await page.screenshot({path:`evidence/card-footer/guide-${step}-${width}.png`});}expect(Math.abs(positions[0]-positions[1])).toBeLessThan(3);await page.getByRole('tab',{name:'Scripture',exact:true}).click();await expect(page.locator('.scripture-text>.card-transport-footer .compact-transport')).toBeVisible();await page.locator('.scripture-scroll').evaluate(e=>e.scrollTop=e.scrollHeight);await expect(page.locator('.scripture-scroll')).toContainText('angels');await page.screenshot({path:`evidence/card-footer/scripture-${width}.png`});await page.getByRole('tab',{name:'Resources',exact:true}).click();await expect(page.locator('.resource-transport-footer .compact-transport')).toBeVisible();await page.getByRole('button',{name:'Open Locations in the Book of Mark map',exact:true}).click();await expect(page.getByRole('dialog').locator('.dialog-transport-footer .compact-transport')).toBeVisible();await expect(page.getByRole('button',{name:'Close resource',exact:true})).toBeFocused();await page.locator('.dialog-body').evaluate(e=>e.scrollTop=e.scrollHeight);await page.screenshot({path:`evidence/card-footer/detail-${width}.png`});await page.keyboard.press('Escape');await expect(page.getByRole('button',{name:'Open Locations in the Book of Mark map',exact:true})).toBeFocused();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);}});
+        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ^
+      3 | test('footer controls preserve actual owner through resource exploration',async({page})=>{await page.goto('/');await page.getByRole('tab',{name:'Scripture',exact:true}).click();await page.getByRole('button',{name:'Play Scripture BSB',exact:true}).click();await expect(page.locator('.scripture-text .compact-transport').getByRole('button',{name:'Pause Now playing'})).toBeVisible();await page.getByRole('tab',{name:'Resources',exact:true}).click();await expect(page.locator('.resource-transport-footer').getByRole('button',{name:'Pause Now playing'})).toContainText('BSB');await page.getByRole('button',{name:'Open heaven',exact:true}).click();await page.getByRole('dialog').getByRole('button',{name:'Pause Now playing'}).click();await expect(page.getByRole('dialog').getByRole('button',{name:'Resume Now playing'})).toBeVisible();});
+      4 |
+        at /private/tmp/fia-functional-poc-app/tests/card-footer.spec.js:2:715
+
+    Error Context: test-results/card-footer-card-footer-co-b266c--without-floating-duplicate/error-context.md
+
+  2) tests/card-footer.spec.js:3:1 › footer controls preserve actual owner through resource exploration 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: 'Open heaven', exact: true })
+
+
+      1 | import{test,expect}from'@playwright/test';
+      2 | test('card footer contains exact transport across reading views and modal without floating duplicate',async({page})=>{for(const width of[319,390,627,726,1280]){await page.setViewportSize({width,height:987});await page.goto('/');await expect(page.locator('.floating-dock .compact-transport')).toHaveCount(0);const positions=[];for(const step of['S01','S05']){await page.getByLabel('Guide step').selectOption(step);const footer=page.locator('.guide-card>.card-transport-footer');await expect(footer.locator('.compact-transport')).toBeVisible();positions.push((await footer.locator('.compact-transport').boundingBox()).y);await page.screenshot({path:`evidence/card-footer/guide-${step}-${width}.png`});}expect(Math.abs(positions[0]-positions[1])).toBeLessThan(3);await page.getByRole('tab',{name:'Scripture',exact:true}).click();await expect(page.locator('.scripture-text>.card-transport-footer .compact-transport')).toBeVisible();await page.locator('.scripture-scroll').evaluate(e=>e.scrollTop=e.scrollHeight);await expect(page.locator('.scripture-scroll')).toContainText('angels');await page.screenshot({path:`evidence/card-footer/scripture-${width}.png`});await page.getByRole('tab',{name:'Resources',exact:true}).click();await expect(page.locator('.resource-transport-footer .compact-transport')).toBeVisible();await page.getByRole('button',{name:'Open Locations in the Book of Mark map',exact:true}).click();await expect(page.getByRole('dialog').locator('.dialog-transport-footer .compact-transport')).toBeVisible();await expect(page.getByRole('button',{name:'Close resource',exact:true})).toBeFocused();await page.locator('.dialog-body').evaluate(e=>e.scrollTop=e.scrollHeight);await page.screenshot({path:`evidence/card-footer/detail-${width}.png`});await page.keyboard.press('Escape');await expect(page.getByRole('button',{name:'Open Locations in the Book of Mark map',exact:true})).toBeFocused();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);}});
+    > 3 | test('footer controls preserve actual owner through resource exploration',async({page})=>{await page.goto('/');await page.getByRole('tab',{name:'Scripture',exact:true}).click();await page.getByRole('button',{name:'Play Scripture BSB',exact:true}).click();await expect(page.locator('.scripture-text .compact-transport').getByRole('button',{name:'Pause Now playing'})).toBeVisible();await page.getByRole('tab',{name:'Resources',exact:true}).click();await expect(page.locator('.resource-transport-footer').getByRole('button',{name:'Pause Now playing'})).toContainText('BSB');await page.getByRole('button',{name:'Open heaven',exact:true}).click();await page.getByRole('dialog').getByRole('button',{name:'Pause Now playing'}).click();await expect(page.getByRole('dialog').getByRole('button',{name:'Resume Now playing'})).toBeVisible();});
+        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^
+      4 |
+        at /private/tmp/fia-functional-poc-app/tests/card-footer.spec.js:3:636
+
+    Error Context: test-results/card-footer-footer-control-6afad-hrough-resource-exploration/error-context.md
+
+  2 failed
+    tests/card-footer.spec.js:2:1 › card footer contains exact transport across reading views and modal without floating duplicate 
+    tests/card-footer.spec.js:3:1 › footer controls preserve actual owner through resource exploration 

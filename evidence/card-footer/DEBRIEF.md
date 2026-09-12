@@ -1,0 +1,7 @@
+# Card-footer trial
+
+Base871b0f1. The existing exact three-control transport now sits in the Guide and Scripture cards, neutral Resources region and active detail/index modal footer. Floating navigation remains. Corner Play/Restart remains local; active owner remains authoritative through exploration. Full shared CSS and all172 audio bytes remain unchanged. ScripturePassage has only a documented optional footer/class-hook adaptation, with updated exact hash.
+
+Driver-seat: source scrolls independently of a stable bottom action. Modal control stays within native focus/inert boundary. Rejected duplicate floating player and extra glass around resource cards. Root observed early726Guide/terminal controls inside the card. Five-width319/390/627/726/1280 focused screenshots and two real browser tests passed, including source scroll, exact modal focus return and actual playing-owner exploration/pause.35unit checks passed. Initial test return measured top of variable discussion cue instead of actual controls and used a nonexistent opener; corrected selectors preserve meaningful geometry/behavior checks. Full existing suite selectors now address the relocated actual controls; final suite pending at this checkpoint.
+
+No theme/workspace persistence authored here; separate worker owns that implementation. Trial remains subject to independent whole-view acceptance. Source/voice quality limitations unchanged.

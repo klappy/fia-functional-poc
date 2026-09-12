@@ -1,0 +1,23 @@
+{
+  "observedAt": "2026-09-12T01:08:14.591818+00:00",
+  "url": "https://fia.klappy.dev",
+  "manifestRevision": "3a41b97f15095aa6e8252ee56c6f20d3407ebf22c262a6604245c46fc3b13fdb",
+  "entries": 195,
+  "verified": 194,
+  "bytes": 93408357,
+  "failures": [
+    {
+      "path": "/index.html",
+      "ok": false,
+      "bytes": 0,
+      "error": ""
+    }
+  ],
+  "boundary": "HTTP bytes/hash validation only; not browser offline or heard audio acceptance.",
+  "redirectReadback": {
+    "path": "/index.html",
+    "bytes": 362,
+    "sha_match": true
+  },
+  "verifiedFollowingRedirects": 195
+}

@@ -1,0 +1,12 @@
+{
+  "release": "64d59232",
+  "attempt": 1,
+  "characters": 443,
+  "textSha256": "6bce21fb4814f6fc272635fb124ce5211761e26a5d6cd6c76d2e93c1578d877b",
+  "startedAt": "2026-09-12T01:14:45.601Z",
+  "outcome": "received",
+  "httpStatus": 200,
+  "mime": "audio/mpeg",
+  "bytes": 383268,
+  "sha256": "ee698be82482d61c22661277b0cfacd2f7588547a9afc59be9f1b71cfc1198b6"
+}

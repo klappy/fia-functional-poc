@@ -1,0 +1,9 @@
+# Whole-view correction
+
+Baseaff329d, separate worktree so prior regression run/preview4173 stayed immutable. Actual sourceInfo action beside ScripturePlay opens selected-version attribution in native focus-managed dialog. Resources returns to normal document flow with intrinsic column-major card layout and resource-only floating transport; original resource DOM/owner collection retained. Guide/Scripture retain centered in-card transport and thin progress. No source/audio/vendor material changes; release audit proves172MP3 hashes unchanged and195pack/197deployment allowlist intact.
+
+Actual466px dark S02-U005 baseline screenshot shows a hard rectangular cutoff around/below card-shadow falloff at source-scroll boundary. Adding16px lateral and36px bottom scroll gutters removes the inner clipped edge; before/after light/dark captures and computed styles preserved. This proves a clipping mitigation, not a browser/GPU backdrop resampling diagnosis. Canonical ResourceCard background, backdrop and shadow remain unchanged.
+
+Six actual319/466/726 light/dark cases PASS:32cards, visible column-major order matching DOM, final card clears measured floating controls, no horizontal overflow, ScriptureInfo exact focusreturn and actual Scripture owner preserved through Resources/mapdetail. Browser automation is existing isolated regression capability, not a workaround to root's blocked CUA policy check. Root current live CUA observation remains unavailable.
+
+Author upper8active including final evidence/commit. Earlier1.5 independent design review is separately included in14aggregate. Root review and final exacthead checks remain required. Prior full-suite test fixes are on separate baseline branch and must be merged before broad CI; no assertion result inherited for changed resource layout.

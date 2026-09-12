@@ -1,0 +1,12 @@
+{
+  "baseline": "a9331a741421bc0e95533cb3978e5cf6262bf8b9",
+  "publicMp3Count": 172,
+  "unchangedOtherMp3s": 171,
+  "changedMedia": [
+    "public/audio/visual-resources/c197.mp3"
+  ],
+  "changedPacketRecordIndices": [
+    169
+  ],
+  "packetSha256": "81602d2a5122d7d71138bfd5a37b7c2a233ea82924000b5caa2aaa08a18fc1da"
+}
