@@ -62,7 +62,7 @@ html[data-theme="dark"] .scripture-version{background:var(--material-floating)!i
 .scripture-text{height:calc(100dvh - 255px);min-height:320px;display:flex;flex-direction:column;gap:10px}
 .scripture-scroll{overflow:auto;min-height:0;flex:1;overscroll-behavior:contain;padding-right:4px}
 #panel-resources{height:auto;min-height:0;display:block}
-#panel-resources>.resource-grid{display:block;column-count:2;column-gap:12px;overflow:visible;padding:4px}#panel-resources .resource-tile{break-inside:avoid;display:inline-block;width:100%;margin-bottom:12px}
+#panel-resources>.resource-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-items:start;overflow:visible;padding:4px}#panel-resources .resource-tile{width:100%}.resource-surface-open:focus-visible{outline:2px solid var(--link);outline-offset:-3px}
 .resource-transport-footer{margin-top:10px}
 .resource-dialog>div{display:flex;flex-direction:column;max-height:90dvh;overflow:hidden}.resource-dialog .dialog-header{flex:none;position:static}.resource-dialog .dialog-body{min-height:0;overflow:auto;overscroll-behavior:contain}
 .dialog-transport-footer{padding:12px 18px 18px}.index-transport-footer{padding:12px 0}
@@ -75,7 +75,7 @@ html[data-theme="dark"] .scripture-version{background:var(--material-floating)!i
 /* Resource catalog uses intrinsic column-major document flow; shared cards stay intact. */
 .resources-view{padding-bottom:calc(var(--floating-clearance,170px) + env(safe-area-inset-bottom))}
 .resources-view .playback-dock .owner-toggle span{max-width:140px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
-@media(max-width:360px){#panel-resources>.resource-grid{column-count:1}}
+@media(max-width:360px){#panel-resources>.resource-grid{grid-template-columns:1fr}}
 /* Scroll gutter contains the canonical contextual-card shadows instead of cutting
    their falloff at the inner text rectangle; card material/backdrop unchanged. */
 .guide-card .source-scroll{margin-inline:-16px;padding:0 16px 36px}
