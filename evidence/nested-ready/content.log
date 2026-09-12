@@ -1,0 +1,12 @@
+
+> fia-functional-poc@0.1.0 verify:content
+> node scripts/verify-content.mjs
+
+{
+  "pass": true,
+  "units": 130,
+  "pauses": 39,
+  "resources": 32,
+  "assets": 8,
+  "bytes": 23246971
+}
