@@ -1,0 +1,256 @@
+
+> fia-functional-poc@0.1.0 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: simulated HTMLAudio events advance only ended source units and suppress canceled callbacks
+ok 1 - simulated HTMLAudio events advance only ended source units and suppress canceled callbacks
+  ---
+  duration_ms: 784.203417
+  type: 'test'
+  ...
+# Subtest: simulated HTMLAudio pause resumes same source and media errors do not advance
+ok 2 - simulated HTMLAudio pause resumes same source and media errors do not advance
+  ---
+  duration_ms: 5.741417
+  type: 'test'
+  ...
+# Subtest: selected audio integrity failure and changed source fail before playback
+ok 3 - selected audio integrity failure and changed source fail before playback
+  ---
+  duration_ms: 10.575959
+  type: 'test'
+  ...
+# Subtest: pure synthesis guards count uncertain attempts and reject changed input, repeated IDs and cumulative caps without network
+ok 4 - pure synthesis guards count uncertain attempts and reject changed input, repeated IDs and cumulative caps without network
+  ---
+  duration_ms: 0.432625
+  type: 'test'
+  ...
+# Subtest: complete prepared audio binds exactly117 visible guide units and3 Scripture passages to immutable source bytes
+ok 5 - complete prepared audio binds exactly117 visible guide units and3 Scripture passages to immutable source bytes
+  ---
+  duration_ms: 18.563208
+  type: 'test'
+  ...
+# Subtest: a late resume rejection cannot overwrite a stopped session
+ok 6 - a late resume rejection cannot overwrite a stopped session
+  ---
+  duration_ms: 6.748584
+  type: 'test'
+  ...
+# Subtest: actual shell builder refuses missing, duplicate and source-mismatched mandatory narration manifests
+ok 7 - actual shell builder refuses missing, duplicate and source-mismatched mandatory narration manifests
+  ---
+  duration_ms: 107.710375
+  type: 'test'
+  ...
+# Subtest: media timing follows native metadata/time events and restart reuses the recording
+ok 8 - media timing follows native metadata/time events and restart reuses the recording
+  ---
+  duration_ms: 6.527291
+  type: 'test'
+  ...
+# Subtest: 750ms pending gap is held, canceled and restarted without ghost advancement
+ok 9 - 750ms pending gap is held, canceled and restarted without ghost advancement
+  ---
+  duration_ms: 2721.084417
+  type: 'test'
+  ...
+# (node:84271) ExperimentalWarning: The MockTimers API is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: fake clock holds automatic advancement until exactly750ms
+ok 10 - fake clock holds automatic advancement until exactly750ms
+  ---
+  duration_ms: 12.354
+  type: 'test'
+  ...
+# Subtest: official logo path bytes and viewBoxes match observed source receipt
+ok 11 - official logo path bytes and viewBoxes match observed source receipt
+  ---
+  duration_ms: 2.291125
+  type: 'test'
+  ...
+# Subtest: complete shared CSS and actual composed component sources retain pinned bytes
+ok 12 - complete shared CSS and actual composed component sources retain pinned bytes
+  ---
+  duration_ms: 4.523167
+  type: 'test'
+  ...
+# Subtest: complete source-guided traversal accounts for all39 source stops in38groups and never enters hidden examples
+ok 13 - complete source-guided traversal accounts for all39 source stops in38groups and never enters hidden examples
+  ---
+  duration_ms: 9.41025
+  type: 'test'
+  ...
+# Subtest: step selection and reverse navigation preserve Scripture but cannot enter examples
+ok 14 - step selection and reverse navigation preserve Scripture but cannot enter examples
+  ---
+  duration_ms: 0.136917
+  type: 'test'
+  ...
+# Subtest: storage validates exact source position and discards invalid or hidden units
+ok 15 - storage validates exact source position and discards invalid or hidden units
+  ---
+  duration_ms: 0.276625
+  type: 'test'
+  ...
+# Subtest: 130source IDs partition into115activity source IDs,2metadata and13hidden without new resource link
+ok 16 - 130source IDs partition into115activity source IDs,2metadata and13hidden without new resource link
+  ---
+  duration_ms: 1.553709
+  type: 'test'
+  ...
+# Subtest: metadata bookmarks restore position not a map association, then Continue entersstep6
+ok 17 - metadata bookmarks restore position not a map association, then Continue entersstep6
+  ---
+  duration_ms: 2.055292
+  type: 'test'
+  ...
+# Subtest: simulated storage quota failure cannot replace the previous active pointer
+ok 18 - simulated storage quota failure cannot replace the previous active pointer
+  ---
+  duration_ms: 21.738792
+  type: 'test'
+  ...
+# Subtest: exact four attachments bijectively retain115 activity-source IDs and39 witnesses in111groups/38stopgroups
+ok 19 - exact four attachments bijectively retain115 activity-source IDs and39 witnesses in111groups/38stopgroups
+  ---
+  duration_ms: 3.667
+  type: 'test'
+  ...
+# Subtest: each legacy cue restores the activity and cue state; ended stays and Continue skips only attached cue
+ok 20 - each legacy cue restores the activity and cue state; ended stays and Continue skips only attached cue
+  ---
+  duration_ms: 1.178125
+  type: 'test'
+  ...
+# Subtest: complete selected source pack verifies from actual files
+ok 21 - complete selected source pack verifies from actual files
+  ---
+  duration_ms: 48.203916
+  type: 'test'
+  ...
+# Subtest: a missing or duplicated verse fails even with a valid transport digest
+ok 22 - a missing or duplicated verse fails even with a valid transport digest
+  ---
+  duration_ms: 466.310709
+  type: 'test'
+  ...
+# Subtest: altered Scripture or emitted guide text fails canonical comparison
+ok 23 - altered Scripture or emitted guide text fails canonical comparison
+  ---
+  duration_ms: 343.603917
+  type: 'test'
+  ...
+# Subtest: a missing resource and guessed map alias fail
+ok 24 - a missing resource and guessed map alias fail
+  ---
+  duration_ms: 340.358459
+  type: 'test'
+  ...
+# Subtest: discussion stops and example boundaries cannot silently change
+ok 25 - discussion stops and example boundaries cannot silently change
+  ---
+  duration_ms: 504.931791
+  type: 'test'
+  ...
+# Subtest: missing rights and flattened map notice fail
+ok 26 - missing rights and flattened map notice fail
+  ---
+  duration_ms: 441.258
+  type: 'test'
+  ...
+# Subtest: video bytes are not an accepted offline resource
+ok 27 - video bytes are not an accepted offline resource
+  ---
+  duration_ms: 250.069708
+  type: 'test'
+  ...
+# Subtest: corrupt or missing actual media fails integrity verification
+ok 28 - corrupt or missing actual media fails integrity verification
+  ---
+  duration_ms: 106.200708
+  type: 'test'
+  ...
+# Subtest: a changed image cannot be legitimized by recomputing its manifest digest
+ok 29 - a changed image cannot be legitimized by recomputing its manifest digest
+  ---
+  duration_ms: 100.612333
+  type: 'test'
+  ...
+# Subtest: simulated speech events: cancellation rejects stale source advancement and old errors
+ok 30 - simulated speech events: cancellation rejects stale source advancement and old errors
+  ---
+  duration_ms: 6.127709
+  type: 'test'
+  ...
+# Subtest: simulated speech events: chunks preserve source and item advances only after final chunk
+ok 31 - simulated speech events: chunks preserve source and item advances only after final chunk
+  ---
+  duration_ms: 7.717042
+  type: 'test'
+  ...
+# Subtest: simulated pause/resume require actual adapter event and absent voices are honest
+ok 32 - simulated pause/resume require actual adapter event and absent voices are honest
+  ---
+  duration_ms: 5.501583
+  type: 'test'
+  ...
+# Subtest: 21 frozen term recordings retain exact source, rights binding and cumulative attempt ceiling
+ok 33 - 21 frozen term recordings retain exact source, rights binding and cumulative attempt ceiling
+  ---
+  duration_ms: 45.051959
+  type: 'test'
+  ...
+# Subtest: four combined recordings preserve exact source and reviewed transition text
+ok 34 - four combined recordings preserve exact source and reviewed transition text
+  ---
+  duration_ms: 5.919375
+  type: 'test'
+  ...
+# Subtest: all111 guide destinations are reversible, bounded and preserve version/resource domains
+ok 35 - all111 guide destinations are reversible, bounded and preserve version/resource domains
+  ---
+  duration_ms: 1.968375
+  type: 'test'
+  ...
+# Subtest: workspace validates fields independently and source identity without guessing newer schemas
+ok 36 - workspace validates fields independently and source identity without guessing newer schemas
+  ---
+  duration_ms: 0.928667
+  type: 'test'
+  ...
+# Subtest: restored guide queues respect source stops and reject hidden/pure metadata IDs
+ok 37 - restored guide queues respect source stops and reject hidden/pure metadata IDs
+  ---
+  duration_ms: 0.496167
+  type: 'test'
+  ...
+# Subtest: restore never plays before explicit Resume and clamps verified metadata offset
+ok 38 - restore never plays before explicit Resume and clamps verified metadata offset
+  ---
+  duration_ms: 3.42425
+  type: 'test'
+  ...
+# Subtest: stale delayed fetch and metadata cannot override new playback, Restart or superseding restore
+ok 39 - stale delayed fetch and metadata cannot override new playback, Restart or superseding restore
+  ---
+  duration_ms: 1.494125
+  type: 'test'
+  ...
+# Subtest: pagehide checkpoint preserves source-bound offset through delayed metadata and seek
+ok 40 - pagehide checkpoint preserves source-bound offset through delayed metadata and seek
+  ---
+  duration_ms: 1.327
+  type: 'test'
+  ...
+1..40
+# tests 40
+# suites 0
+# pass 40
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3741.22875

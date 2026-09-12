@@ -2,9 +2,9 @@
   "classification": "Private build receipt; never deployed",
   "files": [
     {
-      "path": "assets/index-DOlbqZzZ.js",
-      "bytes": 455372,
-      "sha256": "c2b854673d26c2e7479b507d5c4158ba8fbc68b93a0aabbd0e37f6984b3755b8"
+      "path": "assets/index-B6A5yzhl.js",
+      "bytes": 455517,
+      "sha256": "84c16041fb9dba3bcf59696cdd530d53dd6ba3880f711e3966bf33848545c035"
     },
     {
       "path": "assets/index-_x0wCRRI.css",
@@ -974,12 +974,12 @@
     {
       "path": "index.html",
       "bytes": 362,
-      "sha256": "7e5e6573356f54e8ba98db5d12b9461057c6a654c3aca329b4b1837f5ae40ff7"
+      "sha256": "96e508bb2f4241e5e386f74aa9505fb72a5d83598fa8beeb2149604d7cad7359"
     },
     {
       "path": "offline-shell.json",
       "bytes": 43032,
-      "sha256": "9db940d6150d47b33a68db470c4fd7355966936f0cb3f06add1425b3ee674a51"
+      "sha256": "dfe028263738ad19da8a87c19ca07de20ad86f78a6f6e9cbb55fdb66d2ab187b"
     },
     {
       "path": "sw.js",
@@ -988,6 +988,6 @@
     }
   ],
   "packFiles": 195,
-  "packBytes": 93575981,
-  "distBytes": 93624760
+  "packBytes": 93576126,
+  "distBytes": 93624905
 }
