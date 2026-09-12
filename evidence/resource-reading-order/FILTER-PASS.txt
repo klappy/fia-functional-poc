@@ -1,0 +1,10 @@
+[WebServer] (node:25744) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:25745) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/resource-order.spec.js:3:1 › filtered DOM keyboard and player adjacency retain source order (1.8s)
+
+  1 passed (3.0s)
