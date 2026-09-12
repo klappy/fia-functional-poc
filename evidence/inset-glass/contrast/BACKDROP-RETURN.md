@@ -1,0 +1,5 @@
+# Nested-backdrop hypothesis RETURN
+
+Tested exact same DS GlassSurface as absolute background sibling of controls, preserving material tokens and spacing; removed it as direct ancestor/backdrop root of buttons. Actual dark ULT enabled secondary screenshot still shows white text crossing and obscuring chevrons. Native completed emphasis/reset still passed. This experiment does NOT establish nested shell as sufficient cause and is rejected; production SharedTransport restored byte-for-byte from80c7cfa. Diagnostic screenshots backdrop-next-* preserve actual failed experiment.
+
+No safe accepted secondary repair found within2author minutes. Current source remains80c7cfa behavior; build output currently belongs to experimental structure and MUST rebuild restored source before any preview/release claim. No merge. Need a bounded rendering diagnosis beyond this rejected hypothesis; exact styles already equal card controls, unchanged-token retries are not progress. Author2 consumed of53 total authorization; no reset.

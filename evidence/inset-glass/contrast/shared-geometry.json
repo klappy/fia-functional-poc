@@ -1,0 +1,302 @@
+[
+  {
+    "width": 319,
+    "theme": "light",
+    "view": "Guide",
+    "padding": "4px",
+    "radius": "999px",
+    "background": "rgba(255, 255, 255, 0.62) none repeat scroll 0% 0% / auto padding-box border-box",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44,
+        "disabled": true
+      },
+      {
+        "width": 167,
+        "height": 44,
+        "disabled": false
+      },
+      {
+        "width": 44,
+        "height": 44,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 319,
+    "theme": "light",
+    "view": "Scripture",
+    "padding": "4px",
+    "radius": "999px",
+    "background": "rgba(255, 255, 255, 0.62) none repeat scroll 0% 0% / auto padding-box border-box",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44,
+        "disabled": true
+      },
+      {
+        "width": 167,
+        "height": 44,
+        "disabled": false
+      },
+      {
+        "width": 44,
+        "height": 44,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 319,
+    "theme": "light",
+    "view": "Resources",
+    "padding": "4px",
+    "radius": "999px",
+    "background": "rgba(255, 255, 255, 0.62) none repeat scroll 0% 0% / auto padding-box border-box",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44,
+        "disabled": true
+      },
+      {
+        "width": 118.34375,
+        "height": 44,
+        "disabled": false
+      },
+      {
+        "width": 44,
+        "height": 44,
+        "disabled": true
+      }
+    ]
+  },
+  {
+    "width": 319,
+    "theme": "dark",
+    "view": "Guide",
+    "padding": "4px",
+    "radius": "999px",
+    "background": "rgba(255, 255, 255, 0.14) none repeat scroll 0% 0% / auto padding-box border-box",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44,
+        "disabled": true
+      },
+      {
+        "width": 167,
+        "height": 44,
+        "disabled": false
+      },
+      {
+        "width": 44,
+        "height": 44,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 319,
+    "theme": "dark",
+    "view": "Scripture",
+    "padding": "4px",
+    "radius": "999px",
+    "background": "rgba(255, 255, 255, 0.14) none repeat scroll 0% 0% / auto padding-box border-box",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44,
+        "disabled": true
+      },
+      {
+        "width": 167,
+        "height": 44,
+        "disabled": false
+      },
+      {
+        "width": 44,
+        "height": 44,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 319,
+    "theme": "dark",
+    "view": "Resources",
+    "padding": "4px",
+    "radius": "999px",
+    "background": "rgba(255, 255, 255, 0.14) none repeat scroll 0% 0% / auto padding-box border-box",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44,
+        "disabled": true
+      },
+      {
+        "width": 118.34375,
+        "height": 44,
+        "disabled": false
+      },
+      {
+        "width": 44,
+        "height": 44,
+        "disabled": true
+      }
+    ]
+  },
+  {
+    "width": 466,
+    "theme": "light",
+    "view": "Guide",
+    "padding": "4px",
+    "radius": "999px",
+    "background": "rgba(255, 255, 255, 0.62) none repeat scroll 0% 0% / auto padding-box border-box",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44,
+        "disabled": true
+      },
+      {
+        "width": 181.734375,
+        "height": 44,
+        "disabled": false
+      },
+      {
+        "width": 44,
+        "height": 44,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 466,
+    "theme": "light",
+    "view": "Scripture",
+    "padding": "4px",
+    "radius": "999px",
+    "background": "rgba(255, 255, 255, 0.62) none repeat scroll 0% 0% / auto padding-box border-box",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44,
+        "disabled": true
+      },
+      {
+        "width": 167.71875,
+        "height": 44,
+        "disabled": false
+      },
+      {
+        "width": 44,
+        "height": 44,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 466,
+    "theme": "light",
+    "view": "Resources",
+    "padding": "4px",
+    "radius": "999px",
+    "background": "rgba(255, 255, 255, 0.62) none repeat scroll 0% 0% / auto padding-box border-box",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44,
+        "disabled": true
+      },
+      {
+        "width": 118.34375,
+        "height": 44,
+        "disabled": false
+      },
+      {
+        "width": 44,
+        "height": 44,
+        "disabled": true
+      }
+    ]
+  },
+  {
+    "width": 466,
+    "theme": "dark",
+    "view": "Guide",
+    "padding": "4px",
+    "radius": "999px",
+    "background": "rgba(255, 255, 255, 0.14) none repeat scroll 0% 0% / auto padding-box border-box",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44,
+        "disabled": true
+      },
+      {
+        "width": 181.734375,
+        "height": 44,
+        "disabled": false
+      },
+      {
+        "width": 44,
+        "height": 44,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 466,
+    "theme": "dark",
+    "view": "Scripture",
+    "padding": "4px",
+    "radius": "999px",
+    "background": "rgba(255, 255, 255, 0.14) none repeat scroll 0% 0% / auto padding-box border-box",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44,
+        "disabled": true
+      },
+      {
+        "width": 167.71875,
+        "height": 44,
+        "disabled": false
+      },
+      {
+        "width": 44,
+        "height": 44,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "width": 466,
+    "theme": "dark",
+    "view": "Resources",
+    "padding": "4px",
+    "radius": "999px",
+    "background": "rgba(255, 255, 255, 0.14) none repeat scroll 0% 0% / auto padding-box border-box",
+    "buttons": [
+      {
+        "width": 44,
+        "height": 44,
+        "disabled": true
+      },
+      {
+        "width": 118.34375,
+        "height": 44,
+        "disabled": false
+      },
+      {
+        "width": 44,
+        "height": 44,
+        "disabled": true
+      }
+    ]
+  }
+]

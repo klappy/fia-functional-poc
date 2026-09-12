@@ -1,0 +1,7 @@
+# Final bounded correction candidate
+
+Restored exact prior GlassSurface level3/medium/pill/rest; removed material-floating override after explicit user RETURN. Fit-content/max-width shared shell centers around actual controls, retaining actualsp2 edge padding and r-pill. Earlier opaque-shell and solid-side acceptances are superseded. Secondary GlassIconButton light preserved; only current completed eligible Next is dark.
+
+Read-back logs: native Scripture ended produces primary Next; changing version resets it PASS, screenshots next-ended-dark.png/next-reset-dark.png. Author visually inspected ended screenshot: compact glass shell, secondary disabled previous, primary eligible next. Existing controller41unitPASS covers paused/elapsed, restart/stop/restore/stale-ended; actual restored browser Next visual remains untested. Finished-session targeted rerun1PASS resolves earlier timeout without additional product change; concurrent rebuilding was possible but cause was not independently proven. Earlier11PASS1RETURN retained. Final shared screenshot rerun checks319/466 both themes all3contexts against final dist; exact result in final-shared-geometry.log. Build strict inventory still197files172unchangedMP3s.
+
+Review remains mandatory; no source/audio/provider edits, no merge/deployment. Latest author2 upper consumed across interrupted turns; meal45 preserved. Source-current Next browser evidence is narrow Scripture coverage, not all owner/filter/modal acceptance. Root should inspect final images and precise limitations before release.
