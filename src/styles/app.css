@@ -89,3 +89,5 @@ html[data-theme="dark"] .scripture-version{background:var(--material-floating)!i
 .inset-glass .compact-transport>button:first-child,.inset-glass .compact-transport>button:last-child{flex:none}
 .guide-footer>p{margin:0}
 @media(max-height:600px){.guide-card>.guide-footer,.scripture-text>.card-transport-footer{position:relative;left:auto;right:auto;bottom:auto}.guide-card .source-scroll,.scripture-text .scripture-scroll{padding-bottom:36px}}
+
+.guide-completion{margin-top:18px;text-align:center}.guide-completion>p{font:var(--type-caption);margin:0 0 8px}
