@@ -55,7 +55,7 @@ html[data-theme="dark"] .scripture-version{background:var(--material-floating)!i
 /* Card-footer trial: shared controls, stable reading-body/footer geometry. */
 .app-shell{padding-bottom:calc(94px + env(safe-area-inset-bottom))}
 .card-transport-footer{flex:none;border-top:var(--border-hairline);padding-top:12px;display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap}
-.card-transport-footer>.compact-transport{width:max-content;max-width:min(100%,var(--actual-nav-width,240px));gap:4px;padding:6px}
+.card-transport-footer>.compact-transport{width:max-content;width:100%;max-width:100%;gap:4px;padding:6px}
 .card-transport-footer .compact-transport>button:first-child,.card-transport-footer .compact-transport>button:last-child{flex:none}
 .card-transport-footer .owner-toggle{min-width:0;flex:0 1 auto}.card-transport-footer .owner-toggle span{max-width:140px}
 .guide-footer>p{flex-basis:100%;text-align:center;margin:0}.guide-footer>.compact-transport{order:2}
@@ -68,3 +68,6 @@ html[data-theme="dark"] .scripture-version{background:var(--material-floating)!i
 .dialog-transport-footer{padding:12px 18px 18px}.index-transport-footer{padding:12px 0}
 @media(max-width:520px){.scripture-text{height:calc(100dvh - 265px)}.card-transport-footer .owner-toggle span{max-width:115px}}
 @media(max-height:600px){.guide-card,.scripture-text,#panel-resources{height:auto;min-height:320px}.scripture-scroll,#panel-resources>.resource-grid{overflow:visible}.resource-dialog .dialog-body{overflow:auto}}
+
+/* The in-card player has room for a meaningful source name, unlike the former floating pill. */
+.card-transport-footer .owner-toggle{flex:0 1 auto;height:auto;min-height:44px}.card-transport-footer .owner-toggle span{max-width:none;white-space:normal;text-overflow:clip;overflow:visible;overflow-wrap:anywhere;line-height:1.35}
