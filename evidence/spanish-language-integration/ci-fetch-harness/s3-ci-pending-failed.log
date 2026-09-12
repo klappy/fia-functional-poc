@@ -1,0 +1,127 @@
+verify	Run npm run test:e2e	﻿2026-09-12T14:00:39.8271442Z ##[group]Run npm run test:e2e
+verify	Run npm run test:e2e	2026-09-12T14:00:39.8272001Z [36;1mnpm run test:e2e[0m
+verify	Run npm run test:e2e	2026-09-12T14:00:39.8324815Z shell: /usr/bin/bash -e {0}
+verify	Run npm run test:e2e	2026-09-12T14:00:39.8325294Z ##[endgroup]
+verify	Run npm run test:e2e	2026-09-12T14:00:39.9388561Z 
+verify	Run npm run test:e2e	2026-09-12T14:00:39.9389274Z > fia-functional-poc@0.1.0 test:e2e
+verify	Run npm run test:e2e	2026-09-12T14:00:39.9392022Z > playwright test
+verify	Run npm run test:e2e	2026-09-12T14:00:39.9392298Z 
+verify	Run npm run test:e2e	2026-09-12T14:00:42.3889930Z 
+verify	Run npm run test:e2e	2026-09-12T14:00:42.3898853Z Running 58 tests using 1 worker
+verify	Run npm run test:e2e	2026-09-12T14:00:42.3899467Z 
+verify	Run npm run test:e2e	2026-09-12T14:00:57.6259799Z   ✓   1 tests/card-footer.spec.js:3:1 › card footer contains exact transport across reading views and modal without floating duplicate (14.1s)
+verify	Run npm run test:e2e	2026-09-12T14:01:00.6325507Z   ✓   2 tests/card-footer.spec.js:4:1 › footer controls preserve actual owner through resource exploration (3.0s)
+verify	Run npm run test:e2e	2026-09-12T14:01:01.4548968Z   ✓   3 tests/compact.spec.js:3:1 › actual missing recording exposes source error without a running dock (741ms)
+verify	Run npm run test:e2e	2026-09-12T14:01:03.4195462Z   ✓   4 tests/compact.spec.js:4:1 › compact labeled action and explicit secondary controls fit326 and726 (2.0s)
+verify	Run npm run test:e2e	2026-09-12T14:01:05.0530917Z   ✓   5 tests/composition.spec.js:2:1 › whole reading composition has stable actions and reachable source at desktop and mobile (1.6s)
+verify	Run npm run test:e2e	2026-09-12T14:01:07.1779475Z   ✓   6 tests/composition.spec.js:3:1 › current owner remains controllable while a different term is explored and term player is inside card (2.1s)
+verify	Run npm run test:e2e	2026-09-12T14:01:08.5649941Z   ✓   7 tests/contextual.spec.js:3:1 › floating tabs support keyboard and local controls fit desktop and320px without nested buttons (1.4s)
+verify	Run npm run test:e2e	2026-09-12T14:01:10.4794286Z   ✓   8 tests/contextual.spec.js:5:1 › current-step index preserves context and all117 source sections remain reachable (1.9s)
+verify	Run npm run test:e2e	2026-09-12T14:01:14.3499787Z   ✓   9 tests/contrast-badge.spec.js:2:1 › dark semantic labels and original media badge hierarchy use actual tokens (3.8s)
+verify	Run npm run test:e2e	2026-09-12T14:01:21.8809590Z   ✓  10 tests/dock.spec.js:2:1 › one floating owner survives exploration with safe narrow dock and modal counterpart (7.5s)
+verify	Run npm run test:e2e	2026-09-12T14:01:27.8670707Z   ✓  11 tests/error-dock.spec.js:3:1 › real404 compact Retry is source-scoped accessible and recovers in both themes (6.0s)
+verify	Run npm run test:e2e	2026-09-12T14:01:30.4229530Z   ✓  12 tests/gap.spec.js:2:1 › actual guide gap preserves completed context and narrow dock never exceeds actual menu (2.5s)
+verify	Run npm run test:e2e	2026-09-12T14:01:31.6040414Z   ✓  13 tests/guided-session.spec.js:5:1 › real guide, Scripture selection and exact position survive view changes and reload (1.1s)
+verify	Run npm run test:e2e	2026-09-12T14:01:32.4931756Z   ✓  14 tests/guided-session.spec.js:15:1 › contextual real map opens, renders and returns focus without moving the guide (867ms)
+verify	Run npm run test:e2e	2026-09-12T14:01:34.1492884Z   ✓  15 tests/guided-session.spec.js:23:1 › examples require explicit reveal and every resource type is available (1.6s)
+verify	Run npm run test:e2e	2026-09-12T14:01:34.8417123Z   ✓  16 tests/guided-session.spec.js:32:1 › narrow layout, keyboard dialog and large text remain usable (665ms)
+verify	Run npm run test:e2e	2026-09-12T14:01:35.5531023Z   ✓  17 tests/guided-session.spec.js:39:1 › failed required source renders a real error with retry, never substitute content (687ms)
+verify	Run npm run test:e2e	2026-09-12T14:01:36.5396993Z   ✓  18 tests/guided-session.spec.js:45:1 › duplicate source names are distinguished by source meaning and inspected image (968ms)
+verify	Run npm run test:e2e	2026-09-12T14:01:36.9456150Z   ✓  19 tests/guided-session.spec.js:50:1 › official FIA identity and colors render with readable contrast (389ms)
+verify	Run npm run test:e2e	2026-09-12T14:01:38.7814508Z   ✓  20 tests/guided-session.spec.js:58:1 › resources show all eight real previews, source metadata, search and honest online video (1.8s)
+verify	Run npm run test:e2e	2026-09-12T14:01:39.8079101Z   ✓  21 tests/guided-session.spec.js:68:1 › finished-session return from another view really restores the guide (999ms)
+verify	Run npm run test:e2e	2026-09-12T14:01:45.3688947Z   ✓  22 tests/idle-player.spec.js:3:1 › ready context, real0.95rate, pause/resume and playing exploration remain truthful (5.5s)
+verify	Run npm run test:e2e	2026-09-12T14:01:46.2129023Z   ✓  23 tests/inset-glass.spec.js:2:1 › inset credit and native transport remain reachable under actual playback (808ms)
+verify	Run npm run test:e2e	2026-09-12T14:01:54.5854788Z   ✓  24 tests/local-contrast.spec.js:2:1 › button-local substrate preserves shell and native emphasis (8.3s)
+verify	Run npm run test:e2e	2026-09-12T14:01:56.8229966Z   ✓  25 tests/nested-direct.spec.js:2:1 › direct Guide Scripture and resource controls retain Guide adjacency through pause and end (2.2s)
+verify	Run npm run test:e2e	2026-09-12T14:02:00.9989561Z   ✓  26 tests/nested-pwa.spec.js:2:1 › PWA save preserves nested owner and current instruction (4.1s)
+verify	Run npm run test:e2e	2026-09-12T14:02:04.6898135Z   ✓  27 tests/nested-ready.spec.js:2:1 › native instruction ends ready selected ULT without autoplay; pause and nested completion keep Guide navigation (3.7s)
+verify	Run npm run test:e2e	2026-09-12T14:02:06.4511541Z   ✓  28 tests/next-actions.spec.js:3:1 › real adapted map action ends with its exact resource and metadata restores without invented association (1.7s)
+verify	Run npm run test:e2e	2026-09-12T14:02:09.9992538Z   ✓  29 tests/pause-groups.spec.js:3:1 › all four legacy cue bookmarks keep their activity through real audio ended and explicit Continue (3.5s)
+verify	Run npm run test:e2e	2026-09-12T14:02:11.6286215Z   ✓  30 tests/primary-ended.spec.js:1:78 › after owner ends current hidden idle selection becomes chooser (1.6s)
+verify	Run npm run test:e2e	2026-09-12T14:02:13.4545349Z   ✓  31 tests/primary-ended.spec.js:3:1 › paused owner resumes and intentional captured-list Next stays selected without autoplay (1.8s)
+verify	Run npm run test:e2e	2026-09-12T14:02:16.4499064Z   ✓  32 tests/primary.spec.js:2:1 › three controls, no autoplay adjacency, filtered modal focus and source cornerRestart (3.0s)
+verify	Run npm run test:e2e	2026-09-12T14:02:22.8949001Z click { x: 5, y: 110 } { tag: 'BUTTON', cls: 'resource-surface-open' }
+verify	Run npm run test:e2e	2026-09-12T14:02:23.1609051Z click { x: 20, y: 60 } { tag: 'BUTTON', cls: 'resource-surface-open' }
+verify	Run npm run test:e2e	2026-09-12T14:02:23.3309622Z click { x: 35, y: 115 } { tag: 'BUTTON', cls: 'resource-surface-open' }
+verify	Run npm run test:e2e	2026-09-12T14:02:23.7569845Z   ✓  33 tests/resource-order.spec.js:2:1 › row order and full card native opening preserve independent audio (7.3s)
+verify	Run npm run test:e2e	2026-09-12T14:02:24.7831177Z   ✓  34 tests/resource-order.spec.js:3:1 › filtered DOM keyboard and player adjacency retain source order (1.0s)
+verify	Run npm run test:e2e	2026-09-12T14:02:25.5913444Z {"width":319,"theme":"dark","x":0,"auroraScroll":0,"doc":319,"rects":{".app-shell":{"x":0,"right":319,"width":319},".official-fia-mark":{"x":14,"right":99.046875,"width":85.046875},"input[type=search]":{"x":65,"right":284,"width":219},".resource-grid":{"x":14,"right":305,"width":291},".resource-card":{"x":18,"right":301,"width":283}}}
+verify	Run npm run test:e2e	2026-09-12T14:02:26.8433062Z {"width":319,"theme":"light","x":0,"auroraScroll":0,"doc":319,"rects":{".app-shell":{"x":0,"right":319,"width":319},".official-fia-mark":{"x":14,"right":99.046875,"width":85.046875},"input[type=search]":{"x":65,"right":284,"width":219},".resource-grid":{"x":14,"right":305,"width":291},".resource-card":{"x":18,"right":301,"width":283}}}
+verify	Run npm run test:e2e	2026-09-12T14:02:27.7349404Z {"width":466,"theme":"dark","x":0,"auroraScroll":0,"doc":466,"rects":{".app-shell":{"x":0,"right":466,"width":466},".official-fia-mark":{"x":18,"right":103.046875,"width":85.046875},"input[type=search]":{"x":69,"right":427,"width":358},".resource-grid":{"x":18,"right":448,"width":430},".resource-card":{"x":22,"right":227,"width":205}}}
+verify	Run npm run test:e2e	2026-09-12T14:02:28.5711146Z {"width":466,"theme":"light","x":0,"auroraScroll":0,"doc":466,"rects":{".app-shell":{"x":0,"right":466,"width":466},".official-fia-mark":{"x":18,"right":103.046875,"width":85.046875},"input[type=search]":{"x":69,"right":427,"width":358},".resource-grid":{"x":18,"right":448,"width":430},".resource-card":{"x":22,"right":227,"width":205}}}
+verify	Run npm run test:e2e	2026-09-12T14:02:29.5098741Z {"width":726,"theme":"dark","x":0,"auroraScroll":0,"doc":726,"rects":{".app-shell":{"x":0,"right":726,"width":726},".official-fia-mark":{"x":24,"right":109.046875,"width":85.046875},"input[type=search]":{"x":75,"right":681,"width":606},".resource-grid":{"x":24,"right":702,"width":678},".resource-card":{"x":28,"right":357,"width":329}}}
+verify	Run npm run test:e2e	2026-09-12T14:02:30.4584286Z {"width":726,"theme":"light","x":0,"auroraScroll":0,"doc":726,"rects":{".app-shell":{"x":0,"right":726,"width":726},".official-fia-mark":{"x":24,"right":109.046875,"width":85.046875},"input[type=search]":{"x":75,"right":681,"width":606},".resource-grid":{"x":24,"right":702,"width":678},".resource-card":{"x":28,"right":357,"width":329}}}
+verify	Run npm run test:e2e	2026-09-12T14:02:31.2069299Z   ✓  35 tests/resource-order.spec.js:4:1 › resource viewport diagnostics (6.4s)
+verify	Run npm run test:e2e	2026-09-12T14:02:31.9898724Z {"width":319,"shell":0,"aurora":0,"x":19,"right":300,"top":833.125,"bottom":987.125,"w":319,"h":987,"name":"Open Jordan River image"}
+verify	Run npm run test:e2e	2026-09-12T14:02:31.9980171Z {"width":319,"shell":0,"aurora":0,"x":246,"right":290,"top":933.125,"bottom":977.125,"w":319,"h":987,"name":"Play Jordan River"}
+verify	Run npm run test:e2e	2026-09-12T14:02:32.0081692Z {"width":319,"shell":0,"aurora":0,"x":19,"right":300,"top":416.125,"bottom":570.125,"w":319,"h":987,"name":"Open Wilderness or Desert image"}
+verify	Run npm run test:e2e	2026-09-12T14:02:32.0231617Z {"width":319,"shell":0,"aurora":0,"x":246,"right":290,"top":516.125,"bottom":560.125,"w":319,"h":987,"name":"Play Wilderness or Desert"}
+verify	Run npm run test:e2e	2026-09-12T14:02:32.0299384Z {"width":319,"shell":0,"aurora":0,"x":19,"right":300,"top":584.125,"bottom":738.125,"w":319,"h":987,"name":"Open Sandals — full view image"}
+verify	Run npm run test:e2e	2026-09-12T14:02:32.0389226Z {"width":319,"shell":0,"aurora":0,"x":246,"right":290,"top":684.125,"bottom":728.125,"w":319,"h":987,"name":"Play Sandals — full view"}
+verify	Run npm run test:e2e	2026-09-12T14:02:32.0559308Z {"width":319,"shell":0,"aurora":0,"x":19,"right":300,"top":752.125,"bottom":906.125,"w":319,"h":987,"name":"Open Sandals — close view image"}
+verify	Run npm run test:e2e	2026-09-12T14:02:32.0691394Z {"width":319,"shell":0,"aurora":0,"x":246,"right":290,"top":852.125,"bottom":896.125,"w":319,"h":987,"name":"Play Sandals — close view"}
+verify	Run npm run test:e2e	2026-09-12T14:02:32.2779373Z {"width":466,"shell":0,"aurora":0,"x":240,"right":443,"top":419.96875,"bottom":573.96875,"w":466,"h":987,"name":"Open Jordan River image"}
+verify	Run npm run test:e2e	2026-09-12T14:02:32.2851238Z {"width":466,"shell":0,"aurora":0,"x":389,"right":433,"top":519.96875,"bottom":563.96875,"w":466,"h":987,"name":"Play Jordan River"}
+verify	Run npm run test:e2e	2026-09-12T14:02:32.2907270Z {"width":466,"shell":0,"aurora":0,"x":23,"right":226,"top":624.9375,"bottom":778.9375,"w":466,"h":987,"name":"Open Wilderness or Desert image"}
+verify	Run npm run test:e2e	2026-09-12T14:02:32.2970119Z {"width":466,"shell":0,"aurora":0,"x":172,"right":216,"top":724.9375,"bottom":768.9375,"w":466,"h":987,"name":"Play Wilderness or Desert"}
+verify	Run npm run test:e2e	2026-09-12T14:02:32.3039552Z {"width":466,"shell":0,"aurora":0,"x":240,"right":443,"top":624.9375,"bottom":778.9375,"w":466,"h":987,"name":"Open Sandals — full view image"}
+verify	Run npm run test:e2e	2026-09-12T14:02:32.3109294Z {"width":466,"shell":0,"aurora":0,"x":389,"right":433,"top":724.9375,"bottom":768.9375,"w":466,"h":987,"name":"Play Sandals — full view"}
+verify	Run npm run test:e2e	2026-09-12T14:02:32.3169297Z {"width":466,"shell":0,"aurora":0,"x":23,"right":226,"top":792.9375,"bottom":946.9375,"w":466,"h":987,"name":"Open Sandals — close view image"}
+verify	Run npm run test:e2e	2026-09-12T14:02:32.3349589Z {"width":466,"shell":0,"aurora":0,"x":172,"right":216,"top":892.9375,"bottom":936.9375,"w":466,"h":987,"name":"Play Sandals — close view"}
+verify	Run npm run test:e2e	2026-09-12T14:02:32.4679552Z {"width":726,"shell":0,"aurora":0,"x":370,"right":697,"top":390.78125,"bottom":548.78125,"w":726,"h":987,"name":"Open Jordan River image"}
+verify	Run npm run test:e2e	2026-09-12T14:02:32.4779092Z {"width":726,"shell":0,"aurora":0,"x":641,"right":685,"top":492.78125,"bottom":536.78125,"w":726,"h":987,"name":"Play Jordan River"}
+verify	Run npm run test:e2e	2026-09-12T14:02:32.4859142Z {"width":726,"shell":0,"aurora":0,"x":29,"right":356,"top":566.5625,"bottom":724.5625,"w":726,"h":987,"name":"Open Wilderness or Desert image"}
+verify	Run npm run test:e2e	2026-09-12T14:02:32.4922852Z {"width":726,"shell":0,"aurora":0,"x":300,"right":344,"top":668.5625,"bottom":712.5625,"w":726,"h":987,"name":"Play Wilderness or Desert"}
+verify	Run npm run test:e2e	2026-09-12T14:02:32.4993437Z {"width":726,"shell":0,"aurora":0,"x":370,"right":697,"top":566.5625,"bottom":724.5625,"w":726,"h":987,"name":"Open Sandals — full view image"}
+verify	Run npm run test:e2e	2026-09-12T14:02:32.5060803Z {"width":726,"shell":0,"aurora":0,"x":641,"right":685,"top":668.5625,"bottom":712.5625,"w":726,"h":987,"name":"Play Sandals — full view"}
+verify	Run npm run test:e2e	2026-09-12T14:02:32.5122339Z {"width":726,"shell":0,"aurora":0,"x":29,"right":356,"top":738.5625,"bottom":896.5625,"w":726,"h":987,"name":"Open Sandals — close view image"}
+verify	Run npm run test:e2e	2026-09-12T14:02:32.5189356Z {"width":726,"shell":0,"aurora":0,"x":300,"right":344,"top":840.5625,"bottom":884.5625,"w":726,"h":987,"name":"Play Sandals — close view"}
+verify	Run npm run test:e2e	2026-09-12T14:02:32.6251159Z   ✓  36 tests/resource-order.spec.js:5:1 › keyboard focus never scrolls aurora horizontally (1.4s)
+verify	Run npm run test:e2e	2026-09-12T14:02:33.8099224Z   ✓  37 tests/resource-order.spec.js:6:1 › failed recording leaves whole card center openable (1.2s)
+verify	Run npm run test:e2e	2026-09-12T14:02:37.1111714Z   ✓  38 tests/scripture-header.spec.js:2:1 › Scripture Info and Play remain inside narrow selected-version header in both themes (3.3s)
+verify	Run npm run test:e2e	2026-09-12T14:02:38.9300100Z   ✓  39 tests/spanish-integration.spec.js:3:1 › full picker and English Spanish reload switches never autoplay (1.8s)
+verify	Run npm run test:e2e	2026-09-12T14:02:41.2503444Z   ✓  40 tests/spanish-integration.spec.js:4:1 › Spanish saves separate verified text pack and restores offline (2.3s)
+verify	Run npm run test:e2e	2026-09-12T14:02:43.0849772Z   ✓  41 tests/spanish-integration.spec.js:5:1 › Spanish narrow full picker source view and keyboard example return (1.8s)
+verify	Run npm run test:e2e	2026-09-12T14:02:44.0600272Z   ✓  42 tests/spanish-integration.spec.js:6:1 › corrupt target retains paused English with zero added plays (963ms)
+verify	Run npm run test:e2e	2026-09-12T14:02:45.2029648Z   ✓  43 tests/spanish-integration.spec.js:7:1 › denied storage fonts blocked and large Spanish text remain usable (1.1s)
+verify	Run npm run test:e2e	2026-09-12T14:02:46.2609729Z   ✓  44 tests/spanish-integration.spec.js:8:1 › Spanish invalid source ID visibly resets without autoplay (1.0s)
+verify	Run npm run test:e2e	2026-09-12T14:02:50.4360607Z   ✓  45 tests/spanish-integration.spec.js:9:1 › saved legacy English then new Spanish launches current shell offline (4.2s)
+verify	Run npm run test:e2e	2026-09-12T14:02:51.9259624Z   ✓  46 tests/spanish-integration.spec.js:10:1 › repaired Spanish position drops both new and historical persisted warning on reload (1.5s)
+verify	Run npm run test:e2e	2026-09-12T14:02:52.6059468Z   ✓  47 tests/spanish-integration.spec.js:11:1 › English Languages view survives reload without autoplay (661ms)
+verify	Run npm run test:e2e	2026-09-12T14:02:53.7934896Z   ✓  48 tests/spanish-integration.spec.js:12:1 › Languages reload keeps explicit Resume at native checkpoint (1.2s)
+verify	Run npm run test:e2e	2026-09-12T14:02:55.7142534Z   ✓  49 tests/spanish-integration.spec.js:14:1 › language roundtrip preserves native checkpoint and shared theme (1.9s)
+verify	Run npm run test:e2e	2026-09-12T14:03:01.1438579Z   ✘  50 tests/spanish-integration.spec.js:16:1 › pending English start is fenced during slow Spanish selection (5.4s)
+verify	Run npm run test:e2e	2026-09-12T14:03:11.5086887Z   ✓  51 tests/speech-offline.spec.js:6:1 › complete offline pack and real media survive cold page, exploration and new owner (9.4s)
+verify	Run npm run test:e2e	2026-09-12T14:03:19.6984040Z   ✓  52 tests/speech-offline.spec.js:13:1 › missing corrupt canceled transfers preserve a verified pack and removal remains explicit (8.1s)
+verify	Run npm run test:e2e	2026-09-12T14:03:24.9951994Z   ✓  53 tests/speech-offline.spec.js:18:1 › combined transition plays offline and stops on the activity; source info returns focus (5.3s)
+verify	Run npm run test:e2e	2026-09-12T14:03:28.5599814Z   ✓  54 tests/theme-header.spec.js:3:1 › header utilities align and inline source glyph inherits theme across sizes (3.5s)
+verify	Run npm run test:e2e	2026-09-12T14:03:39.5190162Z   ✓  55 tests/theme.spec.js:3:1 › actual theme aliases and all views preserve active audio and position (10.9s)
+verify	Run npm run test:e2e	2026-09-12T14:03:47.5845568Z   ✓  56 tests/upgrade.spec.js:3:1 › ordinary reload upgrades a saved previous shell without deleting progress or its verified pack (8.0s)
+verify	Run npm run test:e2e	2026-09-12T14:04:01.4997861Z   ✓  57 tests/visual-audio.spec.js:2:1 › eight real visual clips verify and play cold offline with optional details and filtered owner (13.9s)
+verify	Run npm run test:e2e	2026-09-12T14:04:02.6569654Z   ✓  58 tests/visual-audio.spec.js:3:1 › missing visual recording exposes error while original image remains openable (1.1s)
+verify	Run npm run test:e2e	2026-09-12T14:04:02.7255305Z 
+verify	Run npm run test:e2e	2026-09-12T14:04:02.7262099Z 
+verify	Run npm run test:e2e	2026-09-12T14:04:02.7273660Z   1) tests/spanish-integration.spec.js:16:1 › pending English start is fenced during slow Spanish selection 
+verify	Run npm run test:e2e	2026-09-12T14:04:02.7274840Z 
+verify	Run npm run test:e2e	2026-09-12T14:04:02.7275736Z     Error: expect(received).toBe(expected) // Object.is equality
+verify	Run npm run test:e2e	2026-09-12T14:04:02.7276574Z 
+verify	Run npm run test:e2e	2026-09-12T14:04:02.7276978Z     Expected: true
+verify	Run npm run test:e2e	2026-09-12T14:04:02.7279328Z     Received: false
+verify	Run npm run test:e2e	2026-09-12T14:04:02.7281861Z 
+verify	Run npm run test:e2e	2026-09-12T14:04:02.7287288Z     Call Log:
+verify	Run npm run test:e2e	2026-09-12T14:04:02.7288429Z     - Timeout 5000ms exceeded while waiting on the predicate
+verify	Run npm run test:e2e	2026-09-12T14:04:02.7289202Z 
+verify	Run npm run test:e2e	2026-09-12T14:04:02.7302063Z       14 | test('language roundtrip preserves native checkpoint and shared theme',async({page})=>{await page.addInitScript(()=>{window.__plays=0;const A=window.Audio;window.Audio=class extends A{constructor(...a){super(...a);window.__audio=this;}};const play=HTMLMediaElement.prototype.play;HTMLMediaElement.prototype.play=function(){window.__plays++;return play.call(this);};});await page.goto('/');await page.getByRole('tab',{name:'Scripture',exact:true}).click();await page.getByRole('button',{name:'Play Scripture BSB',exact:true}).click();await expect.poll(()=>page.evaluate(()=>window.__audio?.currentTime??0)).toBeGreaterThan(0);await page.evaluate(()=>window.__audio.currentTime=5);await language(page,'Español');await page.getByRole('button',{name:'Switch to dark theme'}).click();await page.reload();await expect(page.locator('html')).toHaveAttribute('data-theme','dark');await language(page,'English English');await expect(page.locator('html')).toHaveAttribute('data-theme','dark');await expect(page.getByRole('button',{name:'Resume Now playing'})).toBeVisible();expect(await page.evaluate(()=>window.__plays)).toBe(0);expect(await page.evaluate(()=>window.__audio.currentTime)).toBeGreaterThanOrEqual(4.9);await page.getByRole('button',{name:'Resume Now playing'}).click();await expect.poll(()=>page.evaluate(()=>window.__audio.currentTime)).toBeGreaterThan(5);expect(await page.evaluate(()=>window.__plays)).toBe(1);});
+verify	Run npm run test:e2e	2026-09-12T14:04:02.7311530Z       15 |
+verify	Run npm run test:e2e	2026-09-12T14:04:02.7321493Z     > 16 | test('pending English start is fenced during slow Spanish selection',async({page})=>{await page.addInitScript(()=>{window.__plays=0;const p=HTMLMediaElement.prototype.play;HTMLMediaElement.prototype.play=function(){window.__plays++;return p.call(this);};});let releaseAudio,releaseSpanish;const audioGate=new Promise(r=>releaseAudio=r),spanishGate=new Promise(r=>releaseSpanish=r);let held=false;await page.route('**/*.mp3',async route=>{if(!held){held=true;await audioGate;}await route.continue().catch(()=>{});});await page.route('**/content/spa/**/pack.json',async route=>{await spanishGate;await route.continue();});await page.goto('/');await page.getByRole('button',{name:'Play guide',exact:true}).click();await expect.poll(()=>held).toBe(true);await page.getByRole('tab',{name:'Languages',exact:true}).click();await page.getByRole('button',{name:/Español/}).click();releaseAudio();await expect(page.getByRole('button',{name:'Resume Now playing'})).toBeVisible();expect(await page.evaluate(()=>window.__plays)).toBe(0);releaseSpanish();await expect(page.getByText('Español · text and images · narration unavailable')).toBeVisible();expect(await page.evaluate(()=>window.__plays)).toBe(0);});
+verify	Run npm run test:e2e	2026-09-12T14:04:02.7331891Z          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^
+verify	Run npm run test:e2e	2026-09-12T14:04:02.7348083Z       17 |
+verify	Run npm run test:e2e	2026-09-12T14:04:02.7349255Z         at /home/runner/work/fia-functional-poc/fia-functional-poc/tests/spanish-integration.spec.js:16:740
+verify	Run npm run test:e2e	2026-09-12T14:04:02.7350245Z 
+verify	Run npm run test:e2e	2026-09-12T14:04:02.7351211Z     Error Context: test-results/spanish-integration-pendin-bc57f-ring-slow-Spanish-selection/error-context.md
+verify	Run npm run test:e2e	2026-09-12T14:04:02.7352281Z 
+verify	Run npm run test:e2e	2026-09-12T14:04:02.7352872Z   1 failed
+verify	Run npm run test:e2e	2026-09-12T14:04:02.7354155Z     tests/spanish-integration.spec.js:16:1 › pending English start is fenced during slow Spanish selection 
+verify	Run npm run test:e2e	2026-09-12T14:04:02.7355272Z   57 passed (3.4m)
+verify	Run npm run test:e2e	2026-09-12T14:04:02.7481793Z ##[error]Process completed with exit code 1.
