@@ -1,0 +1,34 @@
+[WebServer] (node:32600) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 3 tests using 1 worker
+
+(node:32601) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/spanish-integration.spec.js:6:1 › corrupt target retains paused English with zero added plays (1.1s)
+  ✓  2 tests/spanish-integration.spec.js:14:1 › language roundtrip preserves native checkpoint and shared theme (1.2s)
+  ✘  3 tests/spanish-integration.spec.js:16:1 › pending English start is fenced during slow Spanish selection (5.3s)
+
+
+  1) tests/spanish-integration.spec.js:16:1 › pending English start is fenced during slow Spanish selection 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+      14 | test('language roundtrip preserves native checkpoint and shared theme',async({page})=>{await page.addInitScript(()=>{window.__plays=0;const A=window.Audio;window.Audio=class extends A{constructor(...a){super(...a);window.__audio=this;}};const play=HTMLMediaElement.prototype.play;HTMLMediaElement.prototype.play=function(){window.__plays++;return play.call(this);};});await page.goto('/');await page.getByRole('tab',{name:'Scripture',exact:true}).click();await page.getByRole('button',{name:'Play Scripture BSB',exact:true}).click();await expect.poll(()=>page.evaluate(()=>window.__audio?.currentTime??0)).toBeGreaterThan(0);await page.evaluate(()=>window.__audio.currentTime=5);await language(page,'Español');await page.getByRole('button',{name:'Switch to dark theme'}).click();await page.reload();await expect(page.locator('html')).toHaveAttribute('data-theme','dark');await language(page,'English English');await expect(page.locator('html')).toHaveAttribute('data-theme','dark');await expect(page.getByRole('button',{name:'Resume Now playing'})).toBeVisible();expect(await page.evaluate(()=>window.__plays)).toBe(0);expect(await page.evaluate(()=>window.__audio.currentTime)).toBeGreaterThanOrEqual(4.9);await page.getByRole('button',{name:'Resume Now playing'}).click();await expect.poll(()=>page.evaluate(()=>window.__audio.currentTime)).toBeGreaterThan(5);expect(await page.evaluate(()=>window.__plays)).toBe(1);});
+      15 |
+    > 16 | test('pending English start is fenced during slow Spanish selection',async({page})=>{await page.addInitScript(()=>{window.__plays=0;const p=HTMLMediaElement.prototype.play;HTMLMediaElement.prototype.play=function(){window.__plays++;return p.call(this);};});let releaseAudio,releaseSpanish;const audioGate=new Promise(r=>releaseAudio=r),spanishGate=new Promise(r=>releaseSpanish=r);let held=false;await page.route('**/*.mp3',async route=>{if(!held){held=true;await audioGate;}await route.continue().catch(()=>{});});await page.route('**/content/spa/**/pack.json',async route=>{await spanishGate;await route.continue();});await page.goto('/');await page.getByRole('button',{name:'Play guide',exact:true}).click();await expect.poll(()=>held).toBe(true);await page.getByRole('tab',{name:'Languages',exact:true}).click();await page.getByRole('button',{name:/Español/}).click();releaseAudio();await expect(page.getByRole('button',{name:'Resume Now playing'})).toBeVisible();expect(await page.evaluate(()=>window.__plays)).toBe(0);releaseSpanish();await expect(page.getByText('Español · text and images · narration unavailable')).toBeVisible();expect(await page.evaluate(()=>window.__plays)).toBe(0);});
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^
+      17 |
+        at /private/tmp/fia-spanish-integration-app/tests/spanish-integration.spec.js:16:740
+
+    Error Context: test-results/spanish-integration-pendin-bc57f-ring-slow-Spanish-selection/error-context.md
+
+  1 failed
+    tests/spanish-integration.spec.js:16:1 › pending English start is fenced during slow Spanish selection 
+  2 passed (8.7s)

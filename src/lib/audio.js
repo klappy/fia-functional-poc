@@ -14,6 +14,7 @@ export class AudioController {
  stop(){this.completed=false;this.restoring=false;this.pendingRestore=null;this.clearGap();this.generation++;this.abort?.abort();if(this.audio){this.audio.pause();this.audio.removeAttribute?.('src');this.audio.load?.();this.audio=null;}this.release();this.item=null;this.emit('idle');}
  rate(){if(this.audio){this.audio.playbackRate=.95;this.audio.preservesPitch=true;}}
  restart(){this.completed=false;this.emit(this.status);if(this.restoring){this.speak(this.items.slice(this.itemIndex),null,this.onItemEnd);return;}this.clearGap();const token=this.generation;if(this.audio){this.audio.currentTime=0;this.rate();this.audio.play().catch(e=>{if(token===this.generation)this.emit('error',e.message);});}}
+ suspend(){const saved=this.checkpoint();if(saved&&['starting','restoring'].includes(this.status)){this.restore(this.items.slice(this.itemIndex),saved,this.onItemEnd);}else this.pause();return saved;}
  pause(){if(this.queued){clearTimeout(this.gapTimer);this.gapTimer=null;this.emit('paused');return;}this.audio?.pause();}
  resume(){if(this.restoring)return;if(this.queued){const run=this.queued;this.clearGap();run();return;}const token=this.generation;this.rate();this.audio?.play().catch(e=>{if(token===this.generation)this.emit('error',`Playback could not resume: ${e.message}`);});}
  restore(items,checkpoint,onItemEnd=()=>{}){this.speak(items,null,onItemEnd,checkpoint);}

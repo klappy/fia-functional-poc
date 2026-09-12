@@ -1,0 +1,25 @@
+[WebServer] (node:55598) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:55599) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 14 tests using 1 worker
+
+(node:55600) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/spanish-integration.spec.js:3:1 › full picker and English Spanish reload switches never autoplay (1.9s)
+  ✓   2 tests/spanish-integration.spec.js:4:1 › Spanish saves separate verified text pack and restores offline (1.6s)
+  ✓   3 tests/spanish-integration.spec.js:5:1 › Spanish narrow full picker source view and keyboard example return (1.0s)
+  ✓   4 tests/spanish-integration.spec.js:6:1 › corrupt target retains paused English with zero added plays (664ms)
+  ✓   5 tests/spanish-integration.spec.js:7:1 › denied storage fonts blocked and large Spanish text remain usable (681ms)
+  ✓   6 tests/spanish-integration.spec.js:8:1 › Spanish invalid source ID visibly resets without autoplay (665ms)
+  ✓   7 tests/spanish-integration.spec.js:9:1 › saved legacy English then new Spanish launches current shell offline (2.6s)
+  ✓   8 tests/spanish-integration.spec.js:10:1 › repaired Spanish position drops both new and historical persisted warning on reload (894ms)
+  ✓   9 tests/spanish-integration.spec.js:11:1 › English Languages view survives reload without autoplay (542ms)
+  ✓  10 tests/spanish-integration.spec.js:12:1 › Languages reload keeps explicit Resume at native checkpoint (754ms)
+  ✓  11 tests/spanish-integration.spec.js:14:1 › language roundtrip preserves native checkpoint and shared theme (1.2s)
+  ✓  12 tests/spanish-integration.spec.js:17:1 › online deferred audio fetch › pending English start is fenced during slow Spanish selection (554ms)
+  ✓  13 tests/spanish-integration.spec.js:20:1 › Spanish theme preserves legacy English guide position (824ms)
+  ✓  14 tests/spanish-integration.spec.js:21:1 › Spanish invalid position and theme quota warnings remain distinct (798ms)
+
+  14 passed (16.0s)

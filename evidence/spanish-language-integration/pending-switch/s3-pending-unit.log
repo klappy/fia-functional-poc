@@ -1,0 +1,46 @@
+TAP version 13
+# Subtest: workspace validates fields independently and source identity without guessing newer schemas
+ok 1 - workspace validates fields independently and source identity without guessing newer schemas
+  ---
+  duration_ms: 0.821583
+  type: 'test'
+  ...
+# Subtest: restored guide queues respect source stops and reject hidden/pure metadata IDs
+ok 2 - restored guide queues respect source stops and reject hidden/pure metadata IDs
+  ---
+  duration_ms: 0.424834
+  type: 'test'
+  ...
+# Subtest: restore never plays before explicit Resume and clamps verified metadata offset
+ok 3 - restore never plays before explicit Resume and clamps verified metadata offset
+  ---
+  duration_ms: 3.533333
+  type: 'test'
+  ...
+# Subtest: stale delayed fetch and metadata cannot override new playback, Restart or superseding restore
+ok 4 - stale delayed fetch and metadata cannot override new playback, Restart or superseding restore
+  ---
+  duration_ms: 2.030167
+  type: 'test'
+  ...
+# Subtest: pagehide-style checkpoint preserves source-bound offset through delayed metadata and seek
+ok 5 - pagehide-style checkpoint preserves source-bound offset through delayed metadata and seek
+  ---
+  duration_ms: 0.677083
+  type: 'test'
+  ...
+# Subtest: theme-only Spanish storage restores English theme without losing existing fields
+ok 6 - theme-only Spanish storage restores English theme without losing existing fields
+  ---
+  duration_ms: 0.172209
+  type: 'test'
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 52.4905

@@ -1,0 +1,12 @@
+[WebServer] (node:18459) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 3 tests using 1 worker
+
+(node:18461) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/nested-direct.spec.js:2:1 › direct Guide Scripture and resource controls retain Guide adjacency through pause and end (2.8s)
+  ✓  2 tests/nested-ready.spec.js:2:1 › native instruction ends ready selected ULT without autoplay; pause and nested completion keep Guide navigation (3.5s)
+  ✓  3 tests/spanish-integration.spec.js:12:1 › Languages reload keeps explicit Resume at native checkpoint (756ms)
+
+  3 passed (7.9s)

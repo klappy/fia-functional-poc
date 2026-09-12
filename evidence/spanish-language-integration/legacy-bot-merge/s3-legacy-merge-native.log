@@ -1,0 +1,12 @@
+[WebServer] (node:52584) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 3 tests using 1 worker
+
+(node:52585) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/spanish-integration.spec.js:14:1 › language roundtrip preserves native checkpoint and shared theme (2.1s)
+  ✓  2 tests/spanish-integration.spec.js:20:1 › Spanish theme preserves legacy English guide position (909ms)
+  ✓  3 tests/spanish-integration.spec.js:21:1 › Spanish invalid position and theme quota warnings remain distinct (585ms)
+
+  3 passed (4.6s)
