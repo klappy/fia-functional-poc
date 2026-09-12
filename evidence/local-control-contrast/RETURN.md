@@ -1,0 +1,7 @@
+# Single candidate return76
+
+Only AudioControls local secondary backgrounds changed to exact material-floating; Nextprimary remains original material and centersecondary follows same predicate. Entire SharedTransport/CSS/shell unchanged. Native primary→completedsecondary/Nextprimary→restart reset PASS. Eight Scripture319/466both themes plus4Resources captures and completed capture. EnabledULT arrows visually distinct in author-inspected466dark scene.
+
+Pixel sampling decodes actual screenshots: modal interior substrate color and nearest-to-specified foreground rendered core (distance recorded, no invented exact RGB). Minimum sampled enabledside contrast6.36:1; center7.98:1, above3/4.5targets in these captured states. This is sampled core/background measurement, not every antialiased edge or an exhaustive WCAG attestation. PIXELS.json and repeatablemeasure script retain exact samples. Initially exact-color tolerance found no opaque glyph core because antialiasing; replaced with nearest rendered core and explicit distance, not a fabricated token-only PASS. Disabled controls recorded separately. Root visual acceptance mandatory.
+
+Strict buildPASS. Test fixture fixes only: resourcePlay scoped to Resources panel to avoid duplicated active owner name; clear local storage per scenario to avoid inheritedtheme. No iterativepalette change or second candidate. Sourcebase97cd571 predates pendingnested/S3release; integrate separately only after root acceptance. Author4 upper consumed,total76retains70; no nestedbudget use. No merge/deploy.
