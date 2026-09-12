@@ -1,0 +1,46 @@
+
+> fia-functional-poc@0.1.0 test:e2e
+> playwright test
+
+[WebServer] (node:20719) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 33 tests using 1 worker
+
+(node:20720) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/compact.spec.js:2:1 › actual missing recording exposes source error without a running dock (1.4s)
+  ✓   2 tests/compact.spec.js:3:1 › compact labeled action and explicit secondary controls fit326 and726 (4.4s)
+  ✓   3 tests/composition.spec.js:2:1 › whole reading composition has stable actions and reachable source at desktop and mobile (1.7s)
+  ✓   4 tests/composition.spec.js:3:1 › current owner remains controllable while a different term is explored and term player is inside card (2.1s)
+  ✓   5 tests/contextual.spec.js:3:1 › floating tabs support keyboard and local controls fit desktop and320px without nested buttons (1.4s)
+  ✓   6 tests/contextual.spec.js:5:1 › current-step index preserves context and all117 source sections remain reachable (2.3s)
+  ✓   7 tests/contrast-badge.spec.js:2:1 › dark semantic labels and original media badge hierarchy use actual tokens (6.2s)
+  ✓   8 tests/dock.spec.js:2:1 › one floating owner survives exploration with safe narrow dock and modal counterpart (7.1s)
+  ✓   9 tests/error-dock.spec.js:2:1 › real404 compact Retry is source-scoped accessible and recovers in both themes (8.6s)
+  ✓  10 tests/gap.spec.js:2:1 › actual guide gap preserves completed context and narrow dock never exceeds actual menu (2.3s)
+  ✓  11 tests/guided-session.spec.js:4:1 › real guide, Scripture selection and exact position survive view changes and reload (851ms)
+  ✓  12 tests/guided-session.spec.js:14:1 › contextual real map opens, renders and returns focus without moving the guide (936ms)
+  ✓  13 tests/guided-session.spec.js:22:1 › examples require explicit reveal and every resource type is available (1.6s)
+  ✓  14 tests/guided-session.spec.js:31:1 › narrow layout, keyboard dialog and large text remain usable (696ms)
+  ✓  15 tests/guided-session.spec.js:38:1 › failed required source renders a real error with retry, never substitute content (705ms)
+  ✓  16 tests/guided-session.spec.js:44:1 › duplicate source names are distinguished by source meaning and inspected image (841ms)
+  ✓  17 tests/guided-session.spec.js:49:1 › official FIA identity and colors render with readable contrast (423ms)
+  ✓  18 tests/guided-session.spec.js:57:1 › resources show all eight real previews, source metadata, search and honest online video (1.4s)
+  ✓  19 tests/guided-session.spec.js:67:1 › finished-session return from another view really restores the guide (937ms)
+  ✓  20 tests/idle-player.spec.js:2:1 › ready context, real0.95rate, pause/resume and playing exploration remain truthful (8.3s)
+  ✓  21 tests/next-actions.spec.js:2:1 › real adapted map action ends with its exact resource and metadata restores without invented association (1.9s)
+  ✓  22 tests/pause-groups.spec.js:2:1 › all four legacy cue bookmarks keep their activity through real audio ended and explicit Continue (3.2s)
+  ✓  23 tests/primary-ended.spec.js:1:78 › after owner ends current hidden idle selection becomes chooser (1.3s)
+  ✓  24 tests/primary-ended.spec.js:3:1 › paused owner resumes and intentional captured-list Next stays selected without autoplay (1.6s)
+  ✓  25 tests/primary.spec.js:2:1 › three controls, no autoplay adjacency, filtered modal focus and source cornerRestart (2.9s)
+  ✓  26 tests/speech-offline.spec.js:6:1 › complete offline pack and real media survive cold page, exploration and new owner (5.9s)
+  ✓  27 tests/speech-offline.spec.js:13:1 › missing corrupt canceled transfers preserve a verified pack and removal remains explicit (4.1s)
+  ✓  28 tests/speech-offline.spec.js:18:1 › combined transition plays offline and stops on the activity; source info returns focus (3.2s)
+  ✓  29 tests/theme-header.spec.js:2:1 › header utilities align and inline source glyph inherits theme across sizes (3.4s)
+  ✓  30 tests/theme.spec.js:2:1 › actual theme aliases and all views preserve active audio and position (16.8s)
+  ✓  31 tests/upgrade.spec.js:3:1 › ordinary reload upgrades a saved previous shell without deleting progress or its verified pack (5.4s)
+  ✓  32 tests/visual-audio.spec.js:2:1 › eight real visual clips verify and play cold offline with optional details and filtered owner (10.3s)
+  ✓  33 tests/visual-audio.spec.js:3:1 › missing visual recording exposes error while original image remains openable (1.5s)
+
+  33 passed (2.0m)
