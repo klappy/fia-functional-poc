@@ -1,0 +1,32 @@
+
+> fia-functional-poc@0.1.0 build
+> vite build && node scripts/build-offline-shell.mjs && node scripts/verify-release.mjs
+
+vite v8.3.0 building client environment for production...
+transforming...
+
+../assets/fonts/SF-Pro-Display-Regular.otf referenced in ../assets/fonts/SF-Pro-Display-Regular.otf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../assets/fonts/SF-Pro-Display-Medium.otf referenced in ../assets/fonts/SF-Pro-Display-Medium.otf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../assets/fonts/SF-Pro-Display-Semibold.otf referenced in ../assets/fonts/SF-Pro-Display-Semibold.otf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../assets/fonts/SF-Pro-Display-Bold.otf referenced in ../assets/fonts/SF-Pro-Display-Bold.otf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../assets/fonts/SF-Pro-Text-Regular.otf referenced in ../assets/fonts/SF-Pro-Text-Regular.otf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../assets/fonts/SF-Pro-Text-Medium.otf referenced in ../assets/fonts/SF-Pro-Text-Medium.otf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../assets/fonts/SF-Pro-Text-Semibold.otf referenced in ../assets/fonts/SF-Pro-Text-Semibold.otf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../assets/fonts/SF-Pro-Text-Bold.otf referenced in ../assets/fonts/SF-Pro-Text-Bold.otf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+✓ 64 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.36 kB │ gzip:   0.28 kB
+dist/assets/index-jS74ZpfN.css   23.84 kB │ gzip:   6.22 kB
+dist/assets/index-KxfWpl5p.js   447.03 kB │ gzip: 140.53 kB
+
+✓ built in 807ms
+Offline manifest: 195 required local files, 93408719 bytes; remote fonts optional, video excluded.
+Release audit PASS: 197 allowlisted files; 172 unchanged MP3s; no private voice identifiers/provider route; dist only.
