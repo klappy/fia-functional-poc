@@ -8,7 +8,7 @@ Running 1 test using 1 worker
   ✘  1 tests/resource-order.spec.js:2:1 › row order and full card native opening preserve independent audio (8.5s)
 
 
-  1) tests/resource-order.spec.js:2:1 › row order and full card native opening preserve independent audio 
+  1) tests/resource-order.spec.js:2:1 › row order and full card native opening preserve independent audio
 
     Error: expect(locator).toHaveCount(expected) failed
 
@@ -33,4 +33,4 @@ Running 1 test using 1 worker
     Error Context: test-results/resource-order-row-order-a-7419a--preserve-independent-audio/error-context.md
 
   1 failed
-    tests/resource-order.spec.js:2:1 › row order and full card native opening preserve independent audio 
+    tests/resource-order.spec.js:2:1 › row order and full card native opening preserve independent audio
