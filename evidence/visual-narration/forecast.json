@@ -1,0 +1,11 @@
+{
+  "requests": 8,
+  "sourceCharacters": 1693,
+  "maxCharacters": 281,
+  "proposedAttemptCap": 8,
+  "proposedCharacterCap": 4000,
+  "scriptsSha256": "5e1186f720b87de0284ba1390ab744feeb518b1e2622c89408b2e39c998e0834",
+  "providerBilling": "Unknown; expected SSML/server transformation may differ. No calls made.",
+  "sourceAppCommit": "54c5233",
+  "assets": "All8 original files inspected at full bounds; map rendering resized by tool, labels/legends legible; originals remain pinned."
+}

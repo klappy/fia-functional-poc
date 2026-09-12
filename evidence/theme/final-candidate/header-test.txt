@@ -1,0 +1,10 @@
+[WebServer] (node:2062) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:2063) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/theme-header.spec.js:2:1 › header utilities align and inline source glyph inherits theme across sizes (2.3s)
+
+  1 passed (3.0s)

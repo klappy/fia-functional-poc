@@ -1,0 +1,27 @@
+[WebServer] (node:1190) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:1191) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 tests/theme-header.spec.js:2:1 › header utilities align and inline source glyph inherits theme across sizes (936ms)
+
+
+  1) tests/theme-header.spec.js:2:1 › header utilities align and inline source glyph inherits theme across sizes 
+
+    Error: expect(received).toBeLessThan(expected)
+
+    Expected: < 1
+    Received:   1
+
+      1 | import{test,expect}from'@playwright/test';test.use({serviceWorkers:'block'});
+    > 2 | test('header utilities align and inline source glyph inherits theme across sizes',async({page})=>{await page.goto('/');for(const width of[319,390,627,726]){await page.setViewportSize({width,height:987});for(const theme of['dark','light']){await page.getByRole('button',{name:`Switch to ${theme} theme`}).click();const a=await page.getByRole('button',{name:'Offline passage and settings'}).boundingBox(),b=await page.getByRole('button',{name:`Switch to ${theme==='dark'?'light':'dark'} theme`}).boundingBox();expect(Math.abs(a.y+a.height/2-b.y-b.height/2)).toBeLessThan(1);expect(b.height).toBe(44);const icon=page.getByRole('button',{name:'Read complete guide and attribution'}).locator('svg');expect(await icon.evaluate(e=>getComputedStyle(e).stroke)).toBe(await icon.evaluate(e=>getComputedStyle(e.parentElement).color));await page.screenshot({path:`evidence/theme/final-candidate/header-${theme}-${width}.png`,fullPage:true});}}});
+        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             ^
+      3 |
+        at /private/tmp/fia-functional-poc-app/tests/theme-header.spec.js:2:557
+
+    Error Context: test-results/theme-header-header-utilit-3a168-inherits-theme-across-sizes/error-context.md
+
+  1 failed
+    tests/theme-header.spec.js:2:1 › header utilities align and inline source glyph inherits theme across sizes 
