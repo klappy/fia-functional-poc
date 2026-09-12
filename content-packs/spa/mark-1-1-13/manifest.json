@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "packId": "spa-mrk-1-1-13-source-v1",
+  "status": "source-projection-candidate",
+  "runtimeIntegrated": false,
+  "files": [
+    {
+      "path": "pack.json",
+      "sha256": "41fd6987bede21c85f2d80917ef4eb0079c10ce5be603ff0847d261c8fed2dda",
+      "bytes": 374045
+    },
+    {
+      "path": "assets/a111.jpg",
+      "sha256": "d314bac395b2aab8cf601f6a590bbf2547b71a54af67eb95dc927f5042883480",
+      "bytes": 69973,
+      "optional": false
+    },
+    {
+      "path": "assets/a204.jpg",
+      "sha256": "d1e3f8420046e066c981476e80cad3c0024d77694d9045a2ca248cdc0dc811c7",
+      "bytes": 93501,
+      "optional": false
+    },
+    {
+      "path": "assets/a112.jpg",
+      "sha256": "9c58b5b5100b4324ab54000ac3c26b7ad2371fd964afa319fe0cda7da8e0291c",
+      "bytes": 163531,
+      "optional": false
+    },
+    {
+      "path": "assets/c202.png",
+      "sha256": "edece4856f059c482ff51d57f3b947ed4a6f97d998be548af2e96d6e4543fa0c",
+      "bytes": 1065016,
+      "optional": true
+    },
+    {
+      "path": "assets/c197.png",
+      "sha256": "e634e8d7f17c55b5f8be3fdc1f91fee7708f30774f4e1ad3223efff8ef9f2f5d",
+      "bytes": 6712636,
+      "optional": false
+    }
+  ]
+}

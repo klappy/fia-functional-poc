@@ -1,0 +1,15 @@
+{
+  "inputsSha256": "0e01b8566f2be6de44f68ec4cf66829aa92660a124fb64560959226e17f3a9ec",
+  "guideBodySha256": "f5a129481d155d7fcb4011d459e154f6c09a1d0bb5f4d4383126bd602a402cee",
+  "acceptedSupplementsSha256": "5b632ff7b607920dde30ff6440bb76cf801280a2cda4251ad83f12cf545f9311",
+  "acceptedCueMapSha256": "8c9abb4669b932ae5ce52d9b2c6743194d977bcb13c520c9e003a4834af09c62",
+  "expected": {
+    "guideBlocks": 136,
+    "sections": 6,
+    "literalStops": 29,
+    "originalTerms": 17,
+    "scriptureVerses": 26,
+    "supplements": 8,
+    "assets": 5
+  }
+}
