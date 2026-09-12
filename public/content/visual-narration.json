@@ -35,7 +35,7 @@
   {
     "id": "a204",
     "title": "Sandals",
-    "text": "Sandals. Here is a close view of sandals on a person\u2019s feet. Look at the open toes, the straps around the feet and ankles, and the buckle.",
+    "text": "Sandals. Here is a close view of sandals on a person’s feet. Look at the open toes, the straps around the feet and ankles, and the buckle.",
     "characters": 138,
     "textSha256": "c754ad3f316ac837e612f048fa7e5b5880ba865c61c791e3009053c72f39332a",
     "assetSha256": "d1e3f8420046e066c981476e80cad3c0024d77694d9045a2ca248cdc0dc811c7",
@@ -57,9 +57,9 @@
   {
     "id": "c197",
     "title": "Locations in the Book of Mark",
-    "text": "Locations in the Book of Mark. This map labels regions and towns around the Jordan River, including Galilee, Nazareth, Judea, and Jerusalem. Blue lines mark rivers, and dashed lines mark roads. Find the Jordan River and notice the surrounding regions.",
-    "characters": 251,
-    "textSha256": "3d6eeea97d12f773c85821c2524dc290be142a4e6f9a3d59ed1db8669e7e4798",
+    "text": "Locations in the Book of Mark. The large blue area on the left is the Mediterranean Sea. Look inland to the pear-shaped blue lake just above the middle of the map. That is the Sea of Galilee. From its bottom, trace the thin, winding blue line down to the long blue Dead Sea near the bottom of the map. That line is the Jordan River. Blue lines mark rivers; dashed lines mark roads. Around the river are Galilee, Nazareth, Judea, and Jerusalem.",
+    "characters": 443,
+    "textSha256": "6bce21fb4814f6fc272635fb124ce5211761e26a5d6cd6c76d2e93c1578d877b",
     "assetSha256": "e634e8d7f17c55b5f8be3fdc1f91fee7708f30774f4e1ad3223efff8ef9f2f5d",
     "assetPath": "/assets/mark-1-1-13/c197.png",
     "sourceContentSha256": "947d41e8d66cd232dfd8ee45c56f83293f47b81304fa35ed4f5aabde41048e93",

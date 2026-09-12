@@ -1,0 +1,391 @@
+{
+  "testedHead": "9f702c8b3c6f36a4a8669fdec334523231d32811",
+  "tests": "36 passed (2.1m)",
+  "captures": [
+    {
+      "originalHistoricalPath": "evidence/card-footer/detail-1280.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/card-footer/detail-1280.png",
+      "sha256": "a99dc85eb39da1fef750e47b633ebd6d448bf123cb6b44ac4219d5b7c0225bde"
+    },
+    {
+      "originalHistoricalPath": "evidence/card-footer/detail-319.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/card-footer/detail-319.png",
+      "sha256": "4c4251a8d1e13d48233412cdbcb49b63e2da4b7fcb44b4ca936fc9744e10abb6"
+    },
+    {
+      "originalHistoricalPath": "evidence/card-footer/detail-390.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/card-footer/detail-390.png",
+      "sha256": "0143557e24f573fb65bdedf1bd37c3cb36a658314c154f403369349f98023248"
+    },
+    {
+      "originalHistoricalPath": "evidence/card-footer/detail-627.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/card-footer/detail-627.png",
+      "sha256": "746450439f43155f19b06680aae908a6ffce7e183a8d329f32494383302f567c"
+    },
+    {
+      "originalHistoricalPath": "evidence/card-footer/detail-726.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/card-footer/detail-726.png",
+      "sha256": "166d8896b11892a67fd9c7ca294c92491042203a2c8bd8b4e087caed871eae35"
+    },
+    {
+      "originalHistoricalPath": "evidence/card-footer/guide-S01-1280.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/card-footer/guide-S01-1280.png",
+      "sha256": "e2c25fcea5414d79b099bd24de0c39f4da2d41c3a8878619ba6c0c6f698e164b"
+    },
+    {
+      "originalHistoricalPath": "evidence/card-footer/guide-S01-319.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/card-footer/guide-S01-319.png",
+      "sha256": "9b653b653d25b9bb945cbee14cf35a9faf8fb205061a8560f0ddd93a31072aba"
+    },
+    {
+      "originalHistoricalPath": "evidence/card-footer/guide-S01-390.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/card-footer/guide-S01-390.png",
+      "sha256": "5d124869fe600e80c6d4b187daaeb1fc7b21d4e67209ec807c23bc485ac3d198"
+    },
+    {
+      "originalHistoricalPath": "evidence/card-footer/guide-S01-627.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/card-footer/guide-S01-627.png",
+      "sha256": "71de8341c3f122e9489f451dcb76d7027d0fc953951ba706adc2ddb41c3b9bb4"
+    },
+    {
+      "originalHistoricalPath": "evidence/card-footer/guide-S01-726.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/card-footer/guide-S01-726.png",
+      "sha256": "53d92154270ab0d263e70cb53e61558f3641e1f5c9e93d184d26222985b6e397"
+    },
+    {
+      "originalHistoricalPath": "evidence/card-footer/guide-S05-1280.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/card-footer/guide-S05-1280.png",
+      "sha256": "332b7ff6a72fcbdd5961b3a2e25c4f46cf642bc5b426d860a735fb152a0fc956"
+    },
+    {
+      "originalHistoricalPath": "evidence/card-footer/guide-S05-319.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/card-footer/guide-S05-319.png",
+      "sha256": "cfe8af1e575272aead6a02a17ea28990b780e22bba3dae55c02179b1110076c3"
+    },
+    {
+      "originalHistoricalPath": "evidence/card-footer/guide-S05-390.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/card-footer/guide-S05-390.png",
+      "sha256": "97e208d81af46cc4726d461ae1665a36135b9fc76e9f910b710423b92e7cdfa3"
+    },
+    {
+      "originalHistoricalPath": "evidence/card-footer/guide-S05-627.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/card-footer/guide-S05-627.png",
+      "sha256": "85c757e1739621a9d1ed654f5de8711b0aa8ec960bf4da54b618da8e157afb02"
+    },
+    {
+      "originalHistoricalPath": "evidence/card-footer/guide-S05-726.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/card-footer/guide-S05-726.png",
+      "sha256": "0712e27a396c714c483b6ae585fe7acbbf0e72733cfba4b487d4773ff4df68a9"
+    },
+    {
+      "originalHistoricalPath": "evidence/card-footer/scripture-1280.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/card-footer/scripture-1280.png",
+      "sha256": "ea307f1ff4d4c658f282660d149eab1bb1e0de133c03570af66ea0a10b4f4043"
+    },
+    {
+      "originalHistoricalPath": "evidence/card-footer/scripture-319.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/card-footer/scripture-319.png",
+      "sha256": "3d74481348b2ddfb6a932a5c550f45344514df1f3a39ef167c450130ed6fd5d7"
+    },
+    {
+      "originalHistoricalPath": "evidence/card-footer/scripture-390.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/card-footer/scripture-390.png",
+      "sha256": "ef8d54ad5504c2c53c4c953a1c3d9a54e1a7f82a45fe86a410bb21ebb082c785"
+    },
+    {
+      "originalHistoricalPath": "evidence/card-footer/scripture-627.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/card-footer/scripture-627.png",
+      "sha256": "b3189c0b81e34bf86f65ce27b293be3bb20c1c978136da58eb173f0e0a27def8"
+    },
+    {
+      "originalHistoricalPath": "evidence/card-footer/scripture-726.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/card-footer/scripture-726.png",
+      "sha256": "98dc5795dfebde402cd11f264878b5e7132957fa98f03cdc9bc24637b95ac8fe"
+    },
+    {
+      "originalHistoricalPath": "evidence/compact-player/restart-326.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/compact-player/restart-326.png",
+      "sha256": "8819fa93168d7c8e47f8ee6173b3bd57d653f17dec271b429edc8bb8c1cbed03"
+    },
+    {
+      "originalHistoricalPath": "evidence/compact-player/restart-726.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/compact-player/restart-726.png",
+      "sha256": "d13aa549b682ed12a805d163180906a99ba800a0398f4c0bd35571f4edb1da57"
+    },
+    {
+      "originalHistoricalPath": "evidence/contextual-playback/current-step-index.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/contextual-playback/current-step-index.png",
+      "sha256": "351e26736513ebb08ba8a18b587f95c939aa81ccb59e3ce50f686045226ce99d"
+    },
+    {
+      "originalHistoricalPath": "evidence/contextual-playback/desktop-guide.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/contextual-playback/desktop-guide.png",
+      "sha256": "26c49616418c41b48ca5260f52eb6a56e804293816c5ea78d4b80d45019735d2"
+    },
+    {
+      "originalHistoricalPath": "evidence/contextual-playback/mobile-guide.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/contextual-playback/mobile-guide.png",
+      "sha256": "c8992cacd8ad603c57af7396c33a32cbc8c3833eb6052db785b253ec7b8eb15f"
+    },
+    {
+      "originalHistoricalPath": "evidence/contextual-playback/offline-term.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/contextual-playback/offline-term.png",
+      "sha256": "98f77b1b56891dd455e5d3d6242fecedddc7ceb1f08debf773fed4e812530b42"
+    },
+    {
+      "originalHistoricalPath": "evidence/error-dock/dark-319.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/error-dock/dark-319.png",
+      "sha256": "b1f039d5e18e73d854e5353ade003146504f5c3addeadc8c4f60304d471cba41"
+    },
+    {
+      "originalHistoricalPath": "evidence/error-dock/dark-627.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/error-dock/dark-627.png",
+      "sha256": "bb7cdf7f607de6fc1f9296852dc588484742ad88af946959267c21f5d18b552f"
+    },
+    {
+      "originalHistoricalPath": "evidence/error-dock/dark-726.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/error-dock/dark-726.png",
+      "sha256": "9bf25f2e234740ea8cb736df9035132e340e659b62108e01f743f2d510e4a60f"
+    },
+    {
+      "originalHistoricalPath": "evidence/error-dock/light-319.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/error-dock/light-319.png",
+      "sha256": "292c12f6dbffed080037e1561828b6cb153d6012089bba7d4edb24d96d4cb117"
+    },
+    {
+      "originalHistoricalPath": "evidence/error-dock/light-627.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/error-dock/light-627.png",
+      "sha256": "058eb01877eecc4a15da76ad8ff816bbbd6e53f1c430638e73551defbb38bde7"
+    },
+    {
+      "originalHistoricalPath": "evidence/error-dock/light-726.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/error-dock/light-726.png",
+      "sha256": "529ea9dec7e556454f91a2081b1614e70ae3f4eae9c4dd5f63294243d92b9dcb"
+    },
+    {
+      "originalHistoricalPath": "evidence/floating-player/dock-320.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/floating-player/dock-320.png",
+      "sha256": "be15b65e820722ebd8d39e6ecf129faea8a67719c107fbba5ab4c481c601e743"
+    },
+    {
+      "originalHistoricalPath": "evidence/floating-player/dock-390.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/floating-player/dock-390.png",
+      "sha256": "3f0b0beaef24fce966927eb60f4317cef229e41f1385a70eb0b7d50d1f40fce5"
+    },
+    {
+      "originalHistoricalPath": "evidence/floating-player/dock-726.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/floating-player/dock-726.png",
+      "sha256": "9d95214398376a2ba1f6cabcfbdc20fe2cdbd59a7068fab1c826d1b23012164a"
+    },
+    {
+      "originalHistoricalPath": "evidence/holistic-composition/guide-320.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/holistic-composition/guide-320.png",
+      "sha256": "51d704fa6b18af418f23e9e462c4279cfa63065e9ebec407e4eb558f9e45e1cd"
+    },
+    {
+      "originalHistoricalPath": "evidence/holistic-composition/guide-390.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/holistic-composition/guide-390.png",
+      "sha256": "97e208d81af46cc4726d461ae1665a36135b9fc76e9f910b710423b92e7cdfa3"
+    },
+    {
+      "originalHistoricalPath": "evidence/holistic-composition/guide-726.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/holistic-composition/guide-726.png",
+      "sha256": "36c6679068e8a529710b78829fbea3476bb250180af16251411dcdb47e6dc63b"
+    },
+    {
+      "originalHistoricalPath": "evidence/holistic-composition/other-owner-detail.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/holistic-composition/other-owner-detail.png",
+      "sha256": "6849cedb6b5df81b03c5c7d1bf44fc431bd76014f2dec3168ae0618141fa34fc"
+    },
+    {
+      "originalHistoricalPath": "evidence/idle-player/ready-326.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/idle-player/ready-326.png",
+      "sha256": "78d340d535a6b5058f9f940df2ba3cf9a5db8110c7f7a91a979ca988ad96b89c"
+    },
+    {
+      "originalHistoricalPath": "evidence/idle-player/ready-726.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/idle-player/ready-726.png",
+      "sha256": "6e510dead8054aa27e333396436ca86feb3a6c096b1a06e111d656a6a63022df"
+    },
+    {
+      "originalHistoricalPath": "evidence/next-actions/context.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/next-actions/context.png",
+      "sha256": "fcfdffee77c42182afc9fc153fc7ac83c76d235568215b12df380af74c37bfed"
+    },
+    {
+      "originalHistoricalPath": "evidence/pause-groups/final-activity.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/pause-groups/final-activity.png",
+      "sha256": "e45dc4f0c87234477f413536b551071738d967859bd13c5ac995f561b745579b"
+    },
+    {
+      "originalHistoricalPath": "evidence/playback-gap/gap-319.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/playback-gap/gap-319.png",
+      "sha256": "4f6de4d71881b27ad90354e36467f6b31444f4d2d8ae47bfba4d0e95e7b9c9df"
+    },
+    {
+      "originalHistoricalPath": "evidence/playback-gap/gap-726.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/playback-gap/gap-726.png",
+      "sha256": "66b3ad9e8c6c0092146ad7d5e95342100710755dfda33eeda43203cbf205d36f"
+    },
+    {
+      "originalHistoricalPath": "evidence/primary-transport/primary-319.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/primary-transport/primary-319.png",
+      "sha256": "3eab7427e8784dffb571dc73c00172ff58e9fe807f95824b6f63742672f84c9c"
+    },
+    {
+      "originalHistoricalPath": "evidence/primary-transport/primary-726.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/primary-transport/primary-726.png",
+      "sha256": "0f075321950835bf2e0d6f298de77919af23f2e03e7aaaefaf2946b88de62e67"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/contrast-correction/resources-319.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/contrast-correction/resources-319.png",
+      "sha256": "b8a8677bca3b6a97ba643423ee7228427c246f4e76afc84f54aadc844ddffa61"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/contrast-correction/resources-726.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/contrast-correction/resources-726.png",
+      "sha256": "3b6cd8d2351a345a9845650d8462a40043d0a7d515f857ac4c803e409118a8f7"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/contrast-correction/scripture-319.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/contrast-correction/scripture-319.png",
+      "sha256": "745ca3f8286d15e9485af82ed8a1fb6cc271734bc5a4c13b6552977da429d524"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/contrast-correction/scripture-726.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/contrast-correction/scripture-726.png",
+      "sha256": "2909f172a98583b0e2c655c75bf28276ec10291751f0f374e93c52baddf58580"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/dark-Guide-319.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/dark-Guide-319.png",
+      "sha256": "3b5417dfe0dfc3ac5a10e14b188589cf9002a56b0a91a2c06f18fe2f942e635e"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/dark-Guide-726.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/dark-Guide-726.png",
+      "sha256": "a2fe9e31f6992095956f6601c37e5f82eda9cfcd45c713eaa136812c9966df8f"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/dark-Resources-319.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/dark-Resources-319.png",
+      "sha256": "d469f24d0ecfaf93faded0f3083a86715f7088bf28edeb5747d684554979752c"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/dark-Resources-726.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/dark-Resources-726.png",
+      "sha256": "c0636860a9021484c470b397eb3559810db18a21a66677e75b81e9ea5b356562"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/dark-Scripture-319.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/dark-Scripture-319.png",
+      "sha256": "7d0e0902bb3c8d9a79561e6e727a54eb827db35de016311cd0b289ddc73192f6"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/dark-Scripture-726.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/dark-Scripture-726.png",
+      "sha256": "0f5f9793c9cca09b38158e9e88e5ab26a67e9a1c1cd3efeacb9e7e30cf6c0ad8"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/dark-detail-319.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/dark-detail-319.png",
+      "sha256": "7a086bf6d8534c3f9d14a443addb1c2ba6d22b7efb50961137f604ac218ee0f3"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/dark-detail-726.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/dark-detail-726.png",
+      "sha256": "86b2ea19ede324e37f1cc8247fe20e3aeff88c413c17141cc58340c5832339c4"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/final-candidate/header-dark-319.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/final-candidate/header-dark-319.png",
+      "sha256": "d5133376571d0988cb1ba8b7dc4fee23f5de85c04677b63ffbc97eccdfc76120"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/final-candidate/header-dark-390.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/final-candidate/header-dark-390.png",
+      "sha256": "e384d7d26f427d0dae05ef205e391fc5cd11f4e99e99229a73aaff0ca3a22b39"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/final-candidate/header-dark-627.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/final-candidate/header-dark-627.png",
+      "sha256": "b347655acdc4c242824f877dd1df42febc7f205f9f88e7cac4fc15008795dcf2"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/final-candidate/header-dark-726.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/final-candidate/header-dark-726.png",
+      "sha256": "e1307eceb9e93ca6aa923caf29d5b6058ca536b72c2588a12152d3e4c3517e6c"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/final-candidate/header-light-319.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/final-candidate/header-light-319.png",
+      "sha256": "9b653b653d25b9bb945cbee14cf35a9faf8fb205061a8560f0ddd93a31072aba"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/final-candidate/header-light-390.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/final-candidate/header-light-390.png",
+      "sha256": "5d124869fe600e80c6d4b187daaeb1fc7b21d4e67209ec807c23bc485ac3d198"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/final-candidate/header-light-627.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/final-candidate/header-light-627.png",
+      "sha256": "86b176c9d1ce6d02cb99e7f5b1c59ba2eefd3736c30325e9bccee539c26a7027"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/final-candidate/header-light-726.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/final-candidate/header-light-726.png",
+      "sha256": "fa6a9ec87627086fc54c91778d2b95928a7733a25d99da1b069b2ddc597648ce"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/light-Guide-319.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/light-Guide-319.png",
+      "sha256": "5b776bda2e182cd0b83f04496c6090a8f07237170e9a1673bd53e6ead09b1ff2"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/light-Guide-726.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/light-Guide-726.png",
+      "sha256": "94bc503f2e2cdd7a7ebd2456db972df37d212c286f5ca025561c6312291dd6a7"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/light-Resources-319.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/light-Resources-319.png",
+      "sha256": "2ba5f304f8c20ae2ccdfff241cd853f72f9e07e8cb340ab9c636421adfd10e0f"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/light-Resources-726.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/light-Resources-726.png",
+      "sha256": "c57b1ce0b8ad9beed57b899177448fae1c8c1a20454802a25cd234b5dbda0589"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/light-Scripture-319.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/light-Scripture-319.png",
+      "sha256": "9beca75a35f65ab1075a69c3381ff500f9d05ad4c36d63e932179f64095d7908"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/light-Scripture-726.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/light-Scripture-726.png",
+      "sha256": "f935878ae779d031d46f0bbf90845a8fca044ad99d9007eef5608e7667e7d136"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/light-detail-319.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/light-detail-319.png",
+      "sha256": "3f9d56b915b98852ae19a6aa5f48c01530eeeff5a449e3403510dbd6c122c874"
+    },
+    {
+      "originalHistoricalPath": "evidence/theme/light-detail-726.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/theme/light-detail-726.png",
+      "sha256": "a8358d5315e8c174d4998b937b0d2f4cb2fa6308a630ed73689a88930c0f4acc"
+    },
+    {
+      "originalHistoricalPath": "evidence/visual-narration/offline-319.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/visual-narration/offline-319.png",
+      "sha256": "723304cdf2342e5ec9bd49b44f0449f4f457bc4c028abea6f85ca60de9903634"
+    },
+    {
+      "originalHistoricalPath": "evidence/visual-narration/offline-726.png",
+      "currentCapturePath": "evidence/wholeview/final-run-captures/evidence/visual-narration/offline-726.png",
+      "sha256": "4ffebf5aadabe414f2de7fbcd8e3947e383b07e530bbbc9ae2a2c64c58461d0c"
+    }
+  ]
+}

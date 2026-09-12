@@ -2,14 +2,14 @@
   "classification": "Private build receipt; never deployed",
   "files": [
     {
-      "path": "assets/index-B9mw-LS4.js",
-      "bytes": 454561,
-      "sha256": "80520a74b53c2255c3ec56b0e8de273ff89518fe51b6c7265dd605cf21365e86"
-    },
-    {
       "path": "assets/index-CoQTrldE.css",
       "bytes": 26117,
       "sha256": "d6474d24a31ae434a7580108938365933f372c0926a3225997b99242844db588"
+    },
+    {
+      "path": "assets/index-D7VBe-np.js",
+      "bytes": 454752,
+      "sha256": "e6d95ef9f0c33aaba7e7c745919ea04a664d7ca4d19f4ecf35edbf467a079b66"
     },
     {
       "path": "assets/mark-1-1-13/a111.jpg",
@@ -918,8 +918,8 @@
     },
     {
       "path": "audio/visual-resources/c197.mp3",
-      "bytes": 227787,
-      "sha256": "373e32507219586a1a2b64ea0b190a7ab58d9bc52b83dd3ce0abff5272c48adc"
+      "bytes": 383268,
+      "sha256": "ee698be82482d61c22661277b0cfacd2f7588547a9afc59be9f1b71cfc1198b6"
     },
     {
       "path": "audio/visual-resources/c201.mp3",
@@ -933,8 +933,8 @@
     },
     {
       "path": "audio/visual-resources/manifest.json",
-      "bytes": 3892,
-      "sha256": "53173732898cafa44ed084147d8f87ff5c832cf64ccd90dd210e2445e0e4cb60"
+      "bytes": 3891,
+      "sha256": "b85e7d561cc0f763a3cd1e61d9d20ff6e836e4b07198efbb35419b866757708c"
     },
     {
       "path": "content/mark-1-1-13/cues.json",
@@ -968,18 +968,18 @@
     },
     {
       "path": "content/visual-narration.json",
-      "bytes": 5475,
-      "sha256": "5e1186f720b87de0284ba1390ab744feeb518b1e2622c89408b2e39c998e0834"
+      "bytes": 5664,
+      "sha256": "150501ac9d3ee31ad091cf77c1eda7047346c185939d5efad4d4eed40b4f27c9"
     },
     {
       "path": "index.html",
       "bytes": 362,
-      "sha256": "dec67df8d5c79c0e3c25d2cb3466fb456d6fefd20ca6fcc23f641979b7f9c5e8"
+      "sha256": "97cf1fb1115a33e479aaf75f21f62a0ead1acf5d8afe6b5d80677e3e45a94dc0"
     },
     {
       "path": "offline-shell.json",
       "bytes": 43032,
-      "sha256": "d38be383484a537e9e39a8fa028e83b89bef731a8b5003add852dca6b5d7e7d7"
+      "sha256": "4fb1973854a201a6658a4bc61721a69e750b84c6fe1e9168c676a7cab5ae31f9"
     },
     {
       "path": "sw.js",
@@ -988,6 +988,6 @@
     }
   ],
   "packFiles": 195,
-  "packBytes": 93418524,
-  "distBytes": 93467303
+  "packBytes": 93574384,
+  "distBytes": 93623163
 }
