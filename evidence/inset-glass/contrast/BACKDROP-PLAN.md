@@ -1,0 +1,3 @@
+# Backdrop causal diagnostic
+
+Existing exact secondary computed equality excludes token mismatch. Nested backdrop-filter surface establishes a backdrop root, so descendant button backdrop may only sample the already composited parent region. Test structural isolation: keep exact GlassSurface level3/medium/pill/rest as absolute background sibling of controls inside same compact padded wrapper, not an ancestor of controls. Preserve shell geometry/material and controls; no new palette, opacity or blur values. Compare actual dark Scripture text behind enabled ULT sides and source-card icons. This is a rendering-structure hypothesis, not verified cause or accepted repair.
