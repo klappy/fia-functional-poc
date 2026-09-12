@@ -1,0 +1,22 @@
+TAP version 13
+# Subtest: simulated storage quota failure cannot replace the previous active pointer
+ok 1 - simulated storage quota failure cannot replace the previous active pointer
+  ---
+  duration_ms: 14.495708
+  type: 'test'
+  ...
+# Subtest: failure between shell and active metadata writes restores the previous shell and pack
+ok 2 - failure between shell and active metadata writes restores the previous shell and pack
+  ---
+  duration_ms: 8.359333
+  type: 'test'
+  ...
+1..2
+# tests 2
+# suites 0
+# pass 2
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 66.515333
