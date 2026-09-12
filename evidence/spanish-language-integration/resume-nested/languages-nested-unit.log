@@ -1,0 +1,52 @@
+TAP version 13
+# Subtest: nested resolver uses selected Scripture and exact attachment order/explicit selection
+ok 1 - nested resolver uses selected Scripture and exact attachment order/explicit selection
+  ---
+  duration_ms: 0.934834
+  type: 'test'
+  ...
+# Subtest: instruction queue stops without advancing session or creating discussion completion
+ok 2 - instruction queue stops without advancing session or creating discussion completion
+  ---
+  duration_ms: 0.275
+  type: 'test'
+  ...
+# Subtest: workspace validates fields independently and source identity without guessing newer schemas
+ok 3 - workspace validates fields independently and source identity without guessing newer schemas
+  ---
+  duration_ms: 0.93925
+  type: 'test'
+  ...
+# Subtest: restored guide queues respect source stops and reject hidden/pure metadata IDs
+ok 4 - restored guide queues respect source stops and reject hidden/pure metadata IDs
+  ---
+  duration_ms: 0.481
+  type: 'test'
+  ...
+# Subtest: restore never plays before explicit Resume and clamps verified metadata offset
+ok 5 - restore never plays before explicit Resume and clamps verified metadata offset
+  ---
+  duration_ms: 3.684
+  type: 'test'
+  ...
+# Subtest: stale delayed fetch and metadata cannot override new playback, Restart or superseding restore
+ok 6 - stale delayed fetch and metadata cannot override new playback, Restart or superseding restore
+  ---
+  duration_ms: 1.852458
+  type: 'test'
+  ...
+# Subtest: pagehide-style checkpoint preserves source-bound offset through delayed metadata and seek
+ok 7 - pagehide-style checkpoint preserves source-bound offset through delayed metadata and seek
+  ---
+  duration_ms: 0.825333
+  type: 'test'
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 53.954583

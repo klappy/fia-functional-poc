@@ -1,0 +1,92 @@
+[WebServer] (node:16937) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:16938) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 3 tests using 1 worker
+
+(node:16939) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 tests/nested-direct.spec.js:2:1 › direct Guide Scripture and resource controls retain Guide adjacency through pause and end (6.4s)
+(node:17156) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 tests/nested-ready.spec.js:2:1 › native instruction ends ready selected ULT without autoplay; pause and nested completion keep Guide navigation (5.9s)
+(node:17168) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  3 tests/spanish-integration.spec.js:12:1 › Languages reload keeps explicit Resume at native checkpoint (30.0s)
+
+
+  1) tests/nested-direct.spec.js:2:1 › direct Guide Scripture and resource controls retain Guide adjacency through pause and end 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator:  locator('.owner-toggle')
+    Expected: "Play Mark 1:1–13 · ULT"
+    Received: "Play Hear and Heart · 2 of 8"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveAttribute" locator('.owner-toggle') with timeout 5000ms
+      - waiting for locator('.owner-toggle')
+        14 × locator resolved to <button class="owner-toggle" aria-label="Play Hear and Heart · 2 of 8" aria-description="Hear and Heart · 2 of 8">…</button>
+           - unexpected value "Play Hear and Heart · 2 of 8"
+
+
+      1 | import{test,expect}from'@playwright/test';
+    > 2 | test('direct Guide Scripture and resource controls retain Guide adjacency through pause and end',async({page})=>{await page.addInitScript(()=>{const A=window.Audio;window.Audio=class extends A{constructor(...a){super(...a);window.__audio=this;}}});await page.goto('/');await page.getByRole('tab',{name:'Scripture',exact:true}).click();await page.getByRole('radio',{name:'ULT',exact:true}).click();await page.getByRole('tab',{name:'Guide',exact:true}).click();await page.getByRole('button',{name:'Next guide activity',exact:true}).click();await page.getByRole('button',{name:'Play Scripture ULT',exact:true}).click();await expect.poll(()=>page.evaluate(()=>window.__audio?.duration||0)).toBeGreaterThan(0);await page.locator('.owner-toggle').click();await expect(page.locator('.owner-toggle')).toHaveAttribute('aria-label','Resume Now playing');await page.locator('.owner-toggle').click();await page.evaluate(()=>window.__audio.currentTime=window.__audio.duration-.1);await expect(page.getByRole('button',{name:'Next guide activity',exact:true})).toBeVisible();await expect(page.locator('.owner-toggle')).toHaveAttribute('aria-label','Play Mark 1:1–13 · ULT');await page.getByRole('button',{name:'Next guide activity',exact:true}).click();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S01-U003');await page.getByLabel('Guide step').selectOption('S02');await page.getByRole('button',{name:/Browse/}).click();await page.locator('[data-unit-id="S02-U005"]').click();await page.getByRole('button',{name:'Play Locations in the Book of Mark',exact:true}).click();await expect.poll(()=>page.evaluate(()=>window.__audio?.duration||0)).toBeGreaterThan(0);await page.getByRole('button',{name:/^Restart /,exact:false}).click();await expect(page.getByRole('button',{name:'Next guide activity',exact:true})).toBeVisible();await page.locator('.owner-toggle').click();await expect(page.locator('.owner-toggle')).toHaveAttribute('aria-label','Resume Now playing');await page.locator('.owner-toggle').click();await page.evaluate(()=>window.__audio.currentTime=window.__audio.duration-.1);await expect(page.locator('.owner-toggle')).toHaveAttribute('aria-label','Play Locations in the Book of Mark');await expect(page.getByRole('dialog')).toHaveCount(0);await page.screenshot({path:'evidence/nested-ready/direct-resource-ended.png'});await page.getByRole('button',{name:'Next guide activity',exact:true}).click();await expect(page.getByTestId('current-unit')).not.toHaveAttribute('data-unit-id','S02-U005');});
+        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ^
+      3 |
+        at /private/tmp/fia-spanish-integration-app/tests/nested-direct.spec.js:2:1105
+
+    Error Context: test-results/nested-direct-direct-Guide-b4ed0-cency-through-pause-and-end/error-context.md
+
+  2) tests/nested-ready.spec.js:2:1 › native instruction ends ready selected ULT without autoplay; pause and nested completion keep Guide navigation 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator:  locator('.owner-toggle')
+    Expected: "Play Mark 1:1–13 · ULT"
+    Received: "Play Hear and Heart · 2 of 8"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveAttribute" locator('.owner-toggle') with timeout 5000ms
+      - waiting for locator('.owner-toggle')
+        - locator resolved to <button class="owner-toggle" aria-label="Resume Now playing" aria-description="Hear and Heart, activity 2 of 8">…</button>
+        - unexpected value "Resume Now playing"
+        2 × locator resolved to <button class="owner-toggle" aria-label="Pause Now playing" aria-description="Hear and Heart, activity 2 of 8">…</button>
+          - unexpected value "Pause Now playing"
+        11 × locator resolved to <button class="owner-toggle" aria-label="Play Hear and Heart · 2 of 8" aria-description="Hear and Heart · 2 of 8">…</button>
+           - unexpected value "Play Hear and Heart · 2 of 8"
+
+
+      1 | import{test,expect}from'@playwright/test';
+    > 2 | test('native instruction ends ready selected ULT without autoplay; pause and nested completion keep Guide navigation',async({page})=>{await page.addInitScript(()=>{const A=window.Audio;window.__made=0;window.Audio=class extends A{constructor(...a){super(...a);window.__audio=this;window.__made++;}}});await page.goto('/');await page.getByRole('tab',{name:'Scripture',exact:true}).click();await page.getByRole('radio',{name:'ULT',exact:true}).click();await page.getByRole('tab',{name:'Guide',exact:true}).click();await page.getByRole('button',{name:'Next guide activity',exact:true}).click();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S01-U002');await page.getByRole('button',{name:'Play guide',exact:true}).click();await expect.poll(()=>page.evaluate(()=>window.__audio?.duration||0)).toBeGreaterThan(0);await page.getByRole('button',{name:'Pause Now playing',exact:true}).click();await expect(page.getByRole('button',{name:'Resume Now playing',exact:true})).toBeVisible();await page.getByRole('button',{name:'Resume Now playing',exact:true}).click();await page.evaluate(()=>window.__audio.currentTime=window.__audio.duration-.1);const center=page.locator('.owner-toggle');await expect(center).toHaveAttribute('aria-label','Play Mark 1:1–13 · ULT');const count=await page.evaluate(()=>window.__made);await page.waitForTimeout(900);expect(await page.evaluate(()=>window.__made)).toBe(count);await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S01-U002');expect(await center.evaluate(e=>e.style.background)).toBe('var(--surface-inverse)');await page.screenshot({path:'evidence/nested-ready/ready.png'});await center.click();await expect.poll(()=>page.evaluate(()=>window.__made)).toBe(count+1);await expect.poll(()=>page.evaluate(()=>window.__audio?.duration||0)).toBeGreaterThan(0);await expect(center).toContainText('ULT');await center.click();await expect(center).toHaveAttribute('aria-label','Resume Now playing');await center.click();await expect(center).toHaveAttribute('aria-label','Pause Now playing');await page.evaluate(()=>window.__audio.currentTime=window.__audio.duration-.1);await expect(center).toHaveAttribute('aria-label','Play Mark 1:1–13 · ULT');const next=page.getByRole('button',{name:'Next guide activity',exact:true});expect(await next.evaluate(e=>e.style.background)).toBe('var(--surface-inverse)');for(const width of[319,466])for(const theme of['dark','light']){await page.setViewportSize({width,height:987});const t=page.getByRole('button',{name:`Switch to ${theme} theme`});if(await t.count())await t.click();await page.screenshot({path:`evidence/nested-ready/ended-${width}-${theme}.png`});}await next.click();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id','S01-U003');await expect(page.getByText('Discuss together, then continue.')).toBeVisible();});
+        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ^
+      3 |
+        at /private/tmp/fia-spanish-integration-app/tests/nested-ready.spec.js:2:1231
+
+    Error Context: test-results/nested-ready-native-instru-02ea3-etion-keep-Guide-navigation/error-context.md
+
+  3) tests/spanish-integration.spec.js:12:1 › Languages reload keeps explicit Resume at native checkpoint 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('tab', { name: 'Languages', exact: true })
+
+
+      10 | test('repaired Spanish position drops both new and historical persisted warning on reload',async({page})=>{await page.goto('/');await language(page,'Español');await page.evaluate(()=>{const key=Object.keys(localStorage).find(k=>k.startsWith('fia-workspace/spa/'));const s=JSON.parse(localStorage[key]);s.groupId='invalid';s.notice='Historical warning';localStorage[key]=JSON.stringify(s);});await page.reload();await expect(page.getByText('Saved Spanish position was invalid; restored the first source group.')).toBeVisible();await page.getByRole('button',{name:'Next guide activity',exact:true}).click();await page.reload();await expect(page.getByText(/Saved Spanish position was invalid|Historical warning/)).toHaveCount(0);expect(await page.evaluate(()=>{const key=Object.keys(localStorage).find(k=>k.startsWith('fia-workspace/spa/'));return 'notice' in JSON.parse(localStorage[key]);})).toBe(false);await expect(page.getByRole('button',{name:'Next guide activity',exact:true})).toBeVisible();});
+      11 | test('English Languages view survives reload without autoplay',async({page})=>{await page.addInitScript(()=>{window.__plays=0;HTMLMediaElement.prototype.play=function(){window.__plays++;return Promise.resolve();};});await page.goto('/');await page.getByRole('tab',{name:'Languages',exact:true}).click();await page.reload();await expect(page.getByRole('textbox',{name:'Search guide languages'})).toBeVisible();await expect(page.getByRole('tab',{name:'Languages',exact:true})).toHaveAttribute('aria-selected','true');expect(await page.evaluate(()=>window.__plays)).toBe(0);});
+    > 12 | test('Languages reload keeps explicit Resume at native checkpoint',async({page})=>{await page.addInitScript(()=>{window.__plays=0;const A=window.Audio;window.Audio=class extends A{constructor(...args){super(...args);window.__audio=this;}};const p=HTMLMediaElement.prototype.play;HTMLMediaElement.prototype.play=function(){window.__plays++;return p.call(this);};});await page.goto('/');await page.getByRole('tab',{name:'Scripture',exact:true}).click();await page.getByRole('button',{name:'Play Scripture BSB',exact:true}).click();await expect.poll(()=>page.evaluate(()=>window.__audio?.currentTime||0)).toBeGreaterThan(0);await page.evaluate(()=>window.__audio.currentTime=5);await page.getByRole('tab',{name:'Languages',exact:true}).click();await expect(page.getByRole('button',{name:'Pause Now playing'})).toBeVisible();await page.reload();await expect(page.getByRole('tab',{name:'Languages',exact:true})).toHaveAttribute('aria-selected','true');await expect(page.getByRole('button',{name:'Resume Now playing'})).toBeVisible();expect(await page.evaluate(()=>window.__plays)).toBe(0);expect(await page.evaluate(()=>window.__audio.currentTime)).toBeGreaterThanOrEqual(4.9);await page.getByRole('button',{name:'Resume Now playing'}).click();await expect.poll(()=>page.evaluate(()=>window.__audio.currentTime)).toBeGreaterThan(5);expect(await page.evaluate(()=>window.__plays)).toBe(1);});
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ^
+      13 |
+        at /private/tmp/fia-spanish-integration-app/tests/spanish-integration.spec.js:12:734
+
+    Error Context: test-results/spanish-integration-Langua-5ae2f-Resume-at-native-checkpoint/error-context.md
+
+  3 failed
+    tests/nested-direct.spec.js:2:1 › direct Guide Scripture and resource controls retain Guide adjacency through pause and end 
+    tests/nested-ready.spec.js:2:1 › native instruction ends ready selected ULT without autoplay; pause and nested completion keep Guide navigation 
+    tests/spanish-integration.spec.js:12:1 › Languages reload keeps explicit Resume at native checkpoint 
