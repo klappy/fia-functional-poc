@@ -1,0 +1,5 @@
+
+> fia-functional-poc@0.1.0 verify:audio
+> node scripts/verify-audio.mjs
+
+Verified 120 exact source/audio identities; 0 MP3 stream probes.

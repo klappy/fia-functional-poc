@@ -90,3 +90,8 @@ Primary transport candidate: exactly Previous / source Play-Pause-Resume-or-Open
 Primary lifecycle correction: natural recording completion reconciles a hidden idle resource to Choose resource; deliberate captured-list Next remains selected without autoplay. Three targeted browser cases pass. Current185-file pack91,962,453bytes;164 audio assets unchanged.
 
 Eight reviewed visual descriptions now play directly from map/image cards or the central transport, with optional full-image Open.172stored MP3 files; original164 unchanged. Current195-file pack93,408,221bytes. All8 cold-offline media play/pause/resume/restart/end and missing-audio/Open tests pass; Range requests receive a full verified200body, not partial206. Both-theme header centers and inline glyph color pass319/390/627/726. Expanded independent theme/contrast audit remains pending.
+
+
+## Release candidate from accepted 871b0f1
+
+Current runtime remains 172 narration clips, 195 required offline files, 93408719 required bytes; all 197 deployable files total 93457498 bytes. Only non-runtime private voice identifiers were removed from two served manifests and the resulting compiled bundle. All 172 MP3 hashes match the private exact narration packet. Current primary transport, 0.95 rate, 750 ms guide gap, theme and source behavior are unchanged. README now states current capabilities and remaining heard/physical-device limits coherently. Private evidence is excluded by dist-only configuration and an enforced build allowlist; publication has not occurred. Historical receipts retain original dispositions and source heads.
