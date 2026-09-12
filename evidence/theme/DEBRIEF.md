@@ -1,0 +1,7 @@
+# Shared theme initial implementation
+
+Product c2aa0481b82e5683bd278cadca61148c00d14375. Pinned shared README dark-theme section, complete tokens/theme-dark.css and ui_kits/fia/app.jsx actual moon/sun/data-theme pattern inspected. Existing light FIA variables are scoped to non-dark html so original dark aliases win. Actual logo uses semantic link color; color-scheme follows theme. No vendor bytes changed. Kit36px control enlarged to44px for app accessibility; no OS detection or preference persistence added. Default is light on fresh document.
+
+Driver-seat: one quiet header utility changes the entire document without replacing source/audio state. Existing semantic cards, navigation, player and floating detail share original dark aliases. Independent source/design challenge is kitchen SOURCE-AND-DESIGN/REVIEW-AND-CHECKLIST, no tensions; actual playback reset or unreadable states return this implementation. No competing theme or theme-specific content fork introduced.
+
+Initial actual browser test PASS: both themes at319/726 across Guide/Scripture/Resources/map detail, active playback continues at0.95; settings and Info remain reachable.16initial screenshots accompany test/build.185required files/91,962,920bytes;164audio unchanged. Initial author upper3active minutes. User's expanded full CSS/inline/SVG and all-state/all-viewport audit remains pending independent review; initial sample is not complete audit. No full contrast or all-state acceptance claim.
