@@ -1,0 +1,1 @@
+REAL COLD OFFLINE visual owner while Guide PASS { offset: 3, plays: 0, rate: 0.95 }
