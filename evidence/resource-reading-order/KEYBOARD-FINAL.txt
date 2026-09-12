@@ -1,0 +1,34 @@
+[WebServer] (node:35006) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:35008) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+{"width":319,"shell":0,"aurora":0,"x":19,"right":300,"top":833.125,"bottom":987.125,"w":319,"h":987,"name":"Open Jordan River image"}
+{"width":319,"shell":0,"aurora":0,"x":246,"right":290,"top":933.125,"bottom":977.125,"w":319,"h":987,"name":"Play Jordan River"}
+{"width":319,"shell":0,"aurora":0,"x":19,"right":300,"top":416.125,"bottom":570.125,"w":319,"h":987,"name":"Open Wilderness or Desert image"}
+{"width":319,"shell":0,"aurora":0,"x":246,"right":290,"top":516.125,"bottom":560.125,"w":319,"h":987,"name":"Play Wilderness or Desert"}
+{"width":319,"shell":0,"aurora":0,"x":19,"right":300,"top":584.125,"bottom":738.125,"w":319,"h":987,"name":"Open Sandals — full view image"}
+{"width":319,"shell":0,"aurora":0,"x":246,"right":290,"top":684.125,"bottom":728.125,"w":319,"h":987,"name":"Play Sandals — full view"}
+{"width":319,"shell":0,"aurora":0,"x":19,"right":300,"top":752.125,"bottom":906.125,"w":319,"h":987,"name":"Open Sandals — close view image"}
+{"width":319,"shell":0,"aurora":0,"x":246,"right":290,"top":852.125,"bottom":896.125,"w":319,"h":987,"name":"Play Sandals — close view"}
+{"width":466,"shell":0,"aurora":0,"x":240,"right":443,"top":419.96875,"bottom":573.96875,"w":466,"h":987,"name":"Open Jordan River image"}
+{"width":466,"shell":0,"aurora":0,"x":389,"right":433,"top":519.96875,"bottom":563.96875,"w":466,"h":987,"name":"Play Jordan River"}
+{"width":466,"shell":0,"aurora":0,"x":23,"right":226,"top":609.34375,"bottom":763.34375,"w":466,"h":987,"name":"Open Wilderness or Desert image"}
+{"width":466,"shell":0,"aurora":0,"x":172,"right":216,"top":709.34375,"bottom":753.34375,"w":466,"h":987,"name":"Play Wilderness or Desert"}
+{"width":466,"shell":0,"aurora":0,"x":240,"right":443,"top":609.34375,"bottom":763.34375,"w":466,"h":987,"name":"Open Sandals — full view image"}
+{"width":466,"shell":0,"aurora":0,"x":389,"right":433,"top":709.34375,"bottom":753.34375,"w":466,"h":987,"name":"Play Sandals — full view"}
+{"width":466,"shell":0,"aurora":0,"x":23,"right":226,"top":777.34375,"bottom":931.34375,"w":466,"h":987,"name":"Open Sandals — close view image"}
+{"width":466,"shell":0,"aurora":0,"x":172,"right":216,"top":877.34375,"bottom":921.34375,"w":466,"h":987,"name":"Play Sandals — close view"}
+{"width":726,"shell":0,"aurora":0,"x":370,"right":697,"top":390.78125,"bottom":548.78125,"w":726,"h":987,"name":"Open Jordan River image"}
+{"width":726,"shell":0,"aurora":0,"x":641,"right":685,"top":492.78125,"bottom":536.78125,"w":726,"h":987,"name":"Play Jordan River"}
+{"width":726,"shell":0,"aurora":0,"x":29,"right":356,"top":566.5625,"bottom":724.5625,"w":726,"h":987,"name":"Open Wilderness or Desert image"}
+{"width":726,"shell":0,"aurora":0,"x":300,"right":344,"top":668.5625,"bottom":712.5625,"w":726,"h":987,"name":"Play Wilderness or Desert"}
+{"width":726,"shell":0,"aurora":0,"x":370,"right":697,"top":566.5625,"bottom":724.5625,"w":726,"h":987,"name":"Open Sandals — full view image"}
+{"width":726,"shell":0,"aurora":0,"x":641,"right":685,"top":668.5625,"bottom":712.5625,"w":726,"h":987,"name":"Play Sandals — full view"}
+{"width":726,"shell":0,"aurora":0,"x":29,"right":356,"top":738.5625,"bottom":896.5625,"w":726,"h":987,"name":"Open Sandals — close view image"}
+{"width":726,"shell":0,"aurora":0,"x":300,"right":344,"top":840.5625,"bottom":884.5625,"w":726,"h":987,"name":"Play Sandals — close view"}
+  ✓  1 tests/resource-order.spec.js:5:1 › keyboard focus never scrolls aurora horizontally (1.8s)
+
+  1 passed (2.7s)
