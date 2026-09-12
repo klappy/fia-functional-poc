@@ -2,14 +2,19 @@
   "classification": "Private build receipt; never deployed",
   "files": [
     {
+      "path": "app.webmanifest",
+      "bytes": 535,
+      "sha256": "57bf56bd95805904d6eed9b23a03ae16e164b0bd42c6fc924da142cf546fe3b3"
+    },
+    {
       "path": "assets/index-DImsaVsm.css",
       "bytes": 28012,
       "sha256": "827e7e333bf579cf2d3ae71c8d04f545d5bc92717062e55073ae6acb56eb9ad3"
     },
     {
-      "path": "assets/index-IVZl6JdM.js",
-      "bytes": 474884,
-      "sha256": "fb2241b0564dea2f2b1fd64801f619662dcc34fa900af52a0c3c67355eb802c6"
+      "path": "assets/index-Q38DabeQ.js",
+      "bytes": 459849,
+      "sha256": "5ec15b48f1991a2a1e0068fb63f3a03e564c7a54799f72ca5fdbeccc52e07f7f"
     },
     {
       "path": "assets/mark-1-1-13/a111.jpg",
@@ -962,41 +967,6 @@
       "sha256": "ac3a3c56a04d63ca0e322983e7a6865bca3d9e4da500df298756f10d3c934cb7"
     },
     {
-      "path": "content/spa/mark-1-1-13/assets/a111.jpg",
-      "bytes": 69973,
-      "sha256": "d314bac395b2aab8cf601f6a590bbf2547b71a54af67eb95dc927f5042883480"
-    },
-    {
-      "path": "content/spa/mark-1-1-13/assets/a112.jpg",
-      "bytes": 163531,
-      "sha256": "9c58b5b5100b4324ab54000ac3c26b7ad2371fd964afa319fe0cda7da8e0291c"
-    },
-    {
-      "path": "content/spa/mark-1-1-13/assets/a204.jpg",
-      "bytes": 93501,
-      "sha256": "d1e3f8420046e066c981476e80cad3c0024d77694d9045a2ca248cdc0dc811c7"
-    },
-    {
-      "path": "content/spa/mark-1-1-13/assets/c197.png",
-      "bytes": 6712636,
-      "sha256": "e634e8d7f17c55b5f8be3fdc1f91fee7708f30774f4e1ad3223efff8ef9f2f5d"
-    },
-    {
-      "path": "content/spa/mark-1-1-13/assets/c202.png",
-      "bytes": 1065016,
-      "sha256": "edece4856f059c482ff51d57f3b947ed4a6f97d998be548af2e96d6e4543fa0c"
-    },
-    {
-      "path": "content/spa/mark-1-1-13/manifest.json",
-      "bytes": 1185,
-      "sha256": "039718122dceeac7bb13e4b97ec9c9a464a93aa1244fb921921d234ee70fe6ca"
-    },
-    {
-      "path": "content/spa/mark-1-1-13/pack.json",
-      "bytes": 374518,
-      "sha256": "031635f2c922871e71bb679758642cb6e2e37a4779d7c1cc32e1b395d5706192"
-    },
-    {
       "path": "content/term-narration.json",
       "bytes": 47217,
       "sha256": "0eb6c139d8af0fb2c61a6c241f8aae7dc1dfa8efc10753bb944243309abb9112"
@@ -1007,27 +977,42 @@
       "sha256": "150501ac9d3ee31ad091cf77c1eda7047346c185939d5efad4d4eed40b4f27c9"
     },
     {
+      "path": "icons/apple-touch-icon.png",
+      "bytes": 4282,
+      "sha256": "1ac149b892e666ec7922fc172cce384920a4e68d496fdcf85b3b8a2aaa6bda4e"
+    },
+    {
+      "path": "icons/fia-192.png",
+      "bytes": 4766,
+      "sha256": "4a952806d86da0cdaf9f33dd57badcbb776cab3affb2fb5b3a26a3c10702666e"
+    },
+    {
+      "path": "icons/fia-512.png",
+      "bytes": 15475,
+      "sha256": "6a278a9587b37de38e27a68146e2453f1ae679247ed8185f36a8faf8f7a8064d"
+    },
+    {
+      "path": "icons/fia-maskable-512.png",
+      "bytes": 15475,
+      "sha256": "6a278a9587b37de38e27a68146e2453f1ae679247ed8185f36a8faf8f7a8064d"
+    },
+    {
       "path": "index.html",
-      "bytes": 362,
-      "sha256": "12988e0c26dd92797c0611547540a02e289d8f2d1404eecfdec3aed356ea7c88"
+      "bytes": 517,
+      "sha256": "da4ed05351e6ded4c11442e04526f24ebb91c33ec9edddc1310395bdbff05657"
     },
     {
       "path": "offline-shell.json",
-      "bytes": 43032,
-      "sha256": "df86c9343a5d1352e1f9bd1dadbd0febff0a9153b0203b580ca3ef37a3ae161d"
-    },
-    {
-      "path": "offline-spa.json",
-      "bytes": 2384,
-      "sha256": "2bf827c9e3c2a679938949f014b24f8f22deb9ded7f7c8d71d1580a0d7735d02"
+      "bytes": 44085,
+      "sha256": "0fb523a69a4525bd62233384822bf42c9fc6e8d0ee00b5966f3410a2f75b142d"
     },
     {
       "path": "sw.js",
-      "bytes": 6146,
-      "sha256": "d52842f29b7c0bfaeef23d0183746410dec5ec92af839923f0e668e977e873f9"
+      "bytes": 6070,
+      "sha256": "1ceb64a2c3971b8832e2aabae1f932fb071fe733c7fd9ebe06413aa79ef47f80"
     }
   ],
-  "packFiles": 195,
-  "packBytes": 93596411,
-  "distBytes": 102128333
+  "packFiles": 200,
+  "packBytes": 93622064,
+  "distBytes": 93672219
 }

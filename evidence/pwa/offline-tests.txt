@@ -1,0 +1,17 @@
+
+> fia-functional-poc@0.1.0 test:pwa
+> playwright test -c playwright.pwa.config.js
+
+[WebServer] (node:67043) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 4 tests using 1 worker
+
+(node:67044) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 evidence/pwa/specs/speech-offline.spec.js:6:1 › complete offline pack and real media survive cold page, exploration and new owner (4.2s)
+  ✓  2 evidence/pwa/specs/speech-offline.spec.js:13:1 › missing corrupt canceled transfers preserve a verified pack and removal remains explicit (2.2s)
+  ✓  3 evidence/pwa/specs/speech-offline.spec.js:18:1 › combined transition plays offline and stops on the activity; source info returns focus (1.9s)
+  ✓  4 evidence/pwa/specs/upgrade.spec.js:3:1 › ordinary reload upgrades a saved previous shell without deleting progress or its verified pack (2.4s)
+
+  4 passed (11.4s)

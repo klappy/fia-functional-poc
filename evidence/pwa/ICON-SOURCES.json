@@ -1,0 +1,31 @@
+{
+  "source": "src/components/FiaBrand.jsx",
+  "officialSource": "https://fia.bible/about",
+  "pathHashes": [
+    "2c6dfc1612bb54be6d29426bab21e79160ff65a148eca8ca220c4150b80ca4fd",
+    "9e626744b3ddcc452bee094bd0a1b02c6215611667bc88535e209ed862f82654"
+  ],
+  "safeZone": "Symbol bounding corner radius 38.94% < 40%; opaque background",
+  "outputs": [
+    {
+      "path": "/icons/fia-192.png",
+      "size": 192,
+      "sha256": "4a952806d86da0cdaf9f33dd57badcbb776cab3affb2fb5b3a26a3c10702666e"
+    },
+    {
+      "path": "/icons/fia-512.png",
+      "size": 512,
+      "sha256": "6a278a9587b37de38e27a68146e2453f1ae679247ed8185f36a8faf8f7a8064d"
+    },
+    {
+      "path": "/icons/fia-maskable-512.png",
+      "size": 512,
+      "sha256": "6a278a9587b37de38e27a68146e2453f1ae679247ed8185f36a8faf8f7a8064d"
+    },
+    {
+      "path": "/icons/apple-touch-icon.png",
+      "size": 180,
+      "sha256": "1ac149b892e666ec7922fc172cce384920a4e68d496fdcf85b3b8a2aaa6bda4e"
+    }
+  ]
+}

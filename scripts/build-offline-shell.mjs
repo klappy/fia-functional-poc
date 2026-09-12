@@ -1,5 +1,6 @@
 import fs from 'node:fs';import crypto from 'node:crypto';
 const entries=['index.html',...fs.readdirSync('dist/assets').filter(n=>/\.(js|css)$/.test(n)).map(n=>`assets/${n}`)].map(path=>{const bytes=fs.readFileSync(`dist/${path}`);return {path:`/${path}`,bytes:bytes.length,sha256:crypto.createHash('sha256').update(bytes).digest('hex'),mime:path.endsWith('.html')?'text/html':path.endsWith('.css')?'text/css':'text/javascript',group:'shell'};});
+for(const path of ['app.webmanifest','icons/fia-192.png','icons/fia-512.png','icons/fia-maskable-512.png','icons/apple-touch-icon.png']){const bytes=fs.readFileSync(`dist/${path}`);entries.push({path:`/${path}`,bytes:bytes.length,sha256:crypto.createHash('sha256').update(bytes).digest('hex'),mime:path.endsWith('.webmanifest')?'application/manifest+json':'image/png',group:'shell'});}
 const manifestPath='content/mark-1-1-13/manifest.json',bytes=fs.readFileSync(`dist/${manifestPath}`),manifest=JSON.parse(bytes);
 entries.push({path:`/${manifestPath}`,bytes:bytes.length,sha256:crypto.createHash('sha256').update(bytes).digest('hex'),mime:'application/json',group:'pack'},...[...manifest.files,...manifest.assets].map(({path,bytes,sha256,mime})=>({path,bytes,sha256,mime,group:'pack'})));
 const audioPath='audio/mark-1-1-13/manifest.json';

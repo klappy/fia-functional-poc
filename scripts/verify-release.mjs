@@ -5,7 +5,7 @@ const shell=JSON.parse(fs.readFileSync('dist/offline-shell.json'));
 const pinned=JSON.parse(fs.readFileSync('evidence/release/APPROVED-PUBLIC-PATHS.json'));
 const generated=fs.readdirSync('dist/assets').filter(p=>/^index-[A-Za-z0-9_-]+\.(js|css)$/.test(p)).map(p=>'assets/'+p);
 const allowed=new Set([...pinned,...generated,'index.html','offline-shell.json','offline-spa.json']);
-if(shell.entries.length!==195||allowed.size!==205||generated.length!==2)throw Error('Release inventory count changed');
+if(shell.entries.length!==200||allowed.size!==210||generated.length!==2)throw Error('Release inventory count changed');
 const walk=(dir,prefix='')=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(`${dir}/${e.name}`,`${prefix}${e.name}/`):[`${prefix}${e.name}`]);
 const files=walk('dist');
 if(files.length!==allowed.size||files.some(p=>!allowed.has(p)))throw Error('Unapproved release file');

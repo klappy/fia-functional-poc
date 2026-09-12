@@ -198,5 +198,10 @@
   "content/spa/mark-1-1-13/assets/a112.jpg",
   "content/spa/mark-1-1-13/assets/a204.jpg",
   "content/spa/mark-1-1-13/assets/c197.png",
-  "content/spa/mark-1-1-13/assets/c202.png"
+  "content/spa/mark-1-1-13/assets/c202.png",
+  "app.webmanifest",
+  "icons/fia-192.png",
+  "icons/fia-512.png",
+  "icons/fia-maskable-512.png",
+  "icons/apple-touch-icon.png"
 ]
