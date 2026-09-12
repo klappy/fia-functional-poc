@@ -55,7 +55,7 @@ html[data-theme="dark"] .scripture-version{background:var(--material-floating)!i
 /* Card-footer trial: shared controls, stable reading-body/footer geometry. */
 .app-shell{padding-bottom:calc(94px + env(safe-area-inset-bottom))}
 .card-transport-footer{flex:none;border-top:var(--border-hairline);padding-top:12px;display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap}
-.card-transport-footer>.compact-transport{width:max-content;width:100%;max-width:100%;gap:4px;padding:6px}
+.card-transport-footer>.compact-transport{width:max-content;width:100%;max-width:100%;justify-content:center;gap:4px;padding:6px}
 .card-transport-footer .compact-transport>button:first-child,.card-transport-footer .compact-transport>button:last-child{flex:none}
 .card-transport-footer .owner-toggle{min-width:0;flex:0 1 auto}.card-transport-footer .owner-toggle span{max-width:140px}
 .guide-footer>p{flex-basis:100%;text-align:center;margin:0}.guide-footer>.compact-transport{order:2}
