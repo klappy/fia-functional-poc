@@ -1,0 +1,16 @@
+[WebServer] (node:97115) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:97116) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:97117) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 3 tests using 1 worker
+
+(node:97118) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/spanish-integration.spec.js:4:1 › Spanish saves separate verified text pack and restores offline (1.4s)
+  ✓  2 tests/spanish-integration.spec.js:9:1 › saved legacy English then new Spanish launches current shell offline (2.5s)
+  ✓  3 tests/speech-offline.spec.js:13:1 › missing corrupt canceled transfers preserve a verified pack and removal remains explicit (2.3s)
+
+  3 passed (7.4s)

@@ -1,0 +1,5 @@
+Spanish offline/install controls now select the Spanish manifest and describe its actual text/images/no narration coverage. English defaults are retained. The exact byte total is asserted against the Spanish manifest by an actual browser test. Default CI starts the dedicated4795 legacy upgrade server. Removal checks require the current FIA error shell, unavailable explanation, enabled retry, and actual recovery after connectivity returns.
+
+Production build/privacy audit passed210publishedfiles/172unchangedMP3. Three affected browser cases passed: Spanish save/relaunch+exact copy/bytes, legacy English→Spanish offline shell, corruption/removal and online retry recovery. First local attempt was canceled because port4173 served an unrelated stale build; isolated4797 runner then passed3/3 in7.4s. No test was weakened. Separate new persistence Bugbot findings are not included here. Remote branch checked2ef51 immediately before commit; no force push.
+
+Bounded correction author charge conservatively3minutes (started13:20:37UTC), S4/PWA budgets untouched. Coordinator owns remaining independent review and kitchen persistence.
