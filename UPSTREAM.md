@@ -33,3 +33,5 @@ Holistic composition: ResourceCard retains its exact original default media bran
 Visual narration correction: ResourceCard actions branch now preserves the original90px centered cover media region and type badge when image is present, with an independent accessible preview button and title Open button beside the sibling Play action. Original term-only actions branch had dropped image. This exact adaptation retains full source images, no nested buttons.
 
 Contrast/badge correction: original ResourceCard media badge overline/letter-spacing/uppercase restored; below-image repeated type omitted only for media cards. ScripturePassage version chip gains a class hook; dark app composition uses existing material-floating on this small label, and existing title/body semantic tiers for small text/links inside app/portal. Vendor palette/token CSS unchanged.
+
+Transport fidelity: export and reuse the exact original GlassTabBar item style for command buttons and selected source button. Commands retain button semantics; original tabs retain tabs. Original44px/18pxicon/13pxinactive and14–18pxselected padding/font/gap retained; label alone truncates to actual nav cap.

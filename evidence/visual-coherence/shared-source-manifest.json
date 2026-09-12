@@ -105,7 +105,9 @@
     },
     {
       "path": "components/navigation/GlassTabBar.jsx",
-      "sha256": "ff0e3f931d3d615b73afefb0f0d44102bb393359fa58e5ede75eea4529282e61"
+      "sha256": "b849ecf4664ca1705fa7a5cd3ea4a7bbd15278ada24774d74fb3f34e73781b08",
+      "upstreamSha256": "ff0e3f931d3d615b73afefb0f0d44102bb393359fa58e5ede75eea4529282e61",
+      "adaptation": "Exact original item style extracted as exported glassTabItemStyle and reused for command transport; original tab semantics unchanged."
     },
     {
       "path": "components/navigation/GlassSheet.jsx",
