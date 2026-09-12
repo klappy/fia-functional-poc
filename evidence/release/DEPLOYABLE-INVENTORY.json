@@ -2,14 +2,14 @@
   "classification": "Private build receipt; never deployed",
   "files": [
     {
-      "path": "assets/index-D6LmsB3w.js",
-      "bytes": 473390,
-      "sha256": "b70ed924534684e71e9cb7a5ff346d1fbfca4093ca535d21ce8f85e91cae6ea0"
-    },
-    {
       "path": "assets/index-DImsaVsm.css",
       "bytes": 28012,
       "sha256": "827e7e333bf579cf2d3ae71c8d04f545d5bc92717062e55073ae6acb56eb9ad3"
+    },
+    {
+      "path": "assets/index-IVZl6JdM.js",
+      "bytes": 474884,
+      "sha256": "fb2241b0564dea2f2b1fd64801f619662dcc34fa900af52a0c3c67355eb802c6"
     },
     {
       "path": "assets/mark-1-1-13/a111.jpg",
@@ -1009,25 +1009,25 @@
     {
       "path": "index.html",
       "bytes": 362,
-      "sha256": "9405fc58dd51422f4e842818a68390f2185f95f47f803c9600c1159f6e73d0e7"
+      "sha256": "12988e0c26dd92797c0611547540a02e289d8f2d1404eecfdec3aed356ea7c88"
     },
     {
       "path": "offline-shell.json",
       "bytes": 43032,
-      "sha256": "dd7070973b828183cd37e62639e0ffe08fb8d48489b3bae842a89dd1b3facf4d"
+      "sha256": "df86c9343a5d1352e1f9bd1dadbd0febff0a9153b0203b580ca3ef37a3ae161d"
     },
     {
       "path": "offline-spa.json",
       "bytes": 2384,
-      "sha256": "c59348574aa67e25d1d3e9e7cb9ba7dac7ec75081d01cbfed2d06898931645b3"
+      "sha256": "2bf827c9e3c2a679938949f014b24f8f22deb9ded7f7c8d71d1580a0d7735d02"
     },
     {
       "path": "sw.js",
       "bytes": 6146,
-      "sha256": "349f380de6d0964f869267a99d0a08905725c8de64944d4a91557cbd32d05631"
+      "sha256": "d52842f29b7c0bfaeef23d0183746410dec5ec92af839923f0e668e977e873f9"
     }
   ],
   "packFiles": 195,
-  "packBytes": 93594917,
-  "distBytes": 102126839
+  "packBytes": 93596411,
+  "distBytes": 102128333
 }

@@ -25,8 +25,8 @@ export function LanguagePicker({languages=[],context='attribute',value,onChange,
         React.createElement('span',{dir:r.dir||'ltr',lang:r.code,style:{font:`500 15px/1.3 ${FACE[base]||'var(--font-core)'}`,color:'var(--text-title)',letterSpacing:FACE[base]?0:'-0.01em'}},r.autonym),
         React.createElement('span',{style:{font:'var(--type-caption)',color:'var(--text-muted)'}},r.english),
         React.createElement('span',{style:{font:'10px/1.2 var(--font-mono)',color:'var(--text-dim)'}},r.code)),
-      React.createElement('span',{style:{font:'var(--type-caption)',color:'var(--text-dim)'}},note(r))),
-    r.coverage?React.createElement('span',{style:{display:'flex',gap:4,flex:'none',alignItems:'center'}},r.coverage.split('').map((st,i)=>chip(st,types[i]||''))):null);};
+      null),
+    r.coverage?React.createElement('span',{style:{display:'flex',gap:4,flex:'none',alignItems:'center'}},r.coverage.split('').map((st,i)=>chip(st,types[i]||''))):null,React.createElement('span',{className:'language-status',style:{flexBasis:'100%',textAlign:'start',font:'var(--type-caption)',color:'var(--text-dim)'}},note(r)));};
   const group=(label,rows)=>rows.length?[React.createElement('div',{key:'h'+label,style:{padding:'10px 12px 4px',font:'var(--type-overline)',letterSpacing:'var(--ls-overline)',textTransform:'uppercase',color:'var(--text-dim)'}},label),...rows.map(row)]:[];
   const total=sugg.length+rest_.length;
   const sheet=surface==='sheet';

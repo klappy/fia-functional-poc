@@ -119,9 +119,9 @@
     },
     {
       "path": "components/language/LanguagePicker.jsx",
-      "sha256": "1c8249bd7c9338978316f2c249a6f4fb363447ecc9b2bbb1ff4c913517a6f807",
+      "sha256": "7a4dd76f5085cd49a747efbc6939041eef40310b5597809c31a4c2e7a6471ca9",
       "upstreamSha256": "000c036724dc6c941f102cfc722afc2a51cf8b1bd2c4f93bd8890768cde35c07",
-      "adaptation": "Actual complete LanguagePicker; optional truthful statusNote/AI legend control, accessible search label, responsive row wrapping. Search/autonyms/suggestions/coverage retained."
+      "adaptation": "Actual complete LanguagePicker; optional truthful statusNote/AI legend control, accessible search label, responsive row wrapping. Search/autonyms/suggestions/coverage retained. Status now separate full-width row below identity and chips."
     }
   ]
 }
