@@ -2420,7 +2420,7 @@
         "section": 5,
         "element": "p",
         "kind": "source-editorial-resource-request",
-        "action": "resource-disposition",
+        "action": null,
         "html": "<p><b>Pedido de Archivo:</b></p>",
         "text": "Pedido de Archivo:",
         "source": {
@@ -2430,8 +2430,8 @@
         },
         "semanticParent": "spa-mrk-p1-v2.1-s5-u124",
         "semanticNote": "Preserve editorial file request in provenance, not spoken participant instruction.",
-        "visibility": "normal",
-        "ordinaryQueue": true,
+        "visibility": "source-metadata",
+        "ordinaryQueue": false,
         "literalStop": false
       },
       {
@@ -2439,7 +2439,7 @@
         "section": 5,
         "element": "p",
         "kind": "source-editorial-resource-request",
-        "action": "resource-disposition",
+        "action": null,
         "html": "<p>Mapa de Judea y de Jerusalén</p>",
         "text": "Mapa de Judea y de Jerusalén",
         "source": {
@@ -2449,8 +2449,8 @@
         },
         "semanticParent": "spa-mrk-p1-v2.1-s5-u125",
         "semanticNote": "Preserve editorial file request in provenance, not spoken participant instruction.",
-        "visibility": "normal",
-        "ordinaryQueue": true,
+        "visibility": "source-metadata",
+        "ordinaryQueue": false,
         "literalStop": false
       },
       {
@@ -3609,8 +3609,8 @@
         "blockIds": [
           "spa-mrk-p1-v2.1-s5-u124"
         ],
-        "ordinaryQueue": true,
-        "visibility": "normal"
+        "ordinaryQueue": false,
+        "visibility": "source-metadata"
       },
       {
         "id": "spa-mrk-p1-v2.1-s5-u125",
@@ -3618,8 +3618,8 @@
         "blockIds": [
           "spa-mrk-p1-v2.1-s5-u125"
         ],
-        "ordinaryQueue": true,
-        "visibility": "normal"
+        "ordinaryQueue": false,
+        "visibility": "source-metadata"
       },
       {
         "id": "spa-mrk-p1-v2.1-s6-u126",
@@ -3799,8 +3799,6 @@
       "spa-mrk-p1-v2.1-s5-u121",
       "spa-mrk-p1-v2.1-s5-u122",
       "spa-mrk-p1-v2.1-s5-u123",
-      "spa-mrk-p1-v2.1-s5-u124",
-      "spa-mrk-p1-v2.1-s5-u125",
       "spa-mrk-p1-v2.1-s6-u126",
       "spa-mrk-p1-v2.1-s6-u127",
       "spa-mrk-p1-v2.1-s6-u128",
@@ -3812,6 +3810,10 @@
     ],
     "optionalExampleGroupIds": [
       "spa-mrk-p1-v2.1-s4-example-enactment"
+    ],
+    "metadataGroupIds": [
+      "spa-mrk-p1-v2.1-s5-u124",
+      "spa-mrk-p1-v2.1-s5-u125"
     ],
     "sourceStopIds": [
       "spa-mrk-p1-v2.1-s2-u015",
@@ -6033,6 +6035,7 @@
   ],
   "derivedAssociations": [
     {
+      "scope": "activity",
       "cueNumber": 15,
       "resourceIds": [
         "a112",
@@ -6041,6 +6044,7 @@
       "origin": "prose-derived reviewed selection; not original guide association"
     },
     {
+      "scope": "activity",
       "cueNumber": 18,
       "resourceIds": [
         "a204"
@@ -6048,6 +6052,7 @@
       "origin": "prose-derived reviewed selection; not original guide association"
     },
     {
+      "scope": "activity",
       "cueNumber": 31,
       "resourceIds": [
         "c197"
@@ -6055,6 +6060,16 @@
       "origin": "prose-derived reviewed selection; not original guide association"
     },
     {
+      "scope": "activity",
+      "cueNumber": 43,
+      "resourceIds": [
+        "a112",
+        "a111"
+      ],
+      "origin": "prose-derived reviewed selection; not original guide association"
+    },
+    {
+      "scope": "activity",
       "cueNumber": 45,
       "resourceIds": [
         "c197"
@@ -6065,6 +6080,7 @@
       "origin": "prose-derived reviewed selection; not original guide association"
     },
     {
+      "scope": "activity",
       "cueNumber": 95,
       "resourceIds": [
         "a111"
@@ -6072,6 +6088,7 @@
       "origin": "prose-derived reviewed selection; not original guide association"
     },
     {
+      "scope": "activity",
       "cueNumber": 97,
       "resourceIds": [
         "spa-t87-v1"
@@ -6079,6 +6096,7 @@
       "origin": "prose-derived reviewed selection; not original guide association"
     },
     {
+      "scope": "activity",
       "cueNumber": 123,
       "resourceIds": [
         "spa-t4-v1"
@@ -6086,6 +6104,7 @@
       "origin": "prose-derived reviewed selection; not original guide association"
     },
     {
+      "scope": "source-metadata-only",
       "cueNumber": 125,
       "resourceIds": [
         "c197"

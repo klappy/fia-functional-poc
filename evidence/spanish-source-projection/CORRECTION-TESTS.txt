@@ -1,0 +1,40 @@
+TAP version 13
+# Subtest: Spanish source coverage retains all blocks and isolates optional enactment
+ok 1 - Spanish source coverage retains all blocks and isolates optional enactment
+  ---
+  duration_ms: 6.220209
+  type: 'test'
+  ...
+# Subtest: original Spanish bodies and rights survive projection, derived text stays separate
+ok 2 - original Spanish bodies and rights survive projection, derived text stays separate
+  ---
+  duration_ms: 3.787417
+  type: 'test'
+  ...
+# Subtest: unknown source IDs, changed original text, altered supplement and ordinary example fail closed
+ok 3 - unknown source IDs, changed original text, altered supplement and ordinary example fail closed
+  ---
+  duration_ms: 16.580458
+  type: 'test'
+  ...
+# Subtest: candidate payload and asset manifest have no runtime/audio activation or private paths
+ok 4 - candidate payload and asset manifest have no runtime/audio activation or private paths
+  ---
+  duration_ms: 9.579209
+  type: 'test'
+  ...
+# Subtest: editorial resource requests preserve source but never become activities or examples
+ok 5 - editorial resource requests preserve source but never become activities or examples
+  ---
+  duration_ms: 4.847334
+  type: 'test'
+  ...
+1..5
+# tests 5
+# suites 0
+# pass 5
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 88.328042
