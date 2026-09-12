@@ -79,3 +79,6 @@ html[data-theme="dark"] .scripture-version{background:var(--material-floating)!i
 /* Scroll gutter contains the canonical contextual-card shadows instead of cutting
    their falloff at the inner text rectangle; card material/backdrop unchanged. */
 .guide-card .source-scroll{margin-inline:-16px;padding:0 16px 36px}
+
+/* Prevent focus from scrolling the decorative oversized aurora horizontally. */
+.app-aurora{overflow:clip!important}

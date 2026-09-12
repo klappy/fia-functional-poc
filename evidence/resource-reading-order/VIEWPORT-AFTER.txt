@@ -1,0 +1,16 @@
+[WebServer] (node:29247) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:29248) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+{"width":319,"theme":"dark","x":0,"auroraScroll":0,"doc":319,"rects":{".app-shell":{"x":0,"right":319,"width":319},".official-fia-mark":{"x":14,"right":99.046875,"width":85.046875},"input[type=search]":{"x":65,"right":284,"width":219},".resource-grid":{"x":14,"right":305,"width":291},".resource-card":{"x":18,"right":301,"width":283}}}
+{"width":319,"theme":"light","x":0,"auroraScroll":0,"doc":319,"rects":{".app-shell":{"x":0,"right":319,"width":319},".official-fia-mark":{"x":14,"right":99.046875,"width":85.046875},"input[type=search]":{"x":65,"right":284,"width":219},".resource-grid":{"x":14,"right":305,"width":291},".resource-card":{"x":18,"right":301,"width":283}}}
+{"width":466,"theme":"dark","x":0,"auroraScroll":0,"doc":466,"rects":{".app-shell":{"x":0,"right":466,"width":466},".official-fia-mark":{"x":18,"right":103.046875,"width":85.046875},"input[type=search]":{"x":69,"right":427,"width":358},".resource-grid":{"x":18,"right":448,"width":430},".resource-card":{"x":22,"right":227,"width":205}}}
+{"width":466,"theme":"light","x":0,"auroraScroll":0,"doc":466,"rects":{".app-shell":{"x":0,"right":466,"width":466},".official-fia-mark":{"x":18,"right":103.046875,"width":85.046875},"input[type=search]":{"x":69,"right":427,"width":358},".resource-grid":{"x":18,"right":448,"width":430},".resource-card":{"x":22,"right":227,"width":205}}}
+{"width":726,"theme":"dark","x":0,"auroraScroll":0,"doc":726,"rects":{".app-shell":{"x":0,"right":726,"width":726},".official-fia-mark":{"x":24,"right":109.046875,"width":85.046875},"input[type=search]":{"x":75,"right":681,"width":606},".resource-grid":{"x":24,"right":702,"width":678},".resource-card":{"x":28,"right":357,"width":329}}}
+{"width":726,"theme":"light","x":0,"auroraScroll":0,"doc":726,"rects":{".app-shell":{"x":0,"right":726,"width":726},".official-fia-mark":{"x":24,"right":109.046875,"width":85.046875},"input[type=search]":{"x":75,"right":681,"width":606},".resource-grid":{"x":24,"right":702,"width":678},".resource-card":{"x":28,"right":357,"width":329}}}
+  ✓  1 tests/resource-order.spec.js:4:1 › resource viewport diagnostics (20.0s)
+
+  1 passed (22.0s)
