@@ -2,14 +2,14 @@
   "classification": "Private build receipt; never deployed",
   "files": [
     {
-      "path": "assets/index-B6A5yzhl.js",
-      "bytes": 455517,
-      "sha256": "84c16041fb9dba3bcf59696cdd530d53dd6ba3880f711e3966bf33848545c035"
+      "path": "assets/index-D096INqS.js",
+      "bytes": 455750,
+      "sha256": "fe04c924feabe5b477f8adc32ef19f236da4f5348b0bfa2e7745353a0ba689d6"
     },
     {
-      "path": "assets/index-_x0wCRRI.css",
-      "bytes": 27094,
-      "sha256": "bd50b65a319eaa0030549aefddd7fd84737a66beeeca385e212fb801712c4a6f"
+      "path": "assets/index-ZLvb6Xth.css",
+      "bytes": 27203,
+      "sha256": "c2688700d173aedbd9a6b216e3a50577d7e61096ca0f73c2674b624c3f32ac1d"
     },
     {
       "path": "assets/mark-1-1-13/a111.jpg",
@@ -974,12 +974,12 @@
     {
       "path": "index.html",
       "bytes": 362,
-      "sha256": "96e508bb2f4241e5e386f74aa9505fb72a5d83598fa8beeb2149604d7cad7359"
+      "sha256": "a58e81660b4ab8eda796595504a44d6b2089de7619a4b355447c16c923407b52"
     },
     {
       "path": "offline-shell.json",
       "bytes": 43032,
-      "sha256": "dfe028263738ad19da8a87c19ca07de20ad86f78a6f6e9cbb55fdb66d2ab187b"
+      "sha256": "69594a4e101830972a910be95a13cb2678324944d5bb8a7eda1a131618ea963d"
     },
     {
       "path": "sw.js",
@@ -988,6 +988,6 @@
     }
   ],
   "packFiles": 195,
-  "packBytes": 93576126,
-  "distBytes": 93624905
+  "packBytes": 93576468,
+  "distBytes": 93625247
 }
