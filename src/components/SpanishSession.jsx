@@ -1,3 +1,4 @@
+import {storedTheme,saveSharedTheme} from '../lib/workspace.js';
 import SourceIcon from './SourceIcon.jsx';
 import AudioControls from './AudioControls.jsx';
 import SharedTransport from './SharedTransport.jsx';
@@ -22,8 +23,8 @@ import LanguagesPanel from'./LanguagesPanel.jsx';
 import OfflineControls from'./OfflineControls.jsx';
 function Rights({rights}){return <><p>{rights.licenseInfo?.copyright?.holder?.name} {rights.licenseInfo?.copyright?.dates}</p>{rights.licenseInfo?.licenses?.map((l,i)=><p key={i}><a href={l.eng.url}>{l.eng.name}</a></p>)}<SafeHtml html={rights.adaptationNotice??rights.sourceAdaptationNoticeHtml??''}/>{rights.attributionDiscrepancy&&<p>{rights.attributionDiscrepancy}</p>}</>;}
 export default function SpanishSession({pack,onLanguage,busy,error}){
- const[boot]=useState(()=>restoreSpanish(browserStorage(),pack));const[state,setState]=useState(()=>{const{notice,...seed}=boot;return seed;});const[notice,setNotice]=useState(boot.notice??'');const[theme,setTheme]=useState(document.documentElement.dataset.theme==='dark'?'dark':'light');const[selection,setSelection]=useState(null);const[offlineState,setOfflineState]=useState({status:'checking',saved:false});const offline=useRef(null);
- useEffect(()=>{document.documentElement.dataset.theme=theme;},[theme]);useEffect(()=>{if(!saveSpanish(browserStorage(),state))setNotice('Spanish progress cannot be stored on this device. You can continue.');},[state]);
+ const[boot]=useState(()=>restoreSpanish(browserStorage(),pack));const[state,setState]=useState(()=>{const{notice,...seed}=boot;return seed;});const[notice,setNotice]=useState(boot.notice??'');const[theme,setTheme]=useState(()=>storedTheme(browserStorage()));const[selection,setSelection]=useState(null);const[offlineState,setOfflineState]=useState({status:'checking',saved:false});const offline=useRef(null);
+ useEffect(()=>{document.documentElement.dataset.theme=theme;if(!saveSharedTheme(browserStorage(),theme))setNotice('Theme cannot be stored on this device.');},[theme]);useEffect(()=>{if(!saveSpanish(browserStorage(),state))setNotice('Spanish progress cannot be stored on this device. You can continue.');},[state]);
  useEffect(()=>{const c=new OfflineController(setOfflineState,'spa');offline.current=c;c.init();return()=>c.dispose();},[]);
  const update=delta=>setState(s=>({...s,...delta}));const groups=pack.guide.groups.filter(g=>g.ordinaryQueue),index=groups.findIndex(g=>g.id===state.groupId),group=groups[index];const sectionGroups=groups.filter(g=>g.section===group.section),sectionIndex=sectionGroups.findIndex(g=>g.id===group.id);const sectionTitles=pack.guide.blocks.filter(b=>b.element==='h2');const scroll=useRef(null);useEffect(()=>{if(scroll.current)scroll.current.scrollTop=0;},[state.groupId]);const resources=[...pack.terms,...pack.media];const visible=resources.filter(r=>r.title.toLowerCase().includes(state.query.toLowerCase()));
  const supplements=id=>pack.supplements.filter(s=>s.targetId===id);

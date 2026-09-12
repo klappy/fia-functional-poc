@@ -1,0 +1,11 @@
+[WebServer] (node:30304) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 2 tests using 1 worker
+
+(node:30305) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/spanish-integration.spec.js:6:1 › corrupt target retains paused English with zero added plays (895ms)
+  ✓  2 tests/spanish-integration.spec.js:14:1 › language roundtrip preserves native checkpoint and shared theme (1.2s)
+
+  2 passed (3.0s)
