@@ -1,0 +1,13 @@
+tab
+waiting
+node:internal/modules/run_main:123
+    triggerUncaughtException(
+    ^
+
+page.waitForFunction: Timeout 30000ms exceeded.
+    at /private/tmp/fia-language-paused-owner/evidence/consolidated-forward/intro.mjs:1:908 {
+  log: [],
+  name: 'TimeoutError'
+}
+
+Node.js v22.16.0
