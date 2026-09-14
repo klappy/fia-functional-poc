@@ -1,0 +1,1112 @@
+{
+  "schemaVersion": 1,
+  "classification": "AI-derived Spanish Scripture supplements; independent semantic review pending; not installed or released",
+  "passage": "Mark 1:1–13",
+  "contentLanguage": "spa",
+  "generation": {
+    "method": "Direct text translation by the authoring AI assistant from pinned English source verses",
+    "providerCalls": 0,
+    "audioGenerated": false
+  },
+  "sourceWitnessSha256": "3cf70ebbaf3343ee3442ff655ba1150866498ce1afb044cc8470705f63f777ef",
+  "preserveExistingSpanishEditions": [
+    {
+      "id": "ReinaValera1909",
+      "source": {
+        "repository": "BibleAquifer/ReinaValera1909",
+        "commit": "84a071324be17c7c66db17dd204d7804e66d728b",
+        "path": "spa/json/41.content.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/ReinaValera1909/84a071324be17c7c66db17dd204d7804e66d728b/spa/json/41.content.json"
+      },
+      "rights": {
+        "licenseInfo": {
+          "title": "Reina Valera 1909",
+          "copyright": {
+            "dates": "1909",
+            "holder": {
+              "name": "Public Domain",
+              "url": "https://creativecommons.org/public-domain/cc0/"
+            }
+          },
+          "licenses": [
+            {
+              "eng": {
+                "name": "Public Domain CC0",
+                "url": "https://creativecommons.org/public-domain/cc0/"
+              }
+            }
+          ],
+          "showAdaptationNoticeForEnglish": false,
+          "showAdaptationNoticeForNonEnglish": false
+        },
+        "adaptationNotice": "",
+        "metadataUrl": "https://raw.githubusercontent.com/BibleAquifer/ReinaValera1909/84a071324be17c7c66db17dd204d7804e66d728b/spa/metadata.json",
+        "metadataSha256": "053250aba214089eabb7d4b1b4007ab3710d8c1b55fd6e7639b43f84f1156368"
+      },
+      "verseCount": 13
+    },
+    {
+      "id": "AquiferSpanishBibleReferenceText",
+      "source": {
+        "repository": "BibleAquifer/AquiferSpanishBibleReferenceText",
+        "commit": "449610f71555b0a7e495eebdfb0a77f865186264",
+        "path": "spa/json/41.content.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/AquiferSpanishBibleReferenceText/449610f71555b0a7e495eebdfb0a77f865186264/spa/json/41.content.json"
+      },
+      "rights": {
+        "licenseInfo": {
+          "licenses": [
+            {
+              "eng": {
+                "name": "CC BY-SA 4.0 license",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+              }
+            }
+          ],
+          "title": "Aquifer Spanish Bible Reference Text",
+          "copyright": {
+            "holder": {
+              "name": "Mission Mutual",
+              "url": "https://missionmutual.org"
+            },
+            "dates": "2026"
+          },
+          "showAdaptationNoticeForEnglish": false,
+          "showAdaptationNoticeForNonEnglish": false
+        },
+        "adaptationNotice": "",
+        "metadataUrl": "https://raw.githubusercontent.com/BibleAquifer/AquiferSpanishBibleReferenceText/449610f71555b0a7e495eebdfb0a77f865186264/spa/metadata.json",
+        "metadataSha256": "965ac6c0eae437d2d509ccc13b70aa5efa32554396b31f19c1a65f6d3f3742a5"
+      },
+      "verseCount": 13
+    }
+  ],
+  "supplements": [
+    {
+      "id": "ai-spa-from-BereanStandardBible-mark-1-1-13",
+      "label": "Español · traducción por IA de Berean Standard Bible",
+      "englishEdition": "BereanStandardBible",
+      "source": {
+        "repo": "BereanStandardBible",
+        "commit": "c7fbd7e8301d6b5aa03870780c04a7464b4dbb27",
+        "path": "eng/json/41.content.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/BereanStandardBible/c7fbd7e8301d6b5aa03870780c04a7464b4dbb27/eng/json/41.content.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "ab3a5d85d62c85bc7ec479078645c93904bacc0fd9443b5e2bcacf2936ad5a2b"
+      },
+      "sourceRights": {
+        "repo": "BereanStandardBible",
+        "commit": "c7fbd7e8301d6b5aa03870780c04a7464b4dbb27",
+        "path": "eng/metadata.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/BereanStandardBible/c7fbd7e8301d6b5aa03870780c04a7464b4dbb27/eng/metadata.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "ab0fc89bae70f62819ca768dc3195a949268e0e5e2beb74a06b6612f405681df",
+        "resourceTitle": "Berean Standard Bible",
+        "metadataVersion": "1.1.0",
+        "licenseInfo": {
+          "title": "Berean Standard Bible",
+          "copyright": {
+            "dates": null,
+            "holder": {
+              "name": "Berean Standard Bible",
+              "url": "https://berean.bible"
+            }
+          },
+          "licenses": [
+            {
+              "eng": {
+                "name": "Public Domain CC0",
+                "url": "https://creativecommons.org/public-domain/cc0/"
+              }
+            }
+          ],
+          "showAdaptationNoticeForEnglish": false,
+          "showAdaptationNoticeForNonEnglish": false
+        },
+        "adaptationNotice": ""
+      },
+      "attribution": "Source: Berean Standard Bible. Berean Standard Bible; public domain under CC0.",
+      "changeNotice": "AI-generated Spanish translation of the pinned English Mark 1:1–13 text. This is a separate derived supplement, not an official Spanish edition, publisher endorsement, or a claim of equivalence to an existing Spanish Bible. English source wording was translated into Spanish; verse numbering, source distinctions and brace-marked supplied phrases are retained.",
+      "outputLicense": {
+        "name": "Public Domain CC0",
+        "url": "https://creativecommons.org/public-domain/cc0/"
+      },
+      "sourceEditionEquivalence": false,
+      "officialSpanishEdition": false,
+      "audioAvailable": false,
+      "verses": [
+        {
+          "verse": 1,
+          "source": {
+            "content_id": "10041001001",
+            "version": "1.0.2",
+            "title": "Mark 1:1",
+            "media_type": "Text",
+            "index_reference": "41001001",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>1</sup>&nbsp;This is the beginning of the gospel of Jesus Christ, the Son of God.</p>",
+            "verse": 1,
+            "text": "This is the beginning of the gospel of Jesus Christ, the Son of God.",
+            "contentSha256": "553d703384326188401bfab3c4960da6f3df07fe10fc148d36bce01c3c3a4ad0"
+          },
+          "sourceTextSha256": "6489c319344f375b685118254070466b5414d9139d5ac791132368ac729b5cc7",
+          "sourceHtmlSha256": "553d703384326188401bfab3c4960da6f3df07fe10fc148d36bce01c3c3a4ad0",
+          "text": "Este es el comienzo del evangelio de Jesucristo, el Hijo de Dios.",
+          "outputTextSha256": "35ea487492802a90693d4b8c73032ee82ab2658e40ee55e849ef49774dfefc3a",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 2,
+          "source": {
+            "content_id": "10041001002",
+            "version": "1.0.2",
+            "title": "Mark 1:2",
+            "media_type": "Text",
+            "index_reference": "41001002",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>2</sup>&nbsp;As it is written in Isaiah the prophet: “Behold, I will send My messenger ahead of You, who will prepare Your way.”</p>",
+            "verse": 2,
+            "text": "As it is written in Isaiah the prophet: “Behold, I will send My messenger ahead of You, who will prepare Your way.”",
+            "contentSha256": "2d583f85fc11fac0db86679c53b65c3180a7f760d60001a6629f2cd0bbc7d612"
+          },
+          "sourceTextSha256": "4872327f9dc23aa6a7d177fea9dfb4f0026d801fb0a6745c0661ad231277197a",
+          "sourceHtmlSha256": "2d583f85fc11fac0db86679c53b65c3180a7f760d60001a6629f2cd0bbc7d612",
+          "text": "Como está escrito en el profeta Isaías: «Mira, enviaré a Mi mensajero delante de Ti, quien preparará Tu camino».",
+          "outputTextSha256": "e872597ebfd5ade41994bc16fbc92ea2a66407424b354c0a7b02e1d3fd6e7c78",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 3,
+          "source": {
+            "content_id": "10041001003",
+            "version": "1.0.2",
+            "title": "Mark 1:3",
+            "media_type": "Text",
+            "index_reference": "41001003",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>3</sup>&nbsp;“A voice of one calling in the wilderness, ‘Prepare the way for the Lord, make straight paths for Him.’”</p>",
+            "verse": 3,
+            "text": "“A voice of one calling in the wilderness, ‘Prepare the way for the Lord, make straight paths for Him.’”",
+            "contentSha256": "4184fc1cb6e3e1e0584eb9adb2d0266d6f806e055381564c34eb8329c432cd92"
+          },
+          "sourceTextSha256": "852c18765db659f7ed24460e4553988eddd1dace285a5e451b1b2ff80352403f",
+          "sourceHtmlSha256": "4184fc1cb6e3e1e0584eb9adb2d0266d6f806e055381564c34eb8329c432cd92",
+          "text": "«Una voz de alguien que clama en el desierto: ‘Preparen el camino para el Señor, hagan sendas rectas para Él’».",
+          "outputTextSha256": "1fc274caba98f9e36cdf6b8869c7e533ca7e0a4edd1dea713ced9355df216b8c",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 4,
+          "source": {
+            "content_id": "10041001004",
+            "version": "1.0.2",
+            "title": "Mark 1:4",
+            "media_type": "Text",
+            "index_reference": "41001004",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>4</sup>&nbsp;John the Baptist appeared in the wilderness, preaching a baptism of repentance for the forgiveness of sins.</p>",
+            "verse": 4,
+            "text": "John the Baptist appeared in the wilderness, preaching a baptism of repentance for the forgiveness of sins.",
+            "contentSha256": "e4fb630bc759e18a9b1e1aba4c39de653753040d6dd775d1938499528ba561f6"
+          },
+          "sourceTextSha256": "c37779cce11a6e6fb1b5e363a383d1138825a8396ee0e2ad32f1f587b9cbc6c4",
+          "sourceHtmlSha256": "e4fb630bc759e18a9b1e1aba4c39de653753040d6dd775d1938499528ba561f6",
+          "text": "Juan el Bautista apareció en el desierto, predicando un bautismo de arrepentimiento para el perdón de los pecados.",
+          "outputTextSha256": "65be081fab62bd113b30fcd111d0d1cbc28b0f59227d3c8239c2c3e356b00711",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 5,
+          "source": {
+            "content_id": "10041001005",
+            "version": "1.0.2",
+            "title": "Mark 1:5",
+            "media_type": "Text",
+            "index_reference": "41001005",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>5</sup>&nbsp;People went out to him from all of Jerusalem and the countryside of Judea. Confessing their sins, they were baptized by him in the Jordan River.</p>",
+            "verse": 5,
+            "text": "People went out to him from all of Jerusalem and the countryside of Judea. Confessing their sins, they were baptized by him in the Jordan River.",
+            "contentSha256": "3340f69e36071f37e1de49a6f7c8f114928755eaa70305100414885f53c79a70"
+          },
+          "sourceTextSha256": "f799fb319f15031ccf8c9012f86c9e2025fdf0ff50b640c3366d3eaaae27f39a",
+          "sourceHtmlSha256": "3340f69e36071f37e1de49a6f7c8f114928755eaa70305100414885f53c79a70",
+          "text": "La gente salía a verlo de toda Jerusalén y de la zona rural de Judea. Confesando sus pecados, eran bautizados por él en el río Jordán.",
+          "outputTextSha256": "47808a895f6ff4bfdb8bb1df0eb8841f6ecf97646b7cc78a1ac8fb7bfc7a7289",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 6,
+          "source": {
+            "content_id": "10041001006",
+            "version": "1.0.2",
+            "title": "Mark 1:6",
+            "media_type": "Text",
+            "index_reference": "41001006",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>6</sup>&nbsp;John was clothed in camel’s hair, with a leather belt around his waist. His food was locusts and wild honey.</p>",
+            "verse": 6,
+            "text": "John was clothed in camel’s hair, with a leather belt around his waist. His food was locusts and wild honey.",
+            "contentSha256": "157455aa7e282b4576121bbb3195bb84c9deee7d6230be2953ed115d3f95430b"
+          },
+          "sourceTextSha256": "9f645e5d009a679a2ceff2ff6681ec9589eb6a789c5c74f58cbca8f27f62dc09",
+          "sourceHtmlSha256": "157455aa7e282b4576121bbb3195bb84c9deee7d6230be2953ed115d3f95430b",
+          "text": "Juan estaba vestido de pelo de camello, con un cinturón de cuero alrededor de la cintura. Su alimento eran langostas y miel silvestre.",
+          "outputTextSha256": "f5bb612bc43b1bc20bf64850afea696c599e28e445d977eaf4d367e20f73e2d9",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 7,
+          "source": {
+            "content_id": "10041001007",
+            "version": "1.0.2",
+            "title": "Mark 1:7",
+            "media_type": "Text",
+            "index_reference": "41001007",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>7</sup>&nbsp;And he proclaimed: “After me will come One more powerful than I, the straps of whose sandals I am not worthy to stoop down and untie.</p>",
+            "verse": 7,
+            "text": "And he proclaimed: “After me will come One more powerful than I, the straps of whose sandals I am not worthy to stoop down and untie.",
+            "contentSha256": "f43cda484cfe1cc96e7a02a56d648e3baafb5e8e4a5a1934a12489ca06b9a45f"
+          },
+          "sourceTextSha256": "3a7924f4c2a78d422612cb2800236b6e100803adc5dc092a46ff80c80cc46f6f",
+          "sourceHtmlSha256": "f43cda484cfe1cc96e7a02a56d648e3baafb5e8e4a5a1934a12489ca06b9a45f",
+          "text": "Y proclamaba: «Después de mí vendrá Uno más poderoso que yo, ante quien no soy digno de agacharme y desatar las correas de Sus sandalias.",
+          "outputTextSha256": "68ceb96be05396fbb49ec21ea8204c443196cfef30a0b2744952792f831a6e16",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 8,
+          "source": {
+            "content_id": "10041001008",
+            "version": "1.0.2",
+            "title": "Mark 1:8",
+            "media_type": "Text",
+            "index_reference": "41001008",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>8</sup>&nbsp;I baptize you with water, but He will baptize you with the Holy Spirit.”</p>",
+            "verse": 8,
+            "text": "I baptize you with water, but He will baptize you with the Holy Spirit.”",
+            "contentSha256": "c31abba04f5cc4f900dafe72740385648ea1a355e3168275e37a1603723ac1c0"
+          },
+          "sourceTextSha256": "453b5e23eab139e9c086f71e3a4fa15930b25e4f4e2585827bb4cbc0c84982aa",
+          "sourceHtmlSha256": "c31abba04f5cc4f900dafe72740385648ea1a355e3168275e37a1603723ac1c0",
+          "text": "Yo los bautizo con agua, pero Él los bautizará con el Espíritu Santo».",
+          "outputTextSha256": "de737d1df1888b216f8e5fd46a7ff707e720045cecc2319345f50167360a4914",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 9,
+          "source": {
+            "content_id": "10041001009",
+            "version": "1.0.2",
+            "title": "Mark 1:9",
+            "media_type": "Text",
+            "index_reference": "41001009",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>9</sup>&nbsp;In those days Jesus came from Nazareth in Galilee and was baptized by John in the Jordan.</p>",
+            "verse": 9,
+            "text": "In those days Jesus came from Nazareth in Galilee and was baptized by John in the Jordan.",
+            "contentSha256": "a3f104e7bcb2af7b066dd4ca0bb04785d76ecbfa2edd7c908d246f92a44d6743"
+          },
+          "sourceTextSha256": "f3b3872bad009fb5a229b8ef1217a65cb04b1c15c4f5ab23d8c3a3c231a4188a",
+          "sourceHtmlSha256": "a3f104e7bcb2af7b066dd4ca0bb04785d76ecbfa2edd7c908d246f92a44d6743",
+          "text": "En aquellos días Jesús vino de Nazaret, en Galilea, y fue bautizado por Juan en el Jordán.",
+          "outputTextSha256": "103c35d1efdb9aacbeede7a537847efb9d8f8ec5de43951a9539921c49e5b91f",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 10,
+          "source": {
+            "content_id": "10041001010",
+            "version": "1.0.2",
+            "title": "Mark 1:10",
+            "media_type": "Text",
+            "index_reference": "41001010",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>10</sup>&nbsp;As soon as Jesus came up out of the water, He saw the heavens breaking open and the Spirit descending on Him like a dove.</p>",
+            "verse": 10,
+            "text": "As soon as Jesus came up out of the water, He saw the heavens breaking open and the Spirit descending on Him like a dove.",
+            "contentSha256": "61f2400242ad92d576987aa9360f27a4a1948a10cb46d91ddc313edf7f3c58d7"
+          },
+          "sourceTextSha256": "16a54961a82551406cf73a9f88e224e5bf421d174826566007ba2853e36a9fbc",
+          "sourceHtmlSha256": "61f2400242ad92d576987aa9360f27a4a1948a10cb46d91ddc313edf7f3c58d7",
+          "text": "En cuanto Jesús salió del agua, vio que los cielos se abrían y que el Espíritu descendía sobre Él como una paloma.",
+          "outputTextSha256": "1a965202015dd7563da49b80fbd57c6298c2763268c074a521482e5a3020958f",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 11,
+          "source": {
+            "content_id": "10041001011",
+            "version": "1.0.2",
+            "title": "Mark 1:11",
+            "media_type": "Text",
+            "index_reference": "41001011",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>11</sup>&nbsp;And a voice came from heaven: “You are My beloved Son; in You I am well pleased.”</p>",
+            "verse": 11,
+            "text": "And a voice came from heaven: “You are My beloved Son; in You I am well pleased.”",
+            "contentSha256": "b5b44674c10699fb42cbc86d81bf7ec01061c8767de41f4e554039a99f35120d"
+          },
+          "sourceTextSha256": "b96fb8d444e8d9fe214f6e2b71a0b62f2488b609006fae234ebc841395b41fc2",
+          "sourceHtmlSha256": "b5b44674c10699fb42cbc86d81bf7ec01061c8767de41f4e554039a99f35120d",
+          "text": "Y una voz vino del cielo: «Tú eres Mi Hijo amado; en Ti tengo complacencia».",
+          "outputTextSha256": "f26a47aabe9010a10cf182a6b284e508d4669f024585ae92ddf3264ec64368f4",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 12,
+          "source": {
+            "content_id": "10041001012",
+            "version": "1.0.2",
+            "title": "Mark 1:12",
+            "media_type": "Text",
+            "index_reference": "41001012",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>12</sup>&nbsp;At once the Spirit drove Jesus into the wilderness,</p>",
+            "verse": 12,
+            "text": "At once the Spirit drove Jesus into the wilderness,",
+            "contentSha256": "59de47e24247ec598cb277349d5a1aaa70be87027db9ac8387141f2c09d59ee6"
+          },
+          "sourceTextSha256": "46d3257b102fc8c1b442f4d090dddc2ed842d6def2f5fde2b9640bd6bd1dd171",
+          "sourceHtmlSha256": "59de47e24247ec598cb277349d5a1aaa70be87027db9ac8387141f2c09d59ee6",
+          "text": "De inmediato el Espíritu impulsó a Jesús al desierto,",
+          "outputTextSha256": "0a25f09f40c7fe104bd1af1c7cfe6cc44e75f832f9326ec57185fae167797e5a",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 13,
+          "source": {
+            "content_id": "10041001013",
+            "version": "1.0.2",
+            "title": "Mark 1:13",
+            "media_type": "Text",
+            "index_reference": "41001013",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>13</sup>&nbsp;and He was there for forty days, being tempted by Satan. He was with the wild animals, and the angels ministered to Him.</p>",
+            "verse": 13,
+            "text": "and He was there for forty days, being tempted by Satan. He was with the wild animals, and the angels ministered to Him.",
+            "contentSha256": "5dcc876712a7f4906af771c9ffde0e2a5377a510c9401976b964d5b7cc31d1d2"
+          },
+          "sourceTextSha256": "8138927dfaf5ed790d0d524d22fa5b08fa7f23cc6c0d712d91acdfabc9036ef3",
+          "sourceHtmlSha256": "5dcc876712a7f4906af771c9ffde0e2a5377a510c9401976b964d5b7cc31d1d2",
+          "text": "y estuvo allí durante cuarenta días, siendo tentado por Satanás. Estaba con los animales salvajes, y los ángeles le servían.",
+          "outputTextSha256": "4a7824b176b1f8e1ff1808bd37befb17fe3af4af6f6d06fef6ee720e191a14bf",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        }
+      ],
+      "outputTextSha256": "7ceb635b0d7765245b515a09657419c712c9c997595cde26a86c092a41fbe78a"
+    },
+    {
+      "id": "ai-spa-from-unfoldingWordLiteral-mark-1-1-13",
+      "label": "Español · traducción por IA de unfoldingWord Literal Text",
+      "englishEdition": "unfoldingWordLiteral",
+      "source": {
+        "repo": "unfoldingWordLiteral",
+        "commit": "9c6a5e75d0849198240e38d22157b497bc84dc9f",
+        "path": "eng/json/41.content.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/unfoldingWordLiteral/9c6a5e75d0849198240e38d22157b497bc84dc9f/eng/json/41.content.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "0394d5d4dcf0298a912301adc9b428dea016de054d15388f405598692427d8d5"
+      },
+      "sourceRights": {
+        "repo": "unfoldingWordLiteral",
+        "commit": "9c6a5e75d0849198240e38d22157b497bc84dc9f",
+        "path": "eng/metadata.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/unfoldingWordLiteral/9c6a5e75d0849198240e38d22157b497bc84dc9f/eng/metadata.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "44c10dd60866a6c120cff00faa920dbdd2e179e8dd3ca3262ccd28fa032bb37d",
+        "resourceTitle": "unfoldingWord Literal Text",
+        "metadataVersion": "1.1.0",
+        "licenseInfo": {
+          "licenses": [
+            {
+              "eng": {
+                "name": "CC BY-SA 4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+              }
+            }
+          ],
+          "title": "unfoldingWord Literal Text",
+          "copyright": {
+            "holder": {
+              "name": "unfoldingWord",
+              "url": "https://unfoldingword.org"
+            },
+            "dates": "2026"
+          },
+          "showAdaptationNoticeForEnglish": false,
+          "showAdaptationNoticeForNonEnglish": false
+        },
+        "adaptationNotice": ""
+      },
+      "attribution": "Source: unfoldingWord Literal Text. Copyright © 2026 unfoldingWord. Licensed under Creative Commons Attribution-ShareAlike 4.0.",
+      "changeNotice": "AI-generated Spanish translation of the pinned English Mark 1:1–13 text. This is a separate derived supplement, not an official Spanish edition, publisher endorsement, or a claim of equivalence to an existing Spanish Bible. English source wording was translated into Spanish; verse numbering, source distinctions and brace-marked supplied phrases are retained.",
+      "outputLicense": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+      },
+      "sourceEditionEquivalence": false,
+      "officialSpanishEdition": false,
+      "audioAvailable": false,
+      "verses": [
+        {
+          "verse": 1,
+          "source": {
+            "content_id": "10041001001",
+            "version": "1.0.2",
+            "title": "Mark 1:1",
+            "media_type": "Text",
+            "index_reference": "41001001",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>1</sup>&nbsp;The beginning of the gospel of Jesus Christ, the Son of God.</p>",
+            "verse": 1,
+            "text": "The beginning of the gospel of Jesus Christ, the Son of God.",
+            "contentSha256": "325689b19016134eb8d2329bbf0918eff2020c1080042a212e25117959ae71ca"
+          },
+          "sourceTextSha256": "63d5dc14bb7d8066dd6ab5b6281011a8fdc26f6690088c1a931585ba73392242",
+          "sourceHtmlSha256": "325689b19016134eb8d2329bbf0918eff2020c1080042a212e25117959ae71ca",
+          "text": "El comienzo del evangelio de Jesucristo, el Hijo de Dios.",
+          "outputTextSha256": "75fde27ed1ed8583ce024981ace6476eb6b391ed3fbec94d6d2a9c82cdfaf97e",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 2,
+          "source": {
+            "content_id": "10041001002",
+            "version": "1.0.2",
+            "title": "Mark 1:2",
+            "media_type": "Text",
+            "index_reference": "41001002",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>2</sup>&nbsp;Just as it has been written in Isaiah the prophet, “Behold, I am sending my messenger before your face, who will prepare your way;</p>",
+            "verse": 2,
+            "text": "Just as it has been written in Isaiah the prophet, “Behold, I am sending my messenger before your face, who will prepare your way;",
+            "contentSha256": "0458a0581e3dfd59477b6aee9dce874a5872c5350711a8187f9f2774e3b26d8c"
+          },
+          "sourceTextSha256": "8f4184b00ac5b504e7908f407595dba3c3b6450a82b511a0bcf5276a59ae8146",
+          "sourceHtmlSha256": "0458a0581e3dfd59477b6aee9dce874a5872c5350711a8187f9f2774e3b26d8c",
+          "text": "Tal como está escrito en el profeta Isaías: «Mira, envío a mi mensajero delante de tu rostro, quien preparará tu camino;",
+          "outputTextSha256": "c5726ab1745f1938eb9de91619fde60bcb2afd127eb1c2f27385bbb5500a6b3d",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 3,
+          "source": {
+            "content_id": "10041001003",
+            "version": "1.0.2",
+            "title": "Mark 1:3",
+            "media_type": "Text",
+            "index_reference": "41001003",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>3</sup>&nbsp;a voice of one calling out in the wilderness, ‘Make ready the way of the Lord; make his paths straight.’”</p>",
+            "verse": 3,
+            "text": "a voice of one calling out in the wilderness, ‘Make ready the way of the Lord; make his paths straight.’”",
+            "contentSha256": "02e57242dc9c8e047d4a61e54c8cba928b58cd06f347b31f026e60c80bd140ee"
+          },
+          "sourceTextSha256": "efd820419d48441b06afa4c836f5b6a81f258419f4ccc742f389d722f341ff0b",
+          "sourceHtmlSha256": "02e57242dc9c8e047d4a61e54c8cba928b58cd06f347b31f026e60c80bd140ee",
+          "text": "una voz de alguien que clama en el desierto: ‘Preparen el camino del Señor; hagan rectas sus sendas’».",
+          "outputTextSha256": "3ccbfbaadc85c7d7ca04a0b803320cc41b5d38b86a534b7a7539b756e086a8b1",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 4,
+          "source": {
+            "content_id": "10041001004",
+            "version": "1.0.2",
+            "title": "Mark 1:4",
+            "media_type": "Text",
+            "index_reference": "41001004",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>4</sup>&nbsp;John came, the one baptizing in the wilderness and preaching a baptism of repentance for forgiveness of sins.</p>",
+            "verse": 4,
+            "text": "John came, the one baptizing in the wilderness and preaching a baptism of repentance for forgiveness of sins.",
+            "contentSha256": "b08bfc0f35da8fc1b09b0352ff1479a5855113e163f51dcf2a285247370ebf42"
+          },
+          "sourceTextSha256": "861e1eac2c9693b4c3f7536046623896a22c1c37271ad35f58786a1a510ef912",
+          "sourceHtmlSha256": "b08bfc0f35da8fc1b09b0352ff1479a5855113e163f51dcf2a285247370ebf42",
+          "text": "Vino Juan, el que bautizaba en el desierto y predicaba un bautismo de arrepentimiento para perdón de pecados.",
+          "outputTextSha256": "4eedfc224948629cdba4901c505c491642e0e456fffeca9c05ab28214f91201e",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 5,
+          "source": {
+            "content_id": "10041001005",
+            "version": "1.0.2",
+            "title": "Mark 1:5",
+            "media_type": "Text",
+            "index_reference": "41001005",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>5</sup>&nbsp;And all the Judea region and all the Jerusalemites were going out to him and were being baptized by him in the Jordan River, confessing their sins.</p>",
+            "verse": 5,
+            "text": "And all the Judea region and all the Jerusalemites were going out to him and were being baptized by him in the Jordan River, confessing their sins.",
+            "contentSha256": "5ea8972820a661283cae1e14389453d314af490ac66fa48a9b7a6032dba80528"
+          },
+          "sourceTextSha256": "d3c099a3ed6a136aa360b92e05921d0c29731a0ab87ee944f9cd9a2a64648e92",
+          "sourceHtmlSha256": "5ea8972820a661283cae1e14389453d314af490ac66fa48a9b7a6032dba80528",
+          "text": "Y toda la región de Judea y todos los habitantes de Jerusalén salían a verlo y eran bautizados por él en el río Jordán, confesando sus pecados.",
+          "outputTextSha256": "b2a905a73426f29921ff07d50fdb5461902ab43662c444560a286f70de038cc6",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 6,
+          "source": {
+            "content_id": "10041001006",
+            "version": "1.0.2",
+            "title": "Mark 1:6",
+            "media_type": "Text",
+            "index_reference": "41001006",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>6</sup>&nbsp;And John was clothed with camel hair and a leather belt around his waist, and {he was} eating locusts and wild honey.</p>",
+            "verse": 6,
+            "text": "And John was clothed with camel hair and a leather belt around his waist, and {he was} eating locusts and wild honey.",
+            "contentSha256": "6be3d189dd7a3738af66c1b7b61a9e619b6796959782516d987b436c016494b3"
+          },
+          "sourceTextSha256": "9cee48ccf51d3f3e76170d17890bcfea357fc770a72465b8517e7ae9c28ea1ce",
+          "sourceHtmlSha256": "6be3d189dd7a3738af66c1b7b61a9e619b6796959782516d987b436c016494b3",
+          "text": "Y Juan estaba vestido de pelo de camello y llevaba un cinturón de cuero alrededor de la cintura, y {él estaba} comiendo langostas y miel silvestre.",
+          "outputTextSha256": "706953a6149f3e63f0a3ac4f0badda582a8b093180a18382ef7585a9e6a949e8",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 7,
+          "source": {
+            "content_id": "10041001007",
+            "version": "1.0.2",
+            "title": "Mark 1:7",
+            "media_type": "Text",
+            "index_reference": "41001007",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>7</sup>&nbsp;And he was proclaiming, saying, “One more powerful than I is coming after me, of whom I am not worthy, stooping down, to untie the strap of his sandals.</p>",
+            "verse": 7,
+            "text": "And he was proclaiming, saying, “One more powerful than I is coming after me, of whom I am not worthy, stooping down, to untie the strap of his sandals.",
+            "contentSha256": "4e617976590e76dfb9a0e2c43a49e37724dc4ebf62898813c7361d442481bdb7"
+          },
+          "sourceTextSha256": "8e473334e86e4695b4ceba34c032ca0178c74d90c59f7efc2b4051825708a3a6",
+          "sourceHtmlSha256": "4e617976590e76dfb9a0e2c43a49e37724dc4ebf62898813c7361d442481bdb7",
+          "text": "Y proclamaba, diciendo: «Uno más poderoso que yo viene después de mí, ante quien no soy digno de agacharme para desatar la correa de sus sandalias.",
+          "outputTextSha256": "977f6e141308acba88ebb3537fbf4e0263543765d552819ffb55c6e0dbf399f9",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 8,
+          "source": {
+            "content_id": "10041001008",
+            "version": "1.0.2",
+            "title": "Mark 1:8",
+            "media_type": "Text",
+            "index_reference": "41001008",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>8</sup>&nbsp;I baptized you with water, but he will baptize you with the Holy Spirit.”</p>",
+            "verse": 8,
+            "text": "I baptized you with water, but he will baptize you with the Holy Spirit.”",
+            "contentSha256": "81fd90dfbaa3a5b68ab27ee54e6400fc1fedc2ec3de9405dfc0a7e67df95471e"
+          },
+          "sourceTextSha256": "e851a9d7c4fd5f32d57b4a3d4fe7333716e7c112a51ed10ee4c3e910e237505c",
+          "sourceHtmlSha256": "81fd90dfbaa3a5b68ab27ee54e6400fc1fedc2ec3de9405dfc0a7e67df95471e",
+          "text": "Yo los bauticé con agua, pero él los bautizará con el Espíritu Santo».",
+          "outputTextSha256": "b0ef79de53291d3eb8415648aff7ad2bf0d3ac6d9b72bdb8752e6b0f0adf0c94",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 9,
+          "source": {
+            "content_id": "10041001009",
+            "version": "1.0.2",
+            "title": "Mark 1:9",
+            "media_type": "Text",
+            "index_reference": "41001009",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>9</sup>&nbsp;And it happened that in those days Jesus came from Nazareth in Galilee, and he was baptized by John in the Jordan.</p>",
+            "verse": 9,
+            "text": "And it happened that in those days Jesus came from Nazareth in Galilee, and he was baptized by John in the Jordan.",
+            "contentSha256": "2b54ff6e0751e0ab6ea59caf881bb81b0f5f0f037232514d4d087e01fef85900"
+          },
+          "sourceTextSha256": "4640db9cde4105240e2825f5eebf90decec1d9e1647ce7d5e205dd867d209345",
+          "sourceHtmlSha256": "2b54ff6e0751e0ab6ea59caf881bb81b0f5f0f037232514d4d087e01fef85900",
+          "text": "Y sucedió que en aquellos días Jesús vino de Nazaret, en Galilea, y fue bautizado por Juan en el Jordán.",
+          "outputTextSha256": "3d3906caad5349b01ee9c1a843a139236684ffb9c48702487fac1d36e75c6d8d",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 10,
+          "source": {
+            "content_id": "10041001010",
+            "version": "1.0.2",
+            "title": "Mark 1:10",
+            "media_type": "Text",
+            "index_reference": "41001010",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>10</sup>&nbsp;And immediately, coming up out of the water, he saw the heavens being split open and the Spirit coming down on him like a dove.</p>",
+            "verse": 10,
+            "text": "And immediately, coming up out of the water, he saw the heavens being split open and the Spirit coming down on him like a dove.",
+            "contentSha256": "35359181bb081f16bf21fbf5b7f3d586eef0c32a72a652a097c2478b483d7f90"
+          },
+          "sourceTextSha256": "521dde5bc3a4ea5463803dba30f08ae28af60b60a41f675beaf854568bb564a2",
+          "sourceHtmlSha256": "35359181bb081f16bf21fbf5b7f3d586eef0c32a72a652a097c2478b483d7f90",
+          "text": "Y de inmediato, al salir del agua, vio que los cielos se rasgaban y que el Espíritu descendía sobre él como una paloma.",
+          "outputTextSha256": "3a74466e1724a099e9ec7b56bfb987ac6c7c927fd816ce077fb3f1e4f3cbb5d4",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 11,
+          "source": {
+            "content_id": "10041001011",
+            "version": "1.0.2",
+            "title": "Mark 1:11",
+            "media_type": "Text",
+            "index_reference": "41001011",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>11</sup>&nbsp;And a voice came out of the heavens, “You are my beloved Son. With you, I am well pleased.”</p>",
+            "verse": 11,
+            "text": "And a voice came out of the heavens, “You are my beloved Son. With you, I am well pleased.”",
+            "contentSha256": "26b6eb614888e2aee165ee6e0d5d3f86672e8372fd313f852b9f9ad2732d11df"
+          },
+          "sourceTextSha256": "e4ac3363c5bbb822626d05dd0694bf3bf62245c1d37a82c82810f22cd0e9998d",
+          "sourceHtmlSha256": "26b6eb614888e2aee165ee6e0d5d3f86672e8372fd313f852b9f9ad2732d11df",
+          "text": "Y una voz salió de los cielos: «Tú eres mi Hijo amado. En ti tengo complacencia».",
+          "outputTextSha256": "67072b358afd6331834cf82fe387fbd3d56ca6058359d4a2742abfe029f8ff7e",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 12,
+          "source": {
+            "content_id": "10041001012",
+            "version": "1.0.2",
+            "title": "Mark 1:12",
+            "media_type": "Text",
+            "index_reference": "41001012",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>12</sup>&nbsp;And immediately, the Spirit casts him out into the wilderness.</p>",
+            "verse": 12,
+            "text": "And immediately, the Spirit casts him out into the wilderness.",
+            "contentSha256": "c966982786d9663cf356b96614e2d5dcea749aba052510441efff7d2f30af19a"
+          },
+          "sourceTextSha256": "4ba6315d6b46189f543f142f44cf690c7133b3c95849400aba851ec6490fb361",
+          "sourceHtmlSha256": "c966982786d9663cf356b96614e2d5dcea749aba052510441efff7d2f30af19a",
+          "text": "Y de inmediato el Espíritu lo arroja al desierto.",
+          "outputTextSha256": "b18f818eb6dbea029c6cddd2a44457ed416f380f9a1526882b948fc1bf7679c8",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 13,
+          "source": {
+            "content_id": "10041001013",
+            "version": "1.0.2",
+            "title": "Mark 1:13",
+            "media_type": "Text",
+            "index_reference": "41001013",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>13</sup>&nbsp;And he was in the wilderness 40 days, being tempted by Satan. And he was with the wild animals, and the angels were serving him.</p>",
+            "verse": 13,
+            "text": "And he was in the wilderness 40 days, being tempted by Satan. And he was with the wild animals, and the angels were serving him.",
+            "contentSha256": "5985b1846ba53903bdb47b6d3ed08e54e016aeb7afbb2e2255e2cc9edefbfe50"
+          },
+          "sourceTextSha256": "d9dff4171846f78f08118d3475dc1f6f5d4a671ee9cd3c7d5d72852744498e57",
+          "sourceHtmlSha256": "5985b1846ba53903bdb47b6d3ed08e54e016aeb7afbb2e2255e2cc9edefbfe50",
+          "text": "Y estuvo en el desierto 40 días, siendo tentado por Satanás. Y estaba con los animales salvajes, y los ángeles le servían.",
+          "outputTextSha256": "f0867b0a1dca74705bdad1cdc78a6091e10264ad0c39c9c26f11ab265be70bd2",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        }
+      ],
+      "outputTextSha256": "04901843886cf79277a024791e1bd93bea90d527b927ee4bd477928e59dd4d56"
+    },
+    {
+      "id": "ai-spa-from-unfoldingWordSimplified-mark-1-1-13",
+      "label": "Español · traducción por IA de unfoldingWord Simplified Text",
+      "englishEdition": "unfoldingWordSimplified",
+      "source": {
+        "repo": "unfoldingWordSimplified",
+        "commit": "90d02427ebc22dc9e4e961c38221f1711426f5db",
+        "path": "eng/json/41.content.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/unfoldingWordSimplified/90d02427ebc22dc9e4e961c38221f1711426f5db/eng/json/41.content.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "58e2a88def2c60cea362fd718169bf8929845c9845a454d2c7f3c3b73c15056d"
+      },
+      "sourceRights": {
+        "repo": "unfoldingWordSimplified",
+        "commit": "90d02427ebc22dc9e4e961c38221f1711426f5db",
+        "path": "eng/metadata.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/unfoldingWordSimplified/90d02427ebc22dc9e4e961c38221f1711426f5db/eng/metadata.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "93b82beefbd6ec7e4d19c8babf5b464ccba47e9363cd9bbcc6e27819178145c8",
+        "resourceTitle": "unfoldingWord Simplified Text",
+        "metadataVersion": "1.1.0",
+        "licenseInfo": {
+          "licenses": [
+            {
+              "eng": {
+                "name": "CC BY-SA 4.0",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+              }
+            }
+          ],
+          "title": "unfoldingWord Simplified Text",
+          "copyright": {
+            "holder": {
+              "name": "unfoldingWord",
+              "url": "https://unfoldingword.org"
+            },
+            "dates": "2026"
+          },
+          "showAdaptationNoticeForEnglish": false,
+          "showAdaptationNoticeForNonEnglish": false
+        },
+        "adaptationNotice": ""
+      },
+      "attribution": "Source: unfoldingWord Simplified Text. Copyright © 2026 unfoldingWord. Licensed under Creative Commons Attribution-ShareAlike 4.0.",
+      "changeNotice": "AI-generated Spanish translation of the pinned English Mark 1:1–13 text. This is a separate derived supplement, not an official Spanish edition, publisher endorsement, or a claim of equivalence to an existing Spanish Bible. English source wording was translated into Spanish; verse numbering, source distinctions and brace-marked supplied phrases are retained.",
+      "outputLicense": {
+        "name": "CC BY-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+      },
+      "sourceEditionEquivalence": false,
+      "officialSpanishEdition": false,
+      "audioAvailable": false,
+      "verses": [
+        {
+          "verse": 1,
+          "source": {
+            "content_id": "10041001001",
+            "version": "1.0.2",
+            "title": "Mark 1:1",
+            "media_type": "Text",
+            "index_reference": "41001001",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>1</sup>&nbsp;I am going to tell you the good news about Jesus, the Messiah. He is the Son of God.</p>",
+            "verse": 1,
+            "text": "I am going to tell you the good news about Jesus, the Messiah. He is the Son of God.",
+            "contentSha256": "327c10838598de96172985c544c8f9bc9e86325a598d755cdd79bfe474559672"
+          },
+          "sourceTextSha256": "5f4d455352b72145dfd6735ef887271bc2cc48bdc5bcebf97eb0040b869b3151",
+          "sourceHtmlSha256": "327c10838598de96172985c544c8f9bc9e86325a598d755cdd79bfe474559672",
+          "text": "Voy a contarles las buenas noticias acerca de Jesús, el Mesías. Él es el Hijo de Dios.",
+          "outputTextSha256": "77d1976dfc88eb1bb4ea8e5e5fd2ce6d0b97c4265b040450e341a88e4f4b2092",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 2,
+          "source": {
+            "content_id": "10041001002",
+            "version": "1.0.2",
+            "title": "Mark 1:2",
+            "media_type": "Text",
+            "index_reference": "41001002",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>2</sup>&nbsp;This story began as Isaiah, who spoke for God, wrote that it would: “Listen, I am sending my messenger ahead of you. He will make things ready for when you come.</p>",
+            "verse": 2,
+            "text": "This story began as Isaiah, who spoke for God, wrote that it would: “Listen, I am sending my messenger ahead of you. He will make things ready for when you come.",
+            "contentSha256": "154c726da70ff1944df6b22b1e8c5b650eb861d2a421b5b95e0ebe846a2f99d0"
+          },
+          "sourceTextSha256": "60c60d3509d2b74926db5f704b3d25e2aa5aba5f8d6b1edd69dba11278b37af7",
+          "sourceHtmlSha256": "154c726da70ff1944df6b22b1e8c5b650eb861d2a421b5b95e0ebe846a2f99d0",
+          "text": "Esta historia comenzó como Isaías, quien hablaba en nombre de Dios, había escrito que comenzaría: «Escucha, envío a mi mensajero delante de ti. Él dejará todo preparado para cuando vengas.",
+          "outputTextSha256": "3e85891134926b58515612b175c15e1c63b3b45dcf4b5d021936ca93184ecdae",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 3,
+          "source": {
+            "content_id": "10041001003",
+            "version": "1.0.2",
+            "title": "Mark 1:3",
+            "media_type": "Text",
+            "index_reference": "41001003",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>3</sup>&nbsp;In the desolate place, someone will be calling out {to the people}: ‘Prepare yourselves to receive the Lord! Make yourselves ready for when he comes!’”</p>",
+            "verse": 3,
+            "text": "In the desolate place, someone will be calling out {to the people}: ‘Prepare yourselves to receive the Lord! Make yourselves ready for when he comes!’”",
+            "contentSha256": "82f5b76464e587d880afc5459656d84bdd41b68e1c2db5edf276e7d7c1c47a80"
+          },
+          "sourceTextSha256": "f4f5cd24c7489a8eb3dcf59d8a920f5aa017a7da6c4744ebc20308b401555841",
+          "sourceHtmlSha256": "82f5b76464e587d880afc5459656d84bdd41b68e1c2db5edf276e7d7c1c47a80",
+          "text": "En el lugar desolado, alguien estará clamando {a la gente}: ‘¡Prepárense para recibir al Señor! ¡Estén listos para cuando él venga!’».",
+          "outputTextSha256": "42973c1954b01fe591769b43df50e1367c7b9800e80b35899b50d9f911080e6d",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 4,
+          "source": {
+            "content_id": "10041001004",
+            "version": "1.0.2",
+            "title": "Mark 1:4",
+            "media_type": "Text",
+            "index_reference": "41001004",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>4</sup>&nbsp;Now there was a man whose name was John. He baptized people in a desolate area. He proclaimed that people should allow him to baptize them. That would show that they were going to stop doing what was wrong. That way, God would forgive their sins.</p>",
+            "verse": 4,
+            "text": "Now there was a man whose name was John. He baptized people in a desolate area. He proclaimed that people should allow him to baptize them. That would show that they were going to stop doing what was wrong. That way, God would forgive their sins.",
+            "contentSha256": "9d390539742de1d709e1d6ed1d28b2f88db70168a033ac613eebe9c4da8ed0d7"
+          },
+          "sourceTextSha256": "f02a59291221ef6bcd4e4ce8a0b186d31c0ff87992713e2b5b399b6971adf8e6",
+          "sourceHtmlSha256": "9d390539742de1d709e1d6ed1d28b2f88db70168a033ac613eebe9c4da8ed0d7",
+          "text": "Había un hombre cuyo nombre era Juan. Él bautizaba a la gente en una zona desolada. Proclamaba que las personas debían permitirle bautizarlas. Eso mostraría que iban a dejar de hacer lo malo. De esa manera, Dios perdonaría sus pecados.",
+          "outputTextSha256": "b467f758b73eb9a908d75674eb19fafc5a050f9542d03005d8fe00f15e0ef0de",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 5,
+          "source": {
+            "content_id": "10041001005",
+            "version": "1.0.2",
+            "title": "Mark 1:5",
+            "media_type": "Text",
+            "index_reference": "41001005",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>5</sup>&nbsp;Many people who lived in the region of Judea and many people who lived in the city of Jerusalem often went to listen to John. Many of these people agreed that they had sinned. Then, John baptized them in the Jordan River.</p>",
+            "verse": 5,
+            "text": "Many people who lived in the region of Judea and many people who lived in the city of Jerusalem often went to listen to John. Many of these people agreed that they had sinned. Then, John baptized them in the Jordan River.",
+            "contentSha256": "205e960c2317a6753d1ee5413fab5275662195af08deff7600e4af336346de40"
+          },
+          "sourceTextSha256": "1215b005c76efe076518ffe09afd6eed2c3db109d69da6a8d74ed628680e493d",
+          "sourceHtmlSha256": "205e960c2317a6753d1ee5413fab5275662195af08deff7600e4af336346de40",
+          "text": "Muchas personas que vivían en la región de Judea y muchas que vivían en la ciudad de Jerusalén iban con frecuencia a escuchar a Juan. Muchas de estas personas reconocían que habían pecado. Entonces Juan las bautizaba en el río Jordán.",
+          "outputTextSha256": "761f7d2b33682a02fff1dd167ee4b479f923ac9c3d54a3ecd986ba00fa49e28e",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 6,
+          "source": {
+            "content_id": "10041001006",
+            "version": "1.0.2",
+            "title": "Mark 1:6",
+            "media_type": "Text",
+            "index_reference": "41001006",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>6</sup>&nbsp;John wore rough clothes that he made out of camel’s hair. He fastened around his waist a belt that he made from animal skin. He ate grasshoppers and honey that he found in that desolate area.</p>",
+            "verse": 6,
+            "text": "John wore rough clothes that he made out of camel’s hair. He fastened around his waist a belt that he made from animal skin. He ate grasshoppers and honey that he found in that desolate area.",
+            "contentSha256": "6c16879bf8d2b43c018b1f69d4ce7108e13feb95a294204d3cfdd4425a5c5d2f"
+          },
+          "sourceTextSha256": "e97b5fe578ee80adae15f604b1274970ea21773b20b653e33d68e2a127326a6c",
+          "sourceHtmlSha256": "6c16879bf8d2b43c018b1f69d4ce7108e13feb95a294204d3cfdd4425a5c5d2f",
+          "text": "Juan vestía ropa áspera que hacía de pelo de camello. Se ajustaba alrededor de la cintura un cinturón que hacía de piel de animal. Comía saltamontes y miel que encontraba en aquella zona desolada.",
+          "outputTextSha256": "9dee1656454783ee6cf693c3374b42eee8e5237288439959daf5269e3559e741",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 7,
+          "source": {
+            "content_id": "10041001007",
+            "version": "1.0.2",
+            "title": "Mark 1:7",
+            "media_type": "Text",
+            "index_reference": "41001007",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>7</sup>&nbsp;He often preached, “Soon you will see someone else who is greater than I am. It is not appropriate for me even to kneel down and help him take off his sandals.</p>",
+            "verse": 7,
+            "text": "He often preached, “Soon you will see someone else who is greater than I am. It is not appropriate for me even to kneel down and help him take off his sandals.",
+            "contentSha256": "abea0b7e06382a616ad0f4b53bdabf1a31edfa79776b2e9971885b497846cca4"
+          },
+          "sourceTextSha256": "74b202ebe9a600fe0a6140aa78d954a7ef8e12395e51bc296b59f148c337338c",
+          "sourceHtmlSha256": "abea0b7e06382a616ad0f4b53bdabf1a31edfa79776b2e9971885b497846cca4",
+          "text": "A menudo predicaba: «Pronto verán a alguien más que es mayor que yo. Ni siquiera me corresponde arrodillarme y ayudarlo a quitarse las sandalias.",
+          "outputTextSha256": "f06aab3b83806799651e30abf84f0cdd847f4bf7777fa117c1d232beb371957a",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 8,
+          "source": {
+            "content_id": "10041001008",
+            "version": "1.0.2",
+            "title": "Mark 1:8",
+            "media_type": "Text",
+            "index_reference": "41001008",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>8</sup>&nbsp;I use water to baptize you. However, he will give you the Holy Spirit, which will be like baptizing you.”</p>",
+            "verse": 8,
+            "text": "I use water to baptize you. However, he will give you the Holy Spirit, which will be like baptizing you.”",
+            "contentSha256": "7ed6a1c1aa02846a6d594da6774a7fed40912a72465da94ade7274560633d9ae"
+          },
+          "sourceTextSha256": "98ae057094d3eac6a3656256268fa272eab7f30e623e4b68c3fa8f664a0c69b6",
+          "sourceHtmlSha256": "7ed6a1c1aa02846a6d594da6774a7fed40912a72465da94ade7274560633d9ae",
+          "text": "Yo uso agua para bautizarlos. Sin embargo, él les dará el Espíritu Santo, lo cual será como bautizarlos».",
+          "outputTextSha256": "a806fe473cb388113f9a25355151b731b20abeadf0fb2394df3731f8e2dcc8c4",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 9,
+          "source": {
+            "content_id": "10041001009",
+            "version": "1.0.2",
+            "title": "Mark 1:9",
+            "media_type": "Text",
+            "index_reference": "41001009",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>9</sup>&nbsp;Now while John was preaching and baptizing people, Jesus traveled from the town of Nazareth, which was in the region of Galilee. {He arrived where John was} and had John baptize him in the Jordan River.</p>",
+            "verse": 9,
+            "text": "Now while John was preaching and baptizing people, Jesus traveled from the town of Nazareth, which was in the region of Galilee. {He arrived where John was} and had John baptize him in the Jordan River.",
+            "contentSha256": "15646827ddc5221fc0ebe7518f51691c755589d2364cddbe869350ac5d17b333"
+          },
+          "sourceTextSha256": "cac1d94b28bf8a15fa8918f7227fd3235096b2b494d2c6c23cbafaadd3e20943",
+          "sourceHtmlSha256": "15646827ddc5221fc0ebe7518f51691c755589d2364cddbe869350ac5d17b333",
+          "text": "Mientras Juan predicaba y bautizaba a la gente, Jesús viajó desde el pueblo de Nazaret, que estaba en la región de Galilea. {Llegó a donde estaba Juan} e hizo que Juan lo bautizara en el río Jordán.",
+          "outputTextSha256": "52be7b32c024ee769daa90fd7f2322b8f71b8259245b2581ae3bfccf38378f32",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 10,
+          "source": {
+            "content_id": "10041001010",
+            "version": "1.0.2",
+            "title": "Mark 1:10",
+            "media_type": "Text",
+            "index_reference": "41001010",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>10</sup>&nbsp;As soon as John baptized him, Jesus waded out of the Jordan River. Then, he saw God opening the way from heaven. He saw that the Holy Spirit, who looked like a small bird, was descending {from heaven} to him.</p>",
+            "verse": 10,
+            "text": "As soon as John baptized him, Jesus waded out of the Jordan River. Then, he saw God opening the way from heaven. He saw that the Holy Spirit, who looked like a small bird, was descending {from heaven} to him.",
+            "contentSha256": "93687eec5b0ed0f63f088fed8e179d1e68ae358366173298f3c39904911460ad"
+          },
+          "sourceTextSha256": "3c8b353e70850e986519f846a2756001fe2485fd7798990db54323035f14343b",
+          "sourceHtmlSha256": "93687eec5b0ed0f63f088fed8e179d1e68ae358366173298f3c39904911460ad",
+          "text": "En cuanto Juan lo bautizó, Jesús salió del río Jordán caminando por el agua. Entonces vio a Dios abriendo el camino desde el cielo. Vio que el Espíritu Santo, que parecía un pájaro pequeño, descendía {del cielo} hacia él.",
+          "outputTextSha256": "6cbc6611b7e3e4fbc7b049856c18be28ac254d7be9b8369e2411d631caa01caa",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 11,
+          "source": {
+            "content_id": "10041001011",
+            "version": "1.0.2",
+            "title": "Mark 1:11",
+            "media_type": "Text",
+            "index_reference": "41001011",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>11</sup>&nbsp;Then God spoke from heaven, “You are my Son, the one whom I love dearly. What you do pleases me.”</p>",
+            "verse": 11,
+            "text": "Then God spoke from heaven, “You are my Son, the one whom I love dearly. What you do pleases me.”",
+            "contentSha256": "a824dead7cfd7f9978442fa4b20d3f2686c35aae6bb29e4d0e53f5a9581a8a61"
+          },
+          "sourceTextSha256": "c2aadc4ca44b742999ad15591a9f9cb3cc1bf1422df8e6f1f3d1a214e64c36c3",
+          "sourceHtmlSha256": "a824dead7cfd7f9978442fa4b20d3f2686c35aae6bb29e4d0e53f5a9581a8a61",
+          "text": "Entonces Dios habló desde el cielo: «Tú eres mi Hijo, a quien amo profundamente. Lo que haces me agrada».",
+          "outputTextSha256": "cbbf7bed8bb3729a5f1b7384b87fe7c37e779c3462c3d414d5fc9c8eaa48e5ba",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 12,
+          "source": {
+            "content_id": "10041001012",
+            "version": "1.0.2",
+            "title": "Mark 1:12",
+            "media_type": "Text",
+            "index_reference": "41001012",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>12</sup>&nbsp;As soon as that happened, the Holy Spirit sent Jesus into a desolate area.</p>",
+            "verse": 12,
+            "text": "As soon as that happened, the Holy Spirit sent Jesus into a desolate area.",
+            "contentSha256": "d6c11c4a01c3c5f6b50a20abb12a23a2f40ff646f41736764ba7f0ded066798a"
+          },
+          "sourceTextSha256": "92efe84222b889b8b91f8a5a6cc3fd5ab16c6543e87407e9656b8cd3f50d3a1c",
+          "sourceHtmlSha256": "d6c11c4a01c3c5f6b50a20abb12a23a2f40ff646f41736764ba7f0ded066798a",
+          "text": "En cuanto eso sucedió, el Espíritu Santo envió a Jesús a una zona desolada.",
+          "outputTextSha256": "db95ffdd86c2d2677c2dd9585bc4c9d659a4569596723c44220c0dcb84032635",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        },
+        {
+          "verse": 13,
+          "source": {
+            "content_id": "10041001013",
+            "version": "1.0.2",
+            "title": "Mark 1:13",
+            "media_type": "Text",
+            "index_reference": "41001013",
+            "language": "eng",
+            "review_level": "Professional",
+            "content": "<p><sup>13</sup>&nbsp;Jesus stayed for 40 days in that desolate area with the animals that lived there. During that time, Satan tried to make Jesus sin. Also, angels took care of Jesus.</p>",
+            "verse": 13,
+            "text": "Jesus stayed for 40 days in that desolate area with the animals that lived there. During that time, Satan tried to make Jesus sin. Also, angels took care of Jesus.",
+            "contentSha256": "08153edc0b6b1165eec55306299bf8ec0aa3494908e5aef9dde0ea1e649108ac"
+          },
+          "sourceTextSha256": "498516cbce34a486612a36d2efc532914fd09363c7d7dc47127c7cc860b9748e",
+          "sourceHtmlSha256": "08153edc0b6b1165eec55306299bf8ec0aa3494908e5aef9dde0ea1e649108ac",
+          "text": "Jesús permaneció durante 40 días en aquella zona desolada con los animales que vivían allí. Durante ese tiempo, Satanás intentó hacer que Jesús pecara. Además, los ángeles cuidaban de Jesús.",
+          "outputTextSha256": "52f3f9981133feccb5e28fa61ff7ebfc14cccf1665a053cdb13046279d432e0b",
+          "origin": "AI-derived from English",
+          "reviewStatus": "independent-review-pending"
+        }
+      ],
+      "outputTextSha256": "5a57fe10626505327f228d139b0d2c26c9e93298db767d53a65ad948c8032f04"
+    }
+  ]
+}
