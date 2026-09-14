@@ -1,0 +1,252 @@
+{
+  "id": "Door43SpanishULB-v1.4",
+  "language": "spa",
+  "lang": "es-419",
+  "title": "Español Latino Americano ULB",
+  "shortLabel": "ULB",
+  "source": {
+    "repository": "Door43-Catalog/es-419_ulb",
+    "commit": "cafa8041fa5db953919de506d5e6f7e00813b7c8",
+    "tag": "v1.4",
+    "path": "42-MRK.usfm",
+    "url": "https://git.door43.org/Door43-Catalog/es-419_ulb/src/commit/cafa8041fa5db953919de506d5e6f7e00813b7c8/42-MRK.usfm",
+    "checkingLevel": 3
+  },
+  "rights": {
+    "licenseInfo": {
+      "title": "Unlocked Literal Bible",
+      "copyright": {
+        "holder": {
+          "name": "Door43 World Missions Community",
+          "url": "https://git.door43.org/Door43-Catalog/es-419_ulb"
+        }
+      },
+      "licenses": [
+        {
+          "eng": {
+            "name": "Creative Commons Attribution-ShareAlike 4.0 International",
+            "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+          }
+        }
+      ]
+    },
+    "adaptationNotice": "<p>Texto publicado sin traducción adicional. Se ha convertido el formato USFM a HTML; se omiten los marcadores de sección y se conservan las palabras, mayúsculas y puntuación.</p>"
+  },
+  "verses": [
+    {
+      "id": "door43-es-419-ulb-mrk-1-1",
+      "verse": 1,
+      "reference": "41001001",
+      "version": "1.4",
+      "text": "Este es el comienzo del evangelio de Jesucristo, el Hijo de Dios.",
+      "originalHtml": "<p><sup>1</sup>&nbsp;Este es el comienzo del evangelio de Jesucristo, el Hijo de Dios.</p>",
+      "bodySha256": "3b31eda8c081518d63bf261694c6e23f6b4950b72531ba7b1d8ac0316aba45e9",
+      "sourceSpan": {
+        "start": 95,
+        "end": 162,
+        "sha256": "2179d446391ef1529c39ccba68cdb0a89e64ab9e008174f2105fe993ad59df51",
+        "usfm": "Este es el comienzo del evangelio de Jesucristo, el Hijo de Dios. \n"
+      },
+      "notes": []
+    },
+    {
+      "id": "door43-es-419-ulb-mrk-1-2",
+      "verse": 2,
+      "reference": "41001002",
+      "version": "1.4",
+      "text": "Como está escrito en Isaías el profeta: \"MIREN, YO ESTOY ENVIANDO MI MENSAJERO DELANTE DE TI, EL QUE TE PREPARARÁ TU CAMINO.",
+      "originalHtml": "<p><sup>2</sup>&nbsp;Como está escrito en Isaías el profeta: &quot;MIREN, YO ESTOY ENVIANDO MI MENSAJERO DELANTE DE TI, EL QUE TE PREPARARÁ TU CAMINO.</p>",
+      "bodySha256": "a4583c835fc566a8737849f1f7ad13a2de3fa4d7e509d18ea8198b730c3e144a",
+      "sourceSpan": {
+        "start": 167,
+        "end": 293,
+        "sha256": "d8772e37ae06e0bf7d2be0612ddb4879dfac58610518771961d7b15227498f11",
+        "usfm": "Como está escrito en Isaías el profeta: \"MIREN, YO ESTOY ENVIANDO MI MENSAJERO DELANTE DE TI, EL QUE TE PREPARARÁ TU CAMINO. \n"
+      },
+      "notes": []
+    },
+    {
+      "id": "door43-es-419-ulb-mrk-1-3",
+      "verse": 3,
+      "reference": "41001003",
+      "version": "1.4",
+      "text": "LA VOZ DEL QUE LLAMA EN EL DESIERTO: 'PREPARAD EL CAMINO DEL SEÑOR, HAZ SUS CAMINOS RECTOS'\"",
+      "originalHtml": "<p><sup>3</sup>&nbsp;LA VOZ DEL QUE LLAMA EN EL DESIERTO: &#x27;PREPARAD EL CAMINO DEL SEÑOR, HAZ SUS CAMINOS RECTOS&#x27;&quot;</p>",
+      "bodySha256": "bb682f17cf1b4a7bbf824aef4be39bb61b1fba33ccbb2991f1cd38028b274a43",
+      "sourceSpan": {
+        "start": 298,
+        "end": 396,
+        "sha256": "5cb3d0acacf57f992fc0c9134ea2031df2582e99e5738de22e0f10395ce1aadb",
+        "usfm": "LA VOZ DEL QUE LLAMA EN EL DESIERTO: 'PREPARAD EL CAMINO DEL SEÑOR, HAZ SUS CAMINOS RECTOS'\"\n\n\\s5\n"
+      },
+      "notes": []
+    },
+    {
+      "id": "door43-es-419-ulb-mrk-1-4",
+      "verse": 4,
+      "reference": "41001004",
+      "version": "1.4",
+      "text": "Juan vino, bautizando en el desierto y predicando un bautismo de arrepentimiento para el perdón de pecados.",
+      "originalHtml": "<p><sup>4</sup>&nbsp;Juan vino, bautizando en el desierto y predicando un bautismo de arrepentimiento para el perdón de pecados.</p>",
+      "bodySha256": "c6729ef408eed458f65f5a4461b3f27f4360ce2c8c97a1d9c917d144ce560e2b",
+      "sourceSpan": {
+        "start": 401,
+        "end": 510,
+        "sha256": "a70f1c41831f2bb964e2703b58f00e2cde6391e2eb6e8dbb38930719bb967569",
+        "usfm": "Juan vino, bautizando en el desierto y predicando un bautismo de arrepentimiento para el perdón de pecados. \n"
+      },
+      "notes": []
+    },
+    {
+      "id": "door43-es-419-ulb-mrk-1-5",
+      "verse": 5,
+      "reference": "41001005",
+      "version": "1.4",
+      "text": "Toda la nación de Judea y toda la gente de Jerusalén salían hacia él. Ellos eran bautizados por él en el río Jordán, al estos confesar sus pecados.",
+      "originalHtml": "<p><sup>5</sup>&nbsp;Toda la nación de Judea y toda la gente de Jerusalén salían hacia él. Ellos eran bautizados por él en el río Jordán, al estos confesar sus pecados.</p>",
+      "bodySha256": "61d39a40cdaaddef37e9cb5194b518ed9c8f0bbc38c1a0227dc42a7782e309d1",
+      "sourceSpan": {
+        "start": 515,
+        "end": 664,
+        "sha256": "888a6832bd66928ee47c880efab20dedf8193088dad300efb8c4ee6a774b4ac1",
+        "usfm": "Toda la nación de Judea y toda la gente de Jerusalén salían hacia él. Ellos eran bautizados por él en el río Jordán, al estos confesar sus pecados. \n"
+      },
+      "notes": []
+    },
+    {
+      "id": "door43-es-419-ulb-mrk-1-6",
+      "verse": 6,
+      "reference": "41001006",
+      "version": "1.4",
+      "text": "Juan vestía un abrigo de pelo de camellos, un cinturón de cuero en su cintura y él comía saltamontes y miel silvestre.",
+      "originalHtml": "<p><sup>6</sup>&nbsp;Juan vestía un abrigo de pelo de camellos, un cinturón de cuero en su cintura y él comía saltamontes y miel silvestre.</p>",
+      "bodySha256": "8efe43ef450b41430a86668e69cb63e1145502f8e45371de11d9bb52841fe9f5",
+      "sourceSpan": {
+        "start": 669,
+        "end": 793,
+        "sha256": "f96508285e7809891e5bceaea3c7a2e7353a6e4426a1f0b7d2a6175378ebeb3e",
+        "usfm": "Juan vestía un abrigo de pelo de camellos, un cinturón de cuero en su cintura y él comía saltamontes y miel silvestre.\n\n\\s5\n"
+      },
+      "notes": []
+    },
+    {
+      "id": "door43-es-419-ulb-mrk-1-7",
+      "verse": 7,
+      "reference": "41001007",
+      "version": "1.4",
+      "text": "Él predicaba y decía: \"Alguien viene después de mí, quien es más poderoso que yo, y yo no soy digno ni de tan siquiera bajarme a desatar las tirillas de Sus sandalias.",
+      "originalHtml": "<p><sup>7</sup>&nbsp;Él predicaba y decía: &quot;Alguien viene después de mí, quien es más poderoso que yo, y yo no soy digno ni de tan siquiera bajarme a desatar las tirillas de Sus sandalias.</p>",
+      "bodySha256": "4c23918f59c759a85f440c64534c8f024e6a45b27a1a870e430b83c9c70116ee",
+      "sourceSpan": {
+        "start": 798,
+        "end": 967,
+        "sha256": "d468497058d0a614ea7266d56b19cdac1b6e27f341192a1891107d37c81f954f",
+        "usfm": "Él predicaba y decía: \"Alguien viene después de mí, quien es más poderoso que yo, y yo no soy digno ni de tan siquiera bajarme a desatar las tirillas de Sus sandalias. \n"
+      },
+      "notes": []
+    },
+    {
+      "id": "door43-es-419-ulb-mrk-1-8",
+      "verse": 8,
+      "reference": "41001008",
+      "version": "1.4",
+      "text": "Yo les bauticé a ustedes con agua, pero Él les bautizará con el Espíritu Santo\".",
+      "originalHtml": "<p><sup>8</sup>&nbsp;Yo les bauticé a ustedes con agua, pero Él les bautizará con el Espíritu Santo&quot;.</p>",
+      "bodySha256": "e2e19e3c5a68f107f186f4b2735a439fa0808b208669388cc2842d6f014ba7bb",
+      "sourceSpan": {
+        "start": 972,
+        "end": 1058,
+        "sha256": "8bfc3f96990733e07e5caf0fcad0915ce047b993cbe6ded0a499519232f1f89d",
+        "usfm": "Yo les bauticé a ustedes con agua, pero Él les bautizará con el Espíritu Santo\".\n\n\\s5\n"
+      },
+      "notes": []
+    },
+    {
+      "id": "door43-es-419-ulb-mrk-1-9",
+      "verse": 9,
+      "reference": "41001009",
+      "version": "1.4",
+      "text": "Aconteció en esos días que Jesús vino de Nazaret en Galilea, y Él fue bautizado por Juan en el río Jordán.",
+      "originalHtml": "<p><sup>9</sup>&nbsp;Aconteció en esos días que Jesús vino de Nazaret en Galilea, y Él fue bautizado por Juan en el río Jordán.</p>",
+      "bodySha256": "4f3f722e07fffcc14e18a43f2bfdc3997bbd0e6387e6e04fa5e4c834f570cc2b",
+      "sourceSpan": {
+        "start": 1063,
+        "end": 1171,
+        "sha256": "45b37448e5075179148c06235fd7e0c8ccc8d580407c289dad3098a4a8f9f1ac",
+        "usfm": "Aconteció en esos días que Jesús vino de Nazaret en Galilea, y Él fue bautizado por Juan en el río Jordán. \n"
+      },
+      "notes": []
+    },
+    {
+      "id": "door43-es-419-ulb-mrk-1-10",
+      "verse": 10,
+      "reference": "41001010",
+      "version": "1.4",
+      "text": "Al Jesús salir de las aguas, Él vio los cielos abrirse y el Espíritu descendía sobre Él como una paloma.",
+      "originalHtml": "<p><sup>10</sup>&nbsp;Al Jesús salir de las aguas, Él vio los cielos abrirse y el Espíritu descendía sobre Él como una paloma.</p>",
+      "bodySha256": "159168cb8b30e389e7ef52675de23e8ab4d000908fbda1d50db0e8d57b87dd53",
+      "sourceSpan": {
+        "start": 1177,
+        "end": 1283,
+        "sha256": "8a167df546ada75b47f9bff32c04d21501035c8d3d6004346646abe6a6efb62c",
+        "usfm": "Al Jesús salir de las aguas, Él vio los cielos abrirse y el Espíritu descendía sobre Él como una paloma. \n"
+      },
+      "notes": []
+    },
+    {
+      "id": "door43-es-419-ulb-mrk-1-11",
+      "verse": 11,
+      "reference": "41001011",
+      "version": "1.4",
+      "text": "Y una voz salía de los cielos: \"Tú eres mi Hijo amado. Yo estoy muy complacido contigo.\"",
+      "originalHtml": "<p><sup>11</sup>&nbsp;Y una voz salía de los cielos: &quot;Tú eres mi Hijo amado. Yo estoy muy complacido contigo.&quot;</p>",
+      "bodySha256": "a75de304b14b191444a11728e97b92cf4f9915bab93d4e8ce5aeb1e752cf3d5a",
+      "sourceSpan": {
+        "start": 1289,
+        "end": 1383,
+        "sha256": "3107d8015648f189f4a3a04b8e49aee725a51598037242f5dd50a783c9ff4ffe",
+        "usfm": "Y una voz salía de los cielos: \"Tú eres mi Hijo amado. Yo estoy muy complacido contigo.\"\n\n\\s5\n"
+      },
+      "notes": []
+    },
+    {
+      "id": "door43-es-419-ulb-mrk-1-12",
+      "verse": 12,
+      "reference": "41001012",
+      "version": "1.4",
+      "text": "Entonces el Espíritu inmediatamente lo impulsó a salir al desierto.",
+      "originalHtml": "<p><sup>12</sup>&nbsp;Entonces el Espíritu inmediatamente lo impulsó a salir al desierto.</p>",
+      "bodySha256": "5ebf467cd7498d640c62969118ffe18548f2c6814cc6ad3d74c41947d4ef24e6",
+      "sourceSpan": {
+        "start": 1389,
+        "end": 1458,
+        "sha256": "b35f5683c52c7966d0b9a9a89ba77366f4083aaf9b67e8c8369349f5daa667f3",
+        "usfm": "Entonces el Espíritu inmediatamente lo impulsó a salir al desierto. \n"
+      },
+      "notes": []
+    },
+    {
+      "id": "door43-es-419-ulb-mrk-1-13",
+      "verse": 13,
+      "reference": "41001013",
+      "version": "1.4",
+      "text": "Él estuvo en el desierto cuarenta días, siendo tentado por Satanás. El estaba con los animales salvajes y los ángeles le servían.",
+      "originalHtml": "<p><sup>13</sup>&nbsp;Él estuvo en el desierto cuarenta días, siendo tentado por Satanás. El estaba con los animales salvajes y los ángeles le servían.</p>",
+      "bodySha256": "66040b96591472ffb2b83c9c965ba1d93ce1f1237691244050c9db86309792b2",
+      "sourceSpan": {
+        "start": 1464,
+        "end": 1599,
+        "sha256": "f5b19a2f35c97631a3680f71688d5523840fae9196659144bfa6ff1edff5a63f",
+        "usfm": "Él estuvo en el desierto cuarenta días, siendo tentado por Satanás. El estaba con los animales salvajes y los ángeles le servían.\n\n\\s5\n"
+      },
+      "notes": []
+    }
+  ],
+  "audio": {
+    "available": false
+  },
+  "provenance": {
+    "translation": "published-source; no AI translation",
+    "projection": "USFM verse markers to HTML superscripts; remove empty s5 structure; trim boundary whitespace only; no footnotes present in selected thirteen verses"
+  }
+}
