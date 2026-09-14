@@ -43,7 +43,7 @@ export default function SpanishSession({pack:sourcePack,onLanguage,busy,error,en
  const moveGuide=id=>{playback.stop();const section=groups.find(g=>g.id===id).section;update({groupId:id,visitedSections:[...new Set([...(state.visitedSections??[group.section]),section])],finished:false});};
  const playResource=(item,anchor=null)=>{update({resourceId:item.id});playback.start(resourceSelection(item,anchor));};
  const selectedResource=visible.find(r=>r.id===(playback.selection?.domain==='resources'?playback.selection.id:state.resourceId))??visible[0];
- const activeGuide=playback.selection?.domain==='guide'||playback.selection?.anchor===group.id;
+ const activeGuide=(playback.selection?.domain==='guide'&&playback.selection.id===group.id)||playback.selection?.anchor===group.id;
  const nestedIds=pack.derivedAssociations.filter(a=>a.scope==='activity'&&group.blockIds.some(id=>+id.match(/u(\d+)$/)[1]===a.cueNumber)).flatMap(a=>a.resourceIds);
  const nestedResource=resources.find(r=>r.id===state.resourceId&&nestedIds.includes(r.id))??resources.find(r=>nestedIds.includes(r.id));
  const hasScripture=group.blockIds.some(id=>pack.guide.blocks.find(b=>b.id===id)?.action==='manual-source-read; audio-blocked');
