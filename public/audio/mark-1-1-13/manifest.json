@@ -6,28 +6,36 @@
     {
       "id": "S01-U001",
       "path": "/audio/mark-1-1-13/S01-U001.mp3",
-      "bytes": 50573,
-      "sha256": "175978ef3df3685f94c0606a2a09c7f3022c15d8ce9b7ca1bf2e3fa09ce19e03",
+      "bytes": 68127,
+      "sha256": "9287a51008bf6e9c94d8e12e1cbf1bd7abc3c9e985b808bfa23e15e6f19820a6",
       "mime": "audio/mpeg",
       "sourceSha256": "affdc8e569fa818aab90d16b1fc2f88f95efe409a4ef711e03a028420334d818",
       "sourceCharacters": 57,
       "spokenCharacters": 57,
       "receivedAt": "2026-09-11T21:52:11.092Z",
       "httpStatus": 200,
-      "expectedSpokenProjectionSha256": "9848c57f5e601742ed57f234f8bab50152036480271c14ca11fd2e27b2b6c75f"
+      "expectedSpokenProjectionSha256": "9848c57f5e601742ed57f234f8bab50152036480271c14ca11fd2e27b2b6c75f",
+      "duration": 4.257938,
+      "projectionVersion": "scripture-reference-v1",
+      "spokenInputSha256": "ffc052781973d811e75955faa51d1086caeb1854ed8ce35de7f51a3a0551d892",
+      "processedTextSha256": "ffc052781973d811e75955faa51d1086caeb1854ed8ce35de7f51a3a0551d892"
     },
     {
       "id": "S01-U002",
       "path": "/audio/mark-1-1-13/S01-U002.mp3",
-      "bytes": 146285,
-      "sha256": "0a39867d35f4613b76e0b447f1d4f4083869926fde93fb51ad6e4224298b58f3",
+      "bytes": 152137,
+      "sha256": "273ebb9f89f1a92fa833ea17f3917cc7209d888e7366020b52582cb6c0ee02b6",
       "mime": "audio/mpeg",
       "sourceSha256": "b30844ce00feb22d0c8bf5d0a92ed99a43d0de1311b21ca3833785dd5911dee7",
       "sourceCharacters": 151,
       "spokenCharacters": 151,
       "receivedAt": "2026-09-11T21:52:58.002Z",
       "httpStatus": 200,
-      "expectedSpokenProjectionSha256": "51a62eefb3daeaec53ad1e50d1a8aa7e20983c55e99974b107a09ede2edc7a28"
+      "expectedSpokenProjectionSha256": "51a62eefb3daeaec53ad1e50d1a8aa7e20983c55e99974b107a09ede2edc7a28",
+      "duration": 9.508563,
+      "projectionVersion": "scripture-reference-v1",
+      "spokenInputSha256": "8f0b38d79c69331c56d5d9503f0c57895e5a60ff6db8caf0b137f4af0c6b4704",
+      "processedTextSha256": "8f0b38d79c69331c56d5d9503f0c57895e5a60ff6db8caf0b137f4af0c6b4704"
     },
     {
       "id": "S01-U003",
@@ -110,15 +118,19 @@
     {
       "id": "S02-U001",
       "path": "/audio/mark-1-1-13/S02-U001.mp3",
-      "bytes": 73560,
-      "sha256": "6673c5eef853ffa20b04cdab46c375f610011635128a6f3ede21fdbb6890b6b2",
+      "bytes": 93622,
+      "sha256": "4a315a8a787be527bd9ac4925950e677a7cd2679250fbe084693e63418ba514d",
       "mime": "audio/mpeg",
       "sourceSha256": "40915459d3070b081f6298ca4a7a52a1f5a10ce875b7de37380cf051b9438494",
       "sourceCharacters": 83,
       "spokenCharacters": 83,
       "receivedAt": "2026-09-11T21:53:25.868Z",
       "httpStatus": 200,
-      "expectedSpokenProjectionSha256": "237bb7eb142d9f3e95cefcff22b0a9a1a8e15b1b64fd2ab51dc240f67efbfd15"
+      "expectedSpokenProjectionSha256": "237bb7eb142d9f3e95cefcff22b0a9a1a8e15b1b64fd2ab51dc240f67efbfd15",
+      "duration": 5.851375,
+      "projectionVersion": "scripture-reference-v1",
+      "spokenInputSha256": "b7853d23562eecea83f358dafa4f17bbf829fd6a2194d8a481a20648d316756d",
+      "processedTextSha256": "b7853d23562eecea83f358dafa4f17bbf829fd6a2194d8a481a20648d316756d"
     },
     {
       "id": "S02-U002",
@@ -279,15 +291,19 @@
     {
       "id": "S03-U001",
       "path": "/audio/mark-1-1-13/S03-U001.mp3",
-      "bytes": 74814,
-      "sha256": "b149a3647d790b6b13230dfa1ec0d90d107bd65c48c77d683232ca61da0474b1",
+      "bytes": 93622,
+      "sha256": "4a315a8a787be527bd9ac4925950e677a7cd2679250fbe084693e63418ba514d",
       "mime": "audio/mpeg",
       "sourceSha256": "40915459d3070b081f6298ca4a7a52a1f5a10ce875b7de37380cf051b9438494",
       "sourceCharacters": 83,
       "spokenCharacters": 83,
       "receivedAt": "2026-09-11T21:54:48.632Z",
       "httpStatus": 200,
-      "expectedSpokenProjectionSha256": "237bb7eb142d9f3e95cefcff22b0a9a1a8e15b1b64fd2ab51dc240f67efbfd15"
+      "expectedSpokenProjectionSha256": "237bb7eb142d9f3e95cefcff22b0a9a1a8e15b1b64fd2ab51dc240f67efbfd15",
+      "duration": 5.851375,
+      "projectionVersion": "scripture-reference-v1",
+      "spokenInputSha256": "b7853d23562eecea83f358dafa4f17bbf829fd6a2194d8a481a20648d316756d",
+      "processedTextSha256": "b7853d23562eecea83f358dafa4f17bbf829fd6a2194d8a481a20648d316756d"
     },
     {
       "id": "S03-U002",
@@ -604,15 +620,19 @@
     {
       "id": "S04-U001",
       "path": "/audio/mark-1-1-13/S04-U001.mp3",
-      "bytes": 72724,
-      "sha256": "7e54125a16034d8b9042d67cfc8aaaf66eb1e6790c08799ba4407343af23c4bb",
+      "bytes": 93622,
+      "sha256": "4a315a8a787be527bd9ac4925950e677a7cd2679250fbe084693e63418ba514d",
       "mime": "audio/mpeg",
       "sourceSha256": "40915459d3070b081f6298ca4a7a52a1f5a10ce875b7de37380cf051b9438494",
       "sourceCharacters": 83,
       "spokenCharacters": 83,
       "receivedAt": "2026-09-11T21:56:43.864Z",
       "httpStatus": 200,
-      "expectedSpokenProjectionSha256": "237bb7eb142d9f3e95cefcff22b0a9a1a8e15b1b64fd2ab51dc240f67efbfd15"
+      "expectedSpokenProjectionSha256": "237bb7eb142d9f3e95cefcff22b0a9a1a8e15b1b64fd2ab51dc240f67efbfd15",
+      "duration": 5.851375,
+      "projectionVersion": "scripture-reference-v1",
+      "spokenInputSha256": "b7853d23562eecea83f358dafa4f17bbf829fd6a2194d8a481a20648d316756d",
+      "processedTextSha256": "b7853d23562eecea83f358dafa4f17bbf829fd6a2194d8a481a20648d316756d"
     },
     {
       "id": "S04-U002",
@@ -812,15 +832,19 @@
     {
       "id": "S05-U001",
       "path": "/audio/mark-1-1-13/S05-U001.mp3",
-      "bytes": 70635,
-      "sha256": "8a552bb9960fffce64f7f65572afc8fbbd4e64857d2711772bff9677a549b109",
+      "bytes": 93622,
+      "sha256": "4a315a8a787be527bd9ac4925950e677a7cd2679250fbe084693e63418ba514d",
       "mime": "audio/mpeg",
       "sourceSha256": "40915459d3070b081f6298ca4a7a52a1f5a10ce875b7de37380cf051b9438494",
       "sourceCharacters": 83,
       "spokenCharacters": 83,
       "receivedAt": "2026-09-11T21:57:49.500Z",
       "httpStatus": 200,
-      "expectedSpokenProjectionSha256": "237bb7eb142d9f3e95cefcff22b0a9a1a8e15b1b64fd2ab51dc240f67efbfd15"
+      "expectedSpokenProjectionSha256": "237bb7eb142d9f3e95cefcff22b0a9a1a8e15b1b64fd2ab51dc240f67efbfd15",
+      "duration": 5.851375,
+      "projectionVersion": "scripture-reference-v1",
+      "spokenInputSha256": "b7853d23562eecea83f358dafa4f17bbf829fd6a2194d8a481a20648d316756d",
+      "processedTextSha256": "b7853d23562eecea83f358dafa4f17bbf829fd6a2194d8a481a20648d316756d"
     },
     {
       "id": "S05-U002",

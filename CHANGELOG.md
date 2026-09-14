@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.4
+
+Complete prepared Spanish narration and offline saving; natural spoken Scripture references in both languages. Keep source text unchanged and availability details in context.
+
 ## 0.1.3
 
 Enable verified prepared Spanish narration per available source group. Partial recordings and pending spoken introductions are labeled; text/image offline saving remains separate until the full audio pack is verified. Preserve shared controls and saved Spanish positions.

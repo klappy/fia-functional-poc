@@ -1,0 +1,83 @@
+[
+  {
+    "id": "spa-9008cb25274fe7a5bd3b",
+    "path": "/audio/spa/spa-9008cb25274fe7a5bd3b.mp3",
+    "oldSha256": "db9cade9ab2f606f6ba60efc5a79c4d11e01a8177299cc0c8af9060b091f8935",
+    "sha256": "e74e20b434b31dd8fedfe5157707dc3b4f0afd56e5486049c0f0373e6d2a4e3a",
+    "sourceSha256": "9008cb25274fe7a5bd3bf5a36a9e0654490917634dcfd5ba30c2a4d61add1f88",
+    "spokenInputSha256": "93a1628ecc7425e093cc561e7d59b8eac774acce8c109a7a945c590183427b05",
+    "processedTextSha256": "93a1628ecc7425e093cc561e7d59b8eac774acce8c109a7a945c590183427b05"
+  },
+  {
+    "id": "spa-a2b89ae2ba20582a03e5",
+    "path": "/audio/spa/spa-a2b89ae2ba20582a03e5.mp3",
+    "oldSha256": "98d281faf783d298f378dfabdfa5db41681a6df933ad17fed42a51d71183da40",
+    "sha256": "a70b66aeac133f0d25695a18937ab98e7d892ee3c4cf505a6ead7e7549a8a5d6",
+    "sourceSha256": "a2b89ae2ba20582a03e53143543fe88c07c1ee6048aac689d0adcec5cf90b979",
+    "spokenInputSha256": "f85b1332f905cff7a2fc8d722f0d26bbb260df737b903c32ffe3f53dd66f1344",
+    "processedTextSha256": "f85b1332f905cff7a2fc8d722f0d26bbb260df737b903c32ffe3f53dd66f1344"
+  },
+  {
+    "id": "spa-988632590724935d7fd5",
+    "path": "/audio/spa/spa-988632590724935d7fd5.mp3",
+    "oldSha256": "c604881b618aab0abb3014412cc10b2b963f086ff33d09f013a10e9b80394b13",
+    "sha256": "2ea4e1cfc75b755ecbe1b0cad4a16083ed6219c4145524b742e442f5db90184d",
+    "sourceSha256": "988632590724935d7fd51193c16029e231460ec7280d4aaf4595db17eab28e92",
+    "spokenInputSha256": "6e1a77c73e84fba842072ecfc0543d4ab38a631bb9f8c4daa111fcfabdec669b",
+    "processedTextSha256": "6e1a77c73e84fba842072ecfc0543d4ab38a631bb9f8c4daa111fcfabdec669b"
+  },
+  {
+    "id": "S01-U001",
+    "path": "/audio/mark-1-1-13/S01-U001.mp3",
+    "oldSha256": "175978ef3df3685f94c0606a2a09c7f3022c15d8ce9b7ca1bf2e3fa09ce19e03",
+    "sha256": "9287a51008bf6e9c94d8e12e1cbf1bd7abc3c9e985b808bfa23e15e6f19820a6",
+    "sourceSha256": "affdc8e569fa818aab90d16b1fc2f88f95efe409a4ef711e03a028420334d818",
+    "spokenInputSha256": "ffc052781973d811e75955faa51d1086caeb1854ed8ce35de7f51a3a0551d892",
+    "processedTextSha256": "ffc052781973d811e75955faa51d1086caeb1854ed8ce35de7f51a3a0551d892"
+  },
+  {
+    "id": "S01-U002",
+    "path": "/audio/mark-1-1-13/S01-U002.mp3",
+    "oldSha256": "0a39867d35f4613b76e0b447f1d4f4083869926fde93fb51ad6e4224298b58f3",
+    "sha256": "273ebb9f89f1a92fa833ea17f3917cc7209d888e7366020b52582cb6c0ee02b6",
+    "sourceSha256": "b30844ce00feb22d0c8bf5d0a92ed99a43d0de1311b21ca3833785dd5911dee7",
+    "spokenInputSha256": "8f0b38d79c69331c56d5d9503f0c57895e5a60ff6db8caf0b137f4af0c6b4704",
+    "processedTextSha256": "8f0b38d79c69331c56d5d9503f0c57895e5a60ff6db8caf0b137f4af0c6b4704"
+  },
+  {
+    "id": "S02-U001",
+    "path": "/audio/mark-1-1-13/S02-U001.mp3",
+    "oldSha256": "6673c5eef853ffa20b04cdab46c375f610011635128a6f3ede21fdbb6890b6b2",
+    "sha256": "4a315a8a787be527bd9ac4925950e677a7cd2679250fbe084693e63418ba514d",
+    "sourceSha256": "40915459d3070b081f6298ca4a7a52a1f5a10ce875b7de37380cf051b9438494",
+    "spokenInputSha256": "b7853d23562eecea83f358dafa4f17bbf829fd6a2194d8a481a20648d316756d",
+    "processedTextSha256": "b7853d23562eecea83f358dafa4f17bbf829fd6a2194d8a481a20648d316756d"
+  },
+  {
+    "id": "S03-U001",
+    "path": "/audio/mark-1-1-13/S03-U001.mp3",
+    "oldSha256": "b149a3647d790b6b13230dfa1ec0d90d107bd65c48c77d683232ca61da0474b1",
+    "sha256": "4a315a8a787be527bd9ac4925950e677a7cd2679250fbe084693e63418ba514d",
+    "sourceSha256": "40915459d3070b081f6298ca4a7a52a1f5a10ce875b7de37380cf051b9438494",
+    "spokenInputSha256": "b7853d23562eecea83f358dafa4f17bbf829fd6a2194d8a481a20648d316756d",
+    "processedTextSha256": "b7853d23562eecea83f358dafa4f17bbf829fd6a2194d8a481a20648d316756d"
+  },
+  {
+    "id": "S04-U001",
+    "path": "/audio/mark-1-1-13/S04-U001.mp3",
+    "oldSha256": "7e54125a16034d8b9042d67cfc8aaaf66eb1e6790c08799ba4407343af23c4bb",
+    "sha256": "4a315a8a787be527bd9ac4925950e677a7cd2679250fbe084693e63418ba514d",
+    "sourceSha256": "40915459d3070b081f6298ca4a7a52a1f5a10ce875b7de37380cf051b9438494",
+    "spokenInputSha256": "b7853d23562eecea83f358dafa4f17bbf829fd6a2194d8a481a20648d316756d",
+    "processedTextSha256": "b7853d23562eecea83f358dafa4f17bbf829fd6a2194d8a481a20648d316756d"
+  },
+  {
+    "id": "S05-U001",
+    "path": "/audio/mark-1-1-13/S05-U001.mp3",
+    "oldSha256": "8a552bb9960fffce64f7f65572afc8fbbd4e64857d2711772bff9677a549b109",
+    "sha256": "4a315a8a787be527bd9ac4925950e677a7cd2679250fbe084693e63418ba514d",
+    "sourceSha256": "40915459d3070b081f6298ca4a7a52a1f5a10ce875b7de37380cf051b9438494",
+    "spokenInputSha256": "b7853d23562eecea83f358dafa4f17bbf829fd6a2194d8a481a20648d316756d",
+    "processedTextSha256": "b7853d23562eecea83f358dafa4f17bbf829fd6a2194d8a481a20648d316756d"
+  }
+]
