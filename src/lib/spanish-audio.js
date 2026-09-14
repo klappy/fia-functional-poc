@@ -43,7 +43,7 @@ export function restoreSpanishAudio(storage,pack,manifest,introducedNotices=new 
  return {selection,queue:remaining,checkpoint:c.phase==='gap'?{...c,nextClipId:remaining[1]?.id}:c};
  }catch{return invalid();}
 }
-export function saveSpanishAudio(storage,selection,controller){try{const checkpoint=controller.checkpoint();if(!checkpoint||!selection){storage?.removeItem(spanishAudioCheckpointKey);return !!storage;}storage?.setItem(spanishAudioCheckpointKey,JSON.stringify({selection,sourceOwnerId:controller.item.sourceOwnerId,checkpoint}));return !!storage;}catch{return false;}}
+export function saveSpanishAudio(storage,selection,controller){try{const checkpoint=controller.checkpoint();if(!selection)return !!storage;if(!checkpoint){storage?.removeItem(spanishAudioCheckpointKey);return !!storage;}storage?.setItem(spanishAudioCheckpointKey,JSON.stringify({selection,sourceOwnerId:controller.item.sourceOwnerId,checkpoint}));return !!storage;}catch{return false;}}
 
 export function spanishPendingNotices(pack,selection,manifest){if(!manifest?.partialWrittenNotices)return [];const available=new Set(manifest.entries.map(e=>e.id));return [...new Set(spanishOwnerIds(pack,selection).flatMap(id=>ownerIndex.get(id)?.spokenNoticeOwnerIds??[]))].map(id=>ownerIndex.get(id)?.request).filter(r=>r&&!available.has(r.id)).map(r=>r.text);}
 
