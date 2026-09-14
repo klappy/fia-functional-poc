@@ -1,0 +1,8 @@
+{
+  "status": "accepted",
+  "reviewer": "independent cookbook_worker, root accepted",
+  "sha256": "02b60d0d72ca3acc40312c102edb342ef1737e518c0a13826200d6e01adff856",
+  "sourceCommit": "5519323859c59a8b5b96536a221d53acf37d5c35",
+  "reviewCommit": "5d014834772fe9df3b3803639065dd6734c8b8a4",
+  "scope": "Full32 bilingual review plus both corrective spans independently accepted"
+}
