@@ -24,3 +24,7 @@ Complete Spanish resource coverage with labeled AI translations and three separa
 ## 0.1.1
 
 Clarify content-language selection, return successful selections to content, distinguish the Languages icon, and retain readable native Guide step options in both themes. Stamp each build from the manifest version and source revision.
+
+## 0.1.7
+
+Combine presented-introduction memory with actual source playback highlighting. Restore past acknowledged notices paused at the next applicable recording; retain explicit introduction replay in Info.
