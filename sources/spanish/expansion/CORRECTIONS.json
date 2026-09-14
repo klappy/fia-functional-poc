@@ -1,0 +1,173 @@
+[
+  {
+    "id": "term-109-repentance-enactment",
+    "targetId": "spa-t109-v1",
+    "language": "spa",
+    "lang": "es",
+    "label": "AI translated from English",
+    "content": "<blockquote><p>Esta es una manera en que podrían ayudar a explicar el arrepentimiento:</p><p>Dibujen o marquen un camino. Un extremo del camino termina en un lugar muy peligroso: una fogata, un precipicio o cualquier cosa que sea peligrosa. El otro extremo del camino termina en un lugar bueno: quizás una mesa con comida, un jardín bonito o cualquier objeto que ayude a las personas a ver que este es un buen lugar.</p><p>Luego hagan que algunas personas caminen por este camino hacia el lugar peligroso. Representen a estas personas haciendo cosas malas por el camino, como golpearse unas a otras o robar. Después hagan que otra persona se acerque a ellas y les diga que deben arrepentirse.</p><p>Representen que algunas de las personas que caminan por el camino se dan cuenta de las cosas malas que han hecho y notan el lugar peligroso hacia el que están caminando. ¡Representen que se sienten muy mal! Luego representen que estas personas dan media vuelta y comienzan a caminar hacia el extremo bueno del camino. Ahora pueden representar que hacen cosas buenas.</p><p>Quizás una de las personas de su dramatización pueda <em>no</em> arrepentirse y terminar en el fuego o caer por el borde del precipicio.</p></blockquote>",
+    "format": "html",
+    "sha256": "8f69dde15d1f54f0df8ce361b2a866dcf5f3384c7a10e41e6884526d1e31e7d1",
+    "source": {
+      "sourceId": "eng-t109-v1",
+      "sourceHtml": "<blockquote><p>Here is one way you could help explain repentance:</p><p>Draw or line out a path. One end of the path ends in a very dangerous place-a fireplace, or a cliff, or anything that is dangerous. The other end of the path ends in a good place-maybe a table with food, or a nice garden, or any object that helps people to see that this is a good place.</p><p>Then have some people walk on this path towards the dangerous place. Act out these people doing bad things on the way-maybe like hitting each other, or stealing. Then have someone else come to them, and tell them that they should repent.</p><p>Act out that some of the people walking on the road realize the bad things that they have done, and they notice the dangerous place that they are walking towards. Act out that they are feeling really bad! Then act out that these people turn around, and begin to walk towards the good end of the road. They can act out doing good things now.</p><p>Maybe one of the people in your drama can <em>not</em> repent and end up in the fire or over the edge of the cliff.</p></blockquote>",
+      "start": 1158,
+      "end": 2247,
+      "offsetUnit": "Unicode code points",
+      "sourceSpanSha256": "2051dbd36f83e57dcfd4090ea76d435ad9afd305266fdf0e2583677144f8b740",
+      "sourceBodySha256": "3c2131d60d4da149c2008971c25f16a1e09a9c5f4a70e55798c13b249670ebcd",
+      "source": {
+        "repo": "FIAKeyTerms",
+        "commit": "5ce5c6bd152236e16cf23290a40ab625175df8e3",
+        "path": "eng/json/017.content.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/FIAKeyTerms/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/json/017.content.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "d2aba716fa37fbd43c384118b0bb52501951d6621a5935fcea77c696d529384c",
+        "contentSha256": "3c2131d60d4da149c2008971c25f16a1e09a9c5f4a70e55798c13b249670ebcd",
+        "apiCaptureSha256": "e663df69b6c52e876aa2d269f9c5b58abe81f09e4c1b0e1d214ddd6c608b11a2",
+        "apiBodyComparison": "exact body in wrapper"
+      }
+    },
+    "provenance": {
+      "method": "AI translation of independently identified source gap; separate corrective appendage",
+      "reviewFinding": {
+        "id": "eng-t109-v1",
+        "severity": "required missing source span",
+        "start": 1158,
+        "end": 2247,
+        "sourceHtml": "<blockquote><p>Here is one way you could help explain repentance:</p><p>Draw or line out a path. One end of the path ends in a very dangerous place-a fireplace, or a cliff, or anything that is dangerous. The other end of the path ends in a good place-maybe a table with food, or a nice garden, or any object that helps people to see that this is a good place.</p><p>Then have some people walk on this path towards the dangerous place. Act out these people doing bad things on the way-maybe like hitting each other, or stealing. Then have someone else come to them, and tell them that they should repent.</p><p>Act out that some of the people walking on the road realize the bad things that they have done, and they notice the dangerous place that they are walking towards. Act out that they are feeling really bad! Then act out that these people turn around, and begin to walk towards the good end of the road. They can act out doing good things now.</p><p>Maybe one of the people in your drama can <em>not</em> repent and end up in the fire or over the edge of the cliff.</p></blockquote>",
+        "issue": "Full final blockquote (five paragraphs) is absent from Spanish and existingSupplements is empty. COVERAGE incorrectly reports newMissingSpanEstablished:false.",
+        "action": "Add separately labeled AI-derived supplement for entire blockquote, preserve deliberate optional enactment and emphasized NOT repent alternative, hashes/source span/rights; leave original Spanish unchanged."
+      },
+      "originalSpanishBodySha256": "c182433d696164648c3ece9b77485dbc4762e72d8a2e7463d4951798992ab992",
+      "reviewStatus": "pending affected independent review"
+    },
+    "rights": {
+      "repo": "FIAKeyTerms",
+      "commit": "5ce5c6bd152236e16cf23290a40ab625175df8e3",
+      "path": "eng/metadata.json",
+      "url": "https://raw.githubusercontent.com/BibleAquifer/FIAKeyTerms/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/metadata.json",
+      "retrievedAt": "2026-09-11T20:42:04.256Z",
+      "fileSha256": "429305b41f3b23d4f933b816d9d3485aa724f929f512bd8293ac2a8693d85f44",
+      "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Key Terms",
+      "metadataVersion": "1.1.2",
+      "licenseInfo": {
+        "title": "Familiarization, Internalization, Articulation (Fia) Terms",
+        "copyright": {
+          "dates": "2025",
+          "holder": {
+            "name": "Word Collective",
+            "url": "https://wordcollective.com"
+          }
+        },
+        "licenses": [
+          {
+            "eng": {
+              "name": "CC BY-SA 4.0 license",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+            }
+          }
+        ],
+        "showAdaptationNoticeForEnglish": false,
+        "showAdaptationNoticeForNonEnglish": true
+      },
+      "adaptationNotice": "<p><b>Familiarization, Internalization, Articulation (FIA) Key Terms</b> © 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Key Terms</cite> has been adapted in the following languages Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> © 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>",
+      "priorNoticesRetained": true
+    },
+    "presentation": {
+      "meta": "AI translated from English · complemento separado; original español conservado",
+      "notice": "Ejemplo opcional de dramatización del original inglés."
+    },
+    "audio": {
+      "available": false
+    }
+  },
+  {
+    "id": "term-104-posture-correction",
+    "targetId": "spa-t104-v1",
+    "language": "spa",
+    "lang": "es",
+    "label": "AI translated from English",
+    "content": "<p>Corrección de sentido mediante traducción con IA: Dios le dijo al profeta Ezequiel que se acostara de costado durante semanas seguidas sin moverse. «De costado» describe la postura del cuerpo; no significa acostarse al lado de otra persona.</p>",
+    "format": "html",
+    "sha256": "f1bc2e4437006536d0e304d54b13275c17a695d4249f1631180ced733bbbb464",
+    "source": {
+      "sourceId": "eng-t104-v1",
+      "sourceHtml": "he told the prophet Ezekiel to lay down on his side for weeks on end without moving",
+      "start": 2345,
+      "end": 2428,
+      "offsetUnit": "Unicode code points",
+      "sourceSpanSha256": "7c84fd592a146cddc790185f10db2717d43c416d5cda95a1b02b6460326dce9e",
+      "sourceBodySha256": "7bb7688e18f8d7da80a9124d9e784a99fcd2864555c3239140ded20f35a12ef5",
+      "source": {
+        "repo": "FIAKeyTerms",
+        "commit": "5ce5c6bd152236e16cf23290a40ab625175df8e3",
+        "path": "eng/json/016.content.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/FIAKeyTerms/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/json/016.content.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "693f0a4e7c0459813713576e121cbe12d16c864004cfe0e786c066df79cc73a3",
+        "contentSha256": "7bb7688e18f8d7da80a9124d9e784a99fcd2864555c3239140ded20f35a12ef5",
+        "apiCaptureSha256": "884f70b6d372ee786a1c86edb38cd07a3857a9a3886d34fd8b02063d6abff7b1",
+        "apiBodyComparison": "exact body in wrapper"
+      }
+    },
+    "provenance": {
+      "method": "AI translation of independently identified source gap; separate corrective appendage",
+      "reviewFinding": {
+        "id": "eng-t104-v1",
+        "severity": "required meaning correction in original matched text",
+        "source": "he told the prophet Ezekiel to lay down on his side for weeks on end without moving",
+        "existingSpanish": "le dijo al profeta Ezequiel que se acostara a su lado durante semanas sin moverse",
+        "issue": "a su lado means beside him, not lying on one side of his body. Existing sentence-completion supplement does not correct this.",
+        "action": "Add separately labeled source-bound correction clarifying acostarse de costado/sobre un costado during weeks without moving; retain original bytes and mark relationship to exact original span."
+      },
+      "originalSpanishBodySha256": "9fc321c37e944dc56637a2ce92ad83ed9954244a85bb9858570046de5ae6ef43",
+      "reviewStatus": "pending affected independent review",
+      "originalAffectedSpan": {
+        "text": "le dijo al profeta Ezequiel que se acostara a su lado durante semanas sin moverse",
+        "start": 2453,
+        "end": 2534,
+        "sha256": "66226bdc3d36c95f1cc8aa8f1455f0a1c926881884a6d276b3a54745e6e47729"
+      }
+    },
+    "rights": {
+      "repo": "FIAKeyTerms",
+      "commit": "5ce5c6bd152236e16cf23290a40ab625175df8e3",
+      "path": "eng/metadata.json",
+      "url": "https://raw.githubusercontent.com/BibleAquifer/FIAKeyTerms/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/metadata.json",
+      "retrievedAt": "2026-09-11T20:42:04.256Z",
+      "fileSha256": "429305b41f3b23d4f933b816d9d3485aa724f929f512bd8293ac2a8693d85f44",
+      "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Key Terms",
+      "metadataVersion": "1.1.2",
+      "licenseInfo": {
+        "title": "Familiarization, Internalization, Articulation (Fia) Terms",
+        "copyright": {
+          "dates": "2025",
+          "holder": {
+            "name": "Word Collective",
+            "url": "https://wordcollective.com"
+          }
+        },
+        "licenses": [
+          {
+            "eng": {
+              "name": "CC BY-SA 4.0 license",
+              "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+            }
+          }
+        ],
+        "showAdaptationNoticeForEnglish": false,
+        "showAdaptationNoticeForNonEnglish": true
+      },
+      "adaptationNotice": "<p><b>Familiarization, Internalization, Articulation (FIA) Key Terms</b> © 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Key Terms</cite> has been adapted in the following languages Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> © 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>",
+      "priorNoticesRetained": true
+    },
+    "presentation": {
+      "meta": "AI translated from English · complemento separado; original español conservado",
+      "notice": "Corrección de sentido del original español: «a su lado» debe entenderse como «de costado». El texto original se conserva."
+    },
+    "audio": {
+      "available": false
+    }
+  }
+]

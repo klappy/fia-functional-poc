@@ -1,0 +1,14 @@
+[WebServer] (node:47525) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 5 tests using 1 worker
+
+(node:47542) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/picker-cleanup.spec.js:2:1 › picker full search, same-language exit and verified destination (1.3s)
+  ✓  2 tests/picker-cleanup.spec.js:5:1 › failed target then current confirmation clears stale error without fetch or autoplay (1.0s)
+  ✓  3 tests/spanish-integration.spec.js:4:1 › Spanish saves separate verified text pack and restores offline (1.2s)
+  ✓  4 tests/spanish-integration.spec.js:23:1 › expanded Spanish editions resources and corrective provenance remain text-only (1.4s)
+  ✓  5 tests/spanish-integration.spec.js:25:1 › known original Spanish workspace upgrades with validated position and no autoplay (626ms)
+
+  5 passed (6.9s)

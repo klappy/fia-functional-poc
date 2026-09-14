@@ -7,14 +7,14 @@
       "sha256": "57bf56bd95805904d6eed9b23a03ae16e164b0bd42c6fc924da142cf546fe3b3"
     },
     {
-      "path": "assets/index-CKX81hxX.js",
-      "bytes": 482094,
-      "sha256": "71d15ffc2ae2ca64cb778f30ae5c0d435ceb09110f26466050f98578b2bd634d"
+      "path": "assets/index-DImsaVsm.css",
+      "bytes": 28012,
+      "sha256": "827e7e333bf579cf2d3ae71c8d04f545d5bc92717062e55073ae6acb56eb9ad3"
     },
     {
-      "path": "assets/index-CwSZMaxO.css",
-      "bytes": 28175,
-      "sha256": "3db3aa69b87b69c8a79e3c959cb258bf9bd9c439cf944ef0211b02ce43f896b2"
+      "path": "assets/index-RlrNXLso.js",
+      "bytes": 482183,
+      "sha256": "06f9fed81b2ef532090548918408d24abf5dfe8c6ae2cfe488eebcfdf25da517"
     },
     {
       "path": "assets/mark-1-1-13/a111.jpg",
@@ -977,14 +977,29 @@
       "sha256": "9c58b5b5100b4324ab54000ac3c26b7ad2371fd964afa319fe0cda7da8e0291c"
     },
     {
+      "path": "content/spa/mark-1-1-13/assets/a203.jpg",
+      "bytes": 112424,
+      "sha256": "1471c9bec45fa044351c13078a7093be44ec2db8e987a62c1a3151a4b9fcb5c9"
+    },
+    {
       "path": "content/spa/mark-1-1-13/assets/a204.jpg",
       "bytes": 93501,
       "sha256": "d1e3f8420046e066c981476e80cad3c0024d77694d9045a2ca248cdc0dc811c7"
     },
     {
+      "path": "content/spa/mark-1-1-13/assets/c168.png",
+      "bytes": 7735008,
+      "sha256": "012583ca2ccc485fcb236b9e7d9580b35b1380bd0416758f36b023bd619e096e"
+    },
+    {
       "path": "content/spa/mark-1-1-13/assets/c197.png",
       "bytes": 6712636,
       "sha256": "e634e8d7f17c55b5f8be3fdc1f91fee7708f30774f4e1ad3223efff8ef9f2f5d"
+    },
+    {
+      "path": "content/spa/mark-1-1-13/assets/c201.png",
+      "bytes": 6646608,
+      "sha256": "cf0381a5cf019c2ae6ba1c925fa6237689e6df346d519c34b73eb3fbf12b2ea3"
     },
     {
       "path": "content/spa/mark-1-1-13/assets/c202.png",
@@ -993,13 +1008,13 @@
     },
     {
       "path": "content/spa/mark-1-1-13/manifest.json",
-      "bytes": 1185,
-      "sha256": "039718122dceeac7bb13e4b97ec9c9a464a93aa1244fb921921d234ee70fe6ca"
+      "bytes": 1720,
+      "sha256": "6e86083768b726c482461836aea517c3b79bff28c1e8f53481d861c62ecbfe8e"
     },
     {
       "path": "content/spa/mark-1-1-13/pack.json",
-      "bytes": 374518,
-      "sha256": "031635f2c922871e71bb679758642cb6e2e37a4779d7c1cc32e1b395d5706192"
+      "bytes": 674289,
+      "sha256": "01d6b3faf3e2e8313ce02cec01f91354724624f45f29896b4535d1d256cf1645"
     },
     {
       "path": "content/term-narration.json",
@@ -1033,26 +1048,26 @@
     },
     {
       "path": "index.html",
-      "bytes": 566,
-      "sha256": "9cfeb6cf8fe7340356f8643ad6258ef3299412220542b9081f337a30d527b9a7"
+      "bytes": 517,
+      "sha256": "09f1a4865f7a0021edf1638bc5c52ac0dd86a8c36f19fb4ae63bae6f3390fecb"
     },
     {
       "path": "offline-shell.json",
       "bytes": 44085,
-      "sha256": "3d05a77f6608adb4244632e54998b572458a382ce0eb800b1845215019578273"
+      "sha256": "df86307bfde6381362b40c0a6c664bfa007670f095aa3b75e262b7c9ff31e4c2"
     },
     {
       "path": "offline-spa.json",
-      "bytes": 3437,
-      "sha256": "eb7ed4a358efa188ceb011ac3f9f9419f6c82aedeec56fd186884862d50f917e"
+      "bytes": 4123,
+      "sha256": "13f256cdf921c3f7f098639751a8ff6bec9ba624f723ab1a1678aa06a2e18804"
     },
     {
       "path": "sw.js",
-      "bytes": 6469,
-      "sha256": "7e507764125137716ea1759d62074b94fbf1f5706bb8d57e7bc91cf94dae8a80"
+      "bytes": 6471,
+      "sha256": "6e25682876ffd54eff255d103311defc62823397ab744574fd090c21165f337d"
     }
   ],
   "packFiles": 200,
-  "packBytes": 93644521,
-  "distBytes": 102178872
+  "packBytes": 93644398,
+  "distBytes": 116973783
 }

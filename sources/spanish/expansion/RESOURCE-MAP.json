@@ -1,0 +1,367 @@
+[
+  {
+    "englishId": "a13",
+    "kind": "video",
+    "englishTitle": "Jordan River",
+    "spanishId": null,
+    "identityStatus": "absent-from-current-Spanish-pack",
+    "sourceCharacters": 31,
+    "englishBodySha256": "c45baf41d3cd59d3fc27dd57c3dc52e8109c846462668d0a3693f12ee88d16c5",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": true
+  },
+  {
+    "englishId": "a184",
+    "kind": "video",
+    "englishTitle": "Sandals",
+    "spanishId": null,
+    "identityStatus": "absent-from-current-Spanish-pack",
+    "sourceCharacters": 31,
+    "englishBodySha256": "f91f51582f3a9c3258c4764a8381345ef26b574627436721e63cc62a69a417a6",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": true
+  },
+  {
+    "englishId": "a10",
+    "kind": "video",
+    "englishTitle": "Wilderness or Desert",
+    "spanishId": null,
+    "identityStatus": "absent-from-current-Spanish-pack",
+    "sourceCharacters": 31,
+    "englishBodySha256": "a54f4b698f5b961380c1ca8085a2fe4d35a68119c1a400771ad598f7410b2636",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": true
+  },
+  {
+    "englishId": "a112",
+    "kind": "image",
+    "englishTitle": "Jordan River",
+    "spanishId": "a112",
+    "identityStatus": "present-semantic-parity-pending",
+    "sourceCharacters": 18,
+    "englishBodySha256": "2db7f15db95e1d3632c34bec725e600334cf643c217b453e225eeb280bcf7a0c",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "a111",
+    "kind": "image",
+    "englishTitle": "Wilderness or Desert",
+    "spanishId": "a111",
+    "identityStatus": "present-semantic-parity-pending",
+    "sourceCharacters": 18,
+    "englishBodySha256": "9a15d934fa5404d6fcfa44105edc8c7f79d7f2fd47bb80122817dbfea1f3b6aa",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "a203",
+    "kind": "image",
+    "englishTitle": "Sandals",
+    "spanishId": null,
+    "identityStatus": "absent-from-current-Spanish-pack",
+    "sourceCharacters": 18,
+    "englishBodySha256": "d3576f75ab9f54da9fec3d05b82141877771effa95eede5b3b94e6f5728743a4",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "a204",
+    "kind": "image",
+    "englishTitle": "Sandals",
+    "spanishId": "a204",
+    "identityStatus": "present-semantic-parity-pending",
+    "sourceCharacters": 18,
+    "englishBodySha256": "0a8c18b3780a5fed039cbaff069467dd4cb1db3cf1137afa1d6afd18811af95a",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "c202",
+    "kind": "map",
+    "englishTitle": "Important Locations in Jerusalem",
+    "spanishId": "c202",
+    "identityStatus": "present-semantic-parity-pending",
+    "sourceCharacters": 18,
+    "englishBodySha256": "9c99cb72891971aed49da4a2214dfce537c600d2bcd50b11f80d11a14c45b812",
+    "existingSupplementIds": [
+      "map-c202-title"
+    ],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "c197",
+    "kind": "map",
+    "englishTitle": "Locations in the Book of Mark",
+    "spanishId": "c197",
+    "identityStatus": "present-semantic-parity-pending",
+    "sourceCharacters": 18,
+    "englishBodySha256": "6dce069a27c70c29999b0ee414d80f68086ae7230beefc969d991984662687b1",
+    "existingSupplementIds": [
+      "map-c197-title"
+    ],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "c201",
+    "kind": "map",
+    "englishTitle": "Aerial View of Judea and Jerusalem",
+    "spanishId": null,
+    "identityStatus": "absent-from-current-Spanish-pack",
+    "sourceCharacters": 18,
+    "englishBodySha256": "e67aeda7273f792467367bb53713022f34bbf847d34f7395a01ff93031246476",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "c168",
+    "kind": "map",
+    "englishTitle": "Nazareth and Judea",
+    "spanishId": null,
+    "identityStatus": "absent-from-current-Spanish-pack",
+    "sourceCharacters": 18,
+    "englishBodySha256": "5a8e24aca1d4dce218f6470f4b12fd24401f5739511d73c5cf9ecc9c6332eba1",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "eng-t63-v1",
+    "kind": "term",
+    "englishTitle": "heaven",
+    "spanishId": "spa-t63-v1",
+    "identityStatus": "present-semantic-parity-pending",
+    "sourceCharacters": 1899,
+    "englishBodySha256": "a5bf7e328cdfe38dcb7f925a8c9fde51a5ce658e0ca06b8fe736ee3f05afb3dc",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "eng-t68-v1",
+    "kind": "term",
+    "englishTitle": "Holy Spirit",
+    "spanishId": "spa-t68-v1",
+    "identityStatus": "present-semantic-parity-pending",
+    "sourceCharacters": 2009,
+    "englishBodySha256": "f878738477860ba4933a1ad85dabe727b9e38f1c745a9d3e95154e61f8cbb46a",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "eng-t23-v1",
+    "kind": "term",
+    "englishTitle": "Christ",
+    "spanishId": "spa-t23-v1",
+    "identityStatus": "present-semantic-parity-pending",
+    "sourceCharacters": 2980,
+    "englishBodySha256": "6b568193e008a0848ecc7e03ec4fe3609deb5416ca681e4018cc3f1f7b701115",
+    "existingSupplementIds": [
+      "term-23-warnings"
+    ],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "eng-t38-v1",
+    "kind": "term",
+    "englishTitle": "desert",
+    "spanishId": null,
+    "identityStatus": "absent-from-current-Spanish-pack",
+    "sourceCharacters": 226,
+    "englishBodySha256": "aed8ff9527a6c36c5e6dffb47d76ce7a7cbfd7814a28306b8c4793c243d90097",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "eng-t226-v2",
+    "kind": "term",
+    "englishTitle": "king",
+    "spanishId": null,
+    "identityStatus": "absent-from-current-Spanish-pack",
+    "sourceCharacters": 253,
+    "englishBodySha256": "4a3f5b306c9da90140b573d34975177187e54ff1fe9eb8f1025a4243ee765050",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "eng-t103-v1",
+    "kind": "term",
+    "englishTitle": "priest",
+    "spanishId": null,
+    "identityStatus": "absent-from-current-Spanish-pack",
+    "sourceCharacters": 3867,
+    "englishBodySha256": "9fe9ec8a8b2fc17b4d854423d5298d01bb6f85d6deece5c196f8a41001d238ec",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "eng-t104-v1",
+    "kind": "term",
+    "englishTitle": "prophet",
+    "spanishId": "spa-t104-v1",
+    "identityStatus": "present-semantic-parity-pending",
+    "sourceCharacters": 6193,
+    "englishBodySha256": "7bb7688e18f8d7da80a9124d9e784a99fcd2864555c3239140ded20f35a12ef5",
+    "existingSupplementIds": [
+      "term-104-complete-sentence"
+    ],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "eng-t109-v1",
+    "kind": "term",
+    "englishTitle": "repentance",
+    "spanishId": "spa-t109-v1",
+    "identityStatus": "present-semantic-parity-pending",
+    "sourceCharacters": 2091,
+    "englishBodySha256": "3c2131d60d4da149c2008971c25f16a1e09a9c5f4a70e55798c13b249670ebcd",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "eng-t76-v1",
+    "kind": "term",
+    "englishTitle": "Jerusalem",
+    "spanishId": null,
+    "identityStatus": "absent-from-current-Spanish-pack",
+    "sourceCharacters": 741,
+    "englishBodySha256": "681a56b09c7fb9f96d218c141820b0c8fa4746a65f1cbca2aeb97dacc153eeb8",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "eng-t9-v1",
+    "kind": "term",
+    "englishTitle": "baptism",
+    "spanishId": "spa-t9-v1",
+    "identityStatus": "present-semantic-parity-pending",
+    "sourceCharacters": 2984,
+    "englishBodySha256": "2a481ecbfe4d0104dac616b5be3a8a72168fcd72b5690ad3df9607e7c0598285",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "eng-t145-v1",
+    "kind": "term",
+    "englishTitle": "wilderness",
+    "spanishId": "spa-t145-v1",
+    "identityStatus": "present-semantic-parity-pending",
+    "sourceCharacters": 226,
+    "englishBodySha256": "d752f6020bd735f0989f0d71072ce16bba023599061b62ee583e66457dc93eef",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "eng-t87-v1",
+    "kind": "term",
+    "englishTitle": "Lord",
+    "spanishId": "spa-t87-v1",
+    "identityStatus": "present-semantic-parity-pending",
+    "sourceCharacters": 1400,
+    "englishBodySha256": "8515913d9c4098b60a762729fbf41736567f7b6e4f0dbe9907e185c6370109c7",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "eng-t88-v1",
+    "kind": "term",
+    "englishTitle": "Lord",
+    "spanishId": null,
+    "identityStatus": "absent-from-current-Spanish-pack",
+    "sourceCharacters": 186,
+    "englishBodySha256": "591296193635d6695dc6bb723d84d341270a1b49fbf9a996b11878d5e5fb2a89",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "eng-t60-v1",
+    "kind": "term",
+    "englishTitle": "gospel",
+    "spanishId": "spa-t60-v1",
+    "identityStatus": "present-semantic-parity-pending",
+    "sourceCharacters": 1560,
+    "englishBodySha256": "b26459f7fa917b7f46a898fd4b1a73a24558afadfc1f23a0f3266f087e792136",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "eng-t53-v1",
+    "kind": "term",
+    "englishTitle": "forgiveness",
+    "spanishId": "spa-t53-v1",
+    "identityStatus": "present-semantic-parity-pending",
+    "sourceCharacters": 2009,
+    "englishBodySha256": "5ae9fbd29ae9084ac4dfc35d6f669fae6d5ce85fd05997309658898f2c77a008",
+    "existingSupplementIds": [
+      "term-53-examples",
+      "term-53-mime-action"
+    ],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "eng-t4-v1",
+    "kind": "term",
+    "englishTitle": "angel",
+    "spanishId": "spa-t4-v1",
+    "identityStatus": "present-semantic-parity-pending",
+    "sourceCharacters": 1693,
+    "englishBodySha256": "d88b7c53a5546dad5070f984b76b18cf00133983686c4b077d81ade0a5e65bd1",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "eng-t5-v1",
+    "kind": "term",
+    "englishTitle": "anoint",
+    "spanishId": null,
+    "identityStatus": "absent-from-current-Spanish-pack",
+    "sourceCharacters": 2177,
+    "englishBodySha256": "e833e4c339b17ea443693e9992e6ba3099545f1c807823fe72c328fa4e3b4e7d",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "eng-t92-v1",
+    "kind": "term",
+    "englishTitle": "Messiah",
+    "spanishId": "spa-t92-v1",
+    "identityStatus": "present-semantic-parity-pending",
+    "sourceCharacters": 2972,
+    "englishBodySha256": "4e5cec57c162d9fb6e45fa5237362f66bdcba87a09d632c4423d3c626816fda7",
+    "existingSupplementIds": [
+      "term-92-warnings"
+    ],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "eng-t118-v1",
+    "kind": "term",
+    "englishTitle": "Satan",
+    "spanishId": "spa-t118-v1",
+    "identityStatus": "present-semantic-parity-pending",
+    "sourceCharacters": 1291,
+    "englishBodySha256": "c9f6409d9a495e5e13e484f4c2e106564aafd5e0788d655e9207d976a58140cb",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "eng-t125-v1",
+    "kind": "term",
+    "englishTitle": "sin",
+    "spanishId": "spa-t125-v1",
+    "identityStatus": "present-semantic-parity-pending",
+    "sourceCharacters": 5839,
+    "englishBodySha256": "7c949f904bb16a7099e0e8593cd96fabbada55e6b7eb1e6c5a8571a2b132f189",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": false
+  },
+  {
+    "englishId": "eng-t129-v1",
+    "kind": "term",
+    "englishTitle": "Son of God",
+    "spanishId": "spa-t129-v1",
+    "identityStatus": "present-semantic-parity-pending",
+    "sourceCharacters": 1164,
+    "englishBodySha256": "b3e8583cae01134475a24d0ba333533a38e55c0e3ba58d1879d40eeaff581709",
+    "existingSupplementIds": [],
+    "requiresVideoTranscript": false
+  }
+]
