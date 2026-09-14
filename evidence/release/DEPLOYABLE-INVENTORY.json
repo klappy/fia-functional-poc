@@ -7,14 +7,14 @@
       "sha256": "57bf56bd95805904d6eed9b23a03ae16e164b0bd42c6fc924da142cf546fe3b3"
     },
     {
-      "path": "assets/index-B-J1WMok.js",
-      "bytes": 481061,
-      "sha256": "90a71567316b4510cdb8977b966d4308c3ace016ebdffa35106d3ce6035bb6fe"
+      "path": "assets/index-BrKyEuST.js",
+      "bytes": 481979,
+      "sha256": "f7fd37fccdcf77c612a32574103c671173a697be9e5a7fdf53e53cf05fae525d"
     },
     {
-      "path": "assets/index-DImsaVsm.css",
-      "bytes": 28012,
-      "sha256": "827e7e333bf579cf2d3ae71c8d04f545d5bc92717062e55073ae6acb56eb9ad3"
+      "path": "assets/index-CwSZMaxO.css",
+      "bytes": 28175,
+      "sha256": "3db3aa69b87b69c8a79e3c959cb258bf9bd9c439cf944ef0211b02ce43f896b2"
     },
     {
       "path": "assets/mark-1-1-13/a111.jpg",
@@ -1033,18 +1033,18 @@
     },
     {
       "path": "index.html",
-      "bytes": 517,
-      "sha256": "b701c4ad4dcf3e2ee1c32d71f48424d4e2da0b8f2dd4766c94465f73d0db7879"
+      "bytes": 566,
+      "sha256": "fec744c5d0669b291585fca449bf7f1d90f95b228aa58bcc1f7f5b7461c5e40a"
     },
     {
       "path": "offline-shell.json",
       "bytes": 44085,
-      "sha256": "44c6dd54e114ccdaaff0d7c482084432c9a226150ff49749adddd488da33e1ed"
+      "sha256": "bba3f9042addbe3f141a891781c84e6f16d7552757a4e00d54c24374cc7e9e50"
     },
     {
       "path": "offline-spa.json",
       "bytes": 3437,
-      "sha256": "1ad97d36d7500bf90116e59d0bda49c0c5439c25125431c8220782f7868e5bcf"
+      "sha256": "4dee24b58434024a66a8b84e667b120100d20b2db10f120f9e2f3e9014038ace"
     },
     {
       "path": "sw.js",
@@ -1053,6 +1053,6 @@
     }
   ],
   "packFiles": 200,
-  "packBytes": 93643276,
-  "distBytes": 102177627
+  "packBytes": 93644406,
+  "distBytes": 102178757
 }

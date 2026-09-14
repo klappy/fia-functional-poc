@@ -1,0 +1,32 @@
+[WebServer] (node:5573) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:5590) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 3 tests using 1 worker
+
+(node:5591) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/picker-cleanup.spec.js:2:1 › picker full search, same-language exit and verified destination (1.8s)
+  ✓  2 tests/picker-cleanup.spec.js:3:1 › busy rows disable and failed target retains picker (595ms)
+  ✘  3 tests/picker-cleanup.spec.js:4:1 › picker and native step options both themes and languages (466ms)
+
+
+  1) tests/picker-cleanup.spec.js:4:1 › picker and native step options both themes and languages ───
+
+    Error: expect(received).not.toBe(expected) // Object.is equality
+
+    Expected: not "S01"
+
+      2 | test('picker full search, same-language exit and verified destination',async({page})=>{await page.goto('/');await page.getByRole('tab',{name:'Scripture',exact:true}).click();await page.getByRole('tab',{name:'Languages',exact:true}).click();const en=page.getByRole('button',{name:/^English eng/});await expect(en).toHaveAttribute('aria-pressed','true');await expect(page.getByText('English',{exact:true})).toHaveCount(1);let requests=0;page.on('request',r=>{if(r.url().includes('/content/'))requests++;});await en.click();await expect(page.getByRole('tab',{name:'Scripture',exact:true})).toHaveAttribute('aria-selected','true');expect(requests).toBe(0);await page.getByRole('tab',{name:'Resources',exact:true}).click();await page.getByRole('tab',{name:'Languages',exact:true}).click();const search=page.getByRole('textbox',{name:'Search guide languages'});for(const q of ['Español','Spanish','spa','es']){await search.fill(q);await expect(page.getByRole('button',{name:/^Español Spanish spa/})).toBeVisible();}await search.fill('no-such-language');await expect(page.getByText(/No available language matches/)).toBeVisible();await page.getByRole('button',{name:'Clear',exact:true}).click();await page.getByRole('button',{name:/^Español Spanish spa/}).click();await expect(page.getByRole('tab',{name:'Resources',exact:true})).toHaveAttribute('aria-selected','true');await expect(page.getByText(/Español · text and images/)).toBeVisible();});
+      3 | test('busy rows disable and failed target retains picker',async({browser})=>{const context=await browser.newContext({serviceWorkers:'block'});const page=await context.newPage();let release;const held=new Promise(r=>release=r);await page.route('**/content/spa/**/pack.json',async r=>{await held;await r.fulfill({body:'corrupt'});});await page.goto('/');await page.getByRole('tab',{name:'Languages',exact:true}).click();await page.getByRole('button',{name:/^Español Spanish spa/}).click();await expect(page.getByRole('button',{name:/^English eng/})).toBeDisabled();release();await expect(page.getByRole('alert')).toContainText('integrity');await expect(page.getByRole('tab',{name:'Languages',exact:true})).toHaveAttribute('aria-selected','true');await context.close();});
+    > 4 | test('picker and native step options both themes and languages',async({page})=>{await page.goto('/');for(const lang of ['eng','spa']){if(lang==='spa'){await page.getByRole('tab',{name:'Languages',exact:true}).click();await page.getByRole('button',{name:/^Español Spanish spa/}).click();await expect(page.getByText(/Español · text and images/)).toBeVisible();}for(const theme of ['light','dark']){await page.evaluate(t=>document.documentElement.dataset.theme=t,theme);await page.setViewportSize({width:320,height:900});await page.getByRole('tab',{name:'Languages',exact:true}).click();await page.screenshot({path:`evidence/language-picker-cleanup/after-${lang}-${theme}.png`});await page.getByRole('tab',{name:'Guide',exact:true}).click();const select=page.getByRole('combobox',{name:'Guide step'});await select.focus();await page.keyboard.press('Space');await page.keyboard.press('ArrowDown');await page.keyboard.press('Enter');expect(await select.inputValue()).not.toBe(lang==='eng'?'S01':'1');const colors=await select.locator('option').first().evaluate(e=>({bg:getComputedStyle(e).backgroundColor,fg:getComputedStyle(e).color,scheme:getComputedStyle(e).colorScheme}));expect(colors.bg).not.toBe(colors.fg);expect(colors.scheme).toBe(theme);await select.click();await page.screenshot({path:`evidence/language-picker-cleanup/options-${lang}-${theme}.png`});await page.keyboard.press('Escape');}}});
+        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ^
+      5 |
+        at /private/tmp/fia-language-picker-20260914/tests/picker-cleanup.spec.js:4:967
+
+    Error Context: test-results/picker-cleanup-picker-and--f410a-s-both-themes-and-languages/error-context.md
+
+  1 failed
+    tests/picker-cleanup.spec.js:4:1 › picker and native step options both themes and languages ────
+  2 passed (4.0s)
