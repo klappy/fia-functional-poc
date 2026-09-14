@@ -31,7 +31,7 @@ export function spanishQueue(pack,selection,manifest,introduced=new Set()){
 export function restoreSpanishAudio(storage,pack,manifest){
  const invalid=()=>({warning:'Saved Spanish audio position could not be restored. Play the selected source to continue.'});
  try{const saved=JSON.parse(storage?.getItem(spanishAudioCheckpointKey)??'null');if(!saved)return null;
- const selection=saved.selection;if(!selection||!['guide','scripture','resources','supplement','example'].includes(selection.domain)||selection.domain==='example')return invalid();
+ const selection=saved.selection;if(selection){if(selection.domain==='guide')selection.id=pack.guide.groupAliases?.[selection.id]??selection.id;if(selection.anchor)selection.anchor=pack.guide.groupAliases?.[selection.anchor]??selection.anchor;}if(!selection||!['guide','scripture','resources','supplement','example'].includes(selection.domain)||selection.domain==='example')return invalid();
  if(selection.anchor&&!pack.guide.ordinaryGroupIds.includes(selection.anchor))return invalid();
  const queue=spanishQueue(pack,selection,manifest),index=queue.findIndex(x=>x.sourceOwnerId===saved.sourceOwnerId&&x.id===saved.checkpoint?.clipId);if(index<0)return invalid();
  const entry=manifest.entries.find(e=>e.id===saved.checkpoint.clipId),c=saved.checkpoint;

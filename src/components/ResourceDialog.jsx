@@ -1,3 +1,4 @@
+import ResourceAttribution from './ResourceAttribution.jsx';
 import { GlassSurface } from '../vendor/glass/components/glass/GlassSurface.jsx';
 import { resourceLabel } from '../lib/resource-label.js';
 import React, { useEffect, useRef, useState } from 'react';
@@ -7,15 +8,15 @@ export default function ResourceDialog({ selection, onClose,transport,localPlaye
   const openerRef=useRef(document.activeElement); const dialog = useRef(null); const [imageError, setImageError] = useState(false); const [imageLoaded, setImageLoaded] = useState(false);
   useEffect(() => { const opener = openerRef.current; const element = dialog.current; element.showModal();element.querySelector('[aria-label="Close resource"]')?.focus(); return () => { element.close(); if (!skipReturn?.current&&opener?.isConnected) opener.focus();if(skipReturn)skipReturn.current=false; }; }, []);
   const item = selection.item;
-  useEffect(()=>{setImageError(false);setImageLoaded(false);const body=dialog.current?.querySelector('.dialog-body');if(body)body.scrollTop=0;},[item?.content_id]);
+  useEffect(()=>{setImageError(false);setImageLoaded(false);const body=dialog.current?.querySelector('.dialog-body');if(body)body.scrollTop=0;},[item?.content_id,item?.id]);
   return <dialog ref={dialog} className="resource-dialog" aria-labelledby="dialog-title" onCancel={e => { e.preventDefault(); onClose(); }}>
     <GlassSurface level={4} radius="2xl" style={{background:'var(--material-floating)'}}><div className="dialog-header"><h2 id="dialog-title">{selection.title ?? (item && resourceLabel(item))}</h2><div className="dialog-header-actions">{localPlayer}<GlassButton autoFocus variant="quiet" onClick={onClose} aria-label="Close resource">Close</GlassButton></div></div>
     <div className="dialog-body">
       {selection.children}
       {item && <>
         {['map','image'].includes(item.kind) && <>{!imageLoaded && !imageError && <p role="status">Loading image…</p>}{imageError ? <p role="alert">This image could not be displayed. Close and try again.</p> : <a href={item.assetPath} target="_blank" rel="noreferrer" className={`image-open image-open-${item.kind}`}><img src={item.assetPath} alt={resourceLabel(item)} onLoad={() => setImageLoaded(true)} onError={() => setImageError(true)}/><span>Open full-size image to inspect labels</span></a>}</>}
-        {item.kind === 'video' ? <><p>This video opens online. It is not downloaded with the passage.</p><a className="external-video" href={item.mediaUrl} target="_blank" rel="noreferrer">Open {item.title} video (connection required)</a></> : item.kind === 'term' ? <><SafeHtml html={item.content}/><p className="reading-note">Cross-reference text is preserved. Open available terms from this passage’s Resources.</p></> : null}
-        <SourceDetails item={item}/>
+        {item.kind === 'video' ? <><SafeHtml externalLinks html={item.content??item.originalHtml}/><p>This video opens online. It is not downloaded with the passage.</p><a className="external-video" href={item.mediaUrl} target="_blank" rel="noreferrer">Open {item.title} video (connection required)</a></> : item.kind === 'term' ? <><SafeHtml html={item.content}/><p className="reading-note">Cross-reference text is preserved. Open available terms from this passage’s Resources.</p></> : null}
+        {item.notice&&<p>{item.notice}</p>}{item.supplementContent}<ResourceAttribution records={item.attributions??[item]}/>
       </>}
     </div>{transport&&<div className="card-transport-footer dialog-transport-footer">{transport}</div>}</GlassSurface>
   </dialog>;

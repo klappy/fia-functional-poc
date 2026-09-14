@@ -1,0 +1,1 @@
+Initial capture script selected old first card before search rerender. Files now under initial-* are invalid c197 evidence; no visual acceptance inferred. Corrected script waits exact target and asserts dialog title.
