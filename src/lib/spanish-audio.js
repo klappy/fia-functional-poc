@@ -28,7 +28,7 @@ export function spanishQueue(pack,selection,manifest,introduced=new Set(),introd
  if(result.length)result[result.length-1].stop=selection.domain==='guide'||selection.domain==='example';
  return result;
 }
-export function restoreSpanishAudio(storage,pack,manifest){
+export function restoreSpanishAudio(storage,pack,manifest,introducedNotices=new Set()){
  const invalid=()=>({warning:'Saved Spanish audio position could not be restored. Play the selected source to continue.'});
  try{const saved=JSON.parse(storage?.getItem(spanishAudioCheckpointKey)??'null');if(!saved)return null;
  const selection=saved.selection;if(selection){if(selection.domain==='guide')selection.id=pack.guide.groupAliases?.[selection.id]??selection.id;if(selection.anchor)selection.anchor=pack.guide.groupAliases?.[selection.anchor]??selection.anchor;}if(!selection||!['guide','scripture','resources','supplement','example'].includes(selection.domain)||selection.domain==='example')return invalid();
@@ -37,7 +37,10 @@ export function restoreSpanishAudio(storage,pack,manifest){
  const entry=manifest.entries.find(e=>e.id===saved.checkpoint.clipId),c=saved.checkpoint;
  if(c.sourceSha256!==entry.sourceSha256||c.outputSha256!==entry.sha256||!Number.isFinite(c.offsetSeconds)||c.offsetSeconds<0||!['unfinished','gap','discussion-ended','terminal-ended'].includes(c.phase))return invalid();
  if(c.phase==='gap'&&queue[index+1]?.id!==c.nextClipId)return invalid();
- return {selection,queue:queue.slice(index),checkpoint:c};
+ const remaining=queue.slice(index).filter(item=>!item.notice||!introducedNotices.has(item.sourceOwnerId));
+ if(!remaining.length)return null;
+ if(remaining[0]!==queue[index]){const next=manifest.entries.find(e=>e.id===remaining[0].id);return {selection,queue:remaining,checkpoint:{ownerDomain:c.ownerDomain,clipId:next.id,sourceSha256:next.sourceSha256,outputSha256:next.sha256,offsetSeconds:0,phase:'unfinished'}};}
+ return {selection,queue:remaining,checkpoint:c.phase==='gap'?{...c,nextClipId:remaining[1]?.id}:c};
  }catch{return invalid();}
 }
 export function saveSpanishAudio(storage,selection,controller){try{const checkpoint=controller.checkpoint();if(!checkpoint||!selection){storage?.removeItem(spanishAudioCheckpointKey);return !!storage;}storage?.setItem(spanishAudioCheckpointKey,JSON.stringify({selection,sourceOwnerId:controller.item.sourceOwnerId,checkpoint}));return !!storage;}catch{return false;}}

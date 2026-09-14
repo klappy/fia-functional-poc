@@ -1,0 +1,2 @@
+PASS canceled native notice fetch: no play and no acknowledgement
+PASS acknowledged checkpoint advances to resource content with zero autoplay; explicit Resume plays once

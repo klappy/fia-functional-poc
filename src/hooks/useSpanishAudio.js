@@ -11,7 +11,7 @@ export default function useSpanishAudio(pack){
  const engine=useRef(null),selected=useRef(null),queue=useRef([]),alive=useRef(false);
  const end=useCallback(item=>{if(item.notice)return;if(item===queue.current.at(-1))setCompleted(true);},[]);
  useEffect(()=>{alive.current=true;const c=new AudioController(window.Audio,s=>{if(!alive.current)return;if(s.status==='playing'&&c.item?.notice)disclosure.current.presented(c.item.sourceOwnerId);setState(s);if(!saveSpanishAudio(browserStorage(),selected.current,c))setStorageWarning('Spanish audio progress cannot be stored on this device.');},{manifest});engine.current=c;
- const saved=restoreSpanishAudio(browserStorage(),pack,manifest);if(saved?.warning)setStorageWarning(saved.warning);else if(saved){selected.current=saved.selection;queue.current=saved.queue;setSelection(saved.selection);c.restore(saved.queue,saved.checkpoint,end);}
+ const saved=restoreSpanishAudio(browserStorage(),pack,manifest,disclosure.current.noticeOwners());if(saved?.warning)setStorageWarning(saved.warning);else if(saved){selected.current=saved.selection;queue.current=saved.queue;setSelection(saved.selection);c.restore(saved.queue,saved.checkpoint,end);}
  const persist=()=>{if(!saveSpanishAudio(browserStorage(),selected.current,c))setStorageWarning('Spanish audio progress cannot be stored on this device.');};window.addEventListener('pagehide',persist);
  return()=>{persist();alive.current=false;window.removeEventListener('pagehide',persist);c.stop();};},[pack,manifest,end]);
  const available=selection=>spanishQueue(pack,selection,manifest,new Set(),disclosure.current.noticeOwners()).length>0;
