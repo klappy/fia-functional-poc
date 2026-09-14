@@ -1,0 +1,17 @@
+{
+  "clientPath": "/private/tmp/fia-spanish-expansion-audit/scripts/prepare-term-audio.mjs",
+  "repositoryClientPath": "scripts/prepare-term-audio.mjs",
+  "repository": "klappy/fia-functional-poc",
+  "observedAtAppCommit": "e4a040fef5c5ba4dc8cfb711f4943dcd632ca1d9",
+  "serviceUrl": "https://zfqwbkgtsqkcnrguevha.supabase.co/functions/v1/podcast-tts-chunk",
+  "serviceProjectReference": "zfqwbkgtsqkcnrguevha",
+  "functionName": "podcast-tts-chunk",
+  "historicalBackendName": "Remarkably ODD, from app UPSTREAM.md",
+  "backendSourceRepositoryOwner": "unknown; not established by inspected client",
+  "requestFields": [
+    "text",
+    "voiceId"
+  ],
+  "secretsIncluded": false,
+  "providerCalls": 0
+}
