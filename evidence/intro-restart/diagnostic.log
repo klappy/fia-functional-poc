@@ -1,0 +1,12 @@
+{ time: 5, paused: true, stored: null }
+node:internal/modules/run_main:123
+    triggerUncaughtException(
+    ^
+
+page.waitForFunction: Timeout 12000ms exceeded.
+    at /private/tmp/fia-published-spanish-ulb/evidence/intro-restart/native.mjs:1:1282 {
+  log: [],
+  name: 'TimeoutError'
+}
+
+Node.js v22.16.0
