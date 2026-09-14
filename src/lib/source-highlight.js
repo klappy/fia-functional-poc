@@ -1,0 +1,1 @@
+export function sourceHighlight(state,{domain,ids=[]}){if(!state||state.notice||state.sourceDomain!==domain||!ids.includes(state.sourceOwnerId)||state.completed||state.queued)return null;if(state.status==='playing')return 'playing';if(state.status==='paused')return 'paused';return null;}

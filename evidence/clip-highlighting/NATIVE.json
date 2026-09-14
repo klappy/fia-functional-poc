@@ -1,0 +1,22 @@
+[
+  {
+    "lang": "spa",
+    "guidePaused": true
+  },
+  {
+    "lang": "spa",
+    "scriptureHighlight": "Verse 1 · playing",
+    "count": 1,
+    "pause": true
+  },
+  {
+    "lang": "eng",
+    "guidePaused": true
+  },
+  {
+    "lang": "eng",
+    "scriptureHighlight": "Whole Scripture passage recording · playing",
+    "count": 1,
+    "pause": true
+  }
+]
