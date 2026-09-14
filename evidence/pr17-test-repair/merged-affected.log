@@ -1,0 +1,38 @@
+[WebServer] (node:34017) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:34035) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:34036) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:34037) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 23 tests using 1 worker
+
+(node:34038) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/picker-cleanup.spec.js:2:1 › picker full search, same-language exit and verified destination (1.2s)
+  ✓   2 tests/picker-cleanup.spec.js:3:1 › busy rows disable and failed target retains picker (611ms)
+  ✓   3 tests/picker-cleanup.spec.js:4:1 › picker and native option tokens plus programmatic selection both themes and languages (2.0s)
+  ✓   4 tests/picker-cleanup.spec.js:5:1 › failed target then current confirmation clears stale error without fetch or autoplay (1.1s)
+  ✓   5 tests/spanish-audio.spec.js:4:1 › fixture native guide notice then content completion keeps boundary and supports paused restore (2.6s)
+  ✓   6 tests/spanish-audio.spec.js:5:1 › fixture native Resources modal keeps single owner and keyboard close restores focus (920ms)
+  ✓   7 tests/spanish-audio.spec.js:7:1 › fixture audio storage failure has separate visible warning (422ms)
+  ✓   8 tests/spanish-integration.spec.js:3:1 › full picker and English Spanish reload switches never autoplay (1.5s)
+  ✓   9 tests/spanish-integration.spec.js:4:1 › Spanish saves separate verified text pack and restores offline (1.3s)
+  ✓  10 tests/spanish-integration.spec.js:5:1 › Spanish narrow full picker source view and keyboard example return (1.2s)
+  ✓  11 tests/spanish-integration.spec.js:6:1 › corrupt target retains paused English with zero added plays (711ms)
+  ✓  12 tests/spanish-integration.spec.js:7:1 › denied storage fonts blocked and large Spanish text remain usable (679ms)
+  ✓  13 tests/spanish-integration.spec.js:8:1 › Spanish invalid source ID visibly resets without autoplay (810ms)
+  ✓  14 tests/spanish-integration.spec.js:9:1 › saved legacy English then new Spanish launches current shell offline (2.6s)
+  ✓  15 tests/spanish-integration.spec.js:10:1 › repaired Spanish position drops both new and historical persisted warning on reload (1.1s)
+  ✓  16 tests/spanish-integration.spec.js:11:1 › English Languages view survives reload without autoplay (416ms)
+  ✓  17 tests/spanish-integration.spec.js:12:1 › Languages reload keeps explicit Resume at native checkpoint (606ms)
+  ✓  18 tests/spanish-integration.spec.js:14:1 › language roundtrip preserves native checkpoint and shared theme (1.1s)
+  ✓  19 tests/spanish-integration.spec.js:17:1 › online deferred audio fetch › pending English start is fenced during slow Spanish selection (541ms)
+  ✓  20 tests/spanish-integration.spec.js:20:1 › Spanish theme preserves legacy English guide position (789ms)
+  ✓  21 tests/spanish-integration.spec.js:21:1 › Spanish invalid position and theme quota warnings remain distinct (818ms)
+  ✓  22 tests/spanish-integration.spec.js:23:1 › original Spanish editions and translated resource provenance preserve no autoplay (1.7s)
+  ✓  23 tests/spanish-integration.spec.js:25:1 › known original Spanish workspace upgrades with validated position and no autoplay (771ms)
+
+  23 passed (26.7s)
