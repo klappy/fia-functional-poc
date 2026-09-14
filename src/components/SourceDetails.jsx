@@ -6,12 +6,8 @@ export function SafeHtml({ html, className = '', externalLinks = false }) {
   const fragment = document.createElement('template'); fragment.innerHTML = safe;
   // Source glossary fragment identifiers do not exist in this bounded UI. Preserve their text without a broken link.
   fragment.content.querySelectorAll('a[href^="#"]').forEach(link => link.replaceWith(...link.childNodes));
-  // Remaining CMS media URLs must stay outbound; empty thumbnail placeholders are not controls.
-  fragment.content.querySelectorAll('a[href]').forEach(link => {
-    if (!link.textContent.trim()) { link.replaceWith(...link.childNodes); return; }
-    link.target = '_blank';
-    link.rel = 'noreferrer';
-  });
+  // Sanitized thumbnail images can leave an unnamed keyboard link; preserve any child content.
+  fragment.content.querySelectorAll('a').forEach(link => { if (!link.textContent.trim()) link.replaceWith(...link.childNodes); });
   if (externalLinks) fragment.content.querySelectorAll('a[href]').forEach(link => { const href=link.getAttribute('href'); if (/^https?:\/\//i.test(href)) { link.setAttribute('target','_blank'); link.setAttribute('rel','noopener noreferrer'); } });
   return <div className={`source-html ${className}`} dangerouslySetInnerHTML={{ __html: fragment.innerHTML }} />;
 }

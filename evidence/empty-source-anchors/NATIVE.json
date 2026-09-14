@@ -1,0 +1,28 @@
+[
+  {
+    "lang": "eng",
+    "links": [
+      {
+        "name": "link",
+        "href": "https://s3.amazonaws.com/cbbt-er.public/media/videos/a184/720p.mp4",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    ],
+    "namedKeyboardPopup": true,
+    "ownerPreserved": true
+  },
+  {
+    "lang": "spa",
+    "links": [
+      {
+        "name": "enlace",
+        "href": "https://s3.amazonaws.com/cbbt-er.public/media/videos/a184/720p.mp4",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    ],
+    "namedKeyboardPopup": true,
+    "ownerPreserved": true
+  }
+]
