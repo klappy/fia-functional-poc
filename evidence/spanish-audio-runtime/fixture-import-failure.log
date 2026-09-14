@@ -1,0 +1,105 @@
+[WebServer] (node:87834) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:87852) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 2 tests using 1 worker
+
+[WebServer] 2:34:47 PM [vite] (client) Pre-transform error: Failed to resolve import "../../../..//src/components/SpanishSession.jsx" from "tests/fixtures/spanish-audio/harness.jsx". Does the file exist?
+[WebServer]   Plugin: vite:import-analysis
+[WebServer]   File: /private/tmp/fia-spanish-audio-runtime/tests/fixtures/spanish-audio/harness.jsx:1:94
+[WebServer]   1  |  import React from "react";
+[WebServer]   2  |  import { createRoot } from "react-dom/client";
+[WebServer]   3  |  import SpanishSession from "../../../..//src/components/SpanishSession.jsx";
+[WebServer]      |                              ^
+[WebServer]   4  |  import pack from "../../../../public/content/spa/mark-1-1-13/pack.json";
+[WebServer]   5  |  import catalog from "../../../../src/data/spanish-audio-catalog.json";
+(node:87853) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 2:34:48 PM [vite] (client) Pre-transform error: Failed to resolve import "../../../..//src/components/SpanishSession.jsx" from "tests/fixtures/spanish-audio/harness.jsx". Does the file exist?
+[WebServer]   Plugin: vite:import-analysis
+[WebServer]   File: /private/tmp/fia-spanish-audio-runtime/tests/fixtures/spanish-audio/harness.jsx:1:94
+[WebServer]   1  |  import React from "react";
+[WebServer]   2  |  import { createRoot } from "react-dom/client";
+[WebServer]   3  |  import SpanishSession from "../../../..//src/components/SpanishSession.jsx";
+[WebServer]      |                              ^
+[WebServer]   4  |  import pack from "../../../../public/content/spa/mark-1-1-13/pack.json";
+[WebServer]   5  |  import catalog from "../../../../src/data/spanish-audio-catalog.json";
+[WebServer] 2:34:48 PM [vite] Internal server error: Failed to resolve import "../../../..//src/components/SpanishSession.jsx" from "tests/fixtures/spanish-audio/harness.jsx". Does the file exist?
+[WebServer]   Plugin: vite:import-analysis
+[WebServer]   File: /private/tmp/fia-spanish-audio-runtime/tests/fixtures/spanish-audio/harness.jsx:1:94
+[WebServer]   1  |  import React from "react";
+[WebServer]   2  |  import { createRoot } from "react-dom/client";
+[WebServer]   3  |  import SpanishSession from "../../../..//src/components/SpanishSession.jsx";
+[WebServer]      |                              ^
+[WebServer]   4  |  import pack from "../../../../public/content/spa/mark-1-1-13/pack.json";
+[WebServer]   5  |  import catalog from "../../../../src/data/spanish-audio-catalog.json";
+[WebServer]       at TransformPluginContext._formatLog (file:///private/tmp/fia-functional-poc-app/node_modules/vite/dist/node/chunks/node.js:8393:39)
+[WebServer]       at TransformPluginContext.error (file:///private/tmp/fia-functional-poc-app/node_modules/vite/dist/node/chunks/node.js:8390:14)
+[WebServer]       at normalizeUrl (file:///private/tmp/fia-functional-poc-app/node_modules/vite/dist/node/chunks/node.js:26058:18)
+[WebServer]       at async file:///private/tmp/fia-functional-poc-app/node_modules/vite/dist/node/chunks/node.js:26128:30
+[WebServer]       at async Promise.all (index 2)
+[WebServer]       at async TransformPluginContext.transform (file:///private/tmp/fia-functional-poc-app/node_modules/vite/dist/node/chunks/node.js:26094:4)
+[WebServer]       at async EnvironmentPluginContainer.transform (file:///private/tmp/fia-functional-poc-app/node_modules/vite/dist/node/chunks/node.js:8172:14)
+[WebServer]       at async loadAndTransform (file:///private/tmp/fia-functional-poc-app/node_modules/vite/dist/node/chunks/node.js:19634:26)
+[WebServer]       at async viteTransformMiddleware (file:///private/tmp/fia-functional-poc-app/node_modules/vite/dist/node/chunks/node.js:19853:20)
+  ✘  1 tests/spanish-audio.spec.js:3:1 › fixture native guide notice then content completion keeps boundary and supports paused restore (5.5s)
+(node:88073) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] 2:34:54 PM [vite] (client) Pre-transform error: Failed to resolve import "../../../..//src/components/SpanishSession.jsx" from "tests/fixtures/spanish-audio/harness.jsx". Does the file exist?
+[WebServer]   Plugin: vite:import-analysis
+[WebServer]   File: /private/tmp/fia-spanish-audio-runtime/tests/fixtures/spanish-audio/harness.jsx:1:94
+[WebServer]   1  |  import React from "react";
+[WebServer]   2  |  import { createRoot } from "react-dom/client";
+[WebServer]   3  |  import SpanishSession from "../../../..//src/components/SpanishSession.jsx";
+[WebServer]      |                              ^
+[WebServer]   4  |  import pack from "../../../../public/content/spa/mark-1-1-13/pack.json";
+[WebServer]   5  |  import catalog from "../../../../src/data/spanish-audio-catalog.json";
+[WebServer] 2:34:54 PM [vite] Internal server error: Failed to resolve import "../../../..//src/components/SpanishSession.jsx" from "tests/fixtures/spanish-audio/harness.jsx". Does the file exist?
+[WebServer]   Plugin: vite:import-analysis
+[WebServer]   File: /private/tmp/fia-spanish-audio-runtime/tests/fixtures/spanish-audio/harness.jsx:1:94
+[WebServer]   1  |  import React from "react";
+[WebServer]   2  |  import { createRoot } from "react-dom/client";
+[WebServer]   3  |  import SpanishSession from "../../../..//src/components/SpanishSession.jsx";
+[WebServer]      |                              ^
+[WebServer]   4  |  import pack from "../../../../public/content/spa/mark-1-1-13/pack.json";
+[WebServer]   5  |  import catalog from "../../../../src/data/spanish-audio-catalog.json";
+[WebServer]       at TransformPluginContext._formatLog (file:///private/tmp/fia-functional-poc-app/node_modules/vite/dist/node/chunks/node.js:8393:39)
+[WebServer]       at TransformPluginContext.error (file:///private/tmp/fia-functional-poc-app/node_modules/vite/dist/node/chunks/node.js:8390:14)
+[WebServer]       at normalizeUrl (file:///private/tmp/fia-functional-poc-app/node_modules/vite/dist/node/chunks/node.js:26058:18)
+[WebServer]       at async file:///private/tmp/fia-functional-poc-app/node_modules/vite/dist/node/chunks/node.js:26128:30
+[WebServer]       at async Promise.all (index 2)
+[WebServer]       at async TransformPluginContext.transform (file:///private/tmp/fia-functional-poc-app/node_modules/vite/dist/node/chunks/node.js:26094:4)
+[WebServer]       at async EnvironmentPluginContainer.transform (file:///private/tmp/fia-functional-poc-app/node_modules/vite/dist/node/chunks/node.js:8172:14)
+[WebServer]       at async loadAndTransform (file:///private/tmp/fia-functional-poc-app/node_modules/vite/dist/node/chunks/node.js:19634:26)
+[WebServer]       at async viteTransformMiddleware (file:///private/tmp/fia-functional-poc-app/node_modules/vite/dist/node/chunks/node.js:19853:20)
+  ✓  2 tests/spanish-audio.spec.js:4:1 › fixture native Resources modal keeps single owner and keyboard close restores focus (18.6s)
+
+
+  1) tests/spanish-audio.spec.js:3:1 › fixture native guide notice then content completion keeps boundary and supports paused restore 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText('Español · prepared narration')
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByText('Español · prepared narration') with timeout 5000ms
+      - waiting for getByText('Español · prepared narration')
+
+
+      1 | import{test,expect}from'@playwright/test';
+      2 | async function ended(page){await expect.poll(()=>page.evaluate(()=>window.__nativeAudio?.readyState??0)).toBeGreaterThan(0);await page.evaluate(()=>{window.__nativeAudio.currentTime=window.__nativeAudio.duration-.02;});await page.waitForTimeout(850);}
+    > 3 | test('fixture native guide notice then content completion keeps boundary and supports paused restore',async({page})=>{await page.goto('/');await expect(page.getByText('Español · prepared narration')).toBeVisible();const next=page.getByRole('button',{name:'Next guide activity',exact:true});await page.getByRole('button',{name:/Play Guide/}).click();await expect.poll(()=>page.evaluate(()=>window.__nativeAudio?.paused)).toBe(false);await ended(page);expect(await next.getAttribute('data-variant')).not.toBe('primary');await expect.poll(()=>page.evaluate(()=>window.__audioCount)).toBe(2);await page.getByRole('button',{name:/Pause Guide/}).click();await page.reload();await expect(page.getByRole('button',{name:/Resume Guide/})).toBeVisible();expect(await page.evaluate(()=>window.__nativeAudio.paused)).toBe(true);await page.getByRole('button',{name:/Resume Guide/}).click();await ended(page);await expect(page.getByRole('button',{name:/Section 1\//})).toBeVisible();await next.click();await expect(page.getByRole('button',{name:/Section 2\//})).toBeVisible();});
+        |                                                                                                                                                                                                         ^
+      4 | test('fixture native Resources modal keeps single owner and keyboard close restores focus',async({page})=>{await page.goto('/');await page.getByRole('tab',{name:'Resources',exact:true}).click();await page.getByRole('searchbox',{name:'Search resources'}).fill('sacerdote');await page.getByRole('button',{name:'Open sacerdote',exact:true}).click();await page.getByRole('dialog').getByRole('button',{name:'Play sacerdote',exact:true}).first().click();await expect.poll(()=>page.evaluate(()=>window.__nativeAudio?.paused)).toBe(false);await expect(page.locator('.app-content')).toHaveAttribute('inert','');await page.keyboard.press('Escape');await expect(page.getByRole('button',{name:'Open sacerdote',exact:true})).toBeFocused();await page.screenshot({path:'evidence/spanish-audio-runtime/fixture-resources-319.png',fullPage:true});});
+      5 |
+        at /private/tmp/fia-spanish-audio-runtime/tests/spanish-audio.spec.js:3:201
+
+    Error Context: test-results/spanish-audio-fixture-nati-66065-and-supports-paused-restore/error-context.md
+
+  1 failed
+    tests/spanish-audio.spec.js:3:1 › fixture native guide notice then content completion keeps boundary and supports paused restore 
+  1 passed (25.9s)

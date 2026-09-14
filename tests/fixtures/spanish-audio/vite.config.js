@@ -1,0 +1,3 @@
+import{defineConfig}from'vite';import react from'@vitejs/plugin-react';import fs from'node:fs';import path from'node:path';
+const repo=path.resolve(import.meta.dirname,'../../..');const manifest=JSON.parse(fs.readFileSync(path.join(repo,'public/audio/mark-1-1-13/manifest.json')));const clip=manifest.entries.find(e=>e.bytes>1000);
+export default defineConfig({root:import.meta.dirname,plugins:[react(),{name:'fixture-native-audio',configureServer(server){server.middlewares.use('/audio-fixture.mp3',(_req,res)=>{res.setHeader('Content-Type','audio/mpeg');res.end(fs.readFileSync(path.join(repo,'public',clip.path)));});}}],server:{fs:{allow:[repo]},port:4799,strictPort:true}});

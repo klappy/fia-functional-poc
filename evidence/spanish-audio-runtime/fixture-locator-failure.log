@@ -1,0 +1,39 @@
+[WebServer] (node:90794) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:90812) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 3 tests using 1 worker
+
+(node:90813) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 tests/spanish-audio.spec.js:3:1 › fixture native guide notice then content completion keeps boundary and supports paused restore (30.0s)
+(node:91715) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  2 tests/spanish-audio.spec.js:4:1 › fixture native Resources modal keeps single owner and keyboard close restores focus (1.0s)
+  ✓  3 tests/spanish-audio.spec.js:6:1 › fixture audio storage failure has separate visible warning (420ms)
+
+
+  1) tests/spanish-audio.spec.js:3:1 › fixture native guide notice then content completion keeps boundary and supports paused restore 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: /Pause Guide/ })
+
+
+      1 | import{test,expect}from'@playwright/test';
+      2 | async function ended(page){await expect.poll(()=>page.evaluate(()=>window.__nativeAudio?.readyState??0)).toBeGreaterThan(0);await page.evaluate(()=>{window.__nativeAudio.currentTime=window.__nativeAudio.duration-.02;});await page.waitForTimeout(850);}
+    > 3 | test('fixture native guide notice then content completion keeps boundary and supports paused restore',async({page})=>{page.on('pageerror',e=>console.log('PAGEERROR',e.message));await page.goto('/');await expect(page.getByText('Español · prepared narration')).toBeVisible();const next=page.getByRole('button',{name:'Next guide activity',exact:true});const initialNext=await next.evaluate(e=>getComputedStyle(e).backgroundColor);await page.getByRole('button',{name:/Play Guide/}).click();await expect.poll(()=>page.evaluate(()=>window.__nativeAudio?.paused)).toBe(false);await ended(page);expect(await next.evaluate(e=>getComputedStyle(e).backgroundColor)).toBe(initialNext);await expect.poll(()=>page.evaluate(()=>window.__audioCount)).toBe(2);await page.getByRole('button',{name:/Pause Guide/}).click();await page.reload();await expect(page.getByRole('button',{name:/Resume Guide/})).toBeVisible();expect(await page.evaluate(()=>window.__nativeAudio.paused)).toBe(true);await page.getByRole('button',{name:/Resume Guide/}).click();await ended(page);await expect(page.getByRole('button',{name:/Section 1\//})).toBeVisible();await next.click();await expect(page.getByRole('button',{name:/Section 2\//})).toBeVisible();});
+        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^
+      4 | test('fixture native Resources modal keeps single owner and keyboard close restores focus',async({page})=>{page.on('pageerror',e=>console.log('PAGEERROR',e.message));await page.goto('/');await page.getByRole('tab',{name:'Resources',exact:true}).click();await page.getByRole('searchbox',{name:'Search resources'}).fill('sacerdote');await page.getByRole('button',{name:'Open sacerdote',exact:true}).click();await page.getByRole('dialog').getByRole('button',{name:'Play sacerdote',exact:true}).first().click();await expect.poll(()=>page.evaluate(()=>window.__nativeAudio?.paused)).toBe(false);await expect(page.locator('.app-content')).toHaveAttribute('inert','');await page.keyboard.press('Escape');await expect(page.getByRole('button',{name:'Open sacerdote',exact:true})).toBeFocused();await page.screenshot({path:'evidence/spanish-audio-runtime/fixture-resources-319.png',fullPage:true});});
+      5 |
+      6 | test('fixture audio storage failure has separate visible warning',async({page})=>{await page.addInitScript(()=>{const set=Storage.prototype.setItem;Storage.prototype.setItem=function(k,v){if(k.startsWith('fia-audio-checkpoint/'))throw Error('quota');return set.call(this,k,v);};});await page.goto('/');await page.getByRole('button',{name:/Play Guide/}).click();await expect(page.getByText('Spanish audio progress cannot be stored on this device.')).toBeVisible();});
+        at /private/tmp/fia-spanish-audio-runtime/tests/spanish-audio.spec.js:3:796
+
+    Error Context: test-results/spanish-audio-fixture-nati-66065-and-supports-paused-restore/error-context.md
+
+  1 failed
+    tests/spanish-audio.spec.js:3:1 › fixture native guide notice then content completion keeps boundary and supports paused restore 
+  2 passed (33.0s)

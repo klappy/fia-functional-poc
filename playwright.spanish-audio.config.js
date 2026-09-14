@@ -1,0 +1,1 @@
+import{defineConfig}from'@playwright/test';export default defineConfig({testDir:'tests',testMatch:'spanish-audio.spec.js',workers:1,use:{baseURL:'http://127.0.0.1:4799',headless:true,viewport:{width:319,height:987}},webServer:{command:'npx vite --config tests/fixtures/spanish-audio/vite.config.js',url:'http://127.0.0.1:4799',reuseExistingServer:false},reporter:[['list']]});

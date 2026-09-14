@@ -1,0 +1,5 @@
+import React from 'react';import{createRoot}from'react-dom/client';import SpanishSession from '../../../src/components/SpanishSession.jsx';import pack from '../../../public/content/spa/mark-1-1-13/pack.json';import catalog from '../../../src/data/spanish-audio-catalog.json';import '../../../src/styles/app.css';
+const OriginalAudio=window.Audio;window.Audio=class extends OriginalAudio{constructor(...args){super(...args);window.__nativeAudio=this;window.__audioCount=(window.__audioCount??0)+1;}};
+const bytes=await(await fetch('/audio-fixture.mp3')).arrayBuffer();const digest=[...new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))].map(x=>x.toString(16).padStart(2,'0')).join('');
+pack.preparedAudio={entries:catalog.requests.map(r=>({id:r.id,path:'/audio-fixture.mp3',bytes:bytes.byteLength,sha256:digest,sourceSha256:r.sourceSha256,processedTextSha256:r.processedTextSha256}))};
+createRoot(document.getElementById('root')).render(<SpanishSession pack={pack} onLanguage={async()=>{throw Error('Fixture switch rejected');}} onClearLanguageError={()=>{}}/>);
