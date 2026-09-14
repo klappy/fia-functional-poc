@@ -9,3 +9,5 @@ Challenge: samevoice manifest equality proves historicalbinding, not currentvoic
 Challenge: known chars72,742 may change when complete-resource text/audio joined; exactexpandedC remains pending. Dollarcap only after exacttexts and accountquote. Publictariff is neither actual bill nor includedcredit proof. No financial approval invented.
 
 Independent rootplanreview remains required; this is author's challenge, not independent validation. Output is reviewable planning packet, no translated/generation/completion claim.
+
+Operator correction: automaticScripture exclusion withdrawn. ThreeEnglish editions have zero establishedsameeditionSpanishcounterparts; propose three licensedAI-derivedsupplements, not a presumed singlethirdedition. Exact39verses4790Englishchars captured. CC0/CCBY-SA adaptation basis observed, attribution/noendorsement/ShareAlike and independentverse review remain. Rootreviews scope beforebuild; nonScripturetext dish can proceed independently ofvoice/accountgate.
