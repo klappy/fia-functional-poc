@@ -61,10 +61,10 @@
   "textIdentity": "spa-mrk-1-1-13-expanded-v2/01d6b3faf3e2e8313ce02cec01f91354724624f45f29896b4535d1d256cf1645",
   "preparedAudio": {
     "path": "/audio/spa/manifest.json",
-    "bytes": 98337,
-    "sha256": "64a55dea76a22ae88638d9789b46d368b5a1a5ad2a2e5aeef9006a8be4af84b6",
-    "complete": false,
-    "entries": 120,
+    "bytes": 157099,
+    "sha256": "57a2020224b8c071f3b1fac0b7c162afdbbf05bab4757c1fb75dd92daea0ceb0",
+    "complete": true,
+    "entries": 191,
     "expectedEntries": 191
   }
 }

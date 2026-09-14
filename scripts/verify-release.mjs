@@ -16,9 +16,9 @@ for(const p of files){const body=fs.readFileSync(`dist/${p}`);if(/\.(json|js|css
 for(const e of shell.entries){const b=fs.readFileSync(`dist${e.path}`);if(b.length!==e.bytes||hash(b)!==e.sha256)throw Error(`Release hash mismatch: ${e.path}`);}
 const packet=JSON.parse(fs.readFileSync('evidence/release/EXACT-NARRATION-PACKET.json'));
 if(packet.records.length!==172||files.filter(p=>p.endsWith('.mp3')).length!==172+(spaAudio?.entries.length??0))throw Error('Narration inventory changed');
-for(const r of packet.records)if(hash(fs.readFileSync(`dist${r.path}`))!==r.audioSha256)throw Error('Approved narration bytes changed');
+const replacements=JSON.parse(fs.readFileSync('evidence/complete-spanish-audio/REFERENCE-PATCHES.json')).filter(r=>!r.path.startsWith('/audio/spa/'));if(replacements.length!==6)throw Error('Reference replacement scope');for(const r of packet.records){const replacement=replacements.find(x=>x.path===r.path);if(replacement&&replacement.oldSha256!==r.audioSha256)throw Error('Reference prior output mismatch');if(hash(fs.readFileSync(`dist${r.path}`))!==(replacement?.sha256??r.audioSha256))throw Error('Approved narration bytes changed');}
 const config=JSON.parse(fs.readFileSync('wrangler.jsonc'));
 if(config.assets.directory!=='./dist'||config.main||config.workers_dev!==false||config.preview_urls!==false||config.routes.length!==1||config.routes[0].pattern!=='fia.klappy.dev'||config.routes[0].custom_domain!==true)throw Error('Publication boundary changed');
 const inventory=files.sort().map(path=>{const b=fs.readFileSync(`dist/${path}`);return {path,bytes:b.length,sha256:hash(b)}});
 fs.writeFileSync('evidence/release/DEPLOYABLE-INVENTORY.json',JSON.stringify({classification:'Private build receipt; never deployed',files:inventory,packFiles:shell.entries.length,packBytes:shell.entries.reduce((n,e)=>n+e.bytes,0),distBytes:inventory.reduce((n,e)=>n+e.bytes,0)},null,2)+'\n');
-console.log(`Release audit PASS: ${files.length} allowlisted files; 172 unchanged MP3s; no private voice identifiers/provider route; dist only.`);
+console.log(`Release audit PASS: ${files.length} allowlisted files; 166 unchanged English MP3s; six approved reference replacements; no private voice identifiers/provider route; dist only.`);

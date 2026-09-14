@@ -21,7 +21,7 @@
       "id": "spa-9008cb25274fe7a5bd3b",
       "text": "En este paso, escuchen Marcos 1:1–13 y guárdenlo en sus corazones.",
       "sourceSha256": "9008cb25274fe7a5bd3bf5a36a9e0654490917634dcfd5ba30c2a4d61add1f88",
-      "processedTextSha256": "50258cadf310819722003c044f8ccc1ba0fe4924716946c1f088450d26379b56",
+      "processedTextSha256": "93a1628ecc7425e093cc561e7d59b8eac774acce8c109a7a945c590183427b05",
       "owners": [
         {
           "ownerId": "spa-spa-mrk-p1-v2.1-s1-u002",
@@ -31,13 +31,14 @@
             "spa-notice-synthetic-voice"
           ]
         }
-      ]
+      ],
+      "spokenInputSha256": "93a1628ecc7425e093cc561e7d59b8eac774acce8c109a7a945c590183427b05"
     },
     {
       "id": "spa-a2b89ae2ba20582a03e5",
       "text": "Escuchen una versión en audio de Marcos 1:1–13 tres veces, de ser posible, en tres traducciones diferentes. Luego, de forma grupal, platiquen de las siguientes preguntas:",
       "sourceSha256": "a2b89ae2ba20582a03e53143543fe88c07c1ee6048aac689d0adcec5cf90b979",
-      "processedTextSha256": "bff21dd06d9c560849b348580c44bbe8d9a1a6678a070b92d97c8d91597bc850",
+      "processedTextSha256": "f85b1332f905cff7a2fc8d722f0d26bbb260df737b903c32ffe3f53dd66f1344",
       "owners": [
         {
           "ownerId": "spa-spa-mrk-p1-v2.1-s1-u003",
@@ -47,7 +48,8 @@
             "spa-notice-synthetic-voice"
           ]
         }
-      ]
+      ],
+      "spokenInputSha256": "f85b1332f905cff7a2fc8d722f0d26bbb260df737b903c32ffe3f53dd66f1344"
     },
     {
       "id": "spa-ca0438fd8069c6b182dd",
@@ -165,7 +167,7 @@
       "id": "spa-988632590724935d7fd5",
       "text": "Escuchen una versión en audio de Marcos 1:1–13 en la traducción que sea más fácil de entender.",
       "sourceSha256": "988632590724935d7fd51193c16029e231460ec7280d4aaf4595db17eab28e92",
-      "processedTextSha256": "943ef2cda07fe6ca7e0c54159ac71d1eb625a9d92f645ea76d729c35156375ca",
+      "processedTextSha256": "6e1a77c73e84fba842072ecfc0543d4ab38a631bb9f8c4daa111fcfabdec669b",
       "owners": [
         {
           "ownerId": "spa-spa-mrk-p1-v2.1-s2-u011",
@@ -199,7 +201,8 @@
             "spa-notice-synthetic-voice"
           ]
         }
-      ]
+      ],
+      "spokenInputSha256": "6e1a77c73e84fba842072ecfc0543d4ab38a631bb9f8c4daa111fcfabdec669b"
     },
     {
       "id": "spa-9e480c9387b4015023c0",
