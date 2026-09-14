@@ -1,0 +1,3 @@
+// Source records remain immutable; presentation combines only identical provenance.
+export function resourceAttributions(records){const result=[],seen=new Set();for(const record of records){const r=record.rights??{};const key=JSON.stringify([record.source?.url??r.sourceUrl,r.licenseInfo?.copyright,r.licenseInfo?.licenses,r.adaptationNotice??r.sourceAdaptationNoticeHtml??'',r.attributionDiscrepancy??'']);if(seen.has(key))continue;seen.add(key);result.push(record);}return result;}
+export function titleOnlySupplement(item,s){return s.presentation?.placement?.includes('ResourceCard title')&&s.content.trim()===item.title.trim();}
