@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.4
+
+- Clarify language selection with shared inline glass and selected contrast tokens; report actual partial Spanish recording availability.
+
 ## 0.1.3
 
 Enable verified prepared Spanish narration per available source group. Partial recordings and pending spoken introductions are labeled; text/image offline saving remains separate until the full audio pack is verified. Preserve shared controls and saved Spanish positions.
