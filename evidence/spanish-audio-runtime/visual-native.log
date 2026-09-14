@@ -1,0 +1,14 @@
+[WebServer] (node:96379) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:96397) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 3 tests using 1 worker
+
+(node:96400) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/spanish-audio.spec.js:3:1 › fixture native guide notice then content completion keeps boundary and supports paused restore (3.1s)
+  ✓  2 tests/spanish-audio.spec.js:4:1 › fixture native Resources modal keeps single owner and keyboard close restores focus (905ms)
+  ✓  3 tests/spanish-audio.spec.js:6:1 › fixture audio storage failure has separate visible warning (414ms)
+
+  3 passed (5.5s)

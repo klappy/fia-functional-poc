@@ -6,8 +6,8 @@
   "files": [
     {
       "path": "pack.json",
-      "sha256": "01d6b3faf3e2e8313ce02cec01f91354724624f45f29896b4535d1d256cf1645",
-      "bytes": 674289
+      "sha256": "3a4bf65239c367fb21b336986def68caae4c25d621cd38d6377e7bee738405c5",
+      "bytes": 596441
     },
     {
       "path": "assets/a111.jpg",
@@ -57,5 +57,14 @@
       "bytes": 7735008,
       "optional": false
     }
-  ]
+  ],
+  "textIdentity": "spa-mrk-1-1-13-expanded-v2/01d6b3faf3e2e8313ce02cec01f91354724624f45f29896b4535d1d256cf1645",
+  "preparedAudio": {
+    "path": "/audio/spa/manifest.json",
+    "bytes": 98337,
+    "sha256": "64a55dea76a22ae88638d9789b46d368b5a1a5ad2a2e5aeef9006a8be4af84b6",
+    "complete": false,
+    "entries": 120,
+    "expectedEntries": 191
+  }
 }

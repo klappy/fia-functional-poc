@@ -1,0 +1,3200 @@
+{
+  "ledgerSha256": "02e815bba9045380825bdc9133a4d7fd25e69f93ce76ddb2a5459390a2c80d63",
+  "requests": [
+    {
+      "id": "spa-06c24ec382679df35569",
+      "text": "Escuchar con el corazón",
+      "sourceSha256": "06c24ec382679df3556991f85ae255fbc0aac099c318660bc627433f214cedaf",
+      "processedTextSha256": "06c24ec382679df3556991f85ae255fbc0aac099c318660bc627433f214cedaf",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s1-u001",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-9008cb25274fe7a5bd3b",
+      "text": "En este paso, escuchen Marcos 1:1–13 y guárdenlo en sus corazones.",
+      "sourceSha256": "9008cb25274fe7a5bd3bf5a36a9e0654490917634dcfd5ba30c2a4d61add1f88",
+      "processedTextSha256": "50258cadf310819722003c044f8ccc1ba0fe4924716946c1f088450d26379b56",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s1-u002",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-a2b89ae2ba20582a03e5",
+      "text": "Escuchen una versión en audio de Marcos 1:1–13 tres veces, de ser posible, en tres traducciones diferentes. Luego, de forma grupal, platiquen de las siguientes preguntas:",
+      "sourceSha256": "a2b89ae2ba20582a03e53143543fe88c07c1ee6048aac689d0adcec5cf90b979",
+      "processedTextSha256": "bff21dd06d9c560849b348580c44bbe8d9a1a6678a070b92d97c8d91597bc850",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s1-u003",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-ca0438fd8069c6b182dd",
+      "text": "¿Qué les gusta de esta historia?",
+      "sourceSha256": "ca0438fd8069c6b182dd98f146cdff52d8f3d00366b09bbc3c04b3c2f4bce602",
+      "processedTextSha256": "ca0438fd8069c6b182dd98f146cdff52d8f3d00366b09bbc3c04b3c2f4bce602",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s1-u004",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-cbf3fde25686981ff20c",
+      "text": "¿Qué es lo que no les gusta o no entienden de este pasaje?",
+      "sourceSha256": "cbf3fde25686981ff20c837d296984d180d5d029b6b4d9f38a06aa04ce7c3922",
+      "processedTextSha256": "cbf3fde25686981ff20c837d296984d180d5d029b6b4d9f38a06aa04ce7c3922",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s1-u005",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-3ee6cc1ee808cd307e6c",
+      "text": "¿Qué nos dice este texto acerca de Jesús?",
+      "sourceSha256": "3ee6cc1ee808cd307e6cb8cf498d2e9fc459fbe0279df2595b3c6e7b682c27c3",
+      "processedTextSha256": "3ee6cc1ee808cd307e6cb8cf498d2e9fc459fbe0279df2595b3c6e7b682c27c3",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s1-u006",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-3681885ce87d073bf979",
+      "text": "¿Qué nos dice este texto de las personas?",
+      "sourceSha256": "3681885ce87d073bf9790b59f7b2c62193955b6d03cbe4d41b13f95a5d9b52d3",
+      "processedTextSha256": "3681885ce87d073bf9790b59f7b2c62193955b6d03cbe4d41b13f95a5d9b52d3",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s1-u007",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-b69ec294571437de568a",
+      "text": "¿Cómo afecta este texto nuestra vida diaria?",
+      "sourceSha256": "b69ec294571437de568ac486e1bd30cacd26cd8edb959a5322112aeff56994ad",
+      "processedTextSha256": "b69ec294571437de568ac486e1bd30cacd26cd8edb959a5322112aeff56994ad",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s1-u008",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-15afc940241503cf06b6",
+      "text": "¿A quién conoces que necesita escuchar este pasaje?",
+      "sourceSha256": "15afc940241503cf06b67bc9e2cfda2ca2a7fc3256afd5bbe7c7a9813044ff34",
+      "processedTextSha256": "15afc940241503cf06b67bc9e2cfda2ca2a7fc3256afd5bbe7c7a9813044ff34",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s1-u009",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-8219ed4760b68c3e106a",
+      "text": "Pongámonos en contexto",
+      "sourceSha256": "8219ed4760b68c3e106ac7446dac7af68a1189908e9649f762cdfde0bc4a57f8",
+      "processedTextSha256": "8219ed4760b68c3e106ac7446dac7af68a1189908e9649f762cdfde0bc4a57f8",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u010",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-988632590724935d7fd5",
+      "text": "Escuchen una versión en audio de Marcos 1:1–13 en la traducción que sea más fácil de entender.",
+      "sourceSha256": "988632590724935d7fd51193c16029e231460ec7280d4aaf4595db17eab28e92",
+      "processedTextSha256": "943ef2cda07fe6ca7e0c54159ac71d1eb625a9d92f645ea76d729c35156375ca",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u011",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u025",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u051",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u081",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-9e480c9387b4015023c0",
+      "text": "El libro de Marcos comienza preparando el escenario para las buenas nuevas o evangelio de Jesús, \"El hijo de Dios\", y el comienzo de su tiempo de ministerio, o de enseñanza.",
+      "sourceSha256": "9e480c9387b4015023c07b8434af491450ceebc9e1f3917bd46253edd23d06c4",
+      "processedTextSha256": "9e480c9387b4015023c07b8434af491450ceebc9e1f3917bd46253edd23d06c4",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u012",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-05591bcda121c7d54a28",
+      "text": "Marcos nos dice que Juan preparará el camino para Jesús. Entonces Marcos nos dice inmediatamente que Jesús es el Hijo de Dios. Jesús como el Hijo de Dios es un tema de este libro. Dios nos muestra que esto es verdad al decirnos que Jesús es su hijo y que él ama y aprueba a Jesús. Otro tema en Marcos, que comenzamos a ver aquí, es Dios y Satanás en guerra entre sí. Inmediatamente después del bautismo de Jesús, Jesús está en conflicto con Satanás.",
+      "sourceSha256": "05591bcda121c7d54a28fe28c24dcdb520d19bf42ee5f87760b89aa7bc1ad8f7",
+      "processedTextSha256": "05591bcda121c7d54a28fe28c24dcdb520d19bf42ee5f87760b89aa7bc1ad8f7",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u013",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-12cffa73c37f0b0b6fee",
+      "text": "Esta historia sucede en el desierto junto al río Jordán. Es importante que la historia suceda en el desierto porque muestra que Dios ha hecho que todo lo que los profetas en el Antiguo Testamento dijeron que sucedería, se haga realidad. El río Jordán tiene unos 320 km de largo. Normalmente, tiene unos 30 metros de ancho y 3 metros de profundidad. Las personas pueden cruzarla fácilmente.",
+      "sourceSha256": "12cffa73c37f0b0b6feef18ffae21d35c094686fa6c82bd3fe8b3b86111937b6",
+      "processedTextSha256": "12cffa73c37f0b0b6feef18ffae21d35c094686fa6c82bd3fe8b3b86111937b6",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u014",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-ff6fafd5f295e07e4225",
+      "text": "Deténganse aquí y en grupo miren una imagen y un mapa del río Jordán. Pausen este audio aquí.",
+      "sourceSha256": "ff6fafd5f295e07e4225842f53843728fadf7c61a854beabd6dd46cf1812ba6e",
+      "processedTextSha256": "ff6fafd5f295e07e4225842f53843728fadf7c61a854beabd6dd46cf1812ba6e",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u015",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-f954d845d9a27c8f6420",
+      "text": "Marcos nos recuerda lo que el profeta judío Isaías ha dicho hace mucho tiempo. Un profeta es alguien que recibe un mensaje de Dios y lleva el mensaje de Dios a las personas. Lo que Isaías dijo estaba registrado en un libro que todos los judíos conocían bien. Isaías dijo que escucharan la voz que nos dice que alguien hará un camino en el desierto para que Dios venga a nosotros. Otro profeta, Malaquías, nos dice que un mensajero preparará el camino, y Dios regresará a su templo, o lugar de adoración. Marcos nos está recordando estas profecías y nos está mostrando que Juan es el mensajero que está preparando el camino para Jesús. Jesús es el camino de regreso a Dios. Marcos también nos está mostrando que Jesús es Dios. En el resto del libro de Marcos, los personajes siguen tratando de averiguar quién es Jesús, pero escuchamos de inmediato que Jesús es el Mesías, o el Salvador Prometido, el Hijo de Dios.",
+      "sourceSha256": "f954d845d9a27c8f6420eb3072c7c85c0fea31f05730fe7bc323de4f0fb1d336",
+      "processedTextSha256": "f954d845d9a27c8f6420eb3072c7c85c0fea31f05730fe7bc323de4f0fb1d336",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u016",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-a21949e5110e048c949c",
+      "text": "Juan vive en el desierto y viene predicando a las personas, como lo hicieron los antiguos profetas, para apartarse de sus malos caminos y acercarse a Dios. Juan se parece mucho al mensajero del que hablaron los profetas: él está en el desierto, se viste como él y está diciendo a las personas que se preparen para que Dios venga. Juan usa ropa hecha de pelo de camello, un animal que puede encontrar en el desierto. Él come langostas y miel silvestre, que son cosas que puede encontrar en el desierto. Él bautiza a las personas poniéndolas en agua, una ceremonia judía que mostraba que las personas se estaban alejando de su antigua manera de vida y comenzando una nueva manera de vida. En el nuevo camino de vida dejan de desobedecer a Dios o de pecar, siguen a Dios, y Dios los perdona sus pecados. Cuando Dios perdona a alguien, elige no castigar ni buscar venganza de la persona que ha pecado contra él. Él cancela su mal comportamiento y no lo tiene contra ellos. Juan también les dice a las personas que alguien más poderoso e importante está viniendo. Juan dice que esa persona será mucho más importante de lo que él es. Juan ni siquiera será digno de inclinarse y desatar las sandalias de ese hombre. A menudo, un siervo ayudaba a su amo a desatar sus zapatos o a vestirse. Pero Juan ni siquiera será digno de ser el siervo de ese hombre.",
+      "sourceSha256": "a21949e5110e048c949c05ca30f860de30c514b4c836f8f180fc9ba433ac0733",
+      "processedTextSha256": "a21949e5110e048c949c05ca30f860de30c514b4c836f8f180fc9ba433ac0733",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u017",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-4aeead0495dea15ed348",
+      "text": "Deténganse aquí y muestren al equipo de traducción una foto de sandalias. Pausen este audio aquí.",
+      "sourceSha256": "4aeead0495dea15ed348f7003e773f6a3c7c561a83d47cf70b5a6fb7aa5c62ef",
+      "processedTextSha256": "4aeead0495dea15ed348f7003e773f6a3c7c561a83d47cf70b5a6fb7aa5c62ef",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u018",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-14f0f576a04b41e12296",
+      "text": "Esa persona que vendrá bautizará a las personas con el Espíritu Santo. Juan bautiza a las personas con agua, pero ser bautizado con el Espíritu Santo, significa que Dios pondrá el Espíritu de Dios en su corazón y en su mente. Varios profetas (como Isaías, Ezequiel y Joel) en el Antiguo Testamento hablaron de que Dios derramó su Espíritu sobre las personas, por lo que las personas están esperando que este momento llegue. Juan les está diciendo: ¡está aquí!",
+      "sourceSha256": "14f0f576a04b41e12296d87e848cb66cfb78a47061a8bfcfe3adb0e487be2d46",
+      "processedTextSha256": "14f0f576a04b41e12296d87e848cb66cfb78a47061a8bfcfe3adb0e487be2d46",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u019",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-0ac9383c390d821a2d1e",
+      "text": "Marcos nos dice que Jesús vino de Nazaret a Galilea y fue bautizado por Juan. Nazaret era una ciudad en la región de Galilea, donde Jesús creció. Juan bautiza a Jesús, pero Jesús no necesita perdón, porque Jesús nunca ha hecho nada malo. Sin embargo, Jesús está comenzando una nueva vida de una manera: está comenzando su ministerio formal, o enseñanza. Este bautismo es un paso importante para mostrarnos que Dios lo está comisionando o nombrando para esta tarea. A Marcos le gusta usar oraciones cortas y acción rápida para contar sus historias, y vemos esto aquí. Inmediatamente después de que Jesús sube del agua, los cielos, que es otra manera de decir el cielo, se abren y el Espíritu Santo descendió sobre Jesús como una paloma. El Espíritu Santo vino en forma de una paloma, o el Espíritu Santo descendió de la misma manera que una paloma baja. Quizás los cielos se abren para mostrarnos que Dios se está acercando a nosotros nuevamente, después de cientos de años de silencio después del profeta anterior. Una voz del cielo, el lugar donde Dios vive, habla. Solo Jesús escucha la voz del cielo aquí. Marcos no nos dice de quién es la voz, pero sabemos que es la voz de Dios. Nadie más aún sabe quién es él, pero Jesús escucha a Dios hablando. La voz dice que Dios lo ama y lo aprueba. Marcos nos muestra que Jesús es el hijo de Dios y las personas deben escucharlo.",
+      "sourceSha256": "0ac9383c390d821a2d1ee4d5a4ddee3d58b64837e13e0e85cbd056423256eabd",
+      "processedTextSha256": "0ac9383c390d821a2d1ee4d5a4ddee3d58b64837e13e0e85cbd056423256eabd",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u020",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-1ab79ed5327392d01957",
+      "text": "Deténganse aquí y conversen sobre esta pregunta en grupo: ¿Qué tipo de ceremonias o rituales tiene su cultura para mostrar que alguien está comenzando una nueva manera de vida o un trabajo importante? ¿En qué medida son estas ceremonias iguales o diferentes del bautismo?",
+      "sourceSha256": "1ab79ed5327392d01957c953ebb0bfc7bd10d0c432f3e22342b63f0de01b2dec",
+      "processedTextSha256": "1ab79ed5327392d01957c953ebb0bfc7bd10d0c432f3e22342b63f0de01b2dec",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u021",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-704759ee546eb2669659",
+      "text": "Pausen este audio aquí.",
+      "sourceSha256": "704759ee546eb266965992db3b18cdf0e6043de87de334b95a1e986c6ae95795",
+      "processedTextSha256": "704759ee546eb266965992db3b18cdf0e6043de87de334b95a1e986c6ae95795",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u022",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s6-u131",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-6",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s6-u133",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-6",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s6-u135",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-6",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-a4faa7cabc2167b57e86",
+      "text": "El Espíritu Santo muy inmediatamente y muy intencionalmente envía a Jesús al desierto. Este habría sido un lugar como un desierto donde solo vivía animales salvajes, y muy poco crecía. Hay un llamado y un propósito claro en el verbo que se usa para ENVIAR a Jesús. Esta es una tarea especial que Dios tiene para él. Jesús pasa 40 días en el desierto, tal como Moisés lo hizo en el monte, tal como Elías lo hizo viajando a la montaña, y tal como los 40 años de Israel en el desierto. Jesús fue probado por Satanás durante estos 40 días. Satanás es el líder de todos los espíritus malignos. Él es el enemigo de Dios. Los ángeles estaban con Jesús para cuidar de él y le daban lo que necesitaba. Los ángeles son seres espirituales sobrenaturales que sirven a Dios. Marcos no nos dice aquí si Jesús tuvo éxito en el desierto luchando contra Satanás o no, pero este es un paso importante en el ministerio de Jesús.",
+      "sourceSha256": "a4faa7cabc2167b57e8677ad1fcdf1665b69cd708421aeda404755e01f182f67",
+      "processedTextSha256": "a4faa7cabc2167b57e8677ad1fcdf1665b69cd708421aeda404755e01f182f67",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u023",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-1d7831af7bbfeb72e63c",
+      "text": "Definamos las escenas",
+      "sourceSha256": "1d7831af7bbfeb72e63c74054c03e6fef0e427d7fe1cc6749b1f8622038b66d1",
+      "processedTextSha256": "1d7831af7bbfeb72e63c74054c03e6fef0e427d7fe1cc6749b1f8622038b66d1",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u024",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-b7c07caca08e33d5516c",
+      "text": "En este paso, el grupo definirá las escenas, personajes y el contexto de este pasaje. Luego el grupo visualizará este texto.",
+      "sourceSha256": "b7c07caca08e33d5516c62f8c362b81dd03a09a63a03528aefd26e5c97910407",
+      "processedTextSha256": "b7c07caca08e33d5516c62f8c362b81dd03a09a63a03528aefd26e5c97910407",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u026",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-71a26bbde754b0a00ba2",
+      "text": "Este pasaje tiene 4 escenas.",
+      "sourceSha256": "71a26bbde754b0a00ba2c588f427336bb5462834975cad3212a85a4c5576adc0",
+      "processedTextSha256": "71a26bbde754b0a00ba2c588f427336bb5462834975cad3212a85a4c5576adc0",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u027",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-e9b2bff36dfdf30e76d8",
+      "text": "En la primera escena: Marcos comienza diciéndonos que este es el comienzo del ministerio de Jesús. Juan está en el desierto, junto al río Jordán, cumpliendo las escrituras del Antiguo Testamento, donde Isaías nos dijo que alguien vendría a \"preparar el camino para la venida del Señor\", gritando y abriendo un camino para que Dios venga a nosotros.",
+      "sourceSha256": "e9b2bff36dfdf30e76d823c944481ea3c8f00f2040b224d84f408a02a5d86320",
+      "processedTextSha256": "e9b2bff36dfdf30e76d823c944481ea3c8f00f2040b224d84f408a02a5d86320",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u028",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-fe96b413f386e4ab804a",
+      "text": "En la segunda escena: Juan está bautizando a personas en el río Jordán. Juan está diciendo a las personas que alguien está viniendo que es más poderoso que él y que bautizará a las personas no solo en agua, sino con el Espíritu Santo.",
+      "sourceSha256": "fe96b413f386e4ab804a92121c338451ecc5753e820ccff9fa6e666c903a7729",
+      "processedTextSha256": "fe96b413f386e4ab804a92121c338451ecc5753e820ccff9fa6e666c903a7729",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u029",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-b33efe89e3048f37da68",
+      "text": "En la tercera escena: Jesús viene de Nazaret a Galilea, donde Juan bautiza a Jesús. Inmediatamente después de que Jesús sale del agua, los cielos se abren y el Espíritu Santo viene sobre Jesús.",
+      "sourceSha256": "b33efe89e3048f37da680e5a5ed0a177cd083e66dad68ead772a577d1c1b6c25",
+      "processedTextSha256": "b33efe89e3048f37da680e5a5ed0a177cd083e66dad68ead772a577d1c1b6c25",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u030",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-1e233463621b1bb830e6",
+      "text": "Pausen el audio aquí y muestren a su grupo un mapa que muestre la región de Galilea que incluya Nazaret y el área del río Jordán.",
+      "sourceSha256": "1e233463621b1bb830e636ac68848ab1bc1b6e43c7ddc8f870fc116b5e31c8f2",
+      "processedTextSha256": "1e233463621b1bb830e636ac68848ab1bc1b6e43c7ddc8f870fc116b5e31c8f2",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u031",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-ef38d80c16e92ef8fcab",
+      "text": "En la cuarta escena: Inmediatamente después del bautismo de Jesús, el Espíritu Santo envía a Jesús al desierto durante 40 días. Satanás prueba a Jesús. Los ángeles están con Jesús ayudándolo.",
+      "sourceSha256": "ef38d80c16e92ef8fcab104c94c4a65306eab609fa5584df29f4571b3a913a5f",
+      "processedTextSha256": "ef38d80c16e92ef8fcab104c94c4a65306eab609fa5584df29f4571b3a913a5f",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u032",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-9c5776c4df6ee10aae37",
+      "text": "Los personajes de este pasaje son:",
+      "sourceSha256": "9c5776c4df6ee10aae37264878751c0b32a1cae0a2ab36cb0a6df96918750eb1",
+      "processedTextSha256": "9c5776c4df6ee10aae37264878751c0b32a1cae0a2ab36cb0a6df96918750eb1",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u033",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u054",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-640c3417099c77075e7a",
+      "text": "Juan el Bautista",
+      "sourceSha256": "640c3417099c77075e7a752015f2dbe7e591e729b5644e21359262e68d8077d2",
+      "processedTextSha256": "640c3417099c77075e7a752015f2dbe7e591e729b5644e21359262e68d8077d2",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u034",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u055",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-cb578a8402bb8e86060f",
+      "text": "Multitud de personas",
+      "sourceSha256": "cb578a8402bb8e86060fb3acbc478ee847324d080a9af09b74dbc3a84ff14562",
+      "processedTextSha256": "cb578a8402bb8e86060fb3acbc478ee847324d080a9af09b74dbc3a84ff14562",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u035",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u056",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-b9f0e64bb47c4f861bbb",
+      "text": "Jesús",
+      "sourceSha256": "b9f0e64bb47c4f861bbb89af6786ed6fa1f6ece974041a7a426f34f446838f53",
+      "processedTextSha256": "b9f0e64bb47c4f861bbb89af6786ed6fa1f6ece974041a7a426f34f446838f53",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u036",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u057",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-4cbb2a925100ad32d599",
+      "text": "El Espíritu Santo",
+      "sourceSha256": "4cbb2a925100ad32d59944e3deed7b64b7fb76c46541be3e4d52c3fc03ea0313",
+      "processedTextSha256": "4cbb2a925100ad32d59944e3deed7b64b7fb76c46541be3e4d52c3fc03ea0313",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u037",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u058",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-ed37c7a8f75e72de670e",
+      "text": "Dios",
+      "sourceSha256": "ed37c7a8f75e72de670ec16db06350c51a8600f2f79d6c60943b59e5c270bd7d",
+      "processedTextSha256": "ed37c7a8f75e72de670ec16db06350c51a8600f2f79d6c60943b59e5c270bd7d",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u038",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u059",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-bd07153329609cc8116d",
+      "text": "Satanás",
+      "sourceSha256": "bd07153329609cc8116d8c4be0f9dd8617d1644bb2caf1953a9e6f6647270c02",
+      "processedTextSha256": "bd07153329609cc8116d8c4be0f9dd8617d1644bb2caf1953a9e6f6647270c02",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u039",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u060",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-55083d109204a3f1b8e0",
+      "text": "Los ángeles",
+      "sourceSha256": "55083d109204a3f1b8e023c6dd5fcde1247c7dba1038d704c9d6bc350ada3d73",
+      "processedTextSha256": "55083d109204a3f1b8e023c6dd5fcde1247c7dba1038d704c9d6bc350ada3d73",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u040",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u061",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-952e1e69c66fa93bbab5",
+      "text": "Como grupo, pongan atención a estas partes de la ambientación del texto:",
+      "sourceSha256": "952e1e69c66fa93bbab53263bae004331670ad152ff47f62a4051ebbdfc14fff",
+      "processedTextSha256": "952e1e69c66fa93bbab53263bae004331670ad152ff47f62a4051ebbdfc14fff",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u041",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-52b4ae2182626edbe1ba",
+      "text": "La historia tiene lugar en el desierto cerca del río Jordán y más tarde en otra área del desierto donde Jesús es probado por Satanás. El lugar del desierto es importante, ya que nos muestra que la profecía de Isaías de que habría una voz gritando en el desierto se ha hecho realidad.",
+      "sourceSha256": "52b4ae2182626edbe1ba707876aea14775adb7fb7b82cd7ff935ed7905259256",
+      "processedTextSha256": "52b4ae2182626edbe1ba707876aea14775adb7fb7b82cd7ff935ed7905259256",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u042",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-44a0fe8fa7ff6ef740c5",
+      "text": "Pausen el audio aquí y muestren a su grupo una imagen del río Jordán y una imagen del desierto.",
+      "sourceSha256": "44a0fe8fa7ff6ef740c58eefa67db228306ee83c617db40cb69c093b1ce5106e",
+      "processedTextSha256": "44a0fe8fa7ff6ef740c58eefa67db228306ee83c617db40cb69c093b1ce5106e",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u043",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-6490405c091ae1581f31",
+      "text": "En la segunda escena, las personas han venido de toda Judea y de Jerusalén. Juan los está bautizando. Están confesando sus pecados, alejándose de sus antiguas maneras de vivir y comenzando una nueva manera: obedeciendo a Dios. Juan está diciendo al pueblo que pronto vendrá alguien que será más poderoso que él. Juan habla de desatar las sandalias de alguien más importante que él. Los siervos harían eso por su amo. Juan dice que él ni siquiera es lo suficientemente importante como para desatar las sandalias del hombre que está viniendo. Este hombre importante bautizará al pueblo con el Espíritu Santo. El Espíritu de Dios será puesto en los corazones y las mentes de las personas.",
+      "sourceSha256": "6490405c091ae1581f31eea937039a6fdf86a7b1ec28441fd7cf9437e9320c17",
+      "processedTextSha256": "6490405c091ae1581f31eea937039a6fdf86a7b1ec28441fd7cf9437e9320c17",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u044",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-9f6dd3f616b2e1298748",
+      "text": "Pausen el audio aquí y muestren a su grupo un mapa de Judea y de Jerusalén.",
+      "sourceSha256": "9f6dd3f616b2e12987486c158326cdff08471d4532d69bfb2c9f13f4ac4c271b",
+      "processedTextSha256": "9f6dd3f616b2e12987486c158326cdff08471d4532d69bfb2c9f13f4ac4c271b",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u045",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-1ddac0ef564318e9150c",
+      "text": "En la tercera escena vemos a Juan bautizando a Jesús. Es importante recordar que aunque Jesús está siendo bautizado, no necesita perdón, ya que nunca ha hecho nada malo. Su bautismo es el comienzo de su nueva vida de ministerio público o enseñanza y nos muestra que Dios lo está nombrando para esta tarea. A Marcos le gusta usar oraciones cortas y acción rápida para contar sus historias, y vemos esto aquí. Primero, Jesús sale del agua. El idioma original no está claro si Jesús sale de debajo de la superficie del agua, o si sale completamente del río. Lo más probable es que Jesús venga de debajo de la superficie del agua, pero si es posible, deben dejar esto poco claro en su traducción. Inmediatamente después de que Jesús sale del agua, los cielos se abren. Esto no significa que los cielos fueron destruidos, sino que se estaban abriendo. De la abertura vino el Espíritu Santo como una paloma. Esto podría significar que el Espíritu Santo vino en forma de una paloma, o que el Espíritu Santo descendió como una paloma. Es mejor que esta traducción tampoco sea clara. Jesús escuchó una voz que dijo: \"Tú eres mi hijo. Te quiero. Estoy contento contigo\". Aunque sabemos que esta es la voz de Dios, el pasaje no dice de quién es la voz. Pueden decir algo como: \"Jesús escuchó un sonido como una voz\". Jesús parece ser la única persona que escucha la voz.",
+      "sourceSha256": "1ddac0ef564318e9150c8bfe2ca4aff0f08a239e80a7cfa97d0a22b8c4398d56",
+      "processedTextSha256": "1ddac0ef564318e9150c8bfe2ca4aff0f08a239e80a7cfa97d0a22b8c4398d56",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u046",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-80a4efc2628402fba31d",
+      "text": "Inmediatamente después del bautismo de Jesús, el Espíritu Santo envía a Jesús al desierto durante 40 días. Aunque el Espíritu Santo envía a Jesús, esto no significa que obliga a Jesús a ir. Jesús habría sabido que esta era una tarea especial que Dios tiene para Jesús y un paso importante en su ministerio.",
+      "sourceSha256": "80a4efc2628402fba31d68080e2276163c28064c49f08dca4484d4783e875df2",
+      "processedTextSha256": "80a4efc2628402fba31d68080e2276163c28064c49f08dca4484d4783e875df2",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u047",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c82fd8bb350db3604fcc",
+      "text": "El desierto es donde viven animales salvajes y no personas. Muy poco crece en el desierto. En el tiempo de Jesús en el desierto, Satanás prueba o tienta a Jesús. La tentación es una prueba diseñada para dar a las personas la oportunidad de hacer mal y pecar contra Dios. Marcos no nos dice específicamente cómo Jesús es probado. Se nos dice que los ángeles están con Jesús, ayudándolo. Nuevamente, Marcos no nos dice de qué maneras los ángeles están ayudando.",
+      "sourceSha256": "c82fd8bb350db3604fcc713dbacddf87ef44946e39cd80dc2234710592f54701",
+      "processedTextSha256": "c82fd8bb350db3604fcc713dbacddf87ef44946e39cd80dc2234710592f54701",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u048",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-cd0770793f13d69393cd",
+      "text": "Ahora, el grupo debe crear una gráfica, dibujar o usar objetos para visualizar el pasaje y la acción en el.",
+      "sourceSha256": "cd0770793f13d69393cd53cbe542781d7dbccd12b276dfc3c956f6c1ae7c30e7",
+      "processedTextSha256": "cd0770793f13d69393cd53cbe542781d7dbccd12b276dfc3c956f6c1ae7c30e7",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u049",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-d7206108eee43945be26",
+      "text": "Actuemos el texto",
+      "sourceSha256": "d7206108eee43945be26b3a82457473dd9b21484207c703f419c45076eb51a8f",
+      "processedTextSha256": "d7206108eee43945be26b3a82457473dd9b21484207c703f419c45076eb51a8f",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u050",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c20f518286058e5e103e",
+      "text": "En este paso, el grupo dramatizará el pasaje.",
+      "sourceSha256": "c20f518286058e5e103e881f83c27a5238f5114ede25e7e177f58d709d2ae4ec",
+      "processedTextSha256": "c20f518286058e5e103e881f83c27a5238f5114ede25e7e177f58d709d2ae4ec",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u052",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-8b5ec724338303d58100",
+      "text": "Esta historia tiene cuatro escenas.",
+      "sourceSha256": "8b5ec724338303d5810008b6ed8ab989fd2990149627bcf2e018fe6b1445779b",
+      "processedTextSha256": "8b5ec724338303d5810008b6ed8ab989fd2990149627bcf2e018fe6b1445779b",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u053",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-af3aa3c4e2641821088c",
+      "text": "En grupo, dramaticen el pasaje dos veces. Deben actuar el pasaje en su propio idioma.",
+      "sourceSha256": "af3aa3c4e2641821088c84e43542cac2f1a147e86abe1f9c0a08b0b930124366",
+      "processedTextSha256": "af3aa3c4e2641821088c84e43542cac2f1a147e86abe1f9c0a08b0b930124366",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u062",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-97c81199e3c2e127e210",
+      "text": "Primero, dramaticen la historia sin hacer pausas. Pongan atención al diálogo, cómo fluye, a la trama y a los tiempos en que se da la historia. Asegúrense de no saltarse la dramatización de las partes difíciles o importantes de la historia. Ayúdense unos a otros a recordar cada parte de la historia.",
+      "sourceSha256": "97c81199e3c2e127e21003a7ec161d628d6de0441f433be7559f60534f616f32",
+      "processedTextSha256": "97c81199e3c2e127e21003a7ec161d628d6de0441f433be7559f60534f616f32",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u063",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-34fe5893155bad328ddb",
+      "text": "Detén este audio aquí y dramatiza el pasaje.",
+      "sourceSha256": "34fe5893155bad328ddbe5b1c85066afa12172e7bba40228f028f14fa194501c",
+      "processedTextSha256": "34fe5893155bad328ddbe5b1c85066afa12172e7bba40228f028f14fa194501c",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u064",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-1f50c71b705ac5009873",
+      "text": "El grupo debe dramatizar este texto por segunda vez. En algunos puntos de la actuación, detengan la actuación y pregunten a la persona que está actuando el personaje, \"¿Qué está sintiendo o pensando?\" La persona que está interpretando el personaje debe responder qué es lo que está sintiendo o pensando como si fuera ese personaje. Luego, reanuden la escena.",
+      "sourceSha256": "1f50c71b705ac5009873ebe53b75b8b42585ccc0d5fca2b9c01604e0da3a5bec",
+      "processedTextSha256": "1f50c71b705ac5009873ebe53b75b8b42585ccc0d5fca2b9c01604e0da3a5bec",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u065",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c13e2fe81363add03d1d",
+      "text": "Pausen este audio aquí y representen el pasaje por segunda vez.",
+      "sourceSha256": "c13e2fe81363add03d1d67c9933e6eda9e4e05822953921db70a903ccd296276",
+      "processedTextSha256": "c13e2fe81363add03d1d67c9933e6eda9e4e05822953921db70a903ccd296276",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u066",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-12486d31c8cc1cc44e13",
+      "text": "El siguiente es un ejemplo de la dramatización y de las posibles respuestas.",
+      "sourceSha256": "12486d31c8cc1cc44e13f4751647d7bb4d27c5698773c25b93f59f3f3be69f73",
+      "processedTextSha256": "12486d31c8cc1cc44e13f4751647d7bb4d27c5698773c25b93f59f3f3be69f73",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u067",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-4c83600c87a601e5e3cc",
+      "text": "La escena del comienzo de esta historia establece el contexto. Esta historia sucede en el desierto. Es el cumplimiento de las Escrituras. Interpreten a Juan diciéndole a la multitud que se bautize, que se alejen de sus antiguas formas de vida, que sigan a Dios y que sus pecados sean perdonados.",
+      "sourceSha256": "4c83600c87a601e5e3ccb7598f05335b35d292fb16f97f18527d5cbc96026534",
+      "processedTextSha256": "4c83600c87a601e5e3ccb7598f05335b35d292fb16f97f18527d5cbc96026534",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u068",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-7b39b1d2a9b80f79b765",
+      "text": "Pausen la actuación. Pregúntenle a las personas que interpretan a las multitudes: \"¿Qué sienten o piensan?\" Las personas podrían responder cosas como: \"¿Podemos confiar en este hombre?\" o \"Estoy emocionado por ser bautizado y ser perdonado\", o \"¿Es este hombre un profeta?\" o \"Expectante: ¿El Mesías vendrá pronto?\" Continúen con la actuación.",
+      "sourceSha256": "7b39b1d2a9b80f79b76510e313bfc5c0ce2997f78920a23a0ec90ac8efbeecd9",
+      "processedTextSha256": "7b39b1d2a9b80f79b76510e313bfc5c0ce2997f78920a23a0ec90ac8efbeecd9",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u069",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-2b3c44c307046e1d2898",
+      "text": "Interpreten a Juan bautizando a las personas en el río y a las personas confiesando sus pecados.",
+      "sourceSha256": "2b3c44c307046e1d2898b5179de5586ecfa753ff488511969d0cd0b9d2f4bf22",
+      "processedTextSha256": "2b3c44c307046e1d2898b5179de5586ecfa753ff488511969d0cd0b9d2f4bf22",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u070",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-cc7139fef2304a00edba",
+      "text": "Pausen la actuación. Pregúntenle a la persona que interpreta a Juan: \"¿Qué sientes o piensas?\" La persona podría responder cosas como: \"Feliz de ver a tantas personas escuchando el mensaje de Dios\", o \"Sorprendida por la multitud\". Continúen con la actuación.",
+      "sourceSha256": "cc7139fef2304a00edba1ce4e347c0ad2d738341a45bae388948630fe624fae9",
+      "processedTextSha256": "cc7139fef2304a00edba1ce4e347c0ad2d738341a45bae388948630fe624fae9",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u071",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-584ef8c296c03d09ebb6",
+      "text": "Interpreten a Juan diciéndole a la multitud que alguien que es más poderoso que él está viniendo. Él no bautizará con agua, sino con el Espíritu Santo.",
+      "sourceSha256": "584ef8c296c03d09ebb6608eb313607bdd74ef5461a064cc356e0d660349e127",
+      "processedTextSha256": "584ef8c296c03d09ebb6608eb313607bdd74ef5461a064cc356e0d660349e127",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u072",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-e77a0aff53f811cc67db",
+      "text": "Pausen la actuación. Pregúntenle a las personas en la multitud qué están sintiendo o pensando. Podrían responder con cosas como: \"¿Cuándo vendrán?\" o \"¿Qué significa ser bautizado con el Espíritu Santo?\" o \"¿Podemos creer lo que Juan nos está diciendo?\" o \"¿Quién es la persona que está viniendo?\" Continúen con la actuación.",
+      "sourceSha256": "e77a0aff53f811cc67db2f2c9e4e661d9c8ec21f4aadb38d91928f34d0168d8e",
+      "processedTextSha256": "e77a0aff53f811cc67db2f2c9e4e661d9c8ec21f4aadb38d91928f34d0168d8e",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u073",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-194205c7344f07cb9663",
+      "text": "Interpreten a Jesús siendo bautizado por Juan. Piensen en cómo pueden representar el cielo abriéndose y el Espíritu Santo viniendo sobre Jesús. ¿Podrían usar objetos aleatorios para ayudarlos a visualizar esto? Pueden rasgar un pedazo de tela en dos para mostrar que el cielo se está abriendo.",
+      "sourceSha256": "194205c7344f07cb9663c996dcdab75976a55c6802bac09725c75769d39567c2",
+      "processedTextSha256": "194205c7344f07cb9663c996dcdab75976a55c6802bac09725c75769d39567c2",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u074",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-05ed266a6c9c550d288a",
+      "text": "Interpreten la voz de Dios hablando a Jesús, diciéndole que Jesús es su hijo amado y que está complacido con él.",
+      "sourceSha256": "05ed266a6c9c550d288acca180f41bfb07f2dd322974411b15f7e49aa5f5f0d0",
+      "processedTextSha256": "05ed266a6c9c550d288acca180f41bfb07f2dd322974411b15f7e49aa5f5f0d0",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u075",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-fa53405f5d77ef944930",
+      "text": "Pausen la actuación. Pregúntenle a la persona que interpreta a Juan: \"¿Cómo te sientes en este momento?\" La persona podría responder: \"No digno\" o \"Emocionado de que esté aquí\", o \"Asombrado\" o \"Confundido, ¿por qué Jesús necesita ser bautizado?\" Pregúntenle a la persona que interpreta a Dios: \"¿Cómo se siente en este momento?\" La persona podría responder cosas como: \"Estoy sintiendo tanto amor por mi hijo\" o \"Orgulloso\". Pregúntenle a la persona que interpreta a Jesús: \"¿Cómo te sientes en este momento?\" La persona podría responder cosas como: \"Tan feliz de escuchar la voz de Dios\", o \"Abrumado por la tarea que le espera\", o \"Amado\". Continúen con la actuación.",
+      "sourceSha256": "fa53405f5d77ef9449302dd7cec62b47ff75f95d13294c98324fb1562103bc49",
+      "processedTextSha256": "fa53405f5d77ef9449302dd7cec62b47ff75f95d13294c98324fb1562103bc49",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u076",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-23b0b17313285a26c1f8",
+      "text": "Finalmente, interpreten a Jesús yendo al desierto durante 40 días donde es probado por Satanás. Los ángeles están con él, ayudándolo. Piensen en las maneras en que los ángeles pueden estar ayudando a Jesús. Marcos no nos lo dice. Marcos tampoco nos dice de qué maneras Satanás prueba a Jesús.",
+      "sourceSha256": "23b0b17313285a26c1f85e1f4b3e666ff2afcf07b6f893adb77ef16d9cf20b50",
+      "processedTextSha256": "23b0b17313285a26c1f85e1f4b3e666ff2afcf07b6f893adb77ef16d9cf20b50",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u077",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-7813d8e648b67f168c0b",
+      "text": "Pausen la actuación. Pregúntenle a la persona que interpreta a Satanás: \"¿Qué sientes o piensas?\" La persona podría responder cosas como: \"Puedo hacer que Jesús me escuche\", o \"Quiero que Jesús falle\", o \"Soy más poderoso que este hombre\".",
+      "sourceSha256": "7813d8e648b67f168c0b57fbb80e2a4c04e11b27b4472455d4e48936847b7525",
+      "processedTextSha256": "7813d8e648b67f168c0b57fbb80e2a4c04e11b27b4472455d4e48936847b7525",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u078",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-1f1c9921704330d57670",
+      "text": "Al final, pregúntenle al grupo: \"¿Qué piensan de que el Espíritu Santo haya enviado a Jesús al desierto para ser probado o tentado por Satanás? ¿Cómo se sienten con el final de la historia?\"",
+      "sourceSha256": "1f1c9921704330d57670fb9e441e66be1ec9342b0dffc39d242cb99d51e6eb4b",
+      "processedTextSha256": "1f1c9921704330d57670fb9e441e66be1ec9342b0dffc39d242cb99d51e6eb4b",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u079",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-f9e06faadbceb5404492",
+      "text": "Cerremos las brechas",
+      "sourceSha256": "f9e06faadbceb5404492004a5137e11930d3d6aa3a8bdb4b106b65c86078c221",
+      "processedTextSha256": "f9e06faadbceb5404492004a5137e11930d3d6aa3a8bdb4b106b65c86078c221",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u080",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c9609495bd4e2ce27ba7",
+      "text": "En este paso, platiquen con su grupo sobre términos y palabras clave en este texto.",
+      "sourceSha256": "c9609495bd4e2ce27ba75ab32d21e0ae2f73712479f74686685e068aed512dc3",
+      "processedTextSha256": "c9609495bd4e2ce27ba75ab32d21e0ae2f73712479f74686685e068aed512dc3",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u082",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-1108bd5b7c8e7ddec8c4",
+      "text": "Originalmente, Marcos usó la palabra evangelio para referirse al mensaje cristiano: las buenas nuevas de que Jesús estaba en esta tierra, murió por nuestros pecados y resucitó de entre los muertos. A Marcos le gustó esta palabra \"evangelio\" y la usó a menudo en su libro. Él estaba emocionado con el mensaje de Jesús.",
+      "sourceSha256": "1108bd5b7c8e7ddec8c4d393838f841009709ae9cb79c2f1f912ecdc803de9bf",
+      "processedTextSha256": "1108bd5b7c8e7ddec8c4d393838f841009709ae9cb79c2f1f912ecdc803de9bf",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u083",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-29e3130cbb860a1b0a80",
+      "text": "Deténganse aquí y conversen en grupo sobre qué palabra o frase usarán para evangelio. Busquen evangelio en el Glosario Principal para obtener más información. Pausen este audio aquí.",
+      "sourceSha256": "29e3130cbb860a1b0a800687c6562195dd20a4b46ba2cee3a0c8541337bc743d",
+      "processedTextSha256": "29e3130cbb860a1b0a800687c6562195dd20a4b46ba2cee3a0c8541337bc743d",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u084",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-0de2245a4512022e7991",
+      "text": "Marcos dijo que este era el evangelio, o las buenas nuevas sobre Jesús el Mesías, el Hijo de Dios. El nombre Jesús significa \"Dios salva\". \"Cristo\" es la palabra griega para la palabra hebrea \"Mesías\", y significa alguien a quien Dios ha ungido, o designado para una tarea especial. En el Antiguo Testamento, los profetas, sacerdotes y reyes eran ungidos para tareas especiales. Jesús es todas esas cosas, pero Marcos tiende a ver a Jesús como un rey nombrado por Dios para una tarea especial.",
+      "sourceSha256": "0de2245a4512022e7991a4f87e4ebe6ab53da8ce3f5b8ef0a06825524f8e024d",
+      "processedTextSha256": "0de2245a4512022e7991a4f87e4ebe6ab53da8ce3f5b8ef0a06825524f8e024d",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u085",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-9cf40fd7601c13968791",
+      "text": "Deténganse aquí y conversen en grupo sobre qué palabra o frase usarán para el Mesías, o Cristo. Busquen al Mesías o Cristo en el Glosario Principal para obtener más información. Pausen este audio aquí.",
+      "sourceSha256": "9cf40fd7601c13968791eb7c823e9bfad97f633637292750550e3785f8c55e13",
+      "processedTextSha256": "9cf40fd7601c13968791eb7c823e9bfad97f633637292750550e3785f8c55e13",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u086",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-ac1af0d97a2cd4275c0e",
+      "text": "En el Nuevo Testamento, el término Hijo de Dios en singular muestra una relación única de Jesús con el verdadero Dios: Jesús es el amado especial de Dios. Jesús y Dios tienen una relación especial, como un padre y su hijo. Este es un título que se refiere a Jesús siendo Dios y estar en una relación cercana con Dios el Padre. Este término también implica que Jesús, llamado el Hijo de Dios, es el Mesías, o el salvador nombrado de Dios que profetizó en el Antiguo Testamento.",
+      "sourceSha256": "ac1af0d97a2cd4275c0e3382701c86532f98a43cee767ba1cdb78b757f6a0ad6",
+      "processedTextSha256": "ac1af0d97a2cd4275c0e3382701c86532f98a43cee767ba1cdb78b757f6a0ad6",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u087",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-b50876c473f87aadc648",
+      "text": "Deténganse aquí y conversen en grupo sobre la frase que usarán para Hijo de Dios. Para más información sobre el Hijo de Dios, consulten el Glosario Principal. Pausen este audio aquí.",
+      "sourceSha256": "b50876c473f87aadc648835834229d806ad20d095cc47710c94d0cdc956f3c0a",
+      "processedTextSha256": "b50876c473f87aadc648835834229d806ad20d095cc47710c94d0cdc956f3c0a",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u088",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-df3252498b5fe4cdb66f",
+      "text": "Marcos nos dice de lo que el profeta Isaías habló muchos años antes. Elijan un término para profeta que describa adecuadamente la función del profeta. Un profeta:",
+      "sourceSha256": "df3252498b5fe4cdb66f84102d49368f37ce4f6402b8511f530cc62851d8f0fe",
+      "processedTextSha256": "df3252498b5fe4cdb66f84102d49368f37ce4f6402b8511f530cc62851d8f0fe",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u089",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-8df62f06d8d3dfd5a1ca",
+      "text": "recibe un llamado y un mensaje de Dios",
+      "sourceSha256": "8df62f06d8d3dfd5a1cae3fbba24b00228bb4b6ad4b9cd206a88c0cb3b86c128",
+      "processedTextSha256": "8df62f06d8d3dfd5a1cae3fbba24b00228bb4b6ad4b9cd206a88c0cb3b86c128",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u090",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-684f52208f134f38591e",
+      "text": "lleva el mensaje de Dios a las personas",
+      "sourceSha256": "684f52208f134f38591e713901f6e662d8f5bbf230ad6a552d23d2165a409198",
+      "processedTextSha256": "684f52208f134f38591e713901f6e662d8f5bbf230ad6a552d23d2165a409198",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u091",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-dd911355b54ac0b19aa2",
+      "text": "sabe que su trabajo más importante es llevar la Palabra o el mensaje de Dios a las personas",
+      "sourceSha256": "dd911355b54ac0b19aa207cb6602a654a7b1db2890c643a146ac3699c4c742af",
+      "processedTextSha256": "dd911355b54ac0b19aa207cb6602a654a7b1db2890c643a146ac3699c4c742af",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u092",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-dfb848821c181197904b",
+      "text": "Deténganse aquí y conversen en grupo sobre la palabra que usarán para profeta. Para obtener más información sobre el profeta, consulte el Glosario Principal. Pausen este audio aquí.",
+      "sourceSha256": "dfb848821c181197904bff7fbe6eef61ca0226b75cf6d09e059584e88405ece6",
+      "processedTextSha256": "dfb848821c181197904bff7fbe6eef61ca0226b75cf6d09e059584e88405ece6",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u093",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-056bb7f37975753e8168",
+      "text": "Isaías dice que alguien vendrá como una voz en el desierto. Desierto se usa a menudo en Marcos y se refiere al área de tierra cerca del río Jordán donde nadie vivía y muy poco crecía. En la Biblia, Dios se reúne con frecuencia con su pueblo en este tipo de áreas. Vemos que en esta historia, Dios dice que enviará a su mensajero al desierto, Juan predica en el desierto, y Jesús es enviado al desierto para ser tentado.",
+      "sourceSha256": "056bb7f37975753e81687947c751197e2686f644a12bf58dedd63b328bcef2be",
+      "processedTextSha256": "056bb7f37975753e81687947c751197e2686f644a12bf58dedd63b328bcef2be",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u094",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-787de669745a75fb967b",
+      "text": "Deténganse aquí y en grupo vean una imagen de un desierto Hablen sobre qué palabra usarán para desierto. Para más información sobre desierto, consulten el Glosario Principal. Pausen este audio aquí.",
+      "sourceSha256": "787de669745a75fb967ba1dda648fe29d2092d5193e77d243fd2dfa03198d711",
+      "processedTextSha256": "787de669745a75fb967ba1dda648fe29d2092d5193e77d243fd2dfa03198d711",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u095",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c36d9fe9d8165dd56c08",
+      "text": "La voz les dirá a las personas que preparen el camino para el Señor. Señor es un título respetuoso para un amo, y en este caso también se refiere a Dios mismo.",
+      "sourceSha256": "c36d9fe9d8165dd56c085e5f54938e346c9805b058d1c3133eb63fa14ccbbd45",
+      "processedTextSha256": "c36d9fe9d8165dd56c085e5f54938e346c9805b058d1c3133eb63fa14ccbbd45",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u096",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-5e249bd6f2ec1c21359f",
+      "text": "Deténganse aquí y conversen en grupo sobre la palabra que usarán para Señor. Para obtener más información sobre Señor, consulten el Glosario Principal. Pausen este audio aquí.",
+      "sourceSha256": "5e249bd6f2ec1c21359f29815dfbdfa85cf47100db5bfaeca1e29366be7ce0af",
+      "processedTextSha256": "5e249bd6f2ec1c21359f29815dfbdfa85cf47100db5bfaeca1e29366be7ce0af",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u097",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-1a03b1e6fe1d96cf12f4",
+      "text": "Juan predicó un bautismo de arrepentimiento. El bautismo era un lavado de agua para simbolizar la limpieza de los pecados. Las personas judías se hacían esto a sí mismas para mostrar que se estaban arrepintiendo de sus pecados. En este caso, Juan lo hizo a otros para mostrar esto. Más tarde en el Nuevo Testamento, el bautismo era un símbolo del entierro y de la resurrección de Jesús, y nuestra muerte a nuestra antigua vida y la nueva vida que tenemos con Jesús. Arrepentimiento significa alejarse de sus pecados y volverse hacia Dios, y comenzar a vivir una nueva vida siguiendo los caminos de Dios. Juan tenía claro que el arrepentimiento conduce a una nueva manera de vida.",
+      "sourceSha256": "1a03b1e6fe1d96cf12f411dc18d8532acd88af7d09205d7a4a1f8f877195a0d3",
+      "processedTextSha256": "1a03b1e6fe1d96cf12f411dc18d8532acd88af7d09205d7a4a1f8f877195a0d3",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u098",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-dacc1bd998b0d287db16",
+      "text": "Deténganse aquí y conversen en grupo sobre la palabra o frase que usarán para el bautismo y el arrepentimiento. Busquen bautismo y arrepentimiento en el Glosario Principal para obtener más información. Pausen este audio aquí.",
+      "sourceSha256": "dacc1bd998b0d287db162cb48b6cc976c8091e0f5370ff7196ccc02e7ccc7899",
+      "processedTextSha256": "dacc1bd998b0d287db162cb48b6cc976c8091e0f5370ff7196ccc02e7ccc7899",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u099",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-f0818745f7e2f8795208",
+      "text": "Juan dice que su bautismo muestra el perdón de Dios de los pecados. El perdón involucra a dos personas, una de las cuales ha hecho algo malo a la otra. En el perdón, aquel a quien se le ha hecho algo malo, deja de lado sus derechos y no castiga al otro como se merece. Él no busca venganza. Si el otro se arrepiente de su comportamiento y acepta el perdón, la relación entre los dos se restablece y la culpa desaparece. Con Dios, el perdón está disponible para todos los que dejan de hacer el mal y se acercan a Él. Entonces Dios restaura su relación con ellos. Aquí hay algunas maneras en que el Nuevo Testamento describe el \"perdón\". Su idioma puede tener una manera similar de describir el perdón. Si es así, pueden usarla para crear una palabra imagen para su audiencia.",
+      "sourceSha256": "f0818745f7e2f8795208072f32fc89bc69646844392a68a7ada853fd97bc3b01",
+      "processedTextSha256": "f0818745f7e2f8795208072f32fc89bc69646844392a68a7ada853fd97bc3b01",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u100",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-cacb4118ef1a6020f2fe",
+      "text": "limpiar los pecados de alguien",
+      "sourceSha256": "cacb4118ef1a6020f2fe465219516c18c318e7a23fb9ec30485dc4cbc47f8147",
+      "processedTextSha256": "cacb4118ef1a6020f2fe465219516c18c318e7a23fb9ec30485dc4cbc47f8147",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u101",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-574c7acf97135176d6e0",
+      "text": "perdonar los pecados de alguien",
+      "sourceSha256": "574c7acf97135176d6e011d368c7a208e0754d273e82302bf900a707b3d96934",
+      "processedTextSha256": "574c7acf97135176d6e011d368c7a208e0754d273e82302bf900a707b3d96934",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u102",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-e61178c7647060ace324",
+      "text": "soltar, liberar",
+      "sourceSha256": "e61178c7647060ace324a83892696a5dc0944769a676e76f66db62916d4b04ad",
+      "processedTextSha256": "e61178c7647060ace324a83892696a5dc0944769a676e76f66db62916d4b04ad",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u103",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-b7e400ae71986c9cae01",
+      "text": "deshacerse de",
+      "sourceSha256": "b7e400ae71986c9cae01aeb9d84065d403fdbacf00670954ac8f68b395519e3a",
+      "processedTextSha256": "b7e400ae71986c9cae01aeb9d84065d403fdbacf00670954ac8f68b395519e3a",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u104",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-7ba0b62005fa40474e29",
+      "text": "cubrir",
+      "sourceSha256": "7ba0b62005fa40474e29d1b1421f38d90f1868f84089705a513fc49478a345ae",
+      "processedTextSha256": "7ba0b62005fa40474e29d1b1421f38d90f1868f84089705a513fc49478a345ae",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u105",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-f973d142da952787a0de",
+      "text": "pasar por",
+      "sourceSha256": "f973d142da952787a0de7a7e92f22e2c3ba94111c869d6ce99f03bd5977e1f44",
+      "processedTextSha256": "f973d142da952787a0de7a7e92f22e2c3ba94111c869d6ce99f03bd5977e1f44",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u106",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-833f196c62dd1f55b9e3",
+      "text": "quitar",
+      "sourceSha256": "833f196c62dd1f55b9e3eac599ef8563673da8a8972349f3602a3e67bac20fc1",
+      "processedTextSha256": "833f196c62dd1f55b9e3eac599ef8563673da8a8972349f3602a3e67bac20fc1",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u107",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-1aa30af8da4baf55ebbe",
+      "text": "para darle las espaldas al [pecado]",
+      "sourceSha256": "1aa30af8da4baf55ebbe985db960d2060711d2e280b6c370a6e824d31b254ed9",
+      "processedTextSha256": "1aa30af8da4baf55ebbe985db960d2060711d2e280b6c370a6e824d31b254ed9",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u108",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-9d6f60887b72a9a22d1f",
+      "text": "Herramienta de enseñanza: En un idioma de África Occidental, cuando Dios perdona a alguien, \"corta\" sus pecados por completo para que ya no estén presentes. Intenten que los equipos de traducción realicen mímicas o actúen una escena en donde alguien perdona a otra persona. Observen qué acciones realizan para mostrar el perdón. Pida a los traductores que expliquen las emociones de cada uno de los personajes de la escena.",
+      "sourceSha256": "9d6f60887b72a9a22d1f6c3ddafc6f02a6b3d5ba868359e0c6bed7c0c7616313",
+      "processedTextSha256": "9d6f60887b72a9a22d1f6c3ddafc6f02a6b3d5ba868359e0c6bed7c0c7616313",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u109",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-f11f3e8c6dceb511298b",
+      "text": "Pecado se refiere a un acto de desobediencia a Dios. Asegúrense de que la palabra que uses aquí no signifique que alguien falló en realizar un acto religioso como una oración o seguir algunas reglas religiosas.",
+      "sourceSha256": "f11f3e8c6dceb511298b6c99f02cdf6c5d880c568aa9735612b39de890ca7ee1",
+      "processedTextSha256": "f11f3e8c6dceb511298b6c99f02cdf6c5d880c568aa9735612b39de890ca7ee1",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u110",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-ce2d9bcbdca2232c069b",
+      "text": "Deténganse aquí y conversen en grupo sobre qué palabra o frase usarán para pecado. Busquen pecado en el Glosario Principal para obtener más información. Pausen este audio aquí.",
+      "sourceSha256": "ce2d9bcbdca2232c069b567626ec9ad809008355cb167f68edd53b6f1424f597",
+      "processedTextSha256": "ce2d9bcbdca2232c069b567626ec9ad809008355cb167f68edd53b6f1424f597",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u111",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c46a850955242392acdb",
+      "text": "Juan dice que la persona que está viniendo bautizará a las personas con el Espíritu Santo de Dios. El Espíritu Santo es el Espíritu de Dios que él da a las personas para equiparlas con su presencia, sabiduría, autoridad y poder. En el Antiguo Testamento, la palabra hebrea para espíritu puede tener los significados físicos \"viento\" o \"aliento\". También puede significar \"poder\" o \"autoridad\" que Dios le da a alguien para hacer cosas extraordinarias. Dios da dones a las personas cuando el Espíritu de Dios (o el Espíritu de Dios) viene a alguien. Dios dio su Espíritu a los reyes cuando los ungió para ser reyes y les dio sabiduría y poder especiales de parte de Dios. El Espíritu de Dios equipa a las personas para hacer algo. Por ejemplo, a esa persona pueden pedirle que lleve un mensaje de Dios a alguien.",
+      "sourceSha256": "c46a850955242392acdb63fe74cc754679c96715da269a92648879bc90c9caf1",
+      "processedTextSha256": "c46a850955242392acdb63fe74cc754679c96715da269a92648879bc90c9caf1",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u112",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-49254e72ecb8ac7f7138",
+      "text": "En el Nuevo Testamento, el concepto de santo se refiere a las personas o cosas que pertenecen a Dios, están dedicadas a él o son como él.",
+      "sourceSha256": "49254e72ecb8ac7f71380b41ff153cff98591d791d2f8f14cc747e41a34661aa",
+      "processedTextSha256": "49254e72ecb8ac7f71380b41ff153cff98591d791d2f8f14cc747e41a34661aa",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u113",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-94e07de5b282152bc817",
+      "text": "Si el término Espíritu es difícil de traducir, o si la idea del Espíritu de Dios hace que las personas piensen que hay más de un Dios, es posible que necesiten traducir el término refiriéndose a lo que hace o lo que proporciona. Un ejemplo de una manera de traducir el término Espíritu de Dios es el poder de Dios.",
+      "sourceSha256": "94e07de5b282152bc817a3677f285218471fb74dfd2103cccdc000a7abdf1ce9",
+      "processedTextSha256": "94e07de5b282152bc817a3677f285218471fb74dfd2103cccdc000a7abdf1ce9",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u114",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-eea97a34cad4f36ab8d9",
+      "text": "Deténganse aquí y conversen en grupo sobre qué palabra o frase usarán para Espíritu Santo. Busquen Espíritu Santo en el Glosario Principal para obtener más información. Pausen este audio aquí.",
+      "sourceSha256": "eea97a34cad4f36ab8d95ec8edceba5d570d5911b43def8d4da372ef63642b1e",
+      "processedTextSha256": "eea97a34cad4f36ab8d95ec8edceba5d570d5911b43def8d4da372ef63642b1e",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u115",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-fd340a8b02a5d335592b",
+      "text": "Cuando el cielo se abre, se usa la misma palabra para \"rasgar\" que se usaría para rasgar un pedazo de tela. Esto muestra que el lugar donde Dios vive está muy claramente abierto a la tierra de una manera casi violenta. Dios es accesible nuevamente después de cientos de años de silencio. Si necesitan decir que el cielo se abrió, pueden hacerlo.",
+      "sourceSha256": "fd340a8b02a5d335592bfd335b4e3e8354422477d3c72ad45994fbf2cf7b078d",
+      "processedTextSha256": "fd340a8b02a5d335592bfd335b4e3e8354422477d3c72ad45994fbf2cf7b078d",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u116",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-924a315e4b396d03b40a",
+      "text": "La voz del cielo es realmente Dios: las personas judías no decían el nombre de Dios a menudo, por lo que a menudo sustituían su nombre por \"cielo\". La voz definitivamente viene del lugar donde Dios vive.",
+      "sourceSha256": "924a315e4b396d03b40a8eb29877ef87b7cb94b57abb9e37a414e3ca762b730d",
+      "processedTextSha256": "924a315e4b396d03b40a8eb29877ef87b7cb94b57abb9e37a414e3ca762b730d",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u117",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c0997080df99667bad9d",
+      "text": "Deténganse aquí y conversen en grupo sobre qué palabra o frase usarán para el cielo. Busquen cielo en el Glosario Principal para obtener más información. Pausen este audio aquí.",
+      "sourceSha256": "c0997080df99667bad9dd24340b1a42f5cc1a7ceb6917fb8b1e71debf1b1890e",
+      "processedTextSha256": "c0997080df99667bad9dd24340b1a42f5cc1a7ceb6917fb8b1e71debf1b1890e",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u118",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-07ba5c1aadbd7264b559",
+      "text": "Satanás tentó a Jesús. Tentar en realidad significa \"desafiar\".",
+      "sourceSha256": "07ba5c1aadbd7264b5597bb0dd01e8bfcd44f7d7bfa14e2896c0876b8fffc317",
+      "processedTextSha256": "07ba5c1aadbd7264b5597bb0dd01e8bfcd44f7d7bfa14e2896c0876b8fffc317",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u119",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-92aff7635dc892971f41",
+      "text": "Satanás se refiere al ser espiritual a quien Dios creó, que es el líder de los seres espirituales malignos que decidieron rebelarse contra Dios. Es posible que necesiten describir el nombre Satanás con \"líder de los espíritus malignos\" si Satanás es desconocido para su audiencia.",
+      "sourceSha256": "92aff7635dc892971f41428ce5f110e30bd24611c1744c44a9ebb91502af23a6",
+      "processedTextSha256": "92aff7635dc892971f41428ce5f110e30bd24611c1744c44a9ebb91502af23a6",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u120",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-f187d43e94ac25783a4b",
+      "text": "Deténganse aquí y conversen en grupo sobre la palabra o frase que usarán para Satanás. Busquen Satanás en el Glosario Principal para obtener más información. Pausen este audio aquí.",
+      "sourceSha256": "f187d43e94ac25783a4bf5058001c0705bc4b66b7e5fbe4cae7251c7f9b18846",
+      "processedTextSha256": "f187d43e94ac25783a4bf5058001c0705bc4b66b7e5fbe4cae7251c7f9b18846",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u121",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-7bac70a00ef723a1c33c",
+      "text": "Los ángeles vinieron y cuidaron de Jesús. Un ángel es un ser sobrenatural y espiritual, un mensajero de Dios. Los ángeles se aparecen a los humanos en forma humana, son menos que Jesús, y a menudo vienen con un mensaje específico o para hacer una tarea específica. Si no hay palabra en el idioma para ángel que un no creyente entendería, pueden traducir esto como mensajero de Dios, o embajador de Dios. Ten en cuenta, sin embargo, que 'profeta' también transmite esos significados. Es posible que necesiten incluir al mensajero espiritual de Dios en esta descripción.",
+      "sourceSha256": "7bac70a00ef723a1c33c27b15793a605fb943ec328242ec66bbad475306cd029",
+      "processedTextSha256": "7bac70a00ef723a1c33c27b15793a605fb943ec328242ec66bbad475306cd029",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u122",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-90ff7e00c5c30276febd",
+      "text": "Deténganse aquí y conversen en grupo sobre la palabra o frase que usarán para los ángeles. Busquen ángeles en el Glosario Principal para obtener más información. Pausen este audio aquí.",
+      "sourceSha256": "90ff7e00c5c30276febd74419c202764c79024cd5fb5786e4f5a1569f4110ccb",
+      "processedTextSha256": "90ff7e00c5c30276febd74419c202764c79024cd5fb5786e4f5a1569f4110ccb",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u123",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-09c2652e37d70bd7505d",
+      "text": "Hablar la Palabra",
+      "sourceSha256": "09c2652e37d70bd7505dc05da4ef3cb3992524820c45278e8f296f29262ae170",
+      "processedTextSha256": "09c2652e37d70bd7505dc05da4ef3cb3992524820c45278e8f296f29262ae170",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s6-u126",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-6",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-f8453f85e85c4f0a4b69",
+      "text": "Escuchen una versión en audio del texto en la traducción que sea más fácil de entender.",
+      "sourceSha256": "f8453f85e85c4f0a4b69b0b46ac6ef50e1a34586b2a8d85373cc641904245030",
+      "processedTextSha256": "f8453f85e85c4f0a4b69b0b46ac6ef50e1a34586b2a8d85373cc641904245030",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s6-u127",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-6",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-dc8d87b718ab48be45c1",
+      "text": "En esta sesión, repitan el pasaje, como grupo, en su propio idioma.",
+      "sourceSha256": "dc8d87b718ab48be45c12d5ef7fd7aa13e507308003c5cdac798814e28ed689c",
+      "processedTextSha256": "dc8d87b718ab48be45c12d5ef7fd7aa13e507308003c5cdac798814e28ed689c",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s6-u128",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-6",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-d5199196246e6e436f04",
+      "text": "Primero, todo el grupo debe practicar recitar el pasaje en su propio idioma. Recuerden incluir lo que decidieron en los pasos anteriores, como cronología, palabras, frases, emociones, o cualquier otra cosa que hayan hablado.",
+      "sourceSha256": "d5199196246e6e436f0407f9f181493f47027053a808173117bdfd8873196f08",
+      "processedTextSha256": "d5199196246e6e436f0407f9f181493f47027053a808173117bdfd8873196f08",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s6-u129",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-6",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c62d7b8c4f8371325a7f",
+      "text": "Un miembro del grupo deberá decir algunas oraciones del pasaje y hacer pausas. Otro miembro del grupo debe decir la siguiente parte del pasaje y hacer una pausa. Hagan esto hasta que el grupo haya vuelto a decir el pasaje completo. Los miembros del grupo pueden corregirse entre sí en este paso.",
+      "sourceSha256": "c62d7b8c4f8371325a7f8298fccafd013c2ee764a86f111f0be97118bbde2b0b",
+      "processedTextSha256": "c62d7b8c4f8371325a7f8298fccafd013c2ee764a86f111f0be97118bbde2b0b",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s6-u130",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-6",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-31a786fec583ceb180fa",
+      "text": "Después, cada miembro del grupo debe decir todo el pasaje, sin interrupciones, al menos una vez. Un miembro del grupo puede utilizar objetos aleatorios, movimientos o su guion gráfico para ayudarle a recordar el pasaje.",
+      "sourceSha256": "31a786fec583ceb180fa0301768d9c1f4b6af3a6c9161284c1fbe707141a96fd",
+      "processedTextSha256": "31a786fec583ceb180fa0301768d9c1f4b6af3a6c9161284c1fbe707141a96fd",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s6-u132",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-6",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-d1696a6680aad7992b52",
+      "text": "Luego, el grupo puede decidir cuál versión del pasaje les gusta más. Puede que decidan que les gustó la forma en que un miembro del grupo contó una escena, pero que les gustó la forma en que otro miembro del grupo contó otra.",
+      "sourceSha256": "d1696a6680aad7992b5248e16df23cb7961307e4ba5856fba75837d8776ea122",
+      "processedTextSha256": "d1696a6680aad7992b5248e16df23cb7961307e4ba5856fba75837d8776ea122",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s6-u134",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-6",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-6234380e25a263338aa8",
+      "text": "Finalmente, el grupo puede elaborar una versión final del pasaje con la que todos estén de acuerdo. Cada miembro del grupo debe practicar decir esta versión final del pasaje.",
+      "sourceSha256": "6234380e25a263338aa84d2ca7508034386b5e000591b9775d267ea812ec02f2",
+      "processedTextSha256": "6234380e25a263338aa84d2ca7508034386b5e000591b9775d267ea812ec02f2",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s6-u136",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-6",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-cd59ad31c7173e99eba0",
+      "text": "La palabra cielo a veces significa el cielo visible: el lugar donde vuelan los pájaros, donde podemos ver las nubes y donde podemos ver las estrellas por la noche.\nLa mayoría de las veces, sin embargo, la palabra “cielo” se refiere al lugar donde Dios vive con sus ángeles. Este cielo no está en alguna parte de este universo; no es un lugar al que los humanos puedan viajar. Pero Dios puede enviar a sus ángeles a la tierra para hacer su obra, y Jesús vino del cielo a la tierra. Después de que Jesús murió y volvió a la vida, regresó al cielo. Él volverá un día para establecer el reino de Dios para siempre. El libro de Apocalipsis nos dice que cuando Jesús regrese, habrá un nuevo cielo y una nueva tierra. Pero estos ya no estarán separados el uno del otro, con Dios en el cielo y las personas en la tierra. En cambio, Dios vivirá en medio de su pueblo.\nA veces no está claro si, en cierto pasaje, la palabra “cielo” se refiere al cielo visible o al lugar donde vive Dios. A veces ambos significados pueden ser verdaderos al mismo tiempo. Por ejemplo, “lluvia del cielo” puede significar lluvia que viene del cielo, pero también puede significar lluvia que es enviada por Dios.\nA veces los judíos usaban el término “el cielo más alto” para dejar claro que no estaban hablando del cielo, sino del lugar donde Dios vivía.\nComo el cielo es el lugar donde vive Dios, los judíos a menudo usaban el término “cielo” cuando hablaban de Dios. Por respeto a Dios preferían no usar el nombre de Dios. Y así, en lugar de decir “Dios”, los judíos podían decir “cielo”. Es por eso que el término “el reino de los cielos” significa lo mismo que “el reino de Dios”.\nLa palabra para cielo en hebreo, el idioma del Antiguo Testamento, es plural, o significa más de uno. Lo escuchamos como “cielos”. Por lo tanto, a veces verán “cielo” en las traducciones, y a veces verán “cielos”. Pero esto significa lo mismo. No significa que haya más de un cielo.",
+      "sourceSha256": "cd59ad31c7173e99eba086b40074ef846add33a00a764dfe3c0643f23b6550d3",
+      "processedTextSha256": "a5d78b4e379dbb09877fcd2616ac58de03bdbb9ac76b46be7a64f589a16e3655",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t63-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t63-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-e74eca9707483169f4b2",
+      "text": "Dios es santo, esto significa que Dios es completamente bueno, completamente puro, poderoso y majestuoso. Significa que Dios es íntegro, completo e inmutable. Pero, sobre todo, ¡significa que Dios es Dios!\nCualquier lugar, persona u objeto que esté dedicado a Dios es llamado santo. Eso significa que el objeto o la persona están separados para los propósitos especiales de Dios, ya no son “comunes” ni “ordinarios”, y ya no se usan para propósitos comunes u ordinarios.\nCualquier lugar donde Dios está se vuelve santo. Las personas, porque son pecadoras, no pueden simplemente acercarse a Dios. ¡Dios podría matarlos si lo hicieran! En el Antiguo Testamento, Dios había hecho posible que los israelitas se acercaran a él con seguridad a través de la adoración en el templo. Si las personas seguían las reglas que Dios les había dado sobre cómo deben acercarse a él, estarían a salvo. Los israelitas tenían que seguir ciertos rituales para volverse aceptables ante Dios. Esto se llamaba “purificarse”, o “hacerse limpio”. Estos rituales incluían bañarse, lavar la ropa y mantenerse alejado de ciertos alimentos o actividades. Las personas también necesitaban ofrecer sacrificios a Dios. Estas reglas sobre estar limpios para adorar a Dios recordaban a las personas que Dios era santo y totalmente diferente de ellas.\nDios había elegido a los israelitas para que fueran su pueblo santo y para que sirvieran a los propósitos de Dios. Por lo tanto, los israelitas tenían que ser diferentes de las demás naciones que los rodeaban. Para ser santos tenían que adorar a Dios de la manera correcta. También tenían que obedecer los mandamientos de Dios, que incluían tratarse unos a otros con amor y justicia.\nLos objetos también pueden ser santos. Se vuelven santos si se usan para la adoración de Dios. Un objeto que es santificado solo puede usarse para la adoración de Dios, y no puede usarse para trabajos ordinarios.\nEn el Nuevo Testamento, Jesús es llamado santo porque él es Dios. Todo lo que es verdadero sobre Dios también es verdadero acerca de Jesús.\nEl Espíritu Santo es llamado santo porque es el espíritu de Dios.\nCuando las personas comienzan a confiar en Jesús y reciben el Espíritu Santo, también se vuelven santos. Así como Dios había llamado a los israelitas a ser un pueblo santo, ahora llama a todos sus hijos a ser un pueblo santo. Cuando las personas comienzan a seguir a Jesús, el Espíritu Santo trabaja en su corazón para transformarlas y hacer que se parezcan cada vez más a Jesús, haciéndolas cada vez más santas, o separadas para los propósitos especiales de Dios. Esta obra del Espíritu Santo se llama santificación.",
+      "sourceSha256": "e74eca9707483169f4b2c83ad13d6ffbb9475bff24aa664091df338de03a21a7",
+      "processedTextSha256": "33d5e78c13200e2b30534928ed066d4103d06ec6dd61f6a03a9c07a9a022962d",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t67-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t67-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-b88d1c10697f4c50e777",
+      "text": "El Espíritu Santo es el Espíritu de Dios. A veces la Biblia llama a esto el Espíritu de Dios, el Espíritu del Señor o, a veces, simplemente el Espíritu.\nEl Espíritu de Dios es el poder que viene de Dios. Este poder crea, da vida, realiza milagros y transforma a las personas.\nCuando el Espíritu de Dios viene sobre una persona, esa persona recibe un poder o habilidad especial. Esto puede significar fuerza física, sabiduría especial o una comprensión clara de lo que Dios quiere. El Espíritu Santo daba mensajes de Dios a los profetas, los cuales luego los compartían con el pueblo.\nEl Espíritu Santo hace posible que las personas se conviertan en seguidores de Jesús. Cuando las personas comienzan a seguir a Jesús, el Espíritu Santo trabaja en sus corazones para ayudarlas a comportarse cada vez más como Jesús, para hacerlas cada vez más santas. Esta obra del Espíritu Santo se llama santificación.\nEl Espíritu Santo no es solo un poder, sino también una persona. Sabemos esto, por ejemplo, porque la Biblia dice que es posible entristecer al Espíritu Santo. El Espíritu Santo es parte de la Trinidad, el Dios que es uno, pero que consiste en tres personas. Dios el Padre, Dios el Hijo Jesús y Dios el Espíritu Santo son tres personas diferentes, pero juntos son un solo Dios. Podemos ver a los tres miembros de la Trinidad juntos en el bautismo de Jesús, cuando el Espíritu Santo desciende sobre Jesús y la voz de Dios habla desde el cielo. La Biblia no usa la palabra Trinidad en ninguna parte, pero la iglesia comenzó a usar esta palabra varias generaciones después de que Jesús regresara al cielo para describir el misterio de que Dios es a la vez tres y uno.\nEn el idioma en que fue escrita la Biblia, la palabra para “espíritu” es la misma que la palabra para “viento” y “aliento”. Podemos entender por qué estas palabras son similares: todas son invisibles y, por lo tanto, algo misteriosas, pero muy importantes.\nA veces no está claro si, en cierto pasaje, el significado es \"espíritu\", \"viento\" o \"aliento\". El hecho de que la palabra pueda significar todas estas cosas agrega belleza y profundidad a tal texto.",
+      "sourceSha256": "b88d1c10697f4c50e777789814bdca71f9cdb334c9480d168ab7170979b358ff",
+      "processedTextSha256": "b33ba30b33fbb7d479bdfca640ed19895ebfd065ef35b9dd855c7cc565017b7e",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t68-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t68-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-5f70f10e59d3be83b491",
+      "text": "La palabra Cristo es la misma que la palabra Mesías. Cristo es la palabra en griego, y Mesías es la misma palabra en hebreo. El griego es el idioma del Nuevo Testamento, mientras que el hebreo es el idioma del Antiguo Testamento.\nLa palabra \"Mesías\" se refiere al rey y Salvador especial que Dios había prometido enviar.\nMesías literalmente significaba alguien que había sido ungido. Esto quiere decir que otra persona había derramado aceite sobre él. Esta era una señal de que Dios le había dado a esta persona una tarea especial. Por ejemplo, en el Antiguo Testamento, Dios le dijo al profeta Samuel que derramara aceite sobre David. Esta fue una señal de que Dios eligió a David para convertirse en el próximo rey de Israel.\nMás tarde, las personas llamaban a alguien de ungido si Dios había nombrado a esa persona para una tarea especial, aunque nadie hubiera derramado aceite sobre su cabeza.\nDavid se convirtió en el rey más amado de Israel. Pero después de David, otras personas gobernaron sobre Israel, y muchos de ellos no fueron buenos reyes. Estos reyes alejaban a las personas de Dios, y por lo tanto Dios tuvo que castigar a las personas. El país de Israel fue destruido y quedó bajo el control de otras naciones. Pero aún así, Dios prometió al pueblo de Israel que les enviaría a un nuevo rey. Este rey salvaría a las personas de sus problemas. Este rey sería un descendiente de David.\nLos israelitas comenzaron a referirse a este rey que Dios prometió enviar como \"el Mesías\", que significaba \"el ungido\".\nCuando Jesús vino, mostró a las personas que él es el Mesías que Dios había prometido enviar. Jesús era descendiente de David. Jesús demostró que Dios lo había nombrado a través del poder y la autoridad extraordinaria que él tenía.\nJesús casi nunca dijo directamente a las personas: “¡Yo soy el Mesías!” Esto es porque las personas aún no sabían lo que significaría que Jesús fuera el Mesías. Ellos creían erróneamente que el Mesías restauraría el reino de Israel y les devolvería el poder político. Jesús, en cambio, se llamaba a sí mismo el Hijo del Hombre, lo cual era una manera indirecta de decir que él era el Mesías.\nDespués de que Jesús resucitó de entre los muertos, sus discípulos supieron con gran certeza que él era el Mesías y comenzaron a compartir estas buenas nuevas con otras personas. ¡Dios había enviado a su Salvador! Pero Jesús no fue un Salvador que solo liberó a las personas de un gobierno terrenal. Jesús era un Salvador que hizo mucho más: Jesús liberó a las personas del pecado y de la muerte.\nCuando estén traduciendo las palabras \"Mesías\" o \"Cristo\", tengan cuidado con las siguientes cosas:",
+      "sourceSha256": "5f70f10e59d3be83b4916bf39f85223a6d369288657d4433b5f1317c8dba661c",
+      "processedTextSha256": "1f31f0d05fb077e361422bff8884f6711838a46992f4b489e3c6441c0f56086f",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t23-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t23-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-a75e347a2770e8e0d75d",
+      "text": "Dios creó al mundo entero bueno. Dios creó a la humanidad para ser sus representantes en la tierra. Dios dijo a los humanos que cuidaran de la tierra. Al principio, el hombre y la mujer vivían en una buena relación con Dios, entre sí y con la naturaleza. Pero las personas comenzaron a desobedecer a Dios. Dejaron de confiar en Dios, y querían decidir por sí mismas lo que era bueno para ellos. Ya no querían aceptar la autoridad de Dios sobre ellos. Este acto de rebelión contra Dios se llama pecado. Debido a esta rebelión, la buena relación que las personas tenían con Dios estaba rota. No solo eso, la buena relación que las personas tenían entre sí también estaba rota, y toda la creación también sufrió.\nEsta rebelión contra Dios viene de muchas maneras diferentes. Dios ha hecho buenas leyes, y si las personas siguen estas leyes, entonces las personas podrán vivir juntas en paz. Pero las personas constantemente están rompiendo las leyes de Dios. Cada vez que una persona viola una de las leyes de Dios, peca.\nDios odia el pecado. Se entristece cuando las personas lo desobedecen, porque sus reglas son para el bien de las personas. Por lo tanto, Dios tiene que castigar a las personas por cometer pecado. Si las personas persisten en pecar, entonces el castigo es la muerte.\nJesús nos enseña que el pecado no es solo cuestión de hacer lo malo. Pensar en cosas malas también es pecado, incluso si nadie lo sabe. Orgullo, celos y lujuria son pecados. Despreciar a otras personas es pecado. Podemos hacer muchas cosas buenas a los ojos de las personas, pero si estamos demasiado orgullosos de lo que hacemos, todavía estaríamos pecando.\nLa Biblia nos enseña que Jesús salvó a su pueblo de sus pecados. Eso significa que Dios no les dará a las personas el castigo que merecen. Esto es porque Jesús tomó el castigo en su lugar. En el Antiguo Testamento, la manera en que las personas pedían perdón por sus pecados era ofreciendo un sacrificio a Dios. Las personas tenían que matar a un animal y ofrecer esto a Dios a cambio de su propia vida. El animal que ofrecían a Dios tenía que ser un animal perfecto, sin ningún defecto. Debido a este sacrificio, Dios los perdonaba, pero solo hasta la próxima vez que pecaran. El propio Jesús se convirtió en el sacrificio perfecto para todas las personas. Jesús mismo no había cometido ningún pecado, y, por lo tanto, era como un perfecto animal de sacrificio. El sacrificio de Jesús era tan poderoso, que debido a esto, Dios estaba dispuesto a perdonar el pecado de todas las personas, no solo temporalmente, sino para siempre. Dios perdonará a todos los que acepten que Jesús murió en su lugar. Estas personas ahora son \"salvas\". Ya no tienen que tener miedo del castigo. Dios dice que estas personas ahora son justas.\n¡Este perdón no es barato! Le costó la vida a Jesús. Entonces, cualquiera que acepte el sacrificio de Jesús hará todo lo posible para dejar de pecar, porque están muy agradecidos a Jesús. Pablo nos enseña que antes de ser salvos, éramos esclavos del pecado. Esto significa que cedíamos a la presión y a la tentación de cometer pecados. Pero ahora que Dios nos ha perdonado, somos esclavos de la justicia, queremos fervientemente hacer cosas que agraden a Dios, en lugar de hacer cosas que lo hagan entristecer.\nAún es muy difícil, incluso imposible, para las personas no cometer pecados. Pero Dios ha dado a su Espíritu Santo para ayudarnos. El Espíritu Santo nos ayuda a ver cuáles cosas son pecado, y nos ayuda a resistir a la tentación de pecar. Sin la ayuda del Espíritu Santo, no podríamos hacer esto.\nCuando somos salvos, todavía pecamos, pero ya no somos pecadores. Porque ahora, nos arrepentimos cuando pecamos. Un pecador es alguien que continúa pecando, aunque sabe que está mal.\nCuando Jesús vivía en la tierra, los líderes religiosos se quejaban de que Jesús comía con pecadores. Los líderes religiosos usaban la palabra \"pecadores\" para hablar de un grupo específico de personas que desobedecían las leyes de Dios de cierta manera, por ejemplo prostitutas y recaudadores de impuestos corruptos. Los líderes religiosos, especialmente los fariseos, miraban con desprecio a estas personas. Pero muchos de estos llamados pecadores que venían a escuchar a Jesús querían arrepentirse de sus pecados. Jesús explicó a los líderes religiosos que esta era exactamente la razón por la que había venido a la tierra: para hacer que las personas se arrepintieran de sus pecados. Jesús mostró a las personas que Dios estaba más feliz con pecadores que se arrepienten, que con personas tan orgullosas que no pensaban que necesitaban arrepentirse.\nCuando estén traduciendo \"pecado\", tengan cuidado con las siguientes cosas:\nAlgunas culturas piensan que algunas acciones solo son malas si son descubiertas. Por ejemplo, pueden pensar que hacer trampa está bien, siempre que nadie lo sepa, solo se convierte en un problema cuando otras personas lo descubren y cuando genera vergüenza. La palabra para pecado en la Biblia no es así. Desobedecer a Dios siempre es malo, ya sea que las personas lo sepan o no.\nAlgunas culturas tienen una palabra para pecado que significa realizar un ritual de manera incorrecta, o hacer algo que va en contra de la tradición, o hacer algo que va en contra de su lugar prescrito en la sociedad. Esto no es lo que es pecado en la Biblia. Jesús nos enseña que el pecado no tiene nada que ver con la realización de rituales, sino con nuestros pensamientos y acciones. Incluso las personas que realizan perfectamente todos los rituales y expectativas culturales, se rebelan contra Dios y están pecando.\nAlgunas culturas usan una palabra para pecado que significa \"ignorancia\". Esto no es lo que significa la palabra pecado en la Biblia.\nAlgunas culturas tienen una palabra para pecado que solo se usa para crímenes legales como asesinato o robo. La palabra pecado en la Biblia significa mucho más que solo crímenes. Incluso personas que nunca desobedecieron la ley del país, están violando la ley de Dios y cometen pecado.\nUna manera de pensar en cómo pueden traducir pecado es hacer la siguiente actividad: En grupos pequeños, interpreten lo que significa pecado. Después, decidan cuál de estas interpretaciones se ajustaba mejor al significado bíblico de pecado. Conversen sobre cómo el significado de pecado en la Biblia es diferente de lo que pensaban, o de lo que otras personas en su comunidad piensan que es pecado.",
+      "sourceSha256": "a75e347a2770e8e0d75d60ee2a572bdd6d6462358562760bd0b0ac0bdd907800",
+      "processedTextSha256": "7c1cf8f50ad19d00d9c46d33cee43972e1ae18021ee84380fafa1d7e6becf27e",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t125-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t125-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-6f769b74b76c8de93425",
+      "text": "Un profeta es una persona que da mensajes de Dios al pueblo. Este mensaje puede ser una instrucción de Dios sobre algo que necesita hacerse. Puede ser un mensaje que dice algo que va a suceder en el futuro. Pero la mayoría de las veces estos mensajes eran advertencias a las personas para que dejaran de desobedecer a Dios. Como a las personas a menudo no les gustaba escuchar estos mensajes, ser un profeta podía ser solitario y difícil. Las personas a veces maltrataban a los profetas o incluso los mataban.\nA veces, los mensajes daban a las personas esperanza y aliento. Incluso cuando los profetas estaban diciendo a las personas que habían pecado y merecían ser castigados, también les estaban diciendo a las personas que Dios tendría misericordia de ellos y los rescataría nuevamente. Un mensaje importante que los profetas daban al pueblo era que Dios enviaría a un rey especial y Salvador para ayudarlos. Este rey especial y Salvador se llama el Mesías. Un Mesías es alguien que es nombrado para una tarea especial.\nEl mensaje que un profeta da se llama profecía. Las cosas que los profetas dijeron sobre el Mesías, cientos de años antes de que Jesús naciera, todas se hicieron realidad en Jesús. Por ejemplo, había una profecía de que el Mesías nacería en Belén, y Jesús nació en Belén. También había una profecía de que “el siervo de Dios” sufriría mucho y sería rechazado por el pueblo. Jesús sufrió y fue rechazado por las personas. Hay muchos más ejemplos. Por lo tanto, decimos que Jesús cumplió las profecías del Antiguo Testamento.\nLos profetas daban los mensajes de Dios a las personas de diferentes maneras. A veces, un profeta contaba una parábola, una historia con un significado especial, al pueblo. A veces, el profeta representaba algún tipo de drama para ayudar a las personas a entender el mensaje. Por ejemplo, Dios le dijo al profeta Jeremías que caminara durante algún tiempo con un pesado yugo de madera en su cuello, algo que normalmente se usaba para controlar a los animales que trabajaban para las personas en los campos. Jeremías usaba este yugo como un símbolo para decirle al pueblo que el pueblo babilónico pronto tendría control sobre los israelitas. Dios le dijo al profeta Oseas que se casara con una prostituta, y le dijo al profeta Ezequiel que se acostara a su lado durante semanas sin moverse. Estas acciones dramáticas ayudaban a las personas a ver lo serio que era Dios cuando les daba estos mensajes.\nDios dio sus mensajes a los profetas a través del poder del Espíritu Santo. No sabemos exactamente cómo funcionaba esto. A veces, un profeta tenía un sueño o una visión. Quizás a veces Dios le daba al profeta una revelación especial: el profeta entonces sabía que algo era verdad. Quizás Dios a veces hablaba palabras audibles a un profeta. De cualquier manera, el profeta luego dio este mensaje o revelación de Dios al pueblo, probablemente usando sus propias palabras y creatividad.\nA menudo, los profetas escribían estos mensajes, o otras personas escribían las palabras para ellos. Muchos libros en el Antiguo Testamento son mensajes que Dios dio al pueblo a través de los profetas. Es por eso que los judíos a menudo usan la palabra “los profetas”, o “la ley y los profetas”, para referirse a la parte de la Biblia que ahora llamamos el Antiguo Testamento. “La ley” se refiere a la parte del Antiguo Testamento que tiene que ver con los mandamientos de Dios: Estos son los primeros cinco libros del Antiguo Testamento.\nA veces en el Antiguo Testamento también encontramos otros términos para profeta, como hombre de Dios, siervo de Dios o vidente. Un “vidente” significa alguien que puede ver. Un profeta es un vidente porque puede ver, o entender, a Dios más claramente que otras personas, y sabe cosas que otras personas no pueden saber. Esto sucede porque Dios da al profeta este\nTambién había falsos profetas. Un falso profeta no da un mensaje que viene de Dios. Un falso profeta inventa su propio mensaje, y solo dice lo que a las personas les gusta escuchar. De esta manera, a las personas les gustará el profeta y lo honrarán. Podemos reconocer a un falso profeta porque las cosas que dice no se cumplirán.\nEn el Antiguo Testamento, a veces escuchamos hablar de grupos de profetas. Estos profetas eran un poco diferentes que los profetas que hemos mencionado hasta ahora. Estos otros tipos de profetas seguían un cierto ritual, por ejemplo, escuchaban a alguien tocando un instrumento musical, y luego entraban en un trance. Esto significa que no estaban del todo despiertos, y tampoco estaban del todo dormidos. En este estado, Dios a veces les daba alguna revelación especial. Cuando las personas querían saber qué hacer, a veces iban a tal profeta, y luego el profeta intentaba entrar en este trance y, con suerte, obtener un mensaje de Dios sobre lo que esta persona tenía que hacer. Las personas que entraban en este tipo de trance también podían comenzar a alabar y adorar a Dios.\nEn el Nuevo Testamento, Pablo nos enseña que el Espíritu Santo da a algunas personas la capacidad de decir profecías. A través del Espíritu Santo, Dios puede dar a estos creyentes algún conocimiento especial o visión que es para el bien de la iglesia. Pablo llama a esto el don de profecía. No todos los creyentes pueden tener este regalo, porque el Espíritu Santo da diferentes dones a diferentes personas.\nAl igual que en la época del Antiguo Testamento, las personas pueden engañar a otros y dar una profecía falsa. Por lo tanto, otros creyentes tienen que escuchar cuidadosamente la profecía y verificar si esto realmente podría ser un mensaje de Dios.\nCuando están traduciendo profeta, tengan cuidado con las siguientes cosas:\nTengan cuidado de que las personas no se confundan con la palabra que han elegido para ángel. Un ángel también da mensajes de Dios a las personas, pero un ángel es un ser sobrenatural mientras que un profeta es una persona humana.\nAsegúrense de no usar una palabra que en su idioma solo signifique que alguien está diciendo lo que va a suceder en el futuro. Hablar del futuro es solo una pequeña parte de lo que significa ser un profeta en la Biblia.\nTengan cuidado de no usar la misma palabra que han usado para la palabra “predicador”. Un predicador enseña a las personas algo sobre Dios, pero un predicador no siempre dice las palabras de Dios directamente de la manera que lo hace un profeta.\nEn algunos idiomas, una buena traducción para la palabra “profeta” puede ser: “Un portavoz de Dios”, “alguien que da mensajes de Dios al pueblo” o “alguien que habla en nombre de Dios”.",
+      "sourceSha256": "6f769b74b76c8de9342592a76696a94cb3a6833a680deb5fc30c8c5367ed9307",
+      "processedTextSha256": "27bb1715ce2183eab417309f595059f3aa3876ba5aa3e6c8c431c1af8e9ca1ec",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t104-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t104-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c6ecc2229d3e7c074cfd",
+      "text": "Cuando se arrepienten, se sienten mal por las cosas malas que han hecho y quieren cambiar. Es como si estuvieran dándose la vuelta: se alejan de las cosas malas, y comienzan a caminar hacia las cosas buenas. Ahora están determinados a obedecer a Dios en lugar de desobedecerlo.\nDios les dice a las personas que tienen que arrepentirse de sus pecados. Cuando las personas se arrepienten, Dios las perdona y no las castiga por las cosas malas que han hecho. Pero si las personas no se arrepienten, Dios las castigará.\nA veces, la Biblia incluso nos dice que Dios se arrepiente. Por supuesto, Dios no puede pecar y no necesita arrepentirse de algo malo que ha hecho. Cuando la Biblia dice que Dios se arrepiente, significa que Dios cambia de opinión sobre algo.\nCuando están traduciendo arrepentirse, o arrepentimiento, tengan cuidado con las siguientes cosas:\nLa palabra que están eligiendo no debe significar solo que alguien se siente mal por lo que ha hecho. Debe estar claro que la persona que se arrepiente también quiere dejar de hacer cosas malas y quiere comenzar a obedecer a Dios. Quizás necesiten una frase en lugar de solo una palabra.",
+      "sourceSha256": "c6ecc2229d3e7c074cfd89d76e01a5767d6b1344dedf87a42150fa578343d104",
+      "processedTextSha256": "a8b8f6d3fe63567a1a2ec7d6c1b7586a533801ccc0979b066105760bc3c63592",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t109-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t109-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-8719e513a657838872b6",
+      "text": "Bautizar a alguien, o algo, significa sumergirlo en agua para lavarlo. Viene de la palabra griega “baptizo”.\nEsta palabra tiene un significado religioso especial. En el Antiguo Testamento, los sacerdotes judíos se bautizaban antes de hacer su trabajo en el templo de Dios. Esto los hacía “limpios” para que fueran aptos para acercarse a Dios.\nCuando las personas que no eran judías querían seguir a Dios, podían ser bautizadas. Después de eso, serían aceptados como parte del pueblo de Dios. No vemos esta costumbre en el Antiguo Testamento, pero lo sabemos por otros libros de la historia de los judíos.\nCuando Juan el Bautista vino, hizo algo nuevo al decirles a todas las personas que debían bautizarse. ¡Nacer como judío no era suficiente para ser parte del pueblo de Dios! Todas las personas necesitaban arrepentirse, pedir perdón por las cosas malas que habían hecho. Necesitaban dejar su antigua vida, y comenzar una nueva manera de vivir. ¡Ellos debían comenzar a obedecer a Dios!\nJusto antes de que Jesús regresara al cielo, les dijo a sus discípulos que fueran y les dijeran a las personas de todo el mundo que Jesús tiene toda la autoridad. Jesús les dijo que hicieran a todas las personas discípulos de Jesús, y que bautizaran en el nombre del padre, del hijo y del Espíritu Santo.\nY así, a partir de ese momento, vemos que tan pronto como las personas comenzaban a creer en Jesús, se bautizaban. Este bautismo era una señal de arrepentimiento y de necesidad de perdón. Pero también era una señal de que ahora pertenecían a Jesús y querían seguirlo.\nPablo, en sus cartas, explica que cuando recibimos el bautismo, es como si muriéramos y volviéramos a vivir. Morimos al hundirnos en el agua, y volvemos a estar vivos al salir del agua. Este es un símbolo que muestra que nuestra antigua vida está muerta. Ahora tenemos una nueva vida porque pertenecemos a Jesús. Jesús murió por nosotros, y volvió a estar vivo. Cuando nos bautizamos, aceptamos que Jesús murió en nuestro lugar, y que somos personas nuevas porque Dios nos ha perdonado. Así como el agua limpia nuestros cuerpos de la suciedad, Jesús nos ha “limpiado” de nuestros pecados. ¡Ahora estamos aptos para acercarnos a Dios!\nEl ritual del bautismo era algo que solo necesitaba hacerse una vez.\nCuando estén traduciendo bautismo, tengan cuidado con las siguientes cosas:\nLa palabra bautismo, y bautizar a alguien, puede ser difícil de traducir. Muchas personas usan una palabra que suena como la palabra griega “baptizo”. Los nuevos creyentes tendrán que aprender lentamente lo que esta palabra significa. También pueden usar un término que sea más significativo para las personas en su grupo de idiomas. Si las personas en su comunidad tienen un ritual con una forma de baño, esa palabra podría ser útil para traducir bautismo. Sin embargo, asegúrense de entender el significado del ritual en su comunidad, y piensen en la diferencia entre el significado de ese ritual y el bautismo en la Biblia. Tal vez necesiten explicar cómo el bautismo en la Biblia es diferente del ritual en su comunidad.\nTambién pueden usar una palabra que suene como \"baptizo\", pero luego agregar una pequeña frase para explicar mejor su significado.",
+      "sourceSha256": "8719e513a657838872b6db6cd0d25e3f8e8a75531a21a3e370af01d469b84000",
+      "processedTextSha256": "7ce38f4ae8981fcb18e6f38d57e05359c52be5ea2fbfd96def8d58d25c338819",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t9-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t9-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-3dc32f94645854f1a2d6",
+      "text": "Un desierto o yermo es un lugar solitario, estéril, sin agua. Casi no hay árboles o arbustos creciendo en un desierto. El suelo es seco y rocoso, y hay animales salvajes deambulando por ahí. Las personas no viven en el desierto.",
+      "sourceSha256": "3dc32f94645854f1a2d6566872e8b803eb1a4535556e8a2306d76debab9a6252",
+      "processedTextSha256": "3dc32f94645854f1a2d6566872e8b803eb1a4535556e8a2306d76debab9a6252",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t145-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t145-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c2b534fad152cb9d1b35",
+      "text": "La palabra evangelio es una traducción de una palabra griega que significa literalmente \"buenas nuevas\". Las buenas nuevas en la Biblia son que Dios ha creado una manera de salvar a las personas. En el Nuevo Testamento, queda claro que la manera en que Dios salva a su pueblo es a través de la muerte y resurrección de Jesús. En Hechos y en las epístolas, cuando las personas están \"predicando el evangelio\", están diciéndole a las personas las buenas nuevas de que pueden ser salvos si confían en Jesús.\nEn la parte de la Biblia que habla de la vida de Jesús, los libros de Mateo, Marcos, Lucas y Juan, a veces también escuchamos sobre el evangelio, o sobre las \"buenas nuevas del reino\". En aquel tiempo, Jesús aún no había muerto para salvar a las personas. Las buenas nuevas aquí significan que el reino de Dios está a punto de comenzar, o ya había comenzado. Jesús dijo a las personas que Dios estaba gobernando sobre toda la tierra, y que pronto Dios establecería su reino para siempre. Hasta ese momento, las personas ya deberían comportarse como ciudadanos de este reino y prepararse para recibir a Dios. ¡Las buenas nuevas son que Dios está gobernando, y que incluso ahora ya podemos ser miembros de su reino! Después de que Jesús murió para salvarnos, las personas que confían en Jesús pueden ser parte del reino de Dios.\nEn la iglesia, a menudo usamos el término \"los evangelios\" para hablar de los cuatro libros del Nuevo Testamento que nos hablan de la vida de Jesús: los libros de Mateo, Marcos, Lucas y Juan. Cuando hablamos de solo uno de estos libros, a menudo decimos \"el Evangelio de Mateo\", o \"el Evangelio de Marcos\". Esto significa que cuando decimos, por ejemplo, \"el Evangelio de Mateo\", nos referimos a todo el libro de Mateo.",
+      "sourceSha256": "c2b534fad152cb9d1b350d521c21228028ad3c12b92942973eaa506709e40436",
+      "processedTextSha256": "715f5191f32d8887daee61cac9a028827439296074723651ff970a2ab695044a",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t60-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t60-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-00a3e72f492c9044a8a2",
+      "text": "Cuando perdonan a alguien que les ha hecho algo malo, dejan de estar enojados con esa persona. Ya no quieren vengarse ni castigar. La persona que había hecho algo malo es entonces perdonada, o ha recibido el perdón.\nEl perdón tiene un costo. Por ejemplo, un hermano, por descuido, rompe un objeto caro que pertenece a su hermana. La hermana puede perdonar al hermano y no exigir que él le devuelva el dinero. Esta es una buena noticia para el hermano. La hermana, sin embargo, ahora tiene que asumir ella misma el gasto de reemplazar el objeto roto.\nAsí también funciona el perdón con Dios Las personas han pecado contra Dios y merecen ser castigadas. Las personas tienen que pagarle a Dios por el daño que han causado. Sin embargo, Dios quiere perdonar a las personas diciendo que no tienen que devolvérselo, ¡porque él sabe que no pueden! Dios perdona a las personas porque tiene misericordia de ellas. Esta es una buena noticia para las personas. Para Dios mismo, esto significaba que Dios mismo pagó el precio del daño. Dios hizo esto a través de la muerte de su hijo Jesús. Cuando las personas confían en Jesús y creen que la muerte de Jesús ha pagado a Dios por sus propios pecados, entonces Dios los perdona. Dios ya no está enojado con ellos.\nLa Biblia a menudo usa un lenguaje figurado para describir el perdón. Por ejemplo, si perdonan a alguien, ustedes:\nCuando traduzcan “perdón” o “perdonar”, tengan cuidado con lo siguiente:\nPueden usar un lenguaje figurado en su propio idioma para perdonar. Piensen cuidadosamente si el significado de la frase en su idioma significa el mismo que el significado de “perdonar” en la Biblia.",
+      "sourceSha256": "00a3e72f492c9044a8a26530a08dccfbf8e4ed5328a0a790fad960cde0723ce4",
+      "processedTextSha256": "4650bc3a8c0d4f56b9b58873dac6231745954ca2a6ec6802684eca7f23adb7ef",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t53-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t53-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-322753a4b0980ab6432b",
+      "text": "La palabra “Cristo” es la misma que la palabra Mesías. \"Cristo\" es la palabra griega, y \"Mesías\" es la misma palabra en hebreo. El griego es el idioma del Nuevo Testamento, mientras que el hebreo es el idioma del Antiguo Testamento. La palabra Mesías se refiere al rey especial y Salvador que Dios había prometido enviar.\nUn Mesías significa literalmente \"alguien que es ungido\". Eso significa que otra persona había derramado aceite sobre ellos. Esto era una señal de que Dios le dio a esta persona una tarea especial. Por ejemplo, en el Antiguo Testamento, Dios le dijo al profeta Samuel que derramara aceite sobre David. Esta fue una señal de que Dios eligió a David para convertirse en el próximo rey de Israel.\nMás tarde, las personas llamaban a alguien de ungido si Dios había nombrado a esa persona para una tarea especial, aunque nadie haya derramado aceite sobre su cabeza.\nDavid se convirtió en el rey más amado de Israel. Pero después de David, otras personas gobernaron Israel, y muchos de ellos no eran buenos reyes. Estos reyes estaban alejando al pueblo de Dios, y por lo tanto Dios tuvo que castigar a las personas. El país de Israel fue destruido y quedó bajo el control de otras naciones. Pero aún así, Dios prometió al pueblo de Israel que les enviaría a un nuevo rey. Este rey salvaría a las personas de sus problemas. Este rey sería un descendiente de David.\nLos israelitas comenzaron a referirse a este rey que Dios prometió enviar como “el Mesías”, el ungido.\nCuando Jesús vino, mostró a las personas que él es el Mesías que Dios había prometido enviar. Jesús era descendiente de David. Jesús demostró que Dios lo había nombrado a través del extraordinario poder y autoridad que tenía.\nJesús casi nunca les dijo directamente a las personas: “¡Yo soy el Mesías!” Esto es porque las personas aún no sabían lo que significaría que Jesús fuera el Mesías. Tenían la idea equivocada de que el Mesías restauraría el reino de Israel y les devolvería el poder político. Jesús, en cambio, se llamaba a sí mismo el Hijo del Hombre, lo cual era una manera indirecta de decir que él era el Mesías.\nDespués de que Jesús resucitó de entre los muertos, sus discípulos supieron con plena certeza que él era realmente el Mesías y comenzaron a compartir estas buenas nuevas con otras personas. ¡Dios había enviado a su Salvador! Pero Jesús no fue un Salvador que solo liberó a las personas de un gobierno terrenal. Jesús era un Salvador que hizo mucho más: Jesús liberó a las personas del pecado y de la muerte.\nCuando estén traduciendo \"Mesías\" o \"Cristo\", tengan cuidado con las siguientes cosas:",
+      "sourceSha256": "322753a4b0980ab6432b4c0418b05154b42fd14d7b7bc8f7a222523036c4eb32",
+      "processedTextSha256": "be7706e11332f6e4d599cd70591fba03969bd204fd0a85b1b78c75ccf7fd4a00",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t92-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t92-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c809e7dd798bcbb60b95",
+      "text": "El nombre Satanás significa adversario, enemigo o acusador. Es el nombre del diablo, el líder de todos los espíritus malignos.\nDios ha creado todo lo que existe y, por lo tanto, Dios también creó a todos los espíritus. Dios los creó buenos, como ángeles, para hacer su trabajo. Pero algunos ángeles se rebelaron contra Dios, y después se convirtieron en espíritus malignos. El más poderoso de estos espíritus malignos se llama diablo o Satanás.\nSatanás siempre intenta destruir la obra de Dios. Satanás tienta a las personas a desobedecer a Dios. Él intenta hacer que las personas se alejen de Dios engañándolas. Satanás es poderoso y peligroso, siempre buscando maneras de trabajar contra Dios y contra el pueblo de Dios.\nDebido a que Satanás todavía es poderoso en este tiempo, a veces la Biblia lo llama el \"gobernante de este mundo\". A veces Satanás es llamado Beelzebú, que significa algo como \"amo de los lugares altos\". A veces se le llama el Engañador. A veces es comparado con un dragón o una serpiente.\nSin embargo, Dios es mucho más fuerte que Satanás. Cuando Jesús murió y resucitó, Dios rompió el poder de Satanás. Aunque Dios todavía está permitiendo que Satanás use su poder por ahora, cuando Jesús regrese, Jesús derrotará a Satanás para siempre. Dios castigará a Satanás y a todos los espíritus malignos, y nunca más podrán trabajar contra Dios y su pueblo.",
+      "sourceSha256": "c809e7dd798bcbb60b957ac3ab474f5ded8ae79e03b4329f47b86688d005f4d9",
+      "processedTextSha256": "8e1d50edbe0c7d05c118748b68bf4282a44d410b5e88130e8d6156cc69dab95c",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t118-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t118-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-b7499a1a1d0bc68fe0c1",
+      "text": "El Hijo de Dios es un título para Jesús. Jesús es llamado el hijo de Dios porque tiene una relación especial con Dios el Padre. Dios y Jesús se aman de la manera en que un padre y un hijo se aman. A veces Jesús es llamado \"el único hijo de Dios\". Esto significa que la relación que Jesús tiene con Dios es única. Nadie más tiene esta misma relación con Dios que Jesús.\nQue Jesús es el hijo de Dios significa que él mismo también es Dios. Jesús es una persona de la Trinidad, una palabra que la iglesia está usando para describir a Dios es uno, pero al mismo tiempo tres personas: Dios Padre, Dios Hijo y Dios el Espíritu Santo. Jesús siempre ha sido el Hijo de Dios, incluso antes del comienzo de nuestro tiempo, antes de la creación del mundo. Cuando Jesús vino a la tierra, y nació, también se convirtió en un humano.\nCuando las personas en el Nuevo Testamento llaman a Jesús el Hijo de Dios, esta a veces es otra manera de decir que Jesús es el Mesías, el Cristo, el rey prometido y Salvador.\nCuando las personas comienzan a confiar en Jesús, Dios los adopta como hijos. Por lo tanto, la Biblia a veces usa la frase \"hijos de Dios\" para describir a las personas que confían en y siguen a Jesús.",
+      "sourceSha256": "b7499a1a1d0bc68fe0c1c454d1754e1c0c2127421ad4b5fbbb10cbdb495b369f",
+      "processedTextSha256": "525e9deabc49df35c07e5d5382e60638048c470e0d2e05da4d477121d6aa5310",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t129-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t129-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-12ce442c4039d622e323",
+      "text": "Dios creó a las personas con un cuerpo, y podemos tocar y ver el cuerpo de los demás. Pero Dios también creó a las personas con pensamientos, sentimientos y deseos. No podemos ver esta parte de una persona, pero sabemos que está allí. Esta parte invisible de una persona está en la Biblia y generalmente se llama alma, pero a veces se llama espíritu.\nCuando la Biblia usa la palabra espíritu, el enfoque está en la relación que una persona tiene con Dios. Cuando estamos orando, nuestro espíritu está hablando con Dios. Cuando alguien que cree en Jesús muere, su espíritu continuará viviendo con Dios.\nAlgunas personas piensan que el espíritu y el alma pueden ser lo mismo, y que estas dos palabras diferentes solo están dando un énfasis ligeramente diferente. Otras personas piensan que son diferentes, y que cada persona también tiene un cuerpo, un alma y un espíritu.\nCuando estés traduciendo espíritu, ten cuidado con las siguientes cosas:\nPor favor, ten en cuenta que también necesitas tener una palabra para \"alma\", \"corazón\" y \"mente\". Las palabras espíritu, alma, corazón y mente tienen que ver con la parte interna e invisible de una persona, pero cada una de ellas tiene un uso ligeramente diferente. Es posible que deseen escuchar las explicaciones de cada uno de estos términos y luego discutir estos cuatro términos juntos. Luego, pueden tomar una decisión sobre cómo van a traducir cada uno de estos términos. Pero recuerda que en cada contexto en particular tienes que decidir nuevamente si has elegido la palabra correcta. A veces una de estas palabras puede encajar mejor que otra.\nAquí hay un breve resumen de estos cuatro términos diferentes:",
+      "sourceSha256": "12ce442c4039d622e3239e8a64e1a7a9f5ba23fc96846d1c54e6b375d7cd87f9",
+      "processedTextSha256": "d7e7ee0d7bedc9933f8372e9f22b6d056af46837f8839d884258df71a0d8d36b",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t132-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t132-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-483f5d8b1a74e12ad642",
+      "text": "Señor es alguien que es amo sobre otras personas, alguien que tiene plena autoridad y que merece que las personas le tengan respeto. Cuando se dirigen a alguien como \"Señor\", están diciendo que esa persona tiene autoridad sobre ustedes. En la Biblia, escuchamos a las personas dirigirse a su rey como Señor; los esclavos llaman a su amo Señor; y a veces una esposa llama a su marido de Señor.\nDios es llamado Señor porque tiene autoridad sobre el mundo entero. Cuando las personas hablan con Dios, o hablan acerca de Dios, a menudo lo llaman de Señor para mostrarle respeto.\nEn el Nuevo Testamento, cuando las personas en Israel hablaban con Jesús y lo llamaban de Señor, tenían la intención de mostrarle respeto.\nCuando, después de la resurrección de Jesús, las personas hablan de Jesús y lo llaman de Señor, están diciendo que Jesús tiene autoridad sobre ellos, igual a la que tiene Dios. Cuando las personas llaman a Jesús de Señor después de su resurrección, están diciendo que Jesús es Dios.\nA veces no está claro en el Nuevo Testamento cuándo la palabra Señor se refiere a Jesús, o a Dios Padre.\nCuando estén traduciendo Señor, tengan cuidado con las siguientes cosas:\nAntes de la resurrección de Jesús, la mayoría de las personas no pensaban aún que Jesús era Dios. Cuando ellos decían \"Señor\" a Jesús, era como un término respetuoso: no querían decirle \"Dios\" a Jesús. En su traducción, tal vez quieran usar un término general respetuoso en estos casos, en lugar de usar la misma palabra que están usando para \"Señor\" cuando se refiere a Dios.",
+      "sourceSha256": "483f5d8b1a74e12ad642d12d89260dbce9ee58661c7d09242c285272963e2e9d",
+      "processedTextSha256": "8082979aa0a424d944ff37e9f39be9a483806990af0f93748256025c5291d6b9",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t87-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t87-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-8fafd34c2b15ad2312ef",
+      "text": "Un ángel es un ser sobrenatural y espiritual, creado por Dios. Los ángeles dan mensajes de Dios a las personas; por ejemplo, un ángel le dijo a María que quedaría embarazada por el poder de Dios. A veces, un ángel da un mensaje a las personas en un sueño; por ejemplo, un ángel le dijo a José en un sueño que tomara a María y a Jesús y huyera a Egipto.\nA veces, un ángel parece verse como una persona normal, pero en otras ocasiones, los ángeles pueden verse muy brillantes y relucientes, o incluso aterradores. A menudo, lo primero que tenían que decirles a las personas era “¡no teman!”\nUn ángel también puede hacer una tarea específica para Dios. Pueden ayudar a las personas o protegerlas; por ejemplo, todo un ejército de ángeles se puso alrededor del profeta Eliseo cuando el rey arameo intentó capturarlo.\nDios también usa ángeles para dar castigos a las personas. Por ejemplo, un ángel mató a los hijos primogénitos en Egipto después de que el rey se negó a dejar ir a los israelitas. A partir del Nuevo Testamento sabemos que Dios usará ángeles para su juicio final.\nOtra tarea muy importante para los ángeles es adorar a Dios. Encontramos esto especialmente en el libro de Apocalipsis.\nUn tipo importante de ángel es un arcángel. Este es un ángel con autoridad especial. La Biblia menciona a dos arcángeles por su nombre: Gabriel y Miguel.\nNo todos los ángeles se mantuvieron obedientes a Dios. Algunos ángeles se rebelaron. Se convirtieron en espíritus malignos, y el nombre de su líder es Satanás.\nAl traducir la palabra “ángel”, tengan cuidado con las siguientes cosas:\nAsegúrense de que las personas no se confundan con la palabra que han elegido para “profeta”. Un profeta también da mensajes de Dios al pueblo, pero un profeta es una persona humana, que pertenece a la tierra, mientras que un ángel es un ser sobrenatural, que pertenece al cielo.",
+      "sourceSha256": "8fafd34c2b15ad2312ef2bc0056c0ca3a761c15af716a668d4fb65026c2887b6",
+      "processedTextSha256": "66a517f242e1b2b450e96d5eb833625f6d53acd298ca8fc4ffc121fc4b963447",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t4-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t4-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-d6df2d9a83d1954f789c",
+      "text": "PRINCIPIO del evangelio de Jesucristo, Hijo de Dios.",
+      "sourceSha256": "d6df2d9a83d1954f789c94fbd38dcbdbc1b04eddb7ea05b2b3d0e671eca27426",
+      "processedTextSha256": "d6df2d9a83d1954f789c94fbd38dcbdbc1b04eddb7ea05b2b3d0e671eca27426",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001001",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-ab01e49116817c891856",
+      "text": "Como está escrito en Isaías el profeta: He aquí yo envío á mi mensajero delante de tu faz, que apareje tu camino delante de ti.",
+      "sourceSha256": "ab01e49116817c891856cb750ab6ce63700ef97245c92028f85df9369ded3f25",
+      "processedTextSha256": "ab01e49116817c891856cb750ab6ce63700ef97245c92028f85df9369ded3f25",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001002",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-ed9e57846551874ced29",
+      "text": "Voz del que clama en el desierto: Aparejad el camino del Señor; enderezad sus veredas.",
+      "sourceSha256": "ed9e57846551874ced291ab0cf12fde1626b3ea229515739dd96f7e8aa51ee91",
+      "processedTextSha256": "ed9e57846551874ced291ab0cf12fde1626b3ea229515739dd96f7e8aa51ee91",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001003",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-619536d2d6aa61aece36",
+      "text": "Bautizaba Juan en el desierto, y predicaba el bautismo del arrepentimiento para remisión de pecados.",
+      "sourceSha256": "619536d2d6aa61aece36314f68c8f2e30b9736bf6e18bc2b688e5d976e93507a",
+      "processedTextSha256": "619536d2d6aa61aece36314f68c8f2e30b9736bf6e18bc2b688e5d976e93507a",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001004",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-8fa245c9c5df6d9f738a",
+      "text": "Y salía á él toda la provincia de Judea, y los de Jerusalem; y eran todos bautizados por él en el río de Jordán, confesando sus pecados.",
+      "sourceSha256": "8fa245c9c5df6d9f738af7f7efcc055694e16c51c64e595008e8b16df633b69c",
+      "processedTextSha256": "8fa245c9c5df6d9f738af7f7efcc055694e16c51c64e595008e8b16df633b69c",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001005",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-2bda9ad00bba59a88f59",
+      "text": "Y Juan andaba vestido de pelos de camello, y con un cinto de cuero alrededor de sus lomos; y comía langostas y miel silvestre.",
+      "sourceSha256": "2bda9ad00bba59a88f59973e9e480df6f92e388d4affa0f53dde601a912028b8",
+      "processedTextSha256": "2bda9ad00bba59a88f59973e9e480df6f92e388d4affa0f53dde601a912028b8",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001006",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-88efd7008bc601c39ef8",
+      "text": "Y predicaba, diciendo: Viene tras mí el que es más poderoso que yo, al cual no soy digno de desatar encorvado la correa de sus zapatos.",
+      "sourceSha256": "88efd7008bc601c39ef88fca6c2d9a48cc2d2a82d804b8918900fec5efc46f34",
+      "processedTextSha256": "88efd7008bc601c39ef88fca6c2d9a48cc2d2a82d804b8918900fec5efc46f34",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001007",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-cb1d4d8b256108700746",
+      "text": "Yo á la verdad os he bautizado con agua; mas él os bautizará con Espíritu Santo.",
+      "sourceSha256": "cb1d4d8b2561087007461c6302993c73e845bf480b85501cce280ba2808ce746",
+      "processedTextSha256": "cb1d4d8b2561087007461c6302993c73e845bf480b85501cce280ba2808ce746",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001008",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-5c25fc7f7f4ddf580ff2",
+      "text": "Y aconteció en aquellos días, que Jesús vino de Nazaret de Galilea, y fué bautizado por Juan en el Jordán.",
+      "sourceSha256": "5c25fc7f7f4ddf580ff222f203b96d87b2f663917fd9e26d2b83d6e038beb4ed",
+      "processedTextSha256": "5c25fc7f7f4ddf580ff222f203b96d87b2f663917fd9e26d2b83d6e038beb4ed",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001009",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-3f33a33cabc6f804fb73",
+      "text": "Y luego, subiendo del agua, vió abrirse los cielos, y al Espíritu como paloma, que descendía sobre él.",
+      "sourceSha256": "3f33a33cabc6f804fb7398388c2721c7398262fd2d2edb29d39c7dc85b659f94",
+      "processedTextSha256": "3f33a33cabc6f804fb7398388c2721c7398262fd2d2edb29d39c7dc85b659f94",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001010",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-d07c519d942839151271",
+      "text": "Y hubo una voz de los cielos que decía: Tú eres mi Hijo amado; en ti tomo contentamiento.",
+      "sourceSha256": "d07c519d9428391512710dfaae3c8871d14435555d1437c3f46858c9998ea554",
+      "processedTextSha256": "d07c519d9428391512710dfaae3c8871d14435555d1437c3f46858c9998ea554",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001011",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-87c3952e6f338c86dcac",
+      "text": "Y luego el Espíritu le impele al desierto.",
+      "sourceSha256": "87c3952e6f338c86dcac2780d5dfcf300d0715d9ed408255fb39b043d2474690",
+      "processedTextSha256": "87c3952e6f338c86dcac2780d5dfcf300d0715d9ed408255fb39b043d2474690",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001012",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-858740c3d368cca0b660",
+      "text": "Y estuvo allí en el desierto cuarenta días, y era tentado de Satanás; y estaba con las fieras; y los ángeles le servían.",
+      "sourceSha256": "858740c3d368cca0b660df8e142a739c0ff59b575d7187c2c9936725a7b76765",
+      "processedTextSha256": "858740c3d368cca0b660df8e142a739c0ff59b575d7187c2c9936725a7b76765",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001013",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-7d27541e9691f4460250",
+      "text": "Así comienza la historia de las buenas noticias acerca de Jesús el Cristo, el Hijo de Dios.",
+      "sourceSha256": "7d27541e9691f4460250433cf51af50a669be365b924d546dc00b6c0c8255070",
+      "processedTextSha256": "7d27541e9691f4460250433cf51af50a669be365b924d546dc00b6c0c8255070",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001001",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-35be7fc5793debae3ef5",
+      "text": "En el libro del profeta Isaías dice: “Miren, yo envío a mi mensajero para que prepare el camino delante de mí”.",
+      "sourceSha256": "35be7fc5793debae3ef52d0365c3ae058dd2fcbbad91a7a27c00438d1523512c",
+      "processedTextSha256": "74665a7645a2c4bbf2b2af57cedb74ab37c279643a711803b0660fdb33b4f93e",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001002",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-7eb4aef93ab89103ba98",
+      "text": "Y dice: “Una voz grita: “Abran un camino para el Señor en el desierto. Tracen una calzada recta para nuestro Dios”».",
+      "sourceSha256": "7eb4aef93ab89103ba987511dded92e241b8bfbf4256d0c23a91f8f2a46f240f",
+      "processedTextSha256": "18209a42b1b6d125b30ac211534bb1f0b00eb4b5859647ef5cb5de8909815794",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001003",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-1d06e93e4cb3221b4dc4",
+      "text": "Así se presentó Juan, predicando en el desierto el bautismo. Era un bautismo que expresaba arrepentimiento para recibir el perdón de los pecados.",
+      "sourceSha256": "1d06e93e4cb3221b4dc432e1d8b69a8f365946f1aa9fc4ad117e4c973d74df5e",
+      "processedTextSha256": "1d06e93e4cb3221b4dc432e1d8b69a8f365946f1aa9fc4ad117e4c973d74df5e",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001004",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-bdf4864a30b7ff872306",
+      "text": "Venían a él de Jerusalén y de toda la región de Judea. Confesaban sus pecados y Juan los bautizaba en el río Jordán.",
+      "sourceSha256": "bdf4864a30b7ff8723064f3026095ebf3f214b3a41614458082b940c7add79dd",
+      "processedTextSha256": "bdf4864a30b7ff8723064f3026095ebf3f214b3a41614458082b940c7add79dd",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001005",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-8ef9fe752606c80c1e06",
+      "text": "Juan vestía ropa de pelo de camello y un cinturón de cuero. Se alimentaba de langostas y miel silvestre.",
+      "sourceSha256": "8ef9fe752606c80c1e0604c135d08d522b45d50f4b1a2a9fc650bc5c1598b6d1",
+      "processedTextSha256": "8ef9fe752606c80c1e0604c135d08d522b45d50f4b1a2a9fc650bc5c1598b6d1",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001006",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-bc40afc97a1d331d6592",
+      "text": "Predicaba con estas palabras: —Después de mí viene alguien más poderoso que yo. No soy digno ni siquiera de agacharme para desatarle la correa de las sandalias.",
+      "sourceSha256": "bc40afc97a1d331d6592d63b6a0b2cc80333645a952fecacf54e0f0d1257de8e",
+      "processedTextSha256": "bc40afc97a1d331d6592d63b6a0b2cc80333645a952fecacf54e0f0d1257de8e",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001007",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-4635192e2de38921697c",
+      "text": "Yo los bautizo con agua, pero él los bautizará con el Espíritu Santo.",
+      "sourceSha256": "4635192e2de38921697cf7d1bc6be68384035049f4cc6b1c5302fd094252de1b",
+      "processedTextSha256": "4635192e2de38921697cf7d1bc6be68384035049f4cc6b1c5302fd094252de1b",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001008",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-d9f94cdace319d119f35",
+      "text": "Por aquellos días, Jesús llegó desde Nazaret de Galilea. Juan lo bautizó en el río Jordán.",
+      "sourceSha256": "d9f94cdace319d119f3569316c338508e2f3596fefdbbf7765dd4ab70f0131de",
+      "processedTextSha256": "d9f94cdace319d119f3569316c338508e2f3596fefdbbf7765dd4ab70f0131de",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001009",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-2e12316ba63b11fb66b2",
+      "text": "Al salir del agua, Jesús vio los cielos abiertos. Vio al Espíritu Santo descender sobre él en forma de paloma.",
+      "sourceSha256": "2e12316ba63b11fb66b2755cb94b90df678ed1ef72541447b71fdc1e999fdb35",
+      "processedTextSha256": "2e12316ba63b11fb66b2755cb94b90df678ed1ef72541447b71fdc1e999fdb35",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001010",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c4b7700a252c8adda1ad",
+      "text": "Entonces vino una voz del cielo que decía: —Tú eres mi Hijo amado. Estoy muy complacido contigo.",
+      "sourceSha256": "c4b7700a252c8adda1ad7ffffe1cdcd7c82bc5bbb68ea13dd2467f9b06839731",
+      "processedTextSha256": "c4b7700a252c8adda1ad7ffffe1cdcd7c82bc5bbb68ea13dd2467f9b06839731",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001011",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-fd855594abe63471064d",
+      "text": "Enseguida, el Espíritu lo llevó al desierto.",
+      "sourceSha256": "fd855594abe63471064dd3d18bb633119004b2b94b9b28cb09a3826bff878b87",
+      "processedTextSha256": "fd855594abe63471064dd3d18bb633119004b2b94b9b28cb09a3826bff878b87",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001012",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-ae710c031a637cc28241",
+      "text": "Permaneció allí 40 días y fue tentado por Satanás. Estaba entre las fieras, y los ángeles lo servían.",
+      "sourceSha256": "ae710c031a637cc28241886d079d617f0d8f5f909342c80874e64f5f403eb9b5",
+      "processedTextSha256": "ae710c031a637cc28241886d079d617f0d8f5f909342c80874e64f5f403eb9b5",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001013",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-baca566347b21eae688f",
+      "text": "Solo necesitan una palabra tanto para Mesías como para Cristo.\nPodrían traducir Mesías como «Salvador», «Salvador prometido» o «rey especial y Salvador».\nA algunos equipos de traducción les gusta usar una palabra que suene como «Mesías» o «Cristo». Si lo hacen, ¡asegúrense de que la palabra no suene parecida a una palabra de su idioma que tenga un significado muy diferente! De lo contrario, las personas que no conocen la Biblia podrían confundirse mucho.\nTal vez su cultura tenga un símbolo o ritual que las personas usan para asignarle a alguien una tarea especial. Tal vez puedan usar esta palabra en su traducción de Mesías.",
+      "sourceSha256": "baca566347b21eae688f4a04eae4f39355164e4817bb164d7ca9dbd45cfef9c0",
+      "processedTextSha256": "11f5f5c8a204472d3e2309c3646d35926eb8da0b27fc2fd49543e10e5b187c0a",
+      "owners": [
+        {
+          "ownerId": "spa-term-23-warnings",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-term-23-warnings",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-35b12bb7d5ce545daf74",
+      "text": "borrar sus pecados\ncortar y quitar sus pecados\nlevantar sus pecados\nsoltarlos, liberarlos\narrojar lejos sus pecados\ncubrir sus pecados\npasar de largo ante sus pecados\nquitar sus pecados\ndar la espalda a sus pecados",
+      "sourceSha256": "35b12bb7d5ce545daf74eddfdcf671e37e8a96fa49329cec1b8866508158fa92",
+      "processedTextSha256": "4ccc731beab98e7023c9d3591713a83358339117141d841c8152d1d5bc79ac59",
+      "owners": [
+        {
+          "ownerId": "spa-term-53-examples",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-term-53-examples",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-b0abe94cca7a72afd2b1",
+      "text": "Intenten que el equipo de traducción haga mímica o represente una escena en la que alguien perdona a otra persona. Observen qué acciones realizan para mostrar que perdonan. Pídanles que expliquen las emociones de cada uno de los personajes de la escena.",
+      "sourceSha256": "b0abe94cca7a72afd2b1241ff45bc8fdec6430c602b9873306f3bc7c738b42e6",
+      "processedTextSha256": "b0abe94cca7a72afd2b1241ff45bc8fdec6430c602b9873306f3bc7c738b42e6",
+      "owners": [
+        {
+          "ownerId": "spa-term-53-mime-action",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-term-53-mime-action",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-5cf89f1cc371136888d9",
+      "text": "Solo necesitan una palabra tanto para Mesías como para Cristo.\nPodrían traducir Mesías como «Salvador», «Salvador prometido» o «rey especial y Salvador».\nA algunos equipos de traducción les gusta usar una palabra que suene como «Mesías» o «Cristo». Si lo hacen, ¡asegúrense de que la palabra no suene parecida a una palabra de su idioma que tenga un significado muy diferente! De lo contrario, las personas que no conocen la Biblia podrían confundirse mucho.\nTal vez su cultura tenga un símbolo o ritual que las personas usan para asignarle a alguien una tarea especial. ¿Tal vez puedan usar esta palabra en su traducción de Mesías?",
+      "sourceSha256": "5cf89f1cc371136888d9d565c03444d724ca9ccbad1545ab021b2c4d40704f89",
+      "processedTextSha256": "7cdf4cb692945a402db8e1adee42bc4ef0448ee6ae85a3580b2cdbc1c9f4c130",
+      "owners": [
+        {
+          "ownerId": "spa-term-92-warnings",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-term-92-warnings",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-9651cc53fa3f85af8908",
+      "text": "Esto sucede porque Dios le da al profeta este entendimiento.",
+      "sourceSha256": "9651cc53fa3f85af8908725ca226426ef0eb96932bdf3a626f68a84dff775823",
+      "processedTextSha256": "9651cc53fa3f85af8908725ca226426ef0eb96932bdf3a626f68a84dff775823",
+      "owners": [
+        {
+          "ownerId": "spa-term-104-complete-sentence",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-term-104-complete-sentence",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-4c1ad635f2b76079aa80",
+      "text": "Alma: toda la parte interior e invisible de una persona. Esta parte de la persona puede seguir viviendo incluso después de que muera su cuerpo.\nEspíritu: el espíritu es muy similar al alma, pero con más énfasis en la relación con Dios.\nCorazón: corazón es una expresión figurada que se refiere al lugar donde se producen los pensamientos, sentimientos y decisiones de una persona.\nMente: la mente es muy similar al corazón, pero con un poco más de énfasis en los pensamientos, la inteligencia y la voluntad, o el deseo de hacer cosas.",
+      "sourceSha256": "4c1ad635f2b76079aa80f0ab533acb5e9c484d435dfe8c3486264c7bab10116f",
+      "processedTextSha256": "be20d909587c19dcf9a70c6ffecbf24bb138794118fc669aad0a95b59c85f1bd",
+      "owners": [
+        {
+          "ownerId": "spa-term-132-summary",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-term-132-summary",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-cf8113d4e26cf042b739",
+      "text": "Desierto",
+      "sourceSha256": "cf8113d4e26cf042b7399ee125e7ad76705491305247b56adb33ff16b9b9ee9f",
+      "processedTextSha256": "cf8113d4e26cf042b7399ee125e7ad76705491305247b56adb33ff16b9b9ee9f",
+      "owners": [
+        {
+          "ownerId": "spa-media-a111",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-media-a111",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c06e44d7452e5f503aa8",
+      "text": "Sandalias",
+      "sourceSha256": "c06e44d7452e5f503aa853f694dbdb2b94763cbd5d4fc69ac13aea9764120a81",
+      "processedTextSha256": "c06e44d7452e5f503aa853f694dbdb2b94763cbd5d4fc69ac13aea9764120a81",
+      "owners": [
+        {
+          "ownerId": "spa-media-a204",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-media-a204",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "ai-spa-from-a203",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-a203",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-6fbf004dc6825d4aec1d",
+      "text": "Río Jordán",
+      "sourceSha256": "6fbf004dc6825d4aec1d8379dc1b13ca303a245a2f1e698130b92ebda6a9b20a",
+      "processedTextSha256": "6fbf004dc6825d4aec1d8379dc1b13ca303a245a2f1e698130b92ebda6a9b20a",
+      "owners": [
+        {
+          "ownerId": "spa-media-a112",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-media-a112",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-6f2535c2291e9fef6016",
+      "text": "Lugares importantes de Jerusalén",
+      "sourceSha256": "6f2535c2291e9fef6016128abf7ba8a7fa32e0f790d3127ea5a81ee307393057",
+      "processedTextSha256": "6f2535c2291e9fef6016128abf7ba8a7fa32e0f790d3127ea5a81ee307393057",
+      "owners": [
+        {
+          "ownerId": "spa-media-c202",
+          "classification": "optional-resource",
+          "playbackGroupId": "spa-media-c202",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-english-map"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-48b2c339c822f563cf62",
+      "text": "Lugares en el libro de Marcos",
+      "sourceSha256": "48b2c339c822f563cf62f9d040dbae778314e8d53992611bb2b8c4841bd5dba3",
+      "processedTextSha256": "48b2c339c822f563cf62f9d040dbae778314e8d53992611bb2b8c4841bd5dba3",
+      "owners": [
+        {
+          "ownerId": "spa-media-c197",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-media-c197",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-english-map"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-e481ebb2a7c3549db2ed",
+      "text": "Suplemento traducido del inglés mediante inteligencia artificial.",
+      "sourceSha256": "e481ebb2a7c3549db2ed118ba1ca811a429acf52a566f3be209f7962919ef153",
+      "processedTextSha256": "e481ebb2a7c3549db2ed118ba1ca811a429acf52a566f3be209f7962919ef153",
+      "owners": [
+        {
+          "ownerId": "spa-notice-ai-translation",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-notice-ai-translation",
+          "spokenNoticeOwnerIds": []
+        }
+      ]
+    },
+    {
+      "id": "spa-eb752eec2c66b32433f2",
+      "text": "Los rótulos del mapa están en inglés.",
+      "sourceSha256": "eb752eec2c66b32433f25a0899d4a41b4d7dd8cd5ee7ed379446dd7aeb40cf88",
+      "processedTextSha256": "eb752eec2c66b32433f25a0899d4a41b4d7dd8cd5ee7ed379446dd7aeb40cf88",
+      "owners": [
+        {
+          "ownerId": "spa-notice-english-map",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-notice-english-map",
+          "spokenNoticeOwnerIds": []
+        }
+      ]
+    },
+    {
+      "id": "spa-f7fea2175fb8c2666ec6",
+      "text": "Río Jordán. 79 segundos.",
+      "sourceSha256": "f7fea2175fb8c2666ec618334280af1f964a70d76579775931b32bfe51975af8",
+      "processedTextSha256": "f7fea2175fb8c2666ec618334280af1f964a70d76579775931b32bfe51975af8",
+      "owners": [
+        {
+          "ownerId": "ai-spa-from-a13",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-a13",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation",
+            "spa-notice-original-video"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-83c8843873146c545354",
+      "text": "Sandalias. 56 segundos.",
+      "sourceSha256": "83c8843873146c545354ebafc9ea56594f31d4716bb56e20561cb3900888f666",
+      "processedTextSha256": "83c8843873146c545354ebafc9ea56594f31d4716bb56e20561cb3900888f666",
+      "owners": [
+        {
+          "ownerId": "ai-spa-from-a184",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-a184",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation",
+            "spa-notice-original-video"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c7019aaeec4e54136e65",
+      "text": "Desierto o lugar deshabitado. 55 segundos.",
+      "sourceSha256": "c7019aaeec4e54136e653d2a106d2ba00db51d0c567c75dedc76f9a83b243c41",
+      "processedTextSha256": "c7019aaeec4e54136e653d2a106d2ba00db51d0c567c75dedc76f9a83b243c41",
+      "owners": [
+        {
+          "ownerId": "ai-spa-from-a10",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-a10",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation",
+            "spa-notice-original-video"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-ae247a0d71243388e61f",
+      "text": "Vista aérea de Judea y Jerusalén",
+      "sourceSha256": "ae247a0d71243388e61f8525d68db5594feff81823bad78b1f0c6bae42245992",
+      "processedTextSha256": "ae247a0d71243388e61f8525d68db5594feff81823bad78b1f0c6bae42245992",
+      "owners": [
+        {
+          "ownerId": "ai-spa-from-c201",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-c201",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation",
+            "spa-notice-english-map"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c8f54d3e5a7da0a53991",
+      "text": "Nazaret y Judea",
+      "sourceSha256": "c8f54d3e5a7da0a53991ce77f78077706a03d57932228ccaf65e45647fcc5319",
+      "processedTextSha256": "c8f54d3e5a7da0a53991ce77f78077706a03d57932228ccaf65e45647fcc5319",
+      "owners": [
+        {
+          "ownerId": "ai-spa-from-c168",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-c168",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation",
+            "spa-notice-english-map"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-782d5c784c5dc348e496",
+      "text": "Un desierto o lugar deshabitado es un lugar solitario y árido, sin agua. En un desierto casi no crecen árboles ni arbustos. El suelo es seco y rocoso, y hay animales salvajes que andan por allí. Las personas no viven en el desierto.",
+      "sourceSha256": "782d5c784c5dc348e496543ad135c9ff4c9481eb1b2bed69bb99a4ce4ff0907a",
+      "processedTextSha256": "782d5c784c5dc348e496543ad135c9ff4c9481eb1b2bed69bb99a4ce4ff0907a",
+      "owners": [
+        {
+          "ownerId": "ai-spa-from-eng-t38-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-eng-t38-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-b06c49df92f2ece6accf",
+      "text": "rey\nUn rey es alguien que gobierna una ciudad o un territorio, como una región o un país. En los tiempos de la Biblia, un rey normalmente gobernaba de por vida; es decir, gobernaba hasta que moría. Después de su muerte, uno de sus hijos se convertía en rey en su lugar.",
+      "sourceSha256": "b06c49df92f2ece6accfc687e0c1f68b01e3d129d8f0818782683d75e339a20c",
+      "processedTextSha256": "139a59aa73bad0cc8e3e9c23af21b2de2261a9477ca43f08ebc05c1b53b85393",
+      "owners": [
+        {
+          "ownerId": "ai-spa-from-eng-t226-v2",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-eng-t226-v2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-5801242628233cb2b4e5",
+      "text": "Los sacerdotes eran personas que trabajaban en el templo de Dios en Jerusalén. Antes de que se construyera el templo, los sacerdotes trabajaban en el tabernáculo, que era un templo portátil, una tienda de campaña. El templo, y antes de él el tabernáculo, era el lugar donde el pueblo israelita adoraba a Dios. Los sacerdotes eran responsables de ofrecer sacrificios a Dios en nombre del pueblo. Cuidaban el templo y enseñaban a las personas cómo adorar a Dios.\nDios es santo, y las personas no pueden acercarse a él sin más, porque son pecadoras. Como son pecadoras, son impuras. En la Biblia, ser impuro significa no estar en condiciones de presentarse ante Dios. Las personas primero tienen que volverse puras. La labor de los sacerdotes era hacer que las personas fueran puras, es decir, purificarlas. Los sacerdotes hacían esto ofreciendo sacrificios en nombre del pueblo y enseñando a las personas cómo vivir. Realizaban rituales que simbolizaban que las personas se volvían puras. Por lo tanto, los sacerdotes estaban entre Dios y el pueblo. Hacían posible que las personas se presentaran ante Dios y siguieran teniendo una buena relación con él. Purificaban al pueblo para que Dios pudiera descender y encontrarse con él. Los sacerdotes eran personas muy importantes para los judíos. Como las personas seguían siendo pecadoras, los sacerdotes tenían que ofrecer sacrificios con frecuencia y purificar al pueblo una y otra vez.\nSolo ciertas personas podían convertirse en sacerdotes. Los israelitas estaban divididos en 12 tribus. Una de ellas se llamaba la tribu de Leví, y las personas de esa tribu se llamaban levitas. Moisés, por medio de quien Dios dio al pueblo su ley, era levita. Aarón, el hermano de Moisés, también era levita. Aarón se convirtió en el primer sumo sacerdote de los judíos. Un sumo sacerdote es el sacerdote más importante. Dios hizo que los hijos de Aarón fueran los primeros sacerdotes. Desde entonces, todos los descendientes varones de Aarón se convirtieron en sacerdotes.\nTambién había levitas que no eran descendientes de Aarón. Estas personas también llegaron a ser importantes. Ayudaban a los sacerdotes en sus tareas. La Biblia habla a menudo de «sacerdotes y levitas». Los sacerdotes se mencionan por separado porque eran más importantes, aunque ellos mismos también eran descendientes de Leví.\nEn tiempos de Jesús, algunos sacerdotes también eran líderes del pueblo. Se les llama principales sacerdotes. Estos sacerdotes principales o dirigentes solían ser personas adineradas emparentadas con el sumo sacerdote. A menudo pertenecían al grupo de líderes religiosos llamados saduceos y formaban parte del consejo judío, llamado Sanedrín. Los principales sacerdotes discutían a menudo con Jesús.\nLos pueblos que vivían en los países que rodeaban a Israel también tenían personas que estaban entre el pueblo y sus dioses. La Biblia también llama sacerdotes a estas personas, pero eran muy diferentes de los sacerdotes judíos.\nCuando traduzcan la palabra sacerdote, tengan cuidado con las siguientes cosas:\nTal vez su idioma tenga una palabra que signifique alguien que ofrece sacrificios a Dios. Esta podría ser una buena palabra para el término bíblico sacerdote. Quizás necesiten hacer un pequeño cambio, como decir «un sacerdote de Dios». Pero tengan cuidado de no confundir a las personas. Quizás las cosas que hace un «sacerdote» en su comunidad sean demasiado diferentes de las que hace un sacerdote en la Biblia. Tal vez necesiten crear una palabra o frase nueva, como «alguien que ofrece sacrificios a Dios», «un sacrificador» o «un hombre que trabaja en el templo de Dios». Pero recuerden que también necesitan una palabra para levita. Un levita puede ser un «ayudante de un sacerdote», un «ayudante en el templo» o un «descendiente de Leví que ayuda en el templo».\nAlgunas iglesias cristianas usan la palabra «sacerdote» para un líder de la iglesia. No es buena idea usar esta misma palabra para los «sacerdotes» de la Biblia, porque el significado es bastante diferente. Un líder de la iglesia no ofrece sacrificios como lo hacían los sacerdotes de la Biblia.\nRecuerden que también necesitan una palabra para los principales sacerdotes, los sacerdotes más importantes, y para el sumo sacerdote, que es el sacerdote más importante de todos.",
+      "sourceSha256": "5801242628233cb2b4e5889be1f266859de07829c2d52e71a5c062aa52a1b877",
+      "processedTextSha256": "23d77e1d59a4c85756585633db0ad76feb71cbdf406a1934e02e470e65f8599c",
+      "owners": [
+        {
+          "ownerId": "ai-spa-from-eng-t103-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-eng-t103-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-61525b4e86d10f7c0c11",
+      "text": "Jerusalén es el nombre de la ciudad más importante del pueblo judío. El templo de Dios, donde los judíos adoraban a Dios, estaba en Jerusalén. Los judíos viajaban a Jerusalén varias veces al año para celebrar fiestas importantes en el templo. El tribunal religioso judío, el Sanedrín, también se reunía en Jerusalén.\nUnos mil años antes de que naciera Jesús, el rey David estableció la ciudad de Jerusalén como capital de Israel. Unos 500 años después, los enemigos de los israelitas destruyeron la ciudad, pero los israelitas la reconstruyeron. El pueblo judío amaba mucho la ciudad de Jerusalén.\nJerusalén formaba parte de la provincia llamada Judea. Jerusalén estaba construida sobre una colina. Por eso las personas siempre decían que iban a «subir a Jerusalén».",
+      "sourceSha256": "61525b4e86d10f7c0c11aa7db8da9cfa390a4a420ae1d335a647dec7381ee6ae",
+      "processedTextSha256": "8b73b4a683c587eb1578c44d9df60dbd77b378827fff8dbf3186bb34d22f47bd",
+      "owners": [
+        {
+          "ownerId": "ai-spa-from-eng-t76-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-eng-t76-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-be0470af690553acaf61",
+      "text": "En algunos casos del Nuevo Testamento, Señor se refiere a Dios mismo. Era la manera en que el pueblo judío se refería a Dios cuando no quería pronunciar su nombre porque lo respetaba mucho.",
+      "sourceSha256": "be0470af690553acaf6186c60c6743f67a90f2ae604a66a93edcc849790ed9c3",
+      "processedTextSha256": "be0470af690553acaf6186c60c6743f67a90f2ae604a66a93edcc849790ed9c3",
+      "owners": [
+        {
+          "ownerId": "ai-spa-from-eng-t88-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-eng-t88-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-377baf25f8618b8e5e8d",
+      "text": "Ungir a alguien significa derramar aceite perfumado sobre esa persona. También se puede ungir un objeto.\nEn el Antiguo Testamento, antes de darle a alguien una tarea especial, Dios le indicaba a otra persona que derramara aceite sobre la cabeza de esa persona. El aceite era un símbolo del Espíritu Santo de Dios. Este ritual dejaba claro que Dios había apartado a esa persona para un propósito especial. También dejaba claro que Dios le estaba dando una autoridad especial. Entonces se llamaba «ungida» a esa persona. Por ejemplo, Dios le dijo a Samuel que ungiera a David como rey de Israel. Dios le dijo a Moisés que ungiera a Aarón como sumo sacerdote. Y Dios le dijo al profeta Elías que ungiera a Eliseo como profeta para suceder a Elías.\nMás tarde, la palabra «ungido» también se usaba para las personas a las que Dios había asignado una tarea especial, aunque no hubiera habido un ritual en el que se derramara aceite. A Jesús se le llama «el ungido» porque Dios lo ha elegido para una tarea muy especial.\nLas personas también podían ungir objetos. Los sacerdotes ungían con aceite los objetos que se usaban en el templo para dejar claro que ahora tenían un propósito especial. Estos objetos ahora pertenecían a Dios; eran sagrados.\nEl pueblo judío también practicaba la unción como una actividad cotidiana que no tenía ningún significado especial. Usaban aceite perfumado para cuidar la piel y el cabello. Jesús les dijo a las personas que, si ayunaban, debían ungirse como lo hacían todos los días, en lugar de descuidar su aspecto para que los demás pensaran: «¡Estas personas están ayunando, qué impresionante!».\nLas personas también ponían un poco de aceite sobre los invitados para mostrarles que eran bienvenidos y honrados. En los Evangelios hay dos relatos de mujeres que ponían aceite en los pies de Jesús para honrarlo.\nLos judíos también ungían el cuerpo de una persona después de su muerte. Después de que Jesús murió, las mujeres llevan aceite perfumado al sepulcro para ungir el cuerpo de Jesús.\nEn el Nuevo Testamento, los primeros cristianos a veces usaban aceite junto con la oración cuando alguien estaba enfermo. El apóstol Santiago, en su carta, dice que, si alguien está enfermo, los otros creyentes deben orar por esa persona y ungirla con aceite. Esto no era porque el aceite tuviera algún poder especial, sino porque era un símbolo de la presencia de Dios.",
+      "sourceSha256": "377baf25f8618b8e5e8d63f0817ac1a077da8b62e7a8131f520e7507178b627c",
+      "processedTextSha256": "7f203aec5948f4220e92f1525aeb21cf6b9a962aafe58fb9069bbc5a9ba23d98",
+      "owners": [
+        {
+          "ownerId": "ai-spa-from-eng-t5-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-eng-t5-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c6011bd7d2086ee88eea",
+      "text": "Esta es una manera en que podrían ayudar a explicar el arrepentimiento:\nDibujen o marquen un camino. Un extremo del camino termina en un lugar muy peligroso: una fogata, un precipicio o cualquier cosa que sea peligrosa. El otro extremo del camino termina en un lugar bueno: quizás una mesa con comida, un jardín bonito o cualquier objeto que ayude a las personas a ver que este es un buen lugar.\nLuego hagan que algunas personas caminen por este camino hacia el lugar peligroso. Representen a estas personas haciendo cosas malas por el camino, como golpearse unas a otras o robar. Después hagan que otra persona se acerque a ellas y les diga que deben arrepentirse.\nRepresenten que algunas de las personas que caminan por el camino se dan cuenta de las cosas malas que han hecho y notan el lugar peligroso hacia el que están caminando. ¡Representen que se sienten muy mal! Luego representen que estas personas dan media vuelta y comienzan a caminar hacia el extremo bueno del camino. Ahora pueden representar que hacen cosas buenas.\nQuizás una de las personas de su dramatización pueda no arrepentirse y terminar en el fuego o caer por el borde del precipicio.",
+      "sourceSha256": "c6011bd7d2086ee88eeaacf78a0591ae5e5698159519d058c974a9da6365ff72",
+      "processedTextSha256": "da274ac84f17e7081aa040384b155afe83a65c6d931fbb787013f6f72ee29326",
+      "owners": [
+        {
+          "ownerId": "term-109-repentance-enactment",
+          "classification": "optional-resource",
+          "playbackGroupId": "term-109-repentance-enactment",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-f236e438f866ab969618",
+      "text": "Corrección de sentido mediante traducción con IA: Dios le dijo al profeta Ezequiel que se acostara de costado durante semanas seguidas sin moverse. «De costado» describe la postura del cuerpo; no significa acostarse al lado de otra persona.",
+      "sourceSha256": "f236e438f866ab9696187bd7c64ef6f32a9166e7878ee7c04faaef81c9749bbd",
+      "processedTextSha256": "f236e438f866ab9696187bd7c64ef6f32a9166e7878ee7c04faaef81c9749bbd",
+      "owners": [
+        {
+          "ownerId": "term-104-posture-correction",
+          "classification": "required-on-demand",
+          "playbackGroupId": "term-104-posture-correction",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-f33966975ce0bae1d7ed",
+      "text": "Esta narración usa una voz sintética.",
+      "sourceSha256": "f33966975ce0bae1d7ed22dee466356b700b786b791f07e37da9b1a9486a5341",
+      "processedTextSha256": "f33966975ce0bae1d7ed22dee466356b700b786b791f07e37da9b1a9486a5341",
+      "owners": [
+        {
+          "ownerId": "spa-notice-synthetic-voice",
+          "classification": "required-notice",
+          "playbackGroupId": "spa-notice-synthetic-voice",
+          "spokenNoticeOwnerIds": []
+        }
+      ]
+    },
+    {
+      "id": "spa-2fdbcba1662ec63f73db",
+      "text": "El video original no está doblado al español.",
+      "sourceSha256": "2fdbcba1662ec63f73db9d50d23347ae31285d61bd942b1fcbe68f7cacfbaf4f",
+      "processedTextSha256": "2fdbcba1662ec63f73db9d50d23347ae31285d61bd942b1fcbe68f7cacfbaf4f",
+      "owners": [
+        {
+          "ownerId": "spa-notice-original-video",
+          "classification": "required-notice",
+          "playbackGroupId": "spa-notice-original-video",
+          "spokenNoticeOwnerIds": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+[WebServer] (node:89615) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:89633) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:89634) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+PAGEERROR Cannot read properties of undefined (reading 'error')
+[WebServer] 2:35:54 PM [vite] (client) [Unhandled error] TypeError: Cannot read properties of undefined (reading 'error')
+[WebServer]  > AudioControls ../../../src/components/AudioControls.jsx:10:44
+[WebServer]     8  |  const time=n=>`${Math.floor(n/60)}:${String(Math.floor(n%60)).padStart(2,'0')}`;
+[WebServer]     9  |  export default function AudioControls({state,owner,label,onPlay,onPause,onResume,onRestart,compact=false,inset=false,...
+[WebServer]     10 |   const errorId=useId();const failed=!!state.error&&state.owner===owner;
+[WebServer]        |                                              ^
+[WebServer]     11 |   const mine=state.owner===owner,active=mine&&['starting','playing','paused','gap','restoring'].includes(state.status);
+[WebServer]     12 |   const SideButton=inset?GlassIconButton:'button';const sideStyle=inset?{background:'var(--material-floating)'}:glassT...
+[WebServer]  > Object.react_stack_bottom_frame ../../../../fia-functional-poc-app/node_modules/react-dom/cjs/react-dom-client.development.js:28571:19
+[WebServer]  > renderWithHooks ../../../../fia-functional-poc-app/node_modules/react-dom/cjs/react-dom-client.development.js:8030:21
+[WebServer]  > updateFunctionComponent ../../../../fia-functional-poc-app/node_modules/react-dom/cjs/react-dom-client.development.js:10569:18
+[WebServer]  > beginWork ../../../../fia-functional-poc-app/node_modules/react-dom/cjs/react-dom-client.development.js:12205:17
+[WebServer]  > runWithFiberInDEV ../../../../fia-functional-poc-app/node_modules/react-dom/cjs/react-dom-client.development.js:1045:29
+[WebServer]  > performUnitOfWork ../../../../fia-functional-poc-app/node_modules/react-dom/cjs/react-dom-client.development.js:19176:21
+[WebServer]  > workLoopSync ../../../../fia-functional-poc-app/node_modules/react-dom/cjs/react-dom-client.development.js:19004:40
+[WebServer]  > renderRootSync ../../../../fia-functional-poc-app/node_modules/react-dom/cjs/react-dom-client.development.js:18985:10
+[WebServer]  > performWorkOnRoot ../../../../fia-functional-poc-app/node_modules/react-dom/cjs/react-dom-client.development.js:18094:34
+[WebServer] 
+[WebServer] 2:35:54 PM [vite] (client) [console.warn] An error occurred in the <AudioControls> component.
+[WebServer] 
+[WebServer] Consider adding an error boundary to your tree to customize error handling behavior.
+[WebServer] Visit https://react.dev/link/error-boundaries to learn more about error boundaries.
+[WebServer] 
+GUIDEBODY 
+  ✘  1 tests/spanish-audio.spec.js:3:1 › fixture native guide notice then content completion keeps boundary and supports paused restore (5.9s)
+
+
+  1) tests/spanish-audio.spec.js:3:1 › fixture native guide notice then content completion keeps boundary and supports paused restore 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: false
+    Received: undefined
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+      1 | import{test,expect}from'@playwright/test';
+      2 | async function ended(page){await expect.poll(()=>page.evaluate(()=>window.__nativeAudio?.readyState??0)).toBeGreaterThan(0);await page.evaluate(()=>{window.__nativeAudio.currentTime=window.__nativeAudio.duration-.02;});await page.waitForTimeout(850);}
+    > 3 | test('fixture native guide notice then content completion keeps boundary and supports paused restore',async({page})=>{page.on('pageerror',e=>console.log('PAGEERROR',e.message));await page.goto('/');await expect(page.getByText('Español · prepared narration')).toBeVisible();const next=page.getByRole('button',{name:'Next guide activity',exact:true});await page.getByRole('button',{name:/Play Guide/}).click();await page.waitForTimeout(300);console.log('GUIDEBODY',await page.locator('body').innerText());await expect.poll(()=>page.evaluate(()=>window.__nativeAudio?.paused)).toBe(false);await ended(page);expect(await next.getAttribute('data-variant')).not.toBe('primary');await expect.poll(()=>page.evaluate(()=>window.__audioCount)).toBe(2);await page.getByRole('button',{name:/Pause Guide/}).click();await page.reload();await expect(page.getByRole('button',{name:/Resume Guide/})).toBeVisible();expect(await page.evaluate(()=>window.__nativeAudio.paused)).toBe(true);await page.getByRole('button',{name:/Resume Guide/}).click();await ended(page);await expect(page.getByRole('button',{name:/Section 1\//})).toBeVisible();await next.click();await expect(page.getByRole('button',{name:/Section 2\//})).toBeVisible();});
+        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               ^
+      4 | test('fixture native Resources modal keeps single owner and keyboard close restores focus',async({page})=>{page.on('pageerror',e=>console.log('PAGEERROR',e.message));await page.goto('/');await page.getByRole('tab',{name:'Resources',exact:true}).click();await page.getByRole('searchbox',{name:'Search resources'}).fill('sacerdote');await page.getByRole('button',{name:'Open sacerdote',exact:true}).click();await page.getByRole('dialog').getByRole('button',{name:'Play sacerdote',exact:true}).first().click();await expect.poll(()=>page.evaluate(()=>window.__nativeAudio?.paused)).toBe(false);await expect(page.locator('.app-content')).toHaveAttribute('inert','');await page.keyboard.press('Escape');await expect(page.getByRole('button',{name:'Open sacerdote',exact:true})).toBeFocused();await page.screenshot({path:'evidence/spanish-audio-runtime/fixture-resources-319.png',fullPage:true});});
+      5 |
+        at /private/tmp/fia-spanish-audio-runtime/tests/spanish-audio.spec.js:3:575
+
+    Error Context: test-results/spanish-audio-fixture-nati-66065-and-supports-paused-restore/error-context.md
+
+  1 failed
+    tests/spanish-audio.spec.js:3:1 › fixture native guide notice then content completion keeps boundary and supports paused restore 

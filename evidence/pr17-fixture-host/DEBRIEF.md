@@ -1,0 +1,1 @@
+CI probes IPv4 literal127.0.0.1 while fixture Vite host was unspecified. Explicitly bind127.0.0.1 to match both configs. Fresh startup debug confirms host; HTTP probe200 and lsof IPv4 listening confirmed. No timeout or test assertion changes. Root observed CI startup failure; local unspecified binding not independently reproduced. Author0.5 upper allocation binding38.
