@@ -3,7 +3,9 @@ import {hash} from './project-spanish.mjs';
 import {expandSpanish} from './expand-spanish.mjs';
 const read=async p=>JSON.parse(await fs.readFile(p,'utf8'));
 const dir='sources/spanish/expansion/';
-const original=await read('content-packs/spa/mark-1-1-13/pack.json');
+const originalBytes=await fs.readFile('content-packs/spa/mark-1-1-13/pack.json');
+if(hash(originalBytes)!=='031635f2c922871e71bb679758642cb6e2e37a4779d7c1cc32e1b395d5706192')throw Error('Original Spanish migration source changed');
+const original=JSON.parse(originalBytes);
 // Always rebuild from the exact preserved original source pack.
 if(original.id!=='spa-mrk-1-1-13-source-v1')throw Error('Expected original projection; run project-spanish first');
 const resources=await fs.readFile(dir+'RESOURCES.json','utf8'),scripture=await fs.readFile(dir+'SCRIPTURE.json','utf8'),corrections=await fs.readFile(dir+'CORRECTIONS.json','utf8');
