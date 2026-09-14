@@ -1,0 +1,64 @@
+TAP version 13
+# Subtest: actual deduplicated queue owner and generation fence survive pause and reject stale events
+ok 1 - actual deduplicated queue owner and generation fence survive pause and reject stale events
+  ---
+  duration_ms: 17.868166
+  type: 'test'
+  ...
+# Subtest: notice, start, restore, gap, error and unrelated source do not claim spoken highlighting
+ok 2 - notice, start, restore, gap, error and unrelated source do not claim spoken highlighting
+  ---
+  duration_ms: 0.169042
+  type: 'test'
+  ...
+# Subtest: all26 original Spanish verse IDs bind only their actual queue-owner catalog entries
+ok 3 - all26 original Spanish verse IDs bind only their actual queue-owner catalog entries
+  ---
+  duration_ms: 3.907042
+  type: 'test'
+  ...
+# Subtest: all original and derived resource/edition owners resolve; no false availability without files
+ok 4 - all original and derived resource/edition owners resolve; no false availability without files
+  ---
+  duration_ms: 2.840875
+  type: 'test'
+  ...
+# Subtest: guide resolver stops at selected semantic boundary and optional examples remain opt-in
+ok 5 - guide resolver stops at selected semantic boundary and optional examples remain opt-in
+  ---
+  duration_ms: 2.02525
+  type: 'test'
+  ...
+# Subtest: raw punctuation binds original source hash separately from processed hash
+ok 6 - raw punctuation binds original source hash separately from processed hash
+  ---
+  duration_ms: 0.39975
+  type: 'test'
+  ...
+# Subtest: restore validates source owner, bytes and offset and resumes after notices without autoplay
+ok 7 - restore validates source owner, bytes and offset and resumes after notices without autoplay
+  ---
+  duration_ms: 0.288208
+  type: 'test'
+  ...
+# Subtest: notice intro group can be carried across deliberate guide activity navigation
+ok 8 - notice intro group can be carried across deliberate guide activity navigation
+  ---
+  duration_ms: 0.174875
+  type: 'test'
+  ...
+# Subtest: partial snapshot requires every content clip, exposes missing notices, and restores spoken intros when present
+ok 9 - partial snapshot requires every content clip, exposes missing notices, and restores spoken intros when present
+  ---
+  duration_ms: 0.188959
+  type: 'test'
+  ...
+1..9
+# tests 9
+# suites 0
+# pass 9
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 68.341459
