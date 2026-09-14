@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.5
+
+- Integrate shared Resources and language picker with complete prepared narration and shared Guide/Scripture screens.
+
 ## 0.1.4
 
 Complete prepared Spanish narration and offline saving; natural spoken Scripture references in both languages. Keep source text unchanged and availability details in context.
