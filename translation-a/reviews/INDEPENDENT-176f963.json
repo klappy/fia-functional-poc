@@ -1,0 +1,226 @@
+{
+  "targetCommit": "176f96374983a7fdfb70441502d3df135fa86416",
+  "reviewer": "independent cookbook_worker; did not author A",
+  "verdict": "RETURN narrow gaps; all12 new translations accepted for supplied body/title scope",
+  "coverage": "Read full32 English/current-or-new Spanish body pairs and existing attached supplement text; read12 new titles/bodies, unique rights records and per-record provenance; verified all12 title/body/source hashes. No media viewing, dubbing, hearing, or licensing certification implied.",
+  "rows": [
+    {
+      "englishId": "a13",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "c45baf41d3cd59d3fc27dd57c3dc52e8109c846462668d0a3693f12ee88d16c5",
+      "spanishBodySha256": "4156fc04bb50edc43837500ceca365b4ae5e5de9bc0e99286e9169095485a31c"
+    },
+    {
+      "englishId": "a184",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "f91f51582f3a9c3258c4764a8381345ef26b574627436721e63cc62a69a417a6",
+      "spanishBodySha256": "9b6c0ec65cc8f4d159629cda52a4910d097a9a1fec6cd3639974e8376438eec1"
+    },
+    {
+      "englishId": "a10",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "a54f4b698f5b961380c1ca8085a2fe4d35a68119c1a400771ad598f7410b2636",
+      "spanishBodySha256": "96c78ddd2fe7907677a079175ad085c874a5aa034e6e4477245f12b4f339eb6b"
+    },
+    {
+      "englishId": "a112",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "2db7f15db95e1d3632c34bec725e600334cf643c217b453e225eeb280bcf7a0c",
+      "spanishBodySha256": "933e3a02578a04e74f1674542bbd7dd257ba66fce13b7ebf56d7b4e456008ee2"
+    },
+    {
+      "englishId": "a111",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "9a15d934fa5404d6fcfa44105edc8c7f79d7f2fd47bb80122817dbfea1f3b6aa",
+      "spanishBodySha256": "ac854a1e29b8ed4d9784b8dca873c106c2ad4ec78a6df3e587cd6ca42e516901"
+    },
+    {
+      "englishId": "a203",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "d3576f75ab9f54da9fec3d05b82141877771effa95eede5b3b94e6f5728743a4",
+      "spanishBodySha256": "574735e110f036241ccef4856981f2da8a4635e5c72f4e04822f15be4a7b595d"
+    },
+    {
+      "englishId": "a204",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "0a8c18b3780a5fed039cbaff069467dd4cb1db3cf1137afa1d6afd18811af95a",
+      "spanishBodySha256": "59eed35d0ee6d668566831ce3494df201daa099ed9db6febd4d7f17800e25ddf"
+    },
+    {
+      "englishId": "c202",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "9c99cb72891971aed49da4a2214dfce537c600d2bcd50b11f80d11a14c45b812",
+      "spanishBodySha256": "cdb037e6a528a36677aae4a23ffa0506e5488644f2647b3f9b2e402c97936040"
+    },
+    {
+      "englishId": "c197",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "6dce069a27c70c29999b0ee414d80f68086ae7230beefc969d991984662687b1",
+      "spanishBodySha256": "947d41e8d66cd232dfd8ee45c56f83293f47b81304fa35ed4f5aabde41048e93"
+    },
+    {
+      "englishId": "c201",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "e67aeda7273f792467367bb53713022f34bbf847d34f7395a01ff93031246476",
+      "spanishBodySha256": "18c411d74634ab42bd9ea561d5fa78e538ad8bfef5dea7b994c362099532135d"
+    },
+    {
+      "englishId": "c168",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "5a8e24aca1d4dce218f6470f4b12fd24401f5739511d73c5cf9ecc9c6332eba1",
+      "spanishBodySha256": "fce9688036f250ccb1b9e9a677fec687056af031f93498559d03962b84fcb179"
+    },
+    {
+      "englishId": "eng-t63-v1",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "a5bf7e328cdfe38dcb7f925a8c9fde51a5ce658e0ca06b8fe736ee3f05afb3dc",
+      "spanishBodySha256": "7d49bcf28f64424cc7f31f9268c9da555df2865dbab99cc70d6bda196863b107"
+    },
+    {
+      "englishId": "eng-t68-v1",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "f878738477860ba4933a1ad85dabe727b9e38f1c745a9d3e95154e61f8cbb46a",
+      "spanishBodySha256": "54738947a1ebeec198832f0f10603a6cdad7b3769b216e2e02dd5c79a03c9c78"
+    },
+    {
+      "englishId": "eng-t23-v1",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "6b568193e008a0848ecc7e03ec4fe3609deb5416ca681e4018cc3f1f7b701115",
+      "spanishBodySha256": "ffa3d785544bcb8a9a5ce535aa5717df7ba01cf50868d74d578d0475cb3fc3b7"
+    },
+    {
+      "englishId": "eng-t38-v1",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "aed8ff9527a6c36c5e6dffb47d76ce7a7cbfd7814a28306b8c4793c243d90097",
+      "spanishBodySha256": "d94a410d0f1ffdbd5e35b17e4a2c11eacff93b802a93c682b11a792324fdfa67"
+    },
+    {
+      "englishId": "eng-t226-v2",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "4a3f5b306c9da90140b573d34975177187e54ff1fe9eb8f1025a4243ee765050",
+      "spanishBodySha256": "29934a2c2651158155fbd02ee26ab1bb616a7ff36764e4650181a93b03c29b51"
+    },
+    {
+      "englishId": "eng-t103-v1",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "9fe9ec8a8b2fc17b4d854423d5298d01bb6f85d6deece5c196f8a41001d238ec",
+      "spanishBodySha256": "701e9bd7acffa3958a0c22b38bfcb10ec4bd58d3a2586ba9e697864b10bd4091"
+    },
+    {
+      "englishId": "eng-t104-v1",
+      "status": "RETURN",
+      "englishBodySha256": "7bb7688e18f8d7da80a9124d9e784a99fcd2864555c3239140ded20f35a12ef5",
+      "spanishBodySha256": "9fc321c37e944dc56637a2ce92ad83ed9954244a85bb9858570046de5ae6ef43"
+    },
+    {
+      "englishId": "eng-t109-v1",
+      "status": "RETURN",
+      "englishBodySha256": "3c2131d60d4da149c2008971c25f16a1e09a9c5f4a70e55798c13b249670ebcd",
+      "spanishBodySha256": "c182433d696164648c3ece9b77485dbc4762e72d8a2e7463d4951798992ab992"
+    },
+    {
+      "englishId": "eng-t76-v1",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "681a56b09c7fb9f96d218c141820b0c8fa4746a65f1cbca2aeb97dacc153eeb8",
+      "spanishBodySha256": "0092a1fa88136f2927388cbb6153e58036f95aa66dee9318c49e956d718b23fa"
+    },
+    {
+      "englishId": "eng-t9-v1",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "2a481ecbfe4d0104dac616b5be3a8a72168fcd72b5690ad3df9607e7c0598285",
+      "spanishBodySha256": "9c16804a3788fea5f9a54794272244d3b6c887e34725e2972ca0f74e177827df"
+    },
+    {
+      "englishId": "eng-t145-v1",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "d752f6020bd735f0989f0d71072ce16bba023599061b62ee583e66457dc93eef",
+      "spanishBodySha256": "e22c7d99b217d04623f7d2a2b8fcc38edcb8ff24f6aa246a5ed3861cd45e2bc7"
+    },
+    {
+      "englishId": "eng-t87-v1",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "8515913d9c4098b60a762729fbf41736567f7b6e4f0dbe9907e185c6370109c7",
+      "spanishBodySha256": "443bc83b9eda10846a5d93d4fe607344df97c32c0ea4ba4c3a7a41e604c057ae"
+    },
+    {
+      "englishId": "eng-t88-v1",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "591296193635d6695dc6bb723d84d341270a1b49fbf9a996b11878d5e5fb2a89",
+      "spanishBodySha256": "7d66657a131e7057be066093f53d8e943fb5fba0bfe7cda3570dd3f1f8619016"
+    },
+    {
+      "englishId": "eng-t60-v1",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "b26459f7fa917b7f46a898fd4b1a73a24558afadfc1f23a0f3266f087e792136",
+      "spanishBodySha256": "e6d0c6f4e0ae0ad226bc5efdbc47674b372cbc42b1f2d4198ea63272245e4dc3"
+    },
+    {
+      "englishId": "eng-t53-v1",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "5ae9fbd29ae9084ac4dfc35d6f669fae6d5ce85fd05997309658898f2c77a008",
+      "spanishBodySha256": "4ed3988a845750f5a5ad33007776699ac7983ace9afd9de7ec7a42671ad57f97"
+    },
+    {
+      "englishId": "eng-t4-v1",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "d88b7c53a5546dad5070f984b76b18cf00133983686c4b077d81ade0a5e65bd1",
+      "spanishBodySha256": "842bb0b2f93a1023cc91d2a135148d79e7b4219007d71e99d2c34928eda93b15"
+    },
+    {
+      "englishId": "eng-t5-v1",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "e833e4c339b17ea443693e9992e6ba3099545f1c807823fe72c328fa4e3b4e7d",
+      "spanishBodySha256": "4632aa9b74be76a42a93e2dfe0861b8950bd2065023b41a36d5473c4af67a435"
+    },
+    {
+      "englishId": "eng-t92-v1",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "4e5cec57c162d9fb6e45fa5237362f66bdcba87a09d632c4423d3c626816fda7",
+      "spanishBodySha256": "fac86d5fc90cf528e1b1cf0cd8452e5a8c54d430866183c41d7f037ffd84af00"
+    },
+    {
+      "englishId": "eng-t118-v1",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "c9f6409d9a495e5e13e484f4c2e106564aafd5e0788d655e9207d976a58140cb",
+      "spanishBodySha256": "a1a78e118c994636a00ea675e78e274370f95c73ffd77346ad210bc9cb204512"
+    },
+    {
+      "englishId": "eng-t125-v1",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "7c949f904bb16a7099e0e8593cd96fabbada55e6b7eb1e6c5a8571a2b132f189",
+      "spanishBodySha256": "a4dbeade07ec13b75923bd3cf67944e487b620400edcdb31bebff2752efa411f"
+    },
+    {
+      "englishId": "eng-t129-v1",
+      "status": "PASS for supplied text scope",
+      "englishBodySha256": "b3e8583cae01134475a24d0ba333533a38e55c0e3ba58d1879d40eeaff581709",
+      "spanishBodySha256": "4e7f54715b405097b2c0f4e95f5d0b67191d3271823b9f7d27479c3d92860876"
+    }
+  ],
+  "findings": [
+    {
+      "id": "eng-t109-v1",
+      "severity": "required missing source span",
+      "start": 1158,
+      "end": 2247,
+      "sourceHtml": "<blockquote><p>Here is one way you could help explain repentance:</p><p>Draw or line out a path. One end of the path ends in a very dangerous place-a fireplace, or a cliff, or anything that is dangerous. The other end of the path ends in a good place-maybe a table with food, or a nice garden, or any object that helps people to see that this is a good place.</p><p>Then have some people walk on this path towards the dangerous place. Act out these people doing bad things on the way-maybe like hitting each other, or stealing. Then have someone else come to them, and tell them that they should repent.</p><p>Act out that some of the people walking on the road realize the bad things that they have done, and they notice the dangerous place that they are walking towards. Act out that they are feeling really bad! Then act out that these people turn around, and begin to walk towards the good end of the road. They can act out doing good things now.</p><p>Maybe one of the people in your drama can <em>not</em> repent and end up in the fire or over the edge of the cliff.</p></blockquote>",
+      "issue": "Full final blockquote (five paragraphs) is absent from Spanish and existingSupplements is empty. COVERAGE incorrectly reports newMissingSpanEstablished:false.",
+      "action": "Add separately labeled AI-derived supplement for entire blockquote, preserve deliberate optional enactment and emphasized NOT repent alternative, hashes/source span/rights; leave original Spanish unchanged."
+    },
+    {
+      "id": "eng-t104-v1",
+      "severity": "required meaning correction in original matched text",
+      "source": "he told the prophet Ezekiel to lay down on his side for weeks on end without moving",
+      "existingSpanish": "le dijo al profeta Ezequiel que se acostara a su lado durante semanas sin moverse",
+      "issue": "a su lado means beside him, not lying on one side of his body. Existing sentence-completion supplement does not correct this.",
+      "action": "Add separately labeled source-bound correction clarifying acostarse de costado/sobre un costado during weeks without moving; retain original bytes and mark relationship to exact original span."
+    }
+  ],
+  "notes": [
+    "New12 preserve durations79/56/55, all12 tribes and Aaron male-descendant distinction, chief/high-priest distinction, approximate1000/500 Jerusalem dates, negated anointing oil power, and map/video limitations.",
+    "Existing Christ/Messiah final warnings and forgiveness nine metaphors/action are supplied by existing supplements. Existing prophet truncated understanding sentence is repaired, but posture issue remains separate.",
+    "Map metadata Biblica and adaptation Word Collective/Mission Mutual discrepancy remains preserved, not resolved. Integration must display retained rights/change notices and CC BY-SA terms.",
+    "Existing t125 Spanish interpreten is less explicit than act out; context still refers to interpretations/dramas. Prefer a later source clarification if conducting oral enactment; not new translation blocker."
+  ],
+  "reviewBudget": "<=4 active review minutes delegated from existing A14 review4; no author or B budget consumed"
+}
