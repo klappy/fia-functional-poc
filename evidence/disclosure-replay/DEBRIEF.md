@@ -1,0 +1,7 @@
+# Explicit introduction replay and contextual details
+
+A temporary introduction preserves the selected source queue and checkpoint; persistence skips temporary notice state. Completion restores source content paused with its prior offset. Deliberate new content or Stop still clears the temporary state. Leaving the language restores the content checkpoint before suspension. Actual native RV1909 verse2 paused at5s survives Settings introduction replay, returns paused at5s and resumes only explicitly.
+
+Resource details now retain Spanish video original HTML and the existing English visual-description authorship disclaimer and source description inside the single attribution section. No source or audio input bytes changed; no provider call. Remote PR22 remained235a2e8 when fetched; no Autofix changes were present.
+
+Test fixture failures are retained: first verse cannot hold5s; deliberately changing paused source to Guide retargets by existing contract. The corrected test uses second verse and same-context Settings. A video locator initially matched same-title image cards; it now targets the actual video by its full accessible name. English visual attribution and c197 single-section native checks remain pending; source inspection confirms exact original wording and existing single-section deduplication, not full native validation. Author4 consumed; required remaining native/build/freeze needs bounded continuation.

@@ -1,0 +1,16 @@
+tab
+waiting
+tab
+waiting
+waiting
+node:internal/modules/run_main:123
+    triggerUncaughtException(
+    ^
+
+page.waitForFunction: Timeout 30000ms exceeded.
+    at /private/tmp/fia-disclosure-highlight-integration/evidence/disclosure-replay/native.mjs:1:1343 {
+  log: [],
+  name: 'TimeoutError'
+}
+
+Node.js v22.16.0
