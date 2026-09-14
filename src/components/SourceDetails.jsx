@@ -1,11 +1,12 @@
 import visualInputs from '../../public/content/visual-narration.json';
 import React from 'react';
 import DOMPurify from 'dompurify';
-export function SafeHtml({ html, className = '' }) {
+export function SafeHtml({ html, className = '', externalLinks = false }) {
   const safe = DOMPurify.sanitize(html ?? '', { ALLOWED_TAGS: ['p','li','ul','ol','h2','h3','h4','b','strong','em','i','sup','br','blockquote','cite','a'], ALLOWED_ATTR: ['href','title'], ALLOW_DATA_ATTR: false });
   const fragment = document.createElement('template'); fragment.innerHTML = safe;
   // Source glossary fragment identifiers do not exist in this bounded UI. Preserve their text without a broken link.
   fragment.content.querySelectorAll('a[href^="#"]').forEach(link => link.replaceWith(...link.childNodes));
+  if (externalLinks) fragment.content.querySelectorAll('a[href]').forEach(link => { const href=link.getAttribute('href'); if (/^https?:\/\//i.test(href)) { link.setAttribute('target','_blank'); link.setAttribute('rel','noopener noreferrer'); } });
   return <div className={`source-html ${className}`} dangerouslySetInnerHTML={{ __html: fragment.innerHTML }} />;
 }
 export default function SourceDetails({ item }) {
