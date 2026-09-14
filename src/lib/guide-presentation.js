@@ -1,0 +1,6 @@
+// Explicit source-coordinate semantics, independent of rendered language.
+export const ENGLISH_SCRIPTURE_CUES=new Set(['S01-U002','S02-U001','S03-U001','S04-U001','S05-U001','S06-U001']);
+export function spanishGuideInteraction(group,blocks){return group.blockIds.some(id=>blocks.find(b=>b.id===id)?.literalStop)?'discussion':'reading';}
+export function spanishGuideCompletion(group,groups,visited){return {atEnd:group.id===groups.at(-1)?.id,canFinish:new Set(visited).size===6};}
+export function spanishGuideView(pack){const blocks=new Map(pack.guide.blocks.map(b=>[b.id,b])),groups=[],aliases={};for(let i=0;i<pack.guide.groups.length;i++){const g=pack.guide.groups[i],next=pack.guide.groups[i+1];if(g.ordinaryQueue&&g.blockIds.every(id=>blocks.get(id)?.element==='h2')&&next?.ordinaryQueue&&next.section===g.section){groups.push({...g,blockIds:[...g.blockIds,...next.blockIds]});aliases[next.id]=g.id;i++;}else groups.push(g);}return {...pack,guide:{...pack.guide,groups,ordinaryGroupIds:groups.filter(g=>g.ordinaryQueue).map(g=>g.id),groupAliases:aliases}};}
+export function guideBodyHtml(block){return block.element==='li'?block.html.replace(/^<li(?:\s[^>]*)?>/,'<p>').replace(/<\/li>$/,'</p>'):block.html;}
