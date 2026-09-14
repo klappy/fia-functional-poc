@@ -1,0 +1,200 @@
+{
+  "priorAuditPointer": "/tmp/fia-spanish-source-closure/SOURCE-CLOSURE.json",
+  "priorAuditSha256": "cfb1de5eaab6aa6eb7221fb4b96d007ef8beefad1c3adcce20ccd45ff8253fc7",
+  "termRows": [
+    {
+      "spanishId": "spa-t63-v1",
+      "bodyMatchesPriorFullBodyAudit": true,
+      "priorKnownMissingSpans": [],
+      "allPriorSpansNowSupplemented": true,
+      "supplementHashesValid": true,
+      "evidenceScope": "Revalidated exact prior whole-body/source-gap audit; not a new independent bilingual assessment"
+    },
+    {
+      "spanishId": "spa-t67-v1",
+      "bodyMatchesPriorFullBodyAudit": true,
+      "priorKnownMissingSpans": [],
+      "allPriorSpansNowSupplemented": true,
+      "supplementHashesValid": true,
+      "evidenceScope": "Revalidated exact prior whole-body/source-gap audit; not a new independent bilingual assessment"
+    },
+    {
+      "spanishId": "spa-t68-v1",
+      "bodyMatchesPriorFullBodyAudit": true,
+      "priorKnownMissingSpans": [],
+      "allPriorSpansNowSupplemented": true,
+      "supplementHashesValid": true,
+      "evidenceScope": "Revalidated exact prior whole-body/source-gap audit; not a new independent bilingual assessment"
+    },
+    {
+      "spanishId": "spa-t23-v1",
+      "bodyMatchesPriorFullBodyAudit": true,
+      "priorKnownMissingSpans": [
+        "term-23-warnings"
+      ],
+      "allPriorSpansNowSupplemented": true,
+      "supplementHashesValid": true,
+      "evidenceScope": "Revalidated exact prior whole-body/source-gap audit; not a new independent bilingual assessment"
+    },
+    {
+      "spanishId": "spa-t125-v1",
+      "bodyMatchesPriorFullBodyAudit": true,
+      "priorKnownMissingSpans": [],
+      "allPriorSpansNowSupplemented": true,
+      "supplementHashesValid": true,
+      "evidenceScope": "Revalidated exact prior whole-body/source-gap audit; not a new independent bilingual assessment"
+    },
+    {
+      "spanishId": "spa-t104-v1",
+      "bodyMatchesPriorFullBodyAudit": true,
+      "priorKnownMissingSpans": [
+        "term-104-complete-sentence"
+      ],
+      "allPriorSpansNowSupplemented": true,
+      "supplementHashesValid": true,
+      "evidenceScope": "Revalidated exact prior whole-body/source-gap audit; not a new independent bilingual assessment"
+    },
+    {
+      "spanishId": "spa-t109-v1",
+      "bodyMatchesPriorFullBodyAudit": true,
+      "priorKnownMissingSpans": [],
+      "allPriorSpansNowSupplemented": true,
+      "supplementHashesValid": true,
+      "evidenceScope": "Revalidated exact prior whole-body/source-gap audit; not a new independent bilingual assessment"
+    },
+    {
+      "spanishId": "spa-t9-v1",
+      "bodyMatchesPriorFullBodyAudit": true,
+      "priorKnownMissingSpans": [],
+      "allPriorSpansNowSupplemented": true,
+      "supplementHashesValid": true,
+      "evidenceScope": "Revalidated exact prior whole-body/source-gap audit; not a new independent bilingual assessment"
+    },
+    {
+      "spanishId": "spa-t145-v1",
+      "bodyMatchesPriorFullBodyAudit": true,
+      "priorKnownMissingSpans": [],
+      "allPriorSpansNowSupplemented": true,
+      "supplementHashesValid": true,
+      "evidenceScope": "Revalidated exact prior whole-body/source-gap audit; not a new independent bilingual assessment"
+    },
+    {
+      "spanishId": "spa-t60-v1",
+      "bodyMatchesPriorFullBodyAudit": true,
+      "priorKnownMissingSpans": [],
+      "allPriorSpansNowSupplemented": true,
+      "supplementHashesValid": true,
+      "evidenceScope": "Revalidated exact prior whole-body/source-gap audit; not a new independent bilingual assessment"
+    },
+    {
+      "spanishId": "spa-t53-v1",
+      "bodyMatchesPriorFullBodyAudit": true,
+      "priorKnownMissingSpans": [
+        "term-53-examples",
+        "term-53-mime-action"
+      ],
+      "allPriorSpansNowSupplemented": true,
+      "supplementHashesValid": true,
+      "evidenceScope": "Revalidated exact prior whole-body/source-gap audit; not a new independent bilingual assessment"
+    },
+    {
+      "spanishId": "spa-t92-v1",
+      "bodyMatchesPriorFullBodyAudit": true,
+      "priorKnownMissingSpans": [
+        "term-92-warnings"
+      ],
+      "allPriorSpansNowSupplemented": true,
+      "supplementHashesValid": true,
+      "evidenceScope": "Revalidated exact prior whole-body/source-gap audit; not a new independent bilingual assessment"
+    },
+    {
+      "spanishId": "spa-t118-v1",
+      "bodyMatchesPriorFullBodyAudit": true,
+      "priorKnownMissingSpans": [],
+      "allPriorSpansNowSupplemented": true,
+      "supplementHashesValid": true,
+      "evidenceScope": "Revalidated exact prior whole-body/source-gap audit; not a new independent bilingual assessment"
+    },
+    {
+      "spanishId": "spa-t129-v1",
+      "bodyMatchesPriorFullBodyAudit": true,
+      "priorKnownMissingSpans": [],
+      "allPriorSpansNowSupplemented": true,
+      "supplementHashesValid": true,
+      "evidenceScope": "Revalidated exact prior whole-body/source-gap audit; not a new independent bilingual assessment"
+    },
+    {
+      "spanishId": "spa-t132-v1",
+      "bodyMatchesPriorFullBodyAudit": true,
+      "priorKnownMissingSpans": [
+        "term-132-summary"
+      ],
+      "allPriorSpansNowSupplemented": true,
+      "supplementHashesValid": true,
+      "evidenceScope": "Revalidated exact prior whole-body/source-gap audit; not a new independent bilingual assessment"
+    },
+    {
+      "spanishId": "spa-t87-v1",
+      "bodyMatchesPriorFullBodyAudit": true,
+      "priorKnownMissingSpans": [],
+      "allPriorSpansNowSupplemented": true,
+      "supplementHashesValid": true,
+      "evidenceScope": "Revalidated exact prior whole-body/source-gap audit; not a new independent bilingual assessment"
+    },
+    {
+      "spanishId": "spa-t4-v1",
+      "bodyMatchesPriorFullBodyAudit": true,
+      "priorKnownMissingSpans": [],
+      "allPriorSpansNowSupplemented": true,
+      "supplementHashesValid": true,
+      "evidenceScope": "Revalidated exact prior whole-body/source-gap audit; not a new independent bilingual assessment"
+    }
+  ],
+  "existingEnglishSpanChecks": [
+    {
+      "supplementId": "map-c202-title",
+      "englishId": "c202",
+      "sourceSpanPresent": null,
+      "sourceOffsetExact": null
+    },
+    {
+      "supplementId": "map-c197-title",
+      "englishId": "c197",
+      "sourceSpanPresent": null,
+      "sourceOffsetExact": null
+    },
+    {
+      "supplementId": "term-23-warnings",
+      "englishId": "eng-t23-v1",
+      "sourceSpanPresent": true,
+      "sourceOffsetExact": true
+    },
+    {
+      "supplementId": "term-104-complete-sentence",
+      "englishId": "eng-t104-v1",
+      "sourceSpanPresent": true,
+      "sourceOffsetExact": true
+    },
+    {
+      "supplementId": "term-53-examples",
+      "englishId": "eng-t53-v1",
+      "sourceSpanPresent": true,
+      "sourceOffsetExact": true
+    },
+    {
+      "supplementId": "term-53-mime-action",
+      "englishId": "eng-t53-v1",
+      "sourceSpanPresent": true,
+      "sourceOffsetExact": true
+    },
+    {
+      "supplementId": "term-92-warnings",
+      "englishId": "eng-t92-v1",
+      "sourceSpanPresent": true,
+      "sourceOffsetExact": true
+    }
+  ],
+  "pairedMediaStatus": "same5source media identities:3originalSpanishimages and2maptitle supplements; Englishletteredpixels not translated; semanticvisual/transcriptcoverage not inferred",
+  "newKnownPairedTermGaps": [],
+  "newKnownPairedTermGapsMeaning": "No additional gap established from reused exact audited source; full new independent bilingual line review remains a gate, not claimed here"
+}

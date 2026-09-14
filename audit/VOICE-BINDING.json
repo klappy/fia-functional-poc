@@ -1,0 +1,14 @@
+{
+  "sameHistoricalDefaultVoice": true,
+  "privatePointers": [
+    "evidence/release/private-originals/mark-1-1-13-manifest.json",
+    "evidence/release/private-originals/terms-manifest.json"
+  ],
+  "filesSha256": [
+    "8772e13f5e42cfd157c8b3cebb6495045a2122235379cc0aa5b285ad15f2b850",
+    "b5678f53d0d608962e7dc19e34cbda1cf29006dc8e4504e9e720a70d9625802d"
+  ],
+  "currentProviderAccessVerified": false,
+  "accountBalanceVerified": false,
+  "modelProjectionVerified": false
+}

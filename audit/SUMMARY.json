@@ -1,0 +1,32 @@
+{
+  "main": "e4a040fef5c5ba4dc8cfb711f4943dcd632ca1d9",
+  "englishResources": 32,
+  "SpanishTerms": 17,
+  "SpanishMedia": 5,
+  "existingSupplements": 8,
+  "matchedEnglishIdentities": 20,
+  "missingEnglishIdentities": [
+    "a13",
+    "a184",
+    "a10",
+    "a203",
+    "c201",
+    "c168",
+    "eng-t38-v1",
+    "eng-t226-v2",
+    "eng-t103-v1",
+    "eng-t76-v1",
+    "eng-t88-v1",
+    "eng-t5-v1"
+  ],
+  "unionResourceIdentities": 34,
+  "englishResourceSourceCharacters": 43997,
+  "missingResourceEnglishCharacters": 7597,
+  "priorRequests": 176,
+  "priorCharacters": 72742,
+  "currentPackSha256": "031635f2c922871e71bb679758642cb6e2e37a4779d7c1cc32e1b395d5706192",
+  "priorPackUnchanged": true,
+  "expandedAudioCharacters": null,
+  "expandedAudioCharactersPending": "Spanish translations and reviewed spoken projections/notices do not exist yet; do not substitute English source counts",
+  "providerCalls": 0
+}
