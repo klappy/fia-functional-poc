@@ -1,0 +1,20 @@
+tab
+{ audio: true, paused: false, duration: 2.873438, alerts: [] }
+{
+  audio: true,
+  paused: false,
+  duration: 1.98525,
+  alerts: [ "Cannot read properties of undefined (reading 'active')" ]
+}
+waiting
+{
+  time: 5,
+  paused: true,
+  duration: 9.221188,
+  stored: '{"selection":{"domain":"scripture","id":"ReinaValera1909","title":"Reina Valera 1909","anchor":null},"sourceOwnerId":"spa-ReinaValera1909-10041001002","checkpoint":{"ownerDomain":"scripture","clipId":"spa-ab01e49116817c891856","sourceSha256":"ab01e49116817c891856cb750ab6ce63700ef97245c92028f85df9369ded3f25","outputSha256":"ad7f268d9a8f6900467511dec41334166054fbe08467501f0555f20fee520aeb","offsetSeconds":5,"phase":"unfinished"}}'
+}
+tab
+waiting
+PASS paused content5s survives explicit intro and restores paused; Resume retains offset
+tab
+PASS Spanish video original body/duration restored; one attribution

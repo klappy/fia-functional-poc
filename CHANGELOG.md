@@ -31,3 +31,7 @@ Combine presented-introduction memory with actual source playback highlighting. 
 ## 0.1.8
 
 Adds the published Door43 Spanish ULB edition of Mark 1:1–13, preserving its source and license. Thirteen verified recordings expand the Spanish offline audio set to 204 clips; original editions and saved reading positions remain intact.
+
+## 0.1.9
+
+Preserve paused or restoring playback and nested Guide context when opening Languages, so confirming the current language or a failed switch retains the resumable position.
