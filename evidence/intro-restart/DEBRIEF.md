@@ -1,0 +1,5 @@
+# Temporary introduction Restart
+
+Remote Autofix5dbad712 changes only the restart guard: temporary introductions restart their own clip; an ordinary notice restart retains existing content-selection behavior. Native proof uses the real exposed Guide header Restart after closing Info while its explicit intro plays. The Info dialog itself has no Restart button; no control was fabricated. Paused Guide content at5s remains stored, returns paused at5s after the restarted intro, and resumes only explicitly.
+
+Initial fixture diagnostics exposed a play/pause timing race (pausing before the initial play promise settled) and incorrectly expected a modal Restart. The corrected case waits for stable native playback and uses the actual header control. Failed receipts remain. CI34888858679 was70passed/one stale synthetic-intro expectation. Only the deliberate replay expected source owner changes to its real Guide identity; targeted fixture passes, retaining completion, Next and paused restoration checks. No source/audio bytes changed; no provider calls. Prior author2 plus coordinator-authorized fixtureauthor1 retained.
