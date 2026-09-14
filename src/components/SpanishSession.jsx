@@ -33,7 +33,7 @@ export default function SpanishSession({pack,onLanguage,busy,error,entryView,onC
  const update=delta=>setState(s=>({...s,...delta}));const groups=pack.guide.groups.filter(g=>g.ordinaryQueue),index=groups.findIndex(g=>g.id===state.groupId),group=groups[index];const sectionGroups=groups.filter(g=>g.section===group.section),sectionIndex=sectionGroups.findIndex(g=>g.id===group.id);const sectionTitles=pack.guide.blocks.filter(b=>b.element==='h2');const scroll=useRef(null);useEffect(()=>{if(scroll.current)scroll.current.scrollTop=0;},[state.groupId]);const allResources=[...pack.terms,...pack.media];const resources=pack.resourceOrder?pack.resourceOrder.map(id=>allResources.find(r=>r.id===id)).filter(Boolean):allResources;const visible=resources.filter(r=>r.title.toLowerCase().includes(state.query.toLowerCase()));
  const playback=useSpanishAudio(pack);
  const descriptor=(domain,id,title,anchor=null)=>({domain,id,title,anchor});
- const guideSelection=descriptor('guide',group.id,`Guide · ${sectionTitles.find(b=>b.section===group.section)?.text??''}`);
+ const guideSelection=descriptor('guide',group.id,`${sectionTitles.find(b=>b.section===group.section)?.text??''}`);
  const bible=pack.scripture.find(b=>b.id===state.version);
  const scriptureSelection=descriptor('scripture',bible.id,bible.title);
  const resourceSelection=(item,anchor=null)=>descriptor('resources',item.id,item.title,anchor);
