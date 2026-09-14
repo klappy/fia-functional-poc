@@ -10,3 +10,6 @@ First native attempt paused during initial notice and timed out after reload; pr
 
 ## Concurrent Autofix integration
 Autofix0561171 arrived during native verification; initial push correctly rejected. Inspected all four files. Its validated filter persistence duplicates the accepted fix. Its new example owner/domain would change the controller/queue contract and still leave stored modal children stale. Resolve normal merge to the already native-proven local implementation: existing resources owner/domain, live optional example body, validated filter and explicit defaultAll, accepted null fix. No additional production diff from e1cb996; preserve bot history without force push. Repeat affected native lifecycle and strict exact build. Additive integration author upper2/2, prior24 retained.
+
+## Accepted PR20 baseline integration
+Normal merge2e53ea8 intoPR21 retained highlight/filter/live example/null; only accepted attribution and video source context added to production. New validated migration expectation includes resourceFilterAll; original legacy row remains unchanged. Targeted migration and eight real visual recordings cold-offline PASS2/2; resource filter/paused offset/example playing-paused native repeated PASS. Strict405 build0.1.6 PASS. Additive author1 upper charged; prior27 retained. Other workers own forward22/23; preview unchanged.
