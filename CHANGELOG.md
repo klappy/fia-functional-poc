@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.6
+
+Highlight the actual playing Guide source, Spanish verse or resource body. English Scripture remains passage-level; paused playback retains its location without moving focus.
+
 ## 0.1.5
 
 - Integrate shared Resources and language picker with complete prepared narration and shared Guide/Scripture screens.
