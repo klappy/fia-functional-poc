@@ -1,0 +1,50 @@
+[
+  {
+    "lang": "eng",
+    "theme": "light",
+    "before": "S01",
+    "after": "S01",
+    "focused": true,
+    "colors": {
+      "fg": "rgb(14, 20, 32)",
+      "bg": "rgb(255, 255, 255)",
+      "scheme": "light"
+    }
+  },
+  {
+    "lang": "eng",
+    "theme": "dark",
+    "before": "S01",
+    "after": "S01",
+    "focused": true,
+    "colors": {
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(27, 30, 35)",
+      "scheme": "dark"
+    }
+  },
+  {
+    "lang": "spa",
+    "theme": "light",
+    "before": "1",
+    "after": "1",
+    "focused": true,
+    "colors": {
+      "fg": "rgb(14, 20, 32)",
+      "bg": "rgb(255, 255, 255)",
+      "scheme": "light"
+    }
+  },
+  {
+    "lang": "spa",
+    "theme": "dark",
+    "before": "1",
+    "after": "1",
+    "focused": true,
+    "colors": {
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(27, 30, 35)",
+      "scheme": "dark"
+    }
+  }
+]

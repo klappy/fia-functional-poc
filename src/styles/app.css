@@ -103,3 +103,6 @@ html[data-theme="dark"] .scripture-version{background:var(--material-floating)!i
 .app-aurora{overflow:clip!important}
 /* Audio wrapper spacing belongs to the card's Open target; controls remain independent. */
 .resource-card-actions{pointer-events:none}.resource-card-actions :is(button,a,input,select,textarea,[role="button"]){pointer-events:auto}
+
+:root { color-scheme: light; }
+[data-theme=dark] { color-scheme: dark; }

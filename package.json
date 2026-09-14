@@ -1,6 +1,6 @@
 {
   "name": "fia-functional-poc",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": true,
   "type": "module",
   "engines": {
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node scripts/build-offline-shell.mjs && node scripts/verify-release.mjs",
+    "build": "vite build && node scripts/build-offline-shell.mjs && node scripts/verify-release.mjs && node scripts/verify-release-stamp.mjs",
     "preview": "vite preview",
     "prepare:content": "node scripts/prepare-content.mjs",
     "verify:content": "node scripts/verify-content.mjs",
