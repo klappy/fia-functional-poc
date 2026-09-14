@@ -1,0 +1,5 @@
+# Forward integration
+
+Normal merges retain PR21 validated resource filter and live optional-example content, PR22 introduction replay and contextual details, and PR20's accepted shared-screen test baseline. ULB keeps three exact editions (ReinaValera1909, AquiferSpanishBibleReferenceText, Door43SpanishULB-v1.4),204 recordings and version0.1.8. Original media/source unchanged by the merges. SpanishSession conflicts preserve all three interfaces; the Scripture test combines current shared DOM with all three13-verse editions. Legacy raw saved rows remain unchanged; restored current state includes validated resourceFilter all.
+
+Native filter reload/paused resource/optional-example highlighting succeeds after adjusting the copied test's expected notice count to accepted synthetic-skip policy. Native introduction5s offset and original video body pass. Targeted edition and legacy migration Playwright tests2/2 pass without autoplay. Full final release build follows this commit. Original integration author2 and bounded continuationauthor2 retained; no provider calls or preview4794 change.
