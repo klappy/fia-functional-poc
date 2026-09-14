@@ -1,0 +1,50 @@
+node:internal/modules/run_main:123
+    triggerUncaughtException(
+    ^
+
+ExpectError: expect(locator).toContainText(expected) failed
+
+Locator: getByRole('button', { name: /^Español/ })
+Expected substring: "narration not yet prepared"
+Received string:    "EspañolSpanishspaText, images and prepared audio"
+Timeout: 5000ms
+
+Call log:
+  - Expect "toContainText" getByRole('button', { name: /^Español/ }) with timeout 5000ms
+  - waiting for getByRole('button', { name: /^Español/ })
+    14 × locator resolved to <button aria-pressed="true">…</button>
+       - unexpected value "EspañolSpanishspaText, images and prepared audio"
+
+    at captureRawStack (/private/tmp/fia-functional-poc-app/node_modules/playwright-core/lib/coreBundle.js:8588:17)
+    at callMatcherAsStep (/private/tmp/fia-functional-poc-app/node_modules/playwright/lib/matchers/expect.js:13310:57)
+    at Object.toContainText (/private/tmp/fia-functional-poc-app/node_modules/playwright/lib/matchers/expect.js:13302:23)
+    at /private/tmp/fia-shared-integration/evidence/picker-missing-audio/native.mjs:1:793 {
+  matcherResult: {
+    name: 'toContainText',
+    expected: 'narration not yet prepared',
+    message: 'expect(locator).toContainText(expected) failed\n' +
+      '\n' +
+      "Locator: getByRole('button', { name: /^Español/ })\n" +
+      'Expected substring: "narration not yet prepared"\n' +
+      'Received string:    "EspañolSpanishspaText, images and prepared audio"\n' +
+      'Timeout: 5000ms\n' +
+      '\n' +
+      'Call log:\n' +
+      `  - Expect "toContainText" getByRole('button', { name: /^Español/ }) with timeout 5000ms\n` +
+      "  - waiting for getByRole('button', { name: /^Español/ })\n" +
+      '    14 × locator resolved to <button aria-pressed="true">…</button>\n' +
+      '       - unexpected value "EspañolSpanishspaText, images and prepared audio"\n',
+    pass: false,
+    actual: 'EspañolSpanishspaText, images and prepared audio',
+    log: [
+      `  - Expect "toContainText" getByRole('button', { name: /^Español/ }) with timeout 5000ms`,
+      "  - waiting for getByRole('button', { name: /^Español/ })",
+      '    14 × locator resolved to <button aria-pressed="true">…</button>',
+      '       - unexpected value "EspañolSpanishspaText, images and prepared audio"'
+    ],
+    timeout: 5000,
+    ariaSnapshot: '- button "Español Spanish spa Text, images and prepared audio" [pressed]'
+  }
+}
+
+Node.js v22.16.0
