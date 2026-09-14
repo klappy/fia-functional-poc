@@ -167,22 +167,28 @@
     {
       "englishId": "eng-t104-v1",
       "spanishId": "spa-t104-v1",
-      "status": "existing original plus existing supplements; independent bilingual review pending",
+      "status": "Independent RETURN repaired by separate appendage; affected review pending",
       "existingSupplementIds": [
         "term-104-complete-sentence"
       ],
       "englishBodySha256": "7bb7688e18f8d7da80a9124d9e784a99fcd2864555c3239140ded20f35a12ef5",
       "evidence": "audit/COVERAGE-REVALIDATION.json",
-      "newMissingSpanEstablished": false
+      "newMissingSpanEstablished": true,
+      "newSupplementIds": [
+        "term-104-posture-correction"
+      ]
     },
     {
       "englishId": "eng-t109-v1",
       "spanishId": "spa-t109-v1",
-      "status": "existing original plus existing supplements; independent bilingual review pending",
+      "status": "Independent RETURN repaired by separate appendage; affected review pending",
       "existingSupplementIds": [],
       "englishBodySha256": "3c2131d60d4da149c2008971c25f16a1e09a9c5f4a70e55798c13b249670ebcd",
       "evidence": "audit/COVERAGE-REVALIDATION.json",
-      "newMissingSpanEstablished": false
+      "newMissingSpanEstablished": true,
+      "newSupplementIds": [
+        "term-109-repentance-enactment"
+      ]
     },
     {
       "englishId": "eng-t76-v1",
@@ -308,6 +314,9 @@
   "originalTermsSha256": "3374d4261a04b32ab0b67b0e871ac0301777b27641f65ce29d1980982113ea6e",
   "originalMediaSha256": "b43e0017ab07df18e4640ee2232df0b1714230d73a95e8ff3fbdd0476000293f",
   "existingEightSupplementsSha256": "a8660e1de135a51aa09bc1c0d67cd6d9688ff2c751b045963372960e615dcae9",
-  "newGapSupplements": [],
-  "remainingGate": "Independent full bilingual review; inherited unchanged-body audit is not new semantic validation"
+  "newGapSupplements": [
+    "term-109-repentance-enactment",
+    "term-104-posture-correction"
+  ],
+  "remainingGate": "Affected independent review of two corrective appendages; full32 review receipt retained"
 }
