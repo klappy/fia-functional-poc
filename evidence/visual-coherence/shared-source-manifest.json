@@ -63,7 +63,9 @@
     },
     {
       "path": "components/forms/GlassSelect.jsx",
-      "sha256": "387a4df7d40c3ae31032c568b2ed4d2ec7184e61ab31d16ddaeb73c086881d10"
+      "sha256": "e39ec23711b3d67b9d0c3e5c81c2d3b2c991f499cdffa2edb5f198852f61ccb7",
+      "upstreamSha256": "387a4df7d40c3ae31032c568b2ed4d2ec7184e61ab31d16ddaeb73c086881d10",
+      "localModification": "Native option theme tokens"
     },
     {
       "path": "components/forms/FilterChips.jsx",
@@ -119,9 +121,10 @@
     },
     {
       "path": "components/language/LanguagePicker.jsx",
-      "sha256": "7a4dd76f5085cd49a747efbc6939041eef40310b5597809c31a4c2e7a6471ca9",
+      "sha256": "c8e7c830f1a5db72d853ba4092fc1295ddd7fb89f18f9b904dcd4c1b13a61c15",
       "upstreamSha256": "000c036724dc6c941f102cfc722afc2a51cf8b1bd2c4f93bd8890768cde35c07",
-      "adaptation": "Actual complete LanguagePicker; optional truthful statusNote/AI legend control, accessible search label, responsive row wrapping. Search/autonyms/suggestions/coverage retained. Status now separate full-width row below identity and chips."
+      "adaptation": "Actual complete LanguagePicker; optional truthful statusNote/AI legend control, accessible search label, responsive row wrapping. Search/autonyms/suggestions/coverage retained. Status now separate full-width row below identity and chips.",
+      "localModification": "Opt-in concise presentation, deduplication, disabled rows, selection semantics; existing full picker retained"
     }
   ]
 }

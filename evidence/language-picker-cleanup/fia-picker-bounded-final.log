@@ -1,0 +1,14 @@
+[WebServer] (node:10404) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:10421) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 3 tests using 1 worker
+
+(node:10422) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/picker-cleanup.spec.js:2:1 › picker full search, same-language exit and verified destination (1.6s)
+  ✓  2 tests/picker-cleanup.spec.js:3:1 › busy rows disable and failed target retains picker (624ms)
+  ✓  3 tests/picker-cleanup.spec.js:4:1 › picker and native option tokens plus programmatic selection both themes and languages (1.8s)
+
+  3 passed (5.2s)
