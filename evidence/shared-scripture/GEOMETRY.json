@@ -1,0 +1,34 @@
+[
+  {
+    "language": "eng",
+    "width": 319,
+    "scrolls": 1,
+    "rightsLinks": 2,
+    "lastLinkBottom": 691.703125,
+    "footerTop": 829.59375
+  },
+  {
+    "language": "eng",
+    "width": 466,
+    "scrolls": 1,
+    "rightsLinks": 2,
+    "lastLinkBottom": 731.15625,
+    "footerTop": 829.59375
+  },
+  {
+    "language": "spa",
+    "width": 319,
+    "scrolls": 1,
+    "rightsLinks": 1,
+    "lastLinkBottom": 770.171875,
+    "footerTop": 829.59375
+  },
+  {
+    "language": "spa",
+    "width": 466,
+    "scrolls": 1,
+    "rightsLinks": 1,
+    "lastLinkBottom": 771.4375,
+    "footerTop": 829.59375
+  }
+]
