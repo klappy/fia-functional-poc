@@ -1,0 +1,61 @@
+{
+  "observedAt": "2026-09-14T16:00:17.499466+00:00",
+  "role": "Otto read-only route investigation",
+  "sourceIngress": {
+    "tool": "Lovable get_project and read_file",
+    "project": "Remarkably ODD",
+    "projectId": "f052a79f-6ad0-431f-8921-2ed7923bdd76",
+    "latestCommit": "ab5db936629f167380d5ee64060d425bc7fd1dd3",
+    "functionPath": "supabase/functions/podcast-tts-chunk/index.ts",
+    "configPath": "supabase/config.toml",
+    "preprocessorPath": "supabase/functions/_shared/orality.ts",
+    "configProjectMatchesClientRoute": true,
+    "databaseStatus": {
+      "enabled": true,
+      "stack": "supabase"
+    },
+    "githubRepositoryOwner": "not established; authenticated Lovable source ingress established"
+  },
+  "sourceSettings": {
+    "model": "eleven_multilingual_v2",
+    "outputFormat": "mp3_44100_128",
+    "voiceSettings": {
+      "stability": 0.7,
+      "similarity_boost": 0.9,
+      "style": 0.3,
+      "use_speaker_boost": true,
+      "speed": 1.0
+    },
+    "languageCodeSent": false,
+    "requestVoiceOverridesDefault": true,
+    "voiceBindingChecks": [
+      {
+        "path": "evidence/release/private-originals/mark-1-1-13-manifest.json",
+        "fileSha256": "8772e13f5e42cfd157c8b3cebb6495045a2122235379cc0aa5b285ad15f2b850",
+        "defaultVoiceMatchesCurrentSource": true
+      },
+      {
+        "path": "evidence/release/private-originals/terms-manifest.json",
+        "fileSha256": "b5678f53d0d608962e7dc19e34cbda1cf29006dc8e4504e9e720a70d9625802d",
+        "defaultVoiceMatchesCurrentSource": true
+      }
+    ],
+    "paragraphPauseSeconds": 0.6,
+    "otherPauseOverrides": 0,
+    "requestTextMaxLength": 12000,
+    "processedTextMaxLengthEnforced": false,
+    "providerQuotaReadbackRoute": false,
+    "moneyCapEnforcedByMiddleware": false,
+    "keySource": "server environment variable; value neither accessed nor disclosed"
+  },
+  "claimsBoundary": [
+    "Current latest source configuration verified; deployed function revision not exposed by available connector.",
+    "Voice source binding matches historical manifests; current account voice entitlement unverified.",
+    "No ElevenLabs account/quota/billing read capability exposed. Lovable workspace credits would not prove ElevenLabs entitlement.",
+    "No provider rate/current remaining credits/overage mode/retention attestation available.",
+    "Root independently verified provider v2 limit10000: worker should bound processed text to10000 despite middleware allowing12000 input.",
+    "Zero synthesis probes, provider generation requests, configuration mutations or credential retrieval."
+  ],
+  "providerCalls": 0,
+  "configurationMutations": 0
+}
