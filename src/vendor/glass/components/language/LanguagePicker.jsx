@@ -4,7 +4,7 @@ const FACE={ar:'var(--font-scripture-arabic)',fa:'var(--font-scripture-arabic)',
 const TYPES=['Bible','Notes','Words','Maps'];
 const TITLE={filter:'Resources in',attribute:'Project language',target:'Translate into',locale:'App language'};
 const hasAny=c=>/a|i/.test(c||'');
-export function LanguagePicker({languages=[],context='attribute',value,onChange,suggested=[],surface='popover',types=TYPES,title,placeholder='Name, autonym, code or region',fallbackNote,statusNote,showAiLegend=true,deduplicateNames=false,showCount=true,showGroups=true,showCoverage=true,showLegend=true,emptyMessage,disabled=false,style,...rest}){
+export function LanguagePicker({languages=[],context='attribute',value,onChange,suggested=[],surface='popover',selectedTreatment='glass',types=TYPES,title,placeholder='Name, autonym, code or region',fallbackNote,statusNote,showAiLegend=true,deduplicateNames=false,showCount=true,showGroups=true,showCoverage=true,showLegend=true,emptyMessage,disabled=false,style,...rest}){
   const [q,setQ]=React.useState('');
   const lq=q.trim().toLowerCase();
   const match=r=>!lq||[r.english,r.autonym,r.code,r.region,...(r.aliases||[])].filter(Boolean).some(v=>v.toLowerCase().includes(lq));
@@ -18,20 +18,20 @@ export function LanguagePicker({languages=[],context='attribute',value,onChange,
   const chip=(st,t)=>React.createElement('span',{key:t,title:`${t} · ${st==='a'?'available':st==='i'?'AI-translatable':'none'}`,style:{display:'inline-flex',alignItems:'center',padding:'3px 7px',borderRadius:'var(--r-pill)',font:'var(--fw-medium) 9px/1.1 var(--font-core)',letterSpacing:'.02em',whiteSpace:'nowrap',
       background:st==='n'?'transparent':'var(--glass-fill-4)',border:st==='n'?'1px dashed var(--text-dim)':'var(--border-glass)',color:st==='n'?'var(--text-dim)':'var(--text-title)',boxShadow:st==='n'?'none':'var(--inner-top)'}},t,
     st==='i'?React.createElement('span',{style:{marginInlineStart:4,padding:'1px 4px',borderRadius:'var(--r-pill)',background:'var(--surface-inverse)',color:'var(--text-on-inverse)',font:'var(--fw-semibold) 8px/1.1 var(--font-core)',letterSpacing:'.04em'}},'AI'):null);
-  const row=r=>{const a=value===r.code;const base=(r.code||'').split('-')[0];return React.createElement('button',{key:r.code,'aria-pressed':a,disabled,onClick:()=>onChange&&onChange(r.code,r),style:{boxSizing:'border-box',display:'flex',justifyContent:'space-between',alignItems:'center',gap:12,flexWrap:'wrap',width:'100%',padding:'10px 12px',borderRadius:'var(--r-sm)',border:'.5px solid transparent',
-      background:a?'var(--glass-fill-3)':'transparent',boxShadow:a?'var(--inner-top), var(--glow-focus)':'none',cursor:'pointer',textAlign:'start',color:'inherit',opacity:hasAny(r.coverage)||context==='locale'?1:.72,transition:'var(--t-hover)'}},
+  const row=r=>{const a=value===r.code;const inverse=a&&selectedTreatment==='inverse';const fg=token=>inverse?'var(--text-on-inverse)':token;const base=(r.code||'').split('-')[0];return React.createElement('button',{key:r.code,'aria-pressed':a,disabled,onClick:()=>onChange&&onChange(r.code,r),style:{boxSizing:'border-box',display:'flex',justifyContent:'space-between',alignItems:'center',gap:12,flexWrap:'wrap',width:'100%',padding:'10px 12px',borderRadius:'var(--r-sm)',border:'.5px solid transparent',
+      background:inverse?'var(--surface-inverse)':a?'var(--glass-fill-3)':'transparent',boxShadow:a?'var(--inner-top), var(--glow-focus)':'none',cursor:'pointer',textAlign:'start',color:'inherit',opacity:hasAny(r.coverage)||context==='locale'?1:.72,transition:'var(--t-hover)'}},
     React.createElement('span',{style:{display:'flex',flexDirection:'column',gap:2,minWidth:0,flex:1}},
       React.createElement('span',{style:{display:'flex',gap:8,alignItems:'baseline',flexWrap:'wrap'}},
-        React.createElement('span',{dir:r.dir||'ltr',lang:r.code,style:{font:`500 15px/1.3 ${FACE[base]||'var(--font-core)'}`,color:'var(--text-title)',letterSpacing:FACE[base]?0:'-0.01em'}},r.autonym),
-        (!deduplicateNames||r.autonym?.toLowerCase()!==r.english?.toLowerCase())?React.createElement('span',{style:{font:'var(--type-caption)',color:'var(--text-muted)'}},r.english):null,
-        React.createElement('span',{style:{font:'10px/1.2 var(--font-mono)',color:'var(--text-dim)'}},r.code)),
+        React.createElement('span',{dir:r.dir||'ltr',lang:r.code,style:{font:`500 15px/1.3 ${FACE[base]||'var(--font-core)'}`,color:fg('var(--text-title)'),letterSpacing:FACE[base]?0:'-0.01em'}},r.autonym),
+        (!deduplicateNames||r.autonym?.toLowerCase()!==r.english?.toLowerCase())?React.createElement('span',{style:{font:'var(--type-caption)',color:fg('var(--text-muted)')}},r.english):null,
+        React.createElement('span',{style:{font:'10px/1.2 var(--font-mono)',color:fg('var(--text-dim)')}},r.code)),
       null),
-    showCoverage&&r.coverage?React.createElement('span',{style:{display:'flex',gap:4,flex:'none',alignItems:'center'}},r.coverage.split('').map((st,i)=>chip(st,types[i]||''))):null,React.createElement('span',{className:'language-status',style:{flexBasis:'100%',textAlign:'start',font:'var(--type-caption)',color:'var(--text-dim)'}},note(r)));};
+    showCoverage&&r.coverage?React.createElement('span',{style:{display:'flex',gap:4,flex:'none',alignItems:'center'}},r.coverage.split('').map((st,i)=>chip(st,types[i]||''))):null,React.createElement('span',{className:'language-status',style:{flexBasis:'100%',textAlign:'start',font:'var(--type-caption)',color:fg('var(--text-muted)')}},note(r)));};
   const group=(label,rows)=>rows.length?[showGroups&&React.createElement('div',{key:'h'+label,style:{padding:'10px 12px 4px',font:'var(--type-overline)',letterSpacing:'var(--ls-overline)',textTransform:'uppercase',color:'var(--text-dim)'}},label),...rows.map(row)]:[];
   const total=sugg.length+rest_.length;
   const sheet=surface==='sheet';
   return React.createElement('div',{style:{boxSizing:'border-box',width:'100%',maxWidth:sheet?390:520,padding:sheet?'12px 16px 22px':'16px 16px 18px',borderRadius:sheet?'34px 34px 22px 22px':'var(--r-xl)',
-    background:'var(--material-floating)',backdropFilter:'blur(var(--blur-heavy)) var(--sat-glass)',WebkitBackdropFilter:'blur(var(--blur-heavy)) var(--sat-glass)',border:'var(--border-glass)',boxShadow:'var(--shadow-float), var(--inner-top)',color:'var(--text-title)',...style},...rest},
+    background:surface==='inline'?'var(--material-card)':'var(--material-floating)',backdropFilter:'blur(var(--blur-heavy)) var(--sat-glass)',WebkitBackdropFilter:'blur(var(--blur-heavy)) var(--sat-glass)',border:'var(--border-glass)',boxShadow:surface==='inline'?'var(--shadow-card), var(--inner-top)':'var(--shadow-float), var(--inner-top)',color:'var(--text-title)',...style},...rest},
     sheet?React.createElement('span',{'aria-hidden':true,style:{width:36,height:4,borderRadius:2,background:'var(--text-faint)',margin:'0 auto 12px',display:'block'}}):null,
     React.createElement('div',{style:{display:'flex',justifyContent:'space-between',alignItems:'baseline',gap:10}},
       React.createElement('div',{style:{font:'var(--type-card-title)',letterSpacing:'var(--ls-title)',whiteSpace:'nowrap'}},title||TITLE[context]),

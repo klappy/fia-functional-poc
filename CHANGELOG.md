@@ -3,6 +3,7 @@
 ## 0.1.4
 
 Complete prepared Spanish narration and offline saving; natural spoken Scripture references in both languages. Keep source text unchanged and availability details in context.
+- Clarify language selection with shared inline glass and selected contrast tokens; report actual partial Spanish recording availability.
 
 ## 0.1.3
 

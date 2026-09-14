@@ -123,7 +123,7 @@
       "path": "components/language/LanguagePicker.jsx",
       "sha256": "c8e7c830f1a5db72d853ba4092fc1295ddd7fb89f18f9b904dcd4c1b13a61c15",
       "upstreamSha256": "000c036724dc6c941f102cfc722afc2a51cf8b1bd2c4f93bd8890768cde35c07",
-      "adaptation": "Actual complete LanguagePicker; optional truthful statusNote/AI legend control, accessible search label, responsive row wrapping. Search/autonyms/suggestions/coverage retained. Status now separate full-width row below identity and chips.",
+      "adaptation": "Actual complete LanguagePicker; optional truthful statusNote/AI legend control, accessible search label, responsive row wrapping. Search/autonyms/suggestions/coverage retained. Status now separate full-width row below identity and chips. Optional inline material-card/shadow-card and inverse selected treatment borrow GlassTabBar semantic tokens; all selected identity/status text uses text-on-inverse. Defaults retained.",
       "localModification": "Opt-in concise presentation, deduplication, disabled rows, selection semantics; existing full picker retained"
     }
   ]
