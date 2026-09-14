@@ -1,0 +1,77 @@
+[WebServer] (node:22294) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:22312) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:22315) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:22333) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:22350) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 27 tests using 1 worker
+
+(node:22351) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/inset-glass.spec.js:2:1 › inset credit and native transport remain reachable under actual playback (1.1s)
+click { x: 5, y: 110 } { tag: 'BUTTON', cls: 'resource-surface-open' }
+click { x: 20, y: 60 } { tag: 'BUTTON', cls: 'resource-surface-open' }
+click { x: 35, y: 115 } { tag: 'BUTTON', cls: 'resource-surface-open' }
+  ✓   2 tests/resource-order.spec.js:2:1 › row order and full card native opening preserve independent audio (3.6s)
+  ✓   3 tests/resource-order.spec.js:3:1 › filtered DOM keyboard and player adjacency retain source order (810ms)
+{"width":319,"theme":"dark","x":0,"auroraScroll":0,"doc":319,"rects":{".app-shell":{"x":0,"right":319,"width":319},".official-fia-mark":{"x":14,"right":99.046875,"width":85.046875},"input[type=search]":{"x":65,"right":284,"width":219},".resource-grid":{"x":14,"right":305,"width":291},".resource-card":{"x":18,"right":301,"width":283}}}
+{"width":319,"theme":"light","x":0,"auroraScroll":0,"doc":319,"rects":{".app-shell":{"x":0,"right":319,"width":319},".official-fia-mark":{"x":14,"right":99.046875,"width":85.046875},"input[type=search]":{"x":65,"right":284,"width":219},".resource-grid":{"x":14,"right":305,"width":291},".resource-card":{"x":18,"right":301,"width":283}}}
+{"width":466,"theme":"dark","x":0,"auroraScroll":0,"doc":466,"rects":{".app-shell":{"x":0,"right":466,"width":466},".official-fia-mark":{"x":18,"right":103.046875,"width":85.046875},"input[type=search]":{"x":69,"right":427,"width":358},".resource-grid":{"x":18,"right":448,"width":430},".resource-card":{"x":22,"right":227,"width":205}}}
+{"width":466,"theme":"light","x":0,"auroraScroll":0,"doc":466,"rects":{".app-shell":{"x":0,"right":466,"width":466},".official-fia-mark":{"x":18,"right":103.046875,"width":85.046875},"input[type=search]":{"x":69,"right":427,"width":358},".resource-grid":{"x":18,"right":448,"width":430},".resource-card":{"x":22,"right":227,"width":205}}}
+{"width":726,"theme":"dark","x":0,"auroraScroll":0,"doc":726,"rects":{".app-shell":{"x":0,"right":726,"width":726},".official-fia-mark":{"x":24,"right":109.046875,"width":85.046875},"input[type=search]":{"x":75,"right":681,"width":606},".resource-grid":{"x":24,"right":702,"width":678},".resource-card":{"x":28,"right":357,"width":329}}}
+{"width":726,"theme":"light","x":0,"auroraScroll":0,"doc":726,"rects":{".app-shell":{"x":0,"right":726,"width":726},".official-fia-mark":{"x":24,"right":109.046875,"width":85.046875},"input[type=search]":{"x":75,"right":681,"width":606},".resource-grid":{"x":24,"right":702,"width":678},".resource-card":{"x":28,"right":357,"width":329}}}
+  ✓   4 tests/resource-order.spec.js:4:1 › resource viewport diagnostics (2.7s)
+{"width":319,"shell":0,"aurora":0,"x":19,"right":300,"top":741.5625,"bottom":895.5625,"w":319,"h":987,"name":"Open Jordan River image"}
+{"width":319,"shell":0,"aurora":0,"x":246,"right":290,"top":841.5625,"bottom":885.5625,"w":319,"h":987,"name":"Play Jordan River"}
+{"width":319,"shell":0,"aurora":0,"x":19,"right":300,"top":832.5625,"bottom":986.5625,"w":319,"h":987,"name":"Open Wilderness or Desert image"}
+{"width":319,"shell":0,"aurora":0,"x":246,"right":290,"top":932.5625,"bottom":976.5625,"w":319,"h":987,"name":"Play Wilderness or Desert"}
+{"width":319,"shell":0,"aurora":0,"x":19,"right":300,"top":416.5625,"bottom":570.5625,"w":319,"h":987,"name":"Open Sandals — full view image"}
+{"width":319,"shell":0,"aurora":0,"x":246,"right":290,"top":516.5625,"bottom":560.5625,"w":319,"h":987,"name":"Play Sandals — full view"}
+{"width":319,"shell":0,"aurora":0,"x":19,"right":300,"top":584.5625,"bottom":738.5625,"w":319,"h":987,"name":"Open Sandals — close view image"}
+{"width":319,"shell":0,"aurora":0,"x":246,"right":290,"top":684.5625,"bottom":728.5625,"w":319,"h":987,"name":"Play Sandals — close view"}
+{"width":466,"shell":0,"aurora":0,"x":240,"right":443,"top":388.78125,"bottom":542.78125,"w":466,"h":987,"name":"Open Jordan River image"}
+{"width":466,"shell":0,"aurora":0,"x":389,"right":433,"top":488.78125,"bottom":532.78125,"w":466,"h":987,"name":"Play Jordan River"}
+{"width":466,"shell":0,"aurora":0,"x":23,"right":226,"top":562.5625,"bottom":716.5625,"w":466,"h":987,"name":"Open Wilderness or Desert image"}
+{"width":466,"shell":0,"aurora":0,"x":172,"right":216,"top":662.5625,"bottom":706.5625,"w":466,"h":987,"name":"Play Wilderness or Desert"}
+{"width":466,"shell":0,"aurora":0,"x":240,"right":443,"top":562.5625,"bottom":716.5625,"w":466,"h":987,"name":"Open Sandals — full view image"}
+{"width":466,"shell":0,"aurora":0,"x":389,"right":433,"top":662.5625,"bottom":706.5625,"w":466,"h":987,"name":"Play Sandals — full view"}
+{"width":466,"shell":0,"aurora":0,"x":23,"right":226,"top":730.5625,"bottom":884.5625,"w":466,"h":987,"name":"Open Sandals — close view image"}
+{"width":466,"shell":0,"aurora":0,"x":172,"right":216,"top":830.5625,"bottom":874.5625,"w":466,"h":987,"name":"Play Sandals — close view"}
+{"width":726,"shell":0,"aurora":0,"x":370,"right":697,"top":375.1875,"bottom":533.1875,"w":726,"h":987,"name":"Open Jordan River image"}
+{"width":726,"shell":0,"aurora":0,"x":641,"right":685,"top":477.1875,"bottom":521.1875,"w":726,"h":987,"name":"Play Jordan River"}
+{"width":726,"shell":0,"aurora":0,"x":29,"right":356,"top":547.1875,"bottom":705.1875,"w":726,"h":987,"name":"Open Wilderness or Desert image"}
+{"width":726,"shell":0,"aurora":0,"x":300,"right":344,"top":649.1875,"bottom":693.1875,"w":726,"h":987,"name":"Play Wilderness or Desert"}
+{"width":726,"shell":0,"aurora":0,"x":370,"right":697,"top":547.1875,"bottom":705.1875,"w":726,"h":987,"name":"Open Sandals — full view image"}
+{"width":726,"shell":0,"aurora":0,"x":641,"right":685,"top":649.1875,"bottom":693.1875,"w":726,"h":987,"name":"Play Sandals — full view"}
+{"width":726,"shell":0,"aurora":0,"x":29,"right":356,"top":719.1875,"bottom":877.1875,"w":726,"h":987,"name":"Open Sandals — close view image"}
+{"width":726,"shell":0,"aurora":0,"x":300,"right":344,"top":821.1875,"bottom":865.1875,"w":726,"h":987,"name":"Play Sandals — close view"}
+  ✓   5 tests/resource-order.spec.js:5:1 › keyboard focus never scrolls aurora horizontally (1.1s)
+  ✓   6 tests/resource-order.spec.js:6:1 › failed recording leaves whole card center openable (751ms)
+  ✓   7 tests/spanish-audio.spec.js:4:1 › fixture native guide notice then content completion keeps boundary and supports paused restore (7.4s)
+  ✓   8 tests/spanish-audio.spec.js:5:1 › fixture native Resources modal keeps single owner and keyboard close restores focus (1.9s)
+  ✓   9 tests/spanish-audio.spec.js:7:1 › fixture audio storage failure has separate visible warning (491ms)
+  ✓  10 tests/spanish-integration.spec.js:3:1 › full picker and English Spanish reload switches never autoplay (2.5s)
+  ✓  11 tests/spanish-integration.spec.js:4:1 › Spanish saves separate verified text pack and restores offline (3.0s)
+  ✓  12 tests/spanish-integration.spec.js:5:1 › Spanish narrow full picker source view and keyboard example return (1.1s)
+  ✓  13 tests/spanish-integration.spec.js:6:1 › corrupt target retains paused English with zero added plays (704ms)
+  ✓  14 tests/spanish-integration.spec.js:7:1 › denied storage fonts blocked and large Spanish text remain usable (768ms)
+  ✓  15 tests/spanish-integration.spec.js:8:1 › Spanish invalid source ID visibly resets without autoplay (870ms)
+  ✓  16 tests/spanish-integration.spec.js:9:1 › saved legacy English then new Spanish launches current shell offline (3.2s)
+  ✓  17 tests/spanish-integration.spec.js:10:1 › repaired Spanish position drops both new and historical persisted warning on reload (1.1s)
+  ✓  18 tests/spanish-integration.spec.js:11:1 › English Languages view survives reload without autoplay (461ms)
+  ✓  19 tests/spanish-integration.spec.js:12:1 › Languages reload keeps explicit Resume at native checkpoint (724ms)
+  ✓  20 tests/spanish-integration.spec.js:14:1 › language roundtrip preserves native checkpoint and shared theme (1.2s)
+  ✓  21 tests/spanish-integration.spec.js:17:1 › online deferred audio fetch › pending English start is fenced during slow Spanish selection (553ms)
+  ✓  22 tests/spanish-integration.spec.js:20:1 › Spanish theme preserves legacy English guide position (751ms)
+  ✓  23 tests/spanish-integration.spec.js:21:1 › Spanish invalid position and theme quota warnings remain distinct (703ms)
+  ✓  24 tests/spanish-integration.spec.js:23:1 › original Spanish editions and translated resource provenance preserve no autoplay (1.4s)
+  ✓  25 tests/spanish-integration.spec.js:25:1 › known original Spanish workspace upgrades with validated position and no autoplay (921ms)
+  ✓  26 tests/visual-audio.spec.js:2:1 › eight real visual clips verify and play cold offline with optional details and filtered owner (8.4s)
+  ✓  27 tests/visual-audio.spec.js:3:1 › missing visual recording exposes error while original image remains openable (814ms)
+
+  27 passed (51.2s)
