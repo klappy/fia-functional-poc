@@ -1,0 +1,13 @@
+{
+  time: 5,
+  paused: true,
+  stored: '{"selection":{"domain":"guide","id":"spa-mrk-p1-v2.1-s1-u003","title":"Escuchar con el corazón","anchor":null},"sourceOwnerId":"spa-spa-mrk-p1-v2.1-s1-u003","checkpoint":{"ownerDomain":"guide","clipId":"spa-a2b89ae2ba20582a03e5","sourceSha256":"a2b89ae2ba20582a03e53143543fe88c07c1ee6048aac689d0adcec5cf90b979","outputSha256":"a70b66aeac133f0d25695a18937ab98e7d892ee3c4cf505a6ead7e7549a8a5d6","offsetSeconds":5,"phase":"unfinished"}}',
+  all: [
+    'fia-workspace/spa/spa-mrk-1-1-13-expanded-v2/01d6b3faf3e2e8313ce02cec01f91354724624f45f29896b4535d1d256cf1645',
+    'fia.workspace.mark-1-1-13.v2',
+    'fia-audio-checkpoint/spa/v1',
+    'fia-content-language-v1'
+  ],
+  body: 'GuideEscuchen una versión en audio de Marcos 1:1–13 tres veces, de ser posible, en tres traducciones diferentes. Luego, de forma grupal, platiquen de las siguientes preguntas:Play Scripture RV1909Read the selected ScriptureEscuchar con el corazón '
+}
+PASS actual Info Restart button restarts temporary intro; preserved Guide5s restores paused and explicit Resume retains offset
