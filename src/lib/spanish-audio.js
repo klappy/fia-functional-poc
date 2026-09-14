@@ -24,7 +24,7 @@ export function spanishQueue(pack,selection,manifest,introduced=new Set()){
  const ids=spanishOwnerIds(pack,selection);if(!ids.length)return [];
  const entries=new Map((manifest?.entries??[]).map(e=>[e.id,e]));const result=[];const groups=new Set(introduced);
  const add=(o,notice=false,forGroup=null)=>{if(!o)return false;const r=o.request,e=entries.get(r.id);if(!e||e.sourceSha256!==r.sourceSha256||e.processedTextSha256&&e.processedTextSha256!==r.processedTextSha256||!e.sha256||!e.bytes)return false;result.push({id:r.id,text:r.text,owner:selection.domain==='guide'?'guide':selection.domain==='scripture'?'scripture':'resources',title:selection.title,fullTitle:selection.title,sourceOwnerId:o.ownerId,playbackGroupId:forGroup??o.playbackGroupId,notice,stop:false});return true;};
- for(const id of ids){const o=ownerIndex.get(id);if(!o)return [];if(!groups.has(o.playbackGroupId)){for(const n of o.spokenNoticeOwnerIds??[])if(!add(ownerIndex.get(n),true,o.playbackGroupId))return [];groups.add(o.playbackGroupId);}if(!add(o))return [];}
+ for(const id of ids){const o=ownerIndex.get(id);if(!o)return [];if(!groups.has(o.playbackGroupId)){for(const n of o.spokenNoticeOwnerIds??[])if(!add(ownerIndex.get(n),true,o.playbackGroupId)&&!manifest?.partialWrittenNotices)return [];groups.add(o.playbackGroupId);}if(!add(o))return [];}
  if(result.length)result[result.length-1].stop=selection.domain==='guide'||selection.domain==='example';
  return result;
 }
@@ -41,3 +41,5 @@ export function restoreSpanishAudio(storage,pack,manifest){
  }catch{return invalid();}
 }
 export function saveSpanishAudio(storage,selection,controller){try{const checkpoint=controller.checkpoint();if(!checkpoint||!selection){storage?.removeItem(spanishAudioCheckpointKey);return !!storage;}storage?.setItem(spanishAudioCheckpointKey,JSON.stringify({selection,sourceOwnerId:controller.item.sourceOwnerId,checkpoint}));return !!storage;}catch{return false;}}
+
+export function spanishPendingNotices(pack,selection,manifest){if(!manifest?.partialWrittenNotices)return [];const available=new Set(manifest.entries.map(e=>e.id));return [...new Set(spanishOwnerIds(pack,selection).flatMap(id=>ownerIndex.get(id)?.spokenNoticeOwnerIds??[]))].map(id=>ownerIndex.get(id)?.request).filter(r=>r&&!available.has(r.id)).map(r=>r.text);}

@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.3
+
+Enable verified prepared Spanish narration per available source group. Partial recordings and pending spoken introductions are labeled; text/image offline saving remains separate until the full audio pack is verified. Preserve shared controls and saved Spanish positions.
+
 ## 0.1.2
 
 Complete Spanish resource coverage with labeled AI translations and three separately attributed Scripture supplements. Preserve original sources, migrate validated prior Spanish positions, and save the expanded text/image pack offline without claiming narration.

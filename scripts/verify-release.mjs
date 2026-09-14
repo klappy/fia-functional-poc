@@ -4,8 +4,9 @@ const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
 const shell=JSON.parse(fs.readFileSync('dist/offline-shell.json'));
 const pinned=JSON.parse(fs.readFileSync('evidence/release/APPROVED-PUBLIC-PATHS.json'));
 const generated=fs.readdirSync('dist/assets').filter(p=>/^index-[A-Za-z0-9_-]+\.(js|css)$/.test(p)).map(p=>'assets/'+p);
-const allowed=new Set([...pinned,...generated,'index.html','offline-shell.json','offline-spa.json']);
-if(shell.entries.length!==200||allowed.size!==213||generated.length!==2)throw Error('Release inventory count changed');
+const spa=JSON.parse(fs.readFileSync('dist/content/spa/mark-1-1-13/manifest.json'));const spaAudio=spa.preparedAudio?JSON.parse(fs.readFileSync('dist'+spa.preparedAudio.path)):null;const spaPaths=spaAudio?['audio/spa/manifest.json',...spaAudio.entries.map(e=>e.path.slice(1))]:[];
+const allowed=new Set([...pinned,...generated,...spaPaths,'index.html','offline-shell.json','offline-spa.json']);
+if(shell.entries.length!==200||allowed.size!==213+spaPaths.length||generated.length!==2)throw Error('Release inventory count changed');
 const walk=(dir,prefix='')=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(`${dir}/${e.name}`,`${prefix}${e.name}/`):[`${prefix}${e.name}`]);
 const files=walk('dist');
 if(files.length!==allowed.size||files.some(p=>!allowed.has(p)))throw Error('Unapproved release file');
@@ -14,7 +15,7 @@ const forbidden=[...originals.map(m=>m.voiceId).filter(Boolean),'zfqwbkgtsqkcnrg
 for(const p of files){const body=fs.readFileSync(`dist/${p}`);if(/\.(json|js|css|html)$/.test(p)&&forbidden.some(s=>body.includes(s)))throw Error(`Private release content: ${p}`);}
 for(const e of shell.entries){const b=fs.readFileSync(`dist${e.path}`);if(b.length!==e.bytes||hash(b)!==e.sha256)throw Error(`Release hash mismatch: ${e.path}`);}
 const packet=JSON.parse(fs.readFileSync('evidence/release/EXACT-NARRATION-PACKET.json'));
-if(packet.records.length!==172||files.filter(p=>p.endsWith('.mp3')).length!==172)throw Error('Narration inventory changed');
+if(packet.records.length!==172||files.filter(p=>p.endsWith('.mp3')).length!==172+(spaAudio?.entries.length??0))throw Error('Narration inventory changed');
 for(const r of packet.records)if(hash(fs.readFileSync(`dist${r.path}`))!==r.audioSha256)throw Error('Approved narration bytes changed');
 const config=JSON.parse(fs.readFileSync('wrangler.jsonc'));
 if(config.assets.directory!=='./dist'||config.main||config.workers_dev!==false||config.preview_urls!==false||config.routes.length!==1||config.routes[0].pattern!=='fia.klappy.dev'||config.routes[0].custom_domain!==true)throw Error('Publication boundary changed');

@@ -17,6 +17,8 @@ for(const id of ['a203','c201','c168']){
  assetWitnesses[id]={assetPath,assetSha256:witness.sha256,assetBytes:witness.bytes,optional:false};assetFiles.push({assetPath,bytes});
 }
 const pack=expandSpanish(original,{resourceRaw:resources,resourceReceipt:await read(dir+'RESOURCES-ACCEPTANCE.json'),scriptureRaw:scripture,scriptureReceipt:await read(dir+'SCRIPTURE-ACCEPTANCE.json'),correctionsRaw:corrections,correctionsReceipt:await read(dir+'CORRECTIONS-ACCEPTANCE.json'),resourceMap:await read(dir+'RESOURCE-MAP.json'),assetWitnesses});
+// Explicit user correction: AI-derived Scripture is excluded from runtime projection.
+pack.scripture=original.scripture;pack.readiness.scriptureText='two original Spanish editions';delete pack.expansion.scriptureReceipt;pack.expansion.scriptureEditionCount=2;
 const english=await read('public/content/mark-1-1-13/resources.json');
 for(const r of [...pack.terms,...pack.media].filter(r=>r.origin))r.englishSourceAssociations=english.find(e=>`ai-spa-from-${e.content_id}`===r.id)?.associations??{};
 const text=JSON.stringify(pack,null,2)+'\n';

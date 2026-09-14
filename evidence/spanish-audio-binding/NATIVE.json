@@ -1,0 +1,13 @@
+{
+  "requested": [
+    "http://127.0.0.1:4794/audio/spa/manifest.json",
+    "http://127.0.0.1:4794/audio/spa/spa-06c24ec382679df35569.mp3",
+    "http://127.0.0.1:4794/audio/spa/manifest.json",
+    "http://127.0.0.1:4794/audio/spa/spa-06c24ec382679df35569.mp3"
+  ],
+  "src": "blob:http://127.0.0.1:4794/a71930be-2238-4e73-9671-e2baa6ff88b1",
+  "duration": 1.750188,
+  "playing": true,
+  "pausedRestore": true,
+  "noticeVisible": true
+}
