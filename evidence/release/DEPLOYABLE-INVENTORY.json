@@ -1034,17 +1034,17 @@
     {
       "path": "index.html",
       "bytes": 566,
-      "sha256": "efdc47c509e2d72e2a55332231ded8000af2ed74ec4f5f97aa05a3feb527612f"
+      "sha256": "249639d8e0c22eadb71a215988088814fa7e96116a76bf3341c191158730e44d"
     },
     {
       "path": "offline-shell.json",
       "bytes": 44085,
-      "sha256": "d9212951a9312c11bc9c283cf4ed53f1e131ead94aea9c1f791c4bdb25eb7ddd"
+      "sha256": "bb0fab4391e90843d22f5ec0d058a63f1fab8a1c5a8a3526ea5686bc5b917be4"
     },
     {
       "path": "offline-spa.json",
       "bytes": 3437,
-      "sha256": "80f56c2746d85e503595fe0ce90a72bcb3df0e92a1797f2b104b5271a0a75ac3"
+      "sha256": "3ba13bd852c398ac63e94f371b39eecf6951d26a3008bd79cc3a44d3c5b126ad"
     },
     {
       "path": "sw.js",

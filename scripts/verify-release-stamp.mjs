@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {execFileSync} from 'node:child_process';
+const {version}=JSON.parse(fs.readFileSync('package.json'));
+const sha=execFileSync('git',['rev-parse','--short=7','HEAD'],{encoding:'utf8'}).trim();
+const html=fs.readFileSync('dist/index.html','utf8');
+const stamps=[...html.matchAll(/<meta name="fia-release" content="([^"]+)">/g)];
+assert.equal(stamps.length,1,'exactly one release stamp required');
+assert.equal(stamps[0][1],`${version}+${sha}`,'built version and source revision must match current checkout');
+console.log(`Release stamp PASS: ${stamps[0][1]}`);
