@@ -6,7 +6,7 @@ export function acceptedPacket(raw,receipt){
  return JSON.parse(raw);
 }
 // Pure projection: never writes public assets or changes original source objects.
-export function expandSpanish(original,{resourceRaw,resourceReceipt,scriptureRaw,scriptureReceipt,resourceMap,assetWitnesses={}}){
+export function expandSpanish(original,{resourceRaw,resourceReceipt,scriptureRaw,scriptureReceipt,resourceMap,assetWitnesses={},correctionsRaw,correctionsReceipt}){
  const resources=acceptedPacket(resourceRaw,resourceReceipt),scripture=acceptedPacket(scriptureRaw,scriptureReceipt).supplements;
  requireValue(original.terms.length===17&&original.media.length===5&&original.scripture.length===2&&original.supplements.length===8,'Unexpected original pack membership');
  const expected=resourceMap.filter(r=>!r.spanishId).map(r=>r.englishId);
@@ -30,10 +30,19 @@ export function expandSpanish(original,{resourceRaw,resourceReceipt,scriptureRaw
    return {id:`${s.id}-v${v.verse}`,reference:`Mark 1:${v.verse}`,originalHtml,bodySha256:hash(originalHtml),provenance:v};
   })};
  });
+ const corrections=correctionsRaw?acceptedPacket(correctionsRaw,correctionsReceipt):[];
+ requireValue(corrections.length===0||corrections.length===2,'Wrong corrective supplement membership');
+ for(const c of corrections){
+  const target=original.terms.find(t=>t.id===c.targetId);
+  requireValue(['term-109-repentance-enactment','term-104-posture-correction'].includes(c.id)&&target&&hash(target.originalHtml)===c.provenance.originalSpanishBodySha256,'Correction target changed');
+  const witness=resourceMap.find(r=>r.englishId===c.source.sourceId);
+  requireValue(witness&&witness.englishBodySha256===c.source.sourceBodySha256&&hash(c.source.sourceHtml)===c.source.sourceSpanSha256&&hash(c.content)===c.sha256&&c.rights.priorNoticesRetained,'Correction source/output mismatch');
+ }
+ requireValue(new Set(corrections.map(c=>c.id)).size===corrections.length,'Duplicate corrective supplement');
  const terms=[...original.terms,...projected.filter(r=>r.kind==='term')],media=[...original.media,...projected.filter(r=>r.kind!=='term')];
  const sourceOrder=resourceMap.map(r=>r.spanishId??`ai-spa-from-${r.englishId}`);
  const ids=[...terms,...media].map(r=>r.id);
  requireValue(ids.length===34&&new Set(ids).size===34&&sourceOrder.every(id=>ids.includes(id)),'Expanded identity union invalid');
  const resourceOrder=[...sourceOrder,...ids.filter(id=>!sourceOrder.includes(id))];
- return {...original,id:'spa-mrk-1-1-13-expanded-v2',terms,media,scripture:[...original.scripture,...editions],resourceOrder,audioFirstComplete:false,readiness:{...original.readiness,terms:'23 Spanish term bodies; original bodies and eight existing supplements retained',scriptureText:'two original Spanish editions and three AI-derived Spanish supplements',media:'verified image assets; three original online videos with translated metadata',audio:'unavailable; no Spanish recordings bound'},expansion:{resourceReceipt,scriptureReceipt,resourceCount:34,scriptureEditionCount:5}};
+ return {...original,supplements:corrections.length?[...original.supplements,...corrections]:original.supplements,id:'spa-mrk-1-1-13-expanded-v2',terms,media,scripture:[...original.scripture,...editions],resourceOrder,audioFirstComplete:false,readiness:{...original.readiness,terms:'23 Spanish term bodies; original bodies and eight existing supplements retained',scriptureText:'two original Spanish editions and three AI-derived Spanish supplements',media:'verified image assets; three original online videos with translated metadata',audio:'unavailable; no Spanish recordings bound'},expansion:{resourceReceipt,scriptureReceipt,correctionsReceipt,resourceCount:34,scriptureEditionCount:5}};
 }
