@@ -1,0 +1,806 @@
+[
+  {
+    "id": "ai-spa-from-a13",
+    "englishId": "a13",
+    "kind": "video",
+    "language": "spa",
+    "title": "Río Jordán",
+    "body": "<h3>Contenido de video</h3>\n<p><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a13/720p.mp4'></a> (79 segundos)</p><p align='center'><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a13/720p.mp4'>enlace</a></p>",
+    "label": "Traducción con IA",
+    "notice": "Traducción al español realizada con IA a partir del original inglés; no es una edición oficial del proveedor. Se tradujeron solo el título y los metadatos disponibles; el video original no está doblado al español.",
+    "provenance": {
+      "method": "AI translation by OpenAI Codex assistant; independent bilingual review pending",
+      "sourceTitle": "Jordan River",
+      "sourceTitleSha256": "f7f779b3ed301636ebe113bdb367f40157a16f7408a4e2c80847c6978ff5a271",
+      "sourceHtml": "<h3>Video Content</h3>\n<p><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a13/720p.mp4'></a> (79 seconds)</p><p align='center'><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a13/720p.mp4'>link</a></p>",
+      "sourceSpan": {
+        "start": 0,
+        "end": 229,
+        "unit": "Unicode code points"
+      },
+      "sourceHtmlSha256": "c45baf41d3cd59d3fc27dd57c3dc52e8109c846462668d0a3693f12ee88d16c5",
+      "source": {
+        "repo": "VideoBibleDictionary",
+        "commit": "85b4bec7634f3f5989d0767b372084eb19098227",
+        "path": "eng/json/008.content.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/VideoBibleDictionary/85b4bec7634f3f5989d0767b372084eb19098227/eng/json/008.content.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "b6c6a377ce2e249e4ea3b51f50e96ca2e01928d1caed56c844bcf193a4d296fb",
+        "contentSha256": "b76b7b5b8057d8182039e4e7355f5dd55b04cfa94f92b3b33e1f19e5b2562884",
+        "apiCaptureSha256": "d404f8b4bd05fc36ea233c292b623a0c01d73497f4416790e7d14b8b0d6bdacc",
+        "apiBodyComparison": "relative thumbnails/ URL expanded to https://raw.githubusercontent.com/BibleAquifer/VideoBibleDictionary/main/eng/json/thumbnails/"
+      },
+      "rights": {
+        "repo": "VideoBibleDictionary",
+        "commit": "85b4bec7634f3f5989d0767b372084eb19098227",
+        "path": "eng/metadata.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/VideoBibleDictionary/85b4bec7634f3f5989d0767b372084eb19098227/eng/metadata.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "0ee926ba342a88c754f08f2eb9a735ea9826a0a9367aace67550460166eedcfc",
+        "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Videos",
+        "metadataVersion": "1.1.2",
+        "licenseInfo": {
+          "title": "Video Bible Dictionary",
+          "copyright": {
+            "dates": "2025",
+            "holder": {
+              "name": "Word Collective",
+              "url": "https://wordcollective.com"
+            }
+          },
+          "licenses": [
+            {
+              "eng": {
+                "name": "CC BY-SA 4.0 license",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+              }
+            }
+          ],
+          "showAdaptationNoticeForEnglish": false,
+          "showAdaptationNoticeForNonEnglish": false
+        },
+        "adaptationNotice": "<p><b>Video Bible Dictionary</b> © 2025 Word Collective. Released under CC BY-SA 4.0 license. <cite>Video Bible Dictionary</cite> has been adapted in the following languages: Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Video Bible Dictionary</cite> © 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>"
+      },
+      "translatedTitleSha256": "6fbf004dc6825d4aec1d8379dc1b13ca303a245a2f1e698130b92ebda6a9b20a",
+      "translatedBodySha256": "4156fc04bb50edc43837500ceca365b4ae5e5de9bc0e99286e9169095485a31c"
+    },
+    "reviewState": "proposed — independent bilingual review required"
+  },
+  {
+    "id": "ai-spa-from-a184",
+    "englishId": "a184",
+    "kind": "video",
+    "language": "spa",
+    "title": "Sandalias",
+    "body": "<h3>Contenido de video</h3>\n<p><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a184/720p.mp4'></a> (56 segundos)</p><p align='center'><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a184/720p.mp4'>enlace</a></p>",
+    "label": "Traducción con IA",
+    "notice": "Traducción al español realizada con IA a partir del original inglés; no es una edición oficial del proveedor. Se tradujeron solo el título y los metadatos disponibles; el video original no está doblado al español.",
+    "provenance": {
+      "method": "AI translation by OpenAI Codex assistant; independent bilingual review pending",
+      "sourceTitle": "Sandals",
+      "sourceTitleSha256": "08205319f476c5f91e95c7060b61f59271dca6d3f7d5db53feca20a61ea71549",
+      "sourceHtml": "<h3>Video Content</h3>\n<p><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a184/720p.mp4'></a> (56 seconds)</p><p align='center'><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a184/720p.mp4'>link</a></p>",
+      "sourceSpan": {
+        "start": 0,
+        "end": 231,
+        "unit": "Unicode code points"
+      },
+      "sourceHtmlSha256": "f91f51582f3a9c3258c4764a8381345ef26b574627436721e63cc62a69a417a6",
+      "source": {
+        "repo": "VideoBibleDictionary",
+        "commit": "85b4bec7634f3f5989d0767b372084eb19098227",
+        "path": "eng/json/015.content.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/VideoBibleDictionary/85b4bec7634f3f5989d0767b372084eb19098227/eng/json/015.content.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "f5084d0a8d3487b9a0bc6335c92ca71635e5bfbadd2ea495b0a7bad37536b550",
+        "contentSha256": "f26d2e5ccc3fe6efbd6d89f60ed46c66d807a3219700dfba0de122f06ba35b9a",
+        "apiCaptureSha256": "9970bc47685010fe9275a01958fde53cc08d82533fc9052676c096f763fa6ec5",
+        "apiBodyComparison": "relative thumbnails/ URL expanded to https://raw.githubusercontent.com/BibleAquifer/VideoBibleDictionary/main/eng/json/thumbnails/"
+      },
+      "rights": {
+        "repo": "VideoBibleDictionary",
+        "commit": "85b4bec7634f3f5989d0767b372084eb19098227",
+        "path": "eng/metadata.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/VideoBibleDictionary/85b4bec7634f3f5989d0767b372084eb19098227/eng/metadata.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "0ee926ba342a88c754f08f2eb9a735ea9826a0a9367aace67550460166eedcfc",
+        "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Videos",
+        "metadataVersion": "1.1.2",
+        "licenseInfo": {
+          "title": "Video Bible Dictionary",
+          "copyright": {
+            "dates": "2025",
+            "holder": {
+              "name": "Word Collective",
+              "url": "https://wordcollective.com"
+            }
+          },
+          "licenses": [
+            {
+              "eng": {
+                "name": "CC BY-SA 4.0 license",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+              }
+            }
+          ],
+          "showAdaptationNoticeForEnglish": false,
+          "showAdaptationNoticeForNonEnglish": false
+        },
+        "adaptationNotice": "<p><b>Video Bible Dictionary</b> © 2025 Word Collective. Released under CC BY-SA 4.0 license. <cite>Video Bible Dictionary</cite> has been adapted in the following languages: Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Video Bible Dictionary</cite> © 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>"
+      },
+      "translatedTitleSha256": "c06e44d7452e5f503aa853f694dbdb2b94763cbd5d4fc69ac13aea9764120a81",
+      "translatedBodySha256": "9b6c0ec65cc8f4d159629cda52a4910d097a9a1fec6cd3639974e8376438eec1"
+    },
+    "reviewState": "proposed — independent bilingual review required"
+  },
+  {
+    "id": "ai-spa-from-a10",
+    "englishId": "a10",
+    "kind": "video",
+    "language": "spa",
+    "title": "Desierto o lugar deshabitado",
+    "body": "<h3>Contenido de video</h3>\n<p><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a10/720p.mp4'></a> (55 segundos)</p><p align='center'><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a10/720p.mp4'>enlace</a></p>",
+    "label": "Traducción con IA",
+    "notice": "Traducción al español realizada con IA a partir del original inglés; no es una edición oficial del proveedor. Se tradujeron solo el título y los metadatos disponibles; el video original no está doblado al español.",
+    "provenance": {
+      "method": "AI translation by OpenAI Codex assistant; independent bilingual review pending",
+      "sourceTitle": "Wilderness or Desert",
+      "sourceTitleSha256": "9f7e29733979fca4d0619833b075d3c0495590f7502b8d5994c284dccf32aba8",
+      "sourceHtml": "<h3>Video Content</h3>\n<p><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a10/720p.mp4'></a> (55 seconds)</p><p align='center'><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a10/720p.mp4'>link</a></p>",
+      "sourceSpan": {
+        "start": 0,
+        "end": 229,
+        "unit": "Unicode code points"
+      },
+      "sourceHtmlSha256": "a54f4b698f5b961380c1ca8085a2fe4d35a68119c1a400771ad598f7410b2636",
+      "source": {
+        "repo": "VideoBibleDictionary",
+        "commit": "85b4bec7634f3f5989d0767b372084eb19098227",
+        "path": "eng/json/018.content.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/VideoBibleDictionary/85b4bec7634f3f5989d0767b372084eb19098227/eng/json/018.content.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "20293f22477757922aee0cb0f3a69c703329a198542529e8a60477694fe12c9a",
+        "contentSha256": "5aa859fafdb8a67435df9fa3278e2f6fbe54ef829b664b728f5cb1f4defdd20f",
+        "apiCaptureSha256": "6f93be1f2646331edebc8cc8cffc679225520594a20050bb2023f52b4b06cefc",
+        "apiBodyComparison": "relative thumbnails/ URL expanded to https://raw.githubusercontent.com/BibleAquifer/VideoBibleDictionary/main/eng/json/thumbnails/"
+      },
+      "rights": {
+        "repo": "VideoBibleDictionary",
+        "commit": "85b4bec7634f3f5989d0767b372084eb19098227",
+        "path": "eng/metadata.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/VideoBibleDictionary/85b4bec7634f3f5989d0767b372084eb19098227/eng/metadata.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "0ee926ba342a88c754f08f2eb9a735ea9826a0a9367aace67550460166eedcfc",
+        "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Videos",
+        "metadataVersion": "1.1.2",
+        "licenseInfo": {
+          "title": "Video Bible Dictionary",
+          "copyright": {
+            "dates": "2025",
+            "holder": {
+              "name": "Word Collective",
+              "url": "https://wordcollective.com"
+            }
+          },
+          "licenses": [
+            {
+              "eng": {
+                "name": "CC BY-SA 4.0 license",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+              }
+            }
+          ],
+          "showAdaptationNoticeForEnglish": false,
+          "showAdaptationNoticeForNonEnglish": false
+        },
+        "adaptationNotice": "<p><b>Video Bible Dictionary</b> © 2025 Word Collective. Released under CC BY-SA 4.0 license. <cite>Video Bible Dictionary</cite> has been adapted in the following languages: Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Video Bible Dictionary</cite> © 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>"
+      },
+      "translatedTitleSha256": "295af49211be59780b79ee656331f857a7e1a8b6ce11d7cfc73f30ba6c68dd7b",
+      "translatedBodySha256": "96c78ddd2fe7907677a079175ad085c874a5aa034e6e4477245f12b4f339eb6b"
+    },
+    "reviewState": "proposed — independent bilingual review required"
+  },
+  {
+    "id": "ai-spa-from-a203",
+    "englishId": "a203",
+    "kind": "image",
+    "language": "spa",
+    "title": "Sandalias",
+    "body": "<h3>Contenido de imagen</h3>\n<block><p><img src='/assets/mark-1-1-13/a203.jpg' alt='Imagen' width='480' /></p><p><a href='/assets/mark-1-1-13/a203.jpg'>enlace</a></p></block>",
+    "label": "Traducción con IA",
+    "notice": "Traducción al español realizada con IA a partir del original inglés; no es una edición oficial del proveedor.",
+    "provenance": {
+      "method": "AI translation by OpenAI Codex assistant; independent bilingual review pending",
+      "sourceTitle": "Sandals",
+      "sourceTitleSha256": "08205319f476c5f91e95c7060b61f59271dca6d3f7d5db53feca20a61ea71549",
+      "sourceHtml": "<h3>Image Content</h3>\n<block><p><img src='/assets/mark-1-1-13/a203.jpg' alt='Image' width='480' /></p><p><a href='/assets/mark-1-1-13/a203.jpg'>link</a></p></block>",
+      "sourceSpan": {
+        "start": 0,
+        "end": 165,
+        "unit": "Unicode code points"
+      },
+      "sourceHtmlSha256": "d3576f75ab9f54da9fec3d05b82141877771effa95eede5b3b94e6f5728743a4",
+      "source": {
+        "repo": "FIAImages",
+        "commit": "8fbb154360574ba2981fbaa4064a1e8979de7e82",
+        "path": "eng/json/019.content.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/FIAImages/8fbb154360574ba2981fbaa4064a1e8979de7e82/eng/json/019.content.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "5760277e54df9eac99619ca9bd78b8aa2304905c3ca2f9d01180c42cf51f39e7",
+        "contentSha256": "62d2d6c25be355661ea8c2dfdb2a8322d779ff8944089e2c071d567011899192",
+        "apiCaptureSha256": "0b4fe56c997f7990a4d29a84fc2364b0d55001370975524a686e94e43f142591",
+        "apiBodyComparison": "exact body in wrapper"
+      },
+      "rights": {
+        "repo": "FIAImages",
+        "commit": "8fbb154360574ba2981fbaa4064a1e8979de7e82",
+        "path": "eng/metadata.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/FIAImages/8fbb154360574ba2981fbaa4064a1e8979de7e82/eng/metadata.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "39291e9416443607da5b644b878126afd7772443b630d22982d47ee78d651e57",
+        "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Images",
+        "metadataVersion": "1.1.2",
+        "licenseInfo": {
+          "title": "Familiarization, Internalization, Articulation (Fia) Images",
+          "copyright": {
+            "dates": "2025",
+            "holder": {
+              "name": "Word Collective",
+              "url": "https://wordcollective.com"
+            }
+          },
+          "licenses": [
+            {
+              "eng": {
+                "name": "CC BY-SA 4.0 license",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+              }
+            }
+          ],
+          "showAdaptationNoticeForEnglish": false,
+          "showAdaptationNoticeForNonEnglish": false
+        },
+        "adaptationNotice": "<p><b>Familiarization, Internalization, Articulation (FIA) Images</b> © 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Images</cite> has been adapted in the following languages Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> © 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>"
+      },
+      "translatedTitleSha256": "c06e44d7452e5f503aa853f694dbdb2b94763cbd5d4fc69ac13aea9764120a81",
+      "translatedBodySha256": "574735e110f036241ccef4856981f2da8a4635e5c72f4e04822f15be4a7b595d"
+    },
+    "reviewState": "proposed — independent bilingual review required"
+  },
+  {
+    "id": "ai-spa-from-c201",
+    "englishId": "c201",
+    "kind": "map",
+    "language": "spa",
+    "title": "Vista aérea de Judea y Jerusalén",
+    "body": "<h3>Contenido de imagen</h3>\n<block><p><img src='/assets/mark-1-1-13/c201.png' alt='Imagen' width='480' /></p><p><a href='/assets/mark-1-1-13/c201.png'>enlace</a></p></block>",
+    "label": "Traducción con IA",
+    "notice": "Traducción al español realizada con IA a partir del original inglés; no es una edición oficial del proveedor. Los rótulos de la imagen original permanecen en inglés; se tradujeron el título y los metadatos.",
+    "provenance": {
+      "method": "AI translation by OpenAI Codex assistant; independent bilingual review pending",
+      "sourceTitle": "Aerial View of Judea and Jerusalem",
+      "sourceTitleSha256": "728cd90841eb874da75c451f01145e0829125643cd3b71e4c11a2f88ec96ada6",
+      "sourceHtml": "<h3>Image Content</h3>\n<block><p><img src='/assets/mark-1-1-13/c201.png' alt='Image' width='480' /></p><p><a href='/assets/mark-1-1-13/c201.png'>link</a></p></block>",
+      "sourceSpan": {
+        "start": 0,
+        "end": 165,
+        "unit": "Unicode code points"
+      },
+      "sourceHtmlSha256": "e67aeda7273f792467367bb53713022f34bbf847d34f7395a01ff93031246476",
+      "source": {
+        "repo": "FIAMaps",
+        "commit": "7e56e7bc68d354a72b7a3e882beb78d5f084d7f5",
+        "path": "eng/json/001.content.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/FIAMaps/7e56e7bc68d354a72b7a3e882beb78d5f084d7f5/eng/json/001.content.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "8bb03174e05f5ec24bedaa22cde753375c32e5d6009bc184ecdb72688590afe1",
+        "contentSha256": "b9a7f5be4ef26342d187dc1f09f1f46fb1e07a3ae1ac0bf9bc5bac03e4738844",
+        "apiCaptureSha256": "29ce3e50b78d52dfb29189434b7e3402ca1455785ce7c91fd47476ac79568666",
+        "apiBodyComparison": "exact body in wrapper"
+      },
+      "rights": {
+        "repo": "FIAMaps",
+        "commit": "7e56e7bc68d354a72b7a3e882beb78d5f084d7f5",
+        "path": "eng/metadata.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/FIAMaps/7e56e7bc68d354a72b7a3e882beb78d5f084d7f5/eng/metadata.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "6f6be14964b62ea78a38627ee97f760ced77ac8bc9a2f3a80a85b4d39bcee21c",
+        "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Maps",
+        "metadataVersion": "1.1.2",
+        "licenseInfo": {
+          "title": "Familiarization, Internalization, Articulation (Fia) Maps",
+          "copyright": {
+            "dates": "2025",
+            "holder": {
+              "name": "Biblica",
+              "url": "https://www.biblica.com"
+            }
+          },
+          "licenses": [
+            {
+              "eng": {
+                "name": "CC BY-SA 4.0 license",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+              }
+            }
+          ],
+          "showAdaptationNoticeForEnglish": false,
+          "showAdaptationNoticeForNonEnglish": false
+        },
+        "adaptationNotice": "<p><b>Familiarization, Internalization, Articulation (FIA) Maps</b> © 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Maps</cite> has been adapted in the following languages Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> © 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>"
+      },
+      "translatedTitleSha256": "ae247a0d71243388e61f8525d68db5594feff81823bad78b1f0c6bae42245992",
+      "translatedBodySha256": "18c411d74634ab42bd9ea561d5fa78e538ad8bfef5dea7b994c362099532135d"
+    },
+    "reviewState": "proposed — independent bilingual review required"
+  },
+  {
+    "id": "ai-spa-from-c168",
+    "englishId": "c168",
+    "kind": "map",
+    "language": "spa",
+    "title": "Nazaret y Judea",
+    "body": "<h3>Contenido de imagen</h3>\n<block><p><img src='/assets/mark-1-1-13/c168.png' alt='Imagen' width='480' /></p><p><a href='/assets/mark-1-1-13/c168.png'>enlace</a></p></block>",
+    "label": "Traducción con IA",
+    "notice": "Traducción al español realizada con IA a partir del original inglés; no es una edición oficial del proveedor. Los rótulos de la imagen original permanecen en inglés; se tradujeron el título y los metadatos.",
+    "provenance": {
+      "method": "AI translation by OpenAI Codex assistant; independent bilingual review pending",
+      "sourceTitle": "Nazareth and Judea",
+      "sourceTitleSha256": "bda2b2339441e534850626d42d867d1669db0d3104d884005f048c4cb1b1f4db",
+      "sourceHtml": "<h3>Image Content</h3>\n<block><p><img src='/assets/mark-1-1-13/c168.png' alt='Image' width='480' /></p><p><a href='/assets/mark-1-1-13/c168.png'>link</a></p></block>",
+      "sourceSpan": {
+        "start": 0,
+        "end": 165,
+        "unit": "Unicode code points"
+      },
+      "sourceHtmlSha256": "5a8e24aca1d4dce218f6470f4b12fd24401f5739511d73c5cf9ecc9c6332eba1",
+      "source": {
+        "repo": "FIAMaps",
+        "commit": "7e56e7bc68d354a72b7a3e882beb78d5f084d7f5",
+        "path": "eng/json/013.content.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/FIAMaps/7e56e7bc68d354a72b7a3e882beb78d5f084d7f5/eng/json/013.content.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "f63de55526c1d0b903d4617fb778bee323311964821937d7fcaae3c96a83c61c",
+        "contentSha256": "ceac16aac7ae853339752c1e16a4a1593b9d668f9410abf7bace3559cfc40806",
+        "apiCaptureSha256": "69edf641f653164342ea95d26a8fe39342107141ff8a871887428241ccf54e0f",
+        "apiBodyComparison": "exact body in wrapper"
+      },
+      "rights": {
+        "repo": "FIAMaps",
+        "commit": "7e56e7bc68d354a72b7a3e882beb78d5f084d7f5",
+        "path": "eng/metadata.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/FIAMaps/7e56e7bc68d354a72b7a3e882beb78d5f084d7f5/eng/metadata.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "6f6be14964b62ea78a38627ee97f760ced77ac8bc9a2f3a80a85b4d39bcee21c",
+        "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Maps",
+        "metadataVersion": "1.1.2",
+        "licenseInfo": {
+          "title": "Familiarization, Internalization, Articulation (Fia) Maps",
+          "copyright": {
+            "dates": "2025",
+            "holder": {
+              "name": "Biblica",
+              "url": "https://www.biblica.com"
+            }
+          },
+          "licenses": [
+            {
+              "eng": {
+                "name": "CC BY-SA 4.0 license",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+              }
+            }
+          ],
+          "showAdaptationNoticeForEnglish": false,
+          "showAdaptationNoticeForNonEnglish": false
+        },
+        "adaptationNotice": "<p><b>Familiarization, Internalization, Articulation (FIA) Maps</b> © 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Maps</cite> has been adapted in the following languages Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> © 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>"
+      },
+      "translatedTitleSha256": "c8f54d3e5a7da0a53991ce77f78077706a03d57932228ccaf65e45647fcc5319",
+      "translatedBodySha256": "fce9688036f250ccb1b9e9a677fec687056af031f93498559d03962b84fcb179"
+    },
+    "reviewState": "proposed — independent bilingual review required"
+  },
+  {
+    "id": "ai-spa-from-eng-t38-v1",
+    "englishId": "eng-t38-v1",
+    "kind": "term",
+    "language": "spa",
+    "title": "desierto",
+    "body": "<p>Un <b>desierto</b> o <a href=\"#t145\">lugar deshabitado</a> es un lugar solitario y árido, sin agua. En un desierto casi no crecen árboles ni arbustos. El suelo es seco y rocoso, y hay animales salvajes que andan por allí. Las personas no viven en el desierto.</p>",
+    "label": "Traducción con IA",
+    "notice": "Traducción al español realizada con IA a partir del original inglés; no es una edición oficial del proveedor.",
+    "provenance": {
+      "method": "AI translation by OpenAI Codex assistant; independent bilingual review pending",
+      "sourceTitle": "desert",
+      "sourceTitleSha256": "237ab3365842e475721a65d4a2a2623b2c4b24bf063cbfdc7c78dde01f95df93",
+      "sourceHtml": "<p>A <b>desert</b> or <a href=\"#t145\">wilderness</a> is a lonely, barren place without water. There are almost no trees or bushes growing in a desert. The ground is dry and rocky, and there are wild animals roaming around. People do not live in the desert.</p>",
+      "sourceSpan": {
+        "start": 0,
+        "end": 260,
+        "unit": "Unicode code points"
+      },
+      "sourceHtmlSha256": "aed8ff9527a6c36c5e6dffb47d76ce7a7cbfd7814a28306b8c4793c243d90097",
+      "source": {
+        "repo": "FIAKeyTerms",
+        "commit": "5ce5c6bd152236e16cf23290a40ab625175df8e3",
+        "path": "eng/json/004.content.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/FIAKeyTerms/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/json/004.content.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "14fe80d35c3d9271173870cd0261bf3748ddd361a0e71022518e3d58fe4c5c12",
+        "contentSha256": "aed8ff9527a6c36c5e6dffb47d76ce7a7cbfd7814a28306b8c4793c243d90097",
+        "apiCaptureSha256": "2ea210bed8ad59ea8d9c789934298cec16a7e34cbf21b06372754a9c5e01a689",
+        "apiBodyComparison": "exact body in wrapper"
+      },
+      "rights": {
+        "repo": "FIAKeyTerms",
+        "commit": "5ce5c6bd152236e16cf23290a40ab625175df8e3",
+        "path": "eng/metadata.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/FIAKeyTerms/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/metadata.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "429305b41f3b23d4f933b816d9d3485aa724f929f512bd8293ac2a8693d85f44",
+        "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Key Terms",
+        "metadataVersion": "1.1.2",
+        "licenseInfo": {
+          "title": "Familiarization, Internalization, Articulation (Fia) Terms",
+          "copyright": {
+            "dates": "2025",
+            "holder": {
+              "name": "Word Collective",
+              "url": "https://wordcollective.com"
+            }
+          },
+          "licenses": [
+            {
+              "eng": {
+                "name": "CC BY-SA 4.0 license",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+              }
+            }
+          ],
+          "showAdaptationNoticeForEnglish": false,
+          "showAdaptationNoticeForNonEnglish": true
+        },
+        "adaptationNotice": "<p><b>Familiarization, Internalization, Articulation (FIA) Key Terms</b> © 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Key Terms</cite> has been adapted in the following languages Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> © 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>"
+      },
+      "translatedTitleSha256": "172552d394aa3bcd8f9cac7c549dfa6caf5f973afc1a8bbb65ffd1f4a304e62f",
+      "translatedBodySha256": "d94a410d0f1ffdbd5e35b17e4a2c11eacff93b802a93c682b11a792324fdfa67"
+    },
+    "reviewState": "proposed — independent bilingual review required"
+  },
+  {
+    "id": "ai-spa-from-eng-t226-v2",
+    "englishId": "eng-t226-v2",
+    "kind": "term",
+    "language": "spa",
+    "title": "rey",
+    "body": "<p>t226 rey</p><p>Un rey es alguien que gobierna una ciudad o un territorio, como una región o un país. En los tiempos de la Biblia, un rey normalmente gobernaba de por vida; es decir, gobernaba hasta que moría. Después de su muerte, uno de sus hijos se convertía en rey en su lugar.</p>",
+    "label": "Traducción con IA",
+    "notice": "Traducción al español realizada con IA a partir del original inglés; no es una edición oficial del proveedor.",
+    "provenance": {
+      "method": "AI translation by OpenAI Codex assistant; independent bilingual review pending",
+      "sourceTitle": "king",
+      "sourceTitleSha256": "e81dfe69841ad2f7b5790b63e998f0febaf3b29acd732881975130761b98e2c7",
+      "sourceHtml": "<p>t226 king</p><p>A king is someone who rules over a city or territory, like a region or a country. In the time of the Bible, a king normally ruled for life—in other words, he ruled until he died. After his death, one of his sons would become king in his place.</p>",
+      "sourceSpan": {
+        "start": 0,
+        "end": 266,
+        "unit": "Unicode code points"
+      },
+      "sourceHtmlSha256": "4a3f5b306c9da90140b573d34975177187e54ff1fe9eb8f1025a4243ee765050",
+      "source": {
+        "repo": "FIAKeyTerms",
+        "commit": "5ce5c6bd152236e16cf23290a40ab625175df8e3",
+        "path": "eng/json/011.content.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/FIAKeyTerms/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/json/011.content.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "fbf6e56cbe810eeab48910347e5ba242d514d6c9bdfb09097a850dc4a451b4f6",
+        "contentSha256": "4a3f5b306c9da90140b573d34975177187e54ff1fe9eb8f1025a4243ee765050",
+        "apiCaptureSha256": "6a6f405b726171eaed71ce077720c97469cd2cf2912032957292dc49d7464bea",
+        "apiBodyComparison": "exact body in wrapper"
+      },
+      "rights": {
+        "repo": "FIAKeyTerms",
+        "commit": "5ce5c6bd152236e16cf23290a40ab625175df8e3",
+        "path": "eng/metadata.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/FIAKeyTerms/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/metadata.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "429305b41f3b23d4f933b816d9d3485aa724f929f512bd8293ac2a8693d85f44",
+        "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Key Terms",
+        "metadataVersion": "1.1.2",
+        "licenseInfo": {
+          "title": "Familiarization, Internalization, Articulation (Fia) Terms",
+          "copyright": {
+            "dates": "2025",
+            "holder": {
+              "name": "Word Collective",
+              "url": "https://wordcollective.com"
+            }
+          },
+          "licenses": [
+            {
+              "eng": {
+                "name": "CC BY-SA 4.0 license",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+              }
+            }
+          ],
+          "showAdaptationNoticeForEnglish": false,
+          "showAdaptationNoticeForNonEnglish": true
+        },
+        "adaptationNotice": "<p><b>Familiarization, Internalization, Articulation (FIA) Key Terms</b> © 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Key Terms</cite> has been adapted in the following languages Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> © 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>"
+      },
+      "translatedTitleSha256": "025155e9d6f356c7b8404fc4bc534fcc82269cf4b3bad742478e47aee9cf50e4",
+      "translatedBodySha256": "29934a2c2651158155fbd02ee26ab1bb616a7ff36764e4650181a93b03c29b51"
+    },
+    "reviewState": "proposed — independent bilingual review required"
+  },
+  {
+    "id": "ai-spa-from-eng-t103-v1",
+    "englishId": "eng-t103-v1",
+    "kind": "term",
+    "language": "spa",
+    "title": "sacerdote",
+    "body": "<p>Los <b>sacerdotes</b> eran personas que trabajaban en el <a href=\"#t138\">templo</a> de Dios en <a href=\"#t76\">Jerusalén</a>. Antes de que se construyera el templo, los sacerdotes trabajaban en el <a href=\"#t184\">tabernáculo</a>, que era un templo portátil, una tienda de campaña. El templo, y antes de él el tabernáculo, era el lugar donde el pueblo <a href=\"#t259\">israelita</a> adoraba a Dios. Los sacerdotes eran responsables de ofrecer <a href=\"#t114\">sacrificios</a> a Dios en nombre del pueblo. Cuidaban el templo y enseñaban a las personas cómo <a href=\"#t149\">adorar</a> a Dios.</p><p>Dios es <a href=\"#t67\">santo</a>, y las personas no pueden acercarse a él sin más, porque son <a href=\"#t125\">pecadoras</a>. Como son pecadoras, son <a href=\"#t26\">impuras</a>. En la Biblia, ser impuro significa no estar en condiciones de presentarse ante Dios. Las personas primero tienen que volverse puras. La labor de los sacerdotes era hacer que las personas fueran puras, es decir, <a href=\"#t208\">purificarlas</a>. Los sacerdotes hacían esto ofreciendo <a href=\"#t114\">sacrificios</a> en nombre del pueblo y enseñando a las personas cómo vivir. Realizaban rituales que simbolizaban que las personas se volvían puras. Por lo tanto, los sacerdotes estaban entre Dios y el pueblo. Hacían posible que las personas se presentaran ante Dios y siguieran teniendo una buena <a href=\"#t108\">relación</a> con él. Purificaban al pueblo para que Dios pudiera descender y encontrarse con él. Los sacerdotes eran personas muy importantes para los <a href=\"#t77\">judíos</a>. Como las personas seguían siendo pecadoras, los sacerdotes tenían que ofrecer sacrificios con frecuencia y purificar al pueblo una y otra vez.</p><p>Solo ciertas personas podían convertirse en sacerdotes. Los <a href=\"#t259\">israelitas</a> estaban divididos en 12 tribus. Una de ellas se llamaba la tribu de Leví, y las personas de esa tribu se llamaban <a href=\"#t244\">levitas</a>. Moisés, por medio de quien Dios dio al pueblo su <a href=\"#t83\">ley</a>, era levita. Aarón, el hermano de Moisés, también era levita. Aarón se convirtió en el primer <a href=\"#t246\">sumo sacerdote</a> de los judíos. Un sumo sacerdote es el sacerdote más importante. Dios hizo que los hijos de Aarón fueran los primeros sacerdotes. Desde entonces, todos los <a href=\"#t234\">descendientes</a> varones de Aarón se convirtieron en sacerdotes.</p><p>También había levitas que no eran descendientes de Aarón. Estas personas también llegaron a ser importantes. Ayudaban a los sacerdotes en sus tareas. La Biblia habla a menudo de «sacerdotes y levitas». Los sacerdotes se mencionan por separado porque eran más importantes, aunque ellos mismos también eran descendientes de Leví.</p><p>En tiempos de Jesús, algunos sacerdotes también eran líderes del pueblo. Se les llama principales sacerdotes. Estos sacerdotes principales o dirigentes solían ser personas adineradas emparentadas con el sumo sacerdote. A menudo pertenecían al grupo de líderes religiosos llamados <a href=\"#t115\">saduceos</a> y formaban parte del consejo judío, llamado <a href=\"#t168\">Sanedrín</a>. Los principales sacerdotes discutían a menudo con Jesús.</p><p>Los pueblos que vivían en los países que rodeaban a <a href=\"#t74\">Israel</a> también tenían personas que estaban entre el pueblo y sus dioses. La Biblia también llama sacerdotes a estas personas, pero eran muy diferentes de los sacerdotes judíos.</p><p><strong>Cuando traduzcan la palabra sacerdote, tengan cuidado con las siguientes cosas:</strong></p><p>Tal vez su idioma tenga una palabra que signifique alguien que ofrece sacrificios a Dios. Esta podría ser una buena palabra para el término bíblico sacerdote. Quizás necesiten hacer un pequeño cambio, como decir «un sacerdote de Dios». Pero tengan cuidado de no confundir a las personas. Quizás las cosas que hace un «sacerdote» en su comunidad sean demasiado diferentes de las que hace un sacerdote en la Biblia. Tal vez necesiten crear una palabra o frase nueva, como «alguien que ofrece sacrificios a Dios», «un sacrificador» o «un hombre que trabaja en el templo de Dios». Pero recuerden que también necesitan una palabra para levita. Un levita puede ser un «ayudante de un sacerdote», un «ayudante en el templo» o un «descendiente de Leví que ayuda en el templo».</p><p>Algunas <a href=\"#t24\">iglesias</a> <a href=\"#t175\">cristianas</a> usan la palabra «sacerdote» para un líder de la iglesia. No es buena idea usar esta misma palabra para los «sacerdotes» de la Biblia, porque el significado es bastante diferente. Un líder de la iglesia no ofrece sacrificios como lo hacían los sacerdotes de la Biblia.</p><p>Recuerden que también necesitan una palabra para los principales sacerdotes, los sacerdotes más importantes, y para el sumo sacerdote, que es el sacerdote más importante de todos.</p>",
+    "label": "Traducción con IA",
+    "notice": "Traducción al español realizada con IA a partir del original inglés; no es una edición oficial del proveedor.",
+    "provenance": {
+      "method": "AI translation by OpenAI Codex assistant; independent bilingual review pending",
+      "sourceTitle": "priest",
+      "sourceTitleSha256": "0fc4816bb32221ae6b754a5fc2c9dd4c33257c8a6e784b9492f76071668d762b",
+      "sourceHtml": "<p><b>Priests</b> were people who worked in the <a href=\"#t138\">temple</a> of God in <a href=\"#t76\">Jerusalem</a>. Before people built the temple, priests worked in the <a href=\"#t184\">tabernacle</a>, which was a portable temple, a tent. The temple, and before that the tabernacle, was the place where the <a href=\"#t259\">Israelite</a> people worshiped God. Priests were responsible for offering <a href=\"#t114\">sacrifices</a> to God on behalf of the people. They took care of the temple and taught the people how to <a href=\"#t149\">worship</a> God.</p><p>God is <a href=\"#t67\">holy</a>, and people cannot just come to him, because people are <a href=\"#t125\">sinful</a>. Because people are sinful, they are <a href=\"#t26\">unclean</a>. In the Bible, to be unclean means to be unfit to come before God. People have to become clean first. The work of the priests was to make people clean-to <a href=\"#t208\">purify</a> them. The priests did this by offering <a href=\"#t114\">sacrifices</a> on behalf of the people, and by teaching people how to live. They performed rituals that symbolized that people became clean. The priests therefore were in between God and the people. They made it possible for people to come before God and continue to have a good <a href=\"#t108\">relationship</a> with God. They purified the people, so that God was able to come down and meet the people. Priests were very important people for the <a href=\"#t77\">Jews</a>. Because people stayed sinful, the priests had to often make sacrifices and purify the people again and again.</p><p>Only certain people could become a priest. The <a href=\"#t259\">Israelites</a> were divided into 12 tribes. One tribe was called the tribe of Levi, and the people in this tribe were called <a href=\"#t244\">Levites</a>. Moses, through whom God gave the people his <a href=\"#t83\">law</a>, was a Levite. And Moses's brother Aaron was also a Levite. Aaron became the first <a href=\"#t246\">high priest</a> of the Jews. A high priest is the most important priest. God made Aaron's sons the first priests. From that time onwards, all Aaron's male <a href=\"#t234\">descendants</a> became priests.</p><p>There were also Levites who were not descendants of Aaron. These people also became important. They helped the priests in their duty. The Bible often talks about \"priests and Levites.\" The priests are mentioned separately because they were more important, even though priests themselves are also descendants from Levi.</p><p>In the time of Jesus, some priests were also leaders of the people. They are called chief priests. These chief or leading priests were often wealthy people who were related to the high priest. They often belonged to the group of religious leaders called <a href=\"#t115\">Sadducees</a> and were part of the Jewish council, named the <a href=\"#t168\">Sanhedrin</a>. The chief priests often argued with Jesus.</p><p>The people who lived in the countries surrounding <a href=\"#t74\">Israel</a> also had people who were in between the people and their gods. The Bible also calls these people priests, but they were very different from the Jewish priests.</p><p><strong>When you are translating priest, be careful about the following things:</strong></p><p>Your language may have a word that means someone who offers sacrifices to God. This might be a good word for the biblical word for priest. Maybe you need to make a small change, like saying \"a priest of God.\" But be careful that people will not get confused. Maybe the things that a \"priest\" in your community does are too different from what a priest in the Bible does. Maybe you need to make up a new word or phrase, like \"someone who offers sacrifices to God,\" or \"a sacrificer,\" or \"a man who works in the temple of God.\" But remember that you also need to have a word for a Levite. A Levite can be a \"helper of a priest,\" a \"helper in the temple,\" or a \"descendant of Levi who helps in the temple.\"</p><p>Some <a href=\"#t175\">Christian</a> <a href=\"#t24\">churches</a> use the word \"priest\" for a leader in the church. It is not a good idea to use this same word for \"priests\" in the Bible, because the meaning is quite different. A leader in the church does not offer sacrifices like the priests in the Bible did.</p><p>Remember that you also need a word for chief priests-the most important priests-and for the high priest, who is the most important priest of all.</p>",
+      "sourceSpan": {
+        "start": 0,
+        "end": 4396,
+        "unit": "Unicode code points"
+      },
+      "sourceHtmlSha256": "9fe9ec8a8b2fc17b4d854423d5298d01bb6f85d6deece5c196f8a41001d238ec",
+      "source": {
+        "repo": "FIAKeyTerms",
+        "commit": "5ce5c6bd152236e16cf23290a40ab625175df8e3",
+        "path": "eng/json/016.content.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/FIAKeyTerms/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/json/016.content.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "693f0a4e7c0459813713576e121cbe12d16c864004cfe0e786c066df79cc73a3",
+        "contentSha256": "9fe9ec8a8b2fc17b4d854423d5298d01bb6f85d6deece5c196f8a41001d238ec",
+        "apiCaptureSha256": "6a741feb0415d244224e65758f18777e42780d98f7abef9fffcdbc23faa2cc52",
+        "apiBodyComparison": "exact body in wrapper"
+      },
+      "rights": {
+        "repo": "FIAKeyTerms",
+        "commit": "5ce5c6bd152236e16cf23290a40ab625175df8e3",
+        "path": "eng/metadata.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/FIAKeyTerms/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/metadata.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "429305b41f3b23d4f933b816d9d3485aa724f929f512bd8293ac2a8693d85f44",
+        "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Key Terms",
+        "metadataVersion": "1.1.2",
+        "licenseInfo": {
+          "title": "Familiarization, Internalization, Articulation (Fia) Terms",
+          "copyright": {
+            "dates": "2025",
+            "holder": {
+              "name": "Word Collective",
+              "url": "https://wordcollective.com"
+            }
+          },
+          "licenses": [
+            {
+              "eng": {
+                "name": "CC BY-SA 4.0 license",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+              }
+            }
+          ],
+          "showAdaptationNoticeForEnglish": false,
+          "showAdaptationNoticeForNonEnglish": true
+        },
+        "adaptationNotice": "<p><b>Familiarization, Internalization, Articulation (FIA) Key Terms</b> © 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Key Terms</cite> has been adapted in the following languages Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> © 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>"
+      },
+      "translatedTitleSha256": "569dc63a5f23c285ff2cbd2f751f30e10824182711948d4bc94edd10539d02a2",
+      "translatedBodySha256": "701e9bd7acffa3958a0c22b38bfcb10ec4bd58d3a2586ba9e697864b10bd4091"
+    },
+    "reviewState": "proposed — independent bilingual review required"
+  },
+  {
+    "id": "ai-spa-from-eng-t76-v1",
+    "englishId": "eng-t76-v1",
+    "kind": "term",
+    "language": "spa",
+    "title": "Jerusalén",
+    "body": "<p><b>Jerusalén</b> es el nombre de la ciudad más importante del pueblo <a href=\"#t77\">judío</a>. El <a href=\"#t138\">templo</a> de Dios, donde los judíos <a href=\"#t149\">adoraban</a> a Dios, estaba en Jerusalén. Los judíos viajaban a Jerusalén varias veces al año para celebrar fiestas importantes en el templo. El tribunal religioso judío, el <a href=\"#t168\">Sanedrín</a>, también se reunía en Jerusalén.</p><p>Unos mil años antes de que naciera Jesús, el rey <a href=\"#t33\">David</a> estableció la ciudad de Jerusalén como capital de <a href=\"#t74\">Israel</a>. Unos 500 años después, los enemigos de los <a href=\"#t259\">israelitas</a> destruyeron la ciudad, pero los israelitas la reconstruyeron. El pueblo judío amaba mucho la ciudad de Jerusalén.</p><p>Jerusalén formaba parte de la provincia llamada <a href=\"#t81\">Judea</a>. Jerusalén estaba construida sobre una colina. Por eso las personas siempre decían que iban a «<em>subir</em> a Jerusalén».</p>",
+    "label": "Traducción con IA",
+    "notice": "Traducción al español realizada con IA a partir del original inglés; no es una edición oficial del proveedor.",
+    "provenance": {
+      "method": "AI translation by OpenAI Codex assistant; independent bilingual review pending",
+      "sourceTitle": "Jerusalem",
+      "sourceTitleSha256": "451ebbe3f76682c7de1a795b406384e8b53801a89311bf86fa529e9b9259043b",
+      "sourceHtml": "<p><b>Jerusalem</b> is the name of the most important city of the <a href=\"#t77\">Jewish</a> people. The <a href=\"#t138\">temple</a> of God, where the Jews <a href=\"#t149\">worshiped</a> God, was in Jerusalem. The Jews traveled to Jerusalem several times a year to celebrate important festivals in the temple. The Jewish religious court, the <a href=\"#t168\">Sanhedrin</a>, also gathered in Jerusalem.</p><p>About a thousand years before Jesus was born, king <a href=\"#t33\">David</a> established the city of Jerusalem as the capital of <a href=\"#t74\">Israel</a>. About 500 years later, the enemies of the <a href=\"#t259\">Israelites</a> destroyed the city, but the Israelites built it up again. The Jewish people loved the city of Jerusalem very much.</p><p>Jerusalem was part of the province called <a href=\"#t81\">Judea</a>. Jerusalem was built on a hill. Therefore people always said they were going \"<em>up</em> to Jerusalem.\"</p>",
+      "sourceSpan": {
+        "start": 0,
+        "end": 928,
+        "unit": "Unicode code points"
+      },
+      "sourceHtmlSha256": "681a56b09c7fb9f96d218c141820b0c8fa4746a65f1cbca2aeb97dacc153eeb8",
+      "source": {
+        "repo": "FIAKeyTerms",
+        "commit": "5ce5c6bd152236e16cf23290a40ab625175df8e3",
+        "path": "eng/json/010.content.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/FIAKeyTerms/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/json/010.content.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "91ea815671531c24e9d118c7920335ded6c81401dcf918efa586f013637b4d03",
+        "contentSha256": "681a56b09c7fb9f96d218c141820b0c8fa4746a65f1cbca2aeb97dacc153eeb8",
+        "apiCaptureSha256": "40806fe46ce132f559b5a75bdad5243e17f69bc2d924c46e38e4fc0111e8fdb2",
+        "apiBodyComparison": "exact body in wrapper"
+      },
+      "rights": {
+        "repo": "FIAKeyTerms",
+        "commit": "5ce5c6bd152236e16cf23290a40ab625175df8e3",
+        "path": "eng/metadata.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/FIAKeyTerms/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/metadata.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "429305b41f3b23d4f933b816d9d3485aa724f929f512bd8293ac2a8693d85f44",
+        "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Key Terms",
+        "metadataVersion": "1.1.2",
+        "licenseInfo": {
+          "title": "Familiarization, Internalization, Articulation (Fia) Terms",
+          "copyright": {
+            "dates": "2025",
+            "holder": {
+              "name": "Word Collective",
+              "url": "https://wordcollective.com"
+            }
+          },
+          "licenses": [
+            {
+              "eng": {
+                "name": "CC BY-SA 4.0 license",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+              }
+            }
+          ],
+          "showAdaptationNoticeForEnglish": false,
+          "showAdaptationNoticeForNonEnglish": true
+        },
+        "adaptationNotice": "<p><b>Familiarization, Internalization, Articulation (FIA) Key Terms</b> © 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Key Terms</cite> has been adapted in the following languages Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> © 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>"
+      },
+      "translatedTitleSha256": "f0af9332ba0066a79b2d5f61faf362975f304ab0433b32934d18c351313a9da0",
+      "translatedBodySha256": "0092a1fa88136f2927388cbb6153e58036f95aa66dee9318c49e956d718b23fa"
+    },
+    "reviewState": "proposed — independent bilingual review required"
+  },
+  {
+    "id": "ai-spa-from-eng-t88-v1",
+    "englishId": "eng-t88-v1",
+    "kind": "term",
+    "language": "spa",
+    "title": "Señor",
+    "body": "<p>En algunos casos del Nuevo Testamento, <b>Señor</b> se refiere a Dios mismo. Era la manera en que el pueblo <a href=\"#t77\">judío</a> se refería a Dios cuando no quería pronunciar su nombre porque lo respetaba mucho.</p>",
+    "label": "Traducción con IA",
+    "notice": "Traducción al español realizada con IA a partir del original inglés; no es una edición oficial del proveedor.",
+    "provenance": {
+      "method": "AI translation by OpenAI Codex assistant; independent bilingual review pending",
+      "sourceTitle": "Lord",
+      "sourceTitleSha256": "022bb5c4cb2a343952c6483218265ad93ddba5af0c27894cf34a0940b6e25d3a",
+      "sourceHtml": "<p>In some cases in the New Testament, <b>Lord</b> refers to God himself. It is the way the <a href=\"#t77\">Jewish</a> people referred to God when they did not want to say his name because they respected him so much.</p>",
+      "sourceSpan": {
+        "start": 0,
+        "end": 219,
+        "unit": "Unicode code points"
+      },
+      "sourceHtmlSha256": "591296193635d6695dc6bb723d84d341270a1b49fbf9a996b11878d5e5fb2a89",
+      "source": {
+        "repo": "FIAKeyTerms",
+        "commit": "5ce5c6bd152236e16cf23290a40ab625175df8e3",
+        "path": "eng/json/012.content.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/FIAKeyTerms/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/json/012.content.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "b595d09bfa2bb90f3fb43cd6c227cf2ca4b24d35e3628e7d1562fa2d61e11e52",
+        "contentSha256": "591296193635d6695dc6bb723d84d341270a1b49fbf9a996b11878d5e5fb2a89",
+        "apiCaptureSha256": "84ebde92c7a08f03724910cff1931f894bd8bd5d65bbe16cf4367a399964524b",
+        "apiBodyComparison": "exact body in wrapper"
+      },
+      "rights": {
+        "repo": "FIAKeyTerms",
+        "commit": "5ce5c6bd152236e16cf23290a40ab625175df8e3",
+        "path": "eng/metadata.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/FIAKeyTerms/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/metadata.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "429305b41f3b23d4f933b816d9d3485aa724f929f512bd8293ac2a8693d85f44",
+        "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Key Terms",
+        "metadataVersion": "1.1.2",
+        "licenseInfo": {
+          "title": "Familiarization, Internalization, Articulation (Fia) Terms",
+          "copyright": {
+            "dates": "2025",
+            "holder": {
+              "name": "Word Collective",
+              "url": "https://wordcollective.com"
+            }
+          },
+          "licenses": [
+            {
+              "eng": {
+                "name": "CC BY-SA 4.0 license",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+              }
+            }
+          ],
+          "showAdaptationNoticeForEnglish": false,
+          "showAdaptationNoticeForNonEnglish": true
+        },
+        "adaptationNotice": "<p><b>Familiarization, Internalization, Articulation (FIA) Key Terms</b> © 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Key Terms</cite> has been adapted in the following languages Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> © 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>"
+      },
+      "translatedTitleSha256": "9e31efc0ecdaf442fb8443edc3221b304b86bffa48b00578fb99f004d13175e8",
+      "translatedBodySha256": "7d66657a131e7057be066093f53d8e943fb5fba0bfe7cda3570dd3f1f8619016"
+    },
+    "reviewState": "proposed — independent bilingual review required"
+  },
+  {
+    "id": "ai-spa-from-eng-t5-v1",
+    "englishId": "eng-t5-v1",
+    "kind": "term",
+    "language": "spa",
+    "title": "ungir",
+    "body": "<p><b>Ungir</b> a alguien significa derramar aceite perfumado sobre esa persona. También se puede ungir un objeto.</p><p>En el Antiguo Testamento, antes de darle a alguien una tarea especial, Dios le indicaba a otra persona que derramara aceite sobre la cabeza de esa persona. El aceite era un símbolo del <a href=\"#t68\">Espíritu Santo de Dios</a>. Este ritual dejaba claro que Dios había apartado a esa persona para un propósito especial. También dejaba claro que Dios le estaba dando una <a href=\"#t8\">autoridad</a> especial. Entonces se llamaba «ungida» a esa persona. Por ejemplo, Dios le dijo a Samuel que ungiera a <a href=\"#t33\">David</a> como <a href=\"#t226\">rey</a> de <a href=\"#t74\">Israel</a>. Dios le dijo a Moisés que ungiera a Aarón como <a href=\"#t246\">sumo sacerdote</a>. Y Dios le dijo al profeta <a href=\"#t44\">Elías</a> que ungiera a Eliseo como <a href=\"#t104\">profeta</a> para suceder a Elías.</p><p>Más tarde, la palabra «ungido» también se usaba para las personas a las que Dios había asignado una tarea especial, aunque no hubiera habido un ritual en el que se derramara aceite. A Jesús se le llama «el ungido» porque Dios lo ha elegido para una tarea muy especial.</p><p>Las personas también podían ungir objetos. Los <a href=\"#t103\">sacerdotes</a> ungían con aceite los objetos que se usaban en el <a href=\"#t138\">templo</a> para dejar claro que ahora tenían un propósito especial. Estos objetos ahora pertenecían a Dios; eran sagrados.</p><p>El pueblo <a href=\"#t77\">judío</a> también practicaba la unción como una actividad cotidiana que no tenía ningún significado especial. Usaban aceite perfumado para cuidar la piel y el cabello. Jesús les dijo a las personas que, si <a href=\"#t49\">ayunaban</a>, debían ungirse como lo hacían todos los días, en lugar de descuidar su aspecto para que los demás pensaran: «¡Estas personas están ayunando, qué impresionante!».</p><p>Las personas también ponían un poco de aceite sobre los invitados para mostrarles que eran bienvenidos y honrados. En los <a href=\"#t60\">Evangelios</a> hay dos relatos de mujeres que ponían aceite en los pies de Jesús para honrarlo.</p><p>Los judíos también ungían el cuerpo de una persona después de su muerte. Después de que Jesús murió, las mujeres llevan aceite perfumado al <a href=\"#t140\">sepulcro</a> para ungir el cuerpo de Jesús.</p><p>En el Nuevo Testamento, los primeros <a href=\"#t175\">cristianos</a> a veces usaban aceite junto con la <a href=\"#t102\">oración</a> cuando alguien estaba enfermo. El <a href=\"#t6\">apóstol</a> <a href=\"#t75\">Santiago</a>, en su carta, dice que, si alguien está enfermo, los otros <a href=\"#t12\">creyentes</a> deben orar por esa persona y ungirla con aceite. Esto no era porque el aceite tuviera algún poder especial, sino porque era un símbolo de la presencia de Dios.</p>",
+    "label": "Traducción con IA",
+    "notice": "Traducción al español realizada con IA a partir del original inglés; no es una edición oficial del proveedor.",
+    "provenance": {
+      "method": "AI translation by OpenAI Codex assistant; independent bilingual review pending",
+      "sourceTitle": "anoint",
+      "sourceTitleSha256": "02f435a533de2800a84572381f344112dd8bfff1454e5e2bbb698fa8c83f6efd",
+      "sourceHtml": "<p>To <b>anoint</b> someone means to pour sweet smelling oil over someone. You can also anoint an object.</p><p>In the Old Testament, before God gave someone a special task, he would instruct someone else to pour oil over that person's head. The oil was a symbol for the <a href=\"#t68\">Holy Spirit of God</a>. This ritual made clear that God had set this person apart for a special purpose. It also made clear that God was giving this person special <a href=\"#t8\">authority</a>. The person was then called \"anointed.\" For instance, God told Samuel to anoint <a href=\"#t33\">David</a> as <a href=\"#t226\">king</a> of <a href=\"#t74\">Israel</a>. God told Moses to anoint Aaron as <a href=\"#t246\">high priest</a>. And God told the prophet <a href=\"#t44\">Elijah</a> to anoint Elisha as a <a href=\"#t104\">prophet</a> to succeed Elijah.</p><p>Later, the word \"anointed\" was also used for people whom God had appointed for a special task, even if there had not been a ritual that involved the pouring of oil. Jesus is called \"the anointed,\" because God has selected him for a very special task.</p><p>People could also anoint objects. The <a href=\"#t103\">priests</a> anointed the objects that were used in the <a href=\"#t138\">temple</a> with oil to make clear that they now had a special purpose. These objects now belonged to God; they were sacred.</p><p><a href=\"#t77\">Jewish</a> people also used anointing as a daily activity that had no special meaning. They used sweet smelling oil to take care of their skin and their hair. Jesus told the people that if they <a href=\"#t49\">fasted</a>, they should anoint themselves just as they did every day, rather than make themselves look unkempt so that other people could think, \"These people are fasting, how impressive!\"</p><p>People also put some oil on guests to show them they were welcome and honored. There are two stories in the <a href=\"#t60\">Gospels</a> of women putting oil on Jesus's feet to honor him.</p><p>Jewish people also anointed a person's body after his death. After Jesus died, the women are bringing sweet smelling oil to the <a href=\"#t140\">tomb</a> in order to anoint Jesus's body.</p><p>In the New Testament, the early <a href=\"#t175\">Christians</a> sometimes used oil together with <a href=\"#t102\">prayer</a> if someone was sick. The <a href=\"#t6\">apostle</a> <a href=\"#t75\">James</a>, in his letter, says that if someone is sick, the other <a href=\"#t12\">believers</a> should pray for the person and anoint the person with oil. This was not because the oil had any special power, but because it was a symbol of God's presence.</p>",
+      "sourceSpan": {
+        "start": 0,
+        "end": 2594,
+        "unit": "Unicode code points"
+      },
+      "sourceHtmlSha256": "e833e4c339b17ea443693e9992e6ba3099545f1c807823fe72c328fa4e3b4e7d",
+      "source": {
+        "repo": "FIAKeyTerms",
+        "commit": "5ce5c6bd152236e16cf23290a40ab625175df8e3",
+        "path": "eng/json/001.content.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/FIAKeyTerms/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/json/001.content.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "53d804760210d12d4021dd735ab979cb96989ac9254b35ca357a97e3da1b6779",
+        "contentSha256": "e833e4c339b17ea443693e9992e6ba3099545f1c807823fe72c328fa4e3b4e7d",
+        "apiCaptureSha256": "bbff23ae27080839c5763862ff8794bb93ebf5fc2f9895d5d743e3720fbc4188",
+        "apiBodyComparison": "exact body in wrapper"
+      },
+      "rights": {
+        "repo": "FIAKeyTerms",
+        "commit": "5ce5c6bd152236e16cf23290a40ab625175df8e3",
+        "path": "eng/metadata.json",
+        "url": "https://raw.githubusercontent.com/BibleAquifer/FIAKeyTerms/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/metadata.json",
+        "retrievedAt": "2026-09-11T20:42:04.256Z",
+        "fileSha256": "429305b41f3b23d4f933b816d9d3485aa724f929f512bd8293ac2a8693d85f44",
+        "resourceTitle": "Familiarization, Internalization, Articulation (FIA) Key Terms",
+        "metadataVersion": "1.1.2",
+        "licenseInfo": {
+          "title": "Familiarization, Internalization, Articulation (Fia) Terms",
+          "copyright": {
+            "dates": "2025",
+            "holder": {
+              "name": "Word Collective",
+              "url": "https://wordcollective.com"
+            }
+          },
+          "licenses": [
+            {
+              "eng": {
+                "name": "CC BY-SA 4.0 license",
+                "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+              }
+            }
+          ],
+          "showAdaptationNoticeForEnglish": false,
+          "showAdaptationNoticeForNonEnglish": true
+        },
+        "adaptationNotice": "<p><b>Familiarization, Internalization, Articulation (FIA) Key Terms</b> © 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Key Terms</cite> has been adapted in the following languages Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> © 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>"
+      },
+      "translatedTitleSha256": "355e456f202a2e6fa7b512bd56683fa5bd330beb2135e14240b128eb37208777",
+      "translatedBodySha256": "4632aa9b74be76a42a93e2dfe0861b8950bd2065023b41a36d5473c4af67a435"
+    },
+    "reviewState": "proposed — independent bilingual review required"
+  }
+]

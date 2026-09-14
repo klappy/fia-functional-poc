@@ -1,0 +1,313 @@
+{
+  "englishIdentities": 32,
+  "originalSpanishIdentities": 22,
+  "derivedIdentities": 12,
+  "unionIdentities": 34,
+  "rows": [
+    {
+      "englishId": "a13",
+      "derivedId": "ai-spa-from-a13",
+      "status": "supplied title and metadata translated; original media preserved",
+      "sourceHtmlSha256": "c45baf41d3cd59d3fc27dd57c3dc52e8109c846462668d0a3693f12ee88d16c5",
+      "targetHtmlSha256": "4156fc04bb50edc43837500ceca365b4ae5e5de9bc0e99286e9169095485a31c",
+      "limitations": [
+        "No transcript available; no video dialogue translation or dubbing"
+      ]
+    },
+    {
+      "englishId": "a184",
+      "derivedId": "ai-spa-from-a184",
+      "status": "supplied title and metadata translated; original media preserved",
+      "sourceHtmlSha256": "f91f51582f3a9c3258c4764a8381345ef26b574627436721e63cc62a69a417a6",
+      "targetHtmlSha256": "9b6c0ec65cc8f4d159629cda52a4910d097a9a1fec6cd3639974e8376438eec1",
+      "limitations": [
+        "No transcript available; no video dialogue translation or dubbing"
+      ]
+    },
+    {
+      "englishId": "a10",
+      "derivedId": "ai-spa-from-a10",
+      "status": "supplied title and metadata translated; original media preserved",
+      "sourceHtmlSha256": "a54f4b698f5b961380c1ca8085a2fe4d35a68119c1a400771ad598f7410b2636",
+      "targetHtmlSha256": "96c78ddd2fe7907677a079175ad085c874a5aa034e6e4477245f12b4f339eb6b",
+      "limitations": [
+        "No transcript available; no video dialogue translation or dubbing"
+      ]
+    },
+    {
+      "englishId": "a112",
+      "spanishId": "a112",
+      "status": "existing original plus existing supplements; independent bilingual review pending",
+      "existingSupplementIds": [],
+      "englishBodySha256": "2db7f15db95e1d3632c34bec725e600334cf643c217b453e225eeb280bcf7a0c",
+      "evidence": "audit/COVERAGE-REVALIDATION.json",
+      "newMissingSpanEstablished": false
+    },
+    {
+      "englishId": "a111",
+      "spanishId": "a111",
+      "status": "existing original plus existing supplements; independent bilingual review pending",
+      "existingSupplementIds": [],
+      "englishBodySha256": "9a15d934fa5404d6fcfa44105edc8c7f79d7f2fd47bb80122817dbfea1f3b6aa",
+      "evidence": "audit/COVERAGE-REVALIDATION.json",
+      "newMissingSpanEstablished": false
+    },
+    {
+      "englishId": "a203",
+      "derivedId": "ai-spa-from-a203",
+      "status": "supplied title and metadata translated; original media preserved",
+      "sourceHtmlSha256": "d3576f75ab9f54da9fec3d05b82141877771effa95eede5b3b94e6f5728743a4",
+      "targetHtmlSha256": "574735e110f036241ccef4856981f2da8a4635e5c72f4e04822f15be4a7b595d",
+      "limitations": []
+    },
+    {
+      "englishId": "a204",
+      "spanishId": "a204",
+      "status": "existing original plus existing supplements; independent bilingual review pending",
+      "existingSupplementIds": [],
+      "englishBodySha256": "0a8c18b3780a5fed039cbaff069467dd4cb1db3cf1137afa1d6afd18811af95a",
+      "evidence": "audit/COVERAGE-REVALIDATION.json",
+      "newMissingSpanEstablished": false
+    },
+    {
+      "englishId": "c202",
+      "spanishId": "c202",
+      "status": "existing original plus existing supplements; independent bilingual review pending",
+      "existingSupplementIds": [
+        "map-c202-title"
+      ],
+      "englishBodySha256": "9c99cb72891971aed49da4a2214dfce537c600d2bcd50b11f80d11a14c45b812",
+      "evidence": "audit/COVERAGE-REVALIDATION.json",
+      "newMissingSpanEstablished": false
+    },
+    {
+      "englishId": "c197",
+      "spanishId": "c197",
+      "status": "existing original plus existing supplements; independent bilingual review pending",
+      "existingSupplementIds": [
+        "map-c197-title"
+      ],
+      "englishBodySha256": "6dce069a27c70c29999b0ee414d80f68086ae7230beefc969d991984662687b1",
+      "evidence": "audit/COVERAGE-REVALIDATION.json",
+      "newMissingSpanEstablished": false
+    },
+    {
+      "englishId": "c201",
+      "derivedId": "ai-spa-from-c201",
+      "status": "supplied title and metadata translated; original media preserved",
+      "sourceHtmlSha256": "e67aeda7273f792467367bb53713022f34bbf847d34f7395a01ff93031246476",
+      "targetHtmlSha256": "18c411d74634ab42bd9ea561d5fa78e538ad8bfef5dea7b994c362099532135d",
+      "limitations": [
+        "Original map pixels remain English"
+      ]
+    },
+    {
+      "englishId": "c168",
+      "derivedId": "ai-spa-from-c168",
+      "status": "supplied title and metadata translated; original media preserved",
+      "sourceHtmlSha256": "5a8e24aca1d4dce218f6470f4b12fd24401f5739511d73c5cf9ecc9c6332eba1",
+      "targetHtmlSha256": "fce9688036f250ccb1b9e9a677fec687056af031f93498559d03962b84fcb179",
+      "limitations": [
+        "Original map pixels remain English"
+      ]
+    },
+    {
+      "englishId": "eng-t63-v1",
+      "spanishId": "spa-t63-v1",
+      "status": "existing original plus existing supplements; independent bilingual review pending",
+      "existingSupplementIds": [],
+      "englishBodySha256": "a5bf7e328cdfe38dcb7f925a8c9fde51a5ce658e0ca06b8fe736ee3f05afb3dc",
+      "evidence": "audit/COVERAGE-REVALIDATION.json",
+      "newMissingSpanEstablished": false
+    },
+    {
+      "englishId": "eng-t68-v1",
+      "spanishId": "spa-t68-v1",
+      "status": "existing original plus existing supplements; independent bilingual review pending",
+      "existingSupplementIds": [],
+      "englishBodySha256": "f878738477860ba4933a1ad85dabe727b9e38f1c745a9d3e95154e61f8cbb46a",
+      "evidence": "audit/COVERAGE-REVALIDATION.json",
+      "newMissingSpanEstablished": false
+    },
+    {
+      "englishId": "eng-t23-v1",
+      "spanishId": "spa-t23-v1",
+      "status": "existing original plus existing supplements; independent bilingual review pending",
+      "existingSupplementIds": [
+        "term-23-warnings"
+      ],
+      "englishBodySha256": "6b568193e008a0848ecc7e03ec4fe3609deb5416ca681e4018cc3f1f7b701115",
+      "evidence": "audit/COVERAGE-REVALIDATION.json",
+      "newMissingSpanEstablished": false
+    },
+    {
+      "englishId": "eng-t38-v1",
+      "derivedId": "ai-spa-from-eng-t38-v1",
+      "status": "full supplied term body translated",
+      "sourceHtmlSha256": "aed8ff9527a6c36c5e6dffb47d76ce7a7cbfd7814a28306b8c4793c243d90097",
+      "targetHtmlSha256": "d94a410d0f1ffdbd5e35b17e4a2c11eacff93b802a93c682b11a792324fdfa67",
+      "limitations": []
+    },
+    {
+      "englishId": "eng-t226-v2",
+      "derivedId": "ai-spa-from-eng-t226-v2",
+      "status": "full supplied term body translated",
+      "sourceHtmlSha256": "4a3f5b306c9da90140b573d34975177187e54ff1fe9eb8f1025a4243ee765050",
+      "targetHtmlSha256": "29934a2c2651158155fbd02ee26ab1bb616a7ff36764e4650181a93b03c29b51",
+      "limitations": []
+    },
+    {
+      "englishId": "eng-t103-v1",
+      "derivedId": "ai-spa-from-eng-t103-v1",
+      "status": "full supplied term body translated",
+      "sourceHtmlSha256": "9fe9ec8a8b2fc17b4d854423d5298d01bb6f85d6deece5c196f8a41001d238ec",
+      "targetHtmlSha256": "701e9bd7acffa3958a0c22b38bfcb10ec4bd58d3a2586ba9e697864b10bd4091",
+      "limitations": []
+    },
+    {
+      "englishId": "eng-t104-v1",
+      "spanishId": "spa-t104-v1",
+      "status": "existing original plus existing supplements; independent bilingual review pending",
+      "existingSupplementIds": [
+        "term-104-complete-sentence"
+      ],
+      "englishBodySha256": "7bb7688e18f8d7da80a9124d9e784a99fcd2864555c3239140ded20f35a12ef5",
+      "evidence": "audit/COVERAGE-REVALIDATION.json",
+      "newMissingSpanEstablished": false
+    },
+    {
+      "englishId": "eng-t109-v1",
+      "spanishId": "spa-t109-v1",
+      "status": "existing original plus existing supplements; independent bilingual review pending",
+      "existingSupplementIds": [],
+      "englishBodySha256": "3c2131d60d4da149c2008971c25f16a1e09a9c5f4a70e55798c13b249670ebcd",
+      "evidence": "audit/COVERAGE-REVALIDATION.json",
+      "newMissingSpanEstablished": false
+    },
+    {
+      "englishId": "eng-t76-v1",
+      "derivedId": "ai-spa-from-eng-t76-v1",
+      "status": "full supplied term body translated",
+      "sourceHtmlSha256": "681a56b09c7fb9f96d218c141820b0c8fa4746a65f1cbca2aeb97dacc153eeb8",
+      "targetHtmlSha256": "0092a1fa88136f2927388cbb6153e58036f95aa66dee9318c49e956d718b23fa",
+      "limitations": []
+    },
+    {
+      "englishId": "eng-t9-v1",
+      "spanishId": "spa-t9-v1",
+      "status": "existing original plus existing supplements; independent bilingual review pending",
+      "existingSupplementIds": [],
+      "englishBodySha256": "2a481ecbfe4d0104dac616b5be3a8a72168fcd72b5690ad3df9607e7c0598285",
+      "evidence": "audit/COVERAGE-REVALIDATION.json",
+      "newMissingSpanEstablished": false
+    },
+    {
+      "englishId": "eng-t145-v1",
+      "spanishId": "spa-t145-v1",
+      "status": "existing original plus existing supplements; independent bilingual review pending",
+      "existingSupplementIds": [],
+      "englishBodySha256": "d752f6020bd735f0989f0d71072ce16bba023599061b62ee583e66457dc93eef",
+      "evidence": "audit/COVERAGE-REVALIDATION.json",
+      "newMissingSpanEstablished": false
+    },
+    {
+      "englishId": "eng-t87-v1",
+      "spanishId": "spa-t87-v1",
+      "status": "existing original plus existing supplements; independent bilingual review pending",
+      "existingSupplementIds": [],
+      "englishBodySha256": "8515913d9c4098b60a762729fbf41736567f7b6e4f0dbe9907e185c6370109c7",
+      "evidence": "audit/COVERAGE-REVALIDATION.json",
+      "newMissingSpanEstablished": false
+    },
+    {
+      "englishId": "eng-t88-v1",
+      "derivedId": "ai-spa-from-eng-t88-v1",
+      "status": "full supplied term body translated",
+      "sourceHtmlSha256": "591296193635d6695dc6bb723d84d341270a1b49fbf9a996b11878d5e5fb2a89",
+      "targetHtmlSha256": "7d66657a131e7057be066093f53d8e943fb5fba0bfe7cda3570dd3f1f8619016",
+      "limitations": []
+    },
+    {
+      "englishId": "eng-t60-v1",
+      "spanishId": "spa-t60-v1",
+      "status": "existing original plus existing supplements; independent bilingual review pending",
+      "existingSupplementIds": [],
+      "englishBodySha256": "b26459f7fa917b7f46a898fd4b1a73a24558afadfc1f23a0f3266f087e792136",
+      "evidence": "audit/COVERAGE-REVALIDATION.json",
+      "newMissingSpanEstablished": false
+    },
+    {
+      "englishId": "eng-t53-v1",
+      "spanishId": "spa-t53-v1",
+      "status": "existing original plus existing supplements; independent bilingual review pending",
+      "existingSupplementIds": [
+        "term-53-examples",
+        "term-53-mime-action"
+      ],
+      "englishBodySha256": "5ae9fbd29ae9084ac4dfc35d6f669fae6d5ce85fd05997309658898f2c77a008",
+      "evidence": "audit/COVERAGE-REVALIDATION.json",
+      "newMissingSpanEstablished": false
+    },
+    {
+      "englishId": "eng-t4-v1",
+      "spanishId": "spa-t4-v1",
+      "status": "existing original plus existing supplements; independent bilingual review pending",
+      "existingSupplementIds": [],
+      "englishBodySha256": "d88b7c53a5546dad5070f984b76b18cf00133983686c4b077d81ade0a5e65bd1",
+      "evidence": "audit/COVERAGE-REVALIDATION.json",
+      "newMissingSpanEstablished": false
+    },
+    {
+      "englishId": "eng-t5-v1",
+      "derivedId": "ai-spa-from-eng-t5-v1",
+      "status": "full supplied term body translated",
+      "sourceHtmlSha256": "e833e4c339b17ea443693e9992e6ba3099545f1c807823fe72c328fa4e3b4e7d",
+      "targetHtmlSha256": "4632aa9b74be76a42a93e2dfe0861b8950bd2065023b41a36d5473c4af67a435",
+      "limitations": []
+    },
+    {
+      "englishId": "eng-t92-v1",
+      "spanishId": "spa-t92-v1",
+      "status": "existing original plus existing supplements; independent bilingual review pending",
+      "existingSupplementIds": [
+        "term-92-warnings"
+      ],
+      "englishBodySha256": "4e5cec57c162d9fb6e45fa5237362f66bdcba87a09d632c4423d3c626816fda7",
+      "evidence": "audit/COVERAGE-REVALIDATION.json",
+      "newMissingSpanEstablished": false
+    },
+    {
+      "englishId": "eng-t118-v1",
+      "spanishId": "spa-t118-v1",
+      "status": "existing original plus existing supplements; independent bilingual review pending",
+      "existingSupplementIds": [],
+      "englishBodySha256": "c9f6409d9a495e5e13e484f4c2e106564aafd5e0788d655e9207d976a58140cb",
+      "evidence": "audit/COVERAGE-REVALIDATION.json",
+      "newMissingSpanEstablished": false
+    },
+    {
+      "englishId": "eng-t125-v1",
+      "spanishId": "spa-t125-v1",
+      "status": "existing original plus existing supplements; independent bilingual review pending",
+      "existingSupplementIds": [],
+      "englishBodySha256": "7c949f904bb16a7099e0e8593cd96fabbada55e6b7eb1e6c5a8571a2b132f189",
+      "evidence": "audit/COVERAGE-REVALIDATION.json",
+      "newMissingSpanEstablished": false
+    },
+    {
+      "englishId": "eng-t129-v1",
+      "spanishId": "spa-t129-v1",
+      "status": "existing original plus existing supplements; independent bilingual review pending",
+      "existingSupplementIds": [],
+      "englishBodySha256": "b3e8583cae01134475a24d0ba333533a38e55c0e3ba58d1879d40eeaff581709",
+      "evidence": "audit/COVERAGE-REVALIDATION.json",
+      "newMissingSpanEstablished": false
+    }
+  ],
+  "unchangedOriginalPackSha256": "031635f2c922871e71bb679758642cb6e2e37a4779d7c1cc32e1b395d5706192",
+  "originalTermsSha256": "3374d4261a04b32ab0b67b0e871ac0301777b27641f65ce29d1980982113ea6e",
+  "originalMediaSha256": "b43e0017ab07df18e4640ee2232df0b1714230d73a95e8ff3fbdd0476000293f",
+  "existingEightSupplementsSha256": "a8660e1de135a51aa09bc1c0d67cd6d9688ff2c751b045963372960e615dcae9",
+  "newGapSupplements": [],
+  "remainingGate": "Independent full bilingual review; inherited unchanged-body audit is not new semantic validation"
+}

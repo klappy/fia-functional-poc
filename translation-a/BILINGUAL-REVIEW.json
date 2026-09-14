@@ -1,0 +1,1100 @@
+[
+  {
+    "englishId": "a13",
+    "englishTitle": "Jordan River",
+    "spanishTitle": "Río Jordán",
+    "paragraphs": [
+      {
+        "englishHtml": "<p><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a13/720p.mp4'></a> (79 seconds)</p>",
+        "spanishHtml": "<p><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a13/720p.mp4'></a> (79 segundos)</p>"
+      },
+      {
+        "englishHtml": "<p align='center'><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a13/720p.mp4'>link</a></p>",
+        "spanishHtml": "<p align='center'><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a13/720p.mp4'>enlace</a></p>"
+      }
+    ],
+    "englishHtml": "<h3>Video Content</h3>\n<p><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a13/720p.mp4'></a> (79 seconds)</p><p align='center'><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a13/720p.mp4'>link</a></p>",
+    "spanishHtml": "<h3>Contenido de video</h3>\n<p><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a13/720p.mp4'></a> (79 segundos)</p><p align='center'><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a13/720p.mp4'>enlace</a></p>",
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "a184",
+    "englishTitle": "Sandals",
+    "spanishTitle": "Sandalias",
+    "paragraphs": [
+      {
+        "englishHtml": "<p><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a184/720p.mp4'></a> (56 seconds)</p>",
+        "spanishHtml": "<p><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a184/720p.mp4'></a> (56 segundos)</p>"
+      },
+      {
+        "englishHtml": "<p align='center'><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a184/720p.mp4'>link</a></p>",
+        "spanishHtml": "<p align='center'><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a184/720p.mp4'>enlace</a></p>"
+      }
+    ],
+    "englishHtml": "<h3>Video Content</h3>\n<p><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a184/720p.mp4'></a> (56 seconds)</p><p align='center'><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a184/720p.mp4'>link</a></p>",
+    "spanishHtml": "<h3>Contenido de video</h3>\n<p><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a184/720p.mp4'></a> (56 segundos)</p><p align='center'><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a184/720p.mp4'>enlace</a></p>",
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "a10",
+    "englishTitle": "Wilderness or Desert",
+    "spanishTitle": "Desierto o lugar deshabitado",
+    "paragraphs": [
+      {
+        "englishHtml": "<p><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a10/720p.mp4'></a> (55 seconds)</p>",
+        "spanishHtml": "<p><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a10/720p.mp4'></a> (55 segundos)</p>"
+      },
+      {
+        "englishHtml": "<p align='center'><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a10/720p.mp4'>link</a></p>",
+        "spanishHtml": "<p align='center'><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a10/720p.mp4'>enlace</a></p>"
+      }
+    ],
+    "englishHtml": "<h3>Video Content</h3>\n<p><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a10/720p.mp4'></a> (55 seconds)</p><p align='center'><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a10/720p.mp4'>link</a></p>",
+    "spanishHtml": "<h3>Contenido de video</h3>\n<p><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a10/720p.mp4'></a> (55 segundos)</p><p align='center'><a href='https://s3.amazonaws.com/cbbt-er.public/media/videos/a10/720p.mp4'>enlace</a></p>",
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "a112",
+    "englishHtml": "<h3>Image Content</h3>\n<block><p><img src='/assets/mark-1-1-13/a112.jpg' alt='Image' width='480' /></p><p><a href='/assets/mark-1-1-13/a112.jpg'>link</a></p></block>",
+    "spanishHtml": "<h3>Image Content</h3>\n<block><p><img src='https://s3.amazonaws.com/cbbt-er.public/media/photos/a112/1000.jpg' alt='Image' width='480' /></p><p><a href='https://s3.amazonaws.com/cbbt-er.public/media/photos/a112/1000.jpg'>link</a></p></block>",
+    "existingSupplements": [],
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "a111",
+    "englishHtml": "<h3>Image Content</h3>\n<block><p><img src='/assets/mark-1-1-13/a111.jpg' alt='Image' width='480' /></p><p><a href='/assets/mark-1-1-13/a111.jpg'>link</a></p></block>",
+    "spanishHtml": "<h3>Image Content</h3>\n<block><p><img src='https://s3.amazonaws.com/cbbt-er.public/media/photos/a111/1000.jpg' alt='Image' width='480' /></p><p><a href='https://s3.amazonaws.com/cbbt-er.public/media/photos/a111/1000.jpg'>link</a></p></block>",
+    "existingSupplements": [],
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "a203",
+    "englishTitle": "Sandals",
+    "spanishTitle": "Sandalias",
+    "paragraphs": [
+      {
+        "englishHtml": "<p><img src='/assets/mark-1-1-13/a203.jpg' alt='Image' width='480' /></p>",
+        "spanishHtml": "<p><img src='/assets/mark-1-1-13/a203.jpg' alt='Imagen' width='480' /></p>"
+      },
+      {
+        "englishHtml": "<p><a href='/assets/mark-1-1-13/a203.jpg'>link</a></p>",
+        "spanishHtml": "<p><a href='/assets/mark-1-1-13/a203.jpg'>enlace</a></p>"
+      }
+    ],
+    "englishHtml": "<h3>Image Content</h3>\n<block><p><img src='/assets/mark-1-1-13/a203.jpg' alt='Image' width='480' /></p><p><a href='/assets/mark-1-1-13/a203.jpg'>link</a></p></block>",
+    "spanishHtml": "<h3>Contenido de imagen</h3>\n<block><p><img src='/assets/mark-1-1-13/a203.jpg' alt='Imagen' width='480' /></p><p><a href='/assets/mark-1-1-13/a203.jpg'>enlace</a></p></block>",
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "a204",
+    "englishHtml": "<h3>Image Content</h3>\n<block><p><img src='/assets/mark-1-1-13/a204.jpg' alt='Image' width='480' /></p><p><a href='/assets/mark-1-1-13/a204.jpg'>link</a></p></block>",
+    "spanishHtml": "<h3>Image Content</h3>\n<block><p><img src='https://s3.amazonaws.com/cbbt-er.public/media/photos/a204/1000.jpg' alt='Image' width='480' /></p><p><a href='https://s3.amazonaws.com/cbbt-er.public/media/photos/a204/1000.jpg'>link</a></p></block>",
+    "existingSupplements": [],
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "c202",
+    "englishHtml": "<h3>Image Content</h3>\n<block><p><img src='/assets/mark-1-1-13/c202.png' alt='Image' width='480' /></p><p><a href='/assets/mark-1-1-13/c202.png'>link</a></p></block>",
+    "spanishHtml": "<h3>Image Content</h3>\n<block><p><img src='https://s3.amazonaws.com/cbbt-er.public/media/maps/eng/c202/v1/original.png' alt='Image' width='480' /></p><p><a href='https://s3.amazonaws.com/cbbt-er.public/media/maps/eng/c202/v1/original.png'>link</a></p></block>",
+    "existingSupplements": [
+      {
+        "id": "map-c202-title",
+        "targetId": "c202",
+        "language": "spa",
+        "lang": "es",
+        "label": "AI translated from English",
+        "content": "Lugares importantes de Jerusalén",
+        "format": "text",
+        "sha256": "6f2535c2291e9fef6016128abf7ba8a7fa32e0f790d3127ea5a81ee307393057",
+        "source": {
+          "id": "map-c202-title",
+          "sourceRepo": "BibleAquifer/FIAMaps",
+          "sourceCommit": "7e56e7bc68d354a72b7a3e882beb78d5f084d7f5",
+          "sourcePath": "eng/json/009.content.json",
+          "sourceId": "c202",
+          "sourceVersion": "1.0.4",
+          "sourceField": "title",
+          "sourceText": "Important Locations in Jerusalem",
+          "sourceSpanSha256": "c362087ab5dfe8d0e50662313929a340b5752f6212a1a80447e3fca11b2afe27",
+          "sourceCharacters": 32,
+          "rightsMetadata": "6f6be14964b62ea78a38627ee97f760ced77ac8bc9a2f3a80a85b4d39bcee21c",
+          "license": "CC BY-SA 4.0",
+          "credit": "Biblica ©2025 per license_info; retain supplied Word Collective/Mission Mutual adaptation notice separately",
+          "placement": "ResourceCard title; source English title retained in provenance",
+          "outputLabel": "AI translated from English",
+          "mapPixelsLanguage": "eng",
+          "semanticConstraint": "Title translation does not translate map labels; show English map explicitly"
+        },
+        "provenance": {
+          "method": "AI translation",
+          "sourceLanguage": "eng",
+          "targetLanguage": "spa",
+          "modelFamily": "GPT-6",
+          "agent": "Codex source translation worker",
+          "modelIdentityEvidence": "Session developer identifies Codex as based on GPT-6; exact deployment/model revision is not exposed",
+          "exactDeploymentId": null,
+          "generatedUtc": "2026-09-12T02:37:50.579183+00:00",
+          "originalSpanishModified": false,
+          "associationOrigin": "derived supplement, not original source association",
+          "review": {
+            "status": "independent full source/output semantic and hash review accepted",
+            "receiptSha256": "5b632ff7b607920dde30ff6440bb76cf801280a2cda4251ad83f12cf545f9311",
+            "expertCertification": false
+          }
+        },
+        "rights": {
+          "metadataSha256": "6f6be14964b62ea78a38627ee97f760ced77ac8bc9a2f3a80a85b4d39bcee21c",
+          "licenseInfo": {
+            "title": "Familiarization, Internalization, Articulation (Fia) Maps",
+            "copyright": {
+              "dates": "2025",
+              "holder": {
+                "name": "Biblica",
+                "url": "https://www.biblica.com"
+              }
+            },
+            "licenses": [
+              {
+                "eng": {
+                  "name": "CC BY-SA 4.0 license",
+                  "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+                }
+              }
+            ],
+            "showAdaptationNoticeForEnglish": false,
+            "showAdaptationNoticeForNonEnglish": false
+          },
+          "sourceAdaptationNoticeHtml": "<p><b>Familiarization, Internalization, Articulation (FIA) Maps</b> © 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Maps</cite> has been adapted in the following languages Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> © 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>",
+          "sourceUrl": "https://github.com/BibleAquifer/FIAMaps/blob/7e56e7bc68d354a72b7a3e882beb78d5f084d7f5/eng/json/009.content.json",
+          "derivedLicense": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "changeNotice": "AI translated from English; supplemental translation only; original Spanish source unchanged.",
+          "priorNoticesRetained": true,
+          "endorsementClaim": false,
+          "attributionDiscrepancy": "Metadata names Biblica as copyright holder; supplied adaptation notice names Word Collective/Mission Mutual. Both retained; discrepancy not claimed resolved.",
+          "metadataUrl": "https://raw.githubusercontent.com/BibleAquifer/FIAMaps/7e56e7bc68d354a72b7a3e882beb78d5f084d7f5/eng/metadata.json"
+        },
+        "presentation": {
+          "component": "ResourceCard",
+          "property": "meta",
+          "designSystemRepo": "klappy/bt-design-system-generative-glass",
+          "designSystemCommit": "8d6b48dd93b6efa43305724a0cf320a85feabe5b",
+          "designSystemPath": "components/resources/ResourceCard.jsx",
+          "patternSource": "components/resources/ResourceCard.prompt.md",
+          "meta": "FIAMaps · c202 · CC BY-SA 4.0 · AI translated from English · Independent source/output review accepted",
+          "displayScope": "per item in list/detail/offline",
+          "sourceAndSupplementSeparate": true,
+          "placement": "ResourceCard title; source English title retained in provenance",
+          "englishMapNotice": "Map labels remain English; only the title is AI translated.",
+          "mapPixelsLanguage": "eng",
+          "mapPixelsModified": false
+        },
+        "audio": {
+          "available": false
+        }
+      }
+    ],
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "c197",
+    "englishHtml": "<h3>Image Content</h3>\n<block><p><img src='/assets/mark-1-1-13/c197.png' alt='Image' width='480' /></p><p><a href='/assets/mark-1-1-13/c197.png'>link</a></p></block>",
+    "spanishHtml": "<h3>Image Content</h3>\n<block><p><img src='https://s3.amazonaws.com/cbbt-er.public/media/maps/eng/c197/v1/original.png' alt='Image' width='480' /></p><p><a href='https://s3.amazonaws.com/cbbt-er.public/media/maps/eng/c197/v1/original.png'>link</a></p></block>",
+    "existingSupplements": [
+      {
+        "id": "map-c197-title",
+        "targetId": "c197",
+        "language": "spa",
+        "lang": "es",
+        "label": "AI translated from English",
+        "content": "Lugares en el libro de Marcos",
+        "format": "text",
+        "sha256": "48b2c339c822f563cf62f9d040dbae778314e8d53992611bb2b8c4841bd5dba3",
+        "source": {
+          "id": "map-c197-title",
+          "sourceRepo": "BibleAquifer/FIAMaps",
+          "sourceCommit": "7e56e7bc68d354a72b7a3e882beb78d5f084d7f5",
+          "sourcePath": "eng/json/011.content.json",
+          "sourceId": "c197",
+          "sourceVersion": "1.0.4",
+          "sourceField": "title",
+          "sourceText": "Locations in the Book of Mark",
+          "sourceSpanSha256": "bcea921a51edf39ecf87a584f7e8ab8faf0f00630d1fb7cba2207fa64cc7cbad",
+          "sourceCharacters": 29,
+          "rightsMetadata": "6f6be14964b62ea78a38627ee97f760ced77ac8bc9a2f3a80a85b4d39bcee21c",
+          "license": "CC BY-SA 4.0",
+          "credit": "Biblica ©2025 per license_info; retain supplied Word Collective/Mission Mutual adaptation notice separately",
+          "placement": "ResourceCard title; source English title retained in provenance",
+          "outputLabel": "AI translated from English",
+          "mapPixelsLanguage": "eng",
+          "semanticConstraint": "Title translation does not translate map labels; show English map explicitly"
+        },
+        "provenance": {
+          "method": "AI translation",
+          "sourceLanguage": "eng",
+          "targetLanguage": "spa",
+          "modelFamily": "GPT-6",
+          "agent": "Codex source translation worker",
+          "modelIdentityEvidence": "Session developer identifies Codex as based on GPT-6; exact deployment/model revision is not exposed",
+          "exactDeploymentId": null,
+          "generatedUtc": "2026-09-12T02:37:50.579183+00:00",
+          "originalSpanishModified": false,
+          "associationOrigin": "derived supplement, not original source association",
+          "review": {
+            "status": "independent full source/output semantic and hash review accepted",
+            "receiptSha256": "5b632ff7b607920dde30ff6440bb76cf801280a2cda4251ad83f12cf545f9311",
+            "expertCertification": false
+          }
+        },
+        "rights": {
+          "metadataSha256": "6f6be14964b62ea78a38627ee97f760ced77ac8bc9a2f3a80a85b4d39bcee21c",
+          "licenseInfo": {
+            "title": "Familiarization, Internalization, Articulation (Fia) Maps",
+            "copyright": {
+              "dates": "2025",
+              "holder": {
+                "name": "Biblica",
+                "url": "https://www.biblica.com"
+              }
+            },
+            "licenses": [
+              {
+                "eng": {
+                  "name": "CC BY-SA 4.0 license",
+                  "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+                }
+              }
+            ],
+            "showAdaptationNoticeForEnglish": false,
+            "showAdaptationNoticeForNonEnglish": false
+          },
+          "sourceAdaptationNoticeHtml": "<p><b>Familiarization, Internalization, Articulation (FIA) Maps</b> © 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Maps</cite> has been adapted in the following languages Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> © 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>",
+          "sourceUrl": "https://github.com/BibleAquifer/FIAMaps/blob/7e56e7bc68d354a72b7a3e882beb78d5f084d7f5/eng/json/011.content.json",
+          "derivedLicense": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "changeNotice": "AI translated from English; supplemental translation only; original Spanish source unchanged.",
+          "priorNoticesRetained": true,
+          "endorsementClaim": false,
+          "attributionDiscrepancy": "Metadata names Biblica as copyright holder; supplied adaptation notice names Word Collective/Mission Mutual. Both retained; discrepancy not claimed resolved.",
+          "metadataUrl": "https://raw.githubusercontent.com/BibleAquifer/FIAMaps/7e56e7bc68d354a72b7a3e882beb78d5f084d7f5/eng/metadata.json"
+        },
+        "presentation": {
+          "component": "ResourceCard",
+          "property": "meta",
+          "designSystemRepo": "klappy/bt-design-system-generative-glass",
+          "designSystemCommit": "8d6b48dd93b6efa43305724a0cf320a85feabe5b",
+          "designSystemPath": "components/resources/ResourceCard.jsx",
+          "patternSource": "components/resources/ResourceCard.prompt.md",
+          "meta": "FIAMaps · c197 · CC BY-SA 4.0 · AI translated from English · Independent source/output review accepted",
+          "displayScope": "per item in list/detail/offline",
+          "sourceAndSupplementSeparate": true,
+          "placement": "ResourceCard title; source English title retained in provenance",
+          "englishMapNotice": "Map labels remain English; only the title is AI translated.",
+          "mapPixelsLanguage": "eng",
+          "mapPixelsModified": false
+        },
+        "audio": {
+          "available": false
+        }
+      }
+    ],
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "c201",
+    "englishTitle": "Aerial View of Judea and Jerusalem",
+    "spanishTitle": "Vista aérea de Judea y Jerusalén",
+    "paragraphs": [
+      {
+        "englishHtml": "<p><img src='/assets/mark-1-1-13/c201.png' alt='Image' width='480' /></p>",
+        "spanishHtml": "<p><img src='/assets/mark-1-1-13/c201.png' alt='Imagen' width='480' /></p>"
+      },
+      {
+        "englishHtml": "<p><a href='/assets/mark-1-1-13/c201.png'>link</a></p>",
+        "spanishHtml": "<p><a href='/assets/mark-1-1-13/c201.png'>enlace</a></p>"
+      }
+    ],
+    "englishHtml": "<h3>Image Content</h3>\n<block><p><img src='/assets/mark-1-1-13/c201.png' alt='Image' width='480' /></p><p><a href='/assets/mark-1-1-13/c201.png'>link</a></p></block>",
+    "spanishHtml": "<h3>Contenido de imagen</h3>\n<block><p><img src='/assets/mark-1-1-13/c201.png' alt='Imagen' width='480' /></p><p><a href='/assets/mark-1-1-13/c201.png'>enlace</a></p></block>",
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "c168",
+    "englishTitle": "Nazareth and Judea",
+    "spanishTitle": "Nazaret y Judea",
+    "paragraphs": [
+      {
+        "englishHtml": "<p><img src='/assets/mark-1-1-13/c168.png' alt='Image' width='480' /></p>",
+        "spanishHtml": "<p><img src='/assets/mark-1-1-13/c168.png' alt='Imagen' width='480' /></p>"
+      },
+      {
+        "englishHtml": "<p><a href='/assets/mark-1-1-13/c168.png'>link</a></p>",
+        "spanishHtml": "<p><a href='/assets/mark-1-1-13/c168.png'>enlace</a></p>"
+      }
+    ],
+    "englishHtml": "<h3>Image Content</h3>\n<block><p><img src='/assets/mark-1-1-13/c168.png' alt='Image' width='480' /></p><p><a href='/assets/mark-1-1-13/c168.png'>link</a></p></block>",
+    "spanishHtml": "<h3>Contenido de imagen</h3>\n<block><p><img src='/assets/mark-1-1-13/c168.png' alt='Imagen' width='480' /></p><p><a href='/assets/mark-1-1-13/c168.png'>enlace</a></p></block>",
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "eng-t63-v1",
+    "englishHtml": "<p>The word <b>heaven</b> sometimes means the visible sky: the place where birds are flying, where we can see clouds, and where we can see stars at night.</p><p>Most of the time, though, the word \"heaven\" refers to the place where God lives with his <a href=\"#t4\">angels</a>. This heaven is not somewhere in this universe; it is not a place that humans can travel to. But God can send his angels to earth to do his work, and Jesus came from heaven to earth. After Jesus had died and become alive again, he went back to heaven. He will come back one day to establish the <a href=\"#t82\">kingdom of God</a> for good. The book of Revelation tells us that when Jesus will come back, there will be a new heaven and a new earth. But these will no longer be separated from each other-with God in heaven, and the people on earth. Instead, God will live in the midst of his people.</p><p>Sometimes it is not clear if, in a certain passage, the word \"heaven\" means the visible sky or the place where God lives. Sometimes both meanings can be true at the same time. For instance, \"rain from heaven\" can mean rain that comes from the sky, but it also can mean rain that is sent by God.</p><p>Sometimes the <a href=\"#t77\">Jews</a> used the term \"the highest heaven\" to make clear that they were not talking about the sky, but about the place where God lived.</p><p>Because heaven is the place where God lives, the Jews often used the term \"heaven\" when they were talking about God. Out of respect for God they preferred not to use the name of God. And so, rather than saying \"God,\" the Jews might say \"heaven.\" That's why the term \"the kingdom of heaven\" means the same as \"the kingdom of God.\"</p><p>The word for heaven in <a href=\"#t227\">Hebrew</a>, the language of the Old Testament, is plural, or means more than one. We hear it as \"heavens.\" Therefore you will sometimes see \"heaven\" in translations, and sometimes you will see \"heavens.\" But this means the same thing. It does not mean that there is more than one heaven.</p>",
+    "spanishHtml": "<p>La palabra <b>cielo</b> a veces significa el cielo visible: el lugar donde vuelan los pájaros, donde podemos ver las nubes y donde podemos ver las estrellas por la noche.</p><p>La mayoría de las veces, sin embargo, la palabra “cielo” se refiere al lugar donde Dios vive con sus <b>ángeles</b>. Este cielo no está en alguna parte de este universo; no es un lugar al que los humanos puedan viajar. Pero Dios puede enviar a sus ángeles a la tierra para hacer su obra, y Jesús vino del cielo a la tierra. Después de que Jesús murió y volvió a la vida, regresó al cielo. Él volverá un día para establecer el <a href=\"#t82\">reino de Dios</a> para siempre. El libro de Apocalipsis nos dice que cuando Jesús regrese, habrá un nuevo cielo y una nueva tierra. Pero estos ya no estarán separados el uno del otro, con Dios en el cielo y las personas en la tierra. En cambio, Dios vivirá en medio de su pueblo.</p><p>A veces no está claro si, en cierto pasaje, la palabra “cielo” se refiere al cielo visible o al lugar donde vive Dios. A veces ambos significados pueden ser verdaderos al mismo tiempo. Por ejemplo, “lluvia del cielo” puede significar lluvia que viene del cielo, pero también puede significar lluvia que es enviada por Dios.</p><p>A veces los <b>judíos</b> usaban el término “el cielo más alto” para dejar claro que no estaban hablando del cielo, sino del lugar donde Dios vivía.</p><p>Como el cielo es el lugar donde vive Dios, los judíos a menudo usaban el término “cielo” cuando hablaban de Dios. Por respeto a Dios preferían no usar el nombre de Dios. Y así, en lugar de decir “Dios”, los judíos podían decir “cielo”. Es por eso que el término “el reino de los cielos” significa lo mismo que “el reino de Dios”.</p><p>La palabra para cielo en <a href=\"#t227\">hebreo</a>, el idioma del Antiguo Testamento, es plural, o significa más de uno. Lo escuchamos como “cielos”. Por lo tanto, a veces verán “cielo” en las traducciones, y a veces verán “cielos”. Pero esto significa lo mismo. No significa que haya más de un cielo.</p>",
+    "existingSupplements": [],
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "eng-t68-v1",
+    "englishHtml": "<p>The <b>Holy Spirit</b> is the <b>Spirit of God</b>. Sometimes the Bible calls this the Spirit of God, the <b>Spirit of the Lord</b>, or sometimes just the <b>Spirit</b>.</p><p>The Spirit of God is the power that comes from God. This power creates, gives life, performs <a href=\"#t93\">miracles</a>, and changes people.</p><p>When the spirit of God comes over a person, that person receives a special power or ability. This can mean physical strength, special <a href=\"#t147\">wisdom</a>, or a clear understanding of what God wants. The Holy Spirit gave messages from God to the <a href=\"#t104\">prophets</a>, which the prophets then shared with the people.</p><p>The Holy Spirit makes it possible for people to become followers of Jesus. When people start to follow Jesus, the Holy Spirit works in their heart to help them to behave more and more like Jesus, to make them more and more <a href=\"#t67\">holy</a>. This work of the Holy Spirit is called <a href=\"#t232\">sanctification</a>.</p><p>The Holy Spirit is not just a power, but is also a person itself. We know this for instance because the Bible says that it is possible to make the Holy Spirit sad. The Holy Spirit is part of the Trinity-the God who is one, but consists of three persons. God the father, God the son Jesus, and God the Holy Spirit are three different persons, but together they are one God. We can see all three members of the Trinity together at Jesus's <a href=\"#t9\">baptism</a>, when the Holy Spirit comes down on Jesus and the voice of God speaks from <a href=\"#t63\">heaven</a>. The Bible does not use the word Trinity anywhere, but the <a href=\"#t24\">church</a> began to use this word several generations after Jesus had gone back to <a href=\"#t63\">heaven</a> to describe the mystery of God being both three and one.</p><p>In the language that the Bible was written in, the word for spirit is the same as the word for \"wind\" and \"breath.\" We can understand why these words are similar: They are all invisible and therefore somewhat mysterious, but very important.</p><p>Sometimes it is not clear if, in a certain passage, the meaning is \"spirit,\" or \"wind,\" or \"breath.\" The fact that the word can mean all these things adds beauty and depth to such a passage.</p>",
+    "spanishHtml": "<p>El <b>Espíritu Santo</b> es el <b>Espíritu de Dios</b>. A veces la Biblia llama a esto el Espíritu de Dios, el <b>Espíritu del Señor</b> o, a veces, simplemente el <a href=\"#t132\">Espíritu</a>. </p><p>El Espíritu de Dios es el poder que viene de Dios. Este poder crea, da vida, realiza <a href=\"#t93\">milagros</a> y transforma a las personas. </p><p>Cuando el Espíritu de Dios viene sobre una persona, esa persona recibe un poder o habilidad especial. Esto puede significar fuerza física, <a href=\"#t147\">sabiduría</a> especial o una comprensión clara de lo que Dios quiere. El Espíritu Santo daba mensajes de Dios a los <b>profetas</b>, los cuales luego los compartían con el pueblo. </p><p>El Espíritu Santo hace posible que las personas se conviertan en seguidores de Jesús. Cuando las personas comienzan a seguir a Jesús, el Espíritu Santo trabaja en sus corazones para ayudarlas a comportarse cada vez más como Jesús, para hacerlas cada vez más <a href=\"#t67\">santas</a>. Esta obra del Espíritu Santo se llama <a href=\"#t232\">santificación</a>. </p><p>El Espíritu Santo no es solo un poder, sino también una persona. Sabemos esto, por ejemplo, porque la Biblia dice que es posible entristecer al Espíritu Santo. El Espíritu Santo es parte de la Trinidad, el Dios que es uno, pero que consiste en tres personas. Dios el Padre, Dios el Hijo Jesús y Dios el Espíritu Santo son tres personas diferentes, pero juntos son un solo Dios. Podemos ver a los tres miembros de la Trinidad juntos en el <a href=\"#t9\">bautismo</a> de Jesús, cuando el Espíritu Santo desciende sobre Jesús y la voz de Dios habla desde el <a href=\"#t63\">cielo</a>. La Biblia no usa la palabra Trinidad en ninguna parte, pero la <a href=\"#t24\">iglesia</a> comenzó a usar esta palabra varias generaciones después de que Jesús regresara al <a href=\"#t63\">cielo</a> para describir el misterio de que Dios es a la vez tres y uno. </p><p>En el idioma en que fue escrita la Biblia, la palabra para “espíritu” es la misma que la palabra para “viento” y “aliento”. Podemos entender por qué estas palabras son similares: todas son invisibles y, por lo tanto, algo misteriosas, pero muy importantes. </p><p>A veces no está claro si, en cierto pasaje, el significado es &quot;espíritu&quot;, &quot;viento&quot; o &quot;aliento&quot;. El hecho de que la palabra pueda significar todas estas cosas agrega belleza y profundidad a tal texto. </p>",
+    "existingSupplements": [],
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "eng-t23-v1",
+    "englishHtml": "<p>The word <b>Christ</b> is the same as the word <a href=\"#t92\">Messiah</a>. Christ is the <a href=\"#t211\">Greek</a> word, and Messiah is the same word in <a href=\"#t227\">Hebrew</a>. Greek is the language of the New Testament, while Hebrew is the language of the Old Testament.</p><p>The word \"Messiah\" refers to the special <a href=\"#t226\">king</a> and <a href=\"#t119\">Savior</a> that God had promised to send.</p><p>A Messiah literally meant someone who was <a href=\"#t5\">anointed</a>. That meant that another person had poured oil over them. This was a sign that God had given this person a special task. For example, In the Old Testament, God told the <a href=\"#t104\">prophet</a> Samuel to pour oil over <a href=\"#t33\">David</a>. This was a sign that God chose David to become the next king of <a href=\"#t74\">Israel</a>.</p><p>Later, people called someone anointed if God had appointed that person for a special task, even if no one really had poured oil on their head.</p><p>David became the most beloved king of Israel. But after David, other people ruled over Israel, and many of them were not good kings. These kings led the people away from God, and therefore God had to punish the people. The country of Israel was destroyed, and came under the control of other <a href=\"#t94\">nations</a>. But still, God promised the people of Israel that he would send them a new king. This king would save the people from their trouble. This king would be a descendant of David.</p><p>The <a href=\"#t259\">Israelites</a> began to refer to this king that God promised to send as \"the Messiah,\" which meant \"the anointed one.\"</p><p>When Jesus came, he showed the people that <em>he</em> is the Messiah that God had promised to send. Jesus was a descendant of David. Jesus proved that God had appointed him through the extraordinary power and <a href=\"#t8\">authority</a> he had.</p><p>Jesus almost never directly said to the people \"I am the Messiah!\" This is because people did not yet really know what it would mean for Jesus to be the Messiah. They wrongly <a href=\"#t11\">believed</a> that the Messiah would restore the kingdom of Israel and give them back political power. Jesus instead called himself \"the <a href=\"#t130\">Son of Man</a>,\" which was an indirect way of saying that he was the Messiah.</p><p>After Jesus rose up from the dead, his <a href=\"#t39\">disciples</a> knew with great certainty that he was the Messiah and they began to share this good news with other people. God had sent his Savior! But Jesus was not a Savior who just freed people from an earthly government. Jesus was a Savior who did much more-Jesus freed people from <a href=\"#t125\">sin</a> and death.</p><p><strong>When you are translating the words \"Messiah\" or \"Christ,\" be careful about the following things:</strong></p><ul><li>You only need one word for both Messiah and Christ.</li><li>You could translate Messiah as \"Savior,\" or \"promised Savior,\" or \"special king and Savior.\"</li><li>Some translation teams like to use a word that sounds like \"Messiah\" or \"Christ.\" If you do this, be sure that the word does not sound similar to a word in your language that has a very different meaning! Otherwise, people who do not know the Bible may get very confused.</li><li>Maybe your culture has a symbol or ritual that people use to appoint someone for a special task. Maybe you can use this word for your translation of Messiah.</li></ul>",
+    "spanishHtml": "<p>La palabra <b>Cristo</b> es la misma que la palabra <a href=\"#t92\">Mesías</a>. Cristo es la palabra en <b>griego</b>, y Mesías es la misma palabra en <a href=\"#t227\">hebreo</a>. El griego es el idioma del Nuevo Testamento, mientras que el hebreo es el idioma del Antiguo Testamento. </p><p>La palabra &quot;Mesías&quot; se refiere al <a href=\"#t226\">rey</a> y <a href=\"#t119\">Salvador</a> especial que Dios había prometido enviar.</p><p>Mesías literalmente significaba alguien que había sido <b>ungido</b>. Esto quiere decir que otra persona había derramado aceite sobre él. Esta era una señal de que Dios le había dado a esta persona una tarea especial. Por ejemplo, en el Antiguo Testamento, Dios le dijo al <a href=\"#t104\">profeta</a> Samuel que derramara aceite sobre <a href=\"#t33\">David</a>. Esta fue una señal de que Dios eligió a David para convertirse en el próximo rey de <a href=\"#t74\">Israel</a>.</p><p>Más tarde, las personas llamaban a alguien de ungido si Dios había nombrado a esa persona para una tarea especial, aunque nadie hubiera derramado aceite sobre su cabeza.</p><p>David se convirtió en el rey más amado de Israel. Pero después de David, otras personas gobernaron sobre Israel, y muchos de ellos no fueron buenos reyes. Estos reyes alejaban a las personas de Dios, y por lo tanto Dios tuvo que castigar a las personas. El país de Israel fue destruido y quedó bajo el control de otras <b>naciones</b>. Pero aún así, Dios prometió al pueblo de Israel que les enviaría a un nuevo rey. Este rey salvaría a las personas de sus problemas. Este rey sería un descendiente de David.</p><p>Los <b>israelitas</b> comenzaron a referirse a este rey que Dios prometió enviar como &quot;el Mesías&quot;, que significaba &quot;el ungido&quot;.</p><p>Cuando Jesús vino, mostró a las personas que <b>él</b> es el Mesías que Dios había prometido enviar. Jesús era descendiente de David. Jesús demostró que Dios lo había nombrado a través del poder y la <a href=\"#t8\">autoridad</a> extraordinaria que él tenía.</p><p>Jesús casi nunca dijo directamente a las personas: “¡Yo soy el Mesías!” Esto es porque las personas aún no sabían lo que significaría que Jesús fuera el Mesías. Ellos <b>creían</b> erróneamente que el Mesías restauraría el reino de Israel y les devolvería el poder político. Jesús, en cambio, se llamaba a sí mismo el <a href=\"#t130\">Hijo del Hombre</a>, lo cual era una manera indirecta de decir que él era el Mesías.</p><p>Después de que Jesús resucitó de entre los muertos, sus <b>discípulos</b> supieron con gran certeza que él era el Mesías y comenzaron a compartir estas buenas nuevas con otras personas. ¡Dios había enviado a su Salvador! Pero Jesús no fue un Salvador que solo liberó a las personas de un gobierno terrenal. Jesús era un Salvador que hizo mucho más: Jesús liberó a las personas del <a href=\"#t125\">pecado</a> y de la muerte.</p><p><b>Cuando estén traduciendo las palabras &quot;Mesías&quot; o &quot;Cristo&quot;, tengan cuidado con las siguientes cosas:</b></p>",
+    "existingSupplements": [
+      {
+        "id": "term-23-warnings",
+        "targetId": "spa-t23-v1",
+        "language": "spa",
+        "lang": "es",
+        "label": "AI translated from English",
+        "content": "<ul><li>Solo necesitan una palabra tanto para Mesías como para Cristo.</li><li>Podrían traducir Mesías como «Salvador», «Salvador prometido» o «rey especial y Salvador».</li><li>A algunos equipos de traducción les gusta usar una palabra que suene como «Mesías» o «Cristo». Si lo hacen, ¡asegúrense de que la palabra no suene parecida a una palabra de su idioma que tenga un significado muy diferente! De lo contrario, las personas que no conocen la Biblia podrían confundirse mucho.</li><li>Tal vez su cultura tenga un símbolo o ritual que las personas usan para asignarle a alguien una tarea especial. Tal vez puedan usar esta palabra en su traducción de Mesías.</li></ul>",
+        "format": "html",
+        "sha256": "65bac8b58a3dab4610ebc4b8c36401f055bfc966993bd1f9dae14d2656f8d39c",
+        "source": {
+          "id": "term-23-warnings",
+          "targetSpanishId": "spa-t23-v1",
+          "sourceRepo": "BibleAquifer/FIAKeyTerms",
+          "sourceCommit": "5ce5c6bd152236e16cf23290a40ab625175df8e3",
+          "sourcePath": "eng/json/003.content.json",
+          "sourceId": "eng-t23-v1",
+          "sourceVersion": "1.0.4",
+          "sourceBodySha256": "6b568193e008a0848ecc7e03ec4fe3609deb5416ca681e4018cc3f1f7b701115",
+          "sourceStart": 2802,
+          "sourceEnd": 3418,
+          "sourceHtml": "<ul><li>You only need one word for both Messiah and Christ.</li><li>You could translate Messiah as \"Savior,\" or \"promised Savior,\" or \"special king and Savior.\"</li><li>Some translation teams like to use a word that sounds like \"Messiah\" or \"Christ.\" If you do this, be sure that the word does not sound similar to a word in your language that has a very different meaning! Otherwise, people who do not know the Bible may get very confused.</li><li>Maybe your culture has a symbol or ritual that people use to appoint someone for a special task. Maybe you can use this word for your translation of Messiah.</li></ul>",
+          "sourceText": "You only need one word for both Messiah and Christ. You could translate Messiah as \"Savior,\" or \"promised Savior,\" or \"special king and Savior.\" Some translation teams like to use a word that sounds like \"Messiah\" or \"Christ.\" If you do this, be sure that the word does not sound similar to a word in your language that has a very different meaning! Otherwise, people who do not know the Bible may get very confused. Maybe your culture has a symbol or ritual that people use to appoint someone for a special task. Maybe you can use this word for your translation of Messiah.",
+          "sourceSpanSha256": "5b2b986ab4944ad6071bb667361125c5fd5d1ff040dedddaf7070aee42eb32a4",
+          "sourceCharacters": 574,
+          "spanishBodySha256": "ffa3d785544bcb8a9a5ce535aa5717df7ba01cf50868d74d578d0475cb3fc3b7",
+          "spanishAnchorOffset": 2884,
+          "spanishAnchor": "Cuando",
+          "placement": "separate derived supplement after original source paragraph; never edit original",
+          "semanticConstraint": "Preserve exact list cardinality and all conditions/examples",
+          "rightsMetadata": "429305b41f3b23d4f933b816d9d3485aa724f929f512bd8293ac2a8693d85f44",
+          "license": "CC BY-SA 4.0",
+          "credit": "FIA Key Terms ©2025 Word Collective; original/adaptation notices retained",
+          "outputLabel": "AI translated from English"
+        },
+        "provenance": {
+          "method": "AI translation",
+          "sourceLanguage": "eng",
+          "targetLanguage": "spa",
+          "modelFamily": "GPT-6",
+          "agent": "Codex source translation worker",
+          "modelIdentityEvidence": "Session developer identifies Codex as based on GPT-6; exact deployment/model revision is not exposed",
+          "exactDeploymentId": null,
+          "generatedUtc": "2026-09-12T02:37:50.579183+00:00",
+          "originalSpanishModified": false,
+          "associationOrigin": "derived supplement, not original source association",
+          "review": {
+            "status": "independent full source/output semantic and hash review accepted",
+            "receiptSha256": "5b632ff7b607920dde30ff6440bb76cf801280a2cda4251ad83f12cf545f9311",
+            "expertCertification": false
+          }
+        },
+        "rights": {
+          "metadataSha256": "429305b41f3b23d4f933b816d9d3485aa724f929f512bd8293ac2a8693d85f44",
+          "licenseInfo": {
+            "title": "Familiarization, Internalization, Articulation (Fia) Terms",
+            "copyright": {
+              "dates": "2025",
+              "holder": {
+                "name": "Word Collective",
+                "url": "https://wordcollective.com"
+              }
+            },
+            "licenses": [
+              {
+                "eng": {
+                  "name": "CC BY-SA 4.0 license",
+                  "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+                }
+              }
+            ],
+            "showAdaptationNoticeForEnglish": false,
+            "showAdaptationNoticeForNonEnglish": true
+          },
+          "sourceAdaptationNoticeHtml": "<p><b>Familiarization, Internalization, Articulation (FIA) Key Terms</b> © 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Key Terms</cite> has been adapted in the following languages Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> © 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>",
+          "sourceUrl": "https://github.com/BibleAquifer/FIAKeyTerms/blob/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/json/003.content.json",
+          "derivedLicense": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "changeNotice": "AI translated from English; supplemental translation only; original Spanish source unchanged.",
+          "priorNoticesRetained": true,
+          "endorsementClaim": false,
+          "metadataUrl": "https://raw.githubusercontent.com/BibleAquifer/FIAKeyTerms/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/metadata.json"
+        },
+        "presentation": {
+          "component": "ResourceCard",
+          "property": "meta",
+          "designSystemRepo": "klappy/bt-design-system-generative-glass",
+          "designSystemCommit": "8d6b48dd93b6efa43305724a0cf320a85feabe5b",
+          "designSystemPath": "components/resources/ResourceCard.jsx",
+          "patternSource": "components/resources/ResourceCard.prompt.md",
+          "meta": "FIAKeyTerms · eng-t23-v1 · CC BY-SA 4.0 · AI translated from English · Independent source/output review accepted",
+          "displayScope": "per item in list/detail/offline",
+          "sourceAndSupplementSeparate": true,
+          "placement": "separate derived supplement after original source paragraph; never edit original"
+        },
+        "audio": {
+          "available": false
+        }
+      }
+    ],
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "eng-t38-v1",
+    "englishTitle": "desert",
+    "spanishTitle": "desierto",
+    "paragraphs": [
+      {
+        "englishHtml": "<p>A <b>desert</b> or <a href=\"#t145\">wilderness</a> is a lonely, barren place without water. There are almost no trees or bushes growing in a desert. The ground is dry and rocky, and there are wild animals roaming around. People do not live in the desert.</p>",
+        "spanishHtml": "<p>Un <b>desierto</b> o <a href=\"#t145\">lugar deshabitado</a> es un lugar solitario y árido, sin agua. En un desierto casi no crecen árboles ni arbustos. El suelo es seco y rocoso, y hay animales salvajes que andan por allí. Las personas no viven en el desierto.</p>"
+      }
+    ],
+    "englishHtml": "<p>A <b>desert</b> or <a href=\"#t145\">wilderness</a> is a lonely, barren place without water. There are almost no trees or bushes growing in a desert. The ground is dry and rocky, and there are wild animals roaming around. People do not live in the desert.</p>",
+    "spanishHtml": "<p>Un <b>desierto</b> o <a href=\"#t145\">lugar deshabitado</a> es un lugar solitario y árido, sin agua. En un desierto casi no crecen árboles ni arbustos. El suelo es seco y rocoso, y hay animales salvajes que andan por allí. Las personas no viven en el desierto.</p>",
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "eng-t226-v2",
+    "englishTitle": "king",
+    "spanishTitle": "rey",
+    "paragraphs": [
+      {
+        "englishHtml": "<p>t226 king</p>",
+        "spanishHtml": "<p>t226 rey</p>"
+      },
+      {
+        "englishHtml": "<p>A king is someone who rules over a city or territory, like a region or a country. In the time of the Bible, a king normally ruled for life—in other words, he ruled until he died. After his death, one of his sons would become king in his place.</p>",
+        "spanishHtml": "<p>Un rey es alguien que gobierna una ciudad o un territorio, como una región o un país. En los tiempos de la Biblia, un rey normalmente gobernaba de por vida; es decir, gobernaba hasta que moría. Después de su muerte, uno de sus hijos se convertía en rey en su lugar.</p>"
+      }
+    ],
+    "englishHtml": "<p>t226 king</p><p>A king is someone who rules over a city or territory, like a region or a country. In the time of the Bible, a king normally ruled for life—in other words, he ruled until he died. After his death, one of his sons would become king in his place.</p>",
+    "spanishHtml": "<p>t226 rey</p><p>Un rey es alguien que gobierna una ciudad o un territorio, como una región o un país. En los tiempos de la Biblia, un rey normalmente gobernaba de por vida; es decir, gobernaba hasta que moría. Después de su muerte, uno de sus hijos se convertía en rey en su lugar.</p>",
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "eng-t103-v1",
+    "englishTitle": "priest",
+    "spanishTitle": "sacerdote",
+    "paragraphs": [
+      {
+        "englishHtml": "<p><b>Priests</b> were people who worked in the <a href=\"#t138\">temple</a> of God in <a href=\"#t76\">Jerusalem</a>. Before people built the temple, priests worked in the <a href=\"#t184\">tabernacle</a>, which was a portable temple, a tent. The temple, and before that the tabernacle, was the place where the <a href=\"#t259\">Israelite</a> people worshiped God. Priests were responsible for offering <a href=\"#t114\">sacrifices</a> to God on behalf of the people. They took care of the temple and taught the people how to <a href=\"#t149\">worship</a> God.</p>",
+        "spanishHtml": "<p>Los <b>sacerdotes</b> eran personas que trabajaban en el <a href=\"#t138\">templo</a> de Dios en <a href=\"#t76\">Jerusalén</a>. Antes de que se construyera el templo, los sacerdotes trabajaban en el <a href=\"#t184\">tabernáculo</a>, que era un templo portátil, una tienda de campaña. El templo, y antes de él el tabernáculo, era el lugar donde el pueblo <a href=\"#t259\">israelita</a> adoraba a Dios. Los sacerdotes eran responsables de ofrecer <a href=\"#t114\">sacrificios</a> a Dios en nombre del pueblo. Cuidaban el templo y enseñaban a las personas cómo <a href=\"#t149\">adorar</a> a Dios.</p>"
+      },
+      {
+        "englishHtml": "<p>God is <a href=\"#t67\">holy</a>, and people cannot just come to him, because people are <a href=\"#t125\">sinful</a>. Because people are sinful, they are <a href=\"#t26\">unclean</a>. In the Bible, to be unclean means to be unfit to come before God. People have to become clean first. The work of the priests was to make people clean-to <a href=\"#t208\">purify</a> them. The priests did this by offering <a href=\"#t114\">sacrifices</a> on behalf of the people, and by teaching people how to live. They performed rituals that symbolized that people became clean. The priests therefore were in between God and the people. They made it possible for people to come before God and continue to have a good <a href=\"#t108\">relationship</a> with God. They purified the people, so that God was able to come down and meet the people. Priests were very important people for the <a href=\"#t77\">Jews</a>. Because people stayed sinful, the priests had to often make sacrifices and purify the people again and again.</p>",
+        "spanishHtml": "<p>Dios es <a href=\"#t67\">santo</a>, y las personas no pueden acercarse a él sin más, porque son <a href=\"#t125\">pecadoras</a>. Como son pecadoras, son <a href=\"#t26\">impuras</a>. En la Biblia, ser impuro significa no estar en condiciones de presentarse ante Dios. Las personas primero tienen que volverse puras. La labor de los sacerdotes era hacer que las personas fueran puras, es decir, <a href=\"#t208\">purificarlas</a>. Los sacerdotes hacían esto ofreciendo <a href=\"#t114\">sacrificios</a> en nombre del pueblo y enseñando a las personas cómo vivir. Realizaban rituales que simbolizaban que las personas se volvían puras. Por lo tanto, los sacerdotes estaban entre Dios y el pueblo. Hacían posible que las personas se presentaran ante Dios y siguieran teniendo una buena <a href=\"#t108\">relación</a> con él. Purificaban al pueblo para que Dios pudiera descender y encontrarse con él. Los sacerdotes eran personas muy importantes para los <a href=\"#t77\">judíos</a>. Como las personas seguían siendo pecadoras, los sacerdotes tenían que ofrecer sacrificios con frecuencia y purificar al pueblo una y otra vez.</p>"
+      },
+      {
+        "englishHtml": "<p>Only certain people could become a priest. The <a href=\"#t259\">Israelites</a> were divided into 12 tribes. One tribe was called the tribe of Levi, and the people in this tribe were called <a href=\"#t244\">Levites</a>. Moses, through whom God gave the people his <a href=\"#t83\">law</a>, was a Levite. And Moses's brother Aaron was also a Levite. Aaron became the first <a href=\"#t246\">high priest</a> of the Jews. A high priest is the most important priest. God made Aaron's sons the first priests. From that time onwards, all Aaron's male <a href=\"#t234\">descendants</a> became priests.</p>",
+        "spanishHtml": "<p>Solo ciertas personas podían convertirse en sacerdotes. Los <a href=\"#t259\">israelitas</a> estaban divididos en 12 tribus. Una de ellas se llamaba la tribu de Leví, y las personas de esa tribu se llamaban <a href=\"#t244\">levitas</a>. Moisés, por medio de quien Dios dio al pueblo su <a href=\"#t83\">ley</a>, era levita. Aarón, el hermano de Moisés, también era levita. Aarón se convirtió en el primer <a href=\"#t246\">sumo sacerdote</a> de los judíos. Un sumo sacerdote es el sacerdote más importante. Dios hizo que los hijos de Aarón fueran los primeros sacerdotes. Desde entonces, todos los <a href=\"#t234\">descendientes</a> varones de Aarón se convirtieron en sacerdotes.</p>"
+      },
+      {
+        "englishHtml": "<p>There were also Levites who were not descendants of Aaron. These people also became important. They helped the priests in their duty. The Bible often talks about \"priests and Levites.\" The priests are mentioned separately because they were more important, even though priests themselves are also descendants from Levi.</p>",
+        "spanishHtml": "<p>También había levitas que no eran descendientes de Aarón. Estas personas también llegaron a ser importantes. Ayudaban a los sacerdotes en sus tareas. La Biblia habla a menudo de «sacerdotes y levitas». Los sacerdotes se mencionan por separado porque eran más importantes, aunque ellos mismos también eran descendientes de Leví.</p>"
+      },
+      {
+        "englishHtml": "<p>In the time of Jesus, some priests were also leaders of the people. They are called chief priests. These chief or leading priests were often wealthy people who were related to the high priest. They often belonged to the group of religious leaders called <a href=\"#t115\">Sadducees</a> and were part of the Jewish council, named the <a href=\"#t168\">Sanhedrin</a>. The chief priests often argued with Jesus.</p>",
+        "spanishHtml": "<p>En tiempos de Jesús, algunos sacerdotes también eran líderes del pueblo. Se les llama principales sacerdotes. Estos sacerdotes principales o dirigentes solían ser personas adineradas emparentadas con el sumo sacerdote. A menudo pertenecían al grupo de líderes religiosos llamados <a href=\"#t115\">saduceos</a> y formaban parte del consejo judío, llamado <a href=\"#t168\">Sanedrín</a>. Los principales sacerdotes discutían a menudo con Jesús.</p>"
+      },
+      {
+        "englishHtml": "<p>The people who lived in the countries surrounding <a href=\"#t74\">Israel</a> also had people who were in between the people and their gods. The Bible also calls these people priests, but they were very different from the Jewish priests.</p>",
+        "spanishHtml": "<p>Los pueblos que vivían en los países que rodeaban a <a href=\"#t74\">Israel</a> también tenían personas que estaban entre el pueblo y sus dioses. La Biblia también llama sacerdotes a estas personas, pero eran muy diferentes de los sacerdotes judíos.</p>"
+      },
+      {
+        "englishHtml": "<p><strong>When you are translating priest, be careful about the following things:</strong></p>",
+        "spanishHtml": "<p><strong>Cuando traduzcan la palabra sacerdote, tengan cuidado con las siguientes cosas:</strong></p>"
+      },
+      {
+        "englishHtml": "<p>Your language may have a word that means someone who offers sacrifices to God. This might be a good word for the biblical word for priest. Maybe you need to make a small change, like saying \"a priest of God.\" But be careful that people will not get confused. Maybe the things that a \"priest\" in your community does are too different from what a priest in the Bible does. Maybe you need to make up a new word or phrase, like \"someone who offers sacrifices to God,\" or \"a sacrificer,\" or \"a man who works in the temple of God.\" But remember that you also need to have a word for a Levite. A Levite can be a \"helper of a priest,\" a \"helper in the temple,\" or a \"descendant of Levi who helps in the temple.\"</p>",
+        "spanishHtml": "<p>Tal vez su idioma tenga una palabra que signifique alguien que ofrece sacrificios a Dios. Esta podría ser una buena palabra para el término bíblico sacerdote. Quizás necesiten hacer un pequeño cambio, como decir «un sacerdote de Dios». Pero tengan cuidado de no confundir a las personas. Quizás las cosas que hace un «sacerdote» en su comunidad sean demasiado diferentes de las que hace un sacerdote en la Biblia. Tal vez necesiten crear una palabra o frase nueva, como «alguien que ofrece sacrificios a Dios», «un sacrificador» o «un hombre que trabaja en el templo de Dios». Pero recuerden que también necesitan una palabra para levita. Un levita puede ser un «ayudante de un sacerdote», un «ayudante en el templo» o un «descendiente de Leví que ayuda en el templo».</p>"
+      },
+      {
+        "englishHtml": "<p>Some <a href=\"#t175\">Christian</a> <a href=\"#t24\">churches</a> use the word \"priest\" for a leader in the church. It is not a good idea to use this same word for \"priests\" in the Bible, because the meaning is quite different. A leader in the church does not offer sacrifices like the priests in the Bible did.</p>",
+        "spanishHtml": "<p>Algunas <a href=\"#t24\">iglesias</a> <a href=\"#t175\">cristianas</a> usan la palabra «sacerdote» para un líder de la iglesia. No es buena idea usar esta misma palabra para los «sacerdotes» de la Biblia, porque el significado es bastante diferente. Un líder de la iglesia no ofrece sacrificios como lo hacían los sacerdotes de la Biblia.</p>"
+      },
+      {
+        "englishHtml": "<p>Remember that you also need a word for chief priests-the most important priests-and for the high priest, who is the most important priest of all.</p>",
+        "spanishHtml": "<p>Recuerden que también necesitan una palabra para los principales sacerdotes, los sacerdotes más importantes, y para el sumo sacerdote, que es el sacerdote más importante de todos.</p>"
+      }
+    ],
+    "englishHtml": "<p><b>Priests</b> were people who worked in the <a href=\"#t138\">temple</a> of God in <a href=\"#t76\">Jerusalem</a>. Before people built the temple, priests worked in the <a href=\"#t184\">tabernacle</a>, which was a portable temple, a tent. The temple, and before that the tabernacle, was the place where the <a href=\"#t259\">Israelite</a> people worshiped God. Priests were responsible for offering <a href=\"#t114\">sacrifices</a> to God on behalf of the people. They took care of the temple and taught the people how to <a href=\"#t149\">worship</a> God.</p><p>God is <a href=\"#t67\">holy</a>, and people cannot just come to him, because people are <a href=\"#t125\">sinful</a>. Because people are sinful, they are <a href=\"#t26\">unclean</a>. In the Bible, to be unclean means to be unfit to come before God. People have to become clean first. The work of the priests was to make people clean-to <a href=\"#t208\">purify</a> them. The priests did this by offering <a href=\"#t114\">sacrifices</a> on behalf of the people, and by teaching people how to live. They performed rituals that symbolized that people became clean. The priests therefore were in between God and the people. They made it possible for people to come before God and continue to have a good <a href=\"#t108\">relationship</a> with God. They purified the people, so that God was able to come down and meet the people. Priests were very important people for the <a href=\"#t77\">Jews</a>. Because people stayed sinful, the priests had to often make sacrifices and purify the people again and again.</p><p>Only certain people could become a priest. The <a href=\"#t259\">Israelites</a> were divided into 12 tribes. One tribe was called the tribe of Levi, and the people in this tribe were called <a href=\"#t244\">Levites</a>. Moses, through whom God gave the people his <a href=\"#t83\">law</a>, was a Levite. And Moses's brother Aaron was also a Levite. Aaron became the first <a href=\"#t246\">high priest</a> of the Jews. A high priest is the most important priest. God made Aaron's sons the first priests. From that time onwards, all Aaron's male <a href=\"#t234\">descendants</a> became priests.</p><p>There were also Levites who were not descendants of Aaron. These people also became important. They helped the priests in their duty. The Bible often talks about \"priests and Levites.\" The priests are mentioned separately because they were more important, even though priests themselves are also descendants from Levi.</p><p>In the time of Jesus, some priests were also leaders of the people. They are called chief priests. These chief or leading priests were often wealthy people who were related to the high priest. They often belonged to the group of religious leaders called <a href=\"#t115\">Sadducees</a> and were part of the Jewish council, named the <a href=\"#t168\">Sanhedrin</a>. The chief priests often argued with Jesus.</p><p>The people who lived in the countries surrounding <a href=\"#t74\">Israel</a> also had people who were in between the people and their gods. The Bible also calls these people priests, but they were very different from the Jewish priests.</p><p><strong>When you are translating priest, be careful about the following things:</strong></p><p>Your language may have a word that means someone who offers sacrifices to God. This might be a good word for the biblical word for priest. Maybe you need to make a small change, like saying \"a priest of God.\" But be careful that people will not get confused. Maybe the things that a \"priest\" in your community does are too different from what a priest in the Bible does. Maybe you need to make up a new word or phrase, like \"someone who offers sacrifices to God,\" or \"a sacrificer,\" or \"a man who works in the temple of God.\" But remember that you also need to have a word for a Levite. A Levite can be a \"helper of a priest,\" a \"helper in the temple,\" or a \"descendant of Levi who helps in the temple.\"</p><p>Some <a href=\"#t175\">Christian</a> <a href=\"#t24\">churches</a> use the word \"priest\" for a leader in the church. It is not a good idea to use this same word for \"priests\" in the Bible, because the meaning is quite different. A leader in the church does not offer sacrifices like the priests in the Bible did.</p><p>Remember that you also need a word for chief priests-the most important priests-and for the high priest, who is the most important priest of all.</p>",
+    "spanishHtml": "<p>Los <b>sacerdotes</b> eran personas que trabajaban en el <a href=\"#t138\">templo</a> de Dios en <a href=\"#t76\">Jerusalén</a>. Antes de que se construyera el templo, los sacerdotes trabajaban en el <a href=\"#t184\">tabernáculo</a>, que era un templo portátil, una tienda de campaña. El templo, y antes de él el tabernáculo, era el lugar donde el pueblo <a href=\"#t259\">israelita</a> adoraba a Dios. Los sacerdotes eran responsables de ofrecer <a href=\"#t114\">sacrificios</a> a Dios en nombre del pueblo. Cuidaban el templo y enseñaban a las personas cómo <a href=\"#t149\">adorar</a> a Dios.</p><p>Dios es <a href=\"#t67\">santo</a>, y las personas no pueden acercarse a él sin más, porque son <a href=\"#t125\">pecadoras</a>. Como son pecadoras, son <a href=\"#t26\">impuras</a>. En la Biblia, ser impuro significa no estar en condiciones de presentarse ante Dios. Las personas primero tienen que volverse puras. La labor de los sacerdotes era hacer que las personas fueran puras, es decir, <a href=\"#t208\">purificarlas</a>. Los sacerdotes hacían esto ofreciendo <a href=\"#t114\">sacrificios</a> en nombre del pueblo y enseñando a las personas cómo vivir. Realizaban rituales que simbolizaban que las personas se volvían puras. Por lo tanto, los sacerdotes estaban entre Dios y el pueblo. Hacían posible que las personas se presentaran ante Dios y siguieran teniendo una buena <a href=\"#t108\">relación</a> con él. Purificaban al pueblo para que Dios pudiera descender y encontrarse con él. Los sacerdotes eran personas muy importantes para los <a href=\"#t77\">judíos</a>. Como las personas seguían siendo pecadoras, los sacerdotes tenían que ofrecer sacrificios con frecuencia y purificar al pueblo una y otra vez.</p><p>Solo ciertas personas podían convertirse en sacerdotes. Los <a href=\"#t259\">israelitas</a> estaban divididos en 12 tribus. Una de ellas se llamaba la tribu de Leví, y las personas de esa tribu se llamaban <a href=\"#t244\">levitas</a>. Moisés, por medio de quien Dios dio al pueblo su <a href=\"#t83\">ley</a>, era levita. Aarón, el hermano de Moisés, también era levita. Aarón se convirtió en el primer <a href=\"#t246\">sumo sacerdote</a> de los judíos. Un sumo sacerdote es el sacerdote más importante. Dios hizo que los hijos de Aarón fueran los primeros sacerdotes. Desde entonces, todos los <a href=\"#t234\">descendientes</a> varones de Aarón se convirtieron en sacerdotes.</p><p>También había levitas que no eran descendientes de Aarón. Estas personas también llegaron a ser importantes. Ayudaban a los sacerdotes en sus tareas. La Biblia habla a menudo de «sacerdotes y levitas». Los sacerdotes se mencionan por separado porque eran más importantes, aunque ellos mismos también eran descendientes de Leví.</p><p>En tiempos de Jesús, algunos sacerdotes también eran líderes del pueblo. Se les llama principales sacerdotes. Estos sacerdotes principales o dirigentes solían ser personas adineradas emparentadas con el sumo sacerdote. A menudo pertenecían al grupo de líderes religiosos llamados <a href=\"#t115\">saduceos</a> y formaban parte del consejo judío, llamado <a href=\"#t168\">Sanedrín</a>. Los principales sacerdotes discutían a menudo con Jesús.</p><p>Los pueblos que vivían en los países que rodeaban a <a href=\"#t74\">Israel</a> también tenían personas que estaban entre el pueblo y sus dioses. La Biblia también llama sacerdotes a estas personas, pero eran muy diferentes de los sacerdotes judíos.</p><p><strong>Cuando traduzcan la palabra sacerdote, tengan cuidado con las siguientes cosas:</strong></p><p>Tal vez su idioma tenga una palabra que signifique alguien que ofrece sacrificios a Dios. Esta podría ser una buena palabra para el término bíblico sacerdote. Quizás necesiten hacer un pequeño cambio, como decir «un sacerdote de Dios». Pero tengan cuidado de no confundir a las personas. Quizás las cosas que hace un «sacerdote» en su comunidad sean demasiado diferentes de las que hace un sacerdote en la Biblia. Tal vez necesiten crear una palabra o frase nueva, como «alguien que ofrece sacrificios a Dios», «un sacrificador» o «un hombre que trabaja en el templo de Dios». Pero recuerden que también necesitan una palabra para levita. Un levita puede ser un «ayudante de un sacerdote», un «ayudante en el templo» o un «descendiente de Leví que ayuda en el templo».</p><p>Algunas <a href=\"#t24\">iglesias</a> <a href=\"#t175\">cristianas</a> usan la palabra «sacerdote» para un líder de la iglesia. No es buena idea usar esta misma palabra para los «sacerdotes» de la Biblia, porque el significado es bastante diferente. Un líder de la iglesia no ofrece sacrificios como lo hacían los sacerdotes de la Biblia.</p><p>Recuerden que también necesitan una palabra para los principales sacerdotes, los sacerdotes más importantes, y para el sumo sacerdote, que es el sacerdote más importante de todos.</p>",
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "eng-t104-v1",
+    "englishHtml": "<p>A <b>prophet</b> is a person who gives messages from God to the people. This message can be an instruction from God about something that needs to be done. It can be a message that tells about something that is going to happen in the future. But most of the time these messages were warnings to the people to stop disobeying God. Because people often did not like to hear these messages, being a prophet could be lonely and difficult. People sometimes mistreated prophets or even killed them.</p><p>Sometimes the messages gave the people hope and encouragement. Even when the prophets were telling the people that they had <a href=\"#t125\">sinned</a>, and deserved to be punished, they were also telling the people that God would have <a href=\"#t91\">mercy</a> on them and rescue them again. One important message that the prophets gave the people was that God would send a special <a href=\"#t226\">king</a> and <a href=\"#t119\">Savior</a> to help them. This special king and Savior is called the <a href=\"#t92\">Messiah</a>. A Messiah is someone who is appointed for a special task.</p><p>The message that a prophet gives is called a <b>prophecy</b>. The things that the prophets said about the Messiah, hundreds of years before Jesus was born, all came true in Jesus. For instance, there was a prophecy that the Messiah would be born in <a href=\"#t13\">Bethlehem</a>, and Jesus was born in Bethlehem. There was also a prophecy that \"the servant of God\" would suffer much, and would be rejected by the people. Jesus suffered and was rejected by the people. There are many more examples. Therefore, we say that Jesus fulfilled the prophecies of the Old Testament.</p><p>Prophets gave God's messages to the people in different ways. Sometimes a prophet would tell a <a href=\"#t98\">parable</a>, a story with special meaning, to the people. Sometimes the prophet performed some kind of drama to help people understand the message. For instance, God told the prophet Jeremiah to walk around for some time with a heavy wooden <a href=\"#t198\">yoke</a> on his neck-something that was normally used to control animals that worked for people in the fields. Jeremiah used this yoke as a symbol to tell the people that the Babylonian people would soon have control over the <a href=\"#t259\">Israelites</a>. God told the prophet Hosea to marry a prostitute, and he told the prophet Ezekiel to lay down on his side for weeks on end without moving. These dramatic actions helped people to see how serious God was when he gave them these messages.</p><p>God gave his messages to the prophets through the power of the <a href=\"#t68\">Holy Spirit</a>. We do not know exactly how this worked. Sometimes, a prophet had a dream or a <a href=\"#t143\">vision</a>. Maybe sometimes God gave the prophet a special revelation-the prophet then knew that something was true. Maybe God sometimes spoke audible words to a prophet. Either way, the prophet then gave this message or revelation from God to the people, probably by using his own words and creativity.</p><p>Often prophets wrote down these messages, or other people wrote down the words for them. Many books in the Old Testament are messages that God gave the people through the prophets. That is why the <a href=\"#t77\">Jews</a> often use the word \"the prophets,\" or \"the law and the prophets,\" to refer to the part of the Bible that we now call the Old Testament. \"The <a href=\"#t83\">law</a>\" refers to the part of the Old Testament that has to do with God's commandments: These are the first five books of the Old Testament.</p><p>Sometimes in the Old Testament we find other terms for prophet as well, like <b>man of God</b>, <b>servant of God</b>, or <b>seer</b>. A \"seer\" means someone who can see. A prophet is a seer because he can see, or understand, God more clearly than other people, and he knows things that other people cannot know. This happens because God gives the prophet this understanding.</p><p>There were also <b>false prophets</b>. A false prophet does not give a message that comes from God. A false prophet makes up his own message, and just says what people like to hear. This way, people will like the prophet and honor him. We can recognize a false prophet because the things that he says will not come true.</p><p>In the Old Testament we sometimes hear about groups of prophets. These prophets were a little bit different than the prophets we mentioned so far. These other types of prophets would follow a certain ritual, for instance listen to someone playing a musical instrument, and then they would get into a trance. This means that they were not quite awake, and also not quite asleep. In this state, God would sometimes give them some special revelation. When people wanted to know what to do, they would sometimes go to such a prophet, and then the prophet would try to get into this trance and hopefully get a message from God about what this person had to do. People who got into this kind of trance could also start praising and <a href=\"#t149\">worshiping</a> God.</p><p>In the New Testament, Paul teaches us that the <a href=\"#t68\">Holy Spirit</a> gives some people the ability to speak prophecies. Through the Holy Spirit, God can give these <a href=\"#t12\">believers</a> some special knowledge or insight that is for the good of the church. Paul calls this the gift of prophecy. Not every believer may have this gift, because the Holy Spirit gives different gifts to different people.</p><p>Just as in the time of the Old Testament, people can deceive others and give a false prophecy. Therefore, other believers have to listen carefully to the prophecy and check whether this indeed could be a message from God.</p><p><strong>When you are translating prophet, be careful about the following things:</strong></p><p>Be careful that people will not get confused with the word you have chosen for <a href=\"#t4\">angel</a>. An angel also gives messages from God to people, but an angel is a supernatural being while a prophet is a human person.</p><p>Make sure you do not use a word that in your language only means that someone is telling about what is going to happen in the future. Talking about the future is only a small part of what it means to be a prophet in the Bible.</p><p>Be careful not to use the same word that you have used for the word \"preacher.\" A preacher teaches people something about God, but a preacher does not always speak the words of God directly in the way that a prophet does.</p><p>In some languages, a good translation for the word \"prophet\" can be: \"A spokesman from God,\" \"someone who gives messages from God to the people,\" or \"someone who speaks on behalf of God.\"</p>",
+    "spanishHtml": "<p>Un <b>profeta</b> es una persona que da mensajes de Dios al pueblo. Este mensaje puede ser una instrucción de Dios sobre algo que necesita hacerse. Puede ser un mensaje que dice algo que va a suceder en el futuro. Pero la mayoría de las veces estos mensajes eran advertencias a las personas para que dejaran de desobedecer a Dios. Como a las personas a menudo no les gustaba escuchar estos mensajes, ser un profeta podía ser solitario y difícil. Las personas a veces maltrataban a los profetas o incluso los mataban.</p><p>A veces, los mensajes daban a las personas esperanza y aliento. Incluso cuando los profetas estaban diciendo a las personas que habían <b>pecado</b> y merecían ser castigados, también les estaban diciendo a las personas que Dios tendría <a href=\"#t91\">misericordia</a> de ellos y los rescataría nuevamente. Un mensaje importante que los profetas daban al pueblo era que Dios enviaría a un <a href=\"#t226\">rey</a> especial y <a href=\"#t119\">Salvador</a> para ayudarlos. Este rey especial y Salvador se llama el <a href=\"#t92\">Mesías</a>. Un Mesías es alguien que es nombrado para una tarea especial.</p><p>El mensaje que un profeta da se llama <a href=\"#t200\">profecía</a>. Las cosas que los profetas dijeron sobre el Mesías, cientos de años antes de que Jesús naciera, todas se hicieron realidad en Jesús. Por ejemplo, había una profecía de que el Mesías nacería en <a href=\"#t13\">Belén</a>, y Jesús nació en Belén. También había una profecía de que “el siervo de Dios” sufriría mucho y sería rechazado por el pueblo. Jesús sufrió y fue rechazado por las personas. Hay muchos más ejemplos. Por lo tanto, decimos que Jesús cumplió las profecías del Antiguo Testamento.</p><p>Los profetas daban los mensajes de Dios a las personas de diferentes maneras. A veces, un profeta contaba una <a href=\"#t98\">parábola</a>, una historia con un significado especial, al pueblo. A veces, el profeta representaba algún tipo de drama para ayudar a las personas a entender el mensaje. Por ejemplo, Dios le dijo al profeta Jeremías que caminara durante algún tiempo con un pesado yugo de <a href=\"#t198\">madera</a> en su cuello, algo que normalmente se usaba para controlar a los animales que trabajaban para las personas en los campos. Jeremías usaba este yugo como un símbolo para decirle al pueblo que el pueblo babilónico pronto tendría control sobre los <b>israelitas</b>. Dios le dijo al profeta Oseas que se casara con una prostituta, y le dijo al profeta Ezequiel que se acostara a su lado durante semanas sin moverse. Estas acciones dramáticas ayudaban a las personas a ver lo serio que era Dios cuando les daba estos mensajes.</p><p>Dios dio sus mensajes a los profetas a través del poder del <a href=\"#t68\">Espíritu Santo</a>. No sabemos exactamente cómo funcionaba esto. A veces, un profeta tenía un sueño o una <a href=\"#t143\">visión</a>. Quizás a veces Dios le daba al profeta una revelación especial: el profeta entonces sabía que algo era verdad. Quizás Dios a veces hablaba palabras audibles a un profeta. De cualquier manera, el profeta luego dio este mensaje o revelación de Dios al pueblo, probablemente usando sus propias palabras y creatividad.</p><p>A menudo, los profetas escribían estos mensajes, o otras personas escribían las palabras para ellos. Muchos libros en el Antiguo Testamento son mensajes que Dios dio al pueblo a través de los profetas. Es por eso que los <b>judíos</b> a menudo usan la palabra “los profetas”, o “la ley y los profetas”, para referirse a la parte de la Biblia que ahora llamamos el Antiguo Testamento. “La <a href=\"#t83\">ley</a>” se refiere a la parte del Antiguo Testamento que tiene que ver con los mandamientos de Dios: Estos son los primeros cinco libros del Antiguo Testamento.</p><p>A veces en el Antiguo Testamento también encontramos otros términos para profeta, como <b>hombre de Dios</b>, <b>siervo de Dios</b> o <b>vidente</b>. Un “vidente” significa alguien que puede ver. Un profeta es un vidente porque puede ver, o entender, a Dios más claramente que otras personas, y sabe cosas que otras personas no pueden saber. Esto sucede porque Dios da al profeta este</p><p>También había <b>falsos profetas</b>. Un falso profeta no da un mensaje que viene de Dios. Un falso profeta inventa su propio mensaje, y solo dice lo que a las personas les gusta escuchar. De esta manera, a las personas les gustará el profeta y lo honrarán. Podemos reconocer a un falso profeta porque las cosas que dice no se cumplirán.</p><p>En el Antiguo Testamento, a veces escuchamos hablar de grupos de profetas. Estos profetas eran un poco diferentes que los profetas que hemos mencionado hasta ahora. Estos otros tipos de profetas seguían un cierto ritual, por ejemplo, escuchaban a alguien tocando un instrumento musical, y luego entraban en un trance. Esto significa que no estaban del todo despiertos, y tampoco estaban del todo dormidos. En este estado, Dios a veces les daba alguna revelación especial. Cuando las personas querían saber qué hacer, a veces iban a tal profeta, y luego el profeta intentaba entrar en este trance y, con suerte, obtener un mensaje de Dios sobre lo que esta persona tenía que hacer. Las personas que entraban en este tipo de trance también podían comenzar a alabar y <b>adorar</b> a Dios.</p><p>En el Nuevo Testamento, Pablo nos enseña que el <a href=\"#t68\">Espíritu Santo</a> da a algunas personas la capacidad de decir profecías. A través del Espíritu Santo, Dios puede dar a estos <b>creyentes</b> algún conocimiento especial o visión que es para el bien de la iglesia. Pablo llama a esto el don de profecía. No todos los creyentes pueden tener este regalo, porque el Espíritu Santo da diferentes dones a diferentes personas.</p><p>Al igual que en la época del Antiguo Testamento, las personas pueden engañar a otros y dar una profecía falsa. Por lo tanto, otros creyentes tienen que escuchar cuidadosamente la profecía y verificar si esto realmente podría ser un mensaje de Dios.</p><p><b>Cuando están traduciendo profeta, tengan cuidado con las siguientes cosas:</b></p><p>Tengan cuidado de que las personas no se confundan con la palabra que han elegido para <a href=\"#t4\">ángel</a>. Un ángel también da mensajes de Dios a las personas, pero un ángel es un ser sobrenatural mientras que un profeta es una persona humana.</p><p>Asegúrense de no usar una palabra que en su idioma solo signifique que alguien está diciendo lo que va a suceder en el futuro. Hablar del futuro es solo una pequeña parte de lo que significa ser un profeta en la Biblia.</p><p>Tengan cuidado de no usar la misma palabra que han usado para la palabra “predicador”. Un predicador enseña a las personas algo sobre Dios, pero un predicador no siempre dice las palabras de Dios directamente de la manera que lo hace un profeta.</p><p>En algunos idiomas, una buena traducción para la palabra “profeta” puede ser: “Un portavoz de Dios”, “alguien que da mensajes de Dios al pueblo” o “alguien que habla en nombre de Dios”.</p>",
+    "existingSupplements": [
+      {
+        "id": "term-104-complete-sentence",
+        "targetId": "spa-t104-v1",
+        "language": "spa",
+        "lang": "es",
+        "label": "AI translated from English",
+        "content": "Esto sucede porque Dios le da al profeta este entendimiento.",
+        "format": "text",
+        "sha256": "9651cc53fa3f85af8908725ca226426ef0eb96932bdf3a626f68a84dff775823",
+        "source": {
+          "id": "term-104-complete-sentence",
+          "targetSpanishId": "spa-t104-v1",
+          "sourceRepo": "BibleAquifer/FIAKeyTerms",
+          "sourceCommit": "5ce5c6bd152236e16cf23290a40ab625175df8e3",
+          "sourcePath": "eng/json/016.content.json",
+          "sourceId": "eng-t104-v1",
+          "sourceVersion": "1.0.4",
+          "sourceBodySha256": "7bb7688e18f8d7da80a9124d9e784a99fcd2864555c3239140ded20f35a12ef5",
+          "sourceStart": 3871,
+          "sourceEnd": 3933,
+          "sourceHtml": "This happens because God gives the prophet this understanding.",
+          "sourceText": "This happens because God gives the prophet this understanding.",
+          "sourceSpanSha256": "0d61bfd9ee9123e8ab0344fc03adbc33d65242dc2eb85dd793b53ae3a6c6261c",
+          "sourceCharacters": 62,
+          "spanishBodySha256": "9fc321c37e944dc56637a2ce92ad83ed9954244a85bb9858570046de5ae6ef43",
+          "spanishAnchorOffset": 4095,
+          "spanishAnchor": "Esto sucede porque Dios da al profeta este",
+          "placement": "separate derived supplement after original source paragraph; never edit original",
+          "semanticConstraint": "Translate complete sentence separately; do not concatenate to broken Spanish fragment",
+          "rightsMetadata": "429305b41f3b23d4f933b816d9d3485aa724f929f512bd8293ac2a8693d85f44",
+          "license": "CC BY-SA 4.0",
+          "credit": "FIA Key Terms ©2025 Word Collective; original/adaptation notices retained",
+          "outputLabel": "AI translated from English"
+        },
+        "provenance": {
+          "method": "AI translation",
+          "sourceLanguage": "eng",
+          "targetLanguage": "spa",
+          "modelFamily": "GPT-6",
+          "agent": "Codex source translation worker",
+          "modelIdentityEvidence": "Session developer identifies Codex as based on GPT-6; exact deployment/model revision is not exposed",
+          "exactDeploymentId": null,
+          "generatedUtc": "2026-09-12T02:37:50.579183+00:00",
+          "originalSpanishModified": false,
+          "associationOrigin": "derived supplement, not original source association",
+          "review": {
+            "status": "independent full source/output semantic and hash review accepted",
+            "receiptSha256": "5b632ff7b607920dde30ff6440bb76cf801280a2cda4251ad83f12cf545f9311",
+            "expertCertification": false
+          }
+        },
+        "rights": {
+          "metadataSha256": "429305b41f3b23d4f933b816d9d3485aa724f929f512bd8293ac2a8693d85f44",
+          "licenseInfo": {
+            "title": "Familiarization, Internalization, Articulation (Fia) Terms",
+            "copyright": {
+              "dates": "2025",
+              "holder": {
+                "name": "Word Collective",
+                "url": "https://wordcollective.com"
+              }
+            },
+            "licenses": [
+              {
+                "eng": {
+                  "name": "CC BY-SA 4.0 license",
+                  "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+                }
+              }
+            ],
+            "showAdaptationNoticeForEnglish": false,
+            "showAdaptationNoticeForNonEnglish": true
+          },
+          "sourceAdaptationNoticeHtml": "<p><b>Familiarization, Internalization, Articulation (FIA) Key Terms</b> © 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Key Terms</cite> has been adapted in the following languages Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> © 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>",
+          "sourceUrl": "https://github.com/BibleAquifer/FIAKeyTerms/blob/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/json/016.content.json",
+          "derivedLicense": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "changeNotice": "AI translated from English; supplemental translation only; original Spanish source unchanged.",
+          "priorNoticesRetained": true,
+          "endorsementClaim": false,
+          "metadataUrl": "https://raw.githubusercontent.com/BibleAquifer/FIAKeyTerms/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/metadata.json"
+        },
+        "presentation": {
+          "component": "ResourceCard",
+          "property": "meta",
+          "designSystemRepo": "klappy/bt-design-system-generative-glass",
+          "designSystemCommit": "8d6b48dd93b6efa43305724a0cf320a85feabe5b",
+          "designSystemPath": "components/resources/ResourceCard.jsx",
+          "patternSource": "components/resources/ResourceCard.prompt.md",
+          "meta": "FIAKeyTerms · eng-t104-v1 · CC BY-SA 4.0 · AI translated from English · Independent source/output review accepted",
+          "displayScope": "per item in list/detail/offline",
+          "sourceAndSupplementSeparate": true,
+          "placement": "separate derived supplement after original source paragraph; never edit original",
+          "integrationConstraint": "Render this complete sentence in a separate derived supplement; never append it to or silently replace the truncated Spanish sentence."
+        },
+        "audio": {
+          "available": false
+        }
+      }
+    ],
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "eng-t109-v1",
+    "englishHtml": "<p>When you <b>repent</b>, you feel sorry about the bad things that you have done and you want to change. It is as if you are turning around: You turn away from the bad things, and you start walking towards good things. You are now determined to obey God instead of disobeying God.</p><p>God tells the people that they have to repent of their <a href=\"#t125\">sins</a>. When people repent, God <a href=\"#t53\">forgives</a> them and does not punish them for the bad things they have done. But if people do not repent, God will punish them.</p><p>Sometimes the Bible even tells us that God repents. Of course, God cannot sin and does not need to repent of something bad he has done. When the Bible says that God repents, it means that God changes his mind about something.</p><p><strong>When you are translating to repent, or repentance, be careful about the following things:</strong></p><p>The word that you are choosing should not just mean that someone feels sorry for what they have done. It should be clear that the person who repents also wants to stop doing bad things and wants to start obeying God. Maybe you need a phrase instead of just one word.</p><blockquote><p>Here is one way you could help explain repentance:</p><p>Draw or line out a path. One end of the path ends in a very dangerous place-a fireplace, or a cliff, or anything that is dangerous. The other end of the path ends in a good place-maybe a table with food, or a nice garden, or any object that helps people to see that this is a good place.</p><p>Then have some people walk on this path towards the dangerous place. Act out these people doing bad things on the way-maybe like hitting each other, or stealing. Then have someone else come to them, and tell them that they should repent.</p><p>Act out that some of the people walking on the road realize the bad things that they have done, and they notice the dangerous place that they are walking towards. Act out that they are feeling really bad! Then act out that these people turn around, and begin to walk towards the good end of the road. They can act out doing good things now.</p><p>Maybe one of the people in your drama can <em>not</em> repent and end up in the fire or over the edge of the cliff.</p></blockquote>",
+    "spanishHtml": "<p>Cuando se <b>arrepienten</b>, se sienten mal por las cosas malas que han hecho y quieren cambiar. Es como si estuvieran dándose la vuelta: se alejan de las cosas malas, y comienzan a caminar hacia las cosas buenas. Ahora están determinados a obedecer a Dios en lugar de desobedecerlo.</p><p>Dios les dice a las personas que tienen que arrepentirse de sus <b>pecados</b>. Cuando las personas se arrepienten, Dios las <b>perdona</b> y no las castiga por las cosas malas que han hecho. Pero si las personas no se arrepienten, Dios las castigará.</p><p>A veces, la Biblia incluso nos dice que Dios se arrepiente. Por supuesto, Dios no puede pecar y no necesita arrepentirse de algo malo que ha hecho. Cuando la Biblia dice que Dios se arrepiente, significa que Dios cambia de opinión sobre algo.</p><p><b>Cuando están traduciendo arrepentirse, o arrepentimiento, tengan cuidado con las siguientes cosas:</b></p><p>La palabra que están eligiendo no debe significar solo que alguien se siente mal por lo que ha hecho. Debe estar claro que la persona que se arrepiente también quiere dejar de hacer cosas malas y quiere comenzar a obedecer a Dios. Quizás necesiten una frase en lugar de solo una palabra.</p>",
+    "existingSupplements": [],
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "eng-t76-v1",
+    "englishTitle": "Jerusalem",
+    "spanishTitle": "Jerusalén",
+    "paragraphs": [
+      {
+        "englishHtml": "<p><b>Jerusalem</b> is the name of the most important city of the <a href=\"#t77\">Jewish</a> people. The <a href=\"#t138\">temple</a> of God, where the Jews <a href=\"#t149\">worshiped</a> God, was in Jerusalem. The Jews traveled to Jerusalem several times a year to celebrate important festivals in the temple. The Jewish religious court, the <a href=\"#t168\">Sanhedrin</a>, also gathered in Jerusalem.</p>",
+        "spanishHtml": "<p><b>Jerusalén</b> es el nombre de la ciudad más importante del pueblo <a href=\"#t77\">judío</a>. El <a href=\"#t138\">templo</a> de Dios, donde los judíos <a href=\"#t149\">adoraban</a> a Dios, estaba en Jerusalén. Los judíos viajaban a Jerusalén varias veces al año para celebrar fiestas importantes en el templo. El tribunal religioso judío, el <a href=\"#t168\">Sanedrín</a>, también se reunía en Jerusalén.</p>"
+      },
+      {
+        "englishHtml": "<p>About a thousand years before Jesus was born, king <a href=\"#t33\">David</a> established the city of Jerusalem as the capital of <a href=\"#t74\">Israel</a>. About 500 years later, the enemies of the <a href=\"#t259\">Israelites</a> destroyed the city, but the Israelites built it up again. The Jewish people loved the city of Jerusalem very much.</p>",
+        "spanishHtml": "<p>Unos mil años antes de que naciera Jesús, el rey <a href=\"#t33\">David</a> estableció la ciudad de Jerusalén como capital de <a href=\"#t74\">Israel</a>. Unos 500 años después, los enemigos de los <a href=\"#t259\">israelitas</a> destruyeron la ciudad, pero los israelitas la reconstruyeron. El pueblo judío amaba mucho la ciudad de Jerusalén.</p>"
+      },
+      {
+        "englishHtml": "<p>Jerusalem was part of the province called <a href=\"#t81\">Judea</a>. Jerusalem was built on a hill. Therefore people always said they were going \"<em>up</em> to Jerusalem.\"</p>",
+        "spanishHtml": "<p>Jerusalén formaba parte de la provincia llamada <a href=\"#t81\">Judea</a>. Jerusalén estaba construida sobre una colina. Por eso las personas siempre decían que iban a «<em>subir</em> a Jerusalén».</p>"
+      }
+    ],
+    "englishHtml": "<p><b>Jerusalem</b> is the name of the most important city of the <a href=\"#t77\">Jewish</a> people. The <a href=\"#t138\">temple</a> of God, where the Jews <a href=\"#t149\">worshiped</a> God, was in Jerusalem. The Jews traveled to Jerusalem several times a year to celebrate important festivals in the temple. The Jewish religious court, the <a href=\"#t168\">Sanhedrin</a>, also gathered in Jerusalem.</p><p>About a thousand years before Jesus was born, king <a href=\"#t33\">David</a> established the city of Jerusalem as the capital of <a href=\"#t74\">Israel</a>. About 500 years later, the enemies of the <a href=\"#t259\">Israelites</a> destroyed the city, but the Israelites built it up again. The Jewish people loved the city of Jerusalem very much.</p><p>Jerusalem was part of the province called <a href=\"#t81\">Judea</a>. Jerusalem was built on a hill. Therefore people always said they were going \"<em>up</em> to Jerusalem.\"</p>",
+    "spanishHtml": "<p><b>Jerusalén</b> es el nombre de la ciudad más importante del pueblo <a href=\"#t77\">judío</a>. El <a href=\"#t138\">templo</a> de Dios, donde los judíos <a href=\"#t149\">adoraban</a> a Dios, estaba en Jerusalén. Los judíos viajaban a Jerusalén varias veces al año para celebrar fiestas importantes en el templo. El tribunal religioso judío, el <a href=\"#t168\">Sanedrín</a>, también se reunía en Jerusalén.</p><p>Unos mil años antes de que naciera Jesús, el rey <a href=\"#t33\">David</a> estableció la ciudad de Jerusalén como capital de <a href=\"#t74\">Israel</a>. Unos 500 años después, los enemigos de los <a href=\"#t259\">israelitas</a> destruyeron la ciudad, pero los israelitas la reconstruyeron. El pueblo judío amaba mucho la ciudad de Jerusalén.</p><p>Jerusalén formaba parte de la provincia llamada <a href=\"#t81\">Judea</a>. Jerusalén estaba construida sobre una colina. Por eso las personas siempre decían que iban a «<em>subir</em> a Jerusalén».</p>",
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "eng-t9-v1",
+    "englishHtml": "<p>To <b>baptize</b> someone, or something, means to immerse it in water to wash it. It comes from the Greek word \"baptizo.\"</p><p>The word has a special religious meaning. In the Old Testament, <a href=\"#t77\">Jewish</a> <a href=\"#t103\">priests</a> would baptize themselves before they would do their work in the <a href=\"#t138\">temple</a> of God. This made them \"<a href=\"#t26\">clean</a>\" so that they were fit to approach God.</p><p>When people who were not Jewish wanted to follow God, they could be baptized. After that, they would be accepted as part of God's people. We do not hear about this custom in the Old Testament, but we know about it from other books from the history of the Jews.</p><p>When <a href=\"#t79\">John the baptizer</a> came, he did something new by telling all the people that they should take baptism. Being born as a Jew wasn't enough to be part of God's people! All people needed to <a href=\"#t109\">repent</a>, to say sorry for the bad things that they had done. They needed to turn away from their old life, and to start a new way of living. They should start obeying God!</p><p>Just before Jesus went back to <a href=\"#t63\">heaven</a>, he told his <a href=\"#t39\">disciples</a> to go and tell people everywhere that Jesus has all <a href=\"#t8\">authority</a>. Jesus told them to make all people Jesus's disciples, and to baptize them in the name of the father, the son, and the <a href=\"#t68\">Holy Spirit</a>.</p><p>And so, from that time onwards, we see that as soon as people began to <a href=\"#t11\">believe</a> in Jesus they took baptism. This baptism was a sign of their repentance and need for <a href=\"#t53\">forgiveness</a>. But it was also a sign that they now belonged to Jesus and wanted to follow him.</p><p>Paul, in his letters, explains that when we take baptism it is as if we die and become alive again. We die by going under in the water, and become alive again by coming up out of the water. This is a symbol showing that our old life is dead. We now have a new life because we belong to Jesus. Jesus died for us, and became alive again. When we take baptism, we accept that Jesus died in our place, and that we are new people because God has forgiven us. Just as water cleanses our bodies from dirt, Jesus has \"cleansed\" us from our <a href=\"#t125\">sins</a>. Now we are fit to approach God!</p><p>The ritual of baptism was something that only needed to be done once.</p><p><strong>When you are translating baptism, be careful about the following things:</strong></p><p>The word baptism, and to baptize someone, can be difficult to translate. Many people use a word that sounds like the <a href=\"#t211\">Greek</a> word \"baptizo.\" New <a href=\"#t12\">believers</a> will have to slowly learn what this word means. You can also use a term that would be more meaningful for the people in your language group. If people in your community have a form of ritual bathing, this word might be helpful in translating baptism. However, be sure you understand the meaning of the ritual in your community, and think about the difference between the meaning of that ritual and baptism in the Bible. You may need to explain how baptism in the Bible is different from the ritual in your community.</p><p>You can also use a word that sounds like \"baptizo,\" but then add a small phrase to give more explanation about its meaning.</p>",
+    "spanishHtml": "<p><b>Bautizar</b> a alguien, o algo, significa sumergirlo en agua para lavarlo. Viene de la palabra griega “baptizo”.</p><p>Esta palabra tiene un significado religioso especial. En el Antiguo Testamento, los <b>sacerdotes</b> <b>judíos</b> se bautizaban antes de hacer su trabajo en el <a href=\"#t138\">templo</a> de Dios. Esto los hacía “<b>limpios</b>” para que fueran aptos para acercarse a Dios.</p><p>Cuando las personas que no eran judías querían seguir a Dios, podían ser bautizadas. Después de eso, serían aceptados como parte del pueblo de Dios. No vemos esta costumbre en el Antiguo Testamento, pero lo sabemos por otros libros de la historia de los judíos.</p><p>Cuando <b>Juan el Bautista</b> vino, hizo algo nuevo al decirles a todas las personas que debían bautizarse. ¡Nacer como judío no era suficiente para ser parte del pueblo de Dios! Todas las personas necesitaban <b>arrepentirse</b>, pedir perdón por las cosas malas que habían hecho. Necesitaban dejar su antigua vida, y comenzar una nueva manera de vivir. ¡Ellos debían comenzar a obedecer a Dios!</p><p>Justo antes de que Jesús regresara al <a href=\"#t63\">cielo</a>, les dijo a sus <b>discípulos</b> que fueran y les dijeran a las personas de todo el mundo que Jesús tiene toda la <a href=\"#t8\">autoridad</a>. Jesús les dijo que hicieran a todas las personas discípulos de Jesús, y que bautizaran en el nombre del padre, del hijo y del <a href=\"#t68\">Espíritu Santo</a>.</p><p>Y así, a partir de ese momento, vemos que tan pronto como las personas comenzaban a <b>creer</b> en Jesús, se bautizaban. Este bautismo era una señal de arrepentimiento y de necesidad de <a href=\"#t53\">perdón</a>. Pero también era una señal de que ahora pertenecían a Jesús y querían seguirlo.</p><p>Pablo, en sus cartas, explica que cuando recibimos el bautismo, es como si muriéramos y volviéramos a vivir. Morimos al hundirnos en el agua, y volvemos a estar vivos al salir del agua. Este es un símbolo que muestra que nuestra antigua vida está muerta. Ahora tenemos una nueva vida porque pertenecemos a Jesús. Jesús murió por nosotros, y volvió a estar vivo. Cuando nos bautizamos, aceptamos que Jesús murió en nuestro lugar, y que somos personas nuevas porque Dios nos ha perdonado. Así como el agua limpia nuestros cuerpos de la suciedad, Jesús nos ha “limpiado” de nuestros <b>pecados</b>. ¡Ahora estamos aptos para acercarnos a Dios!</p><p>El ritual del bautismo era algo que solo necesitaba hacerse una vez.</p><p><b>Cuando estén traduciendo bautismo, tengan cuidado con las siguientes cosas:</b></p><p>La palabra bautismo, y bautizar a alguien, puede ser difícil de traducir. Muchas personas usan una palabra que suena como la palabra <b>griega</b> “baptizo”. Los nuevos <b>creyentes</b> tendrán que aprender lentamente lo que esta palabra significa. También pueden usar un término que sea más significativo para las personas en su grupo de idiomas. Si las personas en su comunidad tienen un ritual con una forma de baño, esa palabra podría ser útil para traducir bautismo. Sin embargo, asegúrense de entender el significado del ritual en su comunidad, y piensen en la diferencia entre el significado de ese ritual y el bautismo en la Biblia. Tal vez necesiten explicar cómo el bautismo en la Biblia es diferente del ritual en su comunidad.</p><p>También pueden usar una palabra que suene como &quot;baptizo&quot;, pero luego agregar una pequeña frase para explicar mejor su significado.</p>",
+    "existingSupplements": [],
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "eng-t145-v1",
+    "englishHtml": "<p>A <a href=\"#t38\">desert</a> or <b>wilderness</b> is a lonely, barren place without water. There are almost no trees or bushes growing in a desert. The ground is dry and rocky, and there are wild animals roaming around. People do not live in the desert.</p>",
+    "spanishHtml": "<p>Un <a href=\"#t38\">desierto</a> o <b>yermo</b> es un lugar solitario, estéril, sin agua. Casi no hay árboles o arbustos creciendo en un desierto. El suelo es seco y rocoso, y hay animales salvajes deambulando por ahí. Las personas no viven en el desierto.</p>",
+    "existingSupplements": [],
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "eng-t87-v1",
+    "englishHtml": "<p>A <b>Lord</b> is someone who is a master over other people, who has full <a href=\"#t8\">authority</a>, and who deserves for people to give him respect. When you address someone as \"Lord,\" you are saying that person has authority over you. In the Bible, we hear people address their <a href=\"#t226\">king</a> as Lord; <a href=\"#t126\">slaves</a> call their <a href=\"#t90\">master</a> Lord; and sometimes a wife calls her husband Lord.</p><p>God is called the Lord because he has authority over the whole world. When people talk to God, or talk about God, they often call him Lord in order to give him respect.</p><p>In the New Testament, when the people in <a href=\"#t74\">Israel</a> talked to Jesus and called him Lord, they meant to give him respect.</p><p>When, after the <a href=\"#t110\">resurrection</a> of Jesus, people talk about Jesus and call him Lord, they are saying that Jesus has authority over them, just like God has. When people call Jesus Lord after his resurrection, they are saying that Jesus is God.</p><p>Sometimes it is not clear in the New Testament when the word Lord refers to Jesus, or to God the Father.</p><p><strong>When you are translating Lord, be careful about the following things:</strong></p><p>Before Jesus's resurrection, most people did not yet think that Jesus was God. When they said \"Lord\" to Jesus, this was meant as a respectful term: They did not mean to say \"God\" to Jesus. In your translation, you might want to use a general respectful term in these cases, rather than using the same word as you are using for \"Lord\" when it means God.</p>",
+    "spanishHtml": "<p><b>Señor</b> es alguien que es amo sobre otras personas, alguien que tiene plena <a href=\"#t8\">autoridad</a> y que merece que las personas le tengan respeto. Cuando se dirigen a alguien como \"Señor\", están diciendo que esa persona tiene autoridad sobre ustedes. En la Biblia, escuchamos a las personas dirigirse a su <a href=\"#t226\">rey</a> como Señor; los <a href=\"#t126\">esclavos</a> llaman a su <a href=\"#t90\">amo</a> Señor; y a veces una esposa llama a su marido de Señor.</p><p>Dios es llamado Señor porque tiene autoridad sobre el mundo entero. Cuando las personas hablan con Dios, o hablan acerca de Dios, a menudo lo llaman de Señor para mostrarle respeto.</p><p>En el Nuevo Testamento, cuando las personas en <a href=\"#t74\">Israel</a> hablaban con Jesús y lo llamaban de Señor, tenían la intención de mostrarle respeto.</p><p>Cuando, después de la <a href=\"#t110\">resurrección</a> de Jesús, las personas hablan de Jesús y lo llaman de Señor, están diciendo que Jesús tiene autoridad sobre ellos, igual a la que tiene Dios. Cuando las personas llaman a Jesús de Señor después de su resurrección, están diciendo que Jesús es Dios.</p><p>A veces no está claro en el Nuevo Testamento cuándo la palabra Señor se refiere a Jesús, o a Dios Padre.</p><p><strong>Cuando estén traduciendo Señor, tengan cuidado con las siguientes cosas:</strong></p><p>Antes de la resurrección de Jesús, la mayoría de las personas no pensaban aún que Jesús era Dios. Cuando ellos decían \"Señor\" a Jesús, era como un término respetuoso: no querían decirle \"Dios\" a Jesús. En su traducción, tal vez quieran usar un término general respetuoso en estos casos, en lugar de usar la misma palabra que están usando para \"Señor\" cuando se refiere a Dios.</p>",
+    "existingSupplements": [],
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "eng-t88-v1",
+    "englishTitle": "Lord",
+    "spanishTitle": "Señor",
+    "paragraphs": [
+      {
+        "englishHtml": "<p>In some cases in the New Testament, <b>Lord</b> refers to God himself. It is the way the <a href=\"#t77\">Jewish</a> people referred to God when they did not want to say his name because they respected him so much.</p>",
+        "spanishHtml": "<p>En algunos casos del Nuevo Testamento, <b>Señor</b> se refiere a Dios mismo. Era la manera en que el pueblo <a href=\"#t77\">judío</a> se refería a Dios cuando no quería pronunciar su nombre porque lo respetaba mucho.</p>"
+      }
+    ],
+    "englishHtml": "<p>In some cases in the New Testament, <b>Lord</b> refers to God himself. It is the way the <a href=\"#t77\">Jewish</a> people referred to God when they did not want to say his name because they respected him so much.</p>",
+    "spanishHtml": "<p>En algunos casos del Nuevo Testamento, <b>Señor</b> se refiere a Dios mismo. Era la manera en que el pueblo <a href=\"#t77\">judío</a> se refería a Dios cuando no quería pronunciar su nombre porque lo respetaba mucho.</p>",
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "eng-t60-v1",
+    "englishHtml": "<p>The word <b>gospel</b> is a translation of a <a href=\"#t211\">Greek</a> word that literally means \"good news.\" The <a href=\"#t160\">good news</a> in the Bible is that God has made a way to save people. In the New Testament, it becomes clear that the way that God saves his people is through Jesus's death and <a href=\"#t110\">resurrection</a>. In Acts and in the epistles, when people are \"preaching the gospel,\" they are telling the people the good news that they can be saved if they trust in Jesus.</p><p>In the part of the Bible that talks about Jesus's life-the books of Matthew, Mark, Luke, and John-we also sometimes hear about the gospel, or about the \"good news of the kingdom.\" At that time, Jesus had not yet died to save the people. The good news here means that the <a href=\"#t82\">kingdom of God</a> is about to begin, or has already begun. Jesus told the people that God was ruling over all the earth, and that soon God would establish his kingdom forever. Until that time, people should already behave as citizens of this kingdom, and prepare themselves to receive God. The good news is that God is ruling, and that even now we can already be members of his kingdom! After Jesus died to save us, people who trust in Jesus can be part of God's kingdom.</p><p>In the <a href=\"#t24\">church</a>, we often use the term \"the Gospels\" to talk about the four books of the New Testament that tell us about the life of Jesus: the books Matthew, Mark, Luke, and John. When talking about just one of these books, we often say \"the Gospel of Matthew,\" or \"the Gospel of Mark.\" This means that when we say for example \"the Gospel of Matthew,\" we mean the whole book of Matthew.</p>",
+    "spanishHtml": "<p>La palabra <b>evangelio</b> es una traducción de una palabra <b>griega</b> que significa literalmente &quot;buenas nuevas&quot;. Las <a href=\"#t160\">buenas nuevas</a> en la Biblia son que Dios ha creado una manera de salvar a las personas. En el Nuevo Testamento, queda claro que la manera en que Dios salva a su pueblo es a través de la muerte y <a href=\"#t110\">resurrección</a> de Jesús. En Hechos y en las epístolas, cuando las personas están &quot;predicando el evangelio&quot;, están diciéndole a las personas las buenas nuevas de que pueden ser salvos si confían en Jesús.</p><p>En la parte de la Biblia que habla de la vida de Jesús, los libros de Mateo, Marcos, Lucas y Juan, a veces también escuchamos sobre el evangelio, o sobre las &quot;buenas nuevas del reino&quot;. En aquel tiempo, Jesús aún no había muerto para salvar a las personas. Las buenas nuevas aquí significan que el <a href=\"#t82\">reino de Dios</a> está a punto de comenzar, o ya había comenzado. Jesús dijo a las personas que Dios estaba gobernando sobre toda la tierra, y que pronto Dios establecería su reino para siempre. Hasta ese momento, las personas ya deberían comportarse como ciudadanos de este reino y prepararse para recibir a Dios. ¡Las buenas nuevas son que Dios está gobernando, y que incluso ahora ya podemos ser miembros de su reino! Después de que Jesús murió para salvarnos, las personas que confían en Jesús pueden ser parte del reino de Dios.</p><p>En la <a href=\"#t24\">iglesia</a>, a menudo usamos el término &quot;los evangelios&quot; para hablar de los cuatro libros del Nuevo Testamento que nos hablan de la vida de Jesús: los libros de Mateo, Marcos, Lucas y Juan. Cuando hablamos de solo uno de estos libros, a menudo decimos &quot;el Evangelio de Mateo&quot;, o &quot;el Evangelio de Marcos&quot;. Esto significa que cuando decimos, por ejemplo, &quot;el Evangelio de Mateo&quot;, nos referimos a todo el libro de Mateo.</p>",
+    "existingSupplements": [],
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "eng-t53-v1",
+    "englishHtml": "<p>When you <b>forgive</b> someone who has done something bad to you, you stop being angry with that person. You no longer want to take revenge or to give punishment. The person who had done the wrong thing is then <b>forgiven</b>, or has received <b>forgiveness</b>.</p><p>Forgiveness is costly. For example, one brother, out of carelessness, breaks an expensive item that belongs to his sister. The sister can forgive the brother and not demand that he pays back the money. This is good news for the brother. The sister, however, now has the expense of replacing the broken item herself.</p><p>This is also how forgiveness works with God. People have <a href=\"#t125\">sinned</a> against God and deserve to be punished. People have to pay God back for the damage they have done. However, God wants to forgive people by saying that they do not have to pay him back-because he knows that they cannot! God forgives people because he has <a href=\"#t91\">mercy</a> on them. This is good news for people. For God himself, this meant that God paid the price of the damage himself. God did this through the death of his son Jesus. When people trust in Jesus and <a href=\"#t11\">believe</a> that Jesus's death has paid God back for their own sins, then God forgives them. God is no longer angry with them.</p><p>The Bible often uses picture language to describe forgiveness. For instance, if you forgive someone you:</p><ul><li>wipe away their sins</li><li>cut away their sins</li><li>lift up their sins</li><li>loose them, release them</li><li>throw away their sins</li><li>cover their sins</li><li>pass by their sins</li><li>take away their sins</li><li>turn your back on their sins</li></ul><p><strong>When you are translating \"forgiveness,\" or \"to forgive,\" be careful about the following things:</strong></p><p>You may have picture language in your own language for forgiving. Carefully think whether the meaning of the phrase in your language means the same as the meaning of \"to forgive\" in the Bible.</p><div data-type=\"callout\" data-callout-style=\"action\"><p>Try having the translation team mime or act out a scene where someone forgives someone else. Watch what actions they do to show that they forgive. Ask them to explain the emotions of each of the characters in the scene.</p></div>",
+    "spanishHtml": "<p>Cuando <b>perdonan</b> a alguien que les ha hecho algo malo, dejan de estar enojados con esa persona. Ya no quieren vengarse ni castigar. La persona que había hecho algo malo es entonces <b>perdonada</b>, o ha recibido el <b>perdón</b>.</p><p>El perdón tiene un costo. Por ejemplo, un hermano, por descuido, rompe un objeto caro que pertenece a su hermana. La hermana puede perdonar al hermano y no exigir que él le devuelva el dinero. Esta es una buena noticia para el hermano. La hermana, sin embargo, ahora tiene que asumir ella misma el gasto de reemplazar el objeto roto.</p><p>Así también funciona el perdón con Dios Las personas han <b>pecado</b> contra Dios y merecen ser castigadas. Las personas tienen que pagarle a Dios por el daño que han causado. Sin embargo, Dios quiere perdonar a las personas diciendo que no tienen que devolvérselo, ¡porque él sabe que no pueden! Dios perdona a las personas porque tiene <a href=\"#t91\">misericordia</a> de ellas. Esta es una buena noticia para las personas. Para Dios mismo, esto significaba que Dios mismo pagó el precio del daño. Dios hizo esto a través de la muerte de su hijo Jesús. Cuando las personas confían en Jesús y <b>creen</b> que la muerte de Jesús ha pagado a Dios por sus propios pecados, entonces Dios los perdona. Dios ya no está enojado con ellos.</p><p>La Biblia a menudo usa un lenguaje figurado para describir el perdón. Por ejemplo, si perdonan a alguien, ustedes:</p><p><b>Cuando traduzcan “perdón” o “perdonar”, tengan cuidado con lo siguiente:</b></p><p>Pueden usar un lenguaje figurado en su propio idioma para perdonar. Piensen cuidadosamente si el significado de la frase en su idioma significa el mismo que el significado de “perdonar” en la Biblia.</p>",
+    "existingSupplements": [
+      {
+        "id": "term-53-examples",
+        "targetId": "spa-t53-v1",
+        "language": "spa",
+        "lang": "es",
+        "label": "AI translated from English",
+        "content": "<ul><li>borrar sus pecados</li><li>cortar y quitar sus pecados</li><li>levantar sus pecados</li><li>soltarlos, liberarlos</li><li>arrojar lejos sus pecados</li><li>cubrir sus pecados</li><li>pasar de largo ante sus pecados</li><li>quitar sus pecados</li><li>dar la espalda a sus pecados</li></ul>",
+        "format": "html",
+        "sha256": "56a0fea7fedb5f875d8a87fb0b6492ab2768ed4fcaa4cb53879982444baffce0",
+        "source": {
+          "id": "term-53-examples",
+          "targetSpanishId": "spa-t53-v1",
+          "sourceRepo": "BibleAquifer/FIAKeyTerms",
+          "sourceCommit": "5ce5c6bd152236e16cf23290a40ab625175df8e3",
+          "sourcePath": "eng/json/006.content.json",
+          "sourceId": "eng-t53-v1",
+          "sourceVersion": "1.0.4",
+          "sourceBodySha256": "5ae9fbd29ae9084ac4dfc35d6f669fae6d5ce85fd05997309658898f2c77a008",
+          "sourceStart": 1409,
+          "sourceEnd": 1683,
+          "sourceHtml": "<ul><li>wipe away their sins</li><li>cut away their sins</li><li>lift up their sins</li><li>loose them, release them</li><li>throw away their sins</li><li>cover their sins</li><li>pass by their sins</li><li>take away their sins</li><li>turn your back on their sins</li></ul>",
+          "sourceText": "wipe away their sins cut away their sins lift up their sins loose them, release them throw away their sins cover their sins pass by their sins take away their sins turn your back on their sins",
+          "sourceSpanSha256": "7e45c698bb86f5cbead4d9a603c4f3847eeb909a983f9d97af2fa378eeab2f7b",
+          "sourceCharacters": 192,
+          "spanishBodySha256": "4ed3988a845750f5a5ad33007776699ac7983ace9afd9de7ec7a42671ad57f97",
+          "spanishAnchorOffset": 1326,
+          "spanishAnchor": "La Biblia a menudo",
+          "placement": "separate derived supplement after original source paragraph; never edit original",
+          "semanticConstraint": "Preserve exact list cardinality and all conditions/examples",
+          "rightsMetadata": "429305b41f3b23d4f933b816d9d3485aa724f929f512bd8293ac2a8693d85f44",
+          "license": "CC BY-SA 4.0",
+          "credit": "FIA Key Terms ©2025 Word Collective; original/adaptation notices retained",
+          "outputLabel": "AI translated from English"
+        },
+        "provenance": {
+          "method": "AI translation",
+          "sourceLanguage": "eng",
+          "targetLanguage": "spa",
+          "modelFamily": "GPT-6",
+          "agent": "Codex source translation worker",
+          "modelIdentityEvidence": "Session developer identifies Codex as based on GPT-6; exact deployment/model revision is not exposed",
+          "exactDeploymentId": null,
+          "generatedUtc": "2026-09-12T02:37:50.579183+00:00",
+          "originalSpanishModified": false,
+          "associationOrigin": "derived supplement, not original source association",
+          "review": {
+            "status": "independent full source/output semantic and hash review accepted",
+            "receiptSha256": "5b632ff7b607920dde30ff6440bb76cf801280a2cda4251ad83f12cf545f9311",
+            "expertCertification": false
+          },
+          "translatorNote": "Nine distinct figurative expressions retained, including literal levantar sus pecados; do not normalize all metaphors to remove sins."
+        },
+        "rights": {
+          "metadataSha256": "429305b41f3b23d4f933b816d9d3485aa724f929f512bd8293ac2a8693d85f44",
+          "licenseInfo": {
+            "title": "Familiarization, Internalization, Articulation (Fia) Terms",
+            "copyright": {
+              "dates": "2025",
+              "holder": {
+                "name": "Word Collective",
+                "url": "https://wordcollective.com"
+              }
+            },
+            "licenses": [
+              {
+                "eng": {
+                  "name": "CC BY-SA 4.0 license",
+                  "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+                }
+              }
+            ],
+            "showAdaptationNoticeForEnglish": false,
+            "showAdaptationNoticeForNonEnglish": true
+          },
+          "sourceAdaptationNoticeHtml": "<p><b>Familiarization, Internalization, Articulation (FIA) Key Terms</b> © 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Key Terms</cite> has been adapted in the following languages Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> © 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>",
+          "sourceUrl": "https://github.com/BibleAquifer/FIAKeyTerms/blob/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/json/006.content.json",
+          "derivedLicense": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "changeNotice": "AI translated from English; supplemental translation only; original Spanish source unchanged.",
+          "priorNoticesRetained": true,
+          "endorsementClaim": false,
+          "metadataUrl": "https://raw.githubusercontent.com/BibleAquifer/FIAKeyTerms/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/metadata.json"
+        },
+        "presentation": {
+          "component": "ResourceCard",
+          "property": "meta",
+          "designSystemRepo": "klappy/bt-design-system-generative-glass",
+          "designSystemCommit": "8d6b48dd93b6efa43305724a0cf320a85feabe5b",
+          "designSystemPath": "components/resources/ResourceCard.jsx",
+          "patternSource": "components/resources/ResourceCard.prompt.md",
+          "meta": "FIAKeyTerms · eng-t53-v1 · CC BY-SA 4.0 · AI translated from English · Independent source/output review accepted",
+          "displayScope": "per item in list/detail/offline",
+          "sourceAndSupplementSeparate": true,
+          "placement": "separate derived supplement after original source paragraph; never edit original"
+        },
+        "audio": {
+          "available": false
+        }
+      },
+      {
+        "id": "term-53-mime-action",
+        "targetId": "spa-t53-v1",
+        "language": "spa",
+        "lang": "es",
+        "label": "AI translated from English",
+        "content": "<div data-type=\"callout\" data-callout-style=\"action\"><p>Intenten que el equipo de traducción haga mímica o represente una escena en la que alguien perdona a otra persona. Observen qué acciones realizan para mostrar que perdonan. Pídanles que expliquen las emociones de cada uno de los personajes de la escena.</p></div>",
+        "format": "html",
+        "sha256": "a5aedadd9432d2805df919244fe69f47d4e027dd55c9af593b8b864e1522d235",
+        "source": {
+          "id": "term-53-mime-action",
+          "targetSpanishId": "spa-t53-v1",
+          "sourceRepo": "BibleAquifer/FIAKeyTerms",
+          "sourceCommit": "5ce5c6bd152236e16cf23290a40ab625175df8e3",
+          "sourcePath": "eng/json/006.content.json",
+          "sourceId": "eng-t53-v1",
+          "sourceVersion": "1.0.4",
+          "sourceBodySha256": "5ae9fbd29ae9084ac4dfc35d6f669fae6d5ce85fd05997309658898f2c77a008",
+          "sourceStart": 2001,
+          "sourceEnd": 2286,
+          "sourceHtml": "<div data-type=\"callout\" data-callout-style=\"action\"><p>Try having the translation team mime or act out a scene where someone forgives someone else. Watch what actions they do to show that they forgive. Ask them to explain the emotions of each of the characters in the scene.</p></div>",
+          "sourceText": "Try having the translation team mime or act out a scene where someone forgives someone else. Watch what actions they do to show that they forgive. Ask them to explain the emotions of each of the characters in the scene.",
+          "sourceSpanSha256": "81311780c5bf2dd21c67c5de19b083d7163fa296bff749ea10ec96a544bdf225",
+          "sourceCharacters": 219,
+          "spanishBodySha256": "4ed3988a845750f5a5ad33007776699ac7983ace9afd9de7ec7a42671ad57f97",
+          "spanishAnchorOffset": 1533,
+          "spanishAnchor": "Pueden usar un lenguaje",
+          "placement": "separate derived supplement after original source paragraph; never edit original",
+          "semanticConstraint": "Preserve exact list cardinality and all conditions/examples",
+          "rightsMetadata": "429305b41f3b23d4f933b816d9d3485aa724f929f512bd8293ac2a8693d85f44",
+          "license": "CC BY-SA 4.0",
+          "credit": "FIA Key Terms ©2025 Word Collective; original/adaptation notices retained",
+          "outputLabel": "AI translated from English"
+        },
+        "provenance": {
+          "method": "AI translation",
+          "sourceLanguage": "eng",
+          "targetLanguage": "spa",
+          "modelFamily": "GPT-6",
+          "agent": "Codex source translation worker",
+          "modelIdentityEvidence": "Session developer identifies Codex as based on GPT-6; exact deployment/model revision is not exposed",
+          "exactDeploymentId": null,
+          "generatedUtc": "2026-09-12T02:37:50.579183+00:00",
+          "originalSpanishModified": false,
+          "associationOrigin": "derived supplement, not original source association",
+          "review": {
+            "status": "independent full source/output semantic and hash review accepted",
+            "receiptSha256": "5b632ff7b607920dde30ff6440bb76cf801280a2cda4251ad83f12cf545f9311",
+            "expertCertification": false
+          }
+        },
+        "rights": {
+          "metadataSha256": "429305b41f3b23d4f933b816d9d3485aa724f929f512bd8293ac2a8693d85f44",
+          "licenseInfo": {
+            "title": "Familiarization, Internalization, Articulation (Fia) Terms",
+            "copyright": {
+              "dates": "2025",
+              "holder": {
+                "name": "Word Collective",
+                "url": "https://wordcollective.com"
+              }
+            },
+            "licenses": [
+              {
+                "eng": {
+                  "name": "CC BY-SA 4.0 license",
+                  "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+                }
+              }
+            ],
+            "showAdaptationNoticeForEnglish": false,
+            "showAdaptationNoticeForNonEnglish": true
+          },
+          "sourceAdaptationNoticeHtml": "<p><b>Familiarization, Internalization, Articulation (FIA) Key Terms</b> © 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Key Terms</cite> has been adapted in the following languages Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> © 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>",
+          "sourceUrl": "https://github.com/BibleAquifer/FIAKeyTerms/blob/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/json/006.content.json",
+          "derivedLicense": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "changeNotice": "AI translated from English; supplemental translation only; original Spanish source unchanged.",
+          "priorNoticesRetained": true,
+          "endorsementClaim": false,
+          "metadataUrl": "https://raw.githubusercontent.com/BibleAquifer/FIAKeyTerms/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/metadata.json"
+        },
+        "presentation": {
+          "component": "ResourceCard",
+          "property": "meta",
+          "designSystemRepo": "klappy/bt-design-system-generative-glass",
+          "designSystemCommit": "8d6b48dd93b6efa43305724a0cf320a85feabe5b",
+          "designSystemPath": "components/resources/ResourceCard.jsx",
+          "patternSource": "components/resources/ResourceCard.prompt.md",
+          "meta": "FIAKeyTerms · eng-t53-v1 · CC BY-SA 4.0 · AI translated from English · Independent source/output review accepted",
+          "displayScope": "per item in list/detail/offline",
+          "sourceAndSupplementSeparate": true,
+          "placement": "separate derived supplement after original source paragraph; never edit original"
+        },
+        "audio": {
+          "available": false
+        }
+      }
+    ],
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "eng-t4-v1",
+    "englishHtml": "<p>An <b>angel</b> is a supernatural, spiritual being created by God. Angels give messages from God to people; for instance, an angel told <a href=\"#t89\">Mary</a> that she would be pregnant through the power of God. Sometimes an angel gives a message to people in a dream; for instance, an angel told Joseph in a dream to take Mary and Jesus and flee to Egypt.</p><p>Sometimes an angel seems to look like a normal person, but at other times, angels can look very bright and shining, or even frightening. Often, the first thing they had to say to people was \"do not be afraid!\"</p><p>An angel can also do a specific task for God. They can help people or protect them; for instance, a whole army of angels stood around the <a href=\"#t104\">prophet</a> Elisha when the Aramaean king tried to capture him.</p><p>God also uses angels to give punishments to people. For instance, an angel killed the firstborn sons in Egypt after the king refused to let the <a href=\"#t259\">Israelites</a> leave. From the New Testament we know that God will use angels for his final judgment.</p><p>Another very important task for angels is to <a href=\"#t149\">worship</a> God. We find this especially in the book of Revelation.</p><p>An important type of angel is an archangel. This is an angel with special <a href=\"#t8\">authority</a>. The Bible mentions two archangels by name: <a href=\"#t54\">Gabriel</a> and Michael.</p><p>Not all angels stayed obedient to God. Some angels rebelled. They became <a href=\"#t47\">evil spirits</a>, and the name of their leader is <a href=\"#t118\">Satan</a>.</p><p><strong>When translating the word \"angel,\" be careful about following things:</strong></p><p>Make sure people will not get confused with the word you have chosen for \"<a href=\"#t104\">prophet</a>.\" A prophet also gives messages from God to the people, but a prophet is a human person, belonging to earth, while an angel is a supernatural being, belonging to <a href=\"#t63\">heaven</a>.</p>",
+    "spanishHtml": "<p>Un <b>ángel</b> es un ser sobrenatural y espiritual, creado por Dios. Los ángeles dan mensajes de Dios a las personas; por ejemplo, un ángel le dijo a <a href=\"#t89\">María</a> que quedaría embarazada por el poder de Dios. A veces, un ángel da un mensaje a las personas en un sueño; por ejemplo, un ángel le dijo a José en un sueño que tomara a María y a Jesús y huyera a Egipto.</p><p>A veces, un ángel parece verse como una persona normal, pero en otras ocasiones, los ángeles pueden verse muy brillantes y relucientes, o incluso aterradores. A menudo, lo primero que tenían que decirles a las personas era “¡no teman!”</p><p>Un ángel también puede hacer una tarea específica para Dios. Pueden ayudar a las personas o protegerlas; por ejemplo, todo un ejército de ángeles se puso alrededor del <a href=\"#t104\">profeta</a> Eliseo cuando el rey arameo intentó capturarlo.</p><p>Dios también usa ángeles para dar castigos a las personas. Por ejemplo, un ángel mató a los hijos primogénitos en Egipto después de que el rey se negó a dejar ir a los <b>israelitas</b>. A partir del Nuevo Testamento sabemos que Dios usará ángeles para su juicio final.</p><p>Otra tarea muy importante para los ángeles es <a href=\"#t149\">adorar</a> a Dios. Encontramos esto especialmente en el libro de Apocalipsis.</p><p>Un tipo importante de ángel es un arcángel. Este es un ángel con <a href=\"#t8\">autoridad</a> especial. La Biblia menciona a dos arcángeles por su nombre: <a href=\"#t54\">Gabriel</a> y Miguel.</p><p>No todos los ángeles se mantuvieron obedientes a Dios. Algunos ángeles se rebelaron. Se convirtieron en <b>espíritus malignos</b>, y el nombre de su líder es <a href=\"#t118\">Satanás</a>.</p><p><b>Al traducir la palabra “ángel”, tengan cuidado con las siguientes cosas:</b></p><p>Asegúrense de que las personas no se confundan con la palabra que han elegido para “<a href=\"#t104\">profeta</a>”. Un profeta también da mensajes de Dios al pueblo, pero un profeta es una persona humana, que pertenece a la tierra, mientras que un ángel es un ser sobrenatural, que pertenece al <a href=\"#t63\">cielo</a>.</p>",
+    "existingSupplements": [],
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "eng-t5-v1",
+    "englishTitle": "anoint",
+    "spanishTitle": "ungir",
+    "paragraphs": [
+      {
+        "englishHtml": "<p>To <b>anoint</b> someone means to pour sweet smelling oil over someone. You can also anoint an object.</p>",
+        "spanishHtml": "<p><b>Ungir</b> a alguien significa derramar aceite perfumado sobre esa persona. También se puede ungir un objeto.</p>"
+      },
+      {
+        "englishHtml": "<p>In the Old Testament, before God gave someone a special task, he would instruct someone else to pour oil over that person's head. The oil was a symbol for the <a href=\"#t68\">Holy Spirit of God</a>. This ritual made clear that God had set this person apart for a special purpose. It also made clear that God was giving this person special <a href=\"#t8\">authority</a>. The person was then called \"anointed.\" For instance, God told Samuel to anoint <a href=\"#t33\">David</a> as <a href=\"#t226\">king</a> of <a href=\"#t74\">Israel</a>. God told Moses to anoint Aaron as <a href=\"#t246\">high priest</a>. And God told the prophet <a href=\"#t44\">Elijah</a> to anoint Elisha as a <a href=\"#t104\">prophet</a> to succeed Elijah.</p>",
+        "spanishHtml": "<p>En el Antiguo Testamento, antes de darle a alguien una tarea especial, Dios le indicaba a otra persona que derramara aceite sobre la cabeza de esa persona. El aceite era un símbolo del <a href=\"#t68\">Espíritu Santo de Dios</a>. Este ritual dejaba claro que Dios había apartado a esa persona para un propósito especial. También dejaba claro que Dios le estaba dando una <a href=\"#t8\">autoridad</a> especial. Entonces se llamaba «ungida» a esa persona. Por ejemplo, Dios le dijo a Samuel que ungiera a <a href=\"#t33\">David</a> como <a href=\"#t226\">rey</a> de <a href=\"#t74\">Israel</a>. Dios le dijo a Moisés que ungiera a Aarón como <a href=\"#t246\">sumo sacerdote</a>. Y Dios le dijo al profeta <a href=\"#t44\">Elías</a> que ungiera a Eliseo como <a href=\"#t104\">profeta</a> para suceder a Elías.</p>"
+      },
+      {
+        "englishHtml": "<p>Later, the word \"anointed\" was also used for people whom God had appointed for a special task, even if there had not been a ritual that involved the pouring of oil. Jesus is called \"the anointed,\" because God has selected him for a very special task.</p>",
+        "spanishHtml": "<p>Más tarde, la palabra «ungido» también se usaba para las personas a las que Dios había asignado una tarea especial, aunque no hubiera habido un ritual en el que se derramara aceite. A Jesús se le llama «el ungido» porque Dios lo ha elegido para una tarea muy especial.</p>"
+      },
+      {
+        "englishHtml": "<p>People could also anoint objects. The <a href=\"#t103\">priests</a> anointed the objects that were used in the <a href=\"#t138\">temple</a> with oil to make clear that they now had a special purpose. These objects now belonged to God; they were sacred.</p>",
+        "spanishHtml": "<p>Las personas también podían ungir objetos. Los <a href=\"#t103\">sacerdotes</a> ungían con aceite los objetos que se usaban en el <a href=\"#t138\">templo</a> para dejar claro que ahora tenían un propósito especial. Estos objetos ahora pertenecían a Dios; eran sagrados.</p>"
+      },
+      {
+        "englishHtml": "<p><a href=\"#t77\">Jewish</a> people also used anointing as a daily activity that had no special meaning. They used sweet smelling oil to take care of their skin and their hair. Jesus told the people that if they <a href=\"#t49\">fasted</a>, they should anoint themselves just as they did every day, rather than make themselves look unkempt so that other people could think, \"These people are fasting, how impressive!\"</p>",
+        "spanishHtml": "<p>El pueblo <a href=\"#t77\">judío</a> también practicaba la unción como una actividad cotidiana que no tenía ningún significado especial. Usaban aceite perfumado para cuidar la piel y el cabello. Jesús les dijo a las personas que, si <a href=\"#t49\">ayunaban</a>, debían ungirse como lo hacían todos los días, en lugar de descuidar su aspecto para que los demás pensaran: «¡Estas personas están ayunando, qué impresionante!».</p>"
+      },
+      {
+        "englishHtml": "<p>People also put some oil on guests to show them they were welcome and honored. There are two stories in the <a href=\"#t60\">Gospels</a> of women putting oil on Jesus's feet to honor him.</p>",
+        "spanishHtml": "<p>Las personas también ponían un poco de aceite sobre los invitados para mostrarles que eran bienvenidos y honrados. En los <a href=\"#t60\">Evangelios</a> hay dos relatos de mujeres que ponían aceite en los pies de Jesús para honrarlo.</p>"
+      },
+      {
+        "englishHtml": "<p>Jewish people also anointed a person's body after his death. After Jesus died, the women are bringing sweet smelling oil to the <a href=\"#t140\">tomb</a> in order to anoint Jesus's body.</p>",
+        "spanishHtml": "<p>Los judíos también ungían el cuerpo de una persona después de su muerte. Después de que Jesús murió, las mujeres llevan aceite perfumado al <a href=\"#t140\">sepulcro</a> para ungir el cuerpo de Jesús.</p>"
+      },
+      {
+        "englishHtml": "<p>In the New Testament, the early <a href=\"#t175\">Christians</a> sometimes used oil together with <a href=\"#t102\">prayer</a> if someone was sick. The <a href=\"#t6\">apostle</a> <a href=\"#t75\">James</a>, in his letter, says that if someone is sick, the other <a href=\"#t12\">believers</a> should pray for the person and anoint the person with oil. This was not because the oil had any special power, but because it was a symbol of God's presence.</p>",
+        "spanishHtml": "<p>En el Nuevo Testamento, los primeros <a href=\"#t175\">cristianos</a> a veces usaban aceite junto con la <a href=\"#t102\">oración</a> cuando alguien estaba enfermo. El <a href=\"#t6\">apóstol</a> <a href=\"#t75\">Santiago</a>, en su carta, dice que, si alguien está enfermo, los otros <a href=\"#t12\">creyentes</a> deben orar por esa persona y ungirla con aceite. Esto no era porque el aceite tuviera algún poder especial, sino porque era un símbolo de la presencia de Dios.</p>"
+      }
+    ],
+    "englishHtml": "<p>To <b>anoint</b> someone means to pour sweet smelling oil over someone. You can also anoint an object.</p><p>In the Old Testament, before God gave someone a special task, he would instruct someone else to pour oil over that person's head. The oil was a symbol for the <a href=\"#t68\">Holy Spirit of God</a>. This ritual made clear that God had set this person apart for a special purpose. It also made clear that God was giving this person special <a href=\"#t8\">authority</a>. The person was then called \"anointed.\" For instance, God told Samuel to anoint <a href=\"#t33\">David</a> as <a href=\"#t226\">king</a> of <a href=\"#t74\">Israel</a>. God told Moses to anoint Aaron as <a href=\"#t246\">high priest</a>. And God told the prophet <a href=\"#t44\">Elijah</a> to anoint Elisha as a <a href=\"#t104\">prophet</a> to succeed Elijah.</p><p>Later, the word \"anointed\" was also used for people whom God had appointed for a special task, even if there had not been a ritual that involved the pouring of oil. Jesus is called \"the anointed,\" because God has selected him for a very special task.</p><p>People could also anoint objects. The <a href=\"#t103\">priests</a> anointed the objects that were used in the <a href=\"#t138\">temple</a> with oil to make clear that they now had a special purpose. These objects now belonged to God; they were sacred.</p><p><a href=\"#t77\">Jewish</a> people also used anointing as a daily activity that had no special meaning. They used sweet smelling oil to take care of their skin and their hair. Jesus told the people that if they <a href=\"#t49\">fasted</a>, they should anoint themselves just as they did every day, rather than make themselves look unkempt so that other people could think, \"These people are fasting, how impressive!\"</p><p>People also put some oil on guests to show them they were welcome and honored. There are two stories in the <a href=\"#t60\">Gospels</a> of women putting oil on Jesus's feet to honor him.</p><p>Jewish people also anointed a person's body after his death. After Jesus died, the women are bringing sweet smelling oil to the <a href=\"#t140\">tomb</a> in order to anoint Jesus's body.</p><p>In the New Testament, the early <a href=\"#t175\">Christians</a> sometimes used oil together with <a href=\"#t102\">prayer</a> if someone was sick. The <a href=\"#t6\">apostle</a> <a href=\"#t75\">James</a>, in his letter, says that if someone is sick, the other <a href=\"#t12\">believers</a> should pray for the person and anoint the person with oil. This was not because the oil had any special power, but because it was a symbol of God's presence.</p>",
+    "spanishHtml": "<p><b>Ungir</b> a alguien significa derramar aceite perfumado sobre esa persona. También se puede ungir un objeto.</p><p>En el Antiguo Testamento, antes de darle a alguien una tarea especial, Dios le indicaba a otra persona que derramara aceite sobre la cabeza de esa persona. El aceite era un símbolo del <a href=\"#t68\">Espíritu Santo de Dios</a>. Este ritual dejaba claro que Dios había apartado a esa persona para un propósito especial. También dejaba claro que Dios le estaba dando una <a href=\"#t8\">autoridad</a> especial. Entonces se llamaba «ungida» a esa persona. Por ejemplo, Dios le dijo a Samuel que ungiera a <a href=\"#t33\">David</a> como <a href=\"#t226\">rey</a> de <a href=\"#t74\">Israel</a>. Dios le dijo a Moisés que ungiera a Aarón como <a href=\"#t246\">sumo sacerdote</a>. Y Dios le dijo al profeta <a href=\"#t44\">Elías</a> que ungiera a Eliseo como <a href=\"#t104\">profeta</a> para suceder a Elías.</p><p>Más tarde, la palabra «ungido» también se usaba para las personas a las que Dios había asignado una tarea especial, aunque no hubiera habido un ritual en el que se derramara aceite. A Jesús se le llama «el ungido» porque Dios lo ha elegido para una tarea muy especial.</p><p>Las personas también podían ungir objetos. Los <a href=\"#t103\">sacerdotes</a> ungían con aceite los objetos que se usaban en el <a href=\"#t138\">templo</a> para dejar claro que ahora tenían un propósito especial. Estos objetos ahora pertenecían a Dios; eran sagrados.</p><p>El pueblo <a href=\"#t77\">judío</a> también practicaba la unción como una actividad cotidiana que no tenía ningún significado especial. Usaban aceite perfumado para cuidar la piel y el cabello. Jesús les dijo a las personas que, si <a href=\"#t49\">ayunaban</a>, debían ungirse como lo hacían todos los días, en lugar de descuidar su aspecto para que los demás pensaran: «¡Estas personas están ayunando, qué impresionante!».</p><p>Las personas también ponían un poco de aceite sobre los invitados para mostrarles que eran bienvenidos y honrados. En los <a href=\"#t60\">Evangelios</a> hay dos relatos de mujeres que ponían aceite en los pies de Jesús para honrarlo.</p><p>Los judíos también ungían el cuerpo de una persona después de su muerte. Después de que Jesús murió, las mujeres llevan aceite perfumado al <a href=\"#t140\">sepulcro</a> para ungir el cuerpo de Jesús.</p><p>En el Nuevo Testamento, los primeros <a href=\"#t175\">cristianos</a> a veces usaban aceite junto con la <a href=\"#t102\">oración</a> cuando alguien estaba enfermo. El <a href=\"#t6\">apóstol</a> <a href=\"#t75\">Santiago</a>, en su carta, dice que, si alguien está enfermo, los otros <a href=\"#t12\">creyentes</a> deben orar por esa persona y ungirla con aceite. Esto no era porque el aceite tuviera algún poder especial, sino porque era un símbolo de la presencia de Dios.</p>",
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "eng-t92-v1",
+    "englishHtml": "<p>The word \"<a href=\"#t23\">Christ</a>\" is the same as the word <b>Messiah</b>. Christ is the <a href=\"#t211\">Greek</a> word, and Messiah is the same word in <a href=\"#t227\">Hebrew</a>. Greek is the language of the New Testament, while Hebrew is the language of the Old Testament. The word Messiah refers to the special <a href=\"#t226\">king</a> and <a href=\"#t119\">Savior</a> that God had promised to send.</p><p>A Messiah literally means someone who is <a href=\"#t5\">anointed</a>. That means that another person had poured oil over them. This was a sign that God gave this person a special task. For example, In the Old Testament, God told the <a href=\"#t104\">prophet</a> Samuel to pour oil over <a href=\"#t33\">David</a>. This was a sign that God chose David to become the next king of <a href=\"#t74\">Israel</a>.</p><p>Later, people called someone anointed if God had appointed that person for a special task, even if no one really had poured oil on their head.</p><p>David became the most beloved king of Israel. But after David, other people were ruling over Israel, and many of them were not good kings. These kings were leading the people away from God, and therefore God had to punish the people. The country of Israel was destroyed, and came under the control of other <a href=\"#94\">nations</a>. But still, God promised the people of Israel that he would send them a new king. This king would save the people from their trouble. This king would be a descendant from David.</p><p>The <a href=\"#t259\">Israelites</a> began to refer to this king that God promised to send as \"the Messiah\"-the anointed one.</p><p>When Jesus came, he showed the people that <em>he</em> is the Messiah that God had promised to send. Jesus was a <a href=\"#t234\">descendant</a> from David. Jesus proved that God had appointed him through the extraordinary power and <a href=\"#t8\">authority</a> he had.</p><p>Jesus almost never directly said to the people: \"I am the Messiah!\" This is because people did not yet really know what it would mean for Jesus to be the Messiah. They had the wrong idea that the Messiah would restore the <a href=\"#t157\">kingdom</a> of Israel and give them back political power. Jesus instead called himself the <a href=\"#t130\">Son of Man</a>, which was an indirect way of saying that he was the Messiah.</p><p>After Jesus rose up from the dead, his <a href=\"#t39\">disciples</a> knew with great certainty that he was indeed the Messiah and they began to share this <a href=\"#t160\">good news</a> to other people. God had sent his <a href=\"#t119\">Savior</a>! But Jesus was not a Savior who just freed people from an earthly government. Jesus was a Savior who did much more-Jesus freed people from <a href=\"#t125\">sin</a> and death.</p><p><strong>When you are translating Messiah or Christ, be careful about the following things:</strong></p><ul><li>You only need one word for both Messiah or Christ.</li><li>You could translate Messiah as \"Savior,\" or \"promised Savior,\" or \"special king and Savior.\"</li><li>Some translation teams like to use a word that sounds like \"Messiah\" or \"Christ.\" If you do this, be sure that the word does not sound similar to a word in your language that has a very different meaning! Otherwise, people who do not know the Bible may get very confused.</li><li>Maybe your culture has a symbol or ritual that people use to appoint someone for a special task. Maybe you can use this word for your translation of Messiah?</li></ul>",
+    "spanishHtml": "<p>La palabra “<a href=\"#t23\">Cristo</a>” es la misma que la palabra <b>Mesías</b>. &quot;Cristo&quot; es la palabra <b>griega</b>, y &quot;Mesías&quot; es la misma palabra en <a href=\"#t227\">hebreo</a>. El griego es el idioma del Nuevo Testamento, mientras que el hebreo es el idioma del Antiguo Testamento. La palabra Mesías se refiere al <a href=\"#t226\">rey</a> especial y <a href=\"#t119\">Salvador</a> que Dios había prometido enviar.</p><p>Un Mesías significa literalmente &quot;alguien que es <b>ungido</b>&quot;. Eso significa que otra persona había derramado aceite sobre ellos. Esto era una señal de que Dios le dio a esta persona una tarea especial. Por ejemplo, en el Antiguo Testamento, Dios le dijo al <a href=\"#t104\">profeta</a> Samuel que derramara aceite sobre <a href=\"#t33\">David</a>. Esta fue una señal de que Dios eligió a David para convertirse en el próximo rey de <a href=\"#t74\">Israel</a>.</p><p>Más tarde, las personas llamaban a alguien de ungido si Dios había nombrado a esa persona para una tarea especial, aunque nadie haya derramado aceite sobre su cabeza.</p><p>David se convirtió en el rey más amado de Israel. Pero después de David, otras personas gobernaron Israel, y muchos de ellos no eran buenos reyes. Estos reyes estaban alejando al pueblo de Dios, y por lo tanto Dios tuvo que castigar a las personas. El país de Israel fue destruido y quedó bajo el control de otras <b>naciones</b>. Pero aún así, Dios prometió al pueblo de Israel que les enviaría a un nuevo rey. Este rey salvaría a las personas de sus problemas. Este rey sería un descendiente de David.</p><p>Los <b>israelitas</b> comenzaron a referirse a este rey que Dios prometió enviar como “el Mesías”, el ungido.</p><p>Cuando Jesús vino, mostró a las personas que <b>él</b> es el Mesías que Dios había prometido enviar. Jesús era <a href=\"#t234\">descendiente</a> de David. Jesús demostró que Dios lo había nombrado a través del extraordinario poder y <a href=\"#t8\">autoridad</a> que tenía.</p><p>Jesús casi nunca les dijo directamente a las personas: “¡Yo soy el Mesías!” Esto es porque las personas aún no sabían lo que significaría que Jesús fuera el Mesías. Tenían la idea equivocada de que el Mesías restauraría el <a href=\"#t157\">reino</a> de Israel y les devolvería el poder político. Jesús, en cambio, se llamaba a sí mismo el <a href=\"#t130\">Hijo del Hombre</a>, lo cual era una manera indirecta de decir que él era el Mesías.</p><p>Después de que Jesús resucitó de entre los muertos, sus <b>discípulos</b> supieron con plena certeza que él era realmente el Mesías y comenzaron a compartir estas <a href=\"#t160\">buenas nuevas</a> con otras personas. ¡Dios había enviado a su <a href=\"#t119\">Salvador</a>! Pero Jesús no fue un Salvador que solo liberó a las personas de un gobierno terrenal. Jesús era un Salvador que hizo mucho más: Jesús liberó a las personas del <a href=\"#t125\">pecado</a> y de la muerte.</p><p><b>Cuando estén traduciendo &quot;Mesías&quot; o &quot;Cristo&quot;, tengan cuidado con las siguientes cosas:</b></p>",
+    "existingSupplements": [
+      {
+        "id": "term-92-warnings",
+        "targetId": "spa-t92-v1",
+        "language": "spa",
+        "lang": "es",
+        "label": "AI translated from English",
+        "content": "<ul><li>Solo necesitan una palabra tanto para Mesías como para Cristo.</li><li>Podrían traducir Mesías como «Salvador», «Salvador prometido» o «rey especial y Salvador».</li><li>A algunos equipos de traducción les gusta usar una palabra que suene como «Mesías» o «Cristo». Si lo hacen, ¡asegúrense de que la palabra no suene parecida a una palabra de su idioma que tenga un significado muy diferente! De lo contrario, las personas que no conocen la Biblia podrían confundirse mucho.</li><li>Tal vez su cultura tenga un símbolo o ritual que las personas usan para asignarle a alguien una tarea especial. ¿Tal vez puedan usar esta palabra en su traducción de Mesías?</li></ul>",
+        "format": "html",
+        "sha256": "27df85edf5cdc83ba4015682ab5cd2226829f613071c3f3b9b8e84d9039f23d8",
+        "source": {
+          "id": "term-92-warnings",
+          "targetSpanishId": "spa-t92-v1",
+          "sourceRepo": "BibleAquifer/FIAKeyTerms",
+          "sourceCommit": "5ce5c6bd152236e16cf23290a40ab625175df8e3",
+          "sourcePath": "eng/json/013.content.json",
+          "sourceId": "eng-t92-v1",
+          "sourceVersion": "1.0.4",
+          "sourceBodySha256": "4e5cec57c162d9fb6e45fa5237362f66bdcba87a09d632c4423d3c626816fda7",
+          "sourceStart": 2846,
+          "sourceEnd": 3461,
+          "sourceHtml": "<ul><li>You only need one word for both Messiah or Christ.</li><li>You could translate Messiah as \"Savior,\" or \"promised Savior,\" or \"special king and Savior.\"</li><li>Some translation teams like to use a word that sounds like \"Messiah\" or \"Christ.\" If you do this, be sure that the word does not sound similar to a word in your language that has a very different meaning! Otherwise, people who do not know the Bible may get very confused.</li><li>Maybe your culture has a symbol or ritual that people use to appoint someone for a special task. Maybe you can use this word for your translation of Messiah?</li></ul>",
+          "sourceText": "You only need one word for both Messiah or Christ. You could translate Messiah as \"Savior,\" or \"promised Savior,\" or \"special king and Savior.\" Some translation teams like to use a word that sounds like \"Messiah\" or \"Christ.\" If you do this, be sure that the word does not sound similar to a word in your language that has a very different meaning! Otherwise, people who do not know the Bible may get very confused. Maybe your culture has a symbol or ritual that people use to appoint someone for a special task. Maybe you can use this word for your translation of Messiah?",
+          "sourceSpanSha256": "a1c93cd1a80dde902c6dbfb38626536b45f5d63e2e42d417263f02026f04be9b",
+          "sourceCharacters": 573,
+          "spanishBodySha256": "fac86d5fc90cf528e1b1cf0cd8452e5a8c54d430866183c41d7f037ffd84af00",
+          "spanishAnchorOffset": 2924,
+          "spanishAnchor": "Cuando",
+          "placement": "separate derived supplement after original source paragraph; never edit original",
+          "semanticConstraint": "Preserve exact list cardinality and all conditions/examples",
+          "rightsMetadata": "429305b41f3b23d4f933b816d9d3485aa724f929f512bd8293ac2a8693d85f44",
+          "license": "CC BY-SA 4.0",
+          "credit": "FIA Key Terms ©2025 Word Collective; original/adaptation notices retained",
+          "outputLabel": "AI translated from English"
+        },
+        "provenance": {
+          "method": "AI translation",
+          "sourceLanguage": "eng",
+          "targetLanguage": "spa",
+          "modelFamily": "GPT-6",
+          "agent": "Codex source translation worker",
+          "modelIdentityEvidence": "Session developer identifies Codex as based on GPT-6; exact deployment/model revision is not exposed",
+          "exactDeploymentId": null,
+          "generatedUtc": "2026-09-12T02:37:50.579183+00:00",
+          "originalSpanishModified": false,
+          "associationOrigin": "derived supplement, not original source association",
+          "review": {
+            "status": "independent full source/output semantic and hash review accepted",
+            "receiptSha256": "5b632ff7b607920dde30ff6440bb76cf801280a2cda4251ad83f12cf545f9311",
+            "expertCertification": false
+          }
+        },
+        "rights": {
+          "metadataSha256": "429305b41f3b23d4f933b816d9d3485aa724f929f512bd8293ac2a8693d85f44",
+          "licenseInfo": {
+            "title": "Familiarization, Internalization, Articulation (Fia) Terms",
+            "copyright": {
+              "dates": "2025",
+              "holder": {
+                "name": "Word Collective",
+                "url": "https://wordcollective.com"
+              }
+            },
+            "licenses": [
+              {
+                "eng": {
+                  "name": "CC BY-SA 4.0 license",
+                  "url": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.en"
+                }
+              }
+            ],
+            "showAdaptationNoticeForEnglish": false,
+            "showAdaptationNoticeForNonEnglish": true
+          },
+          "sourceAdaptationNoticeHtml": "<p><b>Familiarization, Internalization, Articulation (FIA) Key Terms</b> © 2025 Word Collective Released under CC BY-SA 4.0 license. <cite>Familiarization, Internalization, Articulation (FIA) Key Terms</cite> has been adapted in the following languages Tok Pisin, عربي, Français, हिंदी, Bahasa Indonesia, Português, Русский, Español, Kiswahili, 简体中文 from <cite>Familiarization, Internalization, Articulation (FIA)</cite> © 2025 Word Collective. Released under CC BY-SA 4.0 license by Mission Mutual</p>",
+          "sourceUrl": "https://github.com/BibleAquifer/FIAKeyTerms/blob/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/json/013.content.json",
+          "derivedLicense": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "changeNotice": "AI translated from English; supplemental translation only; original Spanish source unchanged.",
+          "priorNoticesRetained": true,
+          "endorsementClaim": false,
+          "metadataUrl": "https://raw.githubusercontent.com/BibleAquifer/FIAKeyTerms/5ce5c6bd152236e16cf23290a40ab625175df8e3/eng/metadata.json"
+        },
+        "presentation": {
+          "component": "ResourceCard",
+          "property": "meta",
+          "designSystemRepo": "klappy/bt-design-system-generative-glass",
+          "designSystemCommit": "8d6b48dd93b6efa43305724a0cf320a85feabe5b",
+          "designSystemPath": "components/resources/ResourceCard.jsx",
+          "patternSource": "components/resources/ResourceCard.prompt.md",
+          "meta": "FIAKeyTerms · eng-t92-v1 · CC BY-SA 4.0 · AI translated from English · Independent source/output review accepted",
+          "displayScope": "per item in list/detail/offline",
+          "sourceAndSupplementSeparate": true,
+          "placement": "separate derived supplement after original source paragraph; never edit original"
+        },
+        "audio": {
+          "available": false
+        }
+      }
+    ],
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "eng-t118-v1",
+    "englishHtml": "<p>The name <b>Satan</b> means the adversary, enemy, or accuser. It is the name for the <a href=\"#t181\">devil</a>, the leader of all <a href=\"#t47\">evil spirits</a>.</p><p>God has created everything that exists, and therefore God also created all the spirits. God created them good, as <a href=\"#t4\">angels</a>, to do his work. But some angels rebelled against God, and then they became evil spirits. The most powerful of these evil spirits is called the devil, or Satan.</p><p>Satan always tries to destroy God's work. Satan tempts people to disobey God. He tries to make people turn away from God by deceiving them. Satan is powerful and dangerous, always looking for ways that he can work against God and against God's people.</p><p>Because Satan is still powerful in this time, sometimes the Bible calls him the \"ruler of this world.\" Sometimes Satan is called <b>Beelzebub</b>, which means something like \"master of the high places.\" Sometimes he is called the <b>Deceiver</b>. Sometimes he is compared to a dragon or a snake.</p><p>However, God is much stronger than Satan. When Jesus died and was <a href=\"#t110\">resurrected</a>, God broke the power of Satan. Even though God is still allowing Satan to use his power for now, when Jesus will come back, Jesus will defeat Satan forever. God will punish Satan and all the evil spirits, and they will never be able to work against God and his people again.</p>",
+    "spanishHtml": "<p>El nombre <b>Satanás</b> significa adversario, enemigo o acusador. Es el nombre del <a href=\"#t181\">diablo</a>, el líder de todos los <b>espíritus malignos</b>.</p><p>Dios ha creado todo lo que existe y, por lo tanto, Dios también creó a todos los espíritus. Dios los creó buenos, como <b>ángeles</b>, para hacer su trabajo. Pero algunos ángeles se rebelaron contra Dios, y después se convirtieron en espíritus malignos. El más poderoso de estos espíritus malignos se llama diablo o Satanás.</p><p>Satanás siempre intenta destruir la obra de Dios. Satanás tienta a las personas a desobedecer a Dios. Él intenta hacer que las personas se alejen de Dios engañándolas. Satanás es poderoso y peligroso, siempre buscando maneras de trabajar contra Dios y contra el pueblo de Dios.</p><p>Debido a que Satanás todavía es poderoso en este tiempo, a veces la Biblia lo llama el &quot;gobernante de este mundo&quot;. A veces Satanás es llamado <b>Beelzebú</b>, que significa algo como &quot;amo de los lugares altos&quot;. A veces se le llama el <b>Engañador</b>. A veces es comparado con un dragón o una serpiente.</p><p>Sin embargo, Dios es mucho más fuerte que Satanás. Cuando Jesús murió y <b>resucitó</b>, Dios rompió el poder de Satanás. Aunque Dios todavía está permitiendo que Satanás use su poder por ahora, cuando Jesús regrese, Jesús derrotará a Satanás para siempre. Dios castigará a Satanás y a todos los espíritus malignos, y nunca más podrán trabajar contra Dios y su pueblo.</p>",
+    "existingSupplements": [],
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "eng-t125-v1",
+    "englishHtml": "<p>God created the whole world good. God created humankind to be his representatives on earth. God told the humans to take care of the earth. At first, man and woman lived in a good <a href=\"#t108\">relationship</a> with God, with each other, and with nature. But people began to disobey God. They stopped trusting God, and they wanted to decide for themselves what was good for them. They no longer wanted to accept God's <a href=\"#t8\">authority</a> over them. This act of rebellion against God is called <b>sin</b>. Because of this rebellion, the good relationship that people had with God was broken. Not only that, the good relationship that people had with each other was also broken, and the whole of creation suffered as well.</p><p>This rebellion against God comes in many different ways. God has made good <a href=\"#t83\">laws</a>, and if people follow these laws, then people will be able to live together in <a href=\"#t161\">peace</a>. But people are constantly breaking God's laws. Any time that a person breaks one of God's laws, they sin.</p><p>God hates sin. He grieves when people disobey him, because his rules are for people's good. Therefore, God has to punish people for doing sin. If people persist in doing sin, then the punishment is death.</p><p>Jesus teaches us that sin is not only a matter of <em>doing</em> the wrong thing. <em>Thinking</em> wrong things is also sin, even if no one else knows about it. Pride, jealousy, and lust are sin. Looking down on other people is sin. We can do many good things in the eyes of people, but if we are overly proud about what we do, we are still sinning.</p><p>The Bible teaches us that Jesus saved his people from their sins. That means that God will not give people the punishment that they deserve. This is because Jesus took the punishment in their place. In the Old Testament, the way for people to ask <a href=\"#t53\">forgiveness</a> for their sins was by offering God a <a href=\"#t114\">sacrifice</a>. People had to kill an animal and offer this to God in exchange for their own life. The animal that they offered to God had to be a perfect animal, without any defect. Because of this sacrifice, God forgave them-but only until the next time they sinned. Jesus himself became the perfect sacrifice for all people. Jesus himself had not committed any sin, and so he was like a perfect sacrificial animal. Jesus's sacrifice was so powerful, that because of this God was willing to forgive the sin of all people-not just temporarily, but forever. God will forgive everybody who accepts that Jesus died in their place. These people are now \"saved.\" They do not have to be afraid anymore of punishment. God says that these people now are <a href=\"#t111\">righteous</a>.</p><p>This forgiveness is not cheap! It cost Jesus his life. And so, anyone who accepts Jesus's sacrifice will do his best to stop doing sin, because they are so grateful to Jesus. Paul teaches us that before we were saved, we were <a href=\"#t126\">slaves</a> of sin. This means we gave in to the pressure and temptation to do sins. But now that God has forgiven us, we are slaves of righteousness-we earnestly want to do the things that please God, instead of doing the things that make him sad.</p><p>It is still very difficult-even impossible-for people not to do sins. But God has given his <a href=\"#t68\">Holy Spirit</a> to help us. The Holy Spirit helps us to see which things are sin, and helps us to resist the temptation to do sin. Without the help of the Holy Spirit, we cannot do this.</p><p>When we are saved, we still do sin, but we are no longer sinners. Because now, we <a href=\"#t109\">repent</a> when we sin. A sinner is someone who continues to do sin, even though he knows it is wrong.</p><p>When Jesus lived on earth, the religious leaders were complaining that Jesus ate with sinners. The religious leaders used the word \"sinners\" to talk about a specific group of people who disobeyed God's laws in a certain way, for instance prostitutes and corrupt tax collectors. The religious leaders, especially the <a href=\"#t100\">Pharisees</a>, looked down on these people. But many of these so-called sinners who came to listen to Jesus wanted to repent of their sins. Jesus explained to the religious leaders that this was exactly the reason why he had come to earth: to make people <a href=\"#t109\">repent</a> of their sins. Jesus showed the people that God was happier about sinners who repented, than about people who were so proud that they did not think that they needed to repent.</p><p><strong>When you are translating \"sin,\" be careful about the following things:</strong></p><p>Some cultures think that some actions are only bad if they are discovered. For instance, they may think that cheating is fine, as long as nobody knows about it-it only becomes a problem when other people find out about it and when it creates embarrassment. The word for sin in the Bible is not like this. Disobeying God is always bad, whether people know about it or not.</p><p>Some cultures have a word for sin that means performing a ritual in the wrong way, or doing something that is against tradition, or doing something that goes against your prescribed place in society. This is not what sin is in the Bible. Jesus teaches us that sin has nothing to do with the performing of rituals, but with our thoughts and actions. Even people who perform all cultural rituals and expectations perfectly, are rebelling against God and are sinning.</p><p>Some cultures use a word for sin that means \"ignorance.\" This is not what the word sin in the Bible means.</p><p>Some cultures have a word for sin that is only used for legal crimes like murder or theft. The word sin in the Bible means much more than only crimes. Even people who never disobey the law of the country, are breaking the law of God and commit sin.</p><div data-type=\"callout\" data-callout-style=\"action\"><p>One way to think about how you could translate sin is to do the following activity: In small groups, act out what sin means. Afterwards, decide which of these dramas fit the biblical meaning of sin best. Talk about how the meaning of sin in the Bible is different from what you thought, or from what other people in your community think that sin is.</p></div>",
+    "spanishHtml": "<p>Dios creó al mundo entero bueno. Dios creó a la humanidad para ser sus representantes en la tierra. Dios dijo a los humanos que cuidaran de la tierra. Al principio, el hombre y la mujer vivían en una buena <a href=\"#t108\">relación</a> con Dios, entre sí y con la naturaleza. Pero las personas comenzaron a desobedecer a Dios. Dejaron de confiar en Dios, y querían decidir por sí mismas lo que era bueno para ellos. Ya no querían aceptar la <a href=\"#t8\">autoridad</a> de Dios sobre ellos. Este acto de rebelión contra Dios se llama <b>pecado</b>. Debido a esta rebelión, la buena relación que las personas tenían con Dios estaba rota. No solo eso, la buena relación que las personas tenían entre sí también estaba rota, y toda la creación también sufrió.</p><p>Esta rebelión contra Dios viene de muchas maneras diferentes. Dios ha hecho buenas <a href=\"#t83\">leyes</a>, y si las personas siguen estas leyes, entonces las personas podrán vivir juntas en <a href=\"#t161\">paz</a>. Pero las personas constantemente están rompiendo las leyes de Dios. Cada vez que una persona viola una de las leyes de Dios, peca.</p><p>Dios odia el pecado. Se entristece cuando las personas lo desobedecen, porque sus reglas son para el bien de las personas. Por lo tanto, Dios tiene que castigar a las personas por cometer pecado. Si las personas persisten en pecar, entonces el castigo es la muerte.</p><p>Jesús nos enseña que el pecado no es solo cuestión de <em>hacer</em> lo malo. <em>Pensar</em> en cosas malas también es pecado, incluso si nadie lo sabe. Orgullo, celos y lujuria son pecados. Despreciar a otras personas es pecado. Podemos hacer muchas cosas buenas a los ojos de las personas, pero si estamos demasiado orgullosos de lo que hacemos, todavía estaríamos pecando.</p><p>La Biblia nos enseña que Jesús salvó a su pueblo de sus pecados. Eso significa que Dios no les dará a las personas el castigo que merecen. Esto es porque Jesús tomó el castigo en su lugar. En el Antiguo Testamento, la manera en que las personas pedían <a href=\"#t53\">perdón</a> por sus pecados era ofreciendo un <a href=\"#t114\">sacrificio</a> a Dios. Las personas tenían que matar a un animal y ofrecer esto a Dios a cambio de su propia vida. El animal que ofrecían a Dios tenía que ser un animal perfecto, sin ningún defecto. Debido a este sacrificio, Dios los perdonaba, pero solo hasta la próxima vez que pecaran. El propio Jesús se convirtió en el sacrificio perfecto para todas las personas. Jesús mismo no había cometido ningún pecado, y, por lo tanto, era como un perfecto animal de sacrificio. El sacrificio de Jesús era tan poderoso, que debido a esto, Dios estaba dispuesto a perdonar el pecado de todas las personas, no solo temporalmente, sino para siempre. Dios perdonará a todos los que acepten que Jesús murió en su lugar. Estas personas ahora son \"salvas\". Ya no tienen que tener miedo del castigo. Dios dice que estas personas ahora son <a href=\"#t111\">justas</a>.</p><p>¡Este perdón no es barato! Le costó la vida a Jesús. Entonces, cualquiera que acepte el sacrificio de Jesús hará todo lo posible para dejar de pecar, porque están muy agradecidos a Jesús. Pablo nos enseña que antes de ser salvos, éramos <a href=\"#t126\">esclavos</a> del pecado. Esto significa que cedíamos a la presión y a la tentación de cometer pecados. Pero ahora que Dios nos ha perdonado, somos esclavos de la justicia, queremos fervientemente hacer cosas que agraden a Dios, en lugar de hacer cosas que lo hagan entristecer.</p><p>Aún es muy difícil, incluso imposible, para las personas no cometer pecados. Pero Dios ha dado a su <a href=\"#t68\">Espíritu Santo</a> para ayudarnos. El Espíritu Santo nos ayuda a ver cuáles cosas son pecado, y nos ayuda a resistir a la tentación de pecar. Sin la ayuda del Espíritu Santo, no podríamos hacer esto.</p><p>Cuando somos salvos, todavía pecamos, pero ya no somos pecadores. Porque ahora, nos <a href=\"#t109\">arrepentimos</a> cuando pecamos. Un pecador es alguien que continúa pecando, aunque sabe que está mal.</p><p>Cuando Jesús vivía en la tierra, los líderes religiosos se quejaban de que Jesús comía con pecadores. Los líderes religiosos usaban la palabra \"pecadores\" para hablar de un grupo específico de personas que desobedecían las leyes de Dios de cierta manera, por ejemplo prostitutas y recaudadores de impuestos corruptos. Los líderes religiosos, especialmente los <a href=\"#t100\">fariseos</a>, miraban con desprecio a estas personas. Pero muchos de estos llamados pecadores que venían a escuchar a Jesús querían arrepentirse de sus pecados. Jesús explicó a los líderes religiosos que esta era exactamente la razón por la que había venido a la tierra: para hacer que las personas se <a href=\"#t109\">arrepintieran</a> de sus pecados. Jesús mostró a las personas que Dios estaba más feliz con pecadores que se arrepienten, que con personas tan orgullosas que no pensaban que necesitaban arrepentirse.</p><p><strong>Cuando estén traduciendo \"pecado\", tengan cuidado con las siguientes cosas:</strong></p><p>Algunas culturas piensan que algunas acciones solo son malas si son descubiertas. Por ejemplo, pueden pensar que hacer trampa está bien, siempre que nadie lo sepa, solo se convierte en un problema cuando otras personas lo descubren y cuando genera vergüenza. La palabra para pecado en la Biblia no es así. Desobedecer a Dios siempre es malo, ya sea que las personas lo sepan o no.</p><p>Algunas culturas tienen una palabra para pecado que significa realizar un ritual de manera incorrecta, o hacer algo que va en contra de la tradición, o hacer algo que va en contra de su lugar prescrito en la sociedad. Esto no es lo que es pecado en la Biblia. Jesús nos enseña que el pecado no tiene nada que ver con la realización de rituales, sino con nuestros pensamientos y acciones. Incluso las personas que realizan perfectamente todos los rituales y expectativas culturales, se rebelan contra Dios y están pecando.</p><p>Algunas culturas usan una palabra para pecado que significa \"ignorancia\". Esto no es lo que significa la palabra pecado en la Biblia.</p><p>Algunas culturas tienen una palabra para pecado que solo se usa para crímenes legales como asesinato o robo. La palabra pecado en la Biblia significa mucho más que solo crímenes. Incluso personas que nunca desobedecieron la ley del país, están violando la ley de Dios y cometen pecado.</p><div data-type=\"callout\" data-callout-style=\"action\"><p>Una manera de pensar en cómo pueden traducir pecado es hacer la siguiente actividad: En grupos pequeños, interpreten lo que significa pecado. Después, decidan cuál de estas interpretaciones se ajustaba mejor al significado bíblico de pecado. Conversen sobre cómo el significado de pecado en la Biblia es diferente de lo que pensaban, o de lo que otras personas en su comunidad piensan que es pecado.</p></div>",
+    "existingSupplements": [],
+    "reviewState": "pending independent full bilingual review"
+  },
+  {
+    "englishId": "eng-t129-v1",
+    "englishHtml": "<p>The <b>Son of God</b> is a title for Jesus. Jesus is called the <a href=\"#t127\">son</a> of God because he has a special relationship with God the Father. God and Jesus love each other in the way that a father and a son love each other. Sometimes Jesus is called \"the <em>only</em> son of God.\" This means that the relationship that Jesus has with God is unique. Nobody else has this same relationship with God as Jesus has.</p><p>That Jesus is the son of God means that he himself is also God. Jesus is one person of the Trinity-a word that the church is using to describe that God is <em>one</em>, but at the same time <em>three</em> persons: God the Father, God the Son, and God the <a href=\"#t68\">Holy Spirit</a>. Jesus has always been the Son of God, even before the beginning of our time, before the creation of the world. When Jesus came to earth, and was born, he also became a human.</p><p>When people in the New Testament call Jesus the Son of God, this is sometimes another way of saying that Jesus is the <a href=\"#t92\">Messiah</a>, the <a href=\"#t23\">Christ</a>-the promised king and <a href=\"#t119\">Savior</a>.</p><p>When people begin to trust in Jesus, God adopts them as children. Therefore, the Bible sometimes uses the phrase \"<em>sons</em> of God\" to describe the people who trust and follow Jesus.</p>",
+    "spanishHtml": "<p>El <b>Hijo de Dios</b> es un título para Jesús. Jesús es llamado el <a href=\"#t127\">hijo</a> de Dios porque tiene una relación especial con Dios el Padre. Dios y Jesús se aman de la manera en que un padre y un hijo se aman. A veces Jesús es llamado &quot;el <b>único</b> hijo de Dios&quot;. Esto significa que la relación que Jesús tiene con Dios es única. Nadie más tiene esta misma relación con Dios que Jesús.</p><p>Que Jesús es el hijo de Dios significa que él mismo también es Dios. Jesús es una persona de la Trinidad, una palabra que la iglesia está usando para describir a Dios es <b>uno</b>, pero al mismo tiempo <b>tres</b> personas: Dios Padre, Dios Hijo y Dios el <a href=\"#t68\">Espíritu Santo</a>. Jesús siempre ha sido el Hijo de Dios, incluso antes del comienzo de nuestro tiempo, antes de la creación del mundo. Cuando Jesús vino a la tierra, y nació, también se convirtió en un humano.</p><p>Cuando las personas en el Nuevo Testamento llaman a Jesús el Hijo de Dios, esta a veces es otra manera de decir que Jesús es el <a href=\"#t92\">Mesías</a>, el <a href=\"#t23\">Cristo</a>, el rey prometido y <a href=\"#t119\">Salvador</a>.</p><p>Cuando las personas comienzan a confiar en Jesús, Dios los adopta como hijos. Por lo tanto, la Biblia a veces usa la frase &quot;<b>hijos</b> de Dios&quot; para describir a las personas que confían en y siguen a Jesús.</p>",
+    "existingSupplements": [],
+    "reviewState": "pending independent full bilingual review"
+  }
+]
