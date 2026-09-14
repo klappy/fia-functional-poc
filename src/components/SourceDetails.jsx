@@ -6,6 +6,12 @@ export function SafeHtml({ html, className = '' }) {
   const fragment = document.createElement('template'); fragment.innerHTML = safe;
   // Source glossary fragment identifiers do not exist in this bounded UI. Preserve their text without a broken link.
   fragment.content.querySelectorAll('a[href^="#"]').forEach(link => link.replaceWith(...link.childNodes));
+  // Remaining CMS media URLs must stay outbound; empty thumbnail placeholders are not controls.
+  fragment.content.querySelectorAll('a[href]').forEach(link => {
+    if (!link.textContent.trim()) { link.replaceWith(...link.childNodes); return; }
+    link.target = '_blank';
+    link.rel = 'noreferrer';
+  });
   return <div className={`source-html ${className}`} dangerouslySetInnerHTML={{ __html: fragment.innerHTML }} />;
 }
 export default function SourceDetails({ item }) {
