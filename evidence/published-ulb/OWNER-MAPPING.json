@@ -1,0 +1,210 @@
+[
+  {
+    "requestId": "spa-35ea487492802a90693d",
+    "path": "/audio/spa/spa-35ea487492802a90693d.mp3",
+    "sourceSha256": "35ea487492802a90693d4b8c73032ee82ab2658e40ee55e849ef49774dfefc3a",
+    "processedTextSha256": "35ea487492802a90693d4b8c73032ee82ab2658e40ee55e849ef49774dfefc3a",
+    "owners": [
+      {
+        "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-1",
+        "classification": "required-on-demand",
+        "playbackGroupId": "Door43SpanishULB-v1.4",
+        "spokenNoticeOwnerIds": [
+          "spa-notice-synthetic-voice"
+        ]
+      }
+    ]
+  },
+  {
+    "requestId": "spa-e5238183e353fe04b2c8",
+    "path": "/audio/spa/spa-e5238183e353fe04b2c8.mp3",
+    "sourceSha256": "e5238183e353fe04b2c8132d8d5012ada6f5c47c2580b92c40480408b7a68398",
+    "processedTextSha256": "e5238183e353fe04b2c8132d8d5012ada6f5c47c2580b92c40480408b7a68398",
+    "owners": [
+      {
+        "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-2",
+        "classification": "required-on-demand",
+        "playbackGroupId": "Door43SpanishULB-v1.4",
+        "spokenNoticeOwnerIds": [
+          "spa-notice-synthetic-voice"
+        ]
+      }
+    ]
+  },
+  {
+    "requestId": "spa-10009c2e5bc72fe96222",
+    "path": "/audio/spa/spa-10009c2e5bc72fe96222.mp3",
+    "sourceSha256": "10009c2e5bc72fe96222f2100da08adb5311a014159d24a07193d75caa962c7b",
+    "processedTextSha256": "10009c2e5bc72fe96222f2100da08adb5311a014159d24a07193d75caa962c7b",
+    "owners": [
+      {
+        "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-3",
+        "classification": "required-on-demand",
+        "playbackGroupId": "Door43SpanishULB-v1.4",
+        "spokenNoticeOwnerIds": [
+          "spa-notice-synthetic-voice"
+        ]
+      }
+    ]
+  },
+  {
+    "requestId": "spa-5fb2ebf8bf475e6407c1",
+    "path": "/audio/spa/spa-5fb2ebf8bf475e6407c1.mp3",
+    "sourceSha256": "5fb2ebf8bf475e6407c1b28854011aee71ee13000c4dda4ee378e1be3ee8e195",
+    "processedTextSha256": "5fb2ebf8bf475e6407c1b28854011aee71ee13000c4dda4ee378e1be3ee8e195",
+    "owners": [
+      {
+        "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-4",
+        "classification": "required-on-demand",
+        "playbackGroupId": "Door43SpanishULB-v1.4",
+        "spokenNoticeOwnerIds": [
+          "spa-notice-synthetic-voice"
+        ]
+      }
+    ]
+  },
+  {
+    "requestId": "spa-73081440044139d6e6cc",
+    "path": "/audio/spa/spa-73081440044139d6e6cc.mp3",
+    "sourceSha256": "73081440044139d6e6cc2c0b8483b074e155404833dcc2c45f74aaf949ecdec4",
+    "processedTextSha256": "73081440044139d6e6cc2c0b8483b074e155404833dcc2c45f74aaf949ecdec4",
+    "owners": [
+      {
+        "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-5",
+        "classification": "required-on-demand",
+        "playbackGroupId": "Door43SpanishULB-v1.4",
+        "spokenNoticeOwnerIds": [
+          "spa-notice-synthetic-voice"
+        ]
+      }
+    ]
+  },
+  {
+    "requestId": "spa-ec098c312ccdf0f9193d",
+    "path": "/audio/spa/spa-ec098c312ccdf0f9193d.mp3",
+    "sourceSha256": "ec098c312ccdf0f9193d4dbe2fa0fdeb7da76d6febca449a146605803eb89ce1",
+    "processedTextSha256": "ec098c312ccdf0f9193d4dbe2fa0fdeb7da76d6febca449a146605803eb89ce1",
+    "owners": [
+      {
+        "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-6",
+        "classification": "required-on-demand",
+        "playbackGroupId": "Door43SpanishULB-v1.4",
+        "spokenNoticeOwnerIds": [
+          "spa-notice-synthetic-voice"
+        ]
+      }
+    ]
+  },
+  {
+    "requestId": "spa-fbd8d7cffc3c93a1cd12",
+    "path": "/audio/spa/spa-fbd8d7cffc3c93a1cd12.mp3",
+    "sourceSha256": "fbd8d7cffc3c93a1cd12e89700863f7b5f814d72f220a62f883691e7d1439e5d",
+    "processedTextSha256": "fbd8d7cffc3c93a1cd12e89700863f7b5f814d72f220a62f883691e7d1439e5d",
+    "owners": [
+      {
+        "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-7",
+        "classification": "required-on-demand",
+        "playbackGroupId": "Door43SpanishULB-v1.4",
+        "spokenNoticeOwnerIds": [
+          "spa-notice-synthetic-voice"
+        ]
+      }
+    ]
+  },
+  {
+    "requestId": "spa-0701ab6155dad8a51088",
+    "path": "/audio/spa/spa-0701ab6155dad8a51088.mp3",
+    "sourceSha256": "0701ab6155dad8a5108896ed51191b28891b52bca1622139679ec333a243cbf7",
+    "processedTextSha256": "0701ab6155dad8a5108896ed51191b28891b52bca1622139679ec333a243cbf7",
+    "owners": [
+      {
+        "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-8",
+        "classification": "required-on-demand",
+        "playbackGroupId": "Door43SpanishULB-v1.4",
+        "spokenNoticeOwnerIds": [
+          "spa-notice-synthetic-voice"
+        ]
+      }
+    ]
+  },
+  {
+    "requestId": "spa-1f5f0de0337b6dc5274e",
+    "path": "/audio/spa/spa-1f5f0de0337b6dc5274e.mp3",
+    "sourceSha256": "1f5f0de0337b6dc5274e2a3ca3a52474ea977a2ebba6a44d0ceabee4e603911c",
+    "processedTextSha256": "1f5f0de0337b6dc5274e2a3ca3a52474ea977a2ebba6a44d0ceabee4e603911c",
+    "owners": [
+      {
+        "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-9",
+        "classification": "required-on-demand",
+        "playbackGroupId": "Door43SpanishULB-v1.4",
+        "spokenNoticeOwnerIds": [
+          "spa-notice-synthetic-voice"
+        ]
+      }
+    ]
+  },
+  {
+    "requestId": "spa-bea473c8f58a047019dd",
+    "path": "/audio/spa/spa-bea473c8f58a047019dd.mp3",
+    "sourceSha256": "bea473c8f58a047019dd14d69c04e922a2d9aeafd82c96557e8e6f215ad5d3bd",
+    "processedTextSha256": "bea473c8f58a047019dd14d69c04e922a2d9aeafd82c96557e8e6f215ad5d3bd",
+    "owners": [
+      {
+        "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-10",
+        "classification": "required-on-demand",
+        "playbackGroupId": "Door43SpanishULB-v1.4",
+        "spokenNoticeOwnerIds": [
+          "spa-notice-synthetic-voice"
+        ]
+      }
+    ]
+  },
+  {
+    "requestId": "spa-67f624be537cc4320b19",
+    "path": "/audio/spa/spa-67f624be537cc4320b19.mp3",
+    "sourceSha256": "67f624be537cc4320b1997ffdbcd96299b4484abb66472efd4b56c8c65698846",
+    "processedTextSha256": "67f624be537cc4320b1997ffdbcd96299b4484abb66472efd4b56c8c65698846",
+    "owners": [
+      {
+        "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-11",
+        "classification": "required-on-demand",
+        "playbackGroupId": "Door43SpanishULB-v1.4",
+        "spokenNoticeOwnerIds": [
+          "spa-notice-synthetic-voice"
+        ]
+      }
+    ]
+  },
+  {
+    "requestId": "spa-76e758693840dc38d01f",
+    "path": "/audio/spa/spa-76e758693840dc38d01f.mp3",
+    "sourceSha256": "76e758693840dc38d01fcf0653631c64602eaaf3923f07b46c6351e1da57d18d",
+    "processedTextSha256": "76e758693840dc38d01fcf0653631c64602eaaf3923f07b46c6351e1da57d18d",
+    "owners": [
+      {
+        "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-12",
+        "classification": "required-on-demand",
+        "playbackGroupId": "Door43SpanishULB-v1.4",
+        "spokenNoticeOwnerIds": [
+          "spa-notice-synthetic-voice"
+        ]
+      }
+    ]
+  },
+  {
+    "requestId": "spa-6b61b3b34a6cce93f458",
+    "path": "/audio/spa/spa-6b61b3b34a6cce93f458.mp3",
+    "sourceSha256": "6b61b3b34a6cce93f45831f9eadb82841cc53d325ab14cd5414e0f5eb32c721c",
+    "processedTextSha256": "6b61b3b34a6cce93f45831f9eadb82841cc53d325ab14cd5414e0f5eb32c721c",
+    "owners": [
+      {
+        "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-13",
+        "classification": "required-on-demand",
+        "playbackGroupId": "Door43SpanishULB-v1.4",
+        "spokenNoticeOwnerIds": [
+          "spa-notice-synthetic-voice"
+        ]
+      }
+    ]
+  }
+]

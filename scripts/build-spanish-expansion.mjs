@@ -29,3 +29,6 @@ for(const base of ['content-packs/spa/mark-1-1-13','public/content/spa/mark-1-1-
  await fs.writeFile(`${base}/pack.json`,text);await fs.writeFile(`${base}/manifest.json`,JSON.stringify(manifest,null,2)+'\n');
 }
 console.log('Expanded Spanish projection:34 resources,5 editions,10 supplements; no audio; original source objects retained');
+
+// Preserve separately reviewed published ULB projection when rebuilding resources.
+await import('./bind-published-ulb.mjs');

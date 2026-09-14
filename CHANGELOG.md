@@ -24,3 +24,7 @@ Complete Spanish resource coverage with labeled AI translations and three separa
 ## 0.1.1
 
 Clarify content-language selection, return successful selections to content, distinguish the Languages icon, and retain readable native Guide step options in both themes. Stamp each build from the manifest version and source revision.
+
+## 0.1.8
+
+Adds the published Door43 Spanish ULB edition of Mark 1:1–13, preserving its source and license. Thirteen verified recordings expand the Spanish offline audio set to 204 clips; original editions and saved reading positions remain intact.
