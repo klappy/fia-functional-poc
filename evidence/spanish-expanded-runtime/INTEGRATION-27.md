@@ -1,0 +1,7 @@
+# Reviewed picker integration — C27
+
+C24→27 author2 upper consumed, review.5/coord.5 reserved; all prior allowances retained. Merged exact reviewed UI04123300332cdf18fac9881e9fe3790ec18bf48d normally, without copying App over C. SpanishSession conflict combines UI entryView/lastContent/current-confirm error clearing with C sourceOrder, video metadata, output-license and derived Scripture notices. Test conflict retains both new picker label and expanded offline wording. Generated inventory conflict used prior receipt then rebuild, not a guessed combined inventory.
+
+Manifest/lockfile version0.1.2 and changelog follow RELEASE.md. On integration9451098: strict build213allowlisted/172unchangedMP3s and exactstamp0.1.2+9451098 PASS;5/5 focused native tests passed (picker selection/current-confirm failure recovery; expanded resources/editions; atomic offline; exact-prior workspace migration). Original source equality remains BOUND-VERIFY; integration changes no pack bytes. Final commit is rebuilt after this receipt commit. Its generated inventory is copied outside git to /tmp/fia-c27-final-inventory.json and exact build log /tmp/fia-c27-final-build.log, avoiding self-referential commit/stamp churn. Root must bind those final receipts to final HEAD.
+
+No merge to main/deployment. Await actual UI15 landing plus independent integration review and exact CI/Bugbot. UI branch ancestry already included; later main merge may be history-only.
