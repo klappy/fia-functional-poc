@@ -55,3 +55,23 @@ for(const [file,baseEntries,id]of[['offline-shell-medium.json',entries,manifest.
  const unique=[...new Map(selected.map(e=>[e.path,e])).values()];
  fs.writeFileSync('dist/'+file,JSON.stringify({schemaVersion:1,id,quality:'medium',proxyBase:(process.env.VITE_MEDIA_PROXY_BASE??'https://transcode.klappy.dev').replace(/\/$/,''),sourceBase:derivativeCatalog.sourceBase,revision:hash(JSON.stringify(unique)),entries:unique},null,2));
 }
+
+// Source selection is independent of quality. Only selected recordings enter
+// the atomic save; publishing alternatives does not eagerly download them.
+const {selectOfflineRecordings}=await import('./select-offline-recordings.mjs');
+const aquifer=JSON.parse(fs.readFileSync('src/data/aquifer-audio.json'));
+const aquiferEntries=Array.isArray(aquifer)?aquifer:aquifer.entries;
+const generatedAudio=[...audio.entries,...terms.entries,...transitions.entries,...nextActions.entries,...visual.entries,...JSON.parse(fs.readFileSync('dist/audio/spa/manifest.json')).entries];
+for(const e of aquiferEntries){const original=generatedAudio.find(a=>a.id===e.id&&a.path===e.generatedPath&&a.sourceSha256===e.sourceSha256);if(!original||e.recordingSource!=='aquifer'||!['eng','spa'].includes(e.language)||!e.path.startsWith('/audio/aquifer/')||e.mime!=='audio/mpeg')throw Error('Aquifer offline source binding failed');const b=fs.readFileSync('dist'+e.path);if(b.length!==e.bytes||hash(b)!==e.sha256)throw Error('Aquifer offline bytes mismatch');}
+for(const [base,baseEntries,id,language]of[['offline-shell',entries,manifest.id,'eng'],['offline-spa',spanishEntries,spanish.packId,'spa']]){
+ for(const narration of ['aquifer-fallback','aquifer-only'])for(const quality of ['original','medium']){
+  const sourceEntries=selectOfflineRecordings(baseEntries,aquiferEntries,narration,language);
+  const medium=JSON.parse(fs.readFileSync(`dist/${base}-medium.json`));
+  const chosen=quality==='original'?sourceEntries:sourceEntries.flatMap(e=>{
+   const derivatives=medium.entries.filter(d=>d.fetchUrl&&(d.originalPath===e.path||d.sourcePath===e.path)&&d.sourceSha256===e.sha256);
+   return derivatives.length?derivatives:[e];
+  });
+  const unique=[...new Map(chosen.map(e=>[e.path,e])).values()];
+  fs.writeFileSync(`dist/${base}${quality==='medium'?'-medium':''}-${narration}.json`,JSON.stringify({schemaVersion:1,id,quality,narration,...(quality==='medium'?{proxyBase:medium.proxyBase,sourceBase:medium.sourceBase}:{}),revision:hash(JSON.stringify(unique)),entries:unique},null,2));
+ }
+}
