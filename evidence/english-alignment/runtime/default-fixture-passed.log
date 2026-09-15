@@ -1,0 +1,11 @@
+[WebServer] (node:99221) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 2 tests using 1 worker
+
+(node:99240) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/english-alignment.spec.js:4:84 › missing alignment response › missing sidecar retains passage and playback (832ms)
+  ✓  2 tests/english-alignment.spec.js:6:84 › verified offline alignment › saved pack cold page retains sidecars and native highlighting (2.4s)
+
+  2 passed (4.2s)
