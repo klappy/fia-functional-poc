@@ -1,0 +1,21 @@
+import {test,expect} from '@playwright/test';
+test.use({serviceWorkers:'allow'});
+test('selected Aquifer pack excludes AI alternatives and survives verified cold offline launch',async({page,context})=>{
+ test.setTimeout(120000);
+ await page.goto('/');await page.getByRole('button',{name:'Offline passage and settings'}).click();
+ await expect(page.getByRole('combobox',{name:'Narration',exact:true})).toHaveValue('aquifer-fallback');
+ await page.getByRole('combobox',{name:'Narration',exact:true}).selectOption('aquifer-only');
+ await page.getByRole('combobox',{name:'Media quality',exact:true}).selectOption('original');
+ const downloads=[];page.on('request',r=>{if(new URL(r.url()).pathname.endsWith('.mp3'))downloads.push(new URL(r.url()).pathname);});
+ await page.getByRole('button',{name:'Save for offline',exact:true}).click();await expect(page.locator('.offline-status')).toContainText('saved on this device',{timeout:60000});
+ const active=await page.evaluate(async()=>await(await(await caches.open('fia-meta-v1')).match('/__fia_active__')).json());
+ expect(active.narration).toBe('aquifer-only');expect(active.entries.filter(e=>e.mime==='audio/mpeg')).toHaveLength(21);
+ expect(downloads.length).toBe(21);expect(downloads.every(p=>p.startsWith('/audio/aquifer/eng-'))).toBe(true);
+ await context.setOffline(true);await page.close();page=await context.newPage();await page.goto('/');
+ expect(await page.evaluate(async entries=>{for(const e of entries){const r=await fetch(e.path),b=await r.arrayBuffer(),sha=[...new Uint8Array(await crypto.subtle.digest('SHA-256',b))].map(x=>x.toString(16).padStart(2,'0')).join('');if(!r.ok||b.byteLength!==e.bytes||sha!==e.sha256)return false;}return true;},active.entries)).toBe(true);
+ const recording=active.entries.find(e=>e.mime==='audio/mpeg');
+ await page.evaluate(async path=>{window.__publisherAudio=new Audio(path);await window.__publisherAudio.play();},recording.path);
+ await expect.poll(()=>page.evaluate(()=>window.__publisherAudio.currentTime)).toBeGreaterThan(0.1);await page.evaluate(()=>window.__publisherAudio.pause());
+ await page.getByRole('button',{name:'Offline passage and settings'}).click();await expect(page.getByRole('combobox',{name:'Narration',exact:true})).toHaveValue('aquifer-only');
+ await page.getByRole('combobox',{name:'Narration',exact:true}).selectOption('ai-only');await expect(page.locator('.offline-status')).toContainText('Save again');
+});

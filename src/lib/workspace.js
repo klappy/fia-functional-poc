@@ -1,4 +1,4 @@
-import {variantMatchesCheckpoint} from './media-variants.js';
+import {narrationMatchesCheckpoint as variantMatchesCheckpoint,selectNarration} from './narration.js';
 import {nestedTarget} from './nested-ready.js';
 import { restoreSession } from './session.js';
 import { validateSession, currentPosition, moveUnit, selectStep, activeUnits } from './flow.js';
@@ -14,7 +14,7 @@ export function restoreWorkspace(storage,pack){
  let audio=null;const a=value.audio,entry=approvedAudioManifest.entries.find(e=>e.id===a?.clipId);
  if(entry&&entry.sourceSha256===a.sourceSha256&&variantMatchesCheckpoint(entry,a)&&Number.isFinite(a.offsetSeconds)&&a.offsetSeconds>=0&&a.offsetSeconds<=86400&&['unfinished','gap','discussion-ended','terminal-ended'].includes(a.phase)&&['guide','scripture','resources'].includes(a.ownerDomain)){
  const matches=a.ownerDomain==='guide'?/^S0[1-6]-U\d+$/.test(a.clipId):a.ownerDomain==='scripture'?a.clipId.startsWith('scripture-'):pack.resources.some(r=>`term-${r.content_id}`===a.clipId);
- if(matches)audio={ownerDomain:a.ownerDomain,clipId:a.clipId,sourceSha256:a.sourceSha256,outputSha256:a.outputSha256,...(a.originalOutputSha256?{originalOutputSha256:a.originalOutputSha256}:{}),offsetSeconds:a.offsetSeconds,phase:a.phase,...(a.phase==='gap'&&typeof a.nextClipId==='string'?{nextClipId:a.nextClipId}:{}),collectionIds:ids(a.collectionIds,pack)};
+ if(matches)audio={ownerDomain:a.ownerDomain,clipId:a.clipId,recordingSource:a.recordingSource==='aquifer'?'aquifer':'ai',sourceSha256:a.sourceSha256,outputSha256:a.outputSha256,...(a.originalOutputSha256?{originalOutputSha256:a.originalOutputSha256}:{}),offsetSeconds:a.offsetSeconds,phase:a.phase,...(a.phase==='gap'&&typeof a.nextClipId==='string'?{nextClipId:a.nextClipId}:{}),collectionIds:ids(a.collectionIds,pack)};
  }
  return{...fallback,audioError:a&&!audio?'Saved audio no longer matches the available recording; reading context is retained.':'',session:value.guide==null?legacy.session:validateSession(value.guide,pack.guide,pack.cues),theme:value.theme==='dark'?'dark':'light',view:['languages','guide','scripture','resources'].includes(value.view)?value.view:'guide',resources:{query:typeof resources.query==='string'?resources.query.slice(0,200):'',filter:['all','map','image','term','video'].includes(resources.filter)?resources.filter:'all',selectedId,collectionIds:validIds.includes(selectedId)?validIds: selectedId?[selectedId]:validIds,origin:resources.origin==='guide'?'guide':'catalog'},audio};
 }

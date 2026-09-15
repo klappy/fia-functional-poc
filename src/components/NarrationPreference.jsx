@@ -1,0 +1,4 @@
+import React,{useState}from'react';
+import{GlassSelect}from'../vendor/glass/components/forms/GlassSelect.jsx';
+import{NARRATION_KEY,storedNarrationPreference}from'../lib/narration.js';
+export default function NarrationPreference(){const[value,setValue]=useState(()=>storedNarrationPreference());const[error,setError]=useState('');return <><GlassSelect label="Narration" aria-label="Narration" value={value} options={[{value:'aquifer-fallback',label:'Aquifer + AI fallback'},{value:'aquifer-only',label:'Aquifer only'},{value:'ai-only',label:'AI only'}]} onChange={next=>{setValue(next);try{localStorage.setItem(NARRATION_KEY,next);window.dispatchEvent(new Event('fia-narration'));setError('');}catch{setError('Narration preference could not be saved on this device.');}}}/>{error&&<p role="status">{error}</p>}<p className="reading-note">Applies to the next recording. Aquifer recordings are available for 21 English and 2 Spanish key terms.</p></>}
