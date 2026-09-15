@@ -10,7 +10,9 @@ export function resolveMedia(source,preference='medium',display={},index=catalog
  if(display.outputSha256)entries=entries.filter(d=>d.sha256===display.outputSha256);
  if(source.mime?.startsWith('image/')){
   const target=Math.min(source.width??Infinity,Math.ceil((display.cssWidth??320)*Math.min(2,Math.max(1,display.dpr??1))));
-  entries=entries.filter(d=>d.mime==='image/webp'&&d.width<=source.width&&d.height<=source.height&&d.width>=target).sort((a,b)=>a.bytes-b.bytes);
+  const usable=entries.filter(d=>d.mime==='image/webp'&&d.width<=source.width&&d.height<=source.height);
+  entries=usable.filter(d=>d.width>=target).sort((a,b)=>a.bytes-b.bytes);
+  if(!entries[0])entries=usable.sort((a,b)=>b.width-a.width||a.bytes-b.bytes);
  }else entries=entries.filter(d=>['audio/ogg','audio/opus','application/ogg'].includes(d.mime)&&d.recipe==='preset=voice,q=medium,f=opus');
  const d=entries[0];if(!d)return original;
  const expectedPath=`/${d.kind}/${d.recipe}/${index.sourceBase??'https://fia.klappy.dev'}${source.path}`;
