@@ -1,0 +1,54 @@
+{
+  "tag": {
+    "name": "v1.4",
+    "message": "Merge branch 'master' of STR/es-419_ulb into master\n",
+    "id": "cafa8041fa5db953919de506d5e6f7e00813b7c8",
+    "commit": {
+      "url": "https://git.door43.org/api/v1/repos/Door43-Catalog/es-419_ulb/git/commits/cafa8041fa5db953919de506d5e6f7e00813b7c8",
+      "sha": "cafa8041fa5db953919de506d5e6f7e00813b7c8",
+      "created": "2019-10-10T13:45:50Z"
+    },
+    "zipball_url": "https://git.door43.org/Door43-Catalog/es-419_ulb/archive/v1.4.zip",
+    "tarball_url": "https://git.door43.org/Door43-Catalog/es-419_ulb/archive/v1.4.tar.gz"
+  },
+  "files": [
+    {
+      "path": "source/LICENSE.md",
+      "sha256": "8fcc81373cc993336ddef3daa8af3dacfbd3dbac8930ec0614737b4b5f35bc1c",
+      "bytes": 1498
+    },
+    {
+      "path": "source/manifest.yaml.api.json",
+      "sha256": "33a591b4552ac90ba954a449b0d229eb467d11b84ff3aa8d86f869ec1a2a7f0e",
+      "bytes": 25838
+    },
+    {
+      "path": "source/42-MRK.usfm.api.json",
+      "sha256": "433a0a90eac2ffd1a43464ee796be91d015d6d55dccb66ace69800a90a484efe",
+      "bytes": 118168
+    },
+    {
+      "path": "source/LICENSE.md.api.json",
+      "sha256": "bed9b68d5c480845da534ac91c6f83a511a6bb1d02fcdc6301802e89b64b5154",
+      "bytes": 3330
+    },
+    {
+      "path": "source/manifest.yaml",
+      "sha256": "4df55bc989a77974c01c74b3a5fbfd8193968cc8fb05c7f21157824f07b735bf",
+      "bytes": 18356
+    },
+    {
+      "path": "source/tag.json",
+      "sha256": "a9ced7f87ec8e96183b41df17f152f28d5ef59c849550ab310b0912d1b877641",
+      "bytes": 512
+    },
+    {
+      "path": "source/42-MRK.usfm",
+      "sha256": "48d6b7c96682a8c8e7f30b4e2b1cb4a901f778ddff8ed248ea4654ccc911d31e",
+      "bytes": 87613
+    }
+  ],
+  "projectionSha256": "ae7567c5a08fd93f23ce2e143b53b63eba5a30aefa5c54a7e32fb3ff91aa2815",
+  "verses": 13,
+  "notesPresent": 0
+}

@@ -1,0 +1,37 @@
+{
+  "packetSha256": "78ccbd5352bd6922cb51c3b470a22be2a456b08741a6aaa5495f44df5c47e70f",
+  "maxRequests": 3,
+  "retries": 0,
+  "attempts": [
+    {
+      "id": "scripture-BereanStandardBible",
+      "reservedAt": "2026-09-15T13:51:07.355046+00:00",
+      "status": "200 OK raw response saved",
+      "tab": "83421754",
+      "responseFile": "scripture-BereanStandardBible.response.json",
+      "responseBytes": 153313,
+      "responseSha256": "d2bca40185e768faed51f0c582e70c3df9b221fc89a4444e7a7c18120fa70853"
+    },
+    {
+      "id": "scripture-unfoldingWordLiteral",
+      "reservedAt": "2026-09-15T13:52:06.702Z",
+      "status": "200 OK raw response saved",
+      "tab": "83421754",
+      "responseFile": "scripture-unfoldingWordLiteral.response.json",
+      "responseBytes": 164801,
+      "responseSha256": "6e49a09d788254f74e9ebcf208bef8e5e46fe1b021df3c25f71e0c15a9c4c727"
+    },
+    {
+      "id": "scripture-unfoldingWordSimplified",
+      "reservedAt": "2026-09-15T13:52:36.959Z",
+      "status": "200 OK raw response saved",
+      "tab": "83421754",
+      "observedAt": "2026-09-15T13:54:06.001Z",
+      "networkLatencyMs": 2394,
+      "processingLatencyMs": 2205,
+      "responseFile": "scripture-unfoldingWordSimplified.response.json",
+      "responseBytes": 236352,
+      "responseSha256": "530726ec71b2f3d7e8ddb579f059dc1957c0a64eb8749bdb43fb32add9914d59"
+    }
+  ]
+}

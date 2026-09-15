@@ -1,0 +1,26 @@
+[
+  {
+    "id": "scripture-BereanStandardBible",
+    "path": "/alignment/scripture-BereanStandardBible.json",
+    "sha256": "99c2f6f01bedbabae96ccf85012fa85bf9b5002f8be9b1ae99b2483cd81397eb",
+    "bytes": 15657,
+    "audioSha256": "3e861a08555ab67fd93c86fa2e229d0f72d23a3699ecdddceb9b33d7b4da1910",
+    "sourceSha256": "0710426b5a0fa1f3a9afd7776dd0ebee8a24d1f9c820b1de2fe92de56ba23a9d"
+  },
+  {
+    "id": "scripture-unfoldingWordLiteral",
+    "path": "/alignment/scripture-unfoldingWordLiteral.json",
+    "sha256": "c3a6f737f7a0d42019f73c8c6c6160e20a84cd5ce0d8d52fdfbd6b884522c0ef",
+    "bytes": 16638,
+    "audioSha256": "99f2145ed0d20edd77ceb45c9afd1c6e2999291462f52f9573d06a2660517bcb",
+    "sourceSha256": "f6384d0ad0b9f2c958f3fca04d86e578ad31c4f9721e3385f0c2b9d8ab87a7c1"
+  },
+  {
+    "id": "scripture-unfoldingWordSimplified",
+    "path": "/alignment/scripture-unfoldingWordSimplified.json",
+    "sha256": "8ff1c269ba7cb104b32ff616c02947fac67a7fa607abf4fe321650c35d1029e6",
+    "bytes": 22776,
+    "audioSha256": "e7355d93c2aa0aae39f3b5188682dd5e0d80e63837fbd3693d8fb7eb782551a2",
+    "sourceSha256": "9752c0950b0f84c5017ef15767ede8e8b8f8fed3f11db4c73c5a8583f1b98033"
+  }
+]

@@ -1,0 +1,14 @@
+[WebServer] (node:94102) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 5 tests using 1 worker
+
+(node:94119) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/english-alignment.spec.js:3:52 › BSB native timed words, all verse boundaries, pause and owner guard (3.3s)
+  ✓  2 tests/english-alignment.spec.js:3:52 › ULT native timed words, all verse boundaries, pause and owner guard (2.9s)
+  ✓  3 tests/english-alignment.spec.js:3:52 › UST native timed words, all verse boundaries, pause and owner guard (3.0s)
+  ✓  4 tests/english-alignment.spec.js:4:1 › missing sidecar retains passage and playback (578ms)
+  ✓  5 tests/english-alignment.spec.js:5:1 › native paused checkpoint restores without autoplay then clears at actual end (1.9s)
+
+  5 passed (12.6s)

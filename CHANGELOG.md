@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.10
+
+Add source-bound English Scripture word and verse timing to the shared Scripture view for BSB, ULT and UST. Preserve the recordings and Spanish clip highlighting. Missing or invalid timing falls back to passage-level indication.
+
 ## 0.1.6
 
 Highlight the actual playing Guide source, Spanish verse or resource body. English Scripture remains passage-level; paused playback retains its location without moving focus.
@@ -28,3 +32,10 @@ Clarify content-language selection, return successful selections to content, dis
 ## 0.1.7
 
 Combine presented-introduction memory with actual source playback highlighting. Restore past acknowledged notices paused at the next applicable recording; retain explicit introduction replay in Info.
+## 0.1.8
+
+Adds the published Door43 Spanish ULB edition of Mark 1:1–13, preserving its source and license. Thirteen verified recordings expand the Spanish offline audio set to 204 clips; original editions and saved reading positions remain intact.
+
+## 0.1.9
+
+Preserve paused or restoring playback and nested Guide context when opening Languages, so confirming the current language or a failed switch retains the resumable position.

@@ -1,0 +1,162 @@
+{
+  "inputSha256": "f1854fea60d4dee715197b4e8e21ef456900cc3db00ef671ef09398e90606c6d",
+  "priorChargedCharacters": 85960,
+  "attempts": [
+    {
+      "id": "spa-35ea487492802a90693d",
+      "characters": 65,
+      "sourceSha256": "35ea487492802a90693d4b8c73032ee82ab2658e40ee55e849ef49774dfefc3a",
+      "processedTextSha256": "35ea487492802a90693d4b8c73032ee82ab2658e40ee55e849ef49774dfefc3a",
+      "startedAt": "2026-09-14T19:24:22.079Z",
+      "outcome": "validated",
+      "httpStatus": 200,
+      "outputSha256": "69ef68e7a627a4185c1f1e837c47b31a42e82ce72c22fcea99c2f21bec24b5af",
+      "bytes": 52662,
+      "duration": 3.291375
+    },
+    {
+      "id": "spa-e5238183e353fe04b2c8",
+      "characters": 124,
+      "sourceSha256": "e5238183e353fe04b2c8132d8d5012ada6f5c47c2580b92c40480408b7a68398",
+      "processedTextSha256": "e5238183e353fe04b2c8132d8d5012ada6f5c47c2580b92c40480408b7a68398",
+      "startedAt": "2026-09-14T19:24:25.207Z",
+      "outcome": "validated",
+      "httpStatus": 200,
+      "outputSha256": "bcb7477443c06aca9a92dd1b3c1efc7cc008824bdf5712c40faefc7cb97e1a98",
+      "bytes": 152973,
+      "duration": 9.560813
+    },
+    {
+      "id": "spa-10009c2e5bc72fe96222",
+      "characters": 92,
+      "sourceSha256": "10009c2e5bc72fe96222f2100da08adb5311a014159d24a07193d75caa962c7b",
+      "processedTextSha256": "10009c2e5bc72fe96222f2100da08adb5311a014159d24a07193d75caa962c7b",
+      "startedAt": "2026-09-14T19:24:28.319Z",
+      "outcome": "validated",
+      "httpStatus": 200,
+      "outputSha256": "8ac844f191a1b34f8b52842f088d22b771cb002e7ac37b072500197a82aa58e4",
+      "bytes": 148375,
+      "duration": 9.273438
+    },
+    {
+      "id": "spa-5fb2ebf8bf475e6407c1",
+      "characters": 107,
+      "sourceSha256": "5fb2ebf8bf475e6407c1b28854011aee71ee13000c4dda4ee378e1be3ee8e195",
+      "processedTextSha256": "5fb2ebf8bf475e6407c1b28854011aee71ee13000c4dda4ee378e1be3ee8e195",
+      "startedAt": "2026-09-14T19:24:31.431Z",
+      "outcome": "validated",
+      "httpStatus": 200,
+      "outputSha256": "00a6cce705fecc90cabe954493f69481a20fe4b9735f4c99fde9311a1995e4db",
+      "bytes": 102400,
+      "duration": 6.4
+    },
+    {
+      "id": "spa-73081440044139d6e6cc",
+      "characters": 147,
+      "sourceSha256": "73081440044139d6e6cc2c0b8483b074e155404833dcc2c45f74aaf949ecdec4",
+      "processedTextSha256": "73081440044139d6e6cc2c0b8483b074e155404833dcc2c45f74aaf949ecdec4",
+      "startedAt": "2026-09-14T19:24:34.546Z",
+      "outcome": "validated",
+      "httpStatus": 200,
+      "outputSha256": "1a4f619ea10220e3a649901cf25167fbc369dc879a62deee49b06f6d282e967f",
+      "bytes": 160496,
+      "duration": 10.031
+    },
+    {
+      "id": "spa-ec098c312ccdf0f9193d",
+      "characters": 118,
+      "sourceSha256": "ec098c312ccdf0f9193d4dbe2fa0fdeb7da76d6febca449a146605803eb89ce1",
+      "processedTextSha256": "ec098c312ccdf0f9193d4dbe2fa0fdeb7da76d6febca449a146605803eb89ce1",
+      "startedAt": "2026-09-14T19:24:37.659Z",
+      "outcome": "validated",
+      "httpStatus": 200,
+      "outputSha256": "07be31343966ba179e890902e3286d408a8a6b3e5f9d506bf0b69c45639d2cc7",
+      "bytes": 102400,
+      "duration": 6.4
+    },
+    {
+      "id": "spa-fbd8d7cffc3c93a1cd12",
+      "characters": 167,
+      "sourceSha256": "fbd8d7cffc3c93a1cd12e89700863f7b5f814d72f220a62f883691e7d1439e5d",
+      "processedTextSha256": "fbd8d7cffc3c93a1cd12e89700863f7b5f814d72f220a62f883691e7d1439e5d",
+      "startedAt": "2026-09-14T19:24:40.776Z",
+      "outcome": "validated",
+      "httpStatus": 200,
+      "outputSha256": "b044d279f8b9361f3c8426c9e789f1019f4156ba4e411f6f22dcf286d79c7e4d",
+      "bytes": 165511,
+      "duration": 10.344438
+    },
+    {
+      "id": "spa-0701ab6155dad8a51088",
+      "characters": 80,
+      "sourceSha256": "0701ab6155dad8a5108896ed51191b28891b52bca1622139679ec333a243cbf7",
+      "processedTextSha256": "0701ab6155dad8a5108896ed51191b28891b52bca1622139679ec333a243cbf7",
+      "startedAt": "2026-09-14T19:24:43.891Z",
+      "outcome": "validated",
+      "httpStatus": 200,
+      "outputSha256": "59bd759f46ad5191703538e489a51ceead6695b9a8ee4ca330d4df71ea5df288",
+      "bytes": 67291,
+      "duration": 4.205688
+    },
+    {
+      "id": "spa-1f5f0de0337b6dc5274e",
+      "characters": 106,
+      "sourceSha256": "1f5f0de0337b6dc5274e2a3ca3a52474ea977a2ebba6a44d0ceabee4e603911c",
+      "processedTextSha256": "1f5f0de0337b6dc5274e2a3ca3a52474ea977a2ebba6a44d0ceabee4e603911c",
+      "startedAt": "2026-09-14T19:24:47.006Z",
+      "outcome": "validated",
+      "httpStatus": 200,
+      "outputSha256": "6c16d6625bf8eca1dd0dd6b648dd19827956e466536d51c46792faee8d40bec7",
+      "bytes": 117446,
+      "duration": 7.340375
+    },
+    {
+      "id": "spa-bea473c8f58a047019dd",
+      "characters": 104,
+      "sourceSha256": "bea473c8f58a047019dd14d69c04e922a2d9aeafd82c96557e8e6f215ad5d3bd",
+      "processedTextSha256": "bea473c8f58a047019dd14d69c04e922a2d9aeafd82c96557e8e6f215ad5d3bd",
+      "startedAt": "2026-09-14T19:24:50.127Z",
+      "outcome": "validated",
+      "httpStatus": 200,
+      "outputSha256": "094d8afa7a484f896cd188f5523fbde5652e001429b5c2f510e811c4dbd594a2",
+      "bytes": 109923,
+      "duration": 6.870188
+    },
+    {
+      "id": "spa-67f624be537cc4320b19",
+      "characters": 88,
+      "sourceSha256": "67f624be537cc4320b1997ffdbcd96299b4484abb66472efd4b56c8c65698846",
+      "processedTextSha256": "67f624be537cc4320b1997ffdbcd96299b4484abb66472efd4b56c8c65698846",
+      "startedAt": "2026-09-14T19:24:53.241Z",
+      "outcome": "validated",
+      "httpStatus": 200,
+      "outputSha256": "18ecef417f8bd6068af2a05fac540ef3e2cc38a76bcf68d496c034264a3a8983",
+      "bytes": 136672,
+      "duration": 8.542
+    },
+    {
+      "id": "spa-76e758693840dc38d01f",
+      "characters": 67,
+      "sourceSha256": "76e758693840dc38d01fcf0653631c64602eaaf3923f07b46c6351e1da57d18d",
+      "processedTextSha256": "76e758693840dc38d01fcf0653631c64602eaaf3923f07b46c6351e1da57d18d",
+      "startedAt": "2026-09-14T19:24:56.357Z",
+      "outcome": "validated",
+      "httpStatus": 200,
+      "outputSha256": "59a357e3483ce928dcacc49feff8da035d1a01aea9d63e32dc0de5e4287b276d",
+      "bytes": 58514,
+      "duration": 3.657125
+    },
+    {
+      "id": "spa-6b61b3b34a6cce93f458",
+      "characters": 129,
+      "sourceSha256": "6b61b3b34a6cce93f45831f9eadb82841cc53d325ab14cd5414e0f5eb32c721c",
+      "processedTextSha256": "6b61b3b34a6cce93f45831f9eadb82841cc53d325ab14cd5414e0f5eb32c721c",
+      "startedAt": "2026-09-14T19:24:59.471Z",
+      "outcome": "validated",
+      "httpStatus": 200,
+      "outputSha256": "ccd021081316c6a6bab5964a56c454112f168fdc144b3f50bfd97d024dbd72ce",
+      "bytes": 180976,
+      "duration": 11.311
+    }
+  ]
+}

@@ -57,7 +57,7 @@ function Session({ pack,onLanguage,languageBusy,languageError,entryView,onClearL
   const [audioState,setAudioState]=useState({status:'idle',error:''});const audio=useRef(null);if(!audio.current)audio.current=new AudioController(window.Audio,setAudioState);
   const [nestedAnchor,setNestedAnchor]=useState(null);
   const lastContent=useRef(entryView??(boot.view==='languages'?'guide':boot.view));
-  const stop=(clearNested=true)=>{if(clearNested)setNestedAnchor(null);speech.current.stop();audio.current.stop();};const changeView=value=>{if(value!=='languages')lastContent.current=value;if(['paused','restoring'].includes(audioState.status)&&value!==view)stop();if(value!==view)setNestedAnchor(null);setView(value);};
+  const stop=(clearNested=true)=>{if(clearNested)setNestedAnchor(null);speech.current.stop();audio.current.stop();};const changeView=value=>{if(value!=='languages')lastContent.current=value;if(['paused','restoring'].includes(audioState.status)&&value!==view&&value!=='languages')stop();if(value!==view&&value!=='languages')setNestedAnchor(null);setView(value);};
   const readGuide=(fallback=false)=>{stop();ownerCollection.current={domain:'guide'};const items=guideQueue(pack,session);(fallback?speech.current:audio.current).speak(items,voices.find(v=>v.voiceURI===voiceId),item=>setSession(item.next));};
 
   useEffect(() => { setStorageError(!persistSession(browserStorage(), session)); }, [session]);

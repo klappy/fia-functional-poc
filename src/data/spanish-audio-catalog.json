@@ -3198,6 +3198,240 @@
           "spokenNoticeOwnerIds": []
         }
       ]
+    },
+    {
+      "id": "spa-35ea487492802a90693d",
+      "text": "Este es el comienzo del evangelio de Jesucristo, el Hijo de Dios.",
+      "sourceSha256": "35ea487492802a90693d4b8c73032ee82ab2658e40ee55e849ef49774dfefc3a",
+      "spokenInputSha256": "35ea487492802a90693d4b8c73032ee82ab2658e40ee55e849ef49774dfefc3a",
+      "processedTextSha256": "35ea487492802a90693d4b8c73032ee82ab2658e40ee55e849ef49774dfefc3a",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-1",
+          "kind": "scripture",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-e5238183e353fe04b2c8",
+      "text": "Como está escrito en Isaías el profeta: \"MIREN, YO ESTOY ENVIANDO MI MENSAJERO DELANTE DE TI, EL QUE TE PREPARARÁ TU CAMINO.",
+      "sourceSha256": "e5238183e353fe04b2c8132d8d5012ada6f5c47c2580b92c40480408b7a68398",
+      "spokenInputSha256": "e5238183e353fe04b2c8132d8d5012ada6f5c47c2580b92c40480408b7a68398",
+      "processedTextSha256": "e5238183e353fe04b2c8132d8d5012ada6f5c47c2580b92c40480408b7a68398",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-2",
+          "kind": "scripture",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-10009c2e5bc72fe96222",
+      "text": "LA VOZ DEL QUE LLAMA EN EL DESIERTO: 'PREPARAD EL CAMINO DEL SEÑOR, HAZ SUS CAMINOS RECTOS'\"",
+      "sourceSha256": "10009c2e5bc72fe96222f2100da08adb5311a014159d24a07193d75caa962c7b",
+      "spokenInputSha256": "10009c2e5bc72fe96222f2100da08adb5311a014159d24a07193d75caa962c7b",
+      "processedTextSha256": "10009c2e5bc72fe96222f2100da08adb5311a014159d24a07193d75caa962c7b",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-3",
+          "kind": "scripture",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-5fb2ebf8bf475e6407c1",
+      "text": "Juan vino, bautizando en el desierto y predicando un bautismo de arrepentimiento para el perdón de pecados.",
+      "sourceSha256": "5fb2ebf8bf475e6407c1b28854011aee71ee13000c4dda4ee378e1be3ee8e195",
+      "spokenInputSha256": "5fb2ebf8bf475e6407c1b28854011aee71ee13000c4dda4ee378e1be3ee8e195",
+      "processedTextSha256": "5fb2ebf8bf475e6407c1b28854011aee71ee13000c4dda4ee378e1be3ee8e195",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-4",
+          "kind": "scripture",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-73081440044139d6e6cc",
+      "text": "Toda la nación de Judea y toda la gente de Jerusalén salían hacia él. Ellos eran bautizados por él en el río Jordán, al estos confesar sus pecados.",
+      "sourceSha256": "73081440044139d6e6cc2c0b8483b074e155404833dcc2c45f74aaf949ecdec4",
+      "spokenInputSha256": "73081440044139d6e6cc2c0b8483b074e155404833dcc2c45f74aaf949ecdec4",
+      "processedTextSha256": "73081440044139d6e6cc2c0b8483b074e155404833dcc2c45f74aaf949ecdec4",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-5",
+          "kind": "scripture",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-ec098c312ccdf0f9193d",
+      "text": "Juan vestía un abrigo de pelo de camellos, un cinturón de cuero en su cintura y él comía saltamontes y miel silvestre.",
+      "sourceSha256": "ec098c312ccdf0f9193d4dbe2fa0fdeb7da76d6febca449a146605803eb89ce1",
+      "spokenInputSha256": "ec098c312ccdf0f9193d4dbe2fa0fdeb7da76d6febca449a146605803eb89ce1",
+      "processedTextSha256": "ec098c312ccdf0f9193d4dbe2fa0fdeb7da76d6febca449a146605803eb89ce1",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-6",
+          "kind": "scripture",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-fbd8d7cffc3c93a1cd12",
+      "text": "Él predicaba y decía: \"Alguien viene después de mí, quien es más poderoso que yo, y yo no soy digno ni de tan siquiera bajarme a desatar las tirillas de Sus sandalias.",
+      "sourceSha256": "fbd8d7cffc3c93a1cd12e89700863f7b5f814d72f220a62f883691e7d1439e5d",
+      "spokenInputSha256": "fbd8d7cffc3c93a1cd12e89700863f7b5f814d72f220a62f883691e7d1439e5d",
+      "processedTextSha256": "fbd8d7cffc3c93a1cd12e89700863f7b5f814d72f220a62f883691e7d1439e5d",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-7",
+          "kind": "scripture",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-0701ab6155dad8a51088",
+      "text": "Yo les bauticé a ustedes con agua, pero Él les bautizará con el Espíritu Santo\".",
+      "sourceSha256": "0701ab6155dad8a5108896ed51191b28891b52bca1622139679ec333a243cbf7",
+      "spokenInputSha256": "0701ab6155dad8a5108896ed51191b28891b52bca1622139679ec333a243cbf7",
+      "processedTextSha256": "0701ab6155dad8a5108896ed51191b28891b52bca1622139679ec333a243cbf7",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-8",
+          "kind": "scripture",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-1f5f0de0337b6dc5274e",
+      "text": "Aconteció en esos días que Jesús vino de Nazaret en Galilea, y Él fue bautizado por Juan en el río Jordán.",
+      "sourceSha256": "1f5f0de0337b6dc5274e2a3ca3a52474ea977a2ebba6a44d0ceabee4e603911c",
+      "spokenInputSha256": "1f5f0de0337b6dc5274e2a3ca3a52474ea977a2ebba6a44d0ceabee4e603911c",
+      "processedTextSha256": "1f5f0de0337b6dc5274e2a3ca3a52474ea977a2ebba6a44d0ceabee4e603911c",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-9",
+          "kind": "scripture",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-bea473c8f58a047019dd",
+      "text": "Al Jesús salir de las aguas, Él vio los cielos abrirse y el Espíritu descendía sobre Él como una paloma.",
+      "sourceSha256": "bea473c8f58a047019dd14d69c04e922a2d9aeafd82c96557e8e6f215ad5d3bd",
+      "spokenInputSha256": "bea473c8f58a047019dd14d69c04e922a2d9aeafd82c96557e8e6f215ad5d3bd",
+      "processedTextSha256": "bea473c8f58a047019dd14d69c04e922a2d9aeafd82c96557e8e6f215ad5d3bd",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-10",
+          "kind": "scripture",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-67f624be537cc4320b19",
+      "text": "Y una voz salía de los cielos: \"Tú eres mi Hijo amado. Yo estoy muy complacido contigo.\"",
+      "sourceSha256": "67f624be537cc4320b1997ffdbcd96299b4484abb66472efd4b56c8c65698846",
+      "spokenInputSha256": "67f624be537cc4320b1997ffdbcd96299b4484abb66472efd4b56c8c65698846",
+      "processedTextSha256": "67f624be537cc4320b1997ffdbcd96299b4484abb66472efd4b56c8c65698846",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-11",
+          "kind": "scripture",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-76e758693840dc38d01f",
+      "text": "Entonces el Espíritu inmediatamente lo impulsó a salir al desierto.",
+      "sourceSha256": "76e758693840dc38d01fcf0653631c64602eaaf3923f07b46c6351e1da57d18d",
+      "spokenInputSha256": "76e758693840dc38d01fcf0653631c64602eaaf3923f07b46c6351e1da57d18d",
+      "processedTextSha256": "76e758693840dc38d01fcf0653631c64602eaaf3923f07b46c6351e1da57d18d",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-12",
+          "kind": "scripture",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-6b61b3b34a6cce93f458",
+      "text": "Él estuvo en el desierto cuarenta días, siendo tentado por Satanás. El estaba con los animales salvajes y los ángeles le servían.",
+      "sourceSha256": "6b61b3b34a6cce93f45831f9eadb82841cc53d325ab14cd5414e0f5eb32c721c",
+      "spokenInputSha256": "6b61b3b34a6cce93f45831f9eadb82841cc53d325ab14cd5414e0f5eb32c721c",
+      "processedTextSha256": "6b61b3b34a6cce93f45831f9eadb82841cc53d325ab14cd5414e0f5eb32c721c",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-13",
+          "kind": "scripture",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
     }
   ]
 }

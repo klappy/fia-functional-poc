@@ -1,0 +1,410 @@
+{
+  "version": 1,
+  "sourceCommit": "0818e4f",
+  "processorSha256": "e9b87ca8751d2571f48376d124a44e01570e4a6ba8505c0c23f20deb8e0fae36",
+  "options": {
+    "paragraphPause": 0.6,
+    "periodPause": 0,
+    "commaPause": 0,
+    "emDashPause": 0,
+    "colonPause": 0,
+    "ellipsisPause": 0
+  },
+  "maxInitialRequests": 3,
+  "retries": 0,
+  "requests": [
+    {
+      "id": "scripture-BereanStandardBible",
+      "audioPath": "/private/tmp/fia-english-alignment/public/audio/mark-1-1-13/scripture-BereanStandardBible.mp3",
+      "audioSha256": "3e861a08555ab67fd93c86fa2e229d0f72d23a3699ecdddceb9b33d7b4da1910",
+      "audioBytes": 1236323,
+      "durationSeconds": 77.270188,
+      "rawText": "This is the beginning of the gospel of Jesus Christ, the Son of God. As it is written in Isaiah the prophet: “Behold, I will send My messenger ahead of You, who will prepare Your way.” “A voice of one calling in the wilderness, ‘Prepare the way for the Lord, make straight paths for Him.’” John the Baptist appeared in the wilderness, preaching a baptism of repentance for the forgiveness of sins. People went out to him from all of Jerusalem and the countryside of Judea. Confessing their sins, they were baptized by him in the Jordan River. John was clothed in camel’s hair, with a leather belt around his waist. His food was locusts and wild honey. And he proclaimed: “After me will come One more powerful than I, the straps of whose sandals I am not worthy to stoop down and untie. I baptize you with water, but He will baptize you with the Holy Spirit.” In those days Jesus came from Nazareth in Galilee and was baptized by John in the Jordan. As soon as Jesus came up out of the water, He saw the heavens breaking open and the Spirit descending on Him like a dove. And a voice came from heaven: “You are My beloved Son; in You I am well pleased.” At once the Spirit drove Jesus into the wilderness, and He was there for forty days, being tempted by Satan. He was with the wild animals, and the angels ministered to Him.",
+      "sourceSha256": "0710426b5a0fa1f3a9afd7776dd0ebee8a24d1f9c820b1de2fe92de56ba23a9d",
+      "spokenText": "This is the beginning of the gospel of Jesus Christ, the Son of God. As it is written in Isaiah the prophet: \"Behold, I will send My messenger ahead of You, who will prepare Your way.\" \"A voice of one calling in the wilderness, 'Prepare the way for the Lord, make straight paths for Him.'\" John the Baptist appeared in the wilderness, preaching a baptism of repentance for the forgiveness of sins. People went out to him from all of Jerusalem and the countryside of Judea. Confessing their sins, they were baptized by him in the Jordan River. John was clothed in camel's hair, with a leather belt around his waist. His food was locusts and wild honey. And he proclaimed: \"After me will come One more powerful than I, the straps of whose sandals I am not worthy to stoop down and untie. I baptize you with water, but He will baptize you with the Holy Spirit.\" In those days Jesus came from Nazareth in Galilee and was baptized by John in the Jordan. As soon as Jesus came up out of the water, He saw the heavens breaking open and the Spirit descending on Him like a dove. And a voice came from heaven: \"You are My beloved Son; in You I am well pleased.\" At once the Spirit drove Jesus into the wilderness, and He was there for forty days, being tempted by Satan. He was with the wild animals, and the angels ministered to Him.",
+      "spokenSha256": "ddbb26361f4eab1173d96f53f5cc72b53f8091fb47fbba926d301869cd9fe8e5",
+      "textFile": "/private/tmp/fia-english-alignment/evidence/english-alignment/scripture-BereanStandardBible.txt",
+      "verses": [
+        {
+          "sourceId": "10041001001",
+          "verse": 1,
+          "sourceHtmlSha256": "553d703384326188401bfab3c4960da6f3df07fe10fc148d36bce01c3c3a4ad0",
+          "rawText": "This is the beginning of the gospel of Jesus Christ, the Son of God.",
+          "spokenText": "This is the beginning of the gospel of Jesus Christ, the Son of God.",
+          "startCharacter": 0,
+          "endCharacter": 68
+        },
+        {
+          "sourceId": "10041001002",
+          "verse": 2,
+          "sourceHtmlSha256": "2d583f85fc11fac0db86679c53b65c3180a7f760d60001a6629f2cd0bbc7d612",
+          "rawText": "As it is written in Isaiah the prophet: “Behold, I will send My messenger ahead of You, who will prepare Your way.”",
+          "spokenText": "As it is written in Isaiah the prophet: \"Behold, I will send My messenger ahead of You, who will prepare Your way.\"",
+          "startCharacter": 69,
+          "endCharacter": 184
+        },
+        {
+          "sourceId": "10041001003",
+          "verse": 3,
+          "sourceHtmlSha256": "4184fc1cb6e3e1e0584eb9adb2d0266d6f806e055381564c34eb8329c432cd92",
+          "rawText": "“A voice of one calling in the wilderness, ‘Prepare the way for the Lord, make straight paths for Him.’”",
+          "spokenText": "\"A voice of one calling in the wilderness, 'Prepare the way for the Lord, make straight paths for Him.'\"",
+          "startCharacter": 185,
+          "endCharacter": 289
+        },
+        {
+          "sourceId": "10041001004",
+          "verse": 4,
+          "sourceHtmlSha256": "e4fb630bc759e18a9b1e1aba4c39de653753040d6dd775d1938499528ba561f6",
+          "rawText": "John the Baptist appeared in the wilderness, preaching a baptism of repentance for the forgiveness of sins.",
+          "spokenText": "John the Baptist appeared in the wilderness, preaching a baptism of repentance for the forgiveness of sins.",
+          "startCharacter": 290,
+          "endCharacter": 397
+        },
+        {
+          "sourceId": "10041001005",
+          "verse": 5,
+          "sourceHtmlSha256": "3340f69e36071f37e1de49a6f7c8f114928755eaa70305100414885f53c79a70",
+          "rawText": "People went out to him from all of Jerusalem and the countryside of Judea. Confessing their sins, they were baptized by him in the Jordan River.",
+          "spokenText": "People went out to him from all of Jerusalem and the countryside of Judea. Confessing their sins, they were baptized by him in the Jordan River.",
+          "startCharacter": 398,
+          "endCharacter": 542
+        },
+        {
+          "sourceId": "10041001006",
+          "verse": 6,
+          "sourceHtmlSha256": "157455aa7e282b4576121bbb3195bb84c9deee7d6230be2953ed115d3f95430b",
+          "rawText": "John was clothed in camel’s hair, with a leather belt around his waist. His food was locusts and wild honey.",
+          "spokenText": "John was clothed in camel's hair, with a leather belt around his waist. His food was locusts and wild honey.",
+          "startCharacter": 543,
+          "endCharacter": 651
+        },
+        {
+          "sourceId": "10041001007",
+          "verse": 7,
+          "sourceHtmlSha256": "f43cda484cfe1cc96e7a02a56d648e3baafb5e8e4a5a1934a12489ca06b9a45f",
+          "rawText": "And he proclaimed: “After me will come One more powerful than I, the straps of whose sandals I am not worthy to stoop down and untie.",
+          "spokenText": "And he proclaimed: \"After me will come One more powerful than I, the straps of whose sandals I am not worthy to stoop down and untie.",
+          "startCharacter": 652,
+          "endCharacter": 785
+        },
+        {
+          "sourceId": "10041001008",
+          "verse": 8,
+          "sourceHtmlSha256": "c31abba04f5cc4f900dafe72740385648ea1a355e3168275e37a1603723ac1c0",
+          "rawText": "I baptize you with water, but He will baptize you with the Holy Spirit.”",
+          "spokenText": "I baptize you with water, but He will baptize you with the Holy Spirit.\"",
+          "startCharacter": 786,
+          "endCharacter": 858
+        },
+        {
+          "sourceId": "10041001009",
+          "verse": 9,
+          "sourceHtmlSha256": "a3f104e7bcb2af7b066dd4ca0bb04785d76ecbfa2edd7c908d246f92a44d6743",
+          "rawText": "In those days Jesus came from Nazareth in Galilee and was baptized by John in the Jordan.",
+          "spokenText": "In those days Jesus came from Nazareth in Galilee and was baptized by John in the Jordan.",
+          "startCharacter": 859,
+          "endCharacter": 948
+        },
+        {
+          "sourceId": "10041001010",
+          "verse": 10,
+          "sourceHtmlSha256": "61f2400242ad92d576987aa9360f27a4a1948a10cb46d91ddc313edf7f3c58d7",
+          "rawText": "As soon as Jesus came up out of the water, He saw the heavens breaking open and the Spirit descending on Him like a dove.",
+          "spokenText": "As soon as Jesus came up out of the water, He saw the heavens breaking open and the Spirit descending on Him like a dove.",
+          "startCharacter": 949,
+          "endCharacter": 1070
+        },
+        {
+          "sourceId": "10041001011",
+          "verse": 11,
+          "sourceHtmlSha256": "b5b44674c10699fb42cbc86d81bf7ec01061c8767de41f4e554039a99f35120d",
+          "rawText": "And a voice came from heaven: “You are My beloved Son; in You I am well pleased.”",
+          "spokenText": "And a voice came from heaven: \"You are My beloved Son; in You I am well pleased.\"",
+          "startCharacter": 1071,
+          "endCharacter": 1152
+        },
+        {
+          "sourceId": "10041001012",
+          "verse": 12,
+          "sourceHtmlSha256": "59de47e24247ec598cb277349d5a1aaa70be87027db9ac8387141f2c09d59ee6",
+          "rawText": "At once the Spirit drove Jesus into the wilderness,",
+          "spokenText": "At once the Spirit drove Jesus into the wilderness,",
+          "startCharacter": 1153,
+          "endCharacter": 1204
+        },
+        {
+          "sourceId": "10041001013",
+          "verse": 13,
+          "sourceHtmlSha256": "5dcc876712a7f4906af771c9ffde0e2a5377a510c9401976b964d5b7cc31d1d2",
+          "rawText": "and He was there for forty days, being tempted by Satan. He was with the wild animals, and the angels ministered to Him.",
+          "spokenText": "and He was there for forty days, being tempted by Satan. He was with the wild animals, and the angels ministered to Him.",
+          "startCharacter": 1205,
+          "endCharacter": 1325
+        }
+      ]
+    },
+    {
+      "id": "scripture-unfoldingWordLiteral",
+      "audioPath": "/private/tmp/fia-english-alignment/public/audio/mark-1-1-13/scripture-unfoldingWordLiteral.mp3",
+      "audioSha256": "99f2145ed0d20edd77ceb45c9afd1c6e2999291462f52f9573d06a2660517bcb",
+      "audioBytes": 1314481,
+      "durationSeconds": 82.155063,
+      "rawText": "The beginning of the gospel of Jesus Christ, the Son of God. Just as it has been written in Isaiah the prophet, “Behold, I am sending my messenger before your face, who will prepare your way; a voice of one calling out in the wilderness, ‘Make ready the way of the Lord; make his paths straight.’” John came, the one baptizing in the wilderness and preaching a baptism of repentance for forgiveness of sins. And all the Judea region and all the Jerusalemites were going out to him and were being baptized by him in the Jordan River, confessing their sins. And John was clothed with camel hair and a leather belt around his waist, and {he was} eating locusts and wild honey. And he was proclaiming, saying, “One more powerful than I is coming after me, of whom I am not worthy, stooping down, to untie the strap of his sandals. I baptized you with water, but he will baptize you with the Holy Spirit.” And it happened that in those days Jesus came from Nazareth in Galilee, and he was baptized by John in the Jordan. And immediately, coming up out of the water, he saw the heavens being split open and the Spirit coming down on him like a dove. And a voice came out of the heavens, “You are my beloved Son. With you, I am well pleased.” And immediately, the Spirit casts him out into the wilderness. And he was in the wilderness 40 days, being tempted by Satan. And he was with the wild animals, and the angels were serving him.",
+      "sourceSha256": "f6384d0ad0b9f2c958f3fca04d86e578ad31c4f9721e3385f0c2b9d8ab87a7c1",
+      "spokenText": "The beginning of the gospel of Jesus Christ, the Son of God. Just as it has been written in Isaiah the prophet, \"Behold, I am sending my messenger before your face, who will prepare your way; a voice of one calling out in the wilderness, 'Make ready the way of the Lord; make his paths straight.'\" John came, the one baptizing in the wilderness and preaching a baptism of repentance for forgiveness of sins. And all the Judea region and all the Jerusalemites were going out to him and were being baptized by him in the Jordan River, confessing their sins. And John was clothed with camel hair and a leather belt around his waist, and {he was} eating locusts and wild honey. And he was proclaiming, saying, \"One more powerful than I is coming after me, of whom I am not worthy, stooping down, to untie the strap of his sandals. I baptized you with water, but he will baptize you with the Holy Spirit.\" And it happened that in those days Jesus came from Nazareth in Galilee, and he was baptized by John in the Jordan. And immediately, coming up out of the water, he saw the heavens being split open and the Spirit coming down on him like a dove. And a voice came out of the heavens, \"You are my beloved Son. With you, I am well pleased.\" And immediately, the Spirit casts him out into the wilderness. And he was in the wilderness 40 days, being tempted by Satan. And he was with the wild animals, and the angels were serving him.",
+      "spokenSha256": "3b057a3d2e3f700f191392e5c14062201b182884fa6b65c774f36ec3159ca09e",
+      "textFile": "/private/tmp/fia-english-alignment/evidence/english-alignment/scripture-unfoldingWordLiteral.txt",
+      "verses": [
+        {
+          "sourceId": "10041001001",
+          "verse": 1,
+          "sourceHtmlSha256": "325689b19016134eb8d2329bbf0918eff2020c1080042a212e25117959ae71ca",
+          "rawText": "The beginning of the gospel of Jesus Christ, the Son of God.",
+          "spokenText": "The beginning of the gospel of Jesus Christ, the Son of God.",
+          "startCharacter": 0,
+          "endCharacter": 60
+        },
+        {
+          "sourceId": "10041001002",
+          "verse": 2,
+          "sourceHtmlSha256": "0458a0581e3dfd59477b6aee9dce874a5872c5350711a8187f9f2774e3b26d8c",
+          "rawText": "Just as it has been written in Isaiah the prophet, “Behold, I am sending my messenger before your face, who will prepare your way;",
+          "spokenText": "Just as it has been written in Isaiah the prophet, \"Behold, I am sending my messenger before your face, who will prepare your way;",
+          "startCharacter": 61,
+          "endCharacter": 191
+        },
+        {
+          "sourceId": "10041001003",
+          "verse": 3,
+          "sourceHtmlSha256": "02e57242dc9c8e047d4a61e54c8cba928b58cd06f347b31f026e60c80bd140ee",
+          "rawText": "a voice of one calling out in the wilderness, ‘Make ready the way of the Lord; make his paths straight.’”",
+          "spokenText": "a voice of one calling out in the wilderness, 'Make ready the way of the Lord; make his paths straight.'\"",
+          "startCharacter": 192,
+          "endCharacter": 297
+        },
+        {
+          "sourceId": "10041001004",
+          "verse": 4,
+          "sourceHtmlSha256": "b08bfc0f35da8fc1b09b0352ff1479a5855113e163f51dcf2a285247370ebf42",
+          "rawText": "John came, the one baptizing in the wilderness and preaching a baptism of repentance for forgiveness of sins.",
+          "spokenText": "John came, the one baptizing in the wilderness and preaching a baptism of repentance for forgiveness of sins.",
+          "startCharacter": 298,
+          "endCharacter": 407
+        },
+        {
+          "sourceId": "10041001005",
+          "verse": 5,
+          "sourceHtmlSha256": "5ea8972820a661283cae1e14389453d314af490ac66fa48a9b7a6032dba80528",
+          "rawText": "And all the Judea region and all the Jerusalemites were going out to him and were being baptized by him in the Jordan River, confessing their sins.",
+          "spokenText": "And all the Judea region and all the Jerusalemites were going out to him and were being baptized by him in the Jordan River, confessing their sins.",
+          "startCharacter": 408,
+          "endCharacter": 555
+        },
+        {
+          "sourceId": "10041001006",
+          "verse": 6,
+          "sourceHtmlSha256": "6be3d189dd7a3738af66c1b7b61a9e619b6796959782516d987b436c016494b3",
+          "rawText": "And John was clothed with camel hair and a leather belt around his waist, and {he was} eating locusts and wild honey.",
+          "spokenText": "And John was clothed with camel hair and a leather belt around his waist, and {he was} eating locusts and wild honey.",
+          "startCharacter": 556,
+          "endCharacter": 673
+        },
+        {
+          "sourceId": "10041001007",
+          "verse": 7,
+          "sourceHtmlSha256": "4e617976590e76dfb9a0e2c43a49e37724dc4ebf62898813c7361d442481bdb7",
+          "rawText": "And he was proclaiming, saying, “One more powerful than I is coming after me, of whom I am not worthy, stooping down, to untie the strap of his sandals.",
+          "spokenText": "And he was proclaiming, saying, \"One more powerful than I is coming after me, of whom I am not worthy, stooping down, to untie the strap of his sandals.",
+          "startCharacter": 674,
+          "endCharacter": 826
+        },
+        {
+          "sourceId": "10041001008",
+          "verse": 8,
+          "sourceHtmlSha256": "81fd90dfbaa3a5b68ab27ee54e6400fc1fedc2ec3de9405dfc0a7e67df95471e",
+          "rawText": "I baptized you with water, but he will baptize you with the Holy Spirit.”",
+          "spokenText": "I baptized you with water, but he will baptize you with the Holy Spirit.\"",
+          "startCharacter": 827,
+          "endCharacter": 900
+        },
+        {
+          "sourceId": "10041001009",
+          "verse": 9,
+          "sourceHtmlSha256": "2b54ff6e0751e0ab6ea59caf881bb81b0f5f0f037232514d4d087e01fef85900",
+          "rawText": "And it happened that in those days Jesus came from Nazareth in Galilee, and he was baptized by John in the Jordan.",
+          "spokenText": "And it happened that in those days Jesus came from Nazareth in Galilee, and he was baptized by John in the Jordan.",
+          "startCharacter": 901,
+          "endCharacter": 1015
+        },
+        {
+          "sourceId": "10041001010",
+          "verse": 10,
+          "sourceHtmlSha256": "35359181bb081f16bf21fbf5b7f3d586eef0c32a72a652a097c2478b483d7f90",
+          "rawText": "And immediately, coming up out of the water, he saw the heavens being split open and the Spirit coming down on him like a dove.",
+          "spokenText": "And immediately, coming up out of the water, he saw the heavens being split open and the Spirit coming down on him like a dove.",
+          "startCharacter": 1016,
+          "endCharacter": 1143
+        },
+        {
+          "sourceId": "10041001011",
+          "verse": 11,
+          "sourceHtmlSha256": "26b6eb614888e2aee165ee6e0d5d3f86672e8372fd313f852b9f9ad2732d11df",
+          "rawText": "And a voice came out of the heavens, “You are my beloved Son. With you, I am well pleased.”",
+          "spokenText": "And a voice came out of the heavens, \"You are my beloved Son. With you, I am well pleased.\"",
+          "startCharacter": 1144,
+          "endCharacter": 1235
+        },
+        {
+          "sourceId": "10041001012",
+          "verse": 12,
+          "sourceHtmlSha256": "c966982786d9663cf356b96614e2d5dcea749aba052510441efff7d2f30af19a",
+          "rawText": "And immediately, the Spirit casts him out into the wilderness.",
+          "spokenText": "And immediately, the Spirit casts him out into the wilderness.",
+          "startCharacter": 1236,
+          "endCharacter": 1298
+        },
+        {
+          "sourceId": "10041001013",
+          "verse": 13,
+          "sourceHtmlSha256": "5985b1846ba53903bdb47b6d3ed08e54e016aeb7afbb2e2255e2cc9edefbfe50",
+          "rawText": "And he was in the wilderness 40 days, being tempted by Satan. And he was with the wild animals, and the angels were serving him.",
+          "spokenText": "And he was in the wilderness 40 days, being tempted by Satan. And he was with the wild animals, and the angels were serving him.",
+          "startCharacter": 1299,
+          "endCharacter": 1427
+        }
+      ]
+    },
+    {
+      "id": "scripture-unfoldingWordSimplified",
+      "audioPath": "/private/tmp/fia-english-alignment/public/audio/mark-1-1-13/scripture-unfoldingWordSimplified.mp3",
+      "audioSha256": "e7355d93c2aa0aae39f3b5188682dd5e0d80e63837fbd3693d8fb7eb782551a2",
+      "audioBytes": 1804747,
+      "durationSeconds": 112.796688,
+      "rawText": "I am going to tell you the good news about Jesus, the Messiah. He is the Son of God. This story began as Isaiah, who spoke for God, wrote that it would: “Listen, I am sending my messenger ahead of you. He will make things ready for when you come. In the desolate place, someone will be calling out {to the people}: ‘Prepare yourselves to receive the Lord! Make yourselves ready for when he comes!’” Now there was a man whose name was John. He baptized people in a desolate area. He proclaimed that people should allow him to baptize them. That would show that they were going to stop doing what was wrong. That way, God would forgive their sins. Many people who lived in the region of Judea and many people who lived in the city of Jerusalem often went to listen to John. Many of these people agreed that they had sinned. Then, John baptized them in the Jordan River. John wore rough clothes that he made out of camel’s hair. He fastened around his waist a belt that he made from animal skin. He ate grasshoppers and honey that he found in that desolate area. He often preached, “Soon you will see someone else who is greater than I am. It is not appropriate for me even to kneel down and help him take off his sandals. I use water to baptize you. However, he will give you the Holy Spirit, which will be like baptizing you.” Now while John was preaching and baptizing people, Jesus traveled from the town of Nazareth, which was in the region of Galilee. {He arrived where John was} and had John baptize him in the Jordan River. As soon as John baptized him, Jesus waded out of the Jordan River. Then, he saw God opening the way from heaven. He saw that the Holy Spirit, who looked like a small bird, was descending {from heaven} to him. Then God spoke from heaven, “You are my Son, the one whom I love dearly. What you do pleases me.” As soon as that happened, the Holy Spirit sent Jesus into a desolate area. Jesus stayed for 40 days in that desolate area with the animals that lived there. During that time, Satan tried to make Jesus sin. Also, angels took care of Jesus.",
+      "sourceSha256": "9752c0950b0f84c5017ef15767ede8e8b8f8fed3f11db4c73c5a8583f1b98033",
+      "spokenText": "I am going to tell you the good news about Jesus, the Messiah. He is the Son of God. This story began as Isaiah, who spoke for God, wrote that it would: \"Listen, I am sending my messenger ahead of you. He will make things ready for when you come. In the desolate place, someone will be calling out {to the people}: 'Prepare yourselves to receive the Lord! Make yourselves ready for when he comes!'\" Now there was a man whose name was John. He baptized people in a desolate area. He proclaimed that people should allow him to baptize them. That would show that they were going to stop doing what was wrong. That way, God would forgive their sins. Many people who lived in the region of Judea and many people who lived in the city of Jerusalem often went to listen to John. Many of these people agreed that they had sinned. Then, John baptized them in the Jordan River. John wore rough clothes that he made out of camel's hair. He fastened around his waist a belt that he made from animal skin. He ate grasshoppers and honey that he found in that desolate area. He often preached, \"Soon you will see someone else who is greater than I am. It is not appropriate for me even to kneel down and help him take off his sandals. I use water to baptize you. However, he will give you the Holy Spirit, which will be like baptizing you.\" Now while John was preaching and baptizing people, Jesus traveled from the town of Nazareth, which was in the region of Galilee. {He arrived where John was} and had John baptize him in the Jordan River. As soon as John baptized him, Jesus waded out of the Jordan River. Then, he saw God opening the way from heaven. He saw that the Holy Spirit, who looked like a small bird, was descending {from heaven} to him. Then God spoke from heaven, \"You are my Son, the one whom I love dearly. What you do pleases me.\" As soon as that happened, the Holy Spirit sent Jesus into a desolate area. Jesus stayed for 40 days in that desolate area with the animals that lived there. During that time, Satan tried to make Jesus sin. Also, angels took care of Jesus.",
+      "spokenSha256": "ab4af669039e813d6c3613ce235022f1a552e49a4d7a28de0df3f8631f320383",
+      "textFile": "/private/tmp/fia-english-alignment/evidence/english-alignment/scripture-unfoldingWordSimplified.txt",
+      "verses": [
+        {
+          "sourceId": "10041001001",
+          "verse": 1,
+          "sourceHtmlSha256": "327c10838598de96172985c544c8f9bc9e86325a598d755cdd79bfe474559672",
+          "rawText": "I am going to tell you the good news about Jesus, the Messiah. He is the Son of God.",
+          "spokenText": "I am going to tell you the good news about Jesus, the Messiah. He is the Son of God.",
+          "startCharacter": 0,
+          "endCharacter": 84
+        },
+        {
+          "sourceId": "10041001002",
+          "verse": 2,
+          "sourceHtmlSha256": "154c726da70ff1944df6b22b1e8c5b650eb861d2a421b5b95e0ebe846a2f99d0",
+          "rawText": "This story began as Isaiah, who spoke for God, wrote that it would: “Listen, I am sending my messenger ahead of you. He will make things ready for when you come.",
+          "spokenText": "This story began as Isaiah, who spoke for God, wrote that it would: \"Listen, I am sending my messenger ahead of you. He will make things ready for when you come.",
+          "startCharacter": 85,
+          "endCharacter": 246
+        },
+        {
+          "sourceId": "10041001003",
+          "verse": 3,
+          "sourceHtmlSha256": "82f5b76464e587d880afc5459656d84bdd41b68e1c2db5edf276e7d7c1c47a80",
+          "rawText": "In the desolate place, someone will be calling out {to the people}: ‘Prepare yourselves to receive the Lord! Make yourselves ready for when he comes!’”",
+          "spokenText": "In the desolate place, someone will be calling out {to the people}: 'Prepare yourselves to receive the Lord! Make yourselves ready for when he comes!'\"",
+          "startCharacter": 247,
+          "endCharacter": 398
+        },
+        {
+          "sourceId": "10041001004",
+          "verse": 4,
+          "sourceHtmlSha256": "9d390539742de1d709e1d6ed1d28b2f88db70168a033ac613eebe9c4da8ed0d7",
+          "rawText": "Now there was a man whose name was John. He baptized people in a desolate area. He proclaimed that people should allow him to baptize them. That would show that they were going to stop doing what was wrong. That way, God would forgive their sins.",
+          "spokenText": "Now there was a man whose name was John. He baptized people in a desolate area. He proclaimed that people should allow him to baptize them. That would show that they were going to stop doing what was wrong. That way, God would forgive their sins.",
+          "startCharacter": 399,
+          "endCharacter": 645
+        },
+        {
+          "sourceId": "10041001005",
+          "verse": 5,
+          "sourceHtmlSha256": "205e960c2317a6753d1ee5413fab5275662195af08deff7600e4af336346de40",
+          "rawText": "Many people who lived in the region of Judea and many people who lived in the city of Jerusalem often went to listen to John. Many of these people agreed that they had sinned. Then, John baptized them in the Jordan River.",
+          "spokenText": "Many people who lived in the region of Judea and many people who lived in the city of Jerusalem often went to listen to John. Many of these people agreed that they had sinned. Then, John baptized them in the Jordan River.",
+          "startCharacter": 646,
+          "endCharacter": 867
+        },
+        {
+          "sourceId": "10041001006",
+          "verse": 6,
+          "sourceHtmlSha256": "6c16879bf8d2b43c018b1f69d4ce7108e13feb95a294204d3cfdd4425a5c5d2f",
+          "rawText": "John wore rough clothes that he made out of camel’s hair. He fastened around his waist a belt that he made from animal skin. He ate grasshoppers and honey that he found in that desolate area.",
+          "spokenText": "John wore rough clothes that he made out of camel's hair. He fastened around his waist a belt that he made from animal skin. He ate grasshoppers and honey that he found in that desolate area.",
+          "startCharacter": 868,
+          "endCharacter": 1059
+        },
+        {
+          "sourceId": "10041001007",
+          "verse": 7,
+          "sourceHtmlSha256": "abea0b7e06382a616ad0f4b53bdabf1a31edfa79776b2e9971885b497846cca4",
+          "rawText": "He often preached, “Soon you will see someone else who is greater than I am. It is not appropriate for me even to kneel down and help him take off his sandals.",
+          "spokenText": "He often preached, \"Soon you will see someone else who is greater than I am. It is not appropriate for me even to kneel down and help him take off his sandals.",
+          "startCharacter": 1060,
+          "endCharacter": 1219
+        },
+        {
+          "sourceId": "10041001008",
+          "verse": 8,
+          "sourceHtmlSha256": "7ed6a1c1aa02846a6d594da6774a7fed40912a72465da94ade7274560633d9ae",
+          "rawText": "I use water to baptize you. However, he will give you the Holy Spirit, which will be like baptizing you.”",
+          "spokenText": "I use water to baptize you. However, he will give you the Holy Spirit, which will be like baptizing you.\"",
+          "startCharacter": 1220,
+          "endCharacter": 1325
+        },
+        {
+          "sourceId": "10041001009",
+          "verse": 9,
+          "sourceHtmlSha256": "15646827ddc5221fc0ebe7518f51691c755589d2364cddbe869350ac5d17b333",
+          "rawText": "Now while John was preaching and baptizing people, Jesus traveled from the town of Nazareth, which was in the region of Galilee. {He arrived where John was} and had John baptize him in the Jordan River.",
+          "spokenText": "Now while John was preaching and baptizing people, Jesus traveled from the town of Nazareth, which was in the region of Galilee. {He arrived where John was} and had John baptize him in the Jordan River.",
+          "startCharacter": 1326,
+          "endCharacter": 1528
+        },
+        {
+          "sourceId": "10041001010",
+          "verse": 10,
+          "sourceHtmlSha256": "93687eec5b0ed0f63f088fed8e179d1e68ae358366173298f3c39904911460ad",
+          "rawText": "As soon as John baptized him, Jesus waded out of the Jordan River. Then, he saw God opening the way from heaven. He saw that the Holy Spirit, who looked like a small bird, was descending {from heaven} to him.",
+          "spokenText": "As soon as John baptized him, Jesus waded out of the Jordan River. Then, he saw God opening the way from heaven. He saw that the Holy Spirit, who looked like a small bird, was descending {from heaven} to him.",
+          "startCharacter": 1529,
+          "endCharacter": 1737
+        },
+        {
+          "sourceId": "10041001011",
+          "verse": 11,
+          "sourceHtmlSha256": "a824dead7cfd7f9978442fa4b20d3f2686c35aae6bb29e4d0e53f5a9581a8a61",
+          "rawText": "Then God spoke from heaven, “You are my Son, the one whom I love dearly. What you do pleases me.”",
+          "spokenText": "Then God spoke from heaven, \"You are my Son, the one whom I love dearly. What you do pleases me.\"",
+          "startCharacter": 1738,
+          "endCharacter": 1835
+        },
+        {
+          "sourceId": "10041001012",
+          "verse": 12,
+          "sourceHtmlSha256": "d6c11c4a01c3c5f6b50a20abb12a23a2f40ff646f41736764ba7f0ded066798a",
+          "rawText": "As soon as that happened, the Holy Spirit sent Jesus into a desolate area.",
+          "spokenText": "As soon as that happened, the Holy Spirit sent Jesus into a desolate area.",
+          "startCharacter": 1836,
+          "endCharacter": 1910
+        },
+        {
+          "sourceId": "10041001013",
+          "verse": 13,
+          "sourceHtmlSha256": "08153edc0b6b1165eec55306299bf8ec0aa3494908e5aef9dde0ea1e649108ac",
+          "rawText": "Jesus stayed for 40 days in that desolate area with the animals that lived there. During that time, Satan tried to make Jesus sin. Also, angels took care of Jesus.",
+          "spokenText": "Jesus stayed for 40 days in that desolate area with the animals that lived there. During that time, Satan tried to make Jesus sin. Also, angels took care of Jesus.",
+          "startCharacter": 1911,
+          "endCharacter": 2074
+        }
+      ]
+    }
+  ]
+}

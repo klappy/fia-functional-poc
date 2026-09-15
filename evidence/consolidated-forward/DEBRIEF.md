@@ -1,0 +1,9 @@
+# Consolidated forward integration
+
+Normal ancestry forwards PR20 visual authorship/source links into PR21 highlighting, PR22 disclosure, PR23 published ULB and PR24 Languages owner preservation. Version sequence remains0.1.6/0.1.7/0.1.8/0.1.9. PR21 ResourceDialog conflict keeps SourceHighlight and adds reviewed externalLinks. PR22 conflicts preserve existing Info/live example/filter state and current migration expectations. PR23 and PR24 merge without source conflicts. Final PR24 versus accepted f7531bf changes only the four approved visual-authorship/external-link files; source/audio and App/SpanishSession remain unchanged.
+
+All four exact builds pass. Final native checks pass external link app/owner retention; Spanish c197/a111 context once; filter/paused offset/live example; introduction restoring5s paused with explicit Resume; resource and nested Languages owner/no-autoplay behavior; ULB third-edition playback/source conservation/reload. Prepared manifest remains204 recordings/three published editions.
+
+The first copied intro fixture stalled around initial playback/seek; a bounded observation of actual native duration/playing before seek produced the successful diagnostic receipt. No product change was made for this. A concrete Settings alert was observed during intro testing: Cannot read properties of undefined (reading 'active'). Audio restoration still passed; this separate offline-state observation is reported to the coordinator and is not claimed resolved. Native external destination responses were intercepted; no remote video playback claim.
+
+Exact final build follows this evidence commit. No provider calls or port4794 changes. Isolated preview4841 serves this candidate. Author charge at most five active minutes under consolidated8; previous forward budgets retained.
