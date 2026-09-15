@@ -1,0 +1,5 @@
+At55f2acd the one-line expectedDescriptor.bytes assertion fix passed all3 affected unit tests. This supersedes the earlier DEBRIEF claim of3PASS before that fix: the earlier redirected log actually contained2PASS/1FAIL and was not read before reporting. Do not use the older claim as evidence.
+
+CI35001562026 had119PASS/2FAIL. The new Medium test could falsely match “Not saved on this device” and read absent metadata; both affected save tests now require exact positive Medium saved status and a populated Medium active pointer. Diagnostics subscribe before Save and log outstanding/failed requests plus UI/meta only on failure. The60-second saved-state timeout is unchanged.
+
+The separate Spanish CI timeout stopped at rounded55.7/55.7MB; no artifacts were uploaded, so the exact stalled stage remains unknown. Unmodified targeted pair passed locally13.6s; that does not prove a transient cause. Final corrected pair passed2/2 in11.0s, exit0, complete output inspected. No runtime or media bytes changed. Exact new-head CI is still required.
