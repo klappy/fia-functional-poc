@@ -23,9 +23,9 @@ export async function fetchVerifiedMedia(resolved,{fetcher=fetch,signal,priority
  const d=resolved.expectedDescriptor;
  // Sharing immutable bytes rather than a consumable Response allows duplicate consumers.
  return queue.run(`${resolved.url}|${d.sha256}`,async sharedSignal=>{
-  const response=await fetcher(resolved.url,{signal:sharedSignal});
+  const requestUrl=resolved.url.startsWith('/')?`${resolved.url}${resolved.url.includes('?')?'&':'?'}fia-sha256=${d.sha256}`:resolved.url;const response=await fetcher(requestUrl,{signal:sharedSignal});
   if([401,402,403,429,503].includes(response.status))return response;
-  if(!response.ok||response.headers.get('content-type')?.split(';')[0]!==d.mime)throw Error('Media unavailable or wrong file type.');
+  const mime=response.headers.get('content-type')?.split(';')[0];if(!response.ok||(mime!==d.mime&&!(d.mime==='text/javascript'&&mime==='application/javascript')))throw Error('Media unavailable or wrong file type.');
   const bytes=await response.arrayBuffer();if(bytes.byteLength!==d.bytes||await digestMedia(bytes)!==d.sha256)throw Error('Media integrity check failed.');return{bytes,mime:d.mime};
  },{signal,priority,local:resolved.url.startsWith('/')});
 }
