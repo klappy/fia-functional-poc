@@ -1,0 +1,4759 @@
+{
+  "schemaVersion": 1,
+  "language": "spa",
+  "synthetic": true,
+  "inputLedgerSha256": "8153c8df9843bc2cc385df65a6ae04a6b366a584f6ab352bbf87da74ac4150f1",
+  "entries": [
+    {
+      "id": "spa-06c24ec382679df35569",
+      "path": "/audio/spa/spa-06c24ec382679df35569.mp3",
+      "bytes": 28003,
+      "sha256": "d546d71065cac9bc6ecb98640b9c9cd82acf8f663a24f12a139329e6dd7e76f0",
+      "mime": "audio/mpeg",
+      "duration": 1.750188,
+      "sourceSha256": "06c24ec382679df3556991f85ae255fbc0aac099c318660bc627433f214cedaf",
+      "processedTextSha256": "06c24ec382679df3556991f85ae255fbc0aac099c318660bc627433f214cedaf",
+      "receivedAt": "2026-09-14T18:30:44.310Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s1-u001",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-9008cb25274fe7a5bd3b",
+      "path": "/audio/spa/spa-9008cb25274fe7a5bd3b.mp3",
+      "bytes": 110759,
+      "sha256": "e74e20b434b31dd8fedfe5157707dc3b4f0afd56e5486049c0f0373e6d2a4e3a",
+      "mime": "audio/mpeg",
+      "duration": 6.922438,
+      "sourceSha256": "9008cb25274fe7a5bd3bf5a36a9e0654490917634dcfd5ba30c2a4d61add1f88",
+      "processedTextSha256": "93a1628ecc7425e093cc561e7d59b8eac774acce8c109a7a945c590183427b05",
+      "receivedAt": "2026-09-14T18:31:00.245Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s1-u002",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ],
+      "projectionVersion": "scripture-reference-v1",
+      "spokenInputSha256": "93a1628ecc7425e093cc561e7d59b8eac774acce8c109a7a945c590183427b05"
+    },
+    {
+      "id": "spa-a2b89ae2ba20582a03e5",
+      "path": "/audio/spa/spa-a2b89ae2ba20582a03e5.mp3",
+      "bytes": 292571,
+      "sha256": "a70b66aeac133f0d25695a18937ab98e7d892ee3c4cf505a6ead7e7549a8a5d6",
+      "mime": "audio/mpeg",
+      "duration": 18.285688,
+      "sourceSha256": "a2b89ae2ba20582a03e53143543fe88c07c1ee6048aac689d0adcec5cf90b979",
+      "processedTextSha256": "f85b1332f905cff7a2fc8d722f0d26bbb260df737b903c32ffe3f53dd66f1344",
+      "receivedAt": "2026-09-14T18:31:05.296Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s1-u003",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ],
+      "projectionVersion": "scripture-reference-v1",
+      "spokenInputSha256": "f85b1332f905cff7a2fc8d722f0d26bbb260df737b903c32ffe3f53dd66f1344"
+    },
+    {
+      "id": "spa-ca0438fd8069c6b182dd",
+      "path": "/audio/spa/spa-ca0438fd8069c6b182dd.mp3",
+      "bytes": 24241,
+      "sha256": "6bbc5892694096a50d78196511b8380fb3f88f473c48d2d74ddd1f0d7b46ae5f",
+      "mime": "audio/mpeg",
+      "duration": 1.515063,
+      "sourceSha256": "ca0438fd8069c6b182dd98f146cdff52d8f3d00366b09bbc3c04b3c2f4bce602",
+      "processedTextSha256": "ca0438fd8069c6b182dd98f146cdff52d8f3d00366b09bbc3c04b3c2f4bce602",
+      "receivedAt": "2026-09-14T18:31:07.754Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s1-u004",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-cbf3fde25686981ff20c",
+      "path": "/audio/spa/spa-cbf3fde25686981ff20c.mp3",
+      "bytes": 52662,
+      "sha256": "35c824b67f1f4c416d164d5a67a9e4abf32df57a90be72f4693353788d29e86a",
+      "mime": "audio/mpeg",
+      "duration": 3.291375,
+      "sourceSha256": "cbf3fde25686981ff20c837d296984d180d5d029b6b4d9f38a06aa04ce7c3922",
+      "processedTextSha256": "cbf3fde25686981ff20c837d296984d180d5d029b6b4d9f38a06aa04ce7c3922",
+      "receivedAt": "2026-09-14T18:31:11.988Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s1-u005",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-3ee6cc1ee808cd307e6c",
+      "path": "/audio/spa/spa-3ee6cc1ee808cd307e6c.mp3",
+      "bytes": 35526,
+      "sha256": "a485c8690cf3ab50797fd69c1d04d242188c168d4a649e5a7bd26e2da7316419",
+      "mime": "audio/mpeg",
+      "duration": 2.220375,
+      "sourceSha256": "3ee6cc1ee808cd307e6cb8cf498d2e9fc459fbe0279df2595b3c6e7b682c27c3",
+      "processedTextSha256": "3ee6cc1ee808cd307e6cb8cf498d2e9fc459fbe0279df2595b3c6e7b682c27c3",
+      "receivedAt": "2026-09-14T18:31:16.139Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s1-u006",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-3681885ce87d073bf979",
+      "path": "/audio/spa/spa-3681885ce87d073bf979.mp3",
+      "bytes": 36362,
+      "sha256": "3d516e5e39ba2085e79dcad895f1fa1a118c5c8d5ce2ef910559961cc95dcc8d",
+      "mime": "audio/mpeg",
+      "duration": 2.272625,
+      "sourceSha256": "3681885ce87d073bf9790b59f7b2c62193955b6d03cbe4d41b13f95a5d9b52d3",
+      "processedTextSha256": "3681885ce87d073bf9790b59f7b2c62193955b6d03cbe4d41b13f95a5d9b52d3",
+      "receivedAt": "2026-09-14T18:31:20.349Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s1-u007",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-b69ec294571437de568a",
+      "path": "/audio/spa/spa-b69ec294571437de568a.mp3",
+      "bytes": 40124,
+      "sha256": "b9c7afb2f3d52dd187edb40044582d42451b051fb2ea0eacd4fda4874b9451a1",
+      "mime": "audio/mpeg",
+      "duration": 2.50775,
+      "sourceSha256": "b69ec294571437de568ac486e1bd30cacd26cd8edb959a5322112aeff56994ad",
+      "processedTextSha256": "b69ec294571437de568ac486e1bd30cacd26cd8edb959a5322112aeff56994ad",
+      "receivedAt": "2026-09-14T18:31:24.484Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s1-u008",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-15afc940241503cf06b6",
+      "path": "/audio/spa/spa-15afc940241503cf06b6.mp3",
+      "bytes": 46811,
+      "sha256": "a6e838b27532973ed74122b62141693415837b6a7745b10013c66b20b2534cbc",
+      "mime": "audio/mpeg",
+      "duration": 2.925688,
+      "sourceSha256": "15afc940241503cf06b67bc9e2cfda2ca2a7fc3256afd5bbe7c7a9813044ff34",
+      "processedTextSha256": "15afc940241503cf06b67bc9e2cfda2ca2a7fc3256afd5bbe7c7a9813044ff34",
+      "receivedAt": "2026-09-14T18:31:28.432Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s1-u009",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-8219ed4760b68c3e106a",
+      "path": "/audio/spa/spa-8219ed4760b68c3e106a.mp3",
+      "bytes": 24241,
+      "sha256": "5bb5580675a33607022ddf73b37dc45c5a77d2bc2aba36311d2addf398f98b69",
+      "mime": "audio/mpeg",
+      "duration": 1.515063,
+      "sourceSha256": "8219ed4760b68c3e106ac7446dac7af68a1189908e9649f762cdfde0bc4a57f8",
+      "processedTextSha256": "8219ed4760b68c3e106ac7446dac7af68a1189908e9649f762cdfde0bc4a57f8",
+      "receivedAt": "2026-09-14T18:31:32.785Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u010",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-988632590724935d7fd5",
+      "path": "/audio/spa/spa-988632590724935d7fd5.mp3",
+      "bytes": 135000,
+      "sha256": "2ea4e1cfc75b755ecbe1b0cad4a16083ed6219c4145524b742e442f5db90184d",
+      "mime": "audio/mpeg",
+      "duration": 8.4375,
+      "sourceSha256": "988632590724935d7fd51193c16029e231460ec7280d4aaf4595db17eab28e92",
+      "processedTextSha256": "6e1a77c73e84fba842072ecfc0543d4ab38a631bb9f8c4daa111fcfabdec669b",
+      "receivedAt": "2026-09-14T18:31:37.121Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u011",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u025",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u051",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u081",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ],
+      "projectionVersion": "scripture-reference-v1",
+      "spokenInputSha256": "6e1a77c73e84fba842072ecfc0543d4ab38a631bb9f8c4daa111fcfabdec669b"
+    },
+    {
+      "id": "spa-9e480c9387b4015023c0",
+      "path": "/audio/spa/spa-9e480c9387b4015023c0.mp3",
+      "bytes": 233221,
+      "sha256": "5f06cc04437d843efebe3f8d6e186537cf3ee9699536b6bc1c64247bb1726561",
+      "mime": "audio/mpeg",
+      "duration": 14.576313,
+      "sourceSha256": "9e480c9387b4015023c07b8434af491450ceebc9e1f3917bd46253edd23d06c4",
+      "processedTextSha256": "9e480c9387b4015023c07b8434af491450ceebc9e1f3917bd46253edd23d06c4",
+      "receivedAt": "2026-09-14T18:31:42.400Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u012",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-05591bcda121c7d54a28",
+      "path": "/audio/spa/spa-05591bcda121c7d54a28.mp3",
+      "bytes": 541675,
+      "sha256": "82e4f10505eb68230e42059b4ef17abaa495bff6b5f83e807ee1a75ff777363c",
+      "mime": "audio/mpeg",
+      "duration": 33.854688,
+      "sourceSha256": "05591bcda121c7d54a28fe28c24dcdb520d19bf42ee5f87760b89aa7bc1ad8f7",
+      "processedTextSha256": "05591bcda121c7d54a28fe28c24dcdb520d19bf42ee5f87760b89aa7bc1ad8f7",
+      "receivedAt": "2026-09-14T18:31:49.807Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u013",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-12cffa73c37f0b0b6fee",
+      "path": "/audio/spa/spa-12cffa73c37f0b0b6fee.mp3",
+      "bytes": 467278,
+      "sha256": "74103b1adbfe3cab0380338b677698765819025533b67fd56f3a25addd18b4da",
+      "mime": "audio/mpeg",
+      "duration": 29.204875,
+      "sourceSha256": "12cffa73c37f0b0b6feef18ffae21d35c094686fa6c82bd3fe8b3b86111937b6",
+      "processedTextSha256": "12cffa73c37f0b0b6feef18ffae21d35c094686fa6c82bd3fe8b3b86111937b6",
+      "receivedAt": "2026-09-14T18:31:56.203Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u014",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-ff6fafd5f295e07e4225",
+      "path": "/audio/spa/spa-ff6fafd5f295e07e4225.mp3",
+      "bytes": 114102,
+      "sha256": "bfe1ca2406af445ad164b85dbb23718445c4045cec2c59fbc3473cdb0ec32c27",
+      "mime": "audio/mpeg",
+      "duration": 7.131375,
+      "sourceSha256": "ff6fafd5f295e07e4225842f53843728fadf7c61a854beabd6dd46cf1812ba6e",
+      "processedTextSha256": "ff6fafd5f295e07e4225842f53843728fadf7c61a854beabd6dd46cf1812ba6e",
+      "receivedAt": "2026-09-14T18:31:58.134Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u015",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-f954d845d9a27c8f6420",
+      "path": "/audio/spa/spa-f954d845d9a27c8f6420.mp3",
+      "bytes": 1035702,
+      "sha256": "6fa04250fe62d42f3c16557beebb5c92d68221113f0294f581151b24aead447c",
+      "mime": "audio/mpeg",
+      "duration": 64.731375,
+      "sourceSha256": "f954d845d9a27c8f6420eb3072c7c85c0fea31f05730fe7bc323de4f0fb1d336",
+      "processedTextSha256": "f954d845d9a27c8f6420eb3072c7c85c0fea31f05730fe7bc323de4f0fb1d336",
+      "receivedAt": "2026-09-14T18:32:12.208Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u016",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-a21949e5110e048c949c",
+      "path": "/audio/spa/spa-a21949e5110e048c949c.mp3",
+      "bytes": 1664313,
+      "sha256": "021952f124f2a650f669e9f07ef607bb4e085cb5675a2bcb4bab4f969e9a93c5",
+      "mime": "audio/mpeg",
+      "duration": 104.019563,
+      "sourceSha256": "a21949e5110e048c949c05ca30f860de30c514b4c836f8f180fc9ba433ac0733",
+      "processedTextSha256": "a21949e5110e048c949c05ca30f860de30c514b4c836f8f180fc9ba433ac0733",
+      "receivedAt": "2026-09-14T18:32:30.414Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u017",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-4aeead0495dea15ed348",
+      "path": "/audio/spa/spa-4aeead0495dea15ed348.mp3",
+      "bytes": 98638,
+      "sha256": "cabbad0caae84002233850c4c4c9dc38bb1930d7edcd97d38c26ceda3c25199c",
+      "mime": "audio/mpeg",
+      "duration": 6.164875,
+      "sourceSha256": "4aeead0495dea15ed348f7003e773f6a3c7c561a83d47cf70b5a6fb7aa5c62ef",
+      "processedTextSha256": "4aeead0495dea15ed348f7003e773f6a3c7c561a83d47cf70b5a6fb7aa5c62ef",
+      "receivedAt": "2026-09-14T18:32:32.271Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u018",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-14f0f576a04b41e12296",
+      "path": "/audio/spa/spa-14f0f576a04b41e12296.mp3",
+      "bytes": 564662,
+      "sha256": "104b26acc1e59d604acaf6ade28df1873cf99512970902e2c1d23d801dde56c4",
+      "mime": "audio/mpeg",
+      "duration": 35.291375,
+      "sourceSha256": "14f0f576a04b41e12296d87e848cb66cfb78a47061a8bfcfe3adb0e487be2d46",
+      "processedTextSha256": "14f0f576a04b41e12296d87e848cb66cfb78a47061a8bfcfe3adb0e487be2d46",
+      "receivedAt": "2026-09-14T18:32:40.794Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u019",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-0ac9383c390d821a2d1e",
+      "path": "/audio/spa/spa-0ac9383c390d821a2d1e.mp3",
+      "bytes": 1658880,
+      "sha256": "e52dfb9a716f66296fcfcc72c7a1ff4a7bf9a5317ee7f430509ed4d2d5dd041b",
+      "mime": "audio/mpeg",
+      "duration": 103.68,
+      "sourceSha256": "0ac9383c390d821a2d1ee4d5a4ddee3d58b64837e13e0e85cbd056423256eabd",
+      "processedTextSha256": "0ac9383c390d821a2d1ee4d5a4ddee3d58b64837e13e0e85cbd056423256eabd",
+      "receivedAt": "2026-09-14T18:32:59.138Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u020",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-1ab79ed5327392d01957",
+      "path": "/audio/spa/spa-1ab79ed5327392d01957.mp3",
+      "bytes": 379506,
+      "sha256": "4fa46a203856efc69f70548d7c3482709d91a27583b70eb02b41c4eab046a349",
+      "mime": "audio/mpeg",
+      "duration": 23.719125,
+      "sourceSha256": "1ab79ed5327392d01957c953ebb0bfc7bd10d0c432f3e22342b63f0de01b2dec",
+      "processedTextSha256": "1ab79ed5327392d01957c953ebb0bfc7bd10d0c432f3e22342b63f0de01b2dec",
+      "receivedAt": "2026-09-14T18:33:03.127Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u021",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-704759ee546eb2669659",
+      "path": "/audio/spa/spa-704759ee546eb2669659.mp3",
+      "bytes": 23823,
+      "sha256": "c1b15043d01a5f0b9297933f3467895429deb3b4f2e3017b129ce1bd7b8e7525",
+      "mime": "audio/mpeg",
+      "duration": 1.488938,
+      "sourceSha256": "704759ee546eb266965992db3b18cdf0e6043de87de334b95a1e986c6ae95795",
+      "processedTextSha256": "704759ee546eb266965992db3b18cdf0e6043de87de334b95a1e986c6ae95795",
+      "receivedAt": "2026-09-14T18:33:04.575Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u022",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s6-u131",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-6",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s6-u133",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-6",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s6-u135",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-6",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-a4faa7cabc2167b57e86",
+      "path": "/audio/spa/spa-a4faa7cabc2167b57e86.mp3",
+      "bytes": 1040718,
+      "sha256": "f6697fba75be743875601fd6121051a072c4abaf5bc0383ccacb7aad2dc1c662",
+      "mime": "audio/mpeg",
+      "duration": 65.044875,
+      "sourceSha256": "a4faa7cabc2167b57e8677ad1fcdf1665b69cd708421aeda404755e01f182f67",
+      "processedTextSha256": "a4faa7cabc2167b57e8677ad1fcdf1665b69cd708421aeda404755e01f182f67",
+      "receivedAt": "2026-09-14T18:33:19.840Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s2-u023",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-1d7831af7bbfeb72e63c",
+      "path": "/audio/spa/spa-1d7831af7bbfeb72e63c.mp3",
+      "bytes": 23823,
+      "sha256": "902d8b3b433914294345b779f034c79df16a5f0161e0468f17623d34b5f8ae41",
+      "mime": "audio/mpeg",
+      "duration": 1.488938,
+      "sourceSha256": "1d7831af7bbfeb72e63c74054c03e6fef0e427d7fe1cc6749b1f8622038b66d1",
+      "processedTextSha256": "1d7831af7bbfeb72e63c74054c03e6fef0e427d7fe1cc6749b1f8622038b66d1",
+      "receivedAt": "2026-09-14T18:33:24.825Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u024",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-b7c07caca08e33d5516c",
+      "path": "/audio/spa/spa-b7c07caca08e33d5516c.mp3",
+      "bytes": 147121,
+      "sha256": "747e0566aa585f685420604564a4a49ba3870f9c9daa545a2817987355b7a2ce",
+      "mime": "audio/mpeg",
+      "duration": 9.195063,
+      "sourceSha256": "b7c07caca08e33d5516c62f8c362b81dd03a09a63a03528aefd26e5c97910407",
+      "processedTextSha256": "b7c07caca08e33d5516c62f8c362b81dd03a09a63a03528aefd26e5c97910407",
+      "receivedAt": "2026-09-14T18:33:30.848Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u026",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-71a26bbde754b0a00ba2",
+      "path": "/audio/spa/spa-71a26bbde754b0a00ba2.mp3",
+      "bytes": 27167,
+      "sha256": "1e2ae62ca3bfcc6b4b6ec29f41646510833521cd87060632cfe4f01fc0f5c99c",
+      "mime": "audio/mpeg",
+      "duration": 1.697938,
+      "sourceSha256": "71a26bbde754b0a00ba2c588f427336bb5462834975cad3212a85a4c5576adc0",
+      "processedTextSha256": "71a26bbde754b0a00ba2c588f427336bb5462834975cad3212a85a4c5576adc0",
+      "receivedAt": "2026-09-14T18:33:32.045Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u027",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-e9b2bff36dfdf30e76d8",
+      "path": "/audio/spa/spa-e9b2bff36dfdf30e76d8.mp3",
+      "bytes": 430915,
+      "sha256": "5aefbe00ea6622f4ec3894f99f911b7aa9cb563153c690a5355cb607bf6a0756",
+      "mime": "audio/mpeg",
+      "duration": 26.932188,
+      "sourceSha256": "e9b2bff36dfdf30e76d823c944481ea3c8f00f2040b224d84f408a02a5d86320",
+      "processedTextSha256": "e9b2bff36dfdf30e76d823c944481ea3c8f00f2040b224d84f408a02a5d86320",
+      "receivedAt": "2026-09-14T18:33:40.055Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u028",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-fe96b413f386e4ab804a",
+      "path": "/audio/spa/spa-fe96b413f386e4ab804a.mp3",
+      "bytes": 256209,
+      "sha256": "9de5f9079bc82e38b2d1428f086bf5cfbe84880e5ead3b35b11224358b838063",
+      "mime": "audio/mpeg",
+      "duration": 16.013063,
+      "sourceSha256": "fe96b413f386e4ab804a92121c338451ecc5753e820ccff9fa6e666c903a7729",
+      "processedTextSha256": "fe96b413f386e4ab804a92121c338451ecc5753e820ccff9fa6e666c903a7729",
+      "receivedAt": "2026-09-14T18:33:43.223Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u029",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-b33efe89e3048f37da68",
+      "path": "/audio/spa/spa-b33efe89e3048f37da68.mp3",
+      "bytes": 217756,
+      "sha256": "b4c8754cd67a54dc36a8a27e0b286aab3c8559056b3097c5e30d470ca1d4a562",
+      "mime": "audio/mpeg",
+      "duration": 13.60975,
+      "sourceSha256": "b33efe89e3048f37da680e5a5ed0a177cd083e66dad68ead772a577d1c1b6c25",
+      "processedTextSha256": "b33efe89e3048f37da680e5a5ed0a177cd083e66dad68ead772a577d1c1b6c25",
+      "receivedAt": "2026-09-14T18:33:46.881Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u030",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-1e233463621b1bb830e6",
+      "path": "/audio/spa/spa-1e233463621b1bb830e6.mp3",
+      "bytes": 142524,
+      "sha256": "a79686d3e7cb61f59fbe3e85fe0a7c78fbd360414f61589d6570d22822403edb",
+      "mime": "audio/mpeg",
+      "duration": 8.90775,
+      "sourceSha256": "1e233463621b1bb830e636ac68848ab1bc1b6e43c7ddc8f870fc116b5e31c8f2",
+      "processedTextSha256": "1e233463621b1bb830e636ac68848ab1bc1b6e43c7ddc8f870fc116b5e31c8f2",
+      "receivedAt": "2026-09-14T18:33:50.351Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u031",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-ef38d80c16e92ef8fcab",
+      "path": "/audio/spa/spa-ef38d80c16e92ef8fcab.mp3",
+      "bytes": 246595,
+      "sha256": "a03d8a3031977c17be7009076087af7ba8f0b16338b89f6b7a9f93c67c0a7044",
+      "mime": "audio/mpeg",
+      "duration": 15.412188,
+      "sourceSha256": "ef38d80c16e92ef8fcab104c94c4a65306eab609fa5584df29f4571b3a913a5f",
+      "processedTextSha256": "ef38d80c16e92ef8fcab104c94c4a65306eab609fa5584df29f4571b3a913a5f",
+      "receivedAt": "2026-09-14T18:33:55.414Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u032",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-9c5776c4df6ee10aae37",
+      "path": "/audio/spa/spa-9c5776c4df6ee10aae37.mp3",
+      "bytes": 34690,
+      "sha256": "14a726c57361fcfd3c8d297d07464cbf0dc8a38e2b253850a799494ef597ac67",
+      "mime": "audio/mpeg",
+      "duration": 2.168125,
+      "sourceSha256": "9c5776c4df6ee10aae37264878751c0b32a1cae0a2ab36cb0a6df96918750eb1",
+      "processedTextSha256": "9c5776c4df6ee10aae37264878751c0b32a1cae0a2ab36cb0a6df96918750eb1",
+      "receivedAt": "2026-09-14T18:33:57.864Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u033",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u054",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-640c3417099c77075e7a",
+      "path": "/audio/spa/spa-640c3417099c77075e7a.mp3",
+      "bytes": 20062,
+      "sha256": "d1f0505749abd909513a30eafd951b9b75b5f25e0974b57d05835ee91d8c8c72",
+      "mime": "audio/mpeg",
+      "duration": 1.253875,
+      "sourceSha256": "640c3417099c77075e7a752015f2dbe7e591e729b5644e21359262e68d8077d2",
+      "processedTextSha256": "640c3417099c77075e7a752015f2dbe7e591e729b5644e21359262e68d8077d2",
+      "receivedAt": "2026-09-14T18:34:01.833Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u034",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u055",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-cb578a8402bb8e86060f",
+      "path": "/audio/spa/spa-cb578a8402bb8e86060f.mp3",
+      "bytes": 22151,
+      "sha256": "6053e92bab26cfe11cba0647545b53dfa8d3bea0b95e18f968709aa59350995b",
+      "mime": "audio/mpeg",
+      "duration": 1.384438,
+      "sourceSha256": "cb578a8402bb8e86060fb3acbc478ee847324d080a9af09b74dbc3a84ff14562",
+      "processedTextSha256": "cb578a8402bb8e86060fb3acbc478ee847324d080a9af09b74dbc3a84ff14562",
+      "receivedAt": "2026-09-14T18:34:06.087Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u035",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u056",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-b9f0e64bb47c4f861bbb",
+      "path": "/audio/spa/spa-b9f0e64bb47c4f861bbb.mp3",
+      "bytes": 12538,
+      "sha256": "8baf089a707aa8dacc215240636d0ae45c59d7e7456bc8bafabc3884a35a7996",
+      "mime": "audio/mpeg",
+      "duration": 0.783625,
+      "sourceSha256": "b9f0e64bb47c4f861bbb89af6786ed6fa1f6ece974041a7a426f34f446838f53",
+      "processedTextSha256": "b9f0e64bb47c4f861bbb89af6786ed6fa1f6ece974041a7a426f34f446838f53",
+      "receivedAt": "2026-09-14T18:34:09.935Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u036",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u057",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-4cbb2a925100ad32d599",
+      "path": "/audio/spa/spa-4cbb2a925100ad32d599.mp3",
+      "bytes": 21315,
+      "sha256": "4fa494644e9f11f0ae4a731f0b3f3d9f3792eb00d0696f75d1216619aab234e0",
+      "mime": "audio/mpeg",
+      "duration": 1.332188,
+      "sourceSha256": "4cbb2a925100ad32d59944e3deed7b64b7fb76c46541be3e4d52c3fc03ea0313",
+      "processedTextSha256": "4cbb2a925100ad32d59944e3deed7b64b7fb76c46541be3e4d52c3fc03ea0313",
+      "receivedAt": "2026-09-14T18:34:14.109Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u037",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u058",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-ed37c7a8f75e72de670e",
+      "path": "/audio/spa/spa-ed37c7a8f75e72de670e.mp3",
+      "bytes": 12538,
+      "sha256": "cd4abfff6ff119cf877f771b5fcdc4d21531c0837f8fad710d5301de50afda59",
+      "mime": "audio/mpeg",
+      "duration": 0.783625,
+      "sourceSha256": "ed37c7a8f75e72de670ec16db06350c51a8600f2f79d6c60943b59e5c270bd7d",
+      "processedTextSha256": "ed37c7a8f75e72de670ec16db06350c51a8600f2f79d6c60943b59e5c270bd7d",
+      "receivedAt": "2026-09-14T18:34:18.060Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u038",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u059",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-bd07153329609cc8116d",
+      "path": "/audio/spa/spa-bd07153329609cc8116d.mp3",
+      "bytes": 15464,
+      "sha256": "11cafe6984b4757cb69975ad6c26f882cca5d217afdfc03f6a6cdf9ce9d2ab28",
+      "mime": "audio/mpeg",
+      "duration": 0.9665,
+      "sourceSha256": "bd07153329609cc8116d8c4be0f9dd8617d1644bb2caf1953a9e6f6647270c02",
+      "processedTextSha256": "bd07153329609cc8116d8c4be0f9dd8617d1644bb2caf1953a9e6f6647270c02",
+      "receivedAt": "2026-09-14T18:34:22.341Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u039",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u060",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-55083d109204a3f1b8e0",
+      "path": "/audio/spa/spa-55083d109204a3f1b8e0.mp3",
+      "bytes": 20062,
+      "sha256": "c717e20adffd9be3686cd53beae61210a41b09285f6b77398f75cf1c35c6d7ae",
+      "mime": "audio/mpeg",
+      "duration": 1.253875,
+      "sourceSha256": "55083d109204a3f1b8e023c6dd5fcde1247c7dba1038d704c9d6bc350ada3d73",
+      "processedTextSha256": "55083d109204a3f1b8e023c6dd5fcde1247c7dba1038d704c9d6bc350ada3d73",
+      "receivedAt": "2026-09-14T18:34:26.442Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u040",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u061",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-952e1e69c66fa93bbab5",
+      "path": "/audio/spa/spa-952e1e69c66fa93bbab5.mp3",
+      "bytes": 68963,
+      "sha256": "a92ddf195c1014a1174d41fabf7beca88fc66d95f033448597b37f77b1d7aecb",
+      "mime": "audio/mpeg",
+      "duration": 4.310188,
+      "sourceSha256": "952e1e69c66fa93bbab53263bae004331670ad152ff47f62a4051ebbdfc14fff",
+      "processedTextSha256": "952e1e69c66fa93bbab53263bae004331670ad152ff47f62a4051ebbdfc14fff",
+      "receivedAt": "2026-09-14T18:34:30.847Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u041",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-52b4ae2182626edbe1ba",
+      "path": "/audio/spa/spa-52b4ae2182626edbe1ba.mp3",
+      "bytes": 316395,
+      "sha256": "59959ff33ad7ad989f91db2e6fb65f53c5d6570bb1b74f3c5a160bf92216558e",
+      "mime": "audio/mpeg",
+      "duration": 19.774688,
+      "sourceSha256": "52b4ae2182626edbe1ba707876aea14775adb7fb7b82cd7ff935ed7905259256",
+      "processedTextSha256": "52b4ae2182626edbe1ba707876aea14775adb7fb7b82cd7ff935ed7905259256",
+      "receivedAt": "2026-09-14T18:34:37.309Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u042",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-44a0fe8fa7ff6ef740c5",
+      "path": "/audio/spa/spa-44a0fe8fa7ff6ef740c5.mp3",
+      "bytes": 109087,
+      "sha256": "aeb43d7c744fe1121851334440d993575604e38fd94651f6f7e68284e3c412a7",
+      "mime": "audio/mpeg",
+      "duration": 6.817938,
+      "sourceSha256": "44a0fe8fa7ff6ef740c58eefa67db228306ee83c617db40cb69c093b1ce5106e",
+      "processedTextSha256": "44a0fe8fa7ff6ef740c58eefa67db228306ee83c617db40cb69c093b1ce5106e",
+      "receivedAt": "2026-09-14T18:34:39.259Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u043",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-6490405c091ae1581f31",
+      "path": "/audio/spa/spa-6490405c091ae1581f31.mp3",
+      "bytes": 844695,
+      "sha256": "d79b123dd65f6346d9c5cc5b37a51bda0e750999d90f03932abb5a65786a0700",
+      "mime": "audio/mpeg",
+      "duration": 52.793438,
+      "sourceSha256": "6490405c091ae1581f31eea937039a6fdf86a7b1ec28441fd7cf9437e9320c17",
+      "processedTextSha256": "6490405c091ae1581f31eea937039a6fdf86a7b1ec28441fd7cf9437e9320c17",
+      "receivedAt": "2026-09-14T18:34:50.897Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u044",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-9f6dd3f616b2e1298748",
+      "path": "/audio/spa/spa-9f6dd3f616b2e1298748.mp3",
+      "bytes": 69799,
+      "sha256": "a43248f9a3ca22a6ba458fe469b440d8a205976e47e2ebc788c65eea2ff86e73",
+      "mime": "audio/mpeg",
+      "duration": 4.362438,
+      "sourceSha256": "9f6dd3f616b2e12987486c158326cdff08471d4532d69bfb2c9f13f4ac4c271b",
+      "processedTextSha256": "9f6dd3f616b2e12987486c158326cdff08471d4532d69bfb2c9f13f4ac4c271b",
+      "receivedAt": "2026-09-14T18:34:52.391Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u045",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-1ddac0ef564318e9150c",
+      "path": "/audio/spa/spa-1ddac0ef564318e9150c.mp3",
+      "bytes": 1696914,
+      "sha256": "55beec701dddfe739cd63e776c073db574c874d957e3fdf20ed8174d684bb513",
+      "mime": "audio/mpeg",
+      "duration": 106.057125,
+      "sourceSha256": "1ddac0ef564318e9150c8bfe2ca4aff0f08a239e80a7cfa97d0a22b8c4398d56",
+      "processedTextSha256": "1ddac0ef564318e9150c8bfe2ca4aff0f08a239e80a7cfa97d0a22b8c4398d56",
+      "receivedAt": "2026-09-14T18:35:13.114Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u046",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-80a4efc2628402fba31d",
+      "path": "/audio/spa/spa-80a4efc2628402fba31d.mp3",
+      "bytes": 336457,
+      "sha256": "b2fb0344b1a66be4693f50ab335e0c980915637521b83ba334936edb9db9e077",
+      "mime": "audio/mpeg",
+      "duration": 21.028563,
+      "sourceSha256": "80a4efc2628402fba31d68080e2276163c28064c49f08dca4484d4783e875df2",
+      "processedTextSha256": "80a4efc2628402fba31d68080e2276163c28064c49f08dca4484d4783e875df2",
+      "receivedAt": "2026-09-14T18:35:17.353Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u047",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c82fd8bb350db3604fcc",
+      "path": "/audio/spa/spa-c82fd8bb350db3604fcc.mp3",
+      "bytes": 553377,
+      "sha256": "64b054f75ffd98c026709be820ff5a516a5dd71916e0fb56c3ec5c31189c2d8d",
+      "mime": "audio/mpeg",
+      "duration": 34.586063,
+      "sourceSha256": "c82fd8bb350db3604fcc713dbacddf87ef44946e39cd80dc2234710592f54701",
+      "processedTextSha256": "c82fd8bb350db3604fcc713dbacddf87ef44946e39cd80dc2234710592f54701",
+      "receivedAt": "2026-09-14T18:35:23.690Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u048",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-cd0770793f13d69393cd",
+      "path": "/audio/spa/spa-cd0770793f13d69393cd.mp3",
+      "bytes": 124133,
+      "sha256": "b7e9a5e9b23c3ce1a6eab5e93c81613b2bd3d8cb454b7159a95db8ead5e90193",
+      "mime": "audio/mpeg",
+      "duration": 7.758313,
+      "sourceSha256": "cd0770793f13d69393cd53cbe542781d7dbccd12b276dfc3c956f6c1ae7c30e7",
+      "processedTextSha256": "cd0770793f13d69393cd53cbe542781d7dbccd12b276dfc3c956f6c1ae7c30e7",
+      "receivedAt": "2026-09-14T18:35:25.637Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s3-u049",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-3",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-d7206108eee43945be26",
+      "path": "/audio/spa/spa-d7206108eee43945be26.mp3",
+      "bytes": 21315,
+      "sha256": "6d3a6537cefccfa554162191c07080bd76534b0c38e151fe7602c30cc2fb2d3a",
+      "mime": "audio/mpeg",
+      "duration": 1.332188,
+      "sourceSha256": "d7206108eee43945be26b3a82457473dd9b21484207c703f419c45076eb51a8f",
+      "processedTextSha256": "d7206108eee43945be26b3a82457473dd9b21484207c703f419c45076eb51a8f",
+      "receivedAt": "2026-09-14T18:35:28.994Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u050",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c20f518286058e5e103e",
+      "path": "/audio/spa/spa-c20f518286058e5e103e.mp3",
+      "bytes": 43885,
+      "sha256": "b438a9ee1e9cd473dd70a2a3194b6ca076ccca3d50ef357dda9ba3df284ba3f1",
+      "mime": "audio/mpeg",
+      "duration": 2.742813,
+      "sourceSha256": "c20f518286058e5e103e881f83c27a5238f5114ede25e7e177f58d709d2ae4ec",
+      "processedTextSha256": "c20f518286058e5e103e881f83c27a5238f5114ede25e7e177f58d709d2ae4ec",
+      "receivedAt": "2026-09-14T18:35:33.282Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u052",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-8b5ec724338303d58100",
+      "path": "/audio/spa/spa-8b5ec724338303d58100.mp3",
+      "bytes": 29675,
+      "sha256": "1d074b965f0b866faad982aa4579de2ed4fc0a2a10a2bee0836f702cd6bd3697",
+      "mime": "audio/mpeg",
+      "duration": 1.854688,
+      "sourceSha256": "8b5ec724338303d5810008b6ed8ab989fd2990149627bcf2e018fe6b1445779b",
+      "processedTextSha256": "8b5ec724338303d5810008b6ed8ab989fd2990149627bcf2e018fe6b1445779b",
+      "receivedAt": "2026-09-14T18:35:37.340Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u053",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-af3aa3c4e2641821088c",
+      "path": "/audio/spa/spa-af3aa3c4e2641821088c.mp3",
+      "bytes": 80666,
+      "sha256": "c21aee7f759dafac781fbc027c0af8332734e40a73c21a1f9ac9766667f88762",
+      "mime": "audio/mpeg",
+      "duration": 5.041625,
+      "sourceSha256": "af3aa3c4e2641821088c84e43542cac2f1a147e86abe1f9c0a08b0b930124366",
+      "processedTextSha256": "af3aa3c4e2641821088c84e43542cac2f1a147e86abe1f9c0a08b0b930124366",
+      "receivedAt": "2026-09-14T18:35:41.729Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u062",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-97c81199e3c2e127e210",
+      "path": "/audio/spa/spa-97c81199e3c2e127e210.mp3",
+      "bytes": 383268,
+      "sha256": "60a563cbee401aabf953b00c8ac82d8dc9ec63a592dec9098e7b75a7ec7b532c",
+      "mime": "audio/mpeg",
+      "duration": 23.95425,
+      "sourceSha256": "97c81199e3c2e127e21003a7ec161d628d6de0441f433be7559f60534f616f32",
+      "processedTextSha256": "97c81199e3c2e127e21003a7ec161d628d6de0441f433be7559f60534f616f32",
+      "receivedAt": "2026-09-14T18:35:49.009Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u063",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-34fe5893155bad328ddb",
+      "path": "/audio/spa/spa-34fe5893155bad328ddb.mp3",
+      "bytes": 40124,
+      "sha256": "1ffa38791b3a4a36b2d60d232c01c7d4b9630f2dd9e243eeba2abf93d4ecc71b",
+      "mime": "audio/mpeg",
+      "duration": 2.50775,
+      "sourceSha256": "34fe5893155bad328ddbe5b1c85066afa12172e7bba40228f028f14fa194501c",
+      "processedTextSha256": "34fe5893155bad328ddbe5b1c85066afa12172e7bba40228f028f14fa194501c",
+      "receivedAt": "2026-09-14T18:35:50.324Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u064",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-1f50c71b705ac5009873",
+      "path": "/audio/spa/spa-1f50c71b705ac5009873.mp3",
+      "bytes": 444290,
+      "sha256": "b24a5aaa5555644fc3abc2142c964c3c2706fb6908b0ba463d825fbf4aea7429",
+      "mime": "audio/mpeg",
+      "duration": 27.768125,
+      "sourceSha256": "1f50c71b705ac5009873ebe53b75b8b42585ccc0d5fca2b9c01604e0da3a5bec",
+      "processedTextSha256": "1f50c71b705ac5009873ebe53b75b8b42585ccc0d5fca2b9c01604e0da3a5bec",
+      "receivedAt": "2026-09-14T18:35:58.074Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u065",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c13e2fe81363add03d1d",
+      "path": "/audio/spa/spa-c13e2fe81363add03d1d.mp3",
+      "bytes": 59350,
+      "sha256": "c7a6825942745512c128767811849df9c6fd3dc836feddbdc3d2b7fe6344e2e7",
+      "mime": "audio/mpeg",
+      "duration": 3.709375,
+      "sourceSha256": "c13e2fe81363add03d1d67c9933e6eda9e4e05822953921db70a903ccd296276",
+      "processedTextSha256": "c13e2fe81363add03d1d67c9933e6eda9e4e05822953921db70a903ccd296276",
+      "receivedAt": "2026-09-14T18:35:59.576Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u066",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-12486d31c8cc1cc44e13",
+      "path": "/audio/spa/spa-12486d31c8cc1cc44e13.mp3",
+      "bytes": 69799,
+      "sha256": "6f4221c4f5d97ead0061eba2fa7732c90c09971ffd9068428df5010799394657",
+      "mime": "audio/mpeg",
+      "duration": 4.362438,
+      "sourceSha256": "12486d31c8cc1cc44e13f4751647d7bb4d27c5698773c25b93f59f3f3be69f73",
+      "processedTextSha256": "12486d31c8cc1cc44e13f4751647d7bb4d27c5698773c25b93f59f3f3be69f73",
+      "receivedAt": "2026-09-14T18:36:03.703Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u067",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-4c83600c87a601e5e3cc",
+      "path": "/audio/spa/spa-4c83600c87a601e5e3cc.mp3",
+      "bytes": 314723,
+      "sha256": "3cd0a1f7ba96a9a934172bdaf3202ead394919a58e91f92127b05fa4d5e120d7",
+      "mime": "audio/mpeg",
+      "duration": 19.670188,
+      "sourceSha256": "4c83600c87a601e5e3ccb7598f05335b35d292fb16f97f18527d5cbc96026534",
+      "processedTextSha256": "4c83600c87a601e5e3ccb7598f05335b35d292fb16f97f18527d5cbc96026534",
+      "receivedAt": "2026-09-14T18:36:09.782Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u068",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-7b39b1d2a9b80f79b765",
+      "path": "/audio/spa/spa-7b39b1d2a9b80f79b765.mp3",
+      "bytes": 394553,
+      "sha256": "3b2cbcf22496ed329bf21b785888d790358e1faeb0ee6d3ab1486bdabc652388",
+      "mime": "audio/mpeg",
+      "duration": 24.659563,
+      "sourceSha256": "7b39b1d2a9b80f79b76510e313bfc5c0ce2997f78920a23a0ec90ac8efbeecd9",
+      "processedTextSha256": "7b39b1d2a9b80f79b76510e313bfc5c0ce2997f78920a23a0ec90ac8efbeecd9",
+      "receivedAt": "2026-09-14T18:36:15.823Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u069",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-2b3c44c307046e1d2898",
+      "path": "/audio/spa/spa-2b3c44c307046e1d2898.mp3",
+      "bytes": 85263,
+      "sha256": "778e23c39fb6647720ab921b1914671c45b4c430485fe1afc2a12feb10502923",
+      "mime": "audio/mpeg",
+      "duration": 5.328938,
+      "sourceSha256": "2b3c44c307046e1d2898b5179de5586ecfa753ff488511969d0cd0b9d2f4bf22",
+      "processedTextSha256": "2b3c44c307046e1d2898b5179de5586ecfa753ff488511969d0cd0b9d2f4bf22",
+      "receivedAt": "2026-09-14T18:36:17.673Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u070",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-cc7139fef2304a00edba",
+      "path": "/audio/spa/spa-cc7139fef2304a00edba.mp3",
+      "bytes": 308871,
+      "sha256": "26d819cb1b0d6facd3ff4332dbefaa132928c7a6657814270466bc7ca618a416",
+      "mime": "audio/mpeg",
+      "duration": 19.304438,
+      "sourceSha256": "cc7139fef2304a00edba1ce4e347c0ad2d738341a45bae388948630fe624fae9",
+      "processedTextSha256": "cc7139fef2304a00edba1ce4e347c0ad2d738341a45bae388948630fe624fae9",
+      "receivedAt": "2026-09-14T18:36:23.811Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u071",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-584ef8c296c03d09ebb6",
+      "path": "/audio/spa/spa-584ef8c296c03d09ebb6.mp3",
+      "bytes": 137926,
+      "sha256": "0cc18ad63c46f0cca7f324c10d76d097fc51dc17fef32e392c1e029916cfff1e",
+      "mime": "audio/mpeg",
+      "duration": 8.620375,
+      "sourceSha256": "584ef8c296c03d09ebb6608eb313607bdd74ef5461a064cc356e0d660349e127",
+      "processedTextSha256": "584ef8c296c03d09ebb6608eb313607bdd74ef5461a064cc356e0d660349e127",
+      "receivedAt": "2026-09-14T18:36:26.740Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u072",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-e77a0aff53f811cc67db",
+      "path": "/audio/spa/spa-e77a0aff53f811cc67db.mp3",
+      "bytes": 351503,
+      "sha256": "20d880777c809f092b5425a01bd131ebcb33c47cd8c4d85c463faf2bc895a495",
+      "mime": "audio/mpeg",
+      "duration": 21.968938,
+      "sourceSha256": "e77a0aff53f811cc67db2f2c9e4e661d9c8ec21f4aadb38d91928f34d0168d8e",
+      "processedTextSha256": "e77a0aff53f811cc67db2f2c9e4e661d9c8ec21f4aadb38d91928f34d0168d8e",
+      "receivedAt": "2026-09-14T18:36:32.562Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u073",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-194205c7344f07cb9663",
+      "path": "/audio/spa/spa-194205c7344f07cb9663.mp3",
+      "bytes": 346906,
+      "sha256": "3771215590305d81a623c04287d0e5ad01418d6c61e77afa78a1239cfe936fbc",
+      "mime": "audio/mpeg",
+      "duration": 21.681625,
+      "sourceSha256": "194205c7344f07cb9663c996dcdab75976a55c6802bac09725c75769d39567c2",
+      "processedTextSha256": "194205c7344f07cb9663c996dcdab75976a55c6802bac09725c75769d39567c2",
+      "receivedAt": "2026-09-14T18:36:36.259Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u074",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-05ed266a6c9c550d288a",
+      "path": "/audio/spa/spa-05ed266a6c9c550d288a.mp3",
+      "bytes": 101564,
+      "sha256": "ae4730db615e1f9d792e6810c62bbab2fb12d8f3e8f30e2311fa5eab7ab4b6e6",
+      "mime": "audio/mpeg",
+      "duration": 6.34775,
+      "sourceSha256": "05ed266a6c9c550d288acca180f41bfb07f2dd322974411b15f7e49aa5f5f0d0",
+      "processedTextSha256": "05ed266a6c9c550d288acca180f41bfb07f2dd322974411b15f7e49aa5f5f0d0",
+      "receivedAt": "2026-09-14T18:36:38.400Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u075",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-fa53405f5d77ef944930",
+      "path": "/audio/spa/spa-fa53405f5d77ef944930.mp3",
+      "bytes": 845531,
+      "sha256": "8a68017dc5e0e77fc219a51f84867e49e3cc5d5246a0336813fabbd27c91ea10",
+      "mime": "audio/mpeg",
+      "duration": 52.845688,
+      "sourceSha256": "fa53405f5d77ef9449302dd7cec62b47ff75f95d13294c98324fb1562103bc49",
+      "processedTextSha256": "fa53405f5d77ef9449302dd7cec62b47ff75f95d13294c98324fb1562103bc49",
+      "receivedAt": "2026-09-14T18:36:50.015Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u076",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-23b0b17313285a26c1f8",
+      "path": "/audio/spa/spa-23b0b17313285a26c1f8.mp3",
+      "bytes": 327680,
+      "sha256": "acd4560f1d48956c0b5035d0f0cce2c1f24212f37313cb7ce8730072616dda3b",
+      "mime": "audio/mpeg",
+      "duration": 20.48,
+      "sourceSha256": "23b0b17313285a26c1f85e1f4b3e666ff2afcf07b6f893adb77ef16d9cf20b50",
+      "processedTextSha256": "23b0b17313285a26c1f85e1f4b3e666ff2afcf07b6f893adb77ef16d9cf20b50",
+      "receivedAt": "2026-09-14T18:36:53.759Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u077",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-7813d8e648b67f168c0b",
+      "path": "/audio/spa/spa-7813d8e648b67f168c0b.mp3",
+      "bytes": 323082,
+      "sha256": "1d5add84f8d7cfe96c279e571b5fd64953fe6c6c4b58a38a0b6222eeeb6865c6",
+      "mime": "audio/mpeg",
+      "duration": 20.192625,
+      "sourceSha256": "7813d8e648b67f168c0b57fbb80e2a4c04e11b27b4472455d4e48936847b7525",
+      "processedTextSha256": "7813d8e648b67f168c0b57fbb80e2a4c04e11b27b4472455d4e48936847b7525",
+      "receivedAt": "2026-09-14T18:36:57.584Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u078",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-1f1c9921704330d57670",
+      "path": "/audio/spa/spa-1f1c9921704330d57670.mp3",
+      "bytes": 224862,
+      "sha256": "51abb39918b0ed006698d5ed081eefd9f487d398aef1b7e681a79a54b3c92903",
+      "mime": "audio/mpeg",
+      "duration": 14.053875,
+      "sourceSha256": "1f1c9921704330d57670fb9e441e66be1ec9342b0dffc39d242cb99d51e6eb4b",
+      "processedTextSha256": "1f1c9921704330d57670fb9e441e66be1ec9342b0dffc39d242cb99d51e6eb4b",
+      "receivedAt": "2026-09-14T18:37:01.027Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s4-u079",
+          "classification": "optional-example",
+          "playbackGroupId": "guide-step-4-optional-example",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-f9e06faadbceb5404492",
+      "path": "/audio/spa/spa-f9e06faadbceb5404492.mp3",
+      "bytes": 25077,
+      "sha256": "0e6d8be0ba66d69dc97e2009e4e4a3703de51e2a7b51e245fb47f90ad7ad1155",
+      "mime": "audio/mpeg",
+      "duration": 1.567313,
+      "sourceSha256": "f9e06faadbceb5404492004a5137e11930d3d6aa3a8bdb4b106b65c86078c221",
+      "processedTextSha256": "f9e06faadbceb5404492004a5137e11930d3d6aa3a8bdb4b106b65c86078c221",
+      "receivedAt": "2026-09-14T18:37:03.583Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u080",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c9609495bd4e2ce27ba7",
+      "path": "/audio/spa/spa-c9609495bd4e2ce27ba7.mp3",
+      "bytes": 77740,
+      "sha256": "71ee666b84db1db804e049470df5e9626f8fc3605a4eb8e671c9fb4e2da7c5b9",
+      "mime": "audio/mpeg",
+      "duration": 4.85875,
+      "sourceSha256": "c9609495bd4e2ce27ba75ab32d21e0ae2f73712479f74686685e068aed512dc3",
+      "processedTextSha256": "c9609495bd4e2ce27ba75ab32d21e0ae2f73712479f74686685e068aed512dc3",
+      "receivedAt": "2026-09-14T18:37:08.042Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u082",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-1108bd5b7c8e7ddec8c4",
+      "path": "/audio/spa/spa-1108bd5b7c8e7ddec8c4.mp3",
+      "bytes": 381596,
+      "sha256": "75ef3772f7585a7e394295cd5debd641b3ec63e42b656feca0a8511ef26491d0",
+      "mime": "audio/mpeg",
+      "duration": 23.84975,
+      "sourceSha256": "1108bd5b7c8e7ddec8c4d393838f841009709ae9cb79c2f1f912ecdc803de9bf",
+      "processedTextSha256": "1108bd5b7c8e7ddec8c4d393838f841009709ae9cb79c2f1f912ecdc803de9bf",
+      "receivedAt": "2026-09-14T18:37:15.394Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u083",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-29e3130cbb860a1b0a80",
+      "path": "/audio/spa/spa-29e3130cbb860a1b0a80.mp3",
+      "bytes": 205635,
+      "sha256": "2b26bc46a8091a703b82c488ec45af4de1f5cf71debffa5c0ceedac1f642c133",
+      "mime": "audio/mpeg",
+      "duration": 12.852188,
+      "sourceSha256": "29e3130cbb860a1b0a800687c6562195dd20a4b46ba2cee3a0c8541337bc743d",
+      "processedTextSha256": "29e3130cbb860a1b0a800687c6562195dd20a4b46ba2cee3a0c8541337bc743d",
+      "receivedAt": "2026-09-14T18:37:17.956Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u084",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-0de2245a4512022e7991",
+      "path": "/audio/spa/spa-0de2245a4512022e7991.mp3",
+      "bytes": 597263,
+      "sha256": "9002f69b09556a6acc494a2969967c998007db53a33e487eee8d3112a8e5ee02",
+      "mime": "audio/mpeg",
+      "duration": 37.328938,
+      "sourceSha256": "0de2245a4512022e7991a4f87e4ebe6ab53da8ce3f5b8ef0a06825524f8e024d",
+      "processedTextSha256": "0de2245a4512022e7991a4f87e4ebe6ab53da8ce3f5b8ef0a06825524f8e024d",
+      "receivedAt": "2026-09-14T18:37:26.416Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u085",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-9cf40fd7601c13968791",
+      "path": "/audio/spa/spa-9cf40fd7601c13968791.mp3",
+      "bytes": 233221,
+      "sha256": "d0505d9badd9c23f02aec136482982a61c06ce7e70dd121bff7a73dbd8effb52",
+      "mime": "audio/mpeg",
+      "duration": 14.576313,
+      "sourceSha256": "9cf40fd7601c13968791eb7c823e9bfad97f633637292750550e3785f8c55e13",
+      "processedTextSha256": "9cf40fd7601c13968791eb7c823e9bfad97f633637292750550e3785f8c55e13",
+      "receivedAt": "2026-09-14T18:37:29.410Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u086",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-ac1af0d97a2cd4275c0e",
+      "path": "/audio/spa/spa-ac1af0d97a2cd4275c0e.mp3",
+      "bytes": 578873,
+      "sha256": "2f4ffd89cfa2c799d4df3bb1be18be37a2594baec3ee890708986f1ce1107fa7",
+      "mime": "audio/mpeg",
+      "duration": 36.179563,
+      "sourceSha256": "ac1af0d97a2cd4275c0e3382701c86532f98a43cee767ba1cdb78b757f6a0ad6",
+      "processedTextSha256": "ac1af0d97a2cd4275c0e3382701c86532f98a43cee767ba1cdb78b757f6a0ad6",
+      "receivedAt": "2026-09-14T18:37:37.825Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u087",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-b50876c473f87aadc648",
+      "path": "/audio/spa/spa-b50876c473f87aadc648.mp3",
+      "bytes": 196858,
+      "sha256": "fa27dc74ea6ecdd9f5c79b760bbf3f51926764e6b51658d87e5df2481ab3394c",
+      "mime": "audio/mpeg",
+      "duration": 12.303625,
+      "sourceSha256": "b50876c473f87aadc648835834229d806ad20d095cc47710c94d0cdc956f3c0a",
+      "processedTextSha256": "b50876c473f87aadc648835834229d806ad20d095cc47710c94d0cdc956f3c0a",
+      "receivedAt": "2026-09-14T18:37:40.404Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u088",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-df3252498b5fe4cdb66f",
+      "path": "/audio/spa/spa-df3252498b5fe4cdb66f.mp3",
+      "bytes": 180976,
+      "sha256": "9f1911983fbac2bbfa641010a7a806dc2d39e5ca8f7b9474cabafff597c8b883",
+      "mime": "audio/mpeg",
+      "duration": 11.311,
+      "sourceSha256": "df3252498b5fe4cdb66f84102d49368f37ce4f6402b8511f530cc62851d8f0fe",
+      "processedTextSha256": "df3252498b5fe4cdb66f84102d49368f37ce4f6402b8511f530cc62851d8f0fe",
+      "receivedAt": "2026-09-14T18:37:44.365Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u089",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-8df62f06d8d3dfd5a1ca",
+      "path": "/audio/spa/spa-8df62f06d8d3dfd5a1ca.mp3",
+      "bytes": 36362,
+      "sha256": "332e077b494225bde7a07f2acbb890b974c4feb4d6b44fcb6be871684123ff0a",
+      "mime": "audio/mpeg",
+      "duration": 2.272625,
+      "sourceSha256": "8df62f06d8d3dfd5a1cae3fbba24b00228bb4b6ad4b9cd206a88c0cb3b86c128",
+      "processedTextSha256": "8df62f06d8d3dfd5a1cae3fbba24b00228bb4b6ad4b9cd206a88c0cb3b86c128",
+      "receivedAt": "2026-09-14T18:37:47.358Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u090",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-684f52208f134f38591e",
+      "path": "/audio/spa/spa-684f52208f134f38591e.mp3",
+      "bytes": 35526,
+      "sha256": "2ba5d22c91abff89fd71fa5951c87ade2b20f1c6bbde9a97631d94d5a3e73059",
+      "mime": "audio/mpeg",
+      "duration": 2.220375,
+      "sourceSha256": "684f52208f134f38591e713901f6e662d8f5bbf230ad6a552d23d2165a409198",
+      "processedTextSha256": "684f52208f134f38591e713901f6e662d8f5bbf230ad6a552d23d2165a409198",
+      "receivedAt": "2026-09-14T18:37:51.425Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u091",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-dd911355b54ac0b19aa2",
+      "path": "/audio/spa/spa-dd911355b54ac0b19aa2.mp3",
+      "bytes": 97802,
+      "sha256": "75111ebef1465e6cc4a10e6b9a8a407e659fd5100709fe3cf8520e23c37c2f12",
+      "mime": "audio/mpeg",
+      "duration": 6.112625,
+      "sourceSha256": "dd911355b54ac0b19aa207cb6602a654a7b1db2890c643a146ac3699c4c742af",
+      "processedTextSha256": "dd911355b54ac0b19aa207cb6602a654a7b1db2890c643a146ac3699c4c742af",
+      "receivedAt": "2026-09-14T18:37:56.187Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u092",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-dfb848821c181197904b",
+      "path": "/audio/spa/spa-dfb848821c181197904b.mp3",
+      "bytes": 200620,
+      "sha256": "3350b56373b8dfb7707f7ac1193abbcced47c9960c63143f2eda918ac5b6360c",
+      "mime": "audio/mpeg",
+      "duration": 12.53875,
+      "sourceSha256": "dfb848821c181197904bff7fbe6eef61ca0226b75cf6d09e059584e88405ece6",
+      "processedTextSha256": "dfb848821c181197904bff7fbe6eef61ca0226b75cf6d09e059584e88405ece6",
+      "receivedAt": "2026-09-14T18:38:00.891Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u093",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-056bb7f37975753e8168",
+      "path": "/audio/spa/spa-056bb7f37975753e8168.mp3",
+      "bytes": 498625,
+      "sha256": "fa171da49377872e84c98e3aa79da0ee3bb95017972e88d2d6da70c4543224fb",
+      "mime": "audio/mpeg",
+      "duration": 31.164063,
+      "sourceSha256": "056bb7f37975753e81687947c751197e2686f644a12bf58dedd63b328bcef2be",
+      "processedTextSha256": "056bb7f37975753e81687947c751197e2686f644a12bf58dedd63b328bcef2be",
+      "receivedAt": "2026-09-14T18:38:08.008Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u094",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-787de669745a75fb967b",
+      "path": "/audio/spa/spa-787de669745a75fb967b.mp3",
+      "bytes": 239072,
+      "sha256": "aa67274c71d60328241993810a37787e418447cf53268a4fe1ce792fbfe21e85",
+      "mime": "audio/mpeg",
+      "duration": 14.942,
+      "sourceSha256": "787de669745a75fb967ba1dda648fe29d2092d5193e77d243fd2dfa03198d711",
+      "processedTextSha256": "787de669745a75fb967ba1dda648fe29d2092d5193e77d243fd2dfa03198d711",
+      "receivedAt": "2026-09-14T18:38:11.127Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u095",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c36d9fe9d8165dd56c08",
+      "path": "/audio/spa/spa-c36d9fe9d8165dd56c08.mp3",
+      "bytes": 152137,
+      "sha256": "a5d5bf030c94eb86647c3289c7773d21925b5c134c3f6062fc892ecac3040391",
+      "mime": "audio/mpeg",
+      "duration": 9.508563,
+      "sourceSha256": "c36d9fe9d8165dd56c085e5f54938e346c9805b058d1c3133eb63fa14ccbbd45",
+      "processedTextSha256": "c36d9fe9d8165dd56c085e5f54938e346c9805b058d1c3133eb63fa14ccbbd45",
+      "receivedAt": "2026-09-14T18:38:14.357Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u096",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-5e249bd6f2ec1c21359f",
+      "path": "/audio/spa/spa-5e249bd6f2ec1c21359f.mp3",
+      "bytes": 191425,
+      "sha256": "af7e456ed28c796cfa13f658dc292f84ca46631936a2dbab7f1f79102c689168",
+      "mime": "audio/mpeg",
+      "duration": 11.964063,
+      "sourceSha256": "5e249bd6f2ec1c21359f29815dfbdfa85cf47100db5bfaeca1e29366be7ce0af",
+      "processedTextSha256": "5e249bd6f2ec1c21359f29815dfbdfa85cf47100db5bfaeca1e29366be7ce0af",
+      "receivedAt": "2026-09-14T18:38:18.735Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u097",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-1a03b1e6fe1d96cf12f4",
+      "path": "/audio/spa/spa-1a03b1e6fe1d96cf12f4.mp3",
+      "bytes": 868519,
+      "sha256": "38a427c72af9878a9e5dedb677982abbb324e053ff5ac875ef84414e31aa2ab8",
+      "mime": "audio/mpeg",
+      "duration": 54.282438,
+      "sourceSha256": "1a03b1e6fe1d96cf12f411dc18d8532acd88af7d09205d7a4a1f8f877195a0d3",
+      "processedTextSha256": "1a03b1e6fe1d96cf12f411dc18d8532acd88af7d09205d7a4a1f8f877195a0d3",
+      "receivedAt": "2026-09-14T18:38:29.692Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u098",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-dacc1bd998b0d287db16",
+      "path": "/audio/spa/spa-dacc1bd998b0d287db16.mp3",
+      "bytes": 239072,
+      "sha256": "2c8259b2bf97a0d7021f833fcc8f0a78aab753580dea5b116b48bb0963ebaafe",
+      "mime": "audio/mpeg",
+      "duration": 14.942,
+      "sourceSha256": "dacc1bd998b0d287db162cb48b6cc976c8091e0f5370ff7196ccc02e7ccc7899",
+      "processedTextSha256": "dacc1bd998b0d287db162cb48b6cc976c8091e0f5370ff7196ccc02e7ccc7899",
+      "receivedAt": "2026-09-14T18:38:32.578Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u099",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-f0818745f7e2f8795208",
+      "path": "/audio/spa/spa-f0818745f7e2f8795208.mp3",
+      "bytes": 867683,
+      "sha256": "7df886043fc70247c3a4bb2ebd8d18b43735b1dd426f8cb0647e58e6a6f7fb04",
+      "mime": "audio/mpeg",
+      "duration": 54.230188,
+      "sourceSha256": "f0818745f7e2f8795208072f32fc89bc69646844392a68a7ada853fd97bc3b01",
+      "processedTextSha256": "f0818745f7e2f8795208072f32fc89bc69646844392a68a7ada853fd97bc3b01",
+      "receivedAt": "2026-09-14T18:38:44.088Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u100",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-cacb4118ef1a6020f2fe",
+      "path": "/audio/spa/spa-cacb4118ef1a6020f2fe.mp3",
+      "bytes": 30511,
+      "sha256": "6c9ae002c174e5c8fdc287e48093f41efac5a72354fbe0294081d16f3aea91b1",
+      "mime": "audio/mpeg",
+      "duration": 1.906938,
+      "sourceSha256": "cacb4118ef1a6020f2fe465219516c18c318e7a23fb9ec30485dc4cbc47f8147",
+      "processedTextSha256": "cacb4118ef1a6020f2fe465219516c18c318e7a23fb9ec30485dc4cbc47f8147",
+      "receivedAt": "2026-09-14T18:38:45.327Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u101",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-574c7acf97135176d6e0",
+      "path": "/audio/spa/spa-574c7acf97135176d6e0.mp3",
+      "bytes": 30511,
+      "sha256": "f07a956fecc3938e908545939506abb8f9e190b98bc40caebe08da65e4e5cef0",
+      "mime": "audio/mpeg",
+      "duration": 1.906938,
+      "sourceSha256": "574c7acf97135176d6e011d368c7a208e0754d273e82302bf900a707b3d96934",
+      "processedTextSha256": "574c7acf97135176d6e011d368c7a208e0754d273e82302bf900a707b3d96934",
+      "receivedAt": "2026-09-14T18:38:49.480Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u102",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-e61178c7647060ace324",
+      "path": "/audio/spa/spa-e61178c7647060ace324.mp3",
+      "bytes": 22151,
+      "sha256": "6f476a6f9c4af617c207f7cb3ac3982625c1e77cb0ad2338901423d300202900",
+      "mime": "audio/mpeg",
+      "duration": 1.384438,
+      "sourceSha256": "e61178c7647060ace324a83892696a5dc0944769a676e76f66db62916d4b04ad",
+      "processedTextSha256": "e61178c7647060ace324a83892696a5dc0944769a676e76f66db62916d4b04ad",
+      "receivedAt": "2026-09-14T18:38:53.483Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u103",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-b7e400ae71986c9cae01",
+      "path": "/audio/spa/spa-b7e400ae71986c9cae01.mp3",
+      "bytes": 20480,
+      "sha256": "930e6530221cd82e2a9b0a5b5d610ac0996d58ed00ca5e4c247a9234ea580367",
+      "mime": "audio/mpeg",
+      "duration": 1.28,
+      "sourceSha256": "b7e400ae71986c9cae01aeb9d84065d403fdbacf00670954ac8f68b395519e3a",
+      "processedTextSha256": "b7e400ae71986c9cae01aeb9d84065d403fdbacf00670954ac8f68b395519e3a",
+      "receivedAt": "2026-09-14T18:38:57.624Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u104",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-7ba0b62005fa40474e29",
+      "path": "/audio/spa/spa-7ba0b62005fa40474e29.mp3",
+      "bytes": 14628,
+      "sha256": "9c315f465bc582a05f774f2a297494fdb63dfa6386a9a904149db0ba18c326ef",
+      "mime": "audio/mpeg",
+      "duration": 0.91425,
+      "sourceSha256": "7ba0b62005fa40474e29d1b1421f38d90f1868f84089705a513fc49478a345ae",
+      "processedTextSha256": "7ba0b62005fa40474e29d1b1421f38d90f1868f84089705a513fc49478a345ae",
+      "receivedAt": "2026-09-14T18:39:01.676Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u105",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-f973d142da952787a0de",
+      "path": "/audio/spa/spa-f973d142da952787a0de.mp3",
+      "bytes": 17136,
+      "sha256": "c9e28a2837113e0a11ac060e905d54b123e4e375c12c217e75253601da0d62fe",
+      "mime": "audio/mpeg",
+      "duration": 1.071,
+      "sourceSha256": "f973d142da952787a0de7a7e92f22e2c3ba94111c869d6ce99f03bd5977e1f44",
+      "processedTextSha256": "f973d142da952787a0de7a7e92f22e2c3ba94111c869d6ce99f03bd5977e1f44",
+      "receivedAt": "2026-09-14T18:39:05.747Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u106",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-833f196c62dd1f55b9e3",
+      "path": "/audio/spa/spa-833f196c62dd1f55b9e3.mp3",
+      "bytes": 14628,
+      "sha256": "773fa9e64ce9295d0f8d17badb6e078e1131090f91b40da842da9ba00ec57202",
+      "mime": "audio/mpeg",
+      "duration": 0.91425,
+      "sourceSha256": "833f196c62dd1f55b9e3eac599ef8563673da8a8972349f3602a3e67bac20fc1",
+      "processedTextSha256": "833f196c62dd1f55b9e3eac599ef8563673da8a8972349f3602a3e67bac20fc1",
+      "receivedAt": "2026-09-14T18:39:09.964Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u107",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-1aa30af8da4baf55ebbe",
+      "path": "/audio/spa/spa-1aa30af8da4baf55ebbe.mp3",
+      "bytes": 34690,
+      "sha256": "0aa3271f1d4933b5d355e8dcbaba19a4a3cd4aaa37b91642f5bb5611bf717f1b",
+      "mime": "audio/mpeg",
+      "duration": 2.168125,
+      "sourceSha256": "1aa30af8da4baf55ebbe985db960d2060711d2e280b6c370a6e824d31b254ed9",
+      "processedTextSha256": "1aa30af8da4baf55ebbe985db960d2060711d2e280b6c370a6e824d31b254ed9",
+      "receivedAt": "2026-09-14T18:39:14.163Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u108",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-9d6f60887b72a9a22d1f",
+      "path": "/audio/spa/spa-9d6f60887b72a9a22d1f.mp3",
+      "bytes": 544600,
+      "sha256": "5630ec30f0d9f915c9a3e12893685670fd9288532f7694bb6bd785a9018d2116",
+      "mime": "audio/mpeg",
+      "duration": 34.0375,
+      "sourceSha256": "9d6f60887b72a9a22d1f6c3ddafc6f02a6b3d5ba868359e0c6bed7c0c7616313",
+      "processedTextSha256": "9d6f60887b72a9a22d1f6c3ddafc6f02a6b3d5ba868359e0c6bed7c0c7616313",
+      "receivedAt": "2026-09-14T18:39:23.006Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u109",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-f11f3e8c6dceb511298b",
+      "path": "/audio/spa/spa-f11f3e8c6dceb511298b.mp3",
+      "bytes": 250357,
+      "sha256": "3235fc9a0e7d5bf0aec05b2a46b0c5d1ef6f9bdd692ec25ddb0932da9e7d4e4f",
+      "mime": "audio/mpeg",
+      "duration": 15.647313,
+      "sourceSha256": "f11f3e8c6dceb511298b6c99f02cdf6c5d880c568aa9735612b39de890ca7ee1",
+      "processedTextSha256": "f11f3e8c6dceb511298b6c99f02cdf6c5d880c568aa9735612b39de890ca7ee1",
+      "receivedAt": "2026-09-14T18:39:26.035Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u110",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-ce2d9bcbdca2232c069b",
+      "path": "/audio/spa/spa-ce2d9bcbdca2232c069b.mp3",
+      "bytes": 223608,
+      "sha256": "1f4b2bf3fcfbb58594712287827f9bc907404bbfead2b270e4f81502008840d3",
+      "mime": "audio/mpeg",
+      "duration": 13.9755,
+      "sourceSha256": "ce2d9bcbdca2232c069b567626ec9ad809008355cb167f68edd53b6f1424f597",
+      "processedTextSha256": "ce2d9bcbdca2232c069b567626ec9ad809008355cb167f68edd53b6f1424f597",
+      "receivedAt": "2026-09-14T18:39:30.031Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u111",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c46a850955242392acdb",
+      "path": "/audio/spa/spa-c46a850955242392acdb.mp3",
+      "bytes": 862667,
+      "sha256": "f6ea7fe6391c94a598067e8480e5078ed718936c5a73b736919e04c7d18caf42",
+      "mime": "audio/mpeg",
+      "duration": 53.916688,
+      "sourceSha256": "c46a850955242392acdb63fe74cc754679c96715da269a92648879bc90c9caf1",
+      "processedTextSha256": "c46a850955242392acdb63fe74cc754679c96715da269a92648879bc90c9caf1",
+      "receivedAt": "2026-09-14T18:39:41.092Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u112",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-49254e72ecb8ac7f7138",
+      "path": "/audio/spa/spa-49254e72ecb8ac7f7138.mp3",
+      "bytes": 155062,
+      "sha256": "312642b400ae1de3f41f20c2a2a58f485b9bd5b2edc27c0d048c9e91a1004c23",
+      "mime": "audio/mpeg",
+      "duration": 9.691375,
+      "sourceSha256": "49254e72ecb8ac7f71380b41ff153cff98591d791d2f8f14cc747e41a34661aa",
+      "processedTextSha256": "49254e72ecb8ac7f71380b41ff153cff98591d791d2f8f14cc747e41a34661aa",
+      "receivedAt": "2026-09-14T18:39:43.222Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u113",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-94e07de5b282152bc817",
+      "path": "/audio/spa/spa-94e07de5b282152bc817.mp3",
+      "bytes": 303020,
+      "sha256": "ed2891b6aff7cfce0f445dfc69b097cfcec705aa20c0a8520054eca364c385d8",
+      "mime": "audio/mpeg",
+      "duration": 18.93875,
+      "sourceSha256": "94e07de5b282152bc817a3677f285218471fb74dfd2103cccdc000a7abdf1ce9",
+      "processedTextSha256": "94e07de5b282152bc817a3677f285218471fb74dfd2103cccdc000a7abdf1ce9",
+      "receivedAt": "2026-09-14T18:39:49.407Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u114",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-eea97a34cad4f36ab8d9",
+      "path": "/audio/spa/spa-eea97a34cad4f36ab8d9.mp3",
+      "bytes": 242834,
+      "sha256": "5802da5044b0eccdb04c2b0b1d8e174eafe3088e4f76314490fe5c634c2b4bf5",
+      "mime": "audio/mpeg",
+      "duration": 15.177125,
+      "sourceSha256": "eea97a34cad4f36ab8d95ec8edceba5d570d5911b43def8d4da372ef63642b1e",
+      "processedTextSha256": "eea97a34cad4f36ab8d95ec8edceba5d570d5911b43def8d4da372ef63642b1e",
+      "receivedAt": "2026-09-14T18:39:52.441Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u115",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-fd340a8b02a5d335592b",
+      "path": "/audio/spa/spa-fd340a8b02a5d335592b.mp3",
+      "bytes": 374491,
+      "sha256": "92cf66d765ee9292e5ff7f840bda9b71e36999c59e0d5fa8ec8b02035ac19cef",
+      "mime": "audio/mpeg",
+      "duration": 23.405688,
+      "sourceSha256": "fd340a8b02a5d335592bfd335b4e3e8354422477d3c72ad45994fbf2cf7b078d",
+      "processedTextSha256": "fd340a8b02a5d335592bfd335b4e3e8354422477d3c72ad45994fbf2cf7b078d",
+      "receivedAt": "2026-09-14T18:39:58.312Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u116",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-924a315e4b396d03b40a",
+      "path": "/audio/spa/spa-924a315e4b396d03b40a.mp3",
+      "bytes": 264568,
+      "sha256": "e5aa9bcc0cc3d9bc146ed3bdaf772d2ca7c517be49557df9f5dff8517306ba62",
+      "mime": "audio/mpeg",
+      "duration": 16.5355,
+      "sourceSha256": "924a315e4b396d03b40a8eb29877ef87b7cb94b57abb9e37a414e3ca762b730d",
+      "processedTextSha256": "924a315e4b396d03b40a8eb29877ef87b7cb94b57abb9e37a414e3ca762b730d",
+      "receivedAt": "2026-09-14T18:40:01.484Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u117",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c0997080df99667bad9d",
+      "path": "/audio/spa/spa-c0997080df99667bad9d.mp3",
+      "bytes": 225697,
+      "sha256": "04b03c111681c2598b51a3d9a4ce32ff1a3e3056c97709bf1a848eab9d3c9ea1",
+      "mime": "audio/mpeg",
+      "duration": 14.106063,
+      "sourceSha256": "c0997080df99667bad9dd24340b1a42f5cc1a7ceb6917fb8b1e71debf1b1890e",
+      "processedTextSha256": "c0997080df99667bad9dd24340b1a42f5cc1a7ceb6917fb8b1e71debf1b1890e",
+      "receivedAt": "2026-09-14T18:40:05.253Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u118",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-07ba5c1aadbd7264b559",
+      "path": "/audio/spa/spa-07ba5c1aadbd7264b559.mp3",
+      "bytes": 64365,
+      "sha256": "507f687673f54f011a7da92e753511f6749854a12b0659f204723c0f700ebec1",
+      "mime": "audio/mpeg",
+      "duration": 4.022813,
+      "sourceSha256": "07ba5c1aadbd7264b5597bb0dd01e8bfcd44f7d7bfa14e2896c0876b8fffc317",
+      "processedTextSha256": "07ba5c1aadbd7264b5597bb0dd01e8bfcd44f7d7bfa14e2896c0876b8fffc317",
+      "receivedAt": "2026-09-14T18:40:08.820Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u119",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-92aff7635dc892971f41",
+      "path": "/audio/spa/spa-92aff7635dc892971f41.mp3",
+      "bytes": 323082,
+      "sha256": "6fe6b480f06309d99bcef05d3ddf4818ed0a34a025034be06432b601cb8a7f70",
+      "mime": "audio/mpeg",
+      "duration": 20.192625,
+      "sourceSha256": "92aff7635dc892971f41428ce5f110e30bd24611c1744c44a9ebb91502af23a6",
+      "processedTextSha256": "92aff7635dc892971f41428ce5f110e30bd24611c1744c44a9ebb91502af23a6",
+      "receivedAt": "2026-09-14T18:40:14.281Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u120",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-f187d43e94ac25783a4b",
+      "path": "/audio/spa/spa-f187d43e94ac25783a4b.mp3",
+      "bytes": 219846,
+      "sha256": "d7cbcd8da8eb44ccd891320d3cdce024e8e7bd92f55828c8b4a8ec56bb75148f",
+      "mime": "audio/mpeg",
+      "duration": 13.740375,
+      "sourceSha256": "f187d43e94ac25783a4bf5058001c0705bc4b66b7e5fbe4cae7251c7f9b18846",
+      "processedTextSha256": "f187d43e94ac25783a4bf5058001c0705bc4b66b7e5fbe4cae7251c7f9b18846",
+      "receivedAt": "2026-09-14T18:40:17.490Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u121",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-7bac70a00ef723a1c33c",
+      "path": "/audio/spa/spa-7bac70a00ef723a1c33c.mp3",
+      "bytes": 675422,
+      "sha256": "b6f78d985ccd5c47633095882cd187158900f95c17078eb4f0405d8042e04063",
+      "mime": "audio/mpeg",
+      "duration": 42.213875,
+      "sourceSha256": "7bac70a00ef723a1c33c27b15793a605fb943ec328242ec66bbad475306cd029",
+      "processedTextSha256": "7bac70a00ef723a1c33c27b15793a605fb943ec328242ec66bbad475306cd029",
+      "receivedAt": "2026-09-14T18:40:26.644Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u122",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-90ff7e00c5c30276febd",
+      "path": "/audio/spa/spa-90ff7e00c5c30276febd.mp3",
+      "bytes": 208561,
+      "sha256": "adb9b859aa4360fac4e37506b6be1a1caaca8ef1f59468f3a5ed24f32e73bc39",
+      "mime": "audio/mpeg",
+      "duration": 13.035063,
+      "sourceSha256": "90ff7e00c5c30276febd74419c202764c79024cd5fb5786e4f5a1569f4110ccb",
+      "processedTextSha256": "90ff7e00c5c30276febd74419c202764c79024cd5fb5786e4f5a1569f4110ccb",
+      "receivedAt": "2026-09-14T18:40:29.206Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s5-u123",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-5",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-09c2652e37d70bd7505d",
+      "path": "/audio/spa/spa-09c2652e37d70bd7505d.mp3",
+      "bytes": 22151,
+      "sha256": "00d6b615647d062c7333e69695dd32bafc9bc3614696c4276d673804e41b38ae",
+      "mime": "audio/mpeg",
+      "duration": 1.384438,
+      "sourceSha256": "09c2652e37d70bd7505dc05da4ef3cb3992524820c45278e8f296f29262ae170",
+      "processedTextSha256": "09c2652e37d70bd7505dc05da4ef3cb3992524820c45278e8f296f29262ae170",
+      "receivedAt": "2026-09-14T18:40:32.079Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s6-u126",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-6",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-f8453f85e85c4f0a4b69",
+      "path": "/audio/spa/spa-f8453f85e85c4f0a4b69.mp3",
+      "bytes": 73560,
+      "sha256": "6643243ad3594df48802d544b090cf3e25e9eede52f7d21757d9ad34f5ef6077",
+      "mime": "audio/mpeg",
+      "duration": 4.5975,
+      "sourceSha256": "f8453f85e85c4f0a4b69b0b46ac6ef50e1a34586b2a8d85373cc641904245030",
+      "processedTextSha256": "f8453f85e85c4f0a4b69b0b46ac6ef50e1a34586b2a8d85373cc641904245030",
+      "receivedAt": "2026-09-14T18:40:36.382Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s6-u127",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-6",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-dc8d87b718ab48be45c1",
+      "path": "/audio/spa/spa-dc8d87b718ab48be45c1.mp3",
+      "bytes": 69799,
+      "sha256": "d52c4d48caece9c03d436dfcd8079c800441541be18507af074ab8d9cd961669",
+      "mime": "audio/mpeg",
+      "duration": 4.362438,
+      "sourceSha256": "dc8d87b718ab48be45c12d5ef7fd7aa13e507308003c5cdac798814e28ed689c",
+      "processedTextSha256": "dc8d87b718ab48be45c12d5ef7fd7aa13e507308003c5cdac798814e28ed689c",
+      "receivedAt": "2026-09-14T18:40:40.494Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s6-u128",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-6",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-d5199196246e6e436f04",
+      "path": "/audio/spa/spa-d5199196246e6e436f04.mp3",
+      "bytes": 297169,
+      "sha256": "d063b1ffd0de30ec7deea9dbaed186654b09cde61aef190fa6b9a7e704fecacf",
+      "mime": "audio/mpeg",
+      "duration": 18.573063,
+      "sourceSha256": "d5199196246e6e436f0407f9f181493f47027053a808173117bdfd8873196f08",
+      "processedTextSha256": "d5199196246e6e436f0407f9f181493f47027053a808173117bdfd8873196f08",
+      "receivedAt": "2026-09-14T18:40:46.431Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s6-u129",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-6",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c62d7b8c4f8371325a7f",
+      "path": "/audio/spa/spa-c62d7b8c4f8371325a7f.mp3",
+      "bytes": 349831,
+      "sha256": "0e53ece59b616c62e6b2f72c310522d73af966ed2ce9342e787d23fec6bcdfe7",
+      "mime": "audio/mpeg",
+      "duration": 21.864438,
+      "sourceSha256": "c62d7b8c4f8371325a7f8298fccafd013c2ee764a86f111f0be97118bbde2b0b",
+      "processedTextSha256": "c62d7b8c4f8371325a7f8298fccafd013c2ee764a86f111f0be97118bbde2b0b",
+      "receivedAt": "2026-09-14T18:40:51.209Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s6-u130",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-6",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-31a786fec583ceb180fa",
+      "path": "/audio/spa/spa-31a786fec583ceb180fa.mp3",
+      "bytes": 298422,
+      "sha256": "71904d20de4b5047bc0df75960d1c21518224d9032063fd3920bcb7cf0e31524",
+      "mime": "audio/mpeg",
+      "duration": 18.651375,
+      "sourceSha256": "31a786fec583ceb180fa0301768d9c1f4b6af3a6c9161284c1fbe707141a96fd",
+      "processedTextSha256": "31a786fec583ceb180fa0301768d9c1f4b6af3a6c9161284c1fbe707141a96fd",
+      "receivedAt": "2026-09-14T18:40:54.636Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s6-u132",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-6",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-d1696a6680aad7992b52",
+      "path": "/audio/spa/spa-d1696a6680aad7992b52.mp3",
+      "bytes": 216920,
+      "sha256": "629e3d2983ebf60ff632ef8c95483419e79895672e12d939eaa6c838d103f9e8",
+      "mime": "audio/mpeg",
+      "duration": 13.5575,
+      "sourceSha256": "d1696a6680aad7992b5248e16df23cb7961307e4ba5856fba75837d8776ea122",
+      "processedTextSha256": "d1696a6680aad7992b5248e16df23cb7961307e4ba5856fba75837d8776ea122",
+      "receivedAt": "2026-09-14T18:40:58.204Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s6-u134",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-6",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-6234380e25a263338aa8",
+      "path": "/audio/spa/spa-6234380e25a263338aa8.mp3",
+      "bytes": 178886,
+      "sha256": "ced58ccbb1138d0425ab30ea944e9a81aacff9bce11cc423dc2ca333f01e0e88",
+      "mime": "audio/mpeg",
+      "duration": 11.180375,
+      "sourceSha256": "6234380e25a263338aa84d2ca7508034386b5e000591b9775d267ea812ec02f2",
+      "processedTextSha256": "6234380e25a263338aa84d2ca7508034386b5e000591b9775d267ea812ec02f2",
+      "receivedAt": "2026-09-14T18:41:01.741Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-mrk-p1-v2.1-s6-u136",
+          "classification": "required-guide",
+          "playbackGroupId": "guide-step-6",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-cd59ad31c7173e99eba0",
+      "path": "/audio/spa/spa-cd59ad31c7173e99eba0.mp3",
+      "bytes": 2367320,
+      "sha256": "65506b5a14bc0ce8409a715e69e6a262729f24909ea48c6cc83fa0994a325275",
+      "mime": "audio/mpeg",
+      "duration": 147.9575,
+      "sourceSha256": "cd59ad31c7173e99eba086b40074ef846add33a00a764dfe3c0643f23b6550d3",
+      "processedTextSha256": "a5d78b4e379dbb09877fcd2616ac58de03bdbb9ac76b46be7a64f589a16e3655",
+      "receivedAt": "2026-09-14T18:41:30.725Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t63-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t63-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-e74eca9707483169f4b2",
+      "path": "/audio/spa/spa-e74eca9707483169f4b2.mp3",
+      "bytes": 2993005,
+      "sha256": "59bcf7c8545d2dbd5c4d9c5a6908c449075a7674aee306db2b621bcf3f4aa542",
+      "mime": "audio/mpeg",
+      "duration": 187.062813,
+      "sourceSha256": "e74eca9707483169f4b2c83ad13d6ffbb9475bff24aa664091df338de03a21a7",
+      "processedTextSha256": "33d5e78c13200e2b30534928ed066d4103d06ec6dd61f6a03a9c07a9a022962d",
+      "receivedAt": "2026-09-14T18:42:05.181Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t67-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t67-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-b88d1c10697f4c50e777",
+      "path": "/audio/spa/spa-b88d1c10697f4c50e777.mp3",
+      "bytes": 2407444,
+      "sha256": "3cb446cc4796795677fe92205d242c077d1b186198470ec62b694bf2ba314d6c",
+      "mime": "audio/mpeg",
+      "duration": 150.46525,
+      "sourceSha256": "b88d1c10697f4c50e777789814bdca71f9cdb334c9480d168ab7170979b358ff",
+      "processedTextSha256": "b33ba30b33fbb7d479bdfca640ed19895ebfd065ef35b9dd855c7cc565017b7e",
+      "receivedAt": "2026-09-14T18:42:34.142Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t68-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t68-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-5f70f10e59d3be83b491",
+      "path": "/audio/spa/spa-5f70f10e59d3be83b491.mp3",
+      "bytes": 3327791,
+      "sha256": "aa69040bad1bc71572d8cefbd221401f2a062bc20426dd45e2bedb50ebeb211e",
+      "mime": "audio/mpeg",
+      "duration": 207.986938,
+      "sourceSha256": "5f70f10e59d3be83b4916bf39f85223a6d369288657d4433b5f1317c8dba661c",
+      "processedTextSha256": "1f31f0d05fb077e361422bff8884f6711838a46992f4b489e3c6441c0f56086f",
+      "receivedAt": "2026-09-14T18:48:13.232Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t23-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t23-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-a75e347a2770e8e0d75d",
+      "path": "/audio/spa/spa-a75e347a2770e8e0d75d.mp3",
+      "bytes": 7754814,
+      "sha256": "0fab1ba61dbf2838dcab9447bf614fe1ce25f2ceb2c76568a847e1288c1984fe",
+      "mime": "audio/mpeg",
+      "duration": 484.675875,
+      "sourceSha256": "a75e347a2770e8e0d75d60ee2a572bdd6d6462358562760bd0b0ac0bdd907800",
+      "processedTextSha256": "7c1cf8f50ad19d00d9c46d33cee43972e1ae18021ee84380fafa1d7e6becf27e",
+      "receivedAt": "2026-09-14T18:49:05.458Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t125-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t125-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c6ecc2229d3e7c074cfd",
+      "path": "/audio/spa/spa-c6ecc2229d3e7c074cfd.mp3",
+      "bytes": 1388042,
+      "sha256": "e8f4f7e89770558320c79b4626c4a2967b45f434114dfd640620860a7f4a68c1",
+      "mime": "audio/mpeg",
+      "duration": 86.752625,
+      "sourceSha256": "c6ecc2229d3e7c074cfd89d76e01a5767d6b1344dedf87a42150fa578343d104",
+      "processedTextSha256": "a8b8f6d3fe63567a1a2ec7d6c1b7586a533801ccc0979b066105760bc3c63592",
+      "receivedAt": "2026-09-14T18:49:20.638Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t109-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t109-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-6f769b74b76c8de93425",
+      "path": "/audio/spa/spa-6f769b74b76c8de93425.mp3",
+      "bytes": 7767771,
+      "sha256": "f8e24ff4493967c20932860ab16104ba8fe63efe01de0193a7dd8781f6605d0c",
+      "mime": "audio/mpeg",
+      "duration": 485.485688,
+      "sourceSha256": "6f769b74b76c8de9342592a76696a94cb3a6833a680deb5fc30c8c5367ed9307",
+      "processedTextSha256": "27bb1715ce2183eab417309f595059f3aa3876ba5aa3e6c8c431c1af8e9ca1ec",
+      "receivedAt": "2026-09-14T18:49:34.089Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t104-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t104-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-3dc32f94645854f1a2d6",
+      "path": "/audio/spa/spa-3dc32f94645854f1a2d6.mp3",
+      "bytes": 299258,
+      "sha256": "5e06581ef03a9e22fddd0526d54e532a0526c6ba1feaf8afaf3bf4c64e4f2479",
+      "mime": "audio/mpeg",
+      "duration": 18.703625,
+      "sourceSha256": "3dc32f94645854f1a2d6566872e8b803eb1a4535556e8a2306d76debab9a6252",
+      "processedTextSha256": "3dc32f94645854f1a2d6566872e8b803eb1a4535556e8a2306d76debab9a6252",
+      "receivedAt": "2026-09-14T18:49:39.604Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t145-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t145-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-8719e513a657838872b6",
+      "path": "/audio/spa/spa-8719e513a657838872b6.mp3",
+      "bytes": 3726106,
+      "sha256": "a7d5a248269eed6c1ae49ca8665a9592eed40097bc631571ede621522ff5dd64",
+      "mime": "audio/mpeg",
+      "duration": 232.881625,
+      "sourceSha256": "8719e513a657838872b6db6cd0d25e3f8e8a75531a21a3e370af01d469b84000",
+      "processedTextSha256": "7ce38f4ae8981fcb18e6f38d57e05359c52be5ea2fbfd96def8d58d25c338819",
+      "receivedAt": "2026-09-14T18:50:00.760Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t9-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t9-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c2b534fad152cb9d1b35",
+      "path": "/audio/spa/spa-c2b534fad152cb9d1b35.mp3",
+      "bytes": 2139115,
+      "sha256": "563716682f90587c5874bc4bfddb25f7fbc3ba406b11f70c386e21deb51cb27c",
+      "mime": "audio/mpeg",
+      "duration": 133.694688,
+      "sourceSha256": "c2b534fad152cb9d1b350d521c21228028ad3c12b92942973eaa506709e40436",
+      "processedTextSha256": "715f5191f32d8887daee61cac9a028827439296074723651ff970a2ab695044a",
+      "receivedAt": "2026-09-14T18:50:03.248Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t60-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t60-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-00a3e72f492c9044a8a2",
+      "path": "/audio/spa/spa-00a3e72f492c9044a8a2.mp3",
+      "bytes": 1867023,
+      "sha256": "e9e709f4d3d04d543379c2cf85d5445474e216be7498de938e029dd9bc3f2220",
+      "mime": "audio/mpeg",
+      "duration": 116.688938,
+      "sourceSha256": "00a3e72f492c9044a8a26530a08dccfbf8e4ed5328a0a790fad960cde0723ce4",
+      "processedTextSha256": "4650bc3a8c0d4f56b9b58873dac6231745954ca2a6ec6802684eca7f23adb7ef",
+      "receivedAt": "2026-09-14T18:50:21.338Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t53-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t53-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-322753a4b0980ab6432b",
+      "path": "/audio/spa/spa-322753a4b0980ab6432b.mp3",
+      "bytes": 3059043,
+      "sha256": "3367f05f819c85cff4aee249cba2b1447de2ccc24f5a03fa4145c46dd2e11235",
+      "mime": "audio/mpeg",
+      "duration": 191.190188,
+      "sourceSha256": "322753a4b0980ab6432b4c0418b05154b42fd14d7b7bc8f7a222523036c4eb32",
+      "processedTextSha256": "be7706e11332f6e4d599cd70591fba03969bd204fd0a85b1b78c75ccf7fd4a00",
+      "receivedAt": "2026-09-14T18:50:37.163Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t92-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t92-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c809e7dd798bcbb60b95",
+      "path": "/audio/spa/spa-c809e7dd798bcbb60b95.mp3",
+      "bytes": 1621263,
+      "sha256": "94e17f96173803d9a93553d270a529b3549fce2e448432d5a8314b7ecfcdd3c0",
+      "mime": "audio/mpeg",
+      "duration": 101.328938,
+      "sourceSha256": "c809e7dd798bcbb60b957ac3ab474f5ded8ae79e03b4329f47b86688d005f4d9",
+      "processedTextSha256": "8e1d50edbe0c7d05c118748b68bf4282a44d410b5e88130e8d6156cc69dab95c",
+      "receivedAt": "2026-09-14T18:50:39.153Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t118-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t118-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-b7499a1a1d0bc68fe0c1",
+      "path": "/audio/spa/spa-b7499a1a1d0bc68fe0c1.mp3",
+      "bytes": 1334543,
+      "sha256": "49aa16762bb4c701d72fcb7152c200bc6f52d3e76ed7e8b9a6f374ac42d58355",
+      "mime": "audio/mpeg",
+      "duration": 83.408938,
+      "sourceSha256": "b7499a1a1d0bc68fe0c1c454d1754e1c0c2127421ad4b5fbbb10cbdb495b369f",
+      "processedTextSha256": "525e9deabc49df35c07e5d5382e60638048c470e0d2e05da4d477121d6aa5310",
+      "receivedAt": "2026-09-14T18:50:51.879Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t129-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t129-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-12ce442c4039d622e323",
+      "path": "/audio/spa/spa-12ce442c4039d622e323.mp3",
+      "bytes": 1928045,
+      "sha256": "f1388d4acd5b4d91b6b4fdeef234ad5d6cb88c6489049d1e22283dad04496064",
+      "mime": "audio/mpeg",
+      "duration": 120.502813,
+      "sourceSha256": "12ce442c4039d622e3239e8a64e1a7a9f5ba23fc96846d1c54e6b375d7cd87f9",
+      "processedTextSha256": "d7e7ee0d7bedc9933f8372e9f22b6d056af46837f8839d884258df71a0d8d36b",
+      "receivedAt": "2026-09-14T18:51:01.366Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t132-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t132-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-483f5d8b1a74e12ad642",
+      "path": "/audio/spa/spa-483f5d8b1a74e12ad642.mp3",
+      "bytes": 1840274,
+      "sha256": "766cb9c123298122ee24d391e71782a0d3b90c1911f0bd184196cf7598ee0ac7",
+      "mime": "audio/mpeg",
+      "duration": 115.017125,
+      "sourceSha256": "483f5d8b1a74e12ad642d12d89260dbce9ee58661c7d09242c285272963e2e9d",
+      "processedTextSha256": "8082979aa0a424d944ff37e9f39be9a483806990af0f93748256025c5291d6b9",
+      "receivedAt": "2026-09-14T18:51:11.695Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t87-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t87-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-d6df2d9a83d1954f789c",
+      "path": "/audio/spa/spa-d6df2d9a83d1954f789c.mp3",
+      "bytes": 45975,
+      "sha256": "a4742076c2a7bc098fc9950a31537bc31d1133868eb209fd4dbf26565c8af63d",
+      "mime": "audio/mpeg",
+      "duration": 2.873438,
+      "sourceSha256": "d6df2d9a83d1954f789c94fbd38dcbdbc1b04eddb7ea05b2b3d0e671eca27426",
+      "processedTextSha256": "d6df2d9a83d1954f789c94fbd38dcbdbc1b04eddb7ea05b2b3d0e671eca27426",
+      "receivedAt": "2026-09-14T18:51:13.102Z",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001001",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-ab01e49116817c891856",
+      "path": "/audio/spa/spa-ab01e49116817c891856.mp3",
+      "bytes": 147539,
+      "sha256": "ad7f268d9a8f6900467511dec41334166054fbe08467501f0555f20fee520aeb",
+      "mime": "audio/mpeg",
+      "duration": 9.221188,
+      "sourceSha256": "ab01e49116817c891856cb750ab6ce63700ef97245c92028f85df9369ded3f25",
+      "processedTextSha256": "ab01e49116817c891856cb750ab6ce63700ef97245c92028f85df9369ded3f25",
+      "receivedAt": "2026-09-14T18:51:16.968Z",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001002",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-ed9e57846551874ced29",
+      "path": "/audio/spa/spa-ed9e57846551874ced29.mp3",
+      "bytes": 91951,
+      "sha256": "af2b2d1a7e721853a4d611d3edcf5e06081a8b10633cd1cdd41fe1edc92a1e6a",
+      "mime": "audio/mpeg",
+      "duration": 5.746938,
+      "sourceSha256": "ed9e57846551874ced291ab0cf12fde1626b3ea229515739dd96f7e8aa51ee91",
+      "processedTextSha256": "ed9e57846551874ced291ab0cf12fde1626b3ea229515739dd96f7e8aa51ee91",
+      "receivedAt": "2026-09-14T18:51:19.563Z",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001003",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-619536d2d6aa61aece36",
+      "path": "/audio/spa/spa-619536d2d6aa61aece36.mp3",
+      "bytes": 107415,
+      "sha256": "fd35d374568fb8da6289aa59e912bc0544e0ba13223d2d8e09ef21040d3ab9ee",
+      "mime": "audio/mpeg",
+      "duration": 6.713438,
+      "sourceSha256": "619536d2d6aa61aece36314f68c8f2e30b9736bf6e18bc2b688e5d976e93507a",
+      "processedTextSha256": "619536d2d6aa61aece36314f68c8f2e30b9736bf6e18bc2b688e5d976e93507a",
+      "receivedAt": "2026-09-14T18:51:22.884Z",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001004",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-8fafd34c2b15ad2312ef",
+      "path": "/audio/spa/spa-8fafd34c2b15ad2312ef.mp3",
+      "bytes": 2200555,
+      "sha256": "0cb82bbfe289ffac7f65755ea0cbb189c8abdf07939b91a7a569685f67b86015",
+      "mime": "audio/mpeg",
+      "duration": 137.534688,
+      "sourceSha256": "8fafd34c2b15ad2312ef2bc0056c0ca3a761c15af716a668d4fb65026c2887b6",
+      "processedTextSha256": "66a517f242e1b2b450e96d5eb833625f6d53acd298ca8fc4ffc121fc4b963447",
+      "receivedAt": "2026-09-14T18:51:25.638Z",
+      "owners": [
+        {
+          "ownerId": "spa-spa-t4-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-spa-t4-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-8fa245c9c5df6d9f738a",
+      "path": "/audio/spa/spa-8fa245c9c5df6d9f738a.mp3",
+      "bytes": 140852,
+      "sha256": "7f73d6d694828a1498e8e568592cb4826506db34a3609d1dd9841cdfec34c01c",
+      "mime": "audio/mpeg",
+      "duration": 8.80325,
+      "sourceSha256": "8fa245c9c5df6d9f738af7f7efcc055694e16c51c64e595008e8b16df633b69c",
+      "processedTextSha256": "8fa245c9c5df6d9f738af7f7efcc055694e16c51c64e595008e8b16df633b69c",
+      "receivedAt": "2026-09-14T18:51:26.106Z",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001005",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-2bda9ad00bba59a88f59",
+      "path": "/audio/spa/spa-2bda9ad00bba59a88f59.mp3",
+      "bytes": 126223,
+      "sha256": "aaa0cc7eb94974ccb74d6677e78c953675a93f036d7186d2014255275308fdbb",
+      "mime": "audio/mpeg",
+      "duration": 7.888938,
+      "sourceSha256": "2bda9ad00bba59a88f59973e9e480df6f92e388d4affa0f53dde601a912028b8",
+      "processedTextSha256": "2bda9ad00bba59a88f59973e9e480df6f92e388d4affa0f53dde601a912028b8",
+      "receivedAt": "2026-09-14T18:51:29.163Z",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001006",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-88efd7008bc601c39ef8",
+      "path": "/audio/spa/spa-88efd7008bc601c39ef8.mp3",
+      "bytes": 166347,
+      "sha256": "c33375b5343c584d3343b60166fbd70d47b54d00dc032288cd7cd5217255f67d",
+      "mime": "audio/mpeg",
+      "duration": 10.396688,
+      "sourceSha256": "88efd7008bc601c39ef88fca6c2d9a48cc2d2a82d804b8918900fec5efc46f34",
+      "processedTextSha256": "88efd7008bc601c39ef88fca6c2d9a48cc2d2a82d804b8918900fec5efc46f34",
+      "receivedAt": "2026-09-14T18:51:32.611Z",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001007",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-cb1d4d8b256108700746",
+      "path": "/audio/spa/spa-cb1d4d8b256108700746.mp3",
+      "bytes": 66873,
+      "sha256": "21d4ec35d8df9883d6396bbd4bc575a29e9f076298cc82ef3ed5a5a9865b032a",
+      "mime": "audio/mpeg",
+      "duration": 4.179563,
+      "sourceSha256": "cb1d4d8b2561087007461c6302993c73e845bf480b85501cce280ba2808ce746",
+      "processedTextSha256": "cb1d4d8b2561087007461c6302993c73e845bf480b85501cce280ba2808ce746",
+      "receivedAt": "2026-09-14T18:51:35.054Z",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001008",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-5c25fc7f7f4ddf580ff2",
+      "path": "/audio/spa/spa-5c25fc7f7f4ddf580ff2.mp3",
+      "bytes": 103235,
+      "sha256": "5a4f27c0dc0ef8753dbd2d0184194238ca06332092908096722a4e50e4a2f02f",
+      "mime": "audio/mpeg",
+      "duration": 6.452188,
+      "sourceSha256": "5c25fc7f7f4ddf580ff222f203b96d87b2f663917fd9e26d2b83d6e038beb4ed",
+      "processedTextSha256": "5c25fc7f7f4ddf580ff222f203b96d87b2f663917fd9e26d2b83d6e038beb4ed",
+      "receivedAt": "2026-09-14T18:51:38.525Z",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001009",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-3f33a33cabc6f804fb73",
+      "path": "/audio/spa/spa-3f33a33cabc6f804fb73.mp3",
+      "bytes": 95712,
+      "sha256": "0bf2d52166b250602a6ebdd0be9e3353a119ae11d413ea7e897e4640fd283d32",
+      "mime": "audio/mpeg",
+      "duration": 5.982,
+      "sourceSha256": "3f33a33cabc6f804fb7398388c2721c7398262fd2d2edb29d39c7dc85b659f94",
+      "processedTextSha256": "3f33a33cabc6f804fb7398388c2721c7398262fd2d2edb29d39c7dc85b659f94",
+      "receivedAt": "2026-09-14T18:51:41.380Z",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001010",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-d07c519d942839151271",
+      "path": "/audio/spa/spa-d07c519d942839151271.mp3",
+      "bytes": 121626,
+      "sha256": "4301d08dea01de0b853286e773180bf3e7211be0ef05c70641f7f56f55b1cd18",
+      "mime": "audio/mpeg",
+      "duration": 7.601625,
+      "sourceSha256": "d07c519d9428391512710dfaae3c8871d14435555d1437c3f46858c9998ea554",
+      "processedTextSha256": "d07c519d9428391512710dfaae3c8871d14435555d1437c3f46858c9998ea554",
+      "receivedAt": "2026-09-14T18:51:44.700Z",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001011",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-87c3952e6f338c86dcac",
+      "path": "/audio/spa/spa-87c3952e6f338c86dcac.mp3",
+      "bytes": 33854,
+      "sha256": "4ee50a60af194a20a0dff34bba979a704ac9327aedb01e93209f23aa5fd18352",
+      "mime": "audio/mpeg",
+      "duration": 2.115875,
+      "sourceSha256": "87c3952e6f338c86dcac2780d5dfcf300d0715d9ed408255fb39b043d2474690",
+      "processedTextSha256": "87c3952e6f338c86dcac2780d5dfcf300d0715d9ed408255fb39b043d2474690",
+      "receivedAt": "2026-09-14T18:51:47.218Z",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001012",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-858740c3d368cca0b660",
+      "path": "/audio/spa/spa-858740c3d368cca0b660.mp3",
+      "bytes": 107415,
+      "sha256": "878c60637cc542ed8fba7839c10976ffa2da20fcd3cda892e453816b37421e2c",
+      "mime": "audio/mpeg",
+      "duration": 6.713438,
+      "sourceSha256": "858740c3d368cca0b660df8e142a739c0ff59b575d7187c2c9936725a7b76765",
+      "processedTextSha256": "858740c3d368cca0b660df8e142a739c0ff59b575d7187c2c9936725a7b76765",
+      "receivedAt": "2026-09-14T18:51:50.858Z",
+      "owners": [
+        {
+          "ownerId": "spa-ReinaValera1909-10041001013",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/ReinaValera1909",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-7d27541e9691f4460250",
+      "path": "/audio/spa/spa-7d27541e9691f4460250.mp3",
+      "bytes": 97384,
+      "sha256": "b9807211317df365c233f357c6522b528cc7d5e01f2838c70f7de25e468ee796",
+      "mime": "audio/mpeg",
+      "duration": 6.0865,
+      "sourceSha256": "7d27541e9691f4460250433cf51af50a669be365b924d546dc00b6c0c8255070",
+      "processedTextSha256": "7d27541e9691f4460250433cf51af50a669be365b924d546dc00b6c0c8255070",
+      "receivedAt": "2026-09-14T18:51:53.889Z",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001001",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-35be7fc5793debae3ef5",
+      "path": "/audio/spa/spa-35be7fc5793debae3ef5.mp3",
+      "bytes": 100728,
+      "sha256": "ea66a6075c16fac641364b6371246d379288b8824ea37af7252dd8135cebd386",
+      "mime": "audio/mpeg",
+      "duration": 6.2955,
+      "sourceSha256": "35be7fc5793debae3ef52d0365c3ae058dd2fcbbad91a7a27c00438d1523512c",
+      "processedTextSha256": "74665a7645a2c4bbf2b2af57cedb74ab37c279643a711803b0660fdb33b4f93e",
+      "receivedAt": "2026-09-14T18:51:57.001Z",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001002",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-7eb4aef93ab89103ba98",
+      "path": "/audio/spa/spa-7eb4aef93ab89103ba98.mp3",
+      "bytes": 117446,
+      "sha256": "43184b2c162d88581d891d3a679ea43ebd7b713de12e823c5de03a42f97fbdbd",
+      "mime": "audio/mpeg",
+      "duration": 7.340375,
+      "sourceSha256": "7eb4aef93ab89103ba987511dded92e241b8bfbf4256d0c23a91f8f2a46f240f",
+      "processedTextSha256": "18209a42b1b6d125b30ac211534bb1f0b00eb4b5859647ef5cb5de8909815794",
+      "receivedAt": "2026-09-14T18:52:00.284Z",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001003",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-1d06e93e4cb3221b4dc4",
+      "path": "/audio/spa/spa-1d06e93e4cb3221b4dc4.mp3",
+      "bytes": 152137,
+      "sha256": "ee00bbf480d9afc10d85b2045c4f901a66dfa8e3281444591d4fa1410317f959",
+      "mime": "audio/mpeg",
+      "duration": 9.508563,
+      "sourceSha256": "1d06e93e4cb3221b4dc432e1d8b69a8f365946f1aa9fc4ad117e4c973d74df5e",
+      "processedTextSha256": "1d06e93e4cb3221b4dc432e1d8b69a8f365946f1aa9fc4ad117e4c973d74df5e",
+      "receivedAt": "2026-09-14T18:52:04.528Z",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001004",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-bdf4864a30b7ff872306",
+      "path": "/audio/spa/spa-bdf4864a30b7ff872306.mp3",
+      "bytes": 98638,
+      "sha256": "1d8b0a6122b6bddce0749572395c5cc0408507e855754df2a62db5dfcbc04cb8",
+      "mime": "audio/mpeg",
+      "duration": 6.164875,
+      "sourceSha256": "bdf4864a30b7ff8723064f3026095ebf3f214b3a41614458082b940c7add79dd",
+      "processedTextSha256": "bdf4864a30b7ff8723064f3026095ebf3f214b3a41614458082b940c7add79dd",
+      "receivedAt": "2026-09-14T18:52:06.611Z",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001005",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-8ef9fe752606c80c1e06",
+      "path": "/audio/spa/spa-8ef9fe752606c80c1e06.mp3",
+      "bytes": 102400,
+      "sha256": "423cbb5810cfa4093558c196c7ae38dc736ee589193cfe150bfad6159c212e5c",
+      "mime": "audio/mpeg",
+      "duration": 6.4,
+      "sourceSha256": "8ef9fe752606c80c1e0604c135d08d522b45d50f4b1a2a9fc650bc5c1598b6d1",
+      "processedTextSha256": "8ef9fe752606c80c1e0604c135d08d522b45d50f4b1a2a9fc650bc5c1598b6d1",
+      "receivedAt": "2026-09-14T18:52:09.583Z",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001006",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-bc40afc97a1d331d6592",
+      "path": "/audio/spa/spa-bc40afc97a1d331d6592.mp3",
+      "bytes": 149211,
+      "sha256": "3061b54a4b4770e3a1310b6a60c878e6b45967554f0352a839ff958e6f1f7af3",
+      "mime": "audio/mpeg",
+      "duration": 9.325688,
+      "sourceSha256": "bc40afc97a1d331d6592d63b6a0b2cc80333645a952fecacf54e0f0d1257de8e",
+      "processedTextSha256": "bc40afc97a1d331d6592d63b6a0b2cc80333645a952fecacf54e0f0d1257de8e",
+      "receivedAt": "2026-09-14T18:52:12.948Z",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001007",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-4635192e2de38921697c",
+      "path": "/audio/spa/spa-4635192e2de38921697c.mp3",
+      "bytes": 53916,
+      "sha256": "f704fe66b581b883e44e654c0482dafcf8751b4f3545c34db1d169c61e92ef21",
+      "mime": "audio/mpeg",
+      "duration": 3.36975,
+      "sourceSha256": "4635192e2de38921697cf7d1bc6be68384035049f4cc6b1c5302fd094252de1b",
+      "processedTextSha256": "4635192e2de38921697cf7d1bc6be68384035049f4cc6b1c5302fd094252de1b",
+      "receivedAt": "2026-09-14T18:52:15.413Z",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001008",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-d9f94cdace319d119f35",
+      "path": "/audio/spa/spa-d9f94cdace319d119f35.mp3",
+      "bytes": 93622,
+      "sha256": "2c5e09f493ddf6b6f00f1e38938b849398a6f2fc4c4393882bf1d7a42ed55d7d",
+      "mime": "audio/mpeg",
+      "duration": 5.851375,
+      "sourceSha256": "d9f94cdace319d119f3569316c338508e2f3596fefdbbf7765dd4ab70f0131de",
+      "processedTextSha256": "d9f94cdace319d119f3569316c338508e2f3596fefdbbf7765dd4ab70f0131de",
+      "receivedAt": "2026-09-14T18:52:18.751Z",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001009",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-2e12316ba63b11fb66b2",
+      "path": "/audio/spa/spa-2e12316ba63b11fb66b2.mp3",
+      "bytes": 97384,
+      "sha256": "ffc751b4fd93c165285da6ea535ad9bf59e6a1b673a18390c49e64defe554a59",
+      "mime": "audio/mpeg",
+      "duration": 6.0865,
+      "sourceSha256": "2e12316ba63b11fb66b2755cb94b90df678ed1ef72541447b71fdc1e999fdb35",
+      "processedTextSha256": "2e12316ba63b11fb66b2755cb94b90df678ed1ef72541447b71fdc1e999fdb35",
+      "receivedAt": "2026-09-14T18:52:21.919Z",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001010",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c4b7700a252c8adda1ad",
+      "path": "/audio/spa/spa-c4b7700a252c8adda1ad.mp3",
+      "bytes": 98638,
+      "sha256": "ebf6afef65778bf333e49457f1e40e81a17c2b0b1ed5d29cb3a56adf8177892f",
+      "mime": "audio/mpeg",
+      "duration": 6.164875,
+      "sourceSha256": "c4b7700a252c8adda1ad7ffffe1cdcd7c82bc5bbb68ea13dd2467f9b06839731",
+      "processedTextSha256": "c4b7700a252c8adda1ad7ffffe1cdcd7c82bc5bbb68ea13dd2467f9b06839731",
+      "receivedAt": "2026-09-14T18:52:25.015Z",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001011",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-fd855594abe63471064d",
+      "path": "/audio/spa/spa-fd855594abe63471064d.mp3",
+      "bytes": 36362,
+      "sha256": "1def342571280c4ad90790a3dd1df176d924b1abb99d3ab3622b0290d8b7b335",
+      "mime": "audio/mpeg",
+      "duration": 2.272625,
+      "sourceSha256": "fd855594abe63471064dd3d18bb633119004b2b94b9b28cb09a3826bff878b87",
+      "processedTextSha256": "fd855594abe63471064dd3d18bb633119004b2b94b9b28cb09a3826bff878b87",
+      "receivedAt": "2026-09-14T18:52:27.768Z",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001012",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-ae710c031a637cc28241",
+      "path": "/audio/spa/spa-ae710c031a637cc28241.mp3",
+      "bytes": 127059,
+      "sha256": "ed379f94f5e2036de4490ce3ec246ae8312f6d0b3fdbb67c859e5fc4ca193dd3",
+      "mime": "audio/mpeg",
+      "duration": 7.941188,
+      "sourceSha256": "ae710c031a637cc28241886d079d617f0d8f5f909342c80874e64f5f403eb9b5",
+      "processedTextSha256": "ae710c031a637cc28241886d079d617f0d8f5f909342c80874e64f5f403eb9b5",
+      "receivedAt": "2026-09-14T18:52:31.729Z",
+      "owners": [
+        {
+          "ownerId": "spa-AquiferSpanishBibleReferenceText-10041001013",
+          "classification": "required-on-demand",
+          "playbackGroupId": "scripture:BibleAquifer/AquiferSpanishBibleReferenceText",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-35b12bb7d5ce545daf74",
+      "path": "/audio/spa/spa-35b12bb7d5ce545daf74.mp3",
+      "bytes": 241162,
+      "sha256": "744e80a43b21bf7e39bf4b81dc88e7a9cd9441b4ae0e6f9fbb64b5849756324e",
+      "mime": "audio/mpeg",
+      "duration": 15.072625,
+      "sourceSha256": "35b12bb7d5ce545daf74eddfdcf671e37e8a96fa49329cec1b8866508158fa92",
+      "processedTextSha256": "4ccc731beab98e7023c9d3591713a83358339117141d841c8152d1d5bc79ac59",
+      "receivedAt": "2026-09-14T18:52:39.406Z",
+      "owners": [
+        {
+          "ownerId": "spa-term-53-examples",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-term-53-examples",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-baca566347b21eae688f",
+      "path": "/audio/spa/spa-baca566347b21eae688f.mp3",
+      "bytes": 776150,
+      "sha256": "c7912dac7e1e02626e626831709d697573693f5ebfc9f88361828e6539984f05",
+      "mime": "audio/mpeg",
+      "duration": 48.509375,
+      "sourceSha256": "baca566347b21eae688f4a04eae4f39355164e4817bb164d7ca9dbd45cfef9c0",
+      "processedTextSha256": "11f5f5c8a204472d3e2309c3646d35926eb8da0b27fc2fd49543e10e5b187c0a",
+      "receivedAt": "2026-09-14T18:52:41.233Z",
+      "owners": [
+        {
+          "ownerId": "spa-term-23-warnings",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-term-23-warnings",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-b0abe94cca7a72afd2b1",
+      "path": "/audio/spa/spa-b0abe94cca7a72afd2b1.mp3",
+      "bytes": 286720,
+      "sha256": "8e0e53e5a9d5388326ae70d92ed0c98548bac54a45123fad4c766f86c650441d",
+      "mime": "audio/mpeg",
+      "duration": 17.92,
+      "sourceSha256": "b0abe94cca7a72afd2b1241ff45bc8fdec6430c602b9873306f3bc7c738b42e6",
+      "processedTextSha256": "b0abe94cca7a72afd2b1241ff45bc8fdec6430c602b9873306f3bc7c738b42e6",
+      "receivedAt": "2026-09-14T18:52:42.882Z",
+      "owners": [
+        {
+          "ownerId": "spa-term-53-mime-action",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-term-53-mime-action",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-9651cc53fa3f85af8908",
+      "path": "/audio/spa/spa-9651cc53fa3f85af8908.mp3",
+      "bytes": 46811,
+      "sha256": "78c6134d60dae788ec9447ef9347e791897dfd4ba8bc88d38a3ed5ace562fab1",
+      "mime": "audio/mpeg",
+      "duration": 2.925688,
+      "sourceSha256": "9651cc53fa3f85af8908725ca226426ef0eb96932bdf3a626f68a84dff775823",
+      "processedTextSha256": "9651cc53fa3f85af8908725ca226426ef0eb96932bdf3a626f68a84dff775823",
+      "receivedAt": "2026-09-14T18:52:47.112Z",
+      "owners": [
+        {
+          "ownerId": "spa-term-104-complete-sentence",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-term-104-complete-sentence",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-5cf89f1cc371136888d9",
+      "path": "/audio/spa/spa-5cf89f1cc371136888d9.mp3",
+      "bytes": 756924,
+      "sha256": "fff0f6381e68cd62dc26d6f5b332b4637b1cedd0dae96867146fe10c092aaa0c",
+      "mime": "audio/mpeg",
+      "duration": 47.30775,
+      "sourceSha256": "5cf89f1cc371136888d9d565c03444d724ca9ccbad1545ab021b2c4d40704f89",
+      "processedTextSha256": "7cdf4cb692945a402db8e1adee42bc4ef0448ee6ae85a3580b2cdbc1c9f4c130",
+      "receivedAt": "2026-09-14T18:52:53.338Z",
+      "owners": [
+        {
+          "ownerId": "spa-term-92-warnings",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-term-92-warnings",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-4c1ad635f2b76079aa80",
+      "path": "/audio/spa/spa-4c1ad635f2b76079aa80.mp3",
+      "bytes": 623177,
+      "sha256": "2006362a3e28f1f26aa14a6b4159050c625fcca357584a93f0908972827db65b",
+      "mime": "audio/mpeg",
+      "duration": 38.948563,
+      "sourceSha256": "4c1ad635f2b76079aa80f0ab533acb5e9c484d435dfe8c3486264c7bab10116f",
+      "processedTextSha256": "be20d909587c19dcf9a70c6ffecbf24bb138794118fc669aad0a95b59c85f1bd",
+      "receivedAt": "2026-09-14T18:52:56.154Z",
+      "owners": [
+        {
+          "ownerId": "spa-term-132-summary",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-term-132-summary",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-e481ebb2a7c3549db2ed",
+      "path": "/audio/spa/spa-e481ebb2a7c3549db2ed.mp3",
+      "bytes": 60186,
+      "sha256": "a5bcc3865d557bafeb50f204fada196fef53e50f91c4d3aa32c99a3157f46a3d",
+      "mime": "audio/mpeg",
+      "duration": 3.761625,
+      "sourceSha256": "e481ebb2a7c3549db2ed118ba1ca811a429acf52a566f3be209f7962919ef153",
+      "processedTextSha256": "e481ebb2a7c3549db2ed118ba1ca811a429acf52a566f3be209f7962919ef153",
+      "receivedAt": "2026-09-14T18:55:43.048Z",
+      "owners": [
+        {
+          "ownerId": "spa-notice-ai-translation",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-notice-ai-translation",
+          "spokenNoticeOwnerIds": []
+        }
+      ]
+    },
+    {
+      "id": "spa-eb752eec2c66b32433f2",
+      "path": "/audio/spa/spa-eb752eec2c66b32433f2.mp3",
+      "bytes": 32600,
+      "sha256": "fe33097812b3a0bc652729de885b64aeb240fade51c76ca80c9c59aab1a0962f",
+      "mime": "audio/mpeg",
+      "duration": 2.0375,
+      "sourceSha256": "eb752eec2c66b32433f25a0899d4a41b4d7dd8cd5ee7ed379446dd7aeb40cf88",
+      "processedTextSha256": "eb752eec2c66b32433f25a0899d4a41b4d7dd8cd5ee7ed379446dd7aeb40cf88",
+      "receivedAt": "2026-09-14T18:55:46.033Z",
+      "owners": [
+        {
+          "ownerId": "spa-notice-english-map",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-notice-english-map",
+          "spokenNoticeOwnerIds": []
+        }
+      ]
+    },
+    {
+      "id": "spa-f7fea2175fb8c2666ec6",
+      "path": "/audio/spa/spa-f7fea2175fb8c2666ec6.mp3",
+      "bytes": 30511,
+      "sha256": "081d5b7151f527b2ab99b7b1f7460bb4d865cbd843eafdbabcb3e982cdb68165",
+      "mime": "audio/mpeg",
+      "duration": 1.906938,
+      "sourceSha256": "f7fea2175fb8c2666ec618334280af1f964a70d76579775931b32bfe51975af8",
+      "processedTextSha256": "f7fea2175fb8c2666ec618334280af1f964a70d76579775931b32bfe51975af8",
+      "receivedAt": "2026-09-14T18:55:49.147Z",
+      "owners": [
+        {
+          "ownerId": "ai-spa-from-a13",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-a13",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation",
+            "spa-notice-original-video"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-83c8843873146c545354",
+      "path": "/audio/spa/spa-83c8843873146c545354.mp3",
+      "bytes": 29675,
+      "sha256": "6d949acb9329cbcbaf58433b78bb4ecc690c5bc086a1eafe46ecf2ac8b061a8d",
+      "mime": "audio/mpeg",
+      "duration": 1.854688,
+      "sourceSha256": "83c8843873146c545354ebafc9ea56594f31d4716bb56e20561cb3900888f666",
+      "processedTextSha256": "83c8843873146c545354ebafc9ea56594f31d4716bb56e20561cb3900888f666",
+      "receivedAt": "2026-09-14T18:55:52.668Z",
+      "owners": [
+        {
+          "ownerId": "ai-spa-from-a184",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-a184",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation",
+            "spa-notice-original-video"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c7019aaeec4e54136e65",
+      "path": "/audio/spa/spa-c7019aaeec4e54136e65.mp3",
+      "bytes": 43885,
+      "sha256": "ac7191a850065176f9a8fb2f6f6a38fffa56dda40ee939ed2d32be8231f60c37",
+      "mime": "audio/mpeg",
+      "duration": 2.742813,
+      "sourceSha256": "c7019aaeec4e54136e653d2a106d2ba00db51d0c567c75dedc76f9a83b243c41",
+      "processedTextSha256": "c7019aaeec4e54136e653d2a106d2ba00db51d0c567c75dedc76f9a83b243c41",
+      "receivedAt": "2026-09-14T18:55:55.388Z",
+      "owners": [
+        {
+          "ownerId": "ai-spa-from-a10",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-a10",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation",
+            "spa-notice-original-video"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-782d5c784c5dc348e496",
+      "path": "/audio/spa/spa-782d5c784c5dc348e496.mp3",
+      "bytes": 299258,
+      "sha256": "13830ad62ebd5e6027f5074c7923e9b85cbdbfb1d56c33e75f1c17ffbb8e51d2",
+      "mime": "audio/mpeg",
+      "duration": 18.703625,
+      "sourceSha256": "782d5c784c5dc348e496543ad135c9ff4c9481eb1b2bed69bb99a4ce4ff0907a",
+      "processedTextSha256": "782d5c784c5dc348e496543ad135c9ff4c9481eb1b2bed69bb99a4ce4ff0907a",
+      "receivedAt": "2026-09-14T18:56:06.811Z",
+      "owners": [
+        {
+          "ownerId": "ai-spa-from-eng-t38-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-eng-t38-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-b06c49df92f2ece6accf",
+      "path": "/audio/spa/spa-b06c49df92f2ece6accf.mp3",
+      "bytes": 362370,
+      "sha256": "48f305a8ebff0aaabeee7e795d20388ba614d5e9834af06f5ccf9f06f9bee220",
+      "mime": "audio/mpeg",
+      "duration": 22.648125,
+      "sourceSha256": "b06c49df92f2ece6accfc687e0c1f68b01e3d129d8f0818782683d75e339a20c",
+      "processedTextSha256": "139a59aa73bad0cc8e3e9c23af21b2de2261a9477ca43f08ebc05c1b53b85393",
+      "receivedAt": "2026-09-14T18:56:11.256Z",
+      "owners": [
+        {
+          "ownerId": "ai-spa-from-eng-t226-v2",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-eng-t226-v2",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-61525b4e86d10f7c0c11",
+      "path": "/audio/spa/spa-61525b4e86d10f7c0c11.mp3",
+      "bytes": 913240,
+      "sha256": "f0b01614a302aabdeed2245ddbe6a2200922526ea4c086a0035d384133b7af48",
+      "mime": "audio/mpeg",
+      "duration": 57.0775,
+      "sourceSha256": "61525b4e86d10f7c0c11aa7db8da9cfa390a4a420ae1d335a647dec7381ee6ae",
+      "processedTextSha256": "8b73b4a683c587eb1578c44d9df60dbd77b378827fff8dbf3186bb34d22f47bd",
+      "receivedAt": "2026-09-14T18:56:23.302Z",
+      "owners": [
+        {
+          "ownerId": "ai-spa-from-eng-t76-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-eng-t76-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-be0470af690553acaf61",
+      "path": "/audio/spa/spa-be0470af690553acaf61.mp3",
+      "bytes": 190171,
+      "sha256": "6caa058d767cc41af0f75ac7dc23af7306c0d3595298e0c04a2aff664071556b",
+      "mime": "audio/mpeg",
+      "duration": 11.885688,
+      "sourceSha256": "be0470af690553acaf6186c60c6743f67a90f2ae604a66a93edcc849790ed9c3",
+      "processedTextSha256": "be0470af690553acaf6186c60c6743f67a90f2ae604a66a93edcc849790ed9c3",
+      "receivedAt": "2026-09-14T18:56:25.875Z",
+      "owners": [
+        {
+          "ownerId": "ai-spa-from-eng-t88-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-eng-t88-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-377baf25f8618b8e5e8d",
+      "path": "/audio/spa/spa-377baf25f8618b8e5e8d.mp3",
+      "bytes": 2608065,
+      "sha256": "2d156c631862b094da4eb13d4b8dbd685def0c23875881de45ee04953c1901c3",
+      "mime": "audio/mpeg",
+      "duration": 163.004063,
+      "sourceSha256": "377baf25f8618b8e5e8d63f0817ac1a077da8b62e7a8131f520e7507178b627c",
+      "processedTextSha256": "7f203aec5948f4220e92f1525aeb21cf6b9a962aafe58fb9069bbc5a9ba23d98",
+      "receivedAt": "2026-09-14T18:56:56.635Z",
+      "owners": [
+        {
+          "ownerId": "ai-spa-from-eng-t5-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-eng-t5-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-5801242628233cb2b4e5",
+      "path": "/audio/spa/spa-5801242628233cb2b4e5.mp3",
+      "bytes": 5164721,
+      "sha256": "f1c283b9546bcf5bc83653e6556fded95cffd71651dbeaf1c7297fa718674371",
+      "mime": "audio/mpeg",
+      "duration": 322.795063,
+      "sourceSha256": "5801242628233cb2b4e5889be1f266859de07829c2d52e71a5c062aa52a1b877",
+      "processedTextSha256": "23d77e1d59a4c85756585633db0ad76feb71cbdf406a1934e02e470e65f8599c",
+      "receivedAt": "2026-09-14T18:57:05.217Z",
+      "owners": [
+        {
+          "ownerId": "ai-spa-from-eng-t103-v1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-eng-t103-v1",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-f236e438f866ab969618",
+      "path": "/audio/spa/spa-f236e438f866ab969618.mp3",
+      "bytes": 356519,
+      "sha256": "6e77da393695d9a3049ac54f1349625fa07aed7d81ca9e0220ea9cc011904354",
+      "mime": "audio/mpeg",
+      "duration": 22.282438,
+      "sourceSha256": "f236e438f866ab9696187bd7c64ef6f32a9166e7878ee7c04faaef81c9749bbd",
+      "processedTextSha256": "f236e438f866ab9696187bd7c64ef6f32a9166e7878ee7c04faaef81c9749bbd",
+      "receivedAt": "2026-09-14T18:57:09.057Z",
+      "owners": [
+        {
+          "ownerId": "term-104-posture-correction",
+          "classification": "required-on-demand",
+          "playbackGroupId": "term-104-posture-correction",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-f33966975ce0bae1d7ed",
+      "path": "/audio/spa/spa-f33966975ce0bae1d7ed.mp3",
+      "bytes": 31764,
+      "sha256": "8282fd3c85469e63546e77a865d2422613aed59b24ded114b2ad2ef2d8e0c380",
+      "mime": "audio/mpeg",
+      "duration": 1.98525,
+      "sourceSha256": "f33966975ce0bae1d7ed22dee466356b700b786b791f07e37da9b1a9486a5341",
+      "processedTextSha256": "f33966975ce0bae1d7ed22dee466356b700b786b791f07e37da9b1a9486a5341",
+      "receivedAt": "2026-09-14T18:57:10.251Z",
+      "owners": [
+        {
+          "ownerId": "spa-notice-synthetic-voice",
+          "classification": "required-notice",
+          "playbackGroupId": "spa-notice-synthetic-voice",
+          "spokenNoticeOwnerIds": []
+        }
+      ]
+    },
+    {
+      "id": "spa-c6011bd7d2086ee88eea",
+      "path": "/audio/spa/spa-c6011bd7d2086ee88eea.mp3",
+      "bytes": 1479157,
+      "sha256": "6a0369a4657817a38373cc560c9af6130d70b9f821e47c7adda94917c546157a",
+      "mime": "audio/mpeg",
+      "duration": 92.447313,
+      "sourceSha256": "c6011bd7d2086ee88eeaacf78a0591ae5e5698159519d058c974a9da6365ff72",
+      "processedTextSha256": "da274ac84f17e7081aa040384b155afe83a65c6d931fbb787013f6f72ee29326",
+      "receivedAt": "2026-09-14T18:57:12.389Z",
+      "owners": [
+        {
+          "ownerId": "term-109-repentance-enactment",
+          "classification": "optional-resource",
+          "playbackGroupId": "term-109-repentance-enactment",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-2fdbcba1662ec63f73db",
+      "path": "/audio/spa/spa-2fdbcba1662ec63f73db.mp3",
+      "bytes": 36362,
+      "sha256": "0608499ccdc54642ca6efd6e16c141dc4bc264756d2e8c037d2deecc9071d3f2",
+      "mime": "audio/mpeg",
+      "duration": 2.272625,
+      "sourceSha256": "2fdbcba1662ec63f73db9d50d23347ae31285d61bd942b1fcbe68f7cacfbaf4f",
+      "processedTextSha256": "2fdbcba1662ec63f73db9d50d23347ae31285d61bd942b1fcbe68f7cacfbaf4f",
+      "receivedAt": "2026-09-14T18:57:13.919Z",
+      "owners": [
+        {
+          "ownerId": "spa-notice-original-video",
+          "classification": "required-notice",
+          "playbackGroupId": "spa-notice-original-video",
+          "spokenNoticeOwnerIds": []
+        }
+      ]
+    },
+    {
+      "id": "spa-35ea487492802a90693d",
+      "path": "/audio/spa/spa-35ea487492802a90693d.mp3",
+      "bytes": 52662,
+      "sha256": "69ef68e7a627a4185c1f1e837c47b31a42e82ce72c22fcea99c2f21bec24b5af",
+      "mime": "audio/mpeg",
+      "duration": 3.291375,
+      "sourceSha256": "35ea487492802a90693d4b8c73032ee82ab2658e40ee55e849ef49774dfefc3a",
+      "processedTextSha256": "35ea487492802a90693d4b8c73032ee82ab2658e40ee55e849ef49774dfefc3a",
+      "spokenInputSha256": "35ea487492802a90693d4b8c73032ee82ab2658e40ee55e849ef49774dfefc3a",
+      "receivedAt": "2026-09-14T19:24:24.103Z",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-1",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-e5238183e353fe04b2c8",
+      "path": "/audio/spa/spa-e5238183e353fe04b2c8.mp3",
+      "bytes": 152973,
+      "sha256": "bcb7477443c06aca9a92dd1b3c1efc7cc008824bdf5712c40faefc7cb97e1a98",
+      "mime": "audio/mpeg",
+      "duration": 9.560813,
+      "sourceSha256": "e5238183e353fe04b2c8132d8d5012ada6f5c47c2580b92c40480408b7a68398",
+      "processedTextSha256": "e5238183e353fe04b2c8132d8d5012ada6f5c47c2580b92c40480408b7a68398",
+      "spokenInputSha256": "e5238183e353fe04b2c8132d8d5012ada6f5c47c2580b92c40480408b7a68398",
+      "receivedAt": "2026-09-14T19:24:27.325Z",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-2",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-10009c2e5bc72fe96222",
+      "path": "/audio/spa/spa-10009c2e5bc72fe96222.mp3",
+      "bytes": 148375,
+      "sha256": "8ac844f191a1b34f8b52842f088d22b771cb002e7ac37b072500197a82aa58e4",
+      "mime": "audio/mpeg",
+      "duration": 9.273438,
+      "sourceSha256": "10009c2e5bc72fe96222f2100da08adb5311a014159d24a07193d75caa962c7b",
+      "processedTextSha256": "10009c2e5bc72fe96222f2100da08adb5311a014159d24a07193d75caa962c7b",
+      "spokenInputSha256": "10009c2e5bc72fe96222f2100da08adb5311a014159d24a07193d75caa962c7b",
+      "receivedAt": "2026-09-14T19:24:30.361Z",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-3",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-5fb2ebf8bf475e6407c1",
+      "path": "/audio/spa/spa-5fb2ebf8bf475e6407c1.mp3",
+      "bytes": 102400,
+      "sha256": "00a6cce705fecc90cabe954493f69481a20fe4b9735f4c99fde9311a1995e4db",
+      "mime": "audio/mpeg",
+      "duration": 6.4,
+      "sourceSha256": "5fb2ebf8bf475e6407c1b28854011aee71ee13000c4dda4ee378e1be3ee8e195",
+      "processedTextSha256": "5fb2ebf8bf475e6407c1b28854011aee71ee13000c4dda4ee378e1be3ee8e195",
+      "spokenInputSha256": "5fb2ebf8bf475e6407c1b28854011aee71ee13000c4dda4ee378e1be3ee8e195",
+      "receivedAt": "2026-09-14T19:24:33.171Z",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-4",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-73081440044139d6e6cc",
+      "path": "/audio/spa/spa-73081440044139d6e6cc.mp3",
+      "bytes": 160496,
+      "sha256": "1a4f619ea10220e3a649901cf25167fbc369dc879a62deee49b06f6d282e967f",
+      "mime": "audio/mpeg",
+      "duration": 10.031,
+      "sourceSha256": "73081440044139d6e6cc2c0b8483b074e155404833dcc2c45f74aaf949ecdec4",
+      "processedTextSha256": "73081440044139d6e6cc2c0b8483b074e155404833dcc2c45f74aaf949ecdec4",
+      "spokenInputSha256": "73081440044139d6e6cc2c0b8483b074e155404833dcc2c45f74aaf949ecdec4",
+      "receivedAt": "2026-09-14T19:24:36.858Z",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-5",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-ec098c312ccdf0f9193d",
+      "path": "/audio/spa/spa-ec098c312ccdf0f9193d.mp3",
+      "bytes": 102400,
+      "sha256": "07be31343966ba179e890902e3286d408a8a6b3e5f9d506bf0b69c45639d2cc7",
+      "mime": "audio/mpeg",
+      "duration": 6.4,
+      "sourceSha256": "ec098c312ccdf0f9193d4dbe2fa0fdeb7da76d6febca449a146605803eb89ce1",
+      "processedTextSha256": "ec098c312ccdf0f9193d4dbe2fa0fdeb7da76d6febca449a146605803eb89ce1",
+      "spokenInputSha256": "ec098c312ccdf0f9193d4dbe2fa0fdeb7da76d6febca449a146605803eb89ce1",
+      "receivedAt": "2026-09-14T19:24:39.409Z",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-6",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-fbd8d7cffc3c93a1cd12",
+      "path": "/audio/spa/spa-fbd8d7cffc3c93a1cd12.mp3",
+      "bytes": 165511,
+      "sha256": "b044d279f8b9361f3c8426c9e789f1019f4156ba4e411f6f22dcf286d79c7e4d",
+      "mime": "audio/mpeg",
+      "duration": 10.344438,
+      "sourceSha256": "fbd8d7cffc3c93a1cd12e89700863f7b5f814d72f220a62f883691e7d1439e5d",
+      "processedTextSha256": "fbd8d7cffc3c93a1cd12e89700863f7b5f814d72f220a62f883691e7d1439e5d",
+      "spokenInputSha256": "fbd8d7cffc3c93a1cd12e89700863f7b5f814d72f220a62f883691e7d1439e5d",
+      "receivedAt": "2026-09-14T19:24:43.004Z",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-7",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-0701ab6155dad8a51088",
+      "path": "/audio/spa/spa-0701ab6155dad8a51088.mp3",
+      "bytes": 67291,
+      "sha256": "59bd759f46ad5191703538e489a51ceead6695b9a8ee4ca330d4df71ea5df288",
+      "mime": "audio/mpeg",
+      "duration": 4.205688,
+      "sourceSha256": "0701ab6155dad8a5108896ed51191b28891b52bca1622139679ec333a243cbf7",
+      "processedTextSha256": "0701ab6155dad8a5108896ed51191b28891b52bca1622139679ec333a243cbf7",
+      "spokenInputSha256": "0701ab6155dad8a5108896ed51191b28891b52bca1622139679ec333a243cbf7",
+      "receivedAt": "2026-09-14T19:24:45.741Z",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-8",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-1f5f0de0337b6dc5274e",
+      "path": "/audio/spa/spa-1f5f0de0337b6dc5274e.mp3",
+      "bytes": 117446,
+      "sha256": "6c16d6625bf8eca1dd0dd6b648dd19827956e466536d51c46792faee8d40bec7",
+      "mime": "audio/mpeg",
+      "duration": 7.340375,
+      "sourceSha256": "1f5f0de0337b6dc5274e2a3ca3a52474ea977a2ebba6a44d0ceabee4e603911c",
+      "processedTextSha256": "1f5f0de0337b6dc5274e2a3ca3a52474ea977a2ebba6a44d0ceabee4e603911c",
+      "spokenInputSha256": "1f5f0de0337b6dc5274e2a3ca3a52474ea977a2ebba6a44d0ceabee4e603911c",
+      "receivedAt": "2026-09-14T19:24:48.826Z",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-9",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-bea473c8f58a047019dd",
+      "path": "/audio/spa/spa-bea473c8f58a047019dd.mp3",
+      "bytes": 109923,
+      "sha256": "094d8afa7a484f896cd188f5523fbde5652e001429b5c2f510e811c4dbd594a2",
+      "mime": "audio/mpeg",
+      "duration": 6.870188,
+      "sourceSha256": "bea473c8f58a047019dd14d69c04e922a2d9aeafd82c96557e8e6f215ad5d3bd",
+      "processedTextSha256": "bea473c8f58a047019dd14d69c04e922a2d9aeafd82c96557e8e6f215ad5d3bd",
+      "spokenInputSha256": "bea473c8f58a047019dd14d69c04e922a2d9aeafd82c96557e8e6f215ad5d3bd",
+      "receivedAt": "2026-09-14T19:24:51.964Z",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-10",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-67f624be537cc4320b19",
+      "path": "/audio/spa/spa-67f624be537cc4320b19.mp3",
+      "bytes": 136672,
+      "sha256": "18ecef417f8bd6068af2a05fac540ef3e2cc38a76bcf68d496c034264a3a8983",
+      "mime": "audio/mpeg",
+      "duration": 8.542,
+      "sourceSha256": "67f624be537cc4320b1997ffdbcd96299b4484abb66472efd4b56c8c65698846",
+      "processedTextSha256": "67f624be537cc4320b1997ffdbcd96299b4484abb66472efd4b56c8c65698846",
+      "spokenInputSha256": "67f624be537cc4320b1997ffdbcd96299b4484abb66472efd4b56c8c65698846",
+      "receivedAt": "2026-09-14T19:24:55.145Z",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-11",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-76e758693840dc38d01f",
+      "path": "/audio/spa/spa-76e758693840dc38d01f.mp3",
+      "bytes": 58514,
+      "sha256": "59a357e3483ce928dcacc49feff8da035d1a01aea9d63e32dc0de5e4287b276d",
+      "mime": "audio/mpeg",
+      "duration": 3.657125,
+      "sourceSha256": "76e758693840dc38d01fcf0653631c64602eaaf3923f07b46c6351e1da57d18d",
+      "processedTextSha256": "76e758693840dc38d01fcf0653631c64602eaaf3923f07b46c6351e1da57d18d",
+      "spokenInputSha256": "76e758693840dc38d01fcf0653631c64602eaaf3923f07b46c6351e1da57d18d",
+      "receivedAt": "2026-09-14T19:24:57.846Z",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-12",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-6b61b3b34a6cce93f458",
+      "path": "/audio/spa/spa-6b61b3b34a6cce93f458.mp3",
+      "bytes": 180976,
+      "sha256": "ccd021081316c6a6bab5964a56c454112f168fdc144b3f50bfd97d024dbd72ce",
+      "mime": "audio/mpeg",
+      "duration": 11.311,
+      "sourceSha256": "6b61b3b34a6cce93f45831f9eadb82841cc53d325ab14cd5414e0f5eb32c721c",
+      "processedTextSha256": "6b61b3b34a6cce93f45831f9eadb82841cc53d325ab14cd5414e0f5eb32c721c",
+      "spokenInputSha256": "6b61b3b34a6cce93f45831f9eadb82841cc53d325ab14cd5414e0f5eb32c721c",
+      "receivedAt": "2026-09-14T19:25:01.705Z",
+      "owners": [
+        {
+          "ownerId": "spa-Door43SpanishULB-v1.4-door43-es-419-ulb-mrk-1-13",
+          "classification": "required-on-demand",
+          "playbackGroupId": "Door43SpanishULB-v1.4",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "visual-description-a111",
+      "path": "/audio/spa/visual-description-a111.mp3",
+      "bytes": 332695,
+      "sha256": "8965e0535a82169b1967c0b28659d5a493ea8458abf25e8da6ed6d198051407e",
+      "mime": "audio/mpeg",
+      "duration": 20.793438,
+      "sourceSha256": "c3949ffa62ffaf85ae63fc50a67f7f263693e0720bfe0662257c501904b3f638",
+      "processedTextSha256": "c3949ffa62ffaf85ae63fc50a67f7f263693e0720bfe0662257c501904b3f638",
+      "spokenInputSha256": "c3949ffa62ffaf85ae63fc50a67f7f263693e0720bfe0662257c501904b3f638",
+      "receivedAt": "2026-09-15T17:02:35.461Z",
+      "owners": [
+        {
+          "ownerId": "spa-media-a111",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-media-a111",
+          "spokenNoticeOwnerIds": []
+        }
+      ],
+      "recordingSource": "ai",
+      "derivation": {
+        "kind": "AI translation of accepted English visual description",
+        "sourceLanguage": "eng",
+        "sourceText": "Wilderness or Desert. Dry, rounded hills stretch across the landscape, cut by gullies with little vegetation. Look at this landscape as you picture the wilderness and discuss the word you will use for it.",
+        "sourceTextSha256": "3da68fe049337a308527f84f147564ea5678e7340c64a0ace5fd55476e6118e7",
+        "sourceRevision": "8ef31b2c05b5907a6e01f15c05708174dae57479",
+        "sourcePath": "public/content/visual-narration.json",
+        "sourceBlob": "b8d68e2da8d5c8d200cded495b4256c80eeb0c45",
+        "canonicalVisualId": "a111",
+        "sourceVisualSha256": "d314bac395b2aab8cf601f6a590bbf2547b71a54af67eb95dc927f5042883480"
+      },
+      "image": {
+        "path": "/content/spa/mark-1-1-13/assets/a111.jpg",
+        "sha256": "d314bac395b2aab8cf601f6a590bbf2547b71a54af67eb95dc927f5042883480",
+        "bytes": 69973,
+        "pixelsLanguage": "no visible text"
+      }
+    },
+    {
+      "id": "visual-description-a204",
+      "path": "/audio/spa/visual-description-a204.mp3",
+      "bytes": 178886,
+      "sha256": "9f94d8a2e734d3d0d66db98f15de109be00054c35c8f3fa4062e9042bfb70f7b",
+      "mime": "audio/mpeg",
+      "duration": 11.180375,
+      "sourceSha256": "2a786178af8c2715994ce537a65081d4e58d61a4958c88edac5cabf22c3ebbc8",
+      "processedTextSha256": "2a786178af8c2715994ce537a65081d4e58d61a4958c88edac5cabf22c3ebbc8",
+      "spokenInputSha256": "2a786178af8c2715994ce537a65081d4e58d61a4958c88edac5cabf22c3ebbc8",
+      "receivedAt": "2026-09-15T17:02:44.501Z",
+      "owners": [
+        {
+          "ownerId": "spa-media-a204",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-media-a204",
+          "spokenNoticeOwnerIds": []
+        }
+      ],
+      "recordingSource": "ai",
+      "derivation": {
+        "kind": "AI translation of accepted English visual description",
+        "sourceLanguage": "eng",
+        "sourceText": "Sandals. Here is a close view of sandals on a person’s feet. Look at the open toes, the straps around the feet and ankles, and the buckle.",
+        "sourceTextSha256": "c754ad3f316ac837e612f048fa7e5b5880ba865c61c791e3009053c72f39332a",
+        "sourceRevision": "8ef31b2c05b5907a6e01f15c05708174dae57479",
+        "sourcePath": "public/content/visual-narration.json",
+        "sourceBlob": "b8d68e2da8d5c8d200cded495b4256c80eeb0c45",
+        "canonicalVisualId": "a204",
+        "sourceVisualSha256": "d1e3f8420046e066c981476e80cad3c0024d77694d9045a2ca248cdc0dc811c7"
+      },
+      "image": {
+        "path": "/content/spa/mark-1-1-13/assets/a204.jpg",
+        "sha256": "d1e3f8420046e066c981476e80cad3c0024d77694d9045a2ca248cdc0dc811c7",
+        "bytes": 93501,
+        "pixelsLanguage": "no visible text"
+      }
+    },
+    {
+      "id": "visual-description-a112",
+      "path": "/audio/spa/visual-description-a112.mp3",
+      "bytes": 239072,
+      "sha256": "3cf75124917728072c3768520ea02f7e3d0e3ded0848f546d2655c0a4714996d",
+      "mime": "audio/mpeg",
+      "duration": 14.942,
+      "sourceSha256": "5836ba5aed522ea9bc3bf03994fd35a066c30580f2e9c383a4a87eb433f329ec",
+      "processedTextSha256": "5836ba5aed522ea9bc3bf03994fd35a066c30580f2e9c383a4a87eb433f329ec",
+      "spokenInputSha256": "5836ba5aed522ea9bc3bf03994fd35a066c30580f2e9c383a4a87eb433f329ec",
+      "receivedAt": "2026-09-15T17:02:49.938Z",
+      "owners": [
+        {
+          "ownerId": "spa-media-a112",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-media-a112",
+          "spokenNoticeOwnerIds": []
+        }
+      ],
+      "recordingSource": "ai",
+      "derivation": {
+        "kind": "AI translation of accepted English visual description",
+        "sourceLanguage": "eng",
+        "sourceText": "Jordan River. A person stands beside the river, with trees and reeds along its banks. Look at the water and the land beside it as you picture the Jordan River setting.",
+        "sourceTextSha256": "b83157a53dc4f256db3acf483f65a0d399222cfeb5729fec6ab584da7175cabc",
+        "sourceRevision": "8ef31b2c05b5907a6e01f15c05708174dae57479",
+        "sourcePath": "public/content/visual-narration.json",
+        "sourceBlob": "b8d68e2da8d5c8d200cded495b4256c80eeb0c45",
+        "canonicalVisualId": "a112",
+        "sourceVisualSha256": "9c58b5b5100b4324ab54000ac3c26b7ad2371fd964afa319fe0cda7da8e0291c"
+      },
+      "image": {
+        "path": "/content/spa/mark-1-1-13/assets/a112.jpg",
+        "sha256": "9c58b5b5100b4324ab54000ac3c26b7ad2371fd964afa319fe0cda7da8e0291c",
+        "bytes": 163531,
+        "pixelsLanguage": "no visible text"
+      }
+    },
+    {
+      "id": "visual-description-c202",
+      "path": "/audio/spa/visual-description-c202.mp3",
+      "bytes": 379506,
+      "sha256": "a395035a43a7fc49d5d97d4a1d9356893a58ce4792c852c5ebbe0d3f1a475f28",
+      "mime": "audio/mpeg",
+      "duration": 23.719125,
+      "sourceSha256": "9dbd2825ad6fd979452f2da5ed2deec1030ef53abaf737eae28ece7f34b88879",
+      "processedTextSha256": "9dbd2825ad6fd979452f2da5ed2deec1030ef53abaf737eae28ece7f34b88879",
+      "spokenInputSha256": "9dbd2825ad6fd979452f2da5ed2deec1030ef53abaf737eae28ece7f34b88879",
+      "receivedAt": "2026-09-15T17:02:52.620Z",
+      "owners": [
+        {
+          "ownerId": "spa-media-c202",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-media-c202",
+          "spokenNoticeOwnerIds": []
+        }
+      ],
+      "recordingSource": "ai",
+      "derivation": {
+        "kind": "AI translation of accepted English visual description",
+        "sourceLanguage": "eng",
+        "sourceText": "Important Locations in Jerusalem. This map outlines Jerusalem and labels the Temple, the Mount of Olives, and nearby places. Find Jerusalem inside the heavy black outline, then look across the blue river line toward the Mount of Olives.",
+        "sourceTextSha256": "010eb729e05d322d1da4dd545301dbcc5bab967b14b56d49caae012a3ab6ae59",
+        "sourceRevision": "8ef31b2c05b5907a6e01f15c05708174dae57479",
+        "sourcePath": "public/content/visual-narration.json",
+        "sourceBlob": "b8d68e2da8d5c8d200cded495b4256c80eeb0c45",
+        "canonicalVisualId": "c202",
+        "sourceVisualSha256": "edece4856f059c482ff51d57f3b947ed4a6f97d998be548af2e96d6e4543fa0c"
+      },
+      "image": {
+        "path": "/content/spa/mark-1-1-13/assets/c202.png",
+        "sha256": "edece4856f059c482ff51d57f3b947ed4a6f97d998be548af2e96d6e4543fa0c",
+        "bytes": 1065016,
+        "pixelsLanguage": "eng"
+      }
+    },
+    {
+      "id": "visual-description-c197",
+      "path": "/audio/spa/visual-description-c197.mp3",
+      "bytes": 690886,
+      "sha256": "4e82fa1dcceb8634615b7d203a4b8bb1e33f70df50fed40ea997d2e5b9e6a148",
+      "mime": "audio/mpeg",
+      "duration": 43.180375,
+      "sourceSha256": "263c1fcdc6472a5ef22a2076e9afe2b5b2c8bf85866e1f53ce9a13c6a6c17431",
+      "processedTextSha256": "263c1fcdc6472a5ef22a2076e9afe2b5b2c8bf85866e1f53ce9a13c6a6c17431",
+      "spokenInputSha256": "263c1fcdc6472a5ef22a2076e9afe2b5b2c8bf85866e1f53ce9a13c6a6c17431",
+      "receivedAt": "2026-09-15T17:02:59.345Z",
+      "owners": [
+        {
+          "ownerId": "spa-media-c197",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-media-c197",
+          "spokenNoticeOwnerIds": []
+        }
+      ],
+      "recordingSource": "ai",
+      "derivation": {
+        "kind": "AI translation of accepted English visual description",
+        "sourceLanguage": "eng",
+        "sourceText": "Locations in the Book of Mark. The large blue area on the left is the Mediterranean Sea. Look inland to the pear-shaped blue lake just above the middle of the map. That is the Sea of Galilee. From its bottom, trace the thin, winding blue line down to the long blue Dead Sea near the bottom of the map. That line is the Jordan River. Blue lines mark rivers; dashed lines mark roads. Around the river are Galilee, Nazareth, Judea, and Jerusalem.",
+        "sourceTextSha256": "6bce21fb4814f6fc272635fb124ce5211761e26a5d6cd6c76d2e93c1578d877b",
+        "sourceRevision": "8ef31b2c05b5907a6e01f15c05708174dae57479",
+        "sourcePath": "public/content/visual-narration.json",
+        "sourceBlob": "b8d68e2da8d5c8d200cded495b4256c80eeb0c45",
+        "canonicalVisualId": "c197",
+        "sourceVisualSha256": "e634e8d7f17c55b5f8be3fdc1f91fee7708f30774f4e1ad3223efff8ef9f2f5d"
+      },
+      "image": {
+        "path": "/content/spa/mark-1-1-13/assets/c197.png",
+        "sha256": "e634e8d7f17c55b5f8be3fdc1f91fee7708f30774f4e1ad3223efff8ef9f2f5d",
+        "bytes": 6712636,
+        "pixelsLanguage": "eng"
+      }
+    },
+    {
+      "id": "visual-description-ai-spa-from-a203",
+      "path": "/audio/spa/visual-description-ai-spa-from-a203.mp3",
+      "bytes": 272509,
+      "sha256": "f46d6760907dc9d8a14ab2faba78c792127a30915a68c303b26290349e269eba",
+      "mime": "audio/mpeg",
+      "duration": 17.031813,
+      "sourceSha256": "fc997651025c1af77dceabc56784820432eed420bafb50f368d213729f62e150",
+      "processedTextSha256": "fc997651025c1af77dceabc56784820432eed420bafb50f368d213729f62e150",
+      "spokenInputSha256": "fc997651025c1af77dceabc56784820432eed420bafb50f368d213729f62e150",
+      "receivedAt": "2026-09-15T17:02:57.777Z",
+      "owners": [
+        {
+          "ownerId": "ai-spa-from-a203",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-a203",
+          "spokenNoticeOwnerIds": []
+        }
+      ],
+      "recordingSource": "ai",
+      "derivation": {
+        "kind": "AI translation of accepted English visual description",
+        "sourceLanguage": "eng",
+        "sourceText": "Sandals. Here is a full view of a person wearing sandals and holding a wooden staff under a shaded shelter. Look down at the feet to see how the sandals are worn.",
+        "sourceTextSha256": "daafd5fc175b6fbadd5af0b6ac847010eff577fe5f0eec41ed7bdc08ab640a5d",
+        "sourceRevision": "8ef31b2c05b5907a6e01f15c05708174dae57479",
+        "sourcePath": "public/content/visual-narration.json",
+        "sourceBlob": "b8d68e2da8d5c8d200cded495b4256c80eeb0c45",
+        "canonicalVisualId": "a203",
+        "sourceVisualSha256": "1471c9bec45fa044351c13078a7093be44ec2db8e987a62c1a3151a4b9fcb5c9"
+      },
+      "image": {
+        "path": "/content/spa/mark-1-1-13/assets/a203.jpg",
+        "sha256": "1471c9bec45fa044351c13078a7093be44ec2db8e987a62c1a3151a4b9fcb5c9",
+        "bytes": 112424,
+        "pixelsLanguage": null
+      }
+    },
+    {
+      "id": "visual-description-ai-spa-from-c201",
+      "path": "/audio/spa/visual-description-ai-spa-from-c201.mp3",
+      "bytes": 364042,
+      "sha256": "8b4ba4ac0168d3c3daf7156807e95f5308537d3811070bc845b5a6ecbd32915b",
+      "mime": "audio/mpeg",
+      "duration": 22.752625,
+      "sourceSha256": "5dd5e3c99382fece9be8d3a5bc8a763972f14181e0a82950ccb465b865f79fc3",
+      "processedTextSha256": "5dd5e3c99382fece9be8d3a5bc8a763972f14181e0a82950ccb465b865f79fc3",
+      "spokenInputSha256": "5dd5e3c99382fece9be8d3a5bc8a763972f14181e0a82950ccb465b865f79fc3",
+      "receivedAt": "2026-09-15T17:03:01.904Z",
+      "owners": [
+        {
+          "ownerId": "ai-spa-from-c201",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-c201",
+          "spokenNoticeOwnerIds": []
+        }
+      ],
+      "recordingSource": "ai",
+      "derivation": {
+        "kind": "AI translation of accepted English visual description",
+        "sourceLanguage": "eng",
+        "sourceText": "Aerial View of Judea and Jerusalem. This illustrated terrain view shows hills and valleys around Judea and Jerusalem, with the Jordan River and the Dead Sea. Find Jerusalem and notice the raised land and the lower river valley as you picture the setting.",
+        "sourceTextSha256": "3458eb431d83c626a6c54a695b4ed9db2cdd48079482c98903f081d636025e5d",
+        "sourceRevision": "8ef31b2c05b5907a6e01f15c05708174dae57479",
+        "sourcePath": "public/content/visual-narration.json",
+        "sourceBlob": "b8d68e2da8d5c8d200cded495b4256c80eeb0c45",
+        "canonicalVisualId": "c201",
+        "sourceVisualSha256": "cf0381a5cf019c2ae6ba1c925fa6237689e6df346d519c34b73eb3fbf12b2ea3"
+      },
+      "image": {
+        "path": "/content/spa/mark-1-1-13/assets/c201.png",
+        "sha256": "cf0381a5cf019c2ae6ba1c925fa6237689e6df346d519c34b73eb3fbf12b2ea3",
+        "bytes": 6646608,
+        "pixelsLanguage": "eng"
+      }
+    },
+    {
+      "id": "visual-description-ai-spa-from-c168",
+      "path": "/audio/spa/visual-description-ai-spa-from-c168.mp3",
+      "bytes": 491102,
+      "sha256": "e0687e52b9ccfa044b65ee13a66c5a8463204371ce33bc2d19fb6355f2a328d7",
+      "mime": "audio/mpeg",
+      "duration": 30.693875,
+      "sourceSha256": "60c1e14231692d1c4f6c90ae5f17c01a095de6f9298a1517d2b65614f3b5c57f",
+      "processedTextSha256": "60c1e14231692d1c4f6c90ae5f17c01a095de6f9298a1517d2b65614f3b5c57f",
+      "spokenInputSha256": "60c1e14231692d1c4f6c90ae5f17c01a095de6f9298a1517d2b65614f3b5c57f",
+      "receivedAt": "2026-09-15T17:03:06.564Z",
+      "owners": [
+        {
+          "ownerId": "ai-spa-from-c168",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-c168",
+          "spokenNoticeOwnerIds": []
+        }
+      ],
+      "recordingSource": "ai",
+      "derivation": {
+        "kind": "AI translation of accepted English visual description",
+        "sourceLanguage": "eng",
+        "sourceText": "Nazareth and Judea. Find Nazareth in the region labeled Galilee. Then follow the blue Jordan River toward the Dead Sea, and find Judea and Jerusalem. The black arrows are labeled travels of Jesus. Use these labels to orient yourself to Galilee, Nazareth, and the Jordan River area.",
+        "sourceTextSha256": "ee539321d9e454f4d4e247c4c677bdad5a509dbe49846d56c2588ff0af8b8c75",
+        "sourceRevision": "8ef31b2c05b5907a6e01f15c05708174dae57479",
+        "sourcePath": "public/content/visual-narration.json",
+        "sourceBlob": "b8d68e2da8d5c8d200cded495b4256c80eeb0c45",
+        "canonicalVisualId": "c168",
+        "sourceVisualSha256": "012583ca2ccc485fcb236b9e7d9580b35b1380bd0416758f36b023bd619e096e"
+      },
+      "image": {
+        "path": "/content/spa/mark-1-1-13/assets/c168.png",
+        "sha256": "012583ca2ccc485fcb236b9e7d9580b35b1380bd0416758f36b023bd619e096e",
+        "bytes": 7735008,
+        "pixelsLanguage": "eng"
+      }
+    }
+  ],
+  "complete": true,
+  "expectedEntries": 205,
+  "partialWrittenNotices": false,
+  "historicalEntries": [
+    {
+      "id": "spa-cf8113d4e26cf042b739",
+      "path": "/audio/spa/spa-cf8113d4e26cf042b739.mp3",
+      "bytes": 15464,
+      "sha256": "53a01b234ac80619f354cb07681f8bb82ec8b7076cc84021375656bde388c204",
+      "mime": "audio/mpeg",
+      "duration": 0.9665,
+      "sourceSha256": "cf8113d4e26cf042b7399ee125e7ad76705491305247b56adb33ff16b9b9ee9f",
+      "processedTextSha256": "cf8113d4e26cf042b7399ee125e7ad76705491305247b56adb33ff16b9b9ee9f",
+      "receivedAt": "2026-09-14T18:52:54.521Z",
+      "owners": [
+        {
+          "ownerId": "spa-media-a111",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-media-a111",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c06e44d7452e5f503aa8",
+      "path": "/audio/spa/spa-c06e44d7452e5f503aa8.mp3",
+      "bytes": 17554,
+      "sha256": "64e30c67cce8ca79c162c12d37bb4b2e62adf3953af2e08335db8cf264553c1e",
+      "mime": "audio/mpeg",
+      "duration": 1.097125,
+      "sourceSha256": "c06e44d7452e5f503aa853f694dbdb2b94763cbd5d4fc69ac13aea9764120a81",
+      "processedTextSha256": "c06e44d7452e5f503aa853f694dbdb2b94763cbd5d4fc69ac13aea9764120a81",
+      "receivedAt": "2026-09-14T18:52:57.646Z",
+      "owners": [
+        {
+          "ownerId": "spa-media-a204",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-media-a204",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        },
+        {
+          "ownerId": "ai-spa-from-a203",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-a203",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-6fbf004dc6825d4aec1d",
+      "path": "/audio/spa/spa-6fbf004dc6825d4aec1d.mp3",
+      "bytes": 17554,
+      "sha256": "89aefbeddd774ac9d7d087513d2bb895e1544fc4d98ec6e64cdf30f432f1cb59",
+      "mime": "audio/mpeg",
+      "duration": 1.097125,
+      "sourceSha256": "6fbf004dc6825d4aec1d8379dc1b13ca303a245a2f1e698130b92ebda6a9b20a",
+      "processedTextSha256": "6fbf004dc6825d4aec1d8379dc1b13ca303a245a2f1e698130b92ebda6a9b20a",
+      "receivedAt": "2026-09-14T18:55:33.504Z",
+      "owners": [
+        {
+          "ownerId": "spa-media-a112",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-media-a112",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-6f2535c2291e9fef6016",
+      "path": "/audio/spa/spa-6f2535c2291e9fef6016.mp3",
+      "bytes": 30929,
+      "sha256": "55ade625458da3e151ba3367f26e4072e70dea63a74c7f916f4eb024d3dc1323",
+      "mime": "audio/mpeg",
+      "duration": 1.933063,
+      "sourceSha256": "6f2535c2291e9fef6016128abf7ba8a7fa32e0f790d3127ea5a81ee307393057",
+      "processedTextSha256": "6f2535c2291e9fef6016128abf7ba8a7fa32e0f790d3127ea5a81ee307393057",
+      "receivedAt": "2026-09-14T18:55:36.823Z",
+      "owners": [
+        {
+          "ownerId": "spa-media-c202",
+          "classification": "optional-resource",
+          "playbackGroupId": "spa-media-c202",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-english-map"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-48b2c339c822f563cf62",
+      "path": "/audio/spa/spa-48b2c339c822f563cf62.mp3",
+      "bytes": 28839,
+      "sha256": "bb0ef7f15ed4d8b675c12289810b269ce30416bec44bcc09a26cca6b3315d7c7",
+      "mime": "audio/mpeg",
+      "duration": 1.802438,
+      "sourceSha256": "48b2c339c822f563cf62f9d040dbae778314e8d53992611bb2b8c4841bd5dba3",
+      "processedTextSha256": "48b2c339c822f563cf62f9d040dbae778314e8d53992611bb2b8c4841bd5dba3",
+      "receivedAt": "2026-09-14T18:55:39.810Z",
+      "owners": [
+        {
+          "ownerId": "spa-media-c197",
+          "classification": "required-on-demand",
+          "playbackGroupId": "spa-media-c197",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-english-map"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-ae247a0d71243388e61f",
+      "path": "/audio/spa/spa-ae247a0d71243388e61f.mp3",
+      "bytes": 35526,
+      "sha256": "99c37342c09b8c06c1a067e9b734dd2fd51d51e6a1b7086cf5322fb39ece20d1",
+      "mime": "audio/mpeg",
+      "duration": 2.220375,
+      "sourceSha256": "ae247a0d71243388e61f8525d68db5594feff81823bad78b1f0c6bae42245992",
+      "processedTextSha256": "ae247a0d71243388e61f8525d68db5594feff81823bad78b1f0c6bae42245992",
+      "receivedAt": "2026-09-14T18:55:58.558Z",
+      "owners": [
+        {
+          "ownerId": "ai-spa-from-c201",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-c201",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation",
+            "spa-notice-english-map"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spa-c8f54d3e5a7da0a53991",
+      "path": "/audio/spa/spa-c8f54d3e5a7da0a53991.mp3",
+      "bytes": 21315,
+      "sha256": "efe74ee5c6736ec464b1bbba711828b840a4f621cc35ec4af6cee2bf5d02c226",
+      "mime": "audio/mpeg",
+      "duration": 1.332188,
+      "sourceSha256": "c8f54d3e5a7da0a53991ce77f78077706a03d57932228ccaf65e45647fcc5319",
+      "processedTextSha256": "c8f54d3e5a7da0a53991ce77f78077706a03d57932228ccaf65e45647fcc5319",
+      "receivedAt": "2026-09-14T18:56:01.553Z",
+      "owners": [
+        {
+          "ownerId": "ai-spa-from-c168",
+          "classification": "required-on-demand",
+          "playbackGroupId": "ai-spa-from-c168",
+          "spokenNoticeOwnerIds": [
+            "spa-notice-synthetic-voice",
+            "spa-notice-ai-translation",
+            "spa-notice-english-map"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "scriptFreeze": "c0ccf2465d86bb86adac0f3e4371ae945b02b5434b4b0bfa0c7fe0f431603c6c",
+  "entries": [
+    {
+      "id": "S02-U011",
+      "sha256": "759928e43a74d931bb7b9e3fb52e1ecd96c1713488f36a7030d25e3f124e4a35",
+      "bytes": 273345,
+      "path": "/audio/activity-transitions/S02-U011-with-pause.mp3",
+      "decodeExit": 0,
+      "duration": "17.084063",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "sourceSha256": "4c6baa6d4173ad386b53b1d680c976984bf56679f29b37c8bb5beb2ae1c0a858",
+      "cueId": "S02-U012",
+      "cueSourceSha256": "37f450cc20239bea715cd32fb8628b31ba1d30e63b3f96e04f47ad293301389d",
+      "expectedSpokenText": "Stop here and discuss this question as a group: What kinds of ceremonies or rituals does your culture have to show that someone is starting a new way of life or an important work? How are these ceremonies the same or different than baptism?\n\nI will pause the audio here so you can discuss these questions as a group.",
+      "expectedSpokenSha256": "bc0991741465296028c2130d29f0f57eb138dde14b48b447bce02da03d8d5350",
+      "transition": "I will pause the audio here so you can discuss these questions as a group.",
+      "mime": "audio/mpeg"
+    },
+    {
+      "id": "S06-U004",
+      "sha256": "236181249302b044b23f9b1b078d7860044c9a0599f466aa6f3c21abb4722605",
+      "bytes": 286720,
+      "path": "/audio/activity-transitions/S06-U004-with-pause.mp3",
+      "decodeExit": 0,
+      "duration": "17.920000",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "sourceSha256": "cded91bffe9ced4e0136ec69f976de43e0099c882cd030cd653c7604eb3243df",
+      "cueId": "S06-U005",
+      "cueSourceSha256": "37f450cc20239bea715cd32fb8628b31ba1d30e63b3f96e04f47ad293301389d",
+      "expectedSpokenText": "One group member should tell a few sentences of the passage and pause. Another group member should tell the next part of the passage and pause. Do this until the group has retold the whole passage. The group members can correct each other in this step.\n\nI will pause the audio here so your group can retell the passage together.",
+      "expectedSpokenSha256": "d24135716d01d62e30c742c11d98f643035456f9b9559eed52791c5257303fc1",
+      "transition": "I will pause the audio here so your group can retell the passage together.",
+      "mime": "audio/mpeg"
+    },
+    {
+      "id": "S06-U006",
+      "sha256": "76beab267e4342a8eded79c77490064989ea19511f57bb88b91d88ae44ea9ea1",
+      "bytes": 237818,
+      "path": "/audio/activity-transitions/S06-U006-with-pause.mp3",
+      "decodeExit": 0,
+      "duration": "14.863625",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "sourceSha256": "f4ba80959043420736fb3866c4025abe767548564dce936e333f4afd7c1eb15b",
+      "cueId": "S06-U007",
+      "cueSourceSha256": "37f450cc20239bea715cd32fb8628b31ba1d30e63b3f96e04f47ad293301389d",
+      "expectedSpokenText": "Next, each member of the group should tell the whole passage without interruption at least one time. A group member can use random objects, motions, or their storyboard to help them remember the passage.\n\nI will pause the audio here so each group member can retell the whole passage.",
+      "expectedSpokenSha256": "8bfbc7346124fdba8c2f5b3608add2caf56538a353a7f2f01c9a7d7abe9bdca3",
+      "transition": "I will pause the audio here so each group member can retell the whole passage.",
+      "mime": "audio/mpeg"
+    },
+    {
+      "id": "S06-U008",
+      "sha256": "aa89c2b50033dc2268fdedda5fd3eec2b63651da6c5a5b164fe2585ae9153e74",
+      "bytes": 256209,
+      "path": "/audio/activity-transitions/S06-U008-with-pause.mp3",
+      "decodeExit": 0,
+      "duration": "16.013063",
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "sourceSha256": "756d288e53b9577b559b2cc7fed8916f6d7894741a4f4175741af4c573a5c560",
+      "cueId": "S06-U009",
+      "cueSourceSha256": "37f450cc20239bea715cd32fb8628b31ba1d30e63b3f96e04f47ad293301389d",
+      "expectedSpokenText": "Next, the group can decide whose version of the passage you like the most. You may decide that you liked the way one group member told one scene but you liked the way a different group member told another scene.\n\nI will pause the audio here so your group can decide which retelling, or parts of different retellings, you prefer.",
+      "expectedSpokenSha256": "8723353d0625376a7a479bfb78eae61f4eb05d09d326e172edeb53b51a003d85",
+      "transition": "I will pause the audio here so your group can decide which retelling, or parts of different retellings, you prefer.",
+      "mime": "audio/mpeg"
+    }
+  ]
+}

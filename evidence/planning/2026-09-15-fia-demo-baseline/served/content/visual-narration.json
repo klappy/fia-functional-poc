@@ -1,0 +1,90 @@
+[
+  {
+    "id": "a112",
+    "title": "Jordan River",
+    "text": "Jordan River. A person stands beside the river, with trees and reeds along its banks. Look at the water and the land beside it as you picture the Jordan River setting.",
+    "characters": 167,
+    "textSha256": "b83157a53dc4f256db3acf483f65a0d399222cfeb5729fec6ab584da7175cabc",
+    "assetSha256": "9c58b5b5100b4324ab54000ac3c26b7ad2371fd964afa319fe0cda7da8e0291c",
+    "assetPath": "/assets/mark-1-1-13/a112.jpg",
+    "sourceContentSha256": "933e3a02578a04e74f1674542bbd7dd257ba66fce13b7ebf56d7b4e456008ee2",
+    "titleOnlyAlternative": "Jordan River."
+  },
+  {
+    "id": "a111",
+    "title": "Wilderness or Desert",
+    "text": "Wilderness or Desert. Dry, rounded hills stretch across the landscape, cut by gullies with little vegetation. Look at this landscape as you picture the wilderness and discuss the word you will use for it.",
+    "characters": 204,
+    "textSha256": "3da68fe049337a308527f84f147564ea5678e7340c64a0ace5fd55476e6118e7",
+    "assetSha256": "d314bac395b2aab8cf601f6a590bbf2547b71a54af67eb95dc927f5042883480",
+    "assetPath": "/assets/mark-1-1-13/a111.jpg",
+    "sourceContentSha256": "ac854a1e29b8ed4d9784b8dca873c106c2ad4ec78a6df3e587cd6ca42e516901",
+    "titleOnlyAlternative": "Wilderness or Desert."
+  },
+  {
+    "id": "a203",
+    "title": "Sandals",
+    "text": "Sandals. Here is a full view of a person wearing sandals and holding a wooden staff under a shaded shelter. Look down at the feet to see how the sandals are worn.",
+    "characters": 162,
+    "textSha256": "daafd5fc175b6fbadd5af0b6ac847010eff577fe5f0eec41ed7bdc08ab640a5d",
+    "assetSha256": "1471c9bec45fa044351c13078a7093be44ec2db8e987a62c1a3151a4b9fcb5c9",
+    "assetPath": "/assets/mark-1-1-13/a203.jpg",
+    "sourceContentSha256": "62d2d6c25be355661ea8c2dfdb2a8322d779ff8944089e2c071d567011899192",
+    "titleOnlyAlternative": "Sandals."
+  },
+  {
+    "id": "a204",
+    "title": "Sandals",
+    "text": "Sandals. Here is a close view of sandals on a person’s feet. Look at the open toes, the straps around the feet and ankles, and the buckle.",
+    "characters": 138,
+    "textSha256": "c754ad3f316ac837e612f048fa7e5b5880ba865c61c791e3009053c72f39332a",
+    "assetSha256": "d1e3f8420046e066c981476e80cad3c0024d77694d9045a2ca248cdc0dc811c7",
+    "assetPath": "/assets/mark-1-1-13/a204.jpg",
+    "sourceContentSha256": "59eed35d0ee6d668566831ce3494df201daa099ed9db6febd4d7f17800e25ddf",
+    "titleOnlyAlternative": "Sandals."
+  },
+  {
+    "id": "c202",
+    "title": "Important Locations in Jerusalem",
+    "text": "Important Locations in Jerusalem. This map outlines Jerusalem and labels the Temple, the Mount of Olives, and nearby places. Find Jerusalem inside the heavy black outline, then look across the blue river line toward the Mount of Olives.",
+    "characters": 236,
+    "textSha256": "010eb729e05d322d1da4dd545301dbcc5bab967b14b56d49caae012a3ab6ae59",
+    "assetSha256": "edece4856f059c482ff51d57f3b947ed4a6f97d998be548af2e96d6e4543fa0c",
+    "assetPath": "/assets/mark-1-1-13/c202.png",
+    "sourceContentSha256": "cdb037e6a528a36677aae4a23ffa0506e5488644f2647b3f9b2e402c97936040",
+    "titleOnlyAlternative": "Important Locations in Jerusalem."
+  },
+  {
+    "id": "c197",
+    "title": "Locations in the Book of Mark",
+    "text": "Locations in the Book of Mark. The large blue area on the left is the Mediterranean Sea. Look inland to the pear-shaped blue lake just above the middle of the map. That is the Sea of Galilee. From its bottom, trace the thin, winding blue line down to the long blue Dead Sea near the bottom of the map. That line is the Jordan River. Blue lines mark rivers; dashed lines mark roads. Around the river are Galilee, Nazareth, Judea, and Jerusalem.",
+    "characters": 443,
+    "textSha256": "6bce21fb4814f6fc272635fb124ce5211761e26a5d6cd6c76d2e93c1578d877b",
+    "assetSha256": "e634e8d7f17c55b5f8be3fdc1f91fee7708f30774f4e1ad3223efff8ef9f2f5d",
+    "assetPath": "/assets/mark-1-1-13/c197.png",
+    "sourceContentSha256": "947d41e8d66cd232dfd8ee45c56f83293f47b81304fa35ed4f5aabde41048e93",
+    "titleOnlyAlternative": "Locations in the Book of Mark."
+  },
+  {
+    "id": "c201",
+    "title": "Aerial View of Judea and Jerusalem",
+    "text": "Aerial View of Judea and Jerusalem. This illustrated terrain view shows hills and valleys around Judea and Jerusalem, with the Jordan River and the Dead Sea. Find Jerusalem and notice the raised land and the lower river valley as you picture the setting.",
+    "characters": 254,
+    "textSha256": "3458eb431d83c626a6c54a695b4ed9db2cdd48079482c98903f081d636025e5d",
+    "assetSha256": "cf0381a5cf019c2ae6ba1c925fa6237689e6df346d519c34b73eb3fbf12b2ea3",
+    "assetPath": "/assets/mark-1-1-13/c201.png",
+    "sourceContentSha256": "b9a7f5be4ef26342d187dc1f09f1f46fb1e07a3ae1ac0bf9bc5bac03e4738844",
+    "titleOnlyAlternative": "Aerial View of Judea and Jerusalem."
+  },
+  {
+    "id": "c168",
+    "title": "Nazareth and Judea",
+    "text": "Nazareth and Judea. Find Nazareth in the region labeled Galilee. Then follow the blue Jordan River toward the Dead Sea, and find Judea and Jerusalem. The black arrows are labeled travels of Jesus. Use these labels to orient yourself to Galilee, Nazareth, and the Jordan River area.",
+    "characters": 281,
+    "textSha256": "ee539321d9e454f4d4e247c4c677bdad5a509dbe49846d56c2588ff0af8b8c75",
+    "assetSha256": "012583ca2ccc485fcb236b9e7d9580b35b1380bd0416758f36b023bd619e096e",
+    "assetPath": "/assets/mark-1-1-13/c168.png",
+    "sourceContentSha256": "ceac16aac7ae853339752c1e16a4a1593b9d668f9410abf7bace3559cfc40806",
+    "titleOnlyAlternative": "Nazareth and Judea."
+  }
+]

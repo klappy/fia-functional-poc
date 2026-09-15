@@ -1,0 +1,30 @@
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE || '/tmp/fia-release-7f54/node_modules/playwright');
+const fs=require('fs'),path=require('path');
+const root=__dirname, records=[];
+(async()=>{const browser=await chromium.launch({headless:true});const context=await browser.newContext({viewport:{width:390,height:844},deviceScaleFactor:1,locale:'en-US',timezoneId:'America/New_York',colorScheme:'light'});const p=await context.newPage();p.setDefaultTimeout(10000);
+const save=async(name,note,ids)=>{await p.screenshot({path:path.join(root,'screenshots',name+'.png'),fullPage:false});const r={file:'screenshots/'+name+'.png',capturedAt:new Date().toISOString(),url:p.url(),viewport:p.viewportSize(),note,checklistIds:ids,release:await p.locator('meta[name="fia-release"]').getAttribute('content').catch(()=>null),localStorage:await p.evaluate(()=>Object.fromEntries(Object.entries(localStorage))).catch(()=>({})),body:await p.locator('body').innerText()};records.push(r);fs.writeFileSync(path.join(root,'capture-states.json'),JSON.stringify(records,null,2));console.log(name)};
+try{
+ await p.goto('https://fia.klappy.dev',{waitUntil:'networkidle'});await p.getByLabel('Next guide activity').waitFor();
+ await save('01-initial-light','Fresh isolated browser context, default English, default narration; no offline pack saved.',[3,4,5,6,20,25]);
+ await p.getByLabel('Switch to dark theme').click();await save('02-initial-dark','Same initial guide, dark theme selected through UI.',[4,26]);await p.getByLabel('Switch to light theme').click();
+ await p.getByLabel('Next guide activity').click();await save('03-next-guide-light','Advanced once using secondary next; guide position visible.',[3,4,6,21,25]);
+ await p.getByRole('button',{name:/Section .*Browse/}).click();await save('04-section-browser','Section browser opened from guide.',[6,20,24,27]);await p.keyboard.press('Escape');
+ console.log('dialogs',await p.getByRole('dialog').count());
+ if(await p.getByRole('dialog').count()){console.log(await p.getByRole('dialog').innerText());await p.getByRole('button',{name:/close/i}).first().click()}
+ console.log('selects',await p.locator('select').evaluateAll(x=>x.map(e=>({label:e.getAttribute('aria-label'),options:[...e.options].map(o=>({value:o.value,text:o.text}))}))));
+ await p.locator('select').first().selectOption({label:'4/6 · Embodying the Text'});await save('05-dramatization-start','Stage four selected; initial chunk.',[3,6,27]);await p.getByLabel('Next guide activity').click();await save('06-dramatization-next','Stage four next chunk.',[27]);
+ await p.getByLabel('Read complete guide and attribution').click();await save('07-complete-guide','Complete guide and attribution opened.',[16,24,27]);await p.keyboard.press('Escape');
+ if(await p.getByRole('dialog').count())await p.getByRole('button',{name:/close/i}).first().click();
+ await p.locator('button[aria-label="Resources"]').click();await save('08-resources','Resources initial viewport with image/video affordances.',[5,9,11,12,15]);
+ await p.getByRole('button',{name:'Open Wilderness or Desert image',exact:true}).click();await save('09-image-open','Image view opened via image action.',[9,11]);console.log('imagebody',await p.locator('body').innerText());console.log('imagebuttons',await p.locator('button').evaluateAll(x=>x.map(b=>({text:b.innerText,label:b.getAttribute('aria-label')}))));
+ await p.keyboard.press('Escape');if(await p.getByRole('dialog').count())await p.getByRole('button',{name:/close/i}).first().click();
+ await p.locator('button[aria-label="Resources"]').click();await p.getByRole('button',{name:'Open prophet term',exact:true}).click();await save('10-long-resource','Prophet term opened; audio controls before play.',[12,13,15]);
+ await p.keyboard.press('Escape');if(await p.getByRole('dialog').count())await p.getByRole('button',{name:/close/i}).first().click();
+ await p.locator('button[aria-label="Scripture"]').click();await save('11-scripture','Scripture view before playback.',[14,30]);
+ await p.getByLabel('Offline passage and settings').click();await save('12-offline-settings','Save/settings opened, before any pack download.',[17,18,19]);console.log('settingsbody',await p.locator('body').innerText());
+ await p.keyboard.press('Escape');if(await p.getByRole('dialog').count())await p.getByRole('button',{name:/close/i}).first().click();
+ await p.locator('button[aria-label="Languages"]').click();await save('13-languages','Language chooser.',[8,29]);console.log('languages',await p.locator('body').innerText());
+ await p.keyboard.press('Escape');if(await p.getByRole('dialog').count())await p.getByRole('button',{name:/close/i}).first().click();
+ await p.locator('button[aria-label="Guide"]').click();await p.addStyleTag({content:'html { font-size: 200% !important; }'});await save('14-large-root-font-simulation','Diagnostic local 200% root-font override, NOT actual operating-system text accessibility setting; underlying served bytes unchanged.',[22,23]);
+ await context.setOffline(true);await p.reload({waitUntil:'domcontentloaded'}).catch(e=>console.log('offline reload:',e.message));await save('15-offline-unsaved','Browser offline after prior browsing, no saved passage pack; not installed-PWA or full offline validation.',[18,36]);
+}catch(e){console.error(e);fs.writeFileSync(path.join(root,'capture-error.txt'),String(e));}finally{await browser.close();}})();

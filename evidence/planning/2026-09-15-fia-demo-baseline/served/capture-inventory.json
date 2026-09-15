@@ -1,0 +1,164 @@
+{
+  "observed_at": "2026-09-15T21:29:42.725265+00:00",
+  "url": "https://fia.klappy.dev",
+  "shell_revision": "253e4ee29dc406661f724f5411769fdb553bcf868037c6bd5bef92a3b39da2ff",
+  "files": [
+    {
+      "path": "/",
+      "bytes": 567,
+      "sha256": "db905932a69a52a008bc29f4c6c8b2135256248b7a615ded5234e6fb5ce7fab0",
+      "declared_sha256": null
+    },
+    {
+      "path": "/sw.js",
+      "bytes": 10074,
+      "sha256": "9553fdb584fb09409dc7c60f61d846416070efe37cb3828600032589f1660d80",
+      "declared_sha256": null
+    },
+    {
+      "path": "/index.html",
+      "bytes": 567,
+      "sha256": "db905932a69a52a008bc29f4c6c8b2135256248b7a615ded5234e6fb5ce7fab0",
+      "declared_sha256": "db905932a69a52a008bc29f4c6c8b2135256248b7a615ded5234e6fb5ce7fab0"
+    },
+    {
+      "path": "/assets/index-BjTcFI7j.css",
+      "bytes": 29164,
+      "sha256": "97d871ae5d2b9fe24b1e503c23515b28a01f2ecca43a1c99fe708a1384ac508c",
+      "declared_sha256": "97d871ae5d2b9fe24b1e503c23515b28a01f2ecca43a1c99fe708a1384ac508c"
+    },
+    {
+      "path": "/assets/index-D-yTwoPA.js",
+      "bytes": 1396901,
+      "sha256": "294f156b3def81a9290480352634f1d5fa58275cc14a4387e110daf90c5ec71c",
+      "declared_sha256": "294f156b3def81a9290480352634f1d5fa58275cc14a4387e110daf90c5ec71c"
+    },
+    {
+      "path": "/app.webmanifest",
+      "bytes": 535,
+      "sha256": "57bf56bd95805904d6eed9b23a03ae16e164b0bd42c6fc924da142cf546fe3b3",
+      "declared_sha256": "57bf56bd95805904d6eed9b23a03ae16e164b0bd42c6fc924da142cf546fe3b3"
+    },
+    {
+      "path": "/icons/fia-192.png",
+      "bytes": 4766,
+      "sha256": "4a952806d86da0cdaf9f33dd57badcbb776cab3affb2fb5b3a26a3c10702666e",
+      "declared_sha256": "4a952806d86da0cdaf9f33dd57badcbb776cab3affb2fb5b3a26a3c10702666e"
+    },
+    {
+      "path": "/icons/fia-512.png",
+      "bytes": 15475,
+      "sha256": "6a278a9587b37de38e27a68146e2453f1ae679247ed8185f36a8faf8f7a8064d",
+      "declared_sha256": "6a278a9587b37de38e27a68146e2453f1ae679247ed8185f36a8faf8f7a8064d"
+    },
+    {
+      "path": "/icons/fia-maskable-512.png",
+      "bytes": 15475,
+      "sha256": "6a278a9587b37de38e27a68146e2453f1ae679247ed8185f36a8faf8f7a8064d",
+      "declared_sha256": "6a278a9587b37de38e27a68146e2453f1ae679247ed8185f36a8faf8f7a8064d"
+    },
+    {
+      "path": "/icons/apple-touch-icon.png",
+      "bytes": 4282,
+      "sha256": "1ac149b892e666ec7922fc172cce384920a4e68d496fdcf85b3b8a2aaa6bda4e",
+      "declared_sha256": "1ac149b892e666ec7922fc172cce384920a4e68d496fdcf85b3b8a2aaa6bda4e"
+    },
+    {
+      "path": "/content/mark-1-1-13/manifest.json",
+      "bytes": 19911,
+      "sha256": "a7c976af1a25eb3d65939a45fb066d51a1e719abd103cc360b1994d76563b507",
+      "declared_sha256": "a7c976af1a25eb3d65939a45fb066d51a1e719abd103cc360b1994d76563b507"
+    },
+    {
+      "path": "/content/mark-1-1-13/guide.json",
+      "bytes": 121233,
+      "sha256": "615c7efbcb52f913648f11b0314666bb535b4f07d39bae9df43c85eb7d379295",
+      "declared_sha256": "615c7efbcb52f913648f11b0314666bb535b4f07d39bae9df43c85eb7d379295"
+    },
+    {
+      "path": "/content/mark-1-1-13/scripture.json",
+      "bytes": 31477,
+      "sha256": "ac3a3c56a04d63ca0e322983e7a6865bca3d9e4da500df298756f10d3c934cb7",
+      "declared_sha256": "ac3a3c56a04d63ca0e322983e7a6865bca3d9e4da500df298756f10d3c934cb7"
+    },
+    {
+      "path": "/content/mark-1-1-13/resources.json",
+      "bytes": 471122,
+      "sha256": "43b235920e5250e5c90afb2016b3312b2af5b10fb3d069662949902f0efef018",
+      "declared_sha256": "43b235920e5250e5c90afb2016b3312b2af5b10fb3d069662949902f0efef018"
+    },
+    {
+      "path": "/content/mark-1-1-13/cues.json",
+      "bytes": 24442,
+      "sha256": "e5881516012b3827a5813b0c3e5167f2d71d19b88e1e842cadad0583726c59d8",
+      "declared_sha256": "e5881516012b3827a5813b0c3e5167f2d71d19b88e1e842cadad0583726c59d8"
+    },
+    {
+      "path": "/audio/mark-1-1-13/manifest.json",
+      "bytes": 68194,
+      "sha256": "773154de038b1a586549073773f313297e7e189a342bd51156de868537f235a2",
+      "declared_sha256": "773154de038b1a586549073773f313297e7e189a342bd51156de868537f235a2"
+    },
+    {
+      "path": "/audio/terms/manifest.json",
+      "bytes": 12019,
+      "sha256": "434bf6216ba84c725fdfe33f71580fa6d1eb7b2a79f9ab5a6efb354e9b90a713",
+      "declared_sha256": "434bf6216ba84c725fdfe33f71580fa6d1eb7b2a79f9ab5a6efb354e9b90a713"
+    },
+    {
+      "path": "/content/term-narration.json",
+      "bytes": 47217,
+      "sha256": "0eb6c139d8af0fb2c61a6c241f8aae7dc1dfa8efc10753bb944243309abb9112",
+      "declared_sha256": "0eb6c139d8af0fb2c61a6c241f8aae7dc1dfa8efc10753bb944243309abb9112"
+    },
+    {
+      "path": "/audio/activity-transitions/manifest.json",
+      "bytes": 4913,
+      "sha256": "ccb623005edd8af0719f23ab20b633e00c3462627823712853695f59c3c8b4d3",
+      "declared_sha256": "ccb623005edd8af0719f23ab20b633e00c3462627823712853695f59c3c8b4d3"
+    },
+    {
+      "path": "/audio/next-actions/manifest.json",
+      "bytes": 13132,
+      "sha256": "6278e601b945abab15399fb6286ddd3ae504dfd80b60b89174a2921d1854b415",
+      "declared_sha256": "6278e601b945abab15399fb6286ddd3ae504dfd80b60b89174a2921d1854b415"
+    },
+    {
+      "path": "/audio/visual-resources/manifest.json",
+      "bytes": 3891,
+      "sha256": "b85e7d561cc0f763a3cd1e61d9d20ff6e836e4b07198efbb35419b866757708c",
+      "declared_sha256": "b85e7d561cc0f763a3cd1e61d9d20ff6e836e4b07198efbb35419b866757708c"
+    },
+    {
+      "path": "/content/visual-narration.json",
+      "bytes": 5664,
+      "sha256": "150501ac9d3ee31ad091cf77c1eda7047346c185939d5efad4d4eed40b4f27c9",
+      "declared_sha256": "150501ac9d3ee31ad091cf77c1eda7047346c185939d5efad4d4eed40b4f27c9"
+    },
+    {
+      "path": "/alignment/scripture-BereanStandardBible.json",
+      "bytes": 15657,
+      "sha256": "99c2f6f01bedbabae96ccf85012fa85bf9b5002f8be9b1ae99b2483cd81397eb",
+      "declared_sha256": "99c2f6f01bedbabae96ccf85012fa85bf9b5002f8be9b1ae99b2483cd81397eb"
+    },
+    {
+      "path": "/alignment/scripture-unfoldingWordLiteral.json",
+      "bytes": 16638,
+      "sha256": "c3a6f737f7a0d42019f73c8c6c6160e20a84cd5ce0d8d52fdfbd6b884522c0ef",
+      "declared_sha256": "c3a6f737f7a0d42019f73c8c6c6160e20a84cd5ce0d8d52fdfbd6b884522c0ef"
+    },
+    {
+      "path": "/alignment/scripture-unfoldingWordSimplified.json",
+      "bytes": 22776,
+      "sha256": "8ff1c269ba7cb104b32ff616c02947fac67a7fa607abf4fe321650c35d1029e6",
+      "declared_sha256": "8ff1c269ba7cb104b32ff616c02947fac67a7fa607abf4fe321650c35d1029e6"
+    },
+    {
+      "path": "/audio/spa/manifest.json",
+      "bytes": 184428,
+      "sha256": "8d1c4e06c7bd51340827bf99abc849d56456dcd7da515064f12bbe4000db8965",
+      "declared_sha256": null,
+      "observed_at": "2026-09-15T21:32:48.305577+00:00"
+    }
+  ]
+}
