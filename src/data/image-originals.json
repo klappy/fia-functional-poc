@@ -62,5 +62,69 @@
     "mime": "image/jpeg",
     "width": 1000,
     "height": 563
+  },
+  {
+    "path": "/content/spa/mark-1-1-13/assets/c168.png",
+    "sha256": "012583ca2ccc485fcb236b9e7d9580b35b1380bd0416758f36b023bd619e096e",
+    "bytes": 7735008,
+    "mime": "image/png",
+    "width": 3000,
+    "height": 4000
+  },
+  {
+    "path": "/content/spa/mark-1-1-13/assets/c197.png",
+    "sha256": "e634e8d7f17c55b5f8be3fdc1f91fee7708f30774f4e1ad3223efff8ef9f2f5d",
+    "bytes": 6712636,
+    "mime": "image/png",
+    "width": 3000,
+    "height": 4000
+  },
+  {
+    "path": "/content/spa/mark-1-1-13/assets/a112.jpg",
+    "sha256": "9c58b5b5100b4324ab54000ac3c26b7ad2371fd964afa319fe0cda7da8e0291c",
+    "bytes": 163531,
+    "mime": "image/jpeg",
+    "width": 1000,
+    "height": 699
+  },
+  {
+    "path": "/content/spa/mark-1-1-13/assets/a111.jpg",
+    "sha256": "d314bac395b2aab8cf601f6a590bbf2547b71a54af67eb95dc927f5042883480",
+    "bytes": 69973,
+    "mime": "image/jpeg",
+    "width": 1000,
+    "height": 563
+  },
+  {
+    "path": "/content/spa/mark-1-1-13/assets/a203.jpg",
+    "sha256": "1471c9bec45fa044351c13078a7093be44ec2db8e987a62c1a3151a4b9fcb5c9",
+    "bytes": 112424,
+    "mime": "image/jpeg",
+    "width": 1000,
+    "height": 563
+  },
+  {
+    "path": "/content/spa/mark-1-1-13/assets/c202.png",
+    "sha256": "edece4856f059c482ff51d57f3b947ed4a6f97d998be548af2e96d6e4543fa0c",
+    "bytes": 1065016,
+    "mime": "image/png",
+    "width": 4000,
+    "height": 3000
+  },
+  {
+    "path": "/content/spa/mark-1-1-13/assets/c201.png",
+    "sha256": "cf0381a5cf019c2ae6ba1c925fa6237689e6df346d519c34b73eb3fbf12b2ea3",
+    "bytes": 6646608,
+    "mime": "image/png",
+    "width": 3000,
+    "height": 4000
+  },
+  {
+    "path": "/content/spa/mark-1-1-13/assets/a204.jpg",
+    "sha256": "d1e3f8420046e066c981476e80cad3c0024d77694d9045a2ca248cdc0dc811c7",
+    "bytes": 93501,
+    "mime": "image/jpeg",
+    "width": 1000,
+    "height": 563
   }
 ]
