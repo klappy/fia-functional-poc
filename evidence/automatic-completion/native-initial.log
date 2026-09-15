@@ -1,0 +1,57 @@
+[WebServer] (node:12190) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 18 tests using 1 worker
+
+(node:12207) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   1 tests/automatic-completion.spec.js:3:214 › automatic all page parts eng resources (8.8s)
+(node:12616) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   2 tests/automatic-completion.spec.js:3:214 › automatic all page parts eng scripture (4.6s)
+  ✓   3 tests/automatic-completion.spec.js:3:214 › automatic all page parts spa resources (5.5s)
+  ✓   4 tests/automatic-completion.spec.js:3:214 › automatic all page parts spa scripture (32.0s)
+  ✓   5 tests/guide-completion.spec.js:2:101 › optional completion preserves guide/audio 319 eng dark=false (1.0s)
+  ✓   6 tests/guide-completion.spec.js:2:101 › optional completion preserves guide/audio 319 eng dark=true (1.1s)
+  ✓   7 tests/guide-completion.spec.js:2:101 › optional completion preserves guide/audio 319 spa dark=false (1.3s)
+  ✓   8 tests/guide-completion.spec.js:2:101 › optional completion preserves guide/audio 319 spa dark=true (1.2s)
+  ✓   9 tests/guide-completion.spec.js:2:101 › optional completion preserves guide/audio 390 eng dark=false (1.0s)
+  ✓  10 tests/guide-completion.spec.js:2:101 › optional completion preserves guide/audio 390 eng dark=true (1.1s)
+  ✓  11 tests/guide-completion.spec.js:2:101 › optional completion preserves guide/audio 390 spa dark=false (1.2s)
+  ✓  12 tests/guide-completion.spec.js:2:101 › optional completion preserves guide/audio 390 spa dark=true (1.2s)
+  ✓  13 tests/guide-completion.spec.js:19:82 › Finish remains visit-based with empty explicit fixture marks eng (824ms)
+  ✓  14 tests/guide-completion.spec.js:19:82 › Finish remains visit-based with partial explicit fixture marks eng (811ms)
+  ✓  15 tests/guide-completion.spec.js:19:82 › Finish remains visit-based with full explicit fixture marks eng (698ms)
+  ✓  16 tests/guide-completion.spec.js:19:82 › Finish remains visit-based with empty explicit fixture marks spa (958ms)
+  ✓  17 tests/guide-completion.spec.js:19:82 › Finish remains visit-based with partial explicit fixture marks spa (986ms)
+  ✓  18 tests/guide-completion.spec.js:19:82 › Finish remains visit-based with full explicit fixture marks spa (921ms)
+
+
+  1) tests/automatic-completion.spec.js:3:214 › automatic all page parts eng resources ─────────────
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('button', { name: 'Mark section incomplete', exact: true })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByRole('button', { name: 'Mark section incomplete', exact: true }) with timeout 5000ms
+      - waiting for getByRole('button', { name: 'Mark section incomplete', exact: true })
+
+
+       5 |  await page.getByRole('combobox',{name:'Guide step',exact:true}).selectOption(step);await page.getByRole('button',{name:/^Section .* · Browse$/}).click();await page.getByRole('dialog').locator(`[data-unit-id="${id}"]`).click();const mark=()=>page.getByRole('button',{name:'Mark section complete',exact:true});await expect(mark()).toBeEnabled();await page.locator('.guide-footer .owner-toggle').click();await endQueue(page);await expect(mark()).toBeVisible();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id',id);
+       6 |  if(kind==='scripture'){await page.getByRole('button',{name:/^Play Scripture/}).click();await endQueue(page);}else{const buttons=page.locator('.context-resources').getByRole('button',{name:/^Play /});for(let i=0;i<await buttons.count();i++){await buttons.nth(i).click();await endQueue(page);}}
+    >  7 |  const undo=page.getByRole('button',{name:'Mark section incomplete',exact:true});await expect(undo).toBeVisible();await undo.click();await expect(mark()).toBeFocused();await page.locator('.guide-footer .owner-toggle').click();await endQueue(page);await expect(mark()).toBeVisible();await page.reload();await expect(mark()).toBeEnabled();await expect(page.getByTestId('current-unit')).toHaveAttribute('data-unit-id',id);
+         |                                                                                                     ^
+       8 |  await page.screenshot({path:`evidence/automatic-completion/${language}-${kind}.png`});
+       9 | });
+      10 |
+        at /private/tmp/fia-auto-completion/tests/automatic-completion.spec.js:7:101
+
+    Error Context: test-results/automatic-completion-automatic-all-page-parts-eng-resources/error-context.md
+
+  1 failed
+    tests/automatic-completion.spec.js:3:214 › automatic all page parts eng resources ──────────────
+  17 passed (1.1m)
