@@ -39,3 +39,19 @@ const spanishEntries=[...entries.filter(e=>e.group==='shell'),{path:'/'+spanishB
 if(spanish.preparedAudio){const descriptor=spanish.preparedAudio,body=fs.readFileSync('dist'+descriptor.path);if(body.length!==descriptor.bytes||hash(body)!==descriptor.sha256)throw Error('Spanish audio manifest mismatch');const audio=JSON.parse(body),catalog=JSON.parse(fs.readFileSync('src/data/spanish-audio-catalog.json'));if(audio.entries.length!==descriptor.entries||audio.expectedEntries!==catalog.requests.length||new Set(audio.entries.map(e=>e.id)).size!==audio.entries.length)throw Error('Spanish audio snapshot count mismatch');for(const e of audio.entries){const r=catalog.requests.find(r=>r.id===e.id),b=fs.readFileSync('dist'+e.path);if(!r||e.path!==`/audio/spa/${e.id}.mp3`||e.sourceSha256!==r.sourceSha256||e.processedTextSha256!==r.processedTextSha256||b.length!==e.bytes||hash(b)!==e.sha256)throw Error('Spanish audio snapshot binding mismatch');}if(audio.complete){if(audio.entries.length!==catalog.requests.length)throw Error('Incomplete Spanish audio claim');spanishEntries.push({...descriptor,mime:'application/json',group:'pack'},...audio.entries.map(e=>({...e,group:'pack'})));}}
 for(const e of spanishEntries){const b=fs.readFileSync('dist'+e.path);if(b.length!==e.bytes||hash(b)!==e.sha256)throw Error('Spanish release bytes mismatch');}
 fs.writeFileSync('dist/offline-spa.json',JSON.stringify({schemaVersion:1,id:spanish.packId,revision:hash(JSON.stringify(spanishEntries)),entries:spanishEntries},null,2));
+
+// Derivative bytes remain at the configured proxy. These exact descriptors are the
+// only external media accepted by the atomic offline transaction.
+const derivativeCatalog=JSON.parse(fs.readFileSync('src/data/media-derivatives.json'));
+const {resolveMedia,variantCachePath}=await import('../src/lib/media-variants.js');
+const originals=JSON.parse(fs.readFileSync('src/data/image-originals.json'));
+for(const [file,baseEntries,id]of[['offline-shell-medium.json',entries,manifest.id],['offline-spa-medium.json',spanishEntries,spanish.packId]]){
+ const selected=baseEntries.flatMap(e=>{
+  const image=originals.find(i=>i.path===e.path),source={...e,...image};
+  const candidates=derivativeCatalog.entries.filter(d=>d.eligible&&d.sourcePath===e.path&&d.sourceSha256===e.sha256);
+  const variants=candidates.map(d=>{const resolved=resolveMedia(source,'medium',{outputSha256:d.sha256,cssWidth:1,dpr:1},derivativeCatalog,process.env.VITE_MEDIA_PROXY_BASE??'https://transcode.klappy.dev');if(resolved.variant!=='medium')return null;return{path:variantCachePath(d),fetchUrl:resolved.url,bytes:d.bytes,sha256:d.sha256,mime:d.mime,group:'pack',sourcePath:e.path,sourceSha256:e.sha256,recipe:d.recipe};}).filter(Boolean);
+  return variants.length?variants:[e];
+ });
+ const unique=[...new Map(selected.map(e=>[e.path,e])).values()];
+ fs.writeFileSync('dist/'+file,JSON.stringify({schemaVersion:1,id,quality:'medium',proxyBase:(process.env.VITE_MEDIA_PROXY_BASE??'https://transcode.klappy.dev').replace(/\/$/,''),sourceBase:derivativeCatalog.sourceBase,revision:hash(JSON.stringify(unique)),entries:unique},null,2));
+}

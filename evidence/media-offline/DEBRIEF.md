@@ -1,0 +1,13 @@
+# Atomic media variants
+
+Order: offline12, author7 / independent root3 / coordination2. Resolver baseline and its explicit Spanish-alias correction keep separate budgets. Base source is the reviewed resolver with exact eight Spanish original image aliases. The catalog remains a 161-entry qualified snapshot while external preparation continues; no complete-conversion claim.
+
+Generated Medium inventories replace eligible raw entries with exact source/recipe/output cache identities, preserving originals for missing/timed/unqualified variants. Required image tiers share deduplicated entries. Fetch URLs are exact configured proxy recipes; the worker rejects arbitrary external locations. Original manifests remain intact. Settings compares unique language-specific Original and Medium inventories in decimal MB, including unchanged shell, fallback originals and timed English recordings; selected download and actual saved quality remain separate.
+
+One window media queue receives explicit offline requests through the service worker message port. Online work promotes matching queued downloads. The worker independently verifies every response and cached entry, then retains the existing shell/passage atomic pointer protocol. Internal failure cancels client downloads and settles all launched work before staging deletion; cancellation/quota/hash failures preserve previous pointers. Page hide cancels work; abandoned clients have a bounded timeout. Exact saved proxy URLs resolve from same-origin variant cache keys offline; unsaved originals are not substituted into the saved inventory.
+
+Native Chromium observed a full English Medium save, a new-page offline cold launch, and an exact saved derivative read through its normal proxy URL. No page errors occurred. This was on the same implementation before the final stamp bump; unit coverage separately verifies hash failure, explicit cancellation, and a fault while another cache write remains pending. Spanish eight-image native visibility was checked at resolver 53c2b8e; no blanket Spanish offline native claim is made in that receipt.
+
+Root review caught early Promise.all rejection allowing staging deletion before a pending write settled. Changed to abort-plus-allSettled and added a fault-in-flight regression. The initial resolver-only preview still showed original download totals; the new comparison uses actual separate manifests and must be deployed before claiming visible corrected totals.
+
+Final coordinator gates: exact frozen build/preview, independent source/visual review, CI/Bugbot, deployment binding and readback. No provider generation, new hosting, credentials or video work.

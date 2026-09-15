@@ -19,3 +19,4 @@ export function resolveMedia(source,preference='medium',display={},index=catalog
  return{url:base.href.replace(/\/$/,'')+d.proxyPath,expectedDescriptor:{...d,path:d.proxyPath},originalDescriptor:source,variant:'medium'};
 }
 export const mediaCatalog=catalog;
+export function variantCachePath(d){return `/__fia_variants__/${d.sourceSha256}/${encodeURIComponent(d.recipe)}/${d.sha256}.${d.kind==='image'?'webp':'ogg'}`;}
