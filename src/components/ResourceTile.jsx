@@ -1,12 +1,12 @@
 import useMediaImage from './useMediaImage.js';
 import MediaIcon from './MediaIcon.jsx';
 import {GlassButton} from '../vendor/glass/components/glass/GlassButton.jsx';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { ResourceCard } from '../vendor/glass/components/resources/ResourceCard.jsx';
 import { Icon } from '../vendor/glass/components/icons/Icon.jsx';
 import { resourceLabel } from '../lib/resource-label.js';
 export default function ResourceTile({item,onOpen,contextual=false,onPlay,audioAvailable=false,player}){
- const image=useMediaImage(item.assetPath);const [failed,setFailed]=useState(false);const label=resourceLabel(item),visual=['map','image'].includes(item.kind);
+ const image=useMediaImage(item.assetPath);const [failed,setFailed]=useState(false);useEffect(()=>{setFailed(false);},[image.src]);const label=resourceLabel(item),visual=['map','image'].includes(item.kind);
  const type=item.kind==='video'?<span className="video-affordance"><Icon name="arrowUpRight" size={13} aria-hidden="true"/> Online video</span>:item.kind==='term'?'Key term':item.kind==='map'?'Map':'Image';
  const meta=item.displayMeta??`${item.kind==='video'?'Connection required · not downloaded':''}${failed||image.failed?' · Preview unavailable; open to retry':''}`;
  return <div ref={image.ref} className={`resource-tile resource-${item.kind}`}>

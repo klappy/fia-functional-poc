@@ -11,6 +11,7 @@ export default function ResourceDialog({ selection, onClose,transport,localPlaye
   useEffect(() => { const opener = openerRef.current; const element = dialog.current; element.showModal();element.querySelector('[aria-label="Close resource"]')?.focus(); return () => { element.close(); if (!skipReturn?.current&&opener?.isConnected) opener.focus();if(skipReturn)skipReturn.current=false; }; }, []);
   const item = selection.item;const image=useMediaImage(item?.assetPath);
   useEffect(()=>{setImageError(false);setImageLoaded(false);const body=dialog.current?.querySelector('.dialog-body');if(body)body.scrollTop=0;},[item?.content_id,item?.id]);
+  useEffect(()=>{setImageError(false);setImageLoaded(false);},[image.src]);
   return <dialog ref={dialog} className="resource-dialog" aria-labelledby="dialog-title" onCancel={e => { e.preventDefault(); onClose(); }}>
     <GlassSurface level={4} radius="2xl" style={{background:'var(--material-floating)'}}><div className="dialog-header"><h2 id="dialog-title">{selection.title ?? (item && resourceLabel(item))}</h2><div className="dialog-header-actions">{localPlayer}<GlassButton autoFocus variant="quiet" onClick={onClose} aria-label="Close resource">Close</GlassButton></div></div>
     <div ref={image.ref} className="dialog-body">
