@@ -1,0 +1,21 @@
+[WebServer] (node:50250) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 12 tests using 1 worker
+
+(node:50267) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/guide-completion.spec.js:2:101 › optional completion preserves guide/audio 319 eng dark=false (1.7s)
+  ✓   2 tests/guide-completion.spec.js:2:101 › optional completion preserves guide/audio 319 eng dark=true (1.1s)
+  ✓   3 tests/guide-completion.spec.js:2:101 › optional completion preserves guide/audio 319 spa dark=false (1.1s)
+  ✓   4 tests/guide-completion.spec.js:2:101 › optional completion preserves guide/audio 319 spa dark=true (1.2s)
+  ✓   5 tests/guide-completion.spec.js:2:101 › optional completion preserves guide/audio 390 eng dark=false (1.3s)
+  ✓   6 tests/guide-completion.spec.js:2:101 › optional completion preserves guide/audio 390 eng dark=true (1.3s)
+  ✓   7 tests/guide-completion.spec.js:2:101 › optional completion preserves guide/audio 390 spa dark=false (1.1s)
+  ✓   8 tests/guide-completion.spec.js:2:101 › optional completion preserves guide/audio 390 spa dark=true (1.2s)
+  ✓   9 tests/guide-completion.spec.js:2:101 › optional completion preserves guide/audio 726 eng dark=false (1.1s)
+  ✓  10 tests/guide-completion.spec.js:2:101 › optional completion preserves guide/audio 726 eng dark=true (1.2s)
+  ✓  11 tests/guide-completion.spec.js:2:101 › optional completion preserves guide/audio 726 spa dark=false (1.3s)
+  ✓  12 tests/guide-completion.spec.js:2:101 › optional completion preserves guide/audio 726 spa dark=true (1.3s)
+
+  12 passed (16.2s)
