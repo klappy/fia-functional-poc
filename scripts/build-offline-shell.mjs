@@ -48,8 +48,8 @@ const originals=JSON.parse(fs.readFileSync('src/data/image-originals.json'));
 for(const [file,baseEntries,id]of[['offline-shell-medium.json',entries,manifest.id],['offline-spa-medium.json',spanishEntries,spanish.packId]]){
  const selected=baseEntries.flatMap(e=>{
   const image=originals.find(i=>i.path===e.path),source={...e,...image};
-  const candidates=derivativeCatalog.entries.filter(d=>d.eligible&&d.sourcePath===e.path&&d.sourceSha256===e.sha256);
-  const variants=candidates.map(d=>{const resolved=resolveMedia(source,'medium',{outputSha256:d.sha256,cssWidth:1,dpr:1},derivativeCatalog,process.env.VITE_MEDIA_PROXY_BASE??'https://transcode.klappy.dev');if(resolved.variant!=='medium')return null;return{path:variantCachePath(d),fetchUrl:resolved.url,bytes:d.bytes,sha256:d.sha256,mime:d.mime,group:'pack',sourcePath:e.path,sourceSha256:e.sha256,recipe:d.recipe};}).filter(Boolean);
+  const candidates=derivativeCatalog.entries.filter(d=>d.eligible&&(d.sourcePath===e.path||image)&&d.sourceSha256===e.sha256&&d.sourceBytes===e.bytes);
+  const variants=candidates.map(d=>{const resolved=resolveMedia(source,'medium',{outputSha256:d.sha256,cssWidth:1,dpr:1},derivativeCatalog,process.env.VITE_MEDIA_PROXY_BASE??'https://transcode.klappy.dev');if(resolved.variant!=='medium')return null;return{path:variantCachePath(d),fetchUrl:resolved.url,bytes:d.bytes,sha256:d.sha256,mime:d.mime,group:'pack',sourcePath:d.sourcePath,originalPath:e.path,sourceSha256:e.sha256,recipe:d.recipe};}).filter(Boolean);
   return variants.length?variants:[e];
  });
  const unique=[...new Map(selected.map(e=>[e.path,e])).values()];
