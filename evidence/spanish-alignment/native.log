@@ -1,0 +1,11 @@
+[WebServer] (node:75529) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 2 tests using 1 worker
+
+(node:75540) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/spanish-partial-timing.spec.js:2:1 › three original verse clips support word timing and paused restore; unmatched source falls back (7.1s)
+  ✓  2 tests/spanish-partial-timing.spec.js:17:1 › Medium saved pack binds three originals and sidecars, then cold offline highlights (9.2s)
+
+  2 passed (18.7s)

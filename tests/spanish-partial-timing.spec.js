@@ -1,0 +1,20 @@
+import{test,expect}from'@playwright/test';import fs from 'node:fs';const timings=JSON.parse(fs.readFileSync('src/data/spanish-alignment.json'));
+test('three original verse clips support word timing and paused restore; unmatched source falls back',async({page})=>{
+ await page.addInitScript(()=>{const Native=Audio;window.Audio=class extends Native{constructor(...args){super(...args);window.__timedAudio=this;}};});
+ await page.goto('/');await page.getByRole('tab',{name:'Languages',exact:true}).click();await page.getByRole('button',{name:/^Español/}).click();await expect(page.locator('[data-content-language=spa]')).toBeVisible();await page.getByRole('tab',{name:'Scripture',exact:true}).click();await expect(page.locator('#panel-scripture')).toBeVisible();
+ await page.locator('#panel-scripture .owner-toggle').click();
+ await expect(page.locator('[data-alignment-word][data-alignment-active=playing]').first()).toBeVisible();
+ await page.locator('#panel-scripture .owner-toggle').click();await page.evaluate(()=>{window.__timedAudio.currentTime=1;window.__timedAudio.dispatchEvent(new Event('timeupdate'));});
+ await expect(page.locator('[data-alignment-active=paused]').first()).toBeVisible();await page.waitForTimeout(350);await page.reload();
+ await expect.poll(()=>page.evaluate(()=>window.__timedAudio?.currentTime??0)).toBe(1);expect(await page.evaluate(()=>window.__timedAudio.paused)).toBe(true);await expect(page.locator('[data-alignment-active=paused]').first()).toBeVisible();
+ await page.screenshot({path:'evidence/spanish-alignment/paused.png'});
+ await page.locator('#panel-scripture .owner-toggle').click();
+ for(const d of timings.slice(1)){await page.evaluate(()=>window.__timedAudio.currentTime=window.__timedAudio.duration-.02);await expect(page.locator(`[data-alignment-verse="${d.ownerId}"][data-alignment-active=playing]`)).toBeVisible();}
+ await page.evaluate(()=>window.__timedAudio.currentTime=window.__timedAudio.duration-.02);await expect.poll(()=>page.evaluate(()=>JSON.parse(localStorage.getItem('fia-audio-checkpoint/spa/v1'))?.checkpoint?.clipId)).not.toBe(timings[2].id);await expect(page.locator('[data-alignment-word]')).toHaveCount(0);
+ await page.getByRole('radio',{name:'Referencia',exact:true}).click();await expect(page.locator('[data-alignment-word]')).toHaveCount(0);
+});
+
+test('Medium saved pack binds three originals and sidecars, then cold offline highlights',async({page,context})=>{
+ test.setTimeout(90000);await page.addInitScript(()=>{const Native=Audio;window.Audio=class extends Native{constructor(...args){super(...args);window.__timedAudio=this;}};});await page.goto('/');await page.getByRole('tab',{name:'Languages',exact:true}).click();await page.getByRole('button',{name:/^Español/}).click();await expect(page.locator('[data-content-language=spa]')).toBeVisible();await page.getByRole('button',{name:'Offline passage and settings'}).click();await page.getByRole('button',{name:'Save for offline',exact:true}).click();await expect(page.locator('.offline-status')).toContainText(/^Medium saved on this device/,{timeout:60000});
+ const proof=await page.evaluate(async timings=>{const meta=await(await(await caches.open('fia-meta-v1')).match('/__fia_spa__')).json();const cache=await caches.open(meta.cache);return Promise.all(timings.flatMap(d=>[{path:d.path,sha:d.sha256},{path:d.audioPath,sha:d.audioSha256}]).map(async e=>{const entry=meta.entries.find(v=>v.path===e.path),response=await cache.match(e.path);if(!entry||!response)throw Error('Missing selected timing payload');const b=await response.arrayBuffer(),sha=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',b)),v=>v.toString(16).padStart(2,'0')).join('');return sha===e.sha;}));},timings);expect(proof.every(Boolean)).toBe(true);await page.keyboard.press('Escape');await page.getByRole('tab',{name:'Scripture',exact:true}).click();await context.setOffline(true);await page.reload();await page.locator('#panel-scripture .owner-toggle').click();await expect(page.locator('[data-alignment-word][data-alignment-active=playing]').first()).toBeVisible();
+});

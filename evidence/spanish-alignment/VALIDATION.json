@@ -1,0 +1,439 @@
+{
+  "packetSha256": "6546f55060ef60beeac536ed4bea78f09c5287998217355c7038214d10aa860a",
+  "sourceCommit": "8121c11e16c65d06ae29163e452c8ea661d8e921",
+  "status": "three structurally validated clips only; independent/native review pending",
+  "validated": [
+    {
+      "id": "spa-d6df2d9a83d1954f789c",
+      "ownerId": "spa-ReinaValera1909-10041001001",
+      "edition": "ReinaValera1909",
+      "verse": 1,
+      "audioPath": "/audio/spa/spa-d6df2d9a83d1954f789c.mp3",
+      "audioSha256": "a4742076c2a7bc098fc9950a31537bc31d1133868eb209fd4dbf26565c8af63d",
+      "bytes": 45975,
+      "durationSeconds": 2.873438,
+      "displayText": "PRINCIPIO del evangelio de Jesucristo, Hijo de Dios.",
+      "sourceSha256": "d6df2d9a83d1954f789c94fbd38dcbdbc1b04eddb7ea05b2b3d0e671eca27426",
+      "sourceHtmlSha256": "e64b243055e0f7bc8aa7dcdf191a837d0a624ff78a976dbde77e52873315b981",
+      "processedTextSha256": "d6df2d9a83d1954f789c94fbd38dcbdbc1b04eddb7ea05b2b3d0e671eca27426",
+      "responseSha256": "21c97f1fad57958075a8d5ab91914561a7eea7f0295e0be8fba112cc3b6abf23",
+      "words": [
+        {
+          "from": 0,
+          "to": 9,
+          "start": 0.099,
+          "end": 0.699,
+          "display": "PRINCIPIO"
+        },
+        {
+          "from": 10,
+          "to": 13,
+          "start": 0.719,
+          "end": 0.799,
+          "display": "del"
+        },
+        {
+          "from": 14,
+          "to": 23,
+          "start": 0.859,
+          "end": 1.279,
+          "display": "evangelio"
+        },
+        {
+          "from": 24,
+          "to": 26,
+          "start": 1.2799999999999998,
+          "end": 1.319,
+          "display": "de"
+        },
+        {
+          "from": 27,
+          "to": 38,
+          "start": 1.399,
+          "end": 1.959,
+          "display": "Jesucristo,"
+        },
+        {
+          "from": 39,
+          "to": 43,
+          "start": 2.019,
+          "end": 2.179,
+          "display": "Hijo"
+        },
+        {
+          "from": 44,
+          "to": 46,
+          "start": 2.22,
+          "end": 2.299,
+          "display": "de"
+        },
+        {
+          "from": 47,
+          "to": 52,
+          "start": 2.339,
+          "end": 2.579,
+          "display": "Dios."
+        }
+      ],
+      "structuralValidation": "PASS",
+      "heardBoundaryValidation": "not performed"
+    },
+    {
+      "id": "spa-ab01e49116817c891856",
+      "ownerId": "spa-ReinaValera1909-10041001002",
+      "edition": "ReinaValera1909",
+      "verse": 2,
+      "audioPath": "/audio/spa/spa-ab01e49116817c891856.mp3",
+      "audioSha256": "ad7f268d9a8f6900467511dec41334166054fbe08467501f0555f20fee520aeb",
+      "bytes": 147539,
+      "durationSeconds": 9.221188,
+      "displayText": "Como está escrito en Isaías el profeta: He aquí yo envío á mi mensajero delante de tu faz, que apareje tu camino delante de ti.",
+      "sourceSha256": "ab01e49116817c891856cb750ab6ce63700ef97245c92028f85df9369ded3f25",
+      "sourceHtmlSha256": "bb7cd5f646f613ddcdffcd3a639d8fae48a8675dfd9870bb3c0232d1f1743dd3",
+      "processedTextSha256": "ab01e49116817c891856cb750ab6ce63700ef97245c92028f85df9369ded3f25",
+      "responseSha256": "bbd706e3ed9971f7f62a2d6f53afb5523c0bf1951a8cabf03e9ba04b099f82eb",
+      "words": [
+        {
+          "from": 0,
+          "to": 4,
+          "start": 0.179,
+          "end": 0.639,
+          "display": "Como"
+        },
+        {
+          "from": 5,
+          "to": 9,
+          "start": 0.68,
+          "end": 1.299,
+          "display": "está"
+        },
+        {
+          "from": 10,
+          "to": 17,
+          "start": 1.339,
+          "end": 1.719,
+          "display": "escrito"
+        },
+        {
+          "from": 18,
+          "to": 20,
+          "start": 1.74,
+          "end": 1.799,
+          "display": "en"
+        },
+        {
+          "from": 21,
+          "to": 27,
+          "start": 1.839,
+          "end": 2.399,
+          "display": "Isaías"
+        },
+        {
+          "from": 28,
+          "to": 30,
+          "start": 2.44,
+          "end": 2.519,
+          "display": "el"
+        },
+        {
+          "from": 31,
+          "to": 39,
+          "start": 2.559,
+          "end": 3.059,
+          "display": "profeta:"
+        },
+        {
+          "from": 40,
+          "to": 42,
+          "start": 3.619,
+          "end": 3.72,
+          "display": "He"
+        },
+        {
+          "from": 43,
+          "to": 47,
+          "start": 3.759,
+          "end": 3.959,
+          "display": "aquí"
+        },
+        {
+          "from": 48,
+          "to": 50,
+          "start": 4,
+          "end": 4.099,
+          "display": "yo"
+        },
+        {
+          "from": 51,
+          "to": 56,
+          "start": 4.139,
+          "end": 4.579,
+          "display": "envío"
+        },
+        {
+          "from": 57,
+          "to": 58,
+          "start": 4.599,
+          "end": 4.699,
+          "display": "á"
+        },
+        {
+          "from": 59,
+          "to": 61,
+          "start": 4.719,
+          "end": 4.819,
+          "display": "mi"
+        },
+        {
+          "from": 62,
+          "to": 71,
+          "start": 4.859,
+          "end": 5.44,
+          "display": "mensajero"
+        },
+        {
+          "from": 72,
+          "to": 79,
+          "start": 5.46,
+          "end": 5.819,
+          "display": "delante"
+        },
+        {
+          "from": 80,
+          "to": 82,
+          "start": 5.859,
+          "end": 5.96,
+          "display": "de"
+        },
+        {
+          "from": 83,
+          "to": 85,
+          "start": 5.98,
+          "end": 6.119,
+          "display": "tu"
+        },
+        {
+          "from": 86,
+          "to": 90,
+          "start": 6.159,
+          "end": 6.519,
+          "display": "faz,"
+        },
+        {
+          "from": 91,
+          "to": 94,
+          "start": 7,
+          "end": 7.039,
+          "display": "que"
+        },
+        {
+          "from": 95,
+          "to": 102,
+          "start": 7.139,
+          "end": 7.48,
+          "display": "apareje"
+        },
+        {
+          "from": 103,
+          "to": 105,
+          "start": 7.579,
+          "end": 7.639,
+          "display": "tu"
+        },
+        {
+          "from": 106,
+          "to": 112,
+          "start": 7.679,
+          "end": 8.099,
+          "display": "camino"
+        },
+        {
+          "from": 113,
+          "to": 120,
+          "start": 8.139,
+          "end": 8.559,
+          "display": "delante"
+        },
+        {
+          "from": 121,
+          "to": 123,
+          "start": 8.579,
+          "end": 8.639,
+          "display": "de"
+        },
+        {
+          "from": 124,
+          "to": 127,
+          "start": 8.76,
+          "end": 8.939,
+          "display": "ti."
+        }
+      ],
+      "structuralValidation": "PASS",
+      "heardBoundaryValidation": "not performed"
+    },
+    {
+      "id": "spa-ed9e57846551874ced29",
+      "ownerId": "spa-ReinaValera1909-10041001003",
+      "edition": "ReinaValera1909",
+      "verse": 3,
+      "audioPath": "/audio/spa/spa-ed9e57846551874ced29.mp3",
+      "audioSha256": "af2b2d1a7e721853a4d611d3edcf5e06081a8b10633cd1cdd41fe1edc92a1e6a",
+      "bytes": 91951,
+      "durationSeconds": 5.746938,
+      "displayText": "Voz del que clama en el desierto: Aparejad el camino del Señor; enderezad sus veredas.",
+      "sourceSha256": "ed9e57846551874ced291ab0cf12fde1626b3ea229515739dd96f7e8aa51ee91",
+      "sourceHtmlSha256": "feac1d906ca553d996e2f1bb982fb75de8c5f4381e3e55783c25f5b9b353b582",
+      "processedTextSha256": "ed9e57846551874ced291ab0cf12fde1626b3ea229515739dd96f7e8aa51ee91",
+      "responseSha256": "b9b567edcdaf40a41013843e7a11582ccbdc0df39767519493aedeed508aa038",
+      "words": [
+        {
+          "from": 0,
+          "to": 3,
+          "start": 0.119,
+          "end": 0.379,
+          "display": "Voz"
+        },
+        {
+          "from": 4,
+          "to": 7,
+          "start": 0.439,
+          "end": 0.539,
+          "display": "del"
+        },
+        {
+          "from": 8,
+          "to": 11,
+          "start": 0.62,
+          "end": 0.68,
+          "display": "que"
+        },
+        {
+          "from": 12,
+          "to": 17,
+          "start": 0.759,
+          "end": 1.039,
+          "display": "clama"
+        },
+        {
+          "from": 18,
+          "to": 20,
+          "start": 1.059,
+          "end": 1.139,
+          "display": "en"
+        },
+        {
+          "from": 21,
+          "to": 23,
+          "start": 1.159,
+          "end": 1.279,
+          "display": "el"
+        },
+        {
+          "from": 24,
+          "to": 33,
+          "start": 1.299,
+          "end": 1.879,
+          "display": "desierto:"
+        },
+        {
+          "from": 34,
+          "to": 42,
+          "start": 2.039,
+          "end": 2.72,
+          "display": "Aparejad"
+        },
+        {
+          "from": 43,
+          "to": 45,
+          "start": 2.759,
+          "end": 2.839,
+          "display": "el"
+        },
+        {
+          "from": 46,
+          "to": 52,
+          "start": 2.939,
+          "end": 3.339,
+          "display": "camino"
+        },
+        {
+          "from": 53,
+          "to": 56,
+          "start": 3.359,
+          "end": 3.519,
+          "display": "del"
+        },
+        {
+          "from": 57,
+          "to": 63,
+          "start": 3.559,
+          "end": 3.939,
+          "display": "Señor;"
+        },
+        {
+          "from": 64,
+          "to": 73,
+          "start": 4.099,
+          "end": 4.659,
+          "display": "enderezad"
+        },
+        {
+          "from": 74,
+          "to": 77,
+          "start": 4.759,
+          "end": 4.92,
+          "display": "sus"
+        },
+        {
+          "from": 78,
+          "to": 86,
+          "start": 4.96,
+          "end": 5.5,
+          "display": "veredas."
+        }
+      ],
+      "structuralValidation": "PASS",
+      "heardBoundaryValidation": "not performed"
+    }
+  ],
+  "unsubmittedIds": [
+    "spa-619536d2d6aa61aece36",
+    "spa-8fa245c9c5df6d9f738a",
+    "spa-2bda9ad00bba59a88f59",
+    "spa-88efd7008bc601c39ef8",
+    "spa-cb1d4d8b256108700746",
+    "spa-5c25fc7f7f4ddf580ff2",
+    "spa-3f33a33cabc6f804fb73",
+    "spa-d07c519d942839151271",
+    "spa-87c3952e6f338c86dcac",
+    "spa-858740c3d368cca0b660",
+    "spa-7d27541e9691f4460250",
+    "spa-35be7fc5793debae3ef5",
+    "spa-7eb4aef93ab89103ba98",
+    "spa-1d06e93e4cb3221b4dc4",
+    "spa-bdf4864a30b7ff872306",
+    "spa-8ef9fe752606c80c1e06",
+    "spa-bc40afc97a1d331d6592",
+    "spa-4635192e2de38921697c",
+    "spa-d9f94cdace319d119f35",
+    "spa-2e12316ba63b11fb66b2",
+    "spa-c4b7700a252c8adda1ad",
+    "spa-fd855594abe63471064d",
+    "spa-ae710c031a637cc28241",
+    "spa-35ea487492802a90693d",
+    "spa-e5238183e353fe04b2c8",
+    "spa-10009c2e5bc72fe96222",
+    "spa-5fb2ebf8bf475e6407c1",
+    "spa-73081440044139d6e6cc",
+    "spa-ec098c312ccdf0f9193d",
+    "spa-fbd8d7cffc3c93a1cd12",
+    "spa-0701ab6155dad8a51088",
+    "spa-1f5f0de0337b6dc5274e",
+    "spa-bea473c8f58a047019dd",
+    "spa-67f624be537cc4320b19",
+    "spa-76e758693840dc38d01f",
+    "spa-6b61b3b34a6cce93f458"
+  ],
+  "numeric40AndCurlyQuoteResponseCoverage": "not obtained; those unsubmitted clips must remain untimed"
+}

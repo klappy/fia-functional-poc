@@ -1,0 +1,44 @@
+[
+  {
+    "id": "spa-d6df2d9a83d1954f789c",
+    "ownerId": "spa-ReinaValera1909-10041001001",
+    "edition": "ReinaValera1909",
+    "verse": 1,
+    "path": "/alignment/spa-d6df2d9a83d1954f789c.json",
+    "bytes": 938,
+    "sha256": "2b98d774718a632174ceb948109e31326c0f89e7b4a2d8b4a1002217e5afffa5",
+    "audioPath": "/audio/spa/spa-d6df2d9a83d1954f789c.mp3",
+    "audioBytes": 45975,
+    "audioSha256": "a4742076c2a7bc098fc9950a31537bc31d1133868eb209fd4dbf26565c8af63d",
+    "sourceSha256": "d6df2d9a83d1954f789c94fbd38dcbdbc1b04eddb7ea05b2b3d0e671eca27426",
+    "sourceHtmlSha256": "e64b243055e0f7bc8aa7dcdf191a837d0a624ff78a976dbde77e52873315b981"
+  },
+  {
+    "id": "spa-ab01e49116817c891856",
+    "ownerId": "spa-ReinaValera1909-10041001002",
+    "edition": "ReinaValera1909",
+    "verse": 2,
+    "path": "/alignment/spa-ab01e49116817c891856.json",
+    "bytes": 1779,
+    "sha256": "03775f94264dbaa5ae5856c7b6387d959dc46ab71b84e2ae843d5ab65c41b163",
+    "audioPath": "/audio/spa/spa-ab01e49116817c891856.mp3",
+    "audioBytes": 147539,
+    "audioSha256": "ad7f268d9a8f6900467511dec41334166054fbe08467501f0555f20fee520aeb",
+    "sourceSha256": "ab01e49116817c891856cb750ab6ce63700ef97245c92028f85df9369ded3f25",
+    "sourceHtmlSha256": "bb7cd5f646f613ddcdffcd3a639d8fae48a8675dfd9870bb3c0232d1f1743dd3"
+  },
+  {
+    "id": "spa-ed9e57846551874ced29",
+    "ownerId": "spa-ReinaValera1909-10041001003",
+    "edition": "ReinaValera1909",
+    "verse": 3,
+    "path": "/alignment/spa-ed9e57846551874ced29.json",
+    "bytes": 1271,
+    "sha256": "20829d9f623c380eee67dfe34f14e55fd569445fac223273af8c64236e217f70",
+    "audioPath": "/audio/spa/spa-ed9e57846551874ced29.mp3",
+    "audioBytes": 91951,
+    "audioSha256": "af2b2d1a7e721853a4d611d3edcf5e06081a8b10633cd1cdd41fe1edc92a1e6a",
+    "sourceSha256": "ed9e57846551874ced291ab0cf12fde1626b3ea229515739dd96f7e8aa51ee91",
+    "sourceHtmlSha256": "feac1d906ca553d996e2f1bb982fb75de8c5f4381e3e55783c25f5b9b353b582"
+  }
+]

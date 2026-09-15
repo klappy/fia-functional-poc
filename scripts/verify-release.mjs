@@ -8,8 +8,9 @@ const spa=JSON.parse(fs.readFileSync('dist/content/spa/mark-1-1-13/manifest.json
 const aquifer=JSON.parse(fs.readFileSync('src/data/aquifer-audio.json')).entries;
 const selectedManifests=['offline-shell','offline-spa'].flatMap(base=>['','-medium'].flatMap(q=>['aquifer-only','aquifer-fallback'].map(n=>`${base}${q}-${n}.json`)));
 const aquiferPaths=aquifer.map(e=>e.path.slice(1));
-const allowed=new Set([...pinned,...generated,...spaPaths,...aquiferPaths,...selectedManifests,'index.html','offline-shell.json','offline-spa.json','offline-shell-medium.json','offline-spa-medium.json']);
-if(shell.entries.length!==203||allowed.size!==218+spaPaths.length+aquiferPaths.length+selectedManifests.length||generated.length!==2)throw Error('Release inventory count changed');
+const timingPaths=JSON.parse(fs.readFileSync('src/data/spanish-alignment.json')).map(d=>d.path.slice(1));if(timingPaths.length!==3)throw Error('Spanish timing scope');
+const allowed=new Set([...timingPaths,...pinned,...generated,...spaPaths,...aquiferPaths,...selectedManifests,'index.html','offline-shell.json','offline-spa.json','offline-shell-medium.json','offline-spa-medium.json']);
+if(shell.entries.length!==203||allowed.size!==218+timingPaths.length+spaPaths.length+aquiferPaths.length+selectedManifests.length||generated.length!==2)throw Error('Release inventory count changed');
 const walk=(dir,prefix='')=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(`${dir}/${e.name}`,`${prefix}${e.name}/`):[`${prefix}${e.name}`]);
 const files=walk('dist');
 if(files.length!==allowed.size||files.some(p=>!allowed.has(p)))throw Error('Unapproved release file');

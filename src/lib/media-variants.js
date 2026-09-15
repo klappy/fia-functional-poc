@@ -1,3 +1,4 @@
+import spanishTimings from '../data/spanish-alignment.json' with {type:'json'};
 import catalog from '../data/media-derivatives.json' with {type:'json'};
 export const MEDIA_QUALITY_KEY='fia.media-quality.v1';
 export const mediaProxyBase=import.meta.env?.VITE_MEDIA_PROXY_BASE??'https://transcode.klappy.dev';
@@ -5,6 +6,7 @@ export function storedMediaQuality(storage){try{storage??=globalThis.localStorag
 export function variantMatchesCheckpoint(entry,checkpoint,index=catalog){return checkpoint.outputSha256===entry.sha256||checkpoint.originalOutputSha256===entry.sha256&&index.entries.some(d=>d.eligible===true&&d.sourceSha256===entry.sha256&&d.sourcePath===entry.path&&d.sha256===checkpoint.outputSha256);}
 export function resolveMedia(source,preference='medium',display={},index=catalog,proxyBase=mediaProxyBase){
  const original={url:source.path,expectedDescriptor:source,originalDescriptor:source,variant:'original'};
+ if(requiresOriginalTiming(source)&&!display.outputSha256&&!(display.offline&&display.availableSha256&&!display.availableSha256.includes(source.sha256)))return original;
  if(preference==='original'&&!display.outputSha256&&!(display.offline&&display.availableSha256&&!display.availableSha256.includes(source.sha256))||display.outputSha256===source.sha256)return original;
  let entries=index.entries.filter(d=>d.eligible===true&&(d.sourcePath===source.path||source.mime?.startsWith('image/'))&&d.sourceSha256===source.sha256&&d.sourceBytes===source.bytes&&d.bytes>0&&d.bytes<source.bytes&&/^[a-f0-9]{64}$/.test(d.sha256));
  if(display.availableSha256)entries=entries.filter(d=>display.availableSha256.includes(d.sha256));
@@ -23,3 +25,5 @@ export const mediaCatalog=catalog;
 export function variantCachePath(d){return `/__fia_variants__/${d.sourceSha256}/${encodeURIComponent(d.recipe)}/${d.sha256}.${d.kind==='image'?'webp':'ogg'}`;}
 
 export async function savedMediaHashes(source){const worker=globalThis.navigator?.serviceWorker?.controller;if(!worker)return[];return new Promise(resolve=>{const channel=new MessageChannel();const timer=setTimeout(()=>{channel.port1.close();resolve([]);},3000);channel.port1.onmessage=e=>{clearTimeout(timer);channel.port1.close();resolve(e.data?.sha256??[]);};worker.postMessage({type:'MEDIA_VARIANTS',originalSha256:source.sha256},[channel.port2]);});}
+
+export function requiresOriginalTiming(source){return spanishTimings.some(d=>d.audioPath===source.path&&d.audioSha256===source.sha256&&d.audioBytes===source.bytes);}
