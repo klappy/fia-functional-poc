@@ -1,0 +1,20 @@
+{
+  "last": {
+    "top": 819,
+    "bottom": 885
+  },
+  "dock": {
+    "top": 913,
+    "height": 58
+  },
+  "button": {
+    "label": "Play Espíritu",
+    "top": 830,
+    "bottom": 874,
+    "hit": true
+  },
+  "scrollY": 1093,
+  "scrollHeight": 2080,
+  "viewport": 987,
+  "horizontalOverflow": false
+}

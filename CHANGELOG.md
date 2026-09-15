@@ -1,6 +1,6 @@
 # 0.1.13
 
-Global Aquifer + AI fallback, Aquifer only, and AI only narration; exact source checkpoints and selected offline recordings.
+Global Aquifer + AI fallback, Aquifer only, and AI only narration; exact source checkpoints and selected offline recordings. Both resource lists reserve the measured floating player and navigation height so the final row remains reachable.
 
 # Changelog
 

@@ -1,0 +1,1 @@
+Current Spanish resource list lacks the English-only dock measurement and resources-view class. Proposed change moves measurement into one shared layout wrapper and applies resource padding to both languages. No design tokens, colors or playback logic changes. Player-absent evidence is an explicit DOM layout fixture because normal resource screens retain idle controls.

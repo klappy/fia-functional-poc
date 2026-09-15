@@ -1,3 +1,4 @@
+import FloatingDock from './components/FloatingDock.jsx';
 import {storedNarrationPreference} from './lib/narration.js';
 import AudioDisclosureInfo from './components/AudioDisclosureInfo.jsx';
 import ResourceScreen from './components/ResourceScreen.jsx';
@@ -90,7 +91,7 @@ function Session({ pack,onLanguage,languageBusy,languageError,entryView,onClearL
   const completedSource=context.domain==='guide'?currentId:context.domain==='scripture'?`scripture-${currentId}`:`term-${currentId}`;
   const nextPrimary=!!next&&(nested?nestedEnded:audioState.completed&&audioState.sourceId===completedSource&&audioState.owner===(context.domain==='resources'?`term-${currentId}`:context.domain));
   const mini=<SharedTransport><AudioControls compact nextPrimary={nextPrimary} state={running?audioState:{status:'idle',title:ready.title,owner:audioState.owner,error:audioState.owner===ready.owner?audioState.error:''}} owner={running?audioState.owner:ready.owner} label={running?'Now playing':!ready.owner?'Choose resource':ready.play?`${selectedTerm&&context.domain==='resources'&&!available(selectedTerm.content_id)?'Open':'Play'} ${ready.title}`:'Choose resource'} onPlay={ready.play} onPause={()=>audio.current.pause()} onResume={()=>audio.current.resume()} previous={previous} next={next} onPrevious={()=>navigate(previous)} onNext={()=>navigate(next)} domain={domainLabel}/></SharedTransport>;
-  const dockRef=useRef(null);useEffect(()=>{const root=dockRef.current,nav=root?.querySelector('.floating-tabs');if(!nav)return;const update=()=>{const shell=root.closest('.app-shell');shell.style.setProperty('--actual-nav-width',`${nav.getBoundingClientRect().width}px`);shell.style.setProperty('--floating-clearance',`${root.getBoundingClientRect().height+40}px`);};const observer=new ResizeObserver(update);observer.observe(nav);observer.observe(root);update();return()=>observer.disconnect();},[view]);
+
   const workspaceRef=useRef(null);workspaceRef.current={theme,view,guide:session,resources:{query:query.slice(0,200),filter,selectedId:collection.id,collectionIds:collection.ids,origin:collection.origin},sourceRevision:JSON.stringify(pack.manifest.files)};
   const [resumeNotice,setResumeNotice]=useState(boot.audioError??'');
   const leavingCheckpoint=useRef(null);
@@ -121,7 +122,7 @@ function Session({ pack,onLanguage,languageBusy,languageError,entryView,onClearL
       {view === 'scripture' && <div role="tabpanel" id="panel-scripture" aria-labelledby="tab-scripture"><ScripturePanel playback={audioState} onSource={()=>setSelection({title:`${shortVersion} source and attribution`,children:<SourceDetails item={bible}/>})} transport={mini} bible={bible} onVersion={version} player={<>{player('scripture',`Play Scripture ${session.version==='BereanStandardBible'?'BSB':session.version==='unfoldingWordLiteral'?'ULT':'UST'}`,playScripture)}</>}/></div>}
       {view === 'resources' && <ResourceScreen items={pack.resources.filter(item=>(filter==='all'||item.kind===filter)&&resourceLabel(item).toLowerCase().includes(query.trim().toLowerCase()))} query={query} onQuery={value=>{if(['paused','restoring'].includes(audioState.status))stop();setQuery(value);}} filter={filter} onFilter={value=>{if(['paused','restoring'].includes(audioState.status))stop();setFilter(value);}} onOpen={resource} player={item=>player(`term-${item.content_id}`,`Play ${resourceLabel(item)}`,()=>playTerm(item))} available={item=>available(item.content_id)}/>}
     </main>
-    <div className="floating-dock" ref={dockRef}><PassageTabs value={view} onChange={changeView}/>{(view==='resources'||(view==='languages'&&running&&audioState.owner))&&<div className="playback-dock">{mini}</div>}</div>
+    <FloatingDock><PassageTabs value={view} onChange={changeView}/>{(view==='resources'||(view==='languages'&&running&&audioState.owner))&&<div className="playback-dock">{mini}</div>}</FloatingDock>
     </div>{indexOpen&&<GuideIndex pack={pack} current={session.unitId} transport={mini} onClose={()=>setIndexOpen(false)} onSelect={(stepId,unitId)=>{stop();setSession(s=>({...selectStep(s,stepId,pack.guide,pack.cues),unitId}));setIndexOpen(false);}}/>}{selection && <ResourceDialog playback={audioState} skipReturn={skipReturn} selection={dialogSelection} transport={mini} localPlayer={termPlayer} onClose={()=>setSelection(null)}/>}
   </div></AuroraField>;
 }

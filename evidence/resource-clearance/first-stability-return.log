@@ -1,0 +1,61 @@
+[WebServer] (node:25268) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 8 tests using 1 worker
+
+(node:25285) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 tests/resource-clearance.spec.js:4:2 › last resource clears dock 466 eng player=true (947ms)
+(node:25292) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 tests/resource-clearance.spec.js:4:2 › last resource clears dock 466 eng player=false (708ms)
+(node:25297) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  3 tests/resource-clearance.spec.js:4:2 › last resource clears dock 466 spa player=true (1.0s)
+  ✓  4 tests/resource-clearance.spec.js:4:2 › last resource clears dock 466 spa player=false (739ms)
+  ✓  5 tests/resource-clearance.spec.js:4:2 › last resource clears dock 320 eng player=true (504ms)
+  ✓  6 tests/resource-clearance.spec.js:4:2 › last resource clears dock 320 eng player=false (468ms)
+  ✓  7 tests/resource-clearance.spec.js:4:2 › last resource clears dock 320 spa player=true (530ms)
+  ✓  8 tests/resource-clearance.spec.js:4:2 › last resource clears dock 320 spa player=false (599ms)
+
+
+  1) tests/resource-clearance.spec.js:4:2 › last resource clears dock 466 eng player=true ──────────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      16 |   await expect.poll(()=>last.evaluate(el=>el.getBoundingClientRect().bottom<=document.querySelector('.floating-dock').getBoundingClientRect().top-20)).toBe(true);
+      17 |   const geometry=await last.evaluate(el=>{const r=el.getBoundingClientRect(),dock=document.querySelector('.floating-dock').getBoundingClientRect(),button=el.querySelector('button[aria-label^="Play"]')??el.querySelector('button'),b=button.getBoundingClientRect();return{last:{top:r.top,bottom:r.bottom},dock:{top:dock.top,height:dock.height},button:{label:button.getAttribute('aria-label'),top:b.top,bottom:b.bottom,hit:button.contains(document.elementFromPoint(b.x+b.width/2,b.y+b.height/2))},scrollY,scrollHeight:document.documentElement.scrollHeight,viewport:innerHeight,horizontalOverflow:document.documentElement.scrollWidth>innerWidth};});
+    > 18 |   expect(geometry.button.hit).toBe(true);expect(geometry.button.bottom).toBeLessThan(geometry.dock.top);expect(geometry.horizontalOverflow).toBe(false);expect(Math.abs(geometry.scrollY+geometry.viewport-geometry.scrollHeight)).toBeLessThanOrEqual(1);
+         |                               ^
+      19 |   fs.mkdirSync('evidence/resource-clearance',{recursive:true});fs.writeFileSync(`evidence/resource-clearance/${width}-${language}-${player?'player':'nav'}.json`,JSON.stringify(geometry,null,2));await page.screenshot({animations:'disabled',path:`evidence/resource-clearance/${width}-${language}-${player?'player':'nav'}.png`});
+      20 |  });
+      21 | }
+        at /private/tmp/fia-resource-clearance/tests/resource-clearance.spec.js:18:31
+
+    Error Context: test-results/resource-clearance-last-re-3d3f1-rs-dock-466-eng-player-true/error-context.md
+
+  2) tests/resource-clearance.spec.js:4:2 › last resource clears dock 466 eng player=false ─────────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: true
+    Received: false
+
+      16 |   await expect.poll(()=>last.evaluate(el=>el.getBoundingClientRect().bottom<=document.querySelector('.floating-dock').getBoundingClientRect().top-20)).toBe(true);
+      17 |   const geometry=await last.evaluate(el=>{const r=el.getBoundingClientRect(),dock=document.querySelector('.floating-dock').getBoundingClientRect(),button=el.querySelector('button[aria-label^="Play"]')??el.querySelector('button'),b=button.getBoundingClientRect();return{last:{top:r.top,bottom:r.bottom},dock:{top:dock.top,height:dock.height},button:{label:button.getAttribute('aria-label'),top:b.top,bottom:b.bottom,hit:button.contains(document.elementFromPoint(b.x+b.width/2,b.y+b.height/2))},scrollY,scrollHeight:document.documentElement.scrollHeight,viewport:innerHeight,horizontalOverflow:document.documentElement.scrollWidth>innerWidth};});
+    > 18 |   expect(geometry.button.hit).toBe(true);expect(geometry.button.bottom).toBeLessThan(geometry.dock.top);expect(geometry.horizontalOverflow).toBe(false);expect(Math.abs(geometry.scrollY+geometry.viewport-geometry.scrollHeight)).toBeLessThanOrEqual(1);
+         |                               ^
+      19 |   fs.mkdirSync('evidence/resource-clearance',{recursive:true});fs.writeFileSync(`evidence/resource-clearance/${width}-${language}-${player?'player':'nav'}.json`,JSON.stringify(geometry,null,2));await page.screenshot({animations:'disabled',path:`evidence/resource-clearance/${width}-${language}-${player?'player':'nav'}.png`});
+      20 |  });
+      21 | }
+        at /private/tmp/fia-resource-clearance/tests/resource-clearance.spec.js:18:31
+
+    Error Context: test-results/resource-clearance-last-re-d0d24-s-dock-466-eng-player-false/error-context.md
+
+  2 failed
+    tests/resource-clearance.spec.js:4:2 › last resource clears dock 466 eng player=true ───────────
+    tests/resource-clearance.spec.js:4:2 › last resource clears dock 466 eng player=false ──────────
+  6 passed (8.5s)
