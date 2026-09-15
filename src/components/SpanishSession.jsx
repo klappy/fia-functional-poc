@@ -48,7 +48,7 @@ export default function SpanishSession({pack:sourcePack,onLanguage,busy,error,en
  const descriptor=(domain,id,title,anchor=null)=>({domain,id,title,anchor});
  const guideSelection=descriptor('guide',group.id,`${sectionTitles.find(b=>b.section===group.section)?.text??''}`);
  const guideAvailable=playback.available(guideSelection);
- const matchingGuide=playback.selection?.domain==='guide'&&playback.selection.id===group.id;
+ const matchingGuide=playback.selection?.domain==='guide'&&playback.selection.id===group.id&&['starting','playing','paused','gap','restoring'].includes(playback.state.status);
  const guideAction=<GlassIconButton size={44} label={`${matchingGuide?'Restart':'Play'} ${guideSelection.title}`} disabled={!guideAvailable} onClick={()=>matchingGuide?playback.restart():playback.start(guideSelection)}>{matchingGuide?<SourceIcon restart/>:<MediaIcon/>}</GlassIconButton>;
  const bible=pack.scripture.find(b=>b.id===state.version);
  const scriptureSelection=descriptor('scripture',bible.id,bible.title);
