@@ -13,3 +13,5 @@ Revision 3 was challenged after its fresh lens on receipt of the parent-observed
 Preflight ran before artifact preparation; returned pointers to encoded handoff, borrowing, planning queue, reviewability and driver-seat method. No UI/logic changed, so UI screenshots/test execution are not applicable; audit references decisions and evidence rather than claiming execution. Full planning must perform its own applicable checks.
 
 Revision 4 fresh challenge after final lens returned CHALLENGED, block_until_addressed false. Any remaining automated confidence prompt is answered explicitly in the proposal opening. Review actual bytes; this receipt does not claim a fire verdict.
+
+Revision 5: after rail-recorded operator correction and actual lens revision, challenged the complete revised proposal and demo brief together. Returned CHALLENGED, block_until_addressed false; any confidence prompt is answered in the explicit working-hypothesis paragraph. Raw feedback is the authorized meeting outcome. Capture, later interpretation and authorized work are distinct. No attendee decision/consensus requirement or fire verdict follows.
