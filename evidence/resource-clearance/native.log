@@ -1,0 +1,17 @@
+[WebServer] (node:26961) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 8 tests using 1 worker
+
+(node:26979) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/resource-clearance.spec.js:4:2 › last resource clears dock 466 eng player=true (1.2s)
+  ✓  2 tests/resource-clearance.spec.js:4:2 › last resource clears dock 466 eng player=false (798ms)
+  ✓  3 tests/resource-clearance.spec.js:4:2 › last resource clears dock 466 spa player=true (969ms)
+  ✓  4 tests/resource-clearance.spec.js:4:2 › last resource clears dock 466 spa player=false (1.0s)
+  ✓  5 tests/resource-clearance.spec.js:4:2 › last resource clears dock 320 eng player=true (853ms)
+  ✓  6 tests/resource-clearance.spec.js:4:2 › last resource clears dock 320 eng player=false (824ms)
+  ✓  7 tests/resource-clearance.spec.js:4:2 › last resource clears dock 320 spa player=true (822ms)
+  ✓  8 tests/resource-clearance.spec.js:4:2 › last resource clears dock 320 spa player=false (982ms)
+
+  8 passed (8.4s)
