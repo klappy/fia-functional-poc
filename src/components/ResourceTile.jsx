@@ -10,7 +10,14 @@ export default function ResourceTile({item,onOpen,contextual=false,onPlay,audioA
  const type=item.kind==='video'?<span className="video-affordance"><Icon name="arrowUpRight" size={13} aria-hidden="true"/> Online video</span>:item.kind==='term'?'Key term':item.kind==='map'?'Map':'Image';
  const meta=item.kind==='video'?['Connection required · not downloaded',item.displayMeta].filter(Boolean).join(' · '):(item.displayMeta??`${failed||image.failed?'Preview unavailable; open to retry':''}`);
  return <div ref={image.ref} className={`resource-tile resource-${item.kind}`}>
-  <ResourceCard className="resource-card" layout={item.kind==='video'?'video':undefined} type={type} title={label} meta={meta} image={visual&&!failed?image.src:undefined} onOpen={()=>onOpen(item)} actions={audioAvailable?player:undefined} style={{width:'100%',height:'100%'}} aria-label={contextual?label:`Open ${label} ${item.kind}`}/>
+  {item.kind==='video'?<div className="resource-card" aria-label={contextual?label:`Open ${label} ${item.kind}`} style={{position:'relative',borderRadius:'var(--r-lg)',overflow:'hidden',background:'var(--glass-fill-3)',border:'var(--border-glass)',boxShadow:'var(--shadow-card), var(--inner-top)',color:'inherit',width:'100%',height:'100%'}}>
+    <button className="resource-surface-open" onClick={()=>onOpen(item)} aria-label={contextual?label:`Open ${label} ${item.kind}`}>
+      <span className="resource-video-type">{type}</span>
+      <span className="resource-video-title">{label}</span>
+      {meta&&<span className="resource-video-meta">{meta}</span>}
+    </button>
+    {audioAvailable&&player&&<div className="resource-card-actions">{player}</div>}
+  </div>:<ResourceCard className="resource-card" type={type} title={label} meta={meta} image={visual&&!failed?image.src:undefined} onOpen={()=>onOpen(item)} actions={audioAvailable?player:undefined} style={{width:'100%',height:'100%'}} aria-label={contextual?label:`Open ${label} ${item.kind}`}/>}
 
   {visual&&image.src&&<img key={image.src} className="preview-integrity-probe" hidden src={image.src} alt="" onLoad={()=>{if(activeSrc.current===image.src)setFailedSrc(null);}} onError={()=>{if(activeSrc.current===image.src)setFailedSrc(image.src);}}/>}
  </div>;
