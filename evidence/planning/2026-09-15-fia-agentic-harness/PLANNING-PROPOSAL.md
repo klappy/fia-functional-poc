@@ -1,8 +1,16 @@
 # FIA harness planning proposal
 
-Revision 4: local draft, unbound; no implementation or schedule established.
+Revision 5: local draft, unbound; no implementation or schedule established.
 
 Confidence: working hypothesis about the value of two linked loops, grounded in a bounded documentary audit, not established operational benefit. Reconsider automation if baseline observation finds low recurring burden, available prior art already closes these gaps, source access cannot support reliable provenance, or a bounded trial increases false work starts or coordinator effort. The strongest alternative is disciplined manual harvest plus existing CI; the full plan must compare its cost and outcomes. This proposal is reversible until separately authorized implementation, disclosure or deployment; no such transition occurs here.
+
+## Meeting input correction
+
+The September 15 demonstration is an “ugly baby” feedback session. Its successful output is raw feedback, not approved plans, pilot selection, assigned harness ownership or an action list. Do not ask attendees to authorize the harness today.
+
+Capture first without forcing categories in the meeting. Later derive distinct demo-observed flaws, stakeholder reports, desired expectations, suggestions and questions. Preserve exact authorized source pointers, observed moment/build/task when available, interpretation and uncertainty separately; retain contrary, ambiguous and unfinished statements. Do not infer persona membership from speaker identity, consent from silence or commitments from suggestions.
+
+Sensitive raw text/recordings remain in the original authorized source home; neither public nor project Git receives raw transcripts or verbatim feedback. Later triage deduplicates/reconciles existing work, contextualizes persona evidence and proposes next steps under actual authority. Raw feedback is a complete valid meeting outcome, not failed or incomplete planning.
 
 ## Outcome and scope
 
