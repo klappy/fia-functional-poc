@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 test.use({baseURL:'http://127.0.0.1:4185',serviceWorkers:'allow'});
 const settings=page=>page.getByRole('button',{name:'Offline passage and settings'}).click();
-async function save(page){await settings(page);await page.getByRole('combobox',{name:'Media quality',exact:true}).selectOption('original');await page.getByRole('button',{name:/^(Save for offline|Verify and save again)$/}).click();await expect(page.locator('.offline-status')).toContainText(/saved on this device/i,{timeout:60000});await page.getByRole('button',{name:'Close resource'}).click();}
+async function save(page){await settings(page);await page.getByRole('combobox',{name:'Narration',exact:true}).selectOption('ai-only');await page.getByRole('combobox',{name:'Media quality',exact:true}).selectOption('original');await page.getByRole('button',{name:/^(Save for offline|Verify and save again)$/}).click();await expect(page.locator('.offline-status')).toContainText(/saved on this device/i,{timeout:60000});await page.getByRole('button',{name:'Close resource'}).click();}
 test.beforeEach(async({page,request})=>{await request.post('/__test__/mode',{data:'normal'});await page.goto('/');});
 test('complete offline pack and real media survive cold page, exploration and new owner',async({page,context})=>{
  await save(page);const manifest=await page.evaluate(()=>fetch('/offline-shell.json').then(r=>r.json()));await context.setOffline(true);await page.close();page=await context.newPage();await page.goto('/');

@@ -1,3 +1,4 @@
+import {storedNarrationPreference} from './lib/narration.js';
 import AudioDisclosureInfo from './components/AudioDisclosureInfo.jsx';
 import ResourceScreen from './components/ResourceScreen.jsx';
 import LanguagesPanel from './components/LanguagesPanel.jsx';
@@ -58,7 +59,7 @@ function Session({ pack,onLanguage,languageBusy,languageError,entryView,onClearL
   const [nestedAnchor,setNestedAnchor]=useState(null);
   const lastContent=useRef(entryView??(boot.view==='languages'?'guide':boot.view));
   const stop=(clearNested=true)=>{if(clearNested)setNestedAnchor(null);speech.current.stop();audio.current.stop();};const changeView=value=>{if(value!=='languages')lastContent.current=value;if(['paused','restoring'].includes(audioState.status)&&value!==view&&value!=='languages')stop();if(value!==view&&value!=='languages')setNestedAnchor(null);setView(value);};
-  const readGuide=(fallback=false)=>{stop();ownerCollection.current={domain:'guide'};const items=guideQueue(pack,session);(fallback?speech.current:audio.current).speak(items,voices.find(v=>v.voiceURI===voiceId),item=>setSession(item.next));};
+  const readGuide=(fallback=false)=>{if(fallback&&storedNarrationPreference()==='aquifer-only')return;stop();ownerCollection.current={domain:'guide'};const items=guideQueue(pack,session);(fallback?speech.current:audio.current).speak(items,voices.find(v=>v.voiceURI===voiceId),item=>setSession(item.next));};
 
   useEffect(() => { setStorageError(!persistSession(browserStorage(), session)); }, [session]);
   const bible = pack.scripture.find(x => x.resourceCode === session.version);
@@ -105,7 +106,7 @@ function Session({ pack,onLanguage,languageBusy,languageError,entryView,onClearL
   useEffect(()=>{if(audioState.error&&boot.audio)setResumeNotice(audioState.error);},[audioState.error]);
   useEffect(()=>{writeWorkspace();},[theme,view,session,query,filter,collection,audioState.status]);
   const offlinePanel=<OfflineControls state={offlineState} onSave={()=>{speech.current.stop();if(audio.current.status==='starting')audio.current.stop();else audio.current.pause();writeWorkspace();offline.current.save();}} onCancel={()=>offline.current.cancel()} onCheck={()=>offline.current.check()} onRemove={()=>offline.current.remove()}/>;
-  const fallback=<NarrationControls voices={voices} voiceId={voiceId} setVoiceId={id=>{stop();setVoiceId(id);}} state={speechState} onGuide={()=>readGuide(true)} onScripture={()=>{stop();speech.current.speak([{text:bible.verses.map(v=>v.text).join(' ')}],voices.find(v=>v.voiceURI===voiceId));}} onPause={()=>speech.current.pause()} onResume={()=>speech.current.resume()} onStop={stop}/>;
+  const fallback=<NarrationControls voices={voices} voiceId={voiceId} setVoiceId={id=>{stop();setVoiceId(id);}} state={speechState} onGuide={()=>readGuide(true)} onScripture={()=>{if(storedNarrationPreference()==='aquifer-only')return;stop();speech.current.speak([{text:bible.verses.map(v=>v.text).join(' ')}],voices.find(v=>v.voiceURI===voiceId));}} onPause={()=>speech.current.pause()} onResume={()=>{if(storedNarrationPreference()!=='aquifer-only')speech.current.resume();}} onStop={stop}/>;
   const dialogSelection=selection?.settings?{title:'Passage settings',children:<><AudioDisclosureInfo/>{resumeNotice&&<p role="status">{resumeNotice}</p>}{offlinePanel}<p>English passage PoC · one shared device. {session.visited.length}/6 steps visited; visiting is not an assessment of understanding.</p><p>Aquifer source recordings and AI narration; browser voices are optional. Saved files are verified. Speak and explore together; nothing is recorded. Original attribution is available in each source detail.</p>{fallback}</>}:selection;
   const termPlayer=selection?.item&&available(selection.item.content_id)?player(`term-${selection.item.content_id}`,`Play ${resourceLabel(selection.item)}`,()=>playTerm(selection.item)):null;
   return <AuroraField className="app-aurora" drift={false}><div className={`app-shell has-player ${view==='resources'?'resources-view':''}`}>
