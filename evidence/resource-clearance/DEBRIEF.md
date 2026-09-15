@@ -6,6 +6,6 @@ Native Chromium8/8 PASS8.4seconds at466x987 and320x987, English/Spanish, player 
 
 Initial timing-only geometry passed before delayed image layout completed; screenshot review caught the mismatch. A first attempted stability query did not target hidden integrity probes and returned two English hit-test failures; first-stability-return.log retained. Corrected harness waits actual image probes and local verified originals. Production CSS was unchanged during harness correction. This gate demonstrates settled rendered layout, not image-loading performance or safe-area device hardware. Safe-area composition is source-reviewed; simulated Chromium inset is zero.
 
-Budget: original7 (author4/root2/coord1) retained; additive author2 requested for stabilized native evidence, separately tracked by coordinator. No reset. Tests and receipt updates do not expand the correction.
+Budget: original7 (author4/root2/coord1) retained; root accepted additive author2 for stabilized native evidence, total9, separately tracked by coordinator. No reset. Tests and receipt updates do not expand the correction.
 
 Learning: language-specific layout wiring can defeat a shared visual component. Measure the complete floating stack in one shared component; validate the rendered final row after async media settles, rather than trusting an early geometry snapshot.
