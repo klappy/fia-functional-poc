@@ -1128,6 +1128,1357 @@
       "valid": true,
       "eligible": true,
       "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-0de2245a4512022e7991.mp3",
+      "sha256": "ccfa637fafcd3a924a11e054453d00b515c05cb173e0bf4cd9d11dda10e6f573",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-1108bd5b7c8e7ddec8c4.mp3",
+      "sha256": "c2d54374fb4f2216877904747738066230a8c2d140e1b14da8a7877ee1fefcae",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-15afc940241503cf06b6.mp3",
+      "sha256": "71eeb3a5b5b2b986cadcd47d16f7eafe7649a060cba1f35d8bc1b78d8d040998",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-1aa30af8da4baf55ebbe.mp3",
+      "sha256": "6f6e73e2e1a96189a2594238d8c83209d7a82e943c7febf73d557f74d63bffb5",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-1d06e93e4cb3221b4dc4.mp3",
+      "sha256": "cc797e23261cf0a32beb73b59eef02eb89ed24f8ed07b25d92b1e93f1e6a7e8e",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-194205c7344f07cb9663.mp3",
+      "sha256": "57e0a57769a16a1caf5c51eb3c02cff1e192c66e1e33d273530fb4ad8d6d8880",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-1ab79ed5327392d01957.mp3",
+      "sha256": "66bb054ab1f976044d8c1e62e6bd8b3cba2f693262bb7b78df8229738fd79158",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-14f0f576a04b41e12296.mp3",
+      "sha256": "eb9b4ab563bd557aba6cd2654cfcd8e772113b7a8ea526e207760aa4a26113ca",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-12cffa73c37f0b0b6fee.mp3",
+      "sha256": "2684f13deab3ef5ca4c323c0321e9d412bdbcfbff8d4e74d1cf83bd7d37cffc0",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-1a03b1e6fe1d96cf12f4.mp3",
+      "sha256": "92e10f1d58c582f8569112a002f346748dbc444c05c23cc246c941ce26ca84e8",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-1d7831af7bbfeb72e63c.mp3",
+      "sha256": "05790897964e1a04fd3f6d8a7ae62cfe2adad7519a88dd1d383bf68a8bb5fbc6",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-1e233463621b1bb830e6.mp3",
+      "sha256": "53ee20c2082fb5f14f34ec798e3f2d67a5a2c998411638713ac55e148f2388ca",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-1f5f0de0337b6dc5274e.mp3",
+      "sha256": "e73eeaddd7c9493008343a7fc9763d2d90329b89eea80330ac7499b59757d8e8",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-23b0b17313285a26c1f8.mp3",
+      "sha256": "9483c308d62ab127275bb487b82b40acf930b3a5545502fa876a822d0740ad13",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-2b3c44c307046e1d2898.mp3",
+      "sha256": "3334cac8c5d1928a5ca6b32509988cbdefed7988b51ead3e7e6ac3e384f0928a",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-1f1c9921704330d57670.mp3",
+      "sha256": "ef174420dfae14d8d5b0780ecb0548ef1129e55500694a027a2ff8cf7c10ea87",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-2fdbcba1662ec63f73db.mp3",
+      "sha256": "8f925e53c9b6bd0d4c3fdb3015a404a63c9612fe8d28d0f2b70669a57c6a49ea",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-2bda9ad00bba59a88f59.mp3",
+      "sha256": "1f8f5bbf575d7a37fd5cb23db09d6c87f19948e895ba88e9dcd2eba463acf0f1",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-1f50c71b705ac5009873.mp3",
+      "sha256": "33bbe050f267413064e0a1a1ff0e9f2d46b481f323a158ade6927a8ba1804e18",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-35be7fc5793debae3ef5.mp3",
+      "sha256": "aa8845e592782cb4d87feaf0793f1d98fc5f9a080143e039214a8d85da9cbb35",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-29e3130cbb860a1b0a80.mp3",
+      "sha256": "dc43698b0b30288888b2a0845c8ea427edeae4c995fbfa2d77ddb5ad8f0769ee",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-2e12316ba63b11fb66b2.mp3",
+      "sha256": "d440daf5632e7e979c6771d76dc9c5b807102cbf9e37c8af638983b9a6d8a932",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-3681885ce87d073bf979.mp3",
+      "sha256": "a141982ef0a25f4dc796129e5d59b5a389c3d42493cff513e3886cbb12c6505b",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-34fe5893155bad328ddb.mp3",
+      "sha256": "9755c6d281422ef4574d07aafb92698d5962b7df6c7104596ac809a07a5e812e",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-3ee6cc1ee808cd307e6c.mp3",
+      "sha256": "ddb46a63f109c373127667692f8e5154f41c7d58cf199df3137d6c3d5b51afa0",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-31a786fec583ceb180fa.mp3",
+      "sha256": "65cabed52acd7a3fd45ca475b0aaa82332bdb6e99e6cb26677c1c251a0cfb708",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-35ea487492802a90693d.mp3",
+      "sha256": "5d47299ae308d043416c24aa0e9d631f6295c958c95996b62a186b21c6594a2b",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-3dc32f94645854f1a2d6.mp3",
+      "sha256": "8b51d053fecff3b77826368c9d871a3acbe07c6677dbc724b1303c8ad2362923",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-3f33a33cabc6f804fb73.mp3",
+      "sha256": "38fde6de66399d95ba33124e4e0fe5ecbeac6eb059313da4c5c262b8fb720077",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-44a0fe8fa7ff6ef740c5.mp3",
+      "sha256": "eb96940857cc51ad8a7aaa715c11cf40f9c6597c290a2e12f31a68276e2b7a46",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-4635192e2de38921697c.mp3",
+      "sha256": "dbb22a6a9b603b600466842807b66e5da165cbe1fa91e7c2740ec2e4374da627",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-35b12bb7d5ce545daf74.mp3",
+      "sha256": "39072a43fa1b7c3356b04cd4ca208192419f5b2228cabda0bfa4c4248002b155",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-49254e72ecb8ac7f7138.mp3",
+      "sha256": "8d017c1a66692f334ffa73de2520f9fb884f1ce75b20815b4260d59b9d870073",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-4aeead0495dea15ed348.mp3",
+      "sha256": "dfc6f4fe948c4d62af124780d9f6f0b02f7d37efa54098b2b66d93e4f1253f9c",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-4cbb2a925100ad32d599.mp3",
+      "sha256": "03c3e8a4caaf0a519facb6b75c9a9fde0fedd9afa53935bd57077f67dd4c348c",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-48b2c339c822f563cf62.mp3",
+      "sha256": "28095ee75137ee85e493c1d1ec0795647fc13e90fba732020aa1062366353c3e",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-55083d109204a3f1b8e0.mp3",
+      "sha256": "5a5f0129154f21a1e4e649993db3d83537ddec4efc560d8256514f32bf49b5db",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-574c7acf97135176d6e0.mp3",
+      "sha256": "f29ac15ece3495f90791c8421beb6e438b79ca468ee7f02c964fb3a9c4464afd",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-377baf25f8618b8e5e8d.mp3",
+      "sha256": "c14dfde8ad07f8eb5b62d1cc2fdca2e4f9bbaed3bbbcc7898eec036f3a85a036",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-4c83600c87a601e5e3cc.mp3",
+      "sha256": "a25a769c00531717f4da77ea39fe17db2391e0036935cc966aa3716311c195b8",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-52b4ae2182626edbe1ba.mp3",
+      "sha256": "ebc03c384256feb0deb17b3664d7974dbdd692b681e5fce275e7b479d8f0f322",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-5e249bd6f2ec1c21359f.mp3",
+      "sha256": "4b8738414440fe979455970dbcded8958a65ea13bdff90911bb4c0858ac58695",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-4c1ad635f2b76079aa80.mp3",
+      "sha256": "13cbb47ef1634b545b42ec2dbdf8aa7dd2cfe3edc5acad841734a2433bdec2f6",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-5cf89f1cc371136888d9.mp3",
+      "sha256": "35744330ced509c485c4c7ac2458e67a94495ab9ce145a081acb12cff0c1a51f",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-5c25fc7f7f4ddf580ff2.mp3",
+      "sha256": "e444c4ad3f7caa072aed4d079957d274a56582b8892dba3b461b021ecb174db1",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-584ef8c296c03d09ebb6.mp3",
+      "sha256": "9e54365803edf0a8be55b1573c69d3e491a04733b9cc314cc0ddd9a43b1b56b6",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-619536d2d6aa61aece36.mp3",
+      "sha256": "6ca58295d0f35c76d27556bf46b28b87f9a2973deb70db66b656611f62c29dfe",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-5fb2ebf8bf475e6407c1.mp3",
+      "sha256": "10513157f0fb548d5e3c53e45cb085bba3bca50f2f3b96948e39ca13c5fbdff7",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-640c3417099c77075e7a.mp3",
+      "sha256": "16fefaddef036fcccb5a7d94806b87225bb63137c9bf2b37a87943166f76d6b6",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-6234380e25a263338aa8.mp3",
+      "sha256": "990c77f80777a2c15bf17014a953f427acb78a8ff42567ff498ef92d99a964dc",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-61525b4e86d10f7c0c11.mp3",
+      "sha256": "34ab10974e17c19934428a043d85b81d1019283574f972079146dc770b158b5e",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-67f624be537cc4320b19.mp3",
+      "sha256": "0adc5b0108afb6e250fa9062a7c955d8caa251fc0364c9e3948adc14ec899ae4",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-684f52208f134f38591e.mp3",
+      "sha256": "c7ebec1227881fa120b34fa690564a60ec33a28fe6b169c05423793cba3851a0",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-6f2535c2291e9fef6016.mp3",
+      "sha256": "8b833c704944f646156d94718acdea1149defb1aec937eaa1f66777029bc4f68",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-704759ee546eb2669659.mp3",
+      "sha256": "551d590ee624a6f7b426525b410af9c900f991082afc07cded5841bd5ea24bd6",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-6b61b3b34a6cce93f458.mp3",
+      "sha256": "6af9986845fbd3e0466d16fdc20e49d545860534eea9efbecd866e4233aa5be3",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-6fbf004dc6825d4aec1d.mp3",
+      "sha256": "53d6e3cce719b140d50ab144681a412cba5c9defebc2d624e81ae656165e3367",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-71a26bbde754b0a00ba2.mp3",
+      "sha256": "90ba5d30a5f7a6c8720716d39f1a420086449bcadee6162f5c5e213c128e3b4c",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-6490405c091ae1581f31.mp3",
+      "sha256": "d911849393ee3511120e5212a30c3b4ef3588980add20ba5f0e85448b55dbe11",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-76e758693840dc38d01f.mp3",
+      "sha256": "609aee616317fcec7625b63aab4dff951cd20b2a03d7bbcb339cd57fc3da9996",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-73081440044139d6e6cc.mp3",
+      "sha256": "8a54609a7b7590c3f2ae85e506003d5dda60aac87cafc0ce05d4f0af17e6b6b6",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-7ba0b62005fa40474e29.mp3",
+      "sha256": "e6da63cd8224807e912073011cff71608e828c41a448a9c22fb98927cc23db3b",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-787de669745a75fb967b.mp3",
+      "sha256": "45adad41ee298bd3e8f6c9520fecc6083dda387489b7839850adf282cf35a805",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-782d5c784c5dc348e496.mp3",
+      "sha256": "3b267d6480a29c6888aef81856e499ecde8ef78b9f6313416d0067043bf826e7",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-7d27541e9691f4460250.mp3",
+      "sha256": "e3526bc5185ca9d600f8d9f947793dd09a6f42c8292b0708986ca13f4320ed79",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-7813d8e648b67f168c0b.mp3",
+      "sha256": "b6b224d0cb5b7551134be60133287bdc0577b13ffa934344f5e210071b2c74e4",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-833f196c62dd1f55b9e3.mp3",
+      "sha256": "2e0092699690e1753c9b41f819d1b483102c5dfe3ddcb2ffd44b882f4a9c7e63",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-7b39b1d2a9b80f79b765.mp3",
+      "sha256": "f153ce35624c0cabcf3116a1346a4e372c6cf865f54b31eb93ed2e56bbb4c369",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-87c3952e6f338c86dcac.mp3",
+      "sha256": "70bcf937b0f6c20cb186f7070ee47733fccd49ba0079428b8be281f06064bb22",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-858740c3d368cca0b660.mp3",
+      "sha256": "8d3850527453652c711a16ac5b7275fca5632bda2efa7c8c19260d8a72cc486e",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-8b5ec724338303d58100.mp3",
+      "sha256": "29743d66ecff7a817b46bae5aca6ea898d8517e29053ddecc18ba1c3a4d58dfe",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-8df62f06d8d3dfd5a1ca.mp3",
+      "sha256": "934838454aab3437dc3d9a28d295d76875e5c1c3e112afc9717c79e391b4d4a2",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-8219ed4760b68c3e106a.mp3",
+      "sha256": "d562cc726a5b8daebaec0ab99af069e2e848d06f4d4c5c8ef7dbb1e12ae950e9",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-83c8843873146c545354.mp3",
+      "sha256": "c384b5d8f76925fbcdf6f2989438ed8e6bf5198c10b078facf5eaf812da50ea3",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-8ef9fe752606c80c1e06.mp3",
+      "sha256": "2925ce22dbf46f87ce6701283b10998903d7f49fd8c554326287316b32a6c80d",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-7eb4aef93ab89103ba98.mp3",
+      "sha256": "085f80cb79c582048b547d7e1c2c2c845feb83140de5e7755fb1039e79823bb7",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-90ff7e00c5c30276febd.mp3",
+      "sha256": "16165e038044b58805ec93ee7dfc615450f5a238be9e3ca7ec3455415dee87b8",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-924a315e4b396d03b40a.mp3",
+      "sha256": "30030f49422ad12da28d763c917fc3b8578eabdb238a9b18acbfaf33ab280114",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-80a4efc2628402fba31d.mp3",
+      "sha256": "24a8641a897bd3ea1365cb0e1ea2fe25687e9ad9c31590012b0992e56accd7e7",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-88efd7008bc601c39ef8.mp3",
+      "sha256": "7e88eb9451b1a5e64315650796c466cb6a7c10e33738da729f1e3a7de07e9f6d",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-94e07de5b282152bc817.mp3",
+      "sha256": "a4462a75cb264747b09ebd638047ade2bb61679924c36cbad356fcd76312e164",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-9651cc53fa3f85af8908.mp3",
+      "sha256": "3bb491ae9ff4dfcf688284f6b82096cd86838a0e0695daa728e37415e638d978",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-9008cb25274fe7a5bd3b.mp3",
+      "sha256": "db54b05ca85468e09993ca42407aa1790031762fb22dd7c120bc85d1bfb1f86b",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-8fa245c9c5df6d9f738a.mp3",
+      "sha256": "a72e52950e8e1b5c30a0dd6ad1767085d41ab688a802fef7dcfc10615f77706b",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-9c5776c4df6ee10aae37.mp3",
+      "sha256": "e52424cfe0c021e21b7e12e1ac2076e05ba71271ac892c606e9f5d440b68996e",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-988632590724935d7fd5.mp3",
+      "sha256": "3fa2ef006dcf4dcda2ec3b1f21a7a955ecc13ed421cb863cbb029748d8b717b9",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-92aff7635dc892971f41.mp3",
+      "sha256": "f122db5d2dabd689e06c8844e461e12cc4dca54b6e563cdf8b936e2e9ad688a2",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-9f6dd3f616b2e1298748.mp3",
+      "sha256": "0b65dfbf392d494587ab3f3277164d9f536d495144b5f8e67607dc3fc3d498ff",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-9e480c9387b4015023c0.mp3",
+      "sha256": "cf39eda5c2b1eb6e5725a4fc6e9eacde8a861c0c2282778b62d5ab3564632dab",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-952e1e69c66fa93bbab5.mp3",
+      "sha256": "34a0ced784df3b123b9c45886b43ae1226d6a3c4c30203e5b62eeadb470778cb",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-a2b89ae2ba20582a03e5.mp3",
+      "sha256": "0e41f82ff3d06daa19ec13aa631e6a0896d194bc500f3303a24f8373cba6c4c4",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-9cf40fd7601c13968791.mp3",
+      "sha256": "e3df5a9954fd5ad9480577d195bb930d11cb56aaecdbe7036257cfa571202ac0",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-ab01e49116817c891856.mp3",
+      "sha256": "39dcf06646291fe6d6a721ba92aa39cce0f5c986bcc77c1d1ba480eb27838162",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-ae247a0d71243388e61f.mp3",
+      "sha256": "7252fbb34065030fd3751959885e0472fe8ab1e64d331981624701c6de8efdce",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-a4faa7cabc2167b57e86.mp3",
+      "sha256": "5eecd038e50a10aebbb3785e4d4d5c7b3d1ef3797f99404b53a396c0712539d4",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-ac1af0d97a2cd4275c0e.mp3",
+      "sha256": "7c691557df54a52466143183f1fbad1af4b14829540a1a7bd50a4773b83c8595",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-af3aa3c4e2641821088c.mp3",
+      "sha256": "320f96bd732643387bf62deb1ba85c3066ac5a1a67833326a7d24490a8aca9d0",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-97c81199e3c2e127e210.mp3",
+      "sha256": "28ea352dc1168766bd4d4c18872839d808837aa388cd0294de9cab94f381ceb4",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-ae710c031a637cc28241.mp3",
+      "sha256": "89fc0d8dc750a3b4e4777275462e549f664e953c6b2b78e663d349c30942a68a",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-b50876c473f87aadc648.mp3",
+      "sha256": "6508f06c11c73d65c342fbbe357b768d951cf851127669ced387f2bbf141d3e4",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-b0abe94cca7a72afd2b1.mp3",
+      "sha256": "07963cea3858b13071906fa6f150414a6d59ae53401a8ff9cd23a4c4582d8e9d",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-b33efe89e3048f37da68.mp3",
+      "sha256": "e76ba80102cb2076aa840072940f2ac1a30ab76f999669f2f89a22f4de590af4",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-b69ec294571437de568a.mp3",
+      "sha256": "a998d783c380baa5cbb5f08a0ac94a19ad980db6a6d37a8a7834b723b3aaac26",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-b7e400ae71986c9cae01.mp3",
+      "sha256": "796b1448816fca51ed22e3268aee87b4f0c8d1306592e7ae123320fdae2ea205",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-b9f0e64bb47c4f861bbb.mp3",
+      "sha256": "6835b7cb78e780097fd5e3e15b4ecbb7f63b16246fb4b78e01eb5304af0c1974",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-bd07153329609cc8116d.mp3",
+      "sha256": "91a7c65f3a53e75cc054b38c42c33cd75b31363fac20512d522ced93a4f021b8",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-b7499a1a1d0bc68fe0c1.mp3",
+      "sha256": "a60ef6584d0393be8b437b523c467f45c0d25176469cfe52d58a6c0dce430c97",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-bdf4864a30b7ff872306.mp3",
+      "sha256": "cc3eee0e1560aabe83197e6109390e093d1bf4d90195117aa96315f5933422bc",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-c06e44d7452e5f503aa8.mp3",
+      "sha256": "9ae8cf71340c7aab8d2ea1f2cde02568e9a3fc42f92a439673754459e2ef524d",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-bc40afc97a1d331d6592.mp3",
+      "sha256": "11eb9495087d9d0b29623117c4b0c45b23190984c0a45ef2bfad482ae5b0de83",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-b7c07caca08e33d5516c.mp3",
+      "sha256": "644213149fe6950f6e70c4a1ed519323241184b91534e58db93a8f7e5eeb2c48",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-baca566347b21eae688f.mp3",
+      "sha256": "73d4248c8e803a8922b4997cdfe4efc4709d6c1c3dce265e6876ba00860f14d0",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-b06c49df92f2ece6accf.mp3",
+      "sha256": "09c46b553a4323a0d0249f9bccd9fdff09bb04a2444c6eeaaed77e514c94e094",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-be0470af690553acaf61.mp3",
+      "sha256": "c23a66e02e3ceddfa31d1f3348afcbeac3deae3117f2149c2156ea78fcb9c85c",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-bea473c8f58a047019dd.mp3",
+      "sha256": "bb243a08be47462ee2fffcb7472d36e41dde3a148d47a2b25562bd7fe27bc4a5",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-c13e2fe81363add03d1d.mp3",
+      "sha256": "ebee2cd5efc61926793829a7919127b8942e079131f9120f289aeb2afb037ec5",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-c36d9fe9d8165dd56c08.mp3",
+      "sha256": "019a23db48875b5262e076116d4d7ee54526fd43bc4880deaab979c90b3e3d4f",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-c20f518286058e5e103e.mp3",
+      "sha256": "3243d498c124e9323e2767bdc34c4943cad42740b98bde9f5769bda7cfde2c07",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-c7019aaeec4e54136e65.mp3",
+      "sha256": "11f6a09277b99d37698685bca6fc10ef8570652f88f15a93e5954560fbe0ec4b",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-c4b7700a252c8adda1ad.mp3",
+      "sha256": "e0367baf20f9cf0a9fee74ff448f698906cb81c518a1d1f134a7ecf34ca82f15",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-c6011bd7d2086ee88eea.mp3",
+      "sha256": "a58b71842c8f4a932c32a2216b7082f743de15acf4d23df0397d33c3d873ec37",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-c62d7b8c4f8371325a7f.mp3",
+      "sha256": "938ca85c4ed7a574325afbbb0d2900b99b95212ed186d1cccff1e14a85aa44aa",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-c46a850955242392acdb.mp3",
+      "sha256": "cce345294a962ab1d865d0c677be872eba2c77dd756db3997ad8ed097440841c",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-c8f54d3e5a7da0a53991.mp3",
+      "sha256": "1fc4a2175ab92c1859e35fb4ce8d376b2148b067bbc3025f6584126d52b525da",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-cacb4118ef1a6020f2fe.mp3",
+      "sha256": "3e36737f3311a5c47295802b2d22ddc898bada1411801f30677ffa4579865b4c",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-ca0438fd8069c6b182dd.mp3",
+      "sha256": "baa5d409e3637f478abcfa9fcf6067ba5e578acfbc57716ee13cc966624ff235",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-c0997080df99667bad9d.mp3",
+      "sha256": "2998c53b6f8676e7e8b1119d97dbd9ec3061f4612ee22e9020bab96da5334c34",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-c9609495bd4e2ce27ba7.mp3",
+      "sha256": "539ddc179ddf18b4ed59db8bef554922dc57110735ee0fc1d19ae52c0c6ed028",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-c2b534fad152cb9d1b35.mp3",
+      "sha256": "c9aa424d1f3a860ddec27a53c7fbed22b82f39d05c8698801c85f142aba5feb4",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-cb578a8402bb8e86060f.mp3",
+      "sha256": "c613da3c20f1dbd0204fa525ad753ec9e768978eeaab4bad55f2c305bb3e738e",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-cb1d4d8b256108700746.mp3",
+      "sha256": "28cd6ef3134ad9ee3174c2d861d136880eaa8d18bb4c4d7748073456d035cdd3",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-cc7139fef2304a00edba.mp3",
+      "sha256": "445fbebe22f1b54a1cab29cc97d1d8d1abd5b9ce2f411f70bfde139fcd61fc60",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-c809e7dd798bcbb60b95.mp3",
+      "sha256": "533d14b1c8e7876c78f0764aa7bf1e9ef221f902e969f06f377dbce999e451af",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-cf8113d4e26cf042b739.mp3",
+      "sha256": "d8d6a69398f605ba268de9d97fd72b5c4a15fcb9fc14157fdfd141b2fe52d926",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-ce2d9bcbdca2232c069b.mp3",
+      "sha256": "79cb0c31a25b1b2cb95d27f6ac78e3dfbef6f42c88beaf98808400dc845488bb",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-d07c519d942839151271.mp3",
+      "sha256": "bc437fa095d2032fe4bf2c480c52e39371a811275117bf6343de4c69ff2fdb37",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-d1696a6680aad7992b52.mp3",
+      "sha256": "412891de020d37fb218ed042a62c1837ade7d406419b86fdcdc94c5d9aa43ceb",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-d6df2d9a83d1954f789c.mp3",
+      "sha256": "b91c878106dbd38400ae7746ab37683271beca252d94155d153bf78e5f7965b2",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-d9f94cdace319d119f35.mp3",
+      "sha256": "b4b40c6e1aa0b8060efb1339ecc69456d2665b1a3c786899a4d8eb4edb44ccda",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-cbf3fde25686981ff20c.mp3",
+      "sha256": "af7f16076270985d5dcf5f4f3e49b397fd677d4ea1995c8a4cfc3c2d1daf61b2",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-dc8d87b718ab48be45c1.mp3",
+      "sha256": "64046ad098da7e7f9507c8d31b6d9fe9f63531fbcb1b2d116f358cd0551a453c",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-dacc1bd998b0d287db16.mp3",
+      "sha256": "be519e9120639bbd463163bc21048119be68f6d6150e120f7ffe0843ef5df9d3",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-dd911355b54ac0b19aa2.mp3",
+      "sha256": "cf66934abb924f8952db5e8bc4beba8d85320fcaffdccef3196834f725cd756f",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-df3252498b5fe4cdb66f.mp3",
+      "sha256": "4266892f6f6bbaadb92245b1466b96a33d1fa366c29cd8624a21e227422906c1",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-cd0770793f13d69393cd.mp3",
+      "sha256": "726e3af152183909c44dfdf654e7280d81706f5f22bf8a76c3bedf61d8e2029b",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-e481ebb2a7c3549db2ed.mp3",
+      "sha256": "ec8583eb64bdc207ffa65f1b10445b33ffbeb9fbeae7d648bc2de3b02e3e432e",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-dfb848821c181197904b.mp3",
+      "sha256": "134a654f66b1969b766d937dc7d7154b2250cff8476a600ddda684ee08c5256a",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-e5238183e353fe04b2c8.mp3",
+      "sha256": "9dd31a409c83a6b16b48c7c901adb6e202567e6efe7b3bb20f8f5fcaed4e5c50",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-cd59ad31c7173e99eba0.mp3",
+      "sha256": "3eebddd5230cd94125d227d36a347f8c5b27779d2a821e6b4657a67b7218e0fb",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-d7206108eee43945be26.mp3",
+      "sha256": "e1561e8a3e5d73ec92b8c6d2b5bc128c012ace7bf4d083fdef4bf48c0d873244",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-e77a0aff53f811cc67db.mp3",
+      "sha256": "6219146406b6cc0d5409d8f5f24b0c394b9d2b08399cfd8841bed3fcf3c04702",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-eb752eec2c66b32433f2.mp3",
+      "sha256": "6d7637eff8b96a71bd25dbd41f0c604a3a14754e4e1d239a6a351d4900b9a200",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-e9b2bff36dfdf30e76d8.mp3",
+      "sha256": "ef5f4e4fc6f7e2960fc372457d7d174851a277967230796f2070f9f23e517425",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-ec098c312ccdf0f9193d.mp3",
+      "sha256": "36c1ef7539ded283de509d0c2c549c33e8d296c1a81e5a42d65fe9e33e640c64",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-ed37c7a8f75e72de670e.mp3",
+      "sha256": "56dfc93cd50806e9b3ba6eefa3b256dc2c79a884e29795f25421b6fa05f34561",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-ed9e57846551874ced29.mp3",
+      "sha256": "984517a1caff94995fd21d29bb485775e1cd2ef165fb26b353c4ef4943222adc",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-eea97a34cad4f36ab8d9.mp3",
+      "sha256": "18f4e43376583758517f701a70084749be233bcb912f63e8d3ecc547d96d7057",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-ef38d80c16e92ef8fcab.mp3",
+      "sha256": "a93b107d8506888fc66b9821dbfa494cfa25dd3dd2bc309aadf0d0a9ed5b0206",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-e61178c7647060ace324.mp3",
+      "sha256": "6f59906ce999eaabac23d2d5e874a5a8b512ca4c8112b77e04188906d7989a7e",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-f33966975ce0bae1d7ed.mp3",
+      "sha256": "1d973bfd851ac5068bf2f8b141950cbea39d2607c83eb4b2cb9967f48f211f15",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-f7fea2175fb8c2666ec6.mp3",
+      "sha256": "5fe008973850ce8f0343c69dd56cae2b14f06bad8b7dc901f6b5778cccdbd3de",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-f8453f85e85c4f0a4b69.mp3",
+      "sha256": "547dfffffb65ec41179eb3cf8884507df845356e8c28a58305346bc4d3ae2281",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-f187d43e94ac25783a4b.mp3",
+      "sha256": "8723ecfc0d4931b22c5dc7b7ecdaa416f28eff6ac6e5f183b6716d9c275a5068",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-f9e06faadbceb5404492.mp3",
+      "sha256": "a15e41a271d2b9953456f69da7cf00a7d787a8c84eebeee8d2b95617e82f3dd6",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-f236e438f866ab969618.mp3",
+      "sha256": "73c09a9efa722c5c568a71829261e359203e69e4b5ade2eadef3590dc61c8299",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-fbd8d7cffc3c93a1cd12.mp3",
+      "sha256": "413f8ac70bb0403330a8461d25a9ad7534a4d0d2fa37614eb951c1d1380f1030",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-f954d845d9a27c8f6420.mp3",
+      "sha256": "95f1f182fb030867eed2edbf2b5c011109377673ffa1851c52ac297653fe90df",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-e74eca9707483169f4b2.mp3",
+      "sha256": "7f89eb14e09dd173de66600ccf0894d90a9a4e605b560c93f1e9d4846676765e",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-f973d142da952787a0de.mp3",
+      "sha256": "4bdad8b89c1b59dd5562b76a522af39db581c0302aab5bb647dcf765a1e9de46",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-f11f3e8c6dceb511298b.mp3",
+      "sha256": "0a180f2da7639a2dc3e09f987daf59668eaa41573cc043cfd58f0ee84eba00e6",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-fe96b413f386e4ab804a.mp3",
+      "sha256": "123c5406bc5b747217949ab0aa3004279058488d4e99d85f72da828fb63b01d3",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-f0818745f7e2f8795208.mp3",
+      "sha256": "446757a14c23b7e07b015cfaf37d78b1cc7639892b71f434e10a009418ac9df9",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-fd855594abe63471064d.mp3",
+      "sha256": "8f2c7f7d2d48239cd9ccc0d816303f45c75b920f4a01b7b03e2cf8e22b23ec6a",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-ff6fafd5f295e07e4225.mp3",
+      "sha256": "59c27b49b8f475a34c5ee83ef0b2add06fa472443d6f6ca2d02c0f855cbd4801",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-fd340a8b02a5d335592b.mp3",
+      "sha256": "2d407854ab0e671a0db6df6ade4bd22f59ac2202cf561f4835989fd92a72c681",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/terms/term-eng-t145-v1.mp3",
+      "sha256": "a843de2dd42a73300051a2f7eab1ee02949fcc8c3db637765051e7450bf31542",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/terms/term-eng-t118-v1.mp3",
+      "sha256": "af02f8a834f30a103b27ea52ca03408db3cbddf779240ffe8c5eb3c5b3ae73a5",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/terms/term-eng-t226-v2.mp3",
+      "sha256": "f2e83b9d22372d873a6655475d04a4c387c5f7fbcbaa0222b3024472e0ac6911",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/terms/term-eng-t109-v1.mp3",
+      "sha256": "9bef12a34c4045f6c8f7f47238ed2115a0c996510e3c922427c073c33b35ea24",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/terms/term-eng-t38-v1.mp3",
+      "sha256": "d42730c7ab4da07d2ab909f706f70d46aaadaf281be347d35fea36175d5ad77b",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/terms/term-eng-t53-v1.mp3",
+      "sha256": "ca2bce476938482a95e3018ded89fae1bb38c583aaf16f517081df51a5ce0281",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/terms/term-eng-t76-v1.mp3",
+      "sha256": "129b32d52db06e2027d28a0c97fc2fefe89f6cfeb1ad624f0bb795f5d3eabab2",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/terms/term-eng-t63-v1.mp3",
+      "sha256": "46e4b692d4b01f1fa54a1736c9570536ea3b34be0101295540ffe2d8457e884b",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/terms/term-eng-t88-v1.mp3",
+      "sha256": "b421b67f8ff9ce1d66da0732c99782875b386b2b2255f7463f1b3ea7b9dddd2c",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/visual-resources/a112.mp3",
+      "sha256": "da03fb39c66dc2da3850b922c2ee2746c62371f28d1651ce3bdbcd97f1c3c992",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/visual-resources/a203.mp3",
+      "sha256": "8219ea04adba6d716a713e18be45485e737481ba016a980e2e793976cf053d8d",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/visual-resources/a111.mp3",
+      "sha256": "67e29030bdd375d317abf9289ad7c932c7334768d1192e0f147a65cea92223eb",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/visual-resources/c202.mp3",
+      "sha256": "31dd1479eba272b1605afee8fa8bf8170a022fc2aa73d81db69eb152d09f5e4c",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/terms/term-eng-t92-v1.mp3",
+      "sha256": "5f1342bb1736683e19d8d83133eec5c18ffb7924aea4284a49fb83e7cdddab15",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/visual-resources/a204.mp3",
+      "sha256": "22536053675e58cf97aa73d5549d91ccc933057855a73cb8618c71c93025c1a4",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/terms/term-eng-t9-v1.mp3",
+      "sha256": "12533f7f779ae1d2dc61d1dd98fdb7315a43add0837b1458fa380d69a88267ce",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/visual-resources/c201.mp3",
+      "sha256": "a62e232e13baeb4a79fede06b164ba57172865dfc003a4d63d8d0e8a79c57881",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/visual-resources/c168.mp3",
+      "sha256": "802f9f738fd3f8f285814ee2de92b3a03f14bb5ec687bedb6bbb6a02fb585f89",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
     }
   ]
 }
