@@ -1,3 +1,7 @@
+# 0.1.16
+
+Give the entire light Offline passage modal its existing studio backing, retain the original dark modal backing, and distinguish preference and saved-status groups without an extra outer card. Preserve shared English/Spanish controls and concise disclosure.
+
 # 0.1.15
 
 Qualify Medium Opus for eight Spanish visual descriptions, retaining Original fallback and source-policy offline selection.

@@ -1,0 +1,190 @@
+[WebServer] (node:96232) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 6 tests using 1 worker
+
+(node:96249) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 tests/offline-surface.spec.js:2:107 › Offline surface 390 light eng (6.4s)
+(node:96258) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 tests/offline-surface.spec.js:2:107 › Offline surface 390 light spa (6.2s)
+(node:96264) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  3 tests/offline-surface.spec.js:2:107 › Offline surface 390 dark eng (6.1s)
+(node:96469) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  4 tests/offline-surface.spec.js:2:107 › Offline surface 390 dark spa (6.6s)
+(node:96875) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  5 tests/offline-surface.spec.js:2:107 › Offline surface 320 light eng (6.1s)
+(node:97077) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  6 tests/offline-surface.spec.js:2:107 › Offline surface 320 light spa (6.2s)
+
+
+  1) tests/offline-surface.spec.js:2:107 › Offline surface 390 light eng ───────────────────────────
+
+    Error: expect(locator).toHaveValue(expected) failed
+
+    Locator:  getByRole('dialog').getByRole('combobox', { name: 'Narration', exact: true })
+    Expected: "aquifer-only"
+    Received: "aquifer-fallback"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveValue" getByRole('dialog').getByRole('combobox', { name: 'Narration', exact: true }) with timeout 5000ms
+      - waiting for getByRole('dialog').getByRole('combobox', { name: 'Narration', exact: true })
+        14 × locator resolved to <select aria-label="Narration">…</select>
+           - unexpected value "aquifer-fallback"
+
+
+      13 |  // Real UI persistence failure, with reference sections still closed.
+      14 |  await page.evaluate(()=>{const original=Storage.prototype.setItem;Storage.prototype.setItem=function(k,v){if(k==='fia.narration.v1')throw Error('test storage unavailable');return original.call(this,k,v);};});
+    > 15 |  const select=dialog.getByRole('combobox',{name:'Narration',exact:true});await select.focus();await page.keyboard.press('ArrowDown');await page.keyboard.press('Enter');await expect(select).toHaveValue('aquifer-only');await expect(dialog.getByText('Narration preference could not be saved on this device.')).toBeVisible();await expect(dialog.getByText(/AI narration uses a synthetic voice/)).not.toBeVisible();
+         |                                                                                                                                                                                              ^
+      16 | });
+      17 |
+        at /private/tmp/fia-offline-surface/tests/offline-surface.spec.js:15:190
+
+    Error Context: test-results/offline-surface-Offline-surface-390-light-eng/error-context.md
+
+  2) tests/offline-surface.spec.js:2:107 › Offline surface 390 light spa ───────────────────────────
+
+    Error: expect(locator).toHaveValue(expected) failed
+
+    Locator:  getByRole('dialog').getByRole('combobox', { name: 'Narration', exact: true })
+    Expected: "aquifer-only"
+    Received: "aquifer-fallback"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveValue" getByRole('dialog').getByRole('combobox', { name: 'Narration', exact: true }) with timeout 5000ms
+      - waiting for getByRole('dialog').getByRole('combobox', { name: 'Narration', exact: true })
+        14 × locator resolved to <select aria-label="Narration">…</select>
+           - unexpected value "aquifer-fallback"
+
+
+      13 |  // Real UI persistence failure, with reference sections still closed.
+      14 |  await page.evaluate(()=>{const original=Storage.prototype.setItem;Storage.prototype.setItem=function(k,v){if(k==='fia.narration.v1')throw Error('test storage unavailable');return original.call(this,k,v);};});
+    > 15 |  const select=dialog.getByRole('combobox',{name:'Narration',exact:true});await select.focus();await page.keyboard.press('ArrowDown');await page.keyboard.press('Enter');await expect(select).toHaveValue('aquifer-only');await expect(dialog.getByText('Narration preference could not be saved on this device.')).toBeVisible();await expect(dialog.getByText(/AI narration uses a synthetic voice/)).not.toBeVisible();
+         |                                                                                                                                                                                              ^
+      16 | });
+      17 |
+        at /private/tmp/fia-offline-surface/tests/offline-surface.spec.js:15:190
+
+    Error Context: test-results/offline-surface-Offline-surface-390-light-spa/error-context.md
+
+  3) tests/offline-surface.spec.js:2:107 › Offline surface 390 dark eng ────────────────────────────
+
+    Error: expect(locator).toHaveValue(expected) failed
+
+    Locator:  getByRole('dialog').getByRole('combobox', { name: 'Narration', exact: true })
+    Expected: "aquifer-only"
+    Received: "aquifer-fallback"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveValue" getByRole('dialog').getByRole('combobox', { name: 'Narration', exact: true }) with timeout 5000ms
+      - waiting for getByRole('dialog').getByRole('combobox', { name: 'Narration', exact: true })
+        14 × locator resolved to <select aria-label="Narration">…</select>
+           - unexpected value "aquifer-fallback"
+
+
+      13 |  // Real UI persistence failure, with reference sections still closed.
+      14 |  await page.evaluate(()=>{const original=Storage.prototype.setItem;Storage.prototype.setItem=function(k,v){if(k==='fia.narration.v1')throw Error('test storage unavailable');return original.call(this,k,v);};});
+    > 15 |  const select=dialog.getByRole('combobox',{name:'Narration',exact:true});await select.focus();await page.keyboard.press('ArrowDown');await page.keyboard.press('Enter');await expect(select).toHaveValue('aquifer-only');await expect(dialog.getByText('Narration preference could not be saved on this device.')).toBeVisible();await expect(dialog.getByText(/AI narration uses a synthetic voice/)).not.toBeVisible();
+         |                                                                                                                                                                                              ^
+      16 | });
+      17 |
+        at /private/tmp/fia-offline-surface/tests/offline-surface.spec.js:15:190
+
+    Error Context: test-results/offline-surface-Offline-surface-390-dark-eng/error-context.md
+
+  4) tests/offline-surface.spec.js:2:107 › Offline surface 390 dark spa ────────────────────────────
+
+    Error: expect(locator).toHaveValue(expected) failed
+
+    Locator:  getByRole('dialog').getByRole('combobox', { name: 'Narration', exact: true })
+    Expected: "aquifer-only"
+    Received: "aquifer-fallback"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveValue" getByRole('dialog').getByRole('combobox', { name: 'Narration', exact: true }) with timeout 5000ms
+      - waiting for getByRole('dialog').getByRole('combobox', { name: 'Narration', exact: true })
+        14 × locator resolved to <select aria-label="Narration">…</select>
+           - unexpected value "aquifer-fallback"
+
+
+      13 |  // Real UI persistence failure, with reference sections still closed.
+      14 |  await page.evaluate(()=>{const original=Storage.prototype.setItem;Storage.prototype.setItem=function(k,v){if(k==='fia.narration.v1')throw Error('test storage unavailable');return original.call(this,k,v);};});
+    > 15 |  const select=dialog.getByRole('combobox',{name:'Narration',exact:true});await select.focus();await page.keyboard.press('ArrowDown');await page.keyboard.press('Enter');await expect(select).toHaveValue('aquifer-only');await expect(dialog.getByText('Narration preference could not be saved on this device.')).toBeVisible();await expect(dialog.getByText(/AI narration uses a synthetic voice/)).not.toBeVisible();
+         |                                                                                                                                                                                              ^
+      16 | });
+      17 |
+        at /private/tmp/fia-offline-surface/tests/offline-surface.spec.js:15:190
+
+    Error Context: test-results/offline-surface-Offline-surface-390-dark-spa/error-context.md
+
+  5) tests/offline-surface.spec.js:2:107 › Offline surface 320 light eng ───────────────────────────
+
+    Error: expect(locator).toHaveValue(expected) failed
+
+    Locator:  getByRole('dialog').getByRole('combobox', { name: 'Narration', exact: true })
+    Expected: "aquifer-only"
+    Received: "aquifer-fallback"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveValue" getByRole('dialog').getByRole('combobox', { name: 'Narration', exact: true }) with timeout 5000ms
+      - waiting for getByRole('dialog').getByRole('combobox', { name: 'Narration', exact: true })
+        14 × locator resolved to <select aria-label="Narration">…</select>
+           - unexpected value "aquifer-fallback"
+
+
+      13 |  // Real UI persistence failure, with reference sections still closed.
+      14 |  await page.evaluate(()=>{const original=Storage.prototype.setItem;Storage.prototype.setItem=function(k,v){if(k==='fia.narration.v1')throw Error('test storage unavailable');return original.call(this,k,v);};});
+    > 15 |  const select=dialog.getByRole('combobox',{name:'Narration',exact:true});await select.focus();await expect(select).toBeFocused();await select.selectOption('aquifer-only');await expect(select).toHaveValue('aquifer-only');await expect(dialog.getByText('Narration preference could not be saved on this device.')).toBeVisible();await expect(dialog.getByText(/AI narration uses a synthetic voice/)).not.toBeVisible();
+         |                                                                                                                                                                                              ^
+      16 |  if(width===390&&theme==='light'&&language==='eng'){await save.click();await expect(dialog.locator('.offline-status')).toContainText('saved on this device',{timeout:60000});await dialog.getByText('Manage saved files',{exact:true}).click();await dialog.getByRole('button',{name:'Remove saved passage',exact:true}).click();await expect(dialog.getByRole('button',{name:'Confirm removal',exact:true})).toBeVisible();await dialog.getByRole('button',{name:'Keep saved passage',exact:true}).click();await expect(dialog.getByRole('button',{name:'Confirm removal',exact:true})).toHaveCount(0);}
+      17 | });
+      18 |
+        at /private/tmp/fia-offline-surface/tests/offline-surface.spec.js:15:190
+
+    Error Context: test-results/offline-surface-Offline-surface-320-light-eng/error-context.md
+
+  6) tests/offline-surface.spec.js:2:107 › Offline surface 320 light spa ───────────────────────────
+
+    Error: expect(locator).toHaveValue(expected) failed
+
+    Locator:  getByRole('dialog').getByRole('combobox', { name: 'Narration', exact: true })
+    Expected: "aquifer-only"
+    Received: "aquifer-fallback"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveValue" getByRole('dialog').getByRole('combobox', { name: 'Narration', exact: true }) with timeout 5000ms
+      - waiting for getByRole('dialog').getByRole('combobox', { name: 'Narration', exact: true })
+        14 × locator resolved to <select aria-label="Narration">…</select>
+           - unexpected value "aquifer-fallback"
+
+
+      13 |  // Real UI persistence failure, with reference sections still closed.
+      14 |  await page.evaluate(()=>{const original=Storage.prototype.setItem;Storage.prototype.setItem=function(k,v){if(k==='fia.narration.v1')throw Error('test storage unavailable');return original.call(this,k,v);};});
+    > 15 |  const select=dialog.getByRole('combobox',{name:'Narration',exact:true});await select.focus();await expect(select).toBeFocused();await select.selectOption('aquifer-only');await expect(select).toHaveValue('aquifer-only');await expect(dialog.getByText('Narration preference could not be saved on this device.')).toBeVisible();await expect(dialog.getByText(/AI narration uses a synthetic voice/)).not.toBeVisible();
+         |                                                                                                                                                                                              ^
+      16 |  if(width===390&&theme==='light'&&language==='eng'){await save.click();await expect(dialog.locator('.offline-status')).toContainText('saved on this device',{timeout:60000});await dialog.getByText('Manage saved files',{exact:true}).click();await dialog.getByRole('button',{name:'Remove saved passage',exact:true}).click();await expect(dialog.getByRole('button',{name:'Confirm removal',exact:true})).toBeVisible();await dialog.getByRole('button',{name:'Keep saved passage',exact:true}).click();await expect(dialog.getByRole('button',{name:'Confirm removal',exact:true})).toHaveCount(0);}
+      17 | });
+      18 |
+        at /private/tmp/fia-offline-surface/tests/offline-surface.spec.js:15:190
+
+    Error Context: test-results/offline-surface-Offline-surface-320-light-spa/error-context.md
+
+  6 failed
+    tests/offline-surface.spec.js:2:107 › Offline surface 390 light eng ────────────────────────────
+    tests/offline-surface.spec.js:2:107 › Offline surface 390 light spa ────────────────────────────
+    tests/offline-surface.spec.js:2:107 › Offline surface 390 dark eng ─────────────────────────────
+    tests/offline-surface.spec.js:2:107 › Offline surface 390 dark spa ─────────────────────────────
+    tests/offline-surface.spec.js:2:107 › Offline surface 320 light eng ────────────────────────────
+    tests/offline-surface.spec.js:2:107 › Offline surface 320 light spa ────────────────────────────
