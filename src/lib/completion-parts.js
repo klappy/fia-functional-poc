@@ -1,3 +1,4 @@
+import {ENGLISH_SCRIPTURE_CUES} from './guide-presentation.js';
 import {approvedAudioManifest} from './audio.js';
 import {spanishQueue} from './spanish-audio.js';
 import {selectNarration} from './narration.js';
@@ -9,7 +10,7 @@ export function pageParts(pack,language,sectionId,version,{playable=true}={}){
  if(language==='eng'){
   const unit=pack.guide.steps.flatMap(s=>activeUnits(s,pack.cues)).find(u=>u.id===sectionId);if(!unit)return [];
   ids=[unit.id,...(pack.cues.resourcesAt[unit.id]??[]).map(id=>`term-${id}`)];
-  if(unit.text.startsWith('Listen to an audio'))ids.push(`scripture-${version}`);
+  if(ENGLISH_SCRIPTURE_CUES.has(unit.id))ids.push(`scripture-${version}`);
  }else{
   const group=pack.guide.groups.find(g=>g.id===sectionId&&g.ordinaryQueue);if(!group)return [];
   const selections=[{domain:'guide',id:group.id}];
