@@ -1,0 +1,38 @@
+
+> fia-functional-poc@0.1.10 build
+> vite build && node scripts/build-offline-shell.mjs && node scripts/verify-release.mjs && node scripts/verify-release-stamp.mjs
+
+vite v8.3.0 building client environment for production...
+transforming...
+
+../assets/fonts/SF-Pro-Display-Regular.otf referenced in ../assets/fonts/SF-Pro-Display-Regular.otf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../assets/fonts/SF-Pro-Display-Medium.otf referenced in ../assets/fonts/SF-Pro-Display-Medium.otf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../assets/fonts/SF-Pro-Display-Semibold.otf referenced in ../assets/fonts/SF-Pro-Display-Semibold.otf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../assets/fonts/SF-Pro-Display-Bold.otf referenced in ../assets/fonts/SF-Pro-Display-Bold.otf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../assets/fonts/SF-Pro-Text-Regular.otf referenced in ../assets/fonts/SF-Pro-Text-Regular.otf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../assets/fonts/SF-Pro-Text-Medium.otf referenced in ../assets/fonts/SF-Pro-Text-Medium.otf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../assets/fonts/SF-Pro-Text-Semibold.otf referenced in ../assets/fonts/SF-Pro-Text-Semibold.otf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+
+../assets/fonts/SF-Pro-Text-Bold.otf referenced in ../assets/fonts/SF-Pro-Text-Bold.otf didn't resolve at build time, it will remain unchanged to be resolved at runtime
+✓ 93 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     0.56 kB │ gzip:   0.37 kB
+dist/assets/index-CwSZMaxO.css     28.17 kB │ gzip:   6.87 kB
+dist/assets/index-yaSK1M2V.js   1,126.06 kB │ gzip: 290.03 kB
+
+✓ built in 1.16s
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+Offline manifest: 203 required local files, 94451363 bytes; remote fonts optional, video excluded.
+Release audit PASS: 421 allowlisted files; 166 unchanged English MP3s; six approved reference replacements; no private voice identifiers/provider route; dist only.
+Release stamp PASS: 0.1.10+5c663c2
