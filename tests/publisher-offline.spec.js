@@ -17,5 +17,5 @@ test('selected Aquifer pack excludes AI alternatives and survives verified cold 
  await page.evaluate(async path=>{window.__publisherAudio=new Audio(path);await window.__publisherAudio.play();},recording.path);
  await expect.poll(()=>page.evaluate(()=>window.__publisherAudio.currentTime)).toBeGreaterThan(0.1);await page.evaluate(()=>window.__publisherAudio.pause());
  await page.getByRole('button',{name:'Offline passage and settings'}).click();await expect(page.getByRole('combobox',{name:'Narration',exact:true})).toHaveValue('aquifer-only');
- await page.getByRole('combobox',{name:'Narration',exact:true}).selectOption('ai-only');await expect(page.locator('.offline-status')).toContainText('Save again');
+ await page.getByRole('combobox',{name:'Narration',exact:true}).selectOption('ai-only');await expect(page.locator('.offline-status')).toContainText('Update available');
 });

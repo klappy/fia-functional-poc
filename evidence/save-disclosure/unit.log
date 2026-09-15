@@ -1,0 +1,604 @@
+
+> fia-functional-poc@0.1.13 test
+> node --test tests/*.test.mjs
+
+TAP version 13
+# Subtest: simulated HTMLAudio events advance only ended source units and suppress canceled callbacks
+ok 1 - simulated HTMLAudio events advance only ended source units and suppress canceled callbacks
+  ---
+  duration_ms: 785.000625
+  type: 'test'
+  ...
+# Subtest: simulated HTMLAudio pause resumes same source and media errors do not advance
+ok 2 - simulated HTMLAudio pause resumes same source and media errors do not advance
+  ---
+  duration_ms: 5.846167
+  type: 'test'
+  ...
+# Subtest: selected audio integrity failure and changed source fail before playback
+ok 3 - selected audio integrity failure and changed source fail before playback
+  ---
+  duration_ms: 10.9705
+  type: 'test'
+  ...
+# Subtest: pure synthesis guards count uncertain attempts and reject changed input, repeated IDs and cumulative caps without network
+ok 4 - pure synthesis guards count uncertain attempts and reject changed input, repeated IDs and cumulative caps without network
+  ---
+  duration_ms: 0.4545
+  type: 'test'
+  ...
+# Subtest: complete prepared audio binds exactly117 visible guide units and3 Scripture passages to immutable source bytes
+ok 5 - complete prepared audio binds exactly117 visible guide units and3 Scripture passages to immutable source bytes
+  ---
+  duration_ms: 20.419917
+  type: 'test'
+  ...
+# Subtest: a late resume rejection cannot overwrite a stopped session
+ok 6 - a late resume rejection cannot overwrite a stopped session
+  ---
+  duration_ms: 7.978625
+  type: 'test'
+  ...
+# Subtest: actual shell builder refuses missing, duplicate and source-mismatched mandatory narration manifests
+ok 7 - actual shell builder refuses missing, duplicate and source-mismatched mandatory narration manifests
+  ---
+  duration_ms: 105.843834
+  type: 'test'
+  ...
+# Subtest: media timing follows native metadata/time events and restart reuses the recording
+ok 8 - media timing follows native metadata/time events and restart reuses the recording
+  ---
+  duration_ms: 5.753084
+  type: 'test'
+  ...
+# Subtest: 750ms pending gap is held, canceled and restarted without ghost advancement
+ok 9 - 750ms pending gap is held, canceled and restarted without ghost advancement
+  ---
+  duration_ms: 2720.326208
+  type: 'test'
+  ...
+# (node:40035) ExperimentalWarning: The MockTimers API is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: fake clock holds automatic advancement until exactly750ms
+ok 10 - fake clock holds automatic advancement until exactly750ms
+  ---
+  duration_ms: 14.830375
+  type: 'test'
+  ...
+# Subtest: live completion resets on restart stop speak restore and ignores stale ended
+ok 11 - live completion resets on restart stop speak restore and ignores stale ended
+  ---
+  duration_ms: 10.287292
+  type: 'test'
+  ...
+# Subtest: official logo path bytes and viewBoxes match observed source receipt
+ok 12 - official logo path bytes and viewBoxes match observed source receipt
+  ---
+  duration_ms: 4.073167
+  type: 'test'
+  ...
+# Subtest: complete shared CSS and actual composed component sources retain pinned bytes
+ok 13 - complete shared CSS and actual composed component sources retain pinned bytes
+  ---
+  duration_ms: 6.239542
+  type: 'test'
+  ...
+# Subtest: scripture-BereanStandardBible exact boundaries, gaps and invalid fallback
+ok 14 - scripture-BereanStandardBible exact boundaries, gaps and invalid fallback
+  ---
+  duration_ms: 7.055958
+  type: 'test'
+  ...
+# Subtest: scripture-unfoldingWordLiteral exact boundaries, gaps and invalid fallback
+ok 15 - scripture-unfoldingWordLiteral exact boundaries, gaps and invalid fallback
+  ---
+  duration_ms: 2.082291
+  type: 'test'
+  ...
+# Subtest: scripture-unfoldingWordSimplified exact boundaries, gaps and invalid fallback
+ok 16 - scripture-unfoldingWordSimplified exact boundaries, gaps and invalid fallback
+  ---
+  duration_ms: 4.439916
+  type: 'test'
+  ...
+# Subtest: complete source-guided traversal accounts for all39 source stops in38groups and never enters hidden examples
+ok 17 - complete source-guided traversal accounts for all39 source stops in38groups and never enters hidden examples
+  ---
+  duration_ms: 13.666834
+  type: 'test'
+  ...
+# Subtest: step selection and reverse navigation preserve Scripture but cannot enter examples
+ok 18 - step selection and reverse navigation preserve Scripture but cannot enter examples
+  ---
+  duration_ms: 0.328291
+  type: 'test'
+  ...
+# Subtest: storage validates exact source position and discards invalid or hidden units
+ok 19 - storage validates exact source position and discards invalid or hidden units
+  ---
+  duration_ms: 0.640625
+  type: 'test'
+  ...
+# Subtest: install offer is consumed once; dismissal does not claim installation
+ok 20 - install offer is consumed once; dismissal does not claim installation
+  ---
+  duration_ms: 2.140792
+  type: 'test'
+  ...
+# Subtest: browser acceptance and launch mode are separate, with no persistent installed flag
+ok 21 - browser acceptance and launch mode are separate, with no persistent installed flag
+  ---
+  duration_ms: 0.778209
+  type: 'test'
+  ...
+# Subtest: missing or failed installation event is recoverable and never installed
+ok 22 - missing or failed installation event is recoverable and never installed
+  ---
+  duration_ms: 1.514583
+  type: 'test'
+  ...
+# Subtest: Medium stages progressive completions but Saved waits for final verified item; exact proxy serves cache
+ok 23 - Medium stages progressive completions but Saved waits for final verified item; exact proxy serves cache
+  ---
+  duration_ms: 56.23575
+  type: 'test'
+  ...
+# Subtest: bad derivative hash retains prior pack and reports integrity rather than claiming canceled
+ok 24 - bad derivative hash retains prior pack and reports integrity rather than claiming canceled
+  ---
+  duration_ms: 6.143583
+  type: 'test'
+  ...
+# Subtest: cancel cancels pending staging and retains previous pack
+ok 25 - cancel cancels pending staging and retains previous pack
+  ---
+  duration_ms: 7.146375
+  type: 'test'
+  ...
+# Subtest: manifest rejects arbitrary external URL before requesting bytes
+ok 26 - manifest rejects arbitrary external URL before requesting bytes
+  ---
+  duration_ms: 2.208042
+  type: 'test'
+  ...
+# Subtest: fault waits for already-started cache writes before deleting staging and cancels client queue
+ok 27 - fault waits for already-started cache writes before deleting staging and cancels client queue
+  ---
+  duration_ms: 15.506291
+  type: 'test'
+  ...
+# Subtest: selected narration is committed atomically and another preference is not reported saved
+ok 28 - selected narration is committed atomically and another preference is not reported saved
+  ---
+  duration_ms: 17.618542
+  type: 'test'
+  ...
+# Subtest: corrupt selected narration save preserves previous verified recording pack
+ok 29 - corrupt selected narration save preserves previous verified recording pack
+  ---
+  duration_ms: 5.81325
+  type: 'test'
+  ...
+# Subtest: requires eligibility, exact raw binding and recipe and honors original checkpoint despite preference
+ok 30 - requires eligibility, exact raw binding and recipe and honors original checkpoint despite preference
+  ---
+  duration_ms: 1.093958
+  type: 'test'
+  ...
+# Subtest: image sizing uses actual dimensions and caps DPR, refuses upscales
+ok 31 - image sizing uses actual dimensions and caps DPR, refuses upscales
+  ---
+  duration_ms: 0.251125
+  type: 'test'
+  ...
+# Subtest: shared queue caps eight, suppresses duplicates and returns first before remaining
+ok 32 - shared queue caps eight, suppresses duplicates and returns first before remaining
+  ---
+  duration_ms: 5.003625
+  type: 'test'
+  ...
+# Subtest: cancellation prevents queued starts while sibling completes
+ok 33 - cancellation prevents queued starts while sibling completes
+  ---
+  duration_ms: 1.095833
+  type: 'test'
+  ...
+# Subtest: invalid verified bytes never released
+ok 34 - invalid verified bytes never released
+  ---
+  duration_ms: 28.620708
+  type: 'test'
+  ...
+# Subtest: proxy denial retains original queue access
+ok 35 - proxy denial retains original queue access
+  ---
+  duration_ms: 0.480958
+  type: 'test'
+  ...
+# Subtest: online duplicate promotes queued offline priority
+ok 36 - online duplicate promotes queued offline priority
+  ---
+  duration_ms: 0.248083
+  type: 'test'
+  ...
+# Subtest: Retry-After recovery ramps back to configured concurrency
+ok 37 - Retry-After recovery ramps back to configured concurrency
+  ---
+  duration_ms: 3.238583
+  type: 'test'
+  ...
+# Subtest: active variant and paused checkpoint survive preference changes; failed derivative falls back once
+ok 38 - active variant and paused checkpoint survive preference changes; failed derivative falls back once
+  ---
+  duration_ms: 11.899875
+  type: 'test'
+  ...
+# Subtest: every Spanish image alias has its own exact raw descriptor
+ok 39 - every Spanish image alias has its own exact raw descriptor
+  ---
+  duration_ms: 29.214959
+  type: 'test'
+  ...
+# Subtest: Spanish Medium image aliases reuse only exact-hash and byte-matching canonical derivatives
+ok 40 - Spanish Medium image aliases reuse only exact-hash and byte-matching canonical derivatives
+  ---
+  duration_ms: 3.139084
+  type: 'test'
+  ...
+# Subtest: offline retina images choose the best actually saved derivative when original is absent
+ok 41 - offline retina images choose the best actually saved derivative when original is absent
+  ---
+  duration_ms: 0.292667
+  type: 'test'
+  ...
+# Subtest: local selected reads carry expected SHA and accept JavaScript MIME equivalence
+ok 42 - local selected reads carry expected SHA and accept JavaScript MIME equivalence
+  ---
+  duration_ms: 10.502375
+  type: 'test'
+  ...
+# Subtest: settled source policy defaults to Aquifer fallback and preserves exact two Lord identities
+ok 43 - settled source policy defaults to Aquifer fallback and preserves exact two Lord identities
+  ---
+  duration_ms: 0.72675
+  type: 'test'
+  ...
+# Subtest: only exact Spanish matches qualify; no related translated Lord alias
+ok 44 - only exact Spanish matches qualify; no related translated Lord alias
+  ---
+  duration_ms: 0.54125
+  type: 'test'
+  ...
+# Subtest: checkpoint binds recording source and exact output; no offset transplant
+ok 45 - checkpoint binds recording source and exact output; no offset transplant
+  ---
+  duration_ms: 0.18725
+  type: 'test'
+  ...
+# Subtest: stopped controller cannot retain previous source checkpoint
+ok 46 - stopped controller cannot retain previous source checkpoint
+  ---
+  duration_ms: 0.256083
+  type: 'test'
+  ...
+# Subtest: fresh failed Aquifer falls back once; Aquifer-only and restored positions never use AI
+ok 47 - fresh failed Aquifer falls back once; Aquifer-only and restored positions never use AI
+  ---
+  duration_ms: 38.643209
+  type: 'test'
+  ...
+# Subtest: decode error retries AI once and late Aquifer rejection cannot poison replacement
+ok 48 - decode error retries AI once and late Aquifer rejection cannot poison replacement
+  ---
+  duration_ms: 11.692291
+  type: 'test'
+  ...
+# Subtest: nested resolver uses selected Scripture and exact attachment order/explicit selection
+ok 49 - nested resolver uses selected Scripture and exact attachment order/explicit selection
+  ---
+  duration_ms: 0.451166
+  type: 'test'
+  ...
+# Subtest: instruction queue stops without advancing session or creating discussion completion
+ok 50 - instruction queue stops without advancing session or creating discussion completion
+  ---
+  duration_ms: 0.526666
+  type: 'test'
+  ...
+# Subtest: 130source IDs partition into115activity source IDs,2metadata and13hidden without new resource link
+ok 51 - 130source IDs partition into115activity source IDs,2metadata and13hidden without new resource link
+  ---
+  duration_ms: 0.769875
+  type: 'test'
+  ...
+# Subtest: metadata bookmarks restore position not a map association, then Continue entersstep6
+ok 52 - metadata bookmarks restore position not a map association, then Continue entersstep6
+  ---
+  duration_ms: 3.613709
+  type: 'test'
+  ...
+# Subtest: simulated storage quota failure cannot replace the previous active pointer
+ok 53 - simulated storage quota failure cannot replace the previous active pointer
+  ---
+  duration_ms: 26.812167
+  type: 'test'
+  ...
+# Subtest: failure between shell and active metadata writes restores the previous shell and pack
+ok 54 - failure between shell and active metadata writes restores the previous shell and pack
+  ---
+  duration_ms: 26.988041
+  type: 'test'
+  ...
+# Subtest: exact four attachments bijectively retain115 activity-source IDs and39 witnesses in111groups/38stopgroups
+ok 55 - exact four attachments bijectively retain115 activity-source IDs and39 witnesses in111groups/38stopgroups
+  ---
+  duration_ms: 6.217292
+  type: 'test'
+  ...
+# Subtest: each legacy cue restores the activity and cue state; ended stays and Continue skips only attached cue
+ok 56 - each legacy cue restores the activity and cue state; ended stays and Continue skips only attached cue
+  ---
+  duration_ms: 0.724459
+  type: 'test'
+  ...
+# Subtest: fallback substitutes exact selected recording without also saving AI alternative
+ok 57 - fallback substitutes exact selected recording without also saving AI alternative
+  ---
+  duration_ms: 0.9685
+  type: 'test'
+  ...
+# Subtest: Aquifer only excludes unmatched AI audio while preserving text/images/shell
+ok 58 - Aquifer only excludes unmatched AI audio while preserving text/images/shell
+  ---
+  duration_ms: 0.246708
+  type: 'test'
+  ...
+# Subtest: AI only saves no publisher alternatives; locale matching cannot cross languages
+ok 59 - AI only saves no publisher alternatives; locale matching cannot cross languages
+  ---
+  duration_ms: 0.448292
+  type: 'test'
+  ...
+# Subtest: ambiguous exact path and invalid policy fail rather than choosing arbitrary recording
+ok 60 - ambiguous exact path and invalid policy fail rather than choosing arbitrary recording
+  ---
+  duration_ms: 0.60875
+  type: 'test'
+  ...
+# Subtest: actual deduplicated queue owner and generation fence survive pause and reject stale events
+ok 61 - actual deduplicated queue owner and generation fence survive pause and reject stale events
+  ---
+  duration_ms: 23.767333
+  type: 'test'
+  ...
+# Subtest: notice, start, restore, gap, error and unrelated source do not claim spoken highlighting
+ok 62 - notice, start, restore, gap, error and unrelated source do not claim spoken highlighting
+  ---
+  duration_ms: 0.192958
+  type: 'test'
+  ...
+# Subtest: all26 original Spanish verse IDs bind only their actual queue-owner catalog entries
+ok 63 - all26 original Spanish verse IDs bind only their actual queue-owner catalog entries
+  ---
+  duration_ms: 6.764833
+  type: 'test'
+  ...
+# Subtest: complete selected source pack verifies from actual files
+ok 64 - complete selected source pack verifies from actual files
+  ---
+  duration_ms: 58.5875
+  type: 'test'
+  ...
+# Subtest: a missing or duplicated verse fails even with a valid transport digest
+ok 65 - a missing or duplicated verse fails even with a valid transport digest
+  ---
+  duration_ms: 1321.596625
+  type: 'test'
+  ...
+# Subtest: altered Scripture or emitted guide text fails canonical comparison
+ok 66 - altered Scripture or emitted guide text fails canonical comparison
+  ---
+  duration_ms: 912.87
+  type: 'test'
+  ...
+# Subtest: a missing resource and guessed map alias fail
+ok 67 - a missing resource and guessed map alias fail
+  ---
+  duration_ms: 636.107083
+  type: 'test'
+  ...
+# Subtest: discussion stops and example boundaries cannot silently change
+ok 68 - discussion stops and example boundaries cannot silently change
+  ---
+  duration_ms: 652.005208
+  type: 'test'
+  ...
+# Subtest: missing rights and flattened map notice fail
+ok 69 - missing rights and flattened map notice fail
+  ---
+  duration_ms: 698.243542
+  type: 'test'
+  ...
+# Subtest: video bytes are not an accepted offline resource
+ok 70 - video bytes are not an accepted offline resource
+  ---
+  duration_ms: 273.527459
+  type: 'test'
+  ...
+# Subtest: corrupt or missing actual media fails integrity verification
+ok 71 - corrupt or missing actual media fails integrity verification
+  ---
+  duration_ms: 293.999375
+  type: 'test'
+  ...
+# Subtest: a changed image cannot be legitimized by recomputing its manifest digest
+ok 72 - a changed image cannot be legitimized by recomputing its manifest digest
+  ---
+  duration_ms: 254.473916
+  type: 'test'
+  ...
+# Subtest: all original and derived resource/edition owners resolve; no false availability without files
+ok 73 - all original and derived resource/edition owners resolve; no false availability without files
+  ---
+  duration_ms: 3.672
+  type: 'test'
+  ...
+# Subtest: guide resolver stops at selected semantic boundary and optional examples remain opt-in
+ok 74 - guide resolver stops at selected semantic boundary and optional examples remain opt-in
+  ---
+  duration_ms: 3.386584
+  type: 'test'
+  ...
+# Subtest: raw punctuation binds original source hash separately from processed hash
+ok 75 - raw punctuation binds original source hash separately from processed hash
+  ---
+  duration_ms: 0.506083
+  type: 'test'
+  ...
+# Subtest: restore validates source owner, bytes and offset and resumes after notices without autoplay
+ok 76 - restore validates source owner, bytes and offset and resumes after notices without autoplay
+  ---
+  duration_ms: 0.353125
+  type: 'test'
+  ...
+# Subtest: notice intro group can be carried across deliberate guide activity navigation
+ok 77 - notice intro group can be carried across deliberate guide activity navigation
+  ---
+  duration_ms: 0.193333
+  type: 'test'
+  ...
+# Subtest: partial snapshot requires every content clip, exposes missing notices, and restores spoken intros when present
+ok 78 - partial snapshot requires every content clip, exposes missing notices, and restores spoken intros when present
+  ---
+  duration_ms: 0.449625
+  type: 'test'
+  ...
+# Subtest: synthetic expansion preserves original objects, full union and unavailable audio
+ok 79 - synthetic expansion preserves original objects, full union and unavailable audio
+  ---
+  duration_ms: 2.653167
+  type: 'test'
+  ...
+# Subtest: pending or changed packet cannot project
+ok 80 - pending or changed packet cannot project
+  ---
+  duration_ms: 1.148834
+  type: 'test'
+  ...
+# Subtest: independent packet integrity and membership checks survive a matching packet receipt
+ok 81 - independent packet integrity and membership checks survive a matching packet receipt
+  ---
+  duration_ms: 1.568375
+  type: 'test'
+  ...
+# Subtest: Spanish source coverage retains all blocks and isolates optional enactment
+ok 82 - Spanish source coverage retains all blocks and isolates optional enactment
+  ---
+  duration_ms: 12.414583
+  type: 'test'
+  ...
+# Subtest: original Spanish bodies and rights survive projection, derived text stays separate
+ok 83 - original Spanish bodies and rights survive projection, derived text stays separate
+  ---
+  duration_ms: 7.113791
+  type: 'test'
+  ...
+# Subtest: unknown source IDs, changed original text, altered supplement and ordinary example fail closed
+ok 84 - unknown source IDs, changed original text, altered supplement and ordinary example fail closed
+  ---
+  duration_ms: 27.055625
+  type: 'test'
+  ...
+# Subtest: candidate payload and asset manifest have no runtime/audio activation or private paths
+ok 85 - candidate payload and asset manifest have no runtime/audio activation or private paths
+  ---
+  duration_ms: 51.114375
+  type: 'test'
+  ...
+# Subtest: editorial resource requests preserve source but never become activities or examples
+ok 86 - editorial resource requests preserve source but never become activities or examples
+  ---
+  duration_ms: 6.021042
+  type: 'test'
+  ...
+# Subtest: simulated speech events: cancellation rejects stale source advancement and old errors
+ok 87 - simulated speech events: cancellation rejects stale source advancement and old errors
+  ---
+  duration_ms: 6.408333
+  type: 'test'
+  ...
+# Subtest: simulated speech events: chunks preserve source and item advances only after final chunk
+ok 88 - simulated speech events: chunks preserve source and item advances only after final chunk
+  ---
+  duration_ms: 9.3505
+  type: 'test'
+  ...
+# Subtest: simulated pause/resume require actual adapter event and absent voices are honest
+ok 89 - simulated pause/resume require actual adapter event and absent voices are honest
+  ---
+  duration_ms: 6.124667
+  type: 'test'
+  ...
+# Subtest: 21 frozen term recordings retain exact source, rights binding and cumulative attempt ceiling
+ok 90 - 21 frozen term recordings retain exact source, rights binding and cumulative attempt ceiling
+  ---
+  duration_ms: 68.843375
+  type: 'test'
+  ...
+# Subtest: four combined recordings preserve exact source and reviewed transition text
+ok 91 - four combined recordings preserve exact source and reviewed transition text
+  ---
+  duration_ms: 6.095583
+  type: 'test'
+  ...
+# Subtest: all111 guide destinations are reversible, bounded and preserve version/resource domains
+ok 92 - all111 guide destinations are reversible, bounded and preserve version/resource domains
+  ---
+  duration_ms: 3.599833
+  type: 'test'
+  ...
+# Subtest: workspace validates fields independently and source identity without guessing newer schemas
+ok 93 - workspace validates fields independently and source identity without guessing newer schemas
+  ---
+  duration_ms: 0.901166
+  type: 'test'
+  ...
+# Subtest: restored guide queues respect source stops and reject hidden/pure metadata IDs
+ok 94 - restored guide queues respect source stops and reject hidden/pure metadata IDs
+  ---
+  duration_ms: 0.558292
+  type: 'test'
+  ...
+# Subtest: restore never plays before explicit Resume and clamps verified metadata offset
+ok 95 - restore never plays before explicit Resume and clamps verified metadata offset
+  ---
+  duration_ms: 4.611709
+  type: 'test'
+  ...
+# Subtest: stale delayed fetch and metadata cannot override new playback, Restart or superseding restore
+ok 96 - stale delayed fetch and metadata cannot override new playback, Restart or superseding restore
+  ---
+  duration_ms: 2.194959
+  type: 'test'
+  ...
+# Subtest: pagehide-style checkpoint preserves source-bound offset through delayed metadata and seek
+ok 97 - pagehide-style checkpoint preserves source-bound offset through delayed metadata and seek
+  ---
+  duration_ms: 0.715292
+  type: 'test'
+  ...
+# Subtest: theme-only Spanish storage restores English theme without losing existing fields
+ok 98 - theme-only Spanish storage restores English theme without losing existing fields
+  ---
+  duration_ms: 0.184375
+  type: 'test'
+  ...
+1..98
+# tests 98
+# suites 0
+# pass 98
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 5390.707667
