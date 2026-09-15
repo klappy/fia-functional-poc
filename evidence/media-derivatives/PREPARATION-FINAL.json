@@ -1,0 +1,236 @@
+{
+  "sourceCommit": "0c21899f25bba5255a566ac9860dafc32130fb29",
+  "jobs": 386,
+  "verified": 354,
+  "eligible": 354,
+  "failed": 32,
+  "maxConcurrency": 8,
+  "alignedEnglishOriginalsExcluded": 3,
+  "failures": [
+    {
+      "sourcePath": "/audio/mark-1-1-13/S03-U022.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.05466795800021
+    },
+    {
+      "sourcePath": "/audio/spa/spa-00a3e72f492c9044a8a2.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.063297665969
+    },
+    {
+      "sourcePath": "/audio/spa/spa-0ac9383c390d821a2d1e.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.05480012501357
+    },
+    {
+      "sourcePath": "/audio/spa/spa-12ce442c4039d622e323.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.06221970799379
+    },
+    {
+      "sourcePath": "/audio/spa/spa-1ddac0ef564318e9150c.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.06732758297585
+    },
+    {
+      "sourcePath": "/audio/spa/spa-322753a4b0980ab6432b.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.07151941698976
+    },
+    {
+      "sourcePath": "/audio/spa/spa-483f5d8b1a74e12ad642.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.0486206249916
+    },
+    {
+      "sourcePath": "/audio/spa/spa-5801242628233cb2b4e5.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.08163516700733
+    },
+    {
+      "sourcePath": "/audio/spa/spa-5f70f10e59d3be83b491.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.06042441696627
+    },
+    {
+      "sourcePath": "/audio/spa/spa-6f769b74b76c8de93425.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "not smaller than original",
+      "elapsedSeconds": 62.26228874997469
+    },
+    {
+      "sourcePath": "/audio/spa/spa-7bac70a00ef723a1c33c.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.0615752080339
+    },
+    {
+      "sourcePath": "/audio/spa/spa-8719e513a657838872b6.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.06015424994985
+    },
+    {
+      "sourcePath": "/audio/spa/spa-8fafd34c2b15ad2312ef.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.05250408296706
+    },
+    {
+      "sourcePath": "/audio/spa/spa-9d6f60887b72a9a22d1f.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.05628354195505
+    },
+    {
+      "sourcePath": "/audio/spa/spa-a21949e5110e048c949c.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.04904249997344
+    },
+    {
+      "sourcePath": "/audio/spa/spa-a75e347a2770e8e0d75d.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.0547921670368
+    },
+    {
+      "sourcePath": "/audio/spa/spa-b88d1c10697f4c50e777.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.06506433303002
+    },
+    {
+      "sourcePath": "/audio/spa/spa-c6ecc2229d3e7c074cfd.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.05391804198734
+    },
+    {
+      "sourcePath": "/audio/spa/spa-c82fd8bb350db3604fcc.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.08161195804132
+    },
+    {
+      "sourcePath": "/audio/spa/spa-d5199196246e6e436f04.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.05387404101202
+    },
+    {
+      "sourcePath": "/audio/spa/spa-fa53405f5d77ef944930.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.05583679198753
+    },
+    {
+      "sourcePath": "/audio/terms/term-eng-t103-v1.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.06288979202509
+    },
+    {
+      "sourcePath": "/audio/terms/term-eng-t104-v1.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.06203983299201
+    },
+    {
+      "sourcePath": "/audio/terms/term-eng-t125-v1.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.05719041696284
+    },
+    {
+      "sourcePath": "/audio/terms/term-eng-t129-v1.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.06342283298727
+    },
+    {
+      "sourcePath": "/audio/terms/term-eng-t23-v1.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.0657876249752
+    },
+    {
+      "sourcePath": "/audio/terms/term-eng-t4-v1.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.05635312496452
+    },
+    {
+      "sourcePath": "/audio/terms/term-eng-t5-v1.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.06069600000046
+    },
+    {
+      "sourcePath": "/audio/terms/term-eng-t60-v1.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.059311332996
+    },
+    {
+      "sourcePath": "/audio/terms/term-eng-t68-v1.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.06243724998785
+    },
+    {
+      "sourcePath": "/audio/terms/term-eng-t87-v1.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.05725079198601
+    },
+    {
+      "sourcePath": "/audio/visual-resources/c197.mp3",
+      "recipe": "preset=voice,q=medium,f=opus",
+      "status": "rejected",
+      "error": "The read operation timed out",
+      "elapsedSeconds": 90.06415820901748
+    }
+  ],
+  "acceptance": "Per-output bytes/hash/decode/duration or aspect checks plus approved representative native/visual gates; no all-listened claim."
+}

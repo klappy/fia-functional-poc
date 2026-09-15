@@ -1,0 +1,14 @@
+{
+  "language": "spa",
+  "quality": "medium",
+  "revision": "3ec89b30a8243b82fe7e0b57f5f0fcfe6881c875d8c9c10efbbe0c05d64d30bd",
+  "entries": 231,
+  "bytes": 100041236,
+  "coldLaunch": true,
+  "proxyCacheRead": {
+    "sourcePath": "/audio/spa/spa-06c24ec382679df35569.mp3",
+    "bytes": 4014,
+    "mime": "audio/ogg"
+  },
+  "errors": []
+}

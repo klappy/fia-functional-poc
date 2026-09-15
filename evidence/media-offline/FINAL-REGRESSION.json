@@ -1,0 +1,26 @@
+{
+  "testedSource": "097cbb2",
+  "identicalSourceMerge": "9776d3b",
+  "unitPassed": 86,
+  "content": "PASS",
+  "browserCases": 39,
+  "initialPassed": 37,
+  "correctedCases": [
+    "network fault candidate declares new SHA to require transfer",
+    "visual source identity uses source labels; Range read uses selected verified saved descriptor"
+  ],
+  "correctedNativePass": [
+    "missing/corrupt/cancel preserve prior verified pack",
+    "all eight visual clips cold offline playback; Range returns full verified representation",
+    "DPR2 large map cold offline 960px, zero original map requests",
+    "saved legacy English to current Spanish shell",
+    "ordinary saved older shell upgrades without deleting position"
+  ],
+  "sourceQualified": 354,
+  "failedOriginalFallback": 32,
+  "logs": [
+    "/tmp/fia-media-targeted.log",
+    "/tmp/fia-media-targeted-recheck2.log",
+    "/tmp/fia-media-visual-final.log"
+  ]
+}

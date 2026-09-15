@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.12
+
+Save verified Medium media with atomic rollback, exact per-language size comparisons, and a separate saved-quality label. Original and Medium manifests share the same source guarantees; incomplete derivative preparation retains originals. Online and offline requests share priority, concurrency and cancellation.
+
+## 0.1.11
+
+Add shared Medium/Original media selection with source-bound verified derivatives, bounded prioritized fetches, and exact audio variant checkpoints. Keep timed English recordings original and existing offline packs unchanged; compressed offline saving is a separate pending integration.
+
 ## 0.1.10
 
 Add source-bound English Scripture word and verse timing to the shared Scripture view for BSB, ULT and UST. Preserve the recordings and Spanish clip highlighting. Missing or invalid timing falls back to passage-level indication.

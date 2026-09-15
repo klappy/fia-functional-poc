@@ -1,0 +1,30 @@
+{
+  "browser": "Chromium",
+  "mode": "headless native Audio playback and seek; not listening",
+  "records": [
+    {
+      "sourcePath": "/audio/mark-1-1-13/S03-U016.mp3",
+      "sha256": "704a52bf49124441886367b4da7b2fb04ae17ecfdd87d7f3034d7fb435f4bb30",
+      "duration": 0.790188,
+      "time": 0.474112,
+      "paused": true,
+      "ended": true
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S02-U010.mp3",
+      "sha256": "9f847d4d6f23be71e1b003c38d796ab70038c4e52bcf8d047e0561fa545bfda6",
+      "duration": 79.862813,
+      "time": 47.917687,
+      "paused": true,
+      "ended": true
+    },
+    {
+      "sourcePath": "/audio/spa/spa-09c2652e37d70bd7505d.mp3",
+      "sha256": "13d11671a99e1db164fb1f76651252f060cdc54c3eace1f53f71c30834c92bd4",
+      "duration": 1.391,
+      "time": 0.8346,
+      "paused": true,
+      "ended": true
+    }
+  ]
+}

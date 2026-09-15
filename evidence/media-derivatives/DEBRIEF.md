@@ -1,0 +1,15 @@
+# Preparation and shared resolver checkpoint
+
+Authority: kitchen preparation 12 (7 author / 3 independent review / 2 coordination), resolver 10 (6 author / 3 independent review / 1 coordination), accepted default concurrency 8. Source is unchanged app commit 0c21899f25bba5255a566ac9860dafc32130fb29. No synthesis, new provider, hosting, credentials or video work.
+
+The catalog is a progressive snapshot, not a claim of complete pack conversion. Every eligible output has a source/output hash and byte binding, decoded format, and bounded original dimensions or duration delta (≤150 ms for unaligned audio). Representative Chromium short/long/Spanish playback, pause, seek and end passed; this is not listening acceptance. Root inspected the actual a111 photograph and c197 map outputs, then authorized representative visual coverage with per-output aspect/dimension/decode checks. Three timed English Scripture originals are excluded. Nonbeneficial, duplicate, failed or not-yet-prepared variants retain originals.
+
+Initial preparation process hit Python's local CA-store failure before HTTP; its failed ledger is preserved separately. The corrected process uses the verified system CA, never disables TLS verification. Persistent preparation is external to app runtime. Exact original/recipe jobs share eight slots; successful byte/decode entries become durable independently. Request timeouts are rejected rather than silently retried or counted as converted. Temporary derivative bytes remain local test evidence and are not rehosted or committed.
+
+Runtime resolves source-bound accepted metadata before fetching, checks MIME/bytes/SHA, shares a bounded priority queue, deduplicates in-flight requests, honors Retry-After, and retains local original access if proxy authorization stops. Recovery ramps back to eight. Images use rendered CSS width and capped DPR against actual output dimensions; identical selected variants do not refetch on fractional resize. Full-size original remains explicit. Audio changes apply on the next deliberate clip load; existing/paused output identity is pinned. Unknown saved variants are not resumed at a transplanted offset.
+
+Offline manifests and saved packs remain originals in this checkpoint. Compressed offline saving requires its separately ordered atomic variant integration; Settings does not claim an existing saved pack was converted. This distinction is explicit until the offline dish lands.
+
+Validation: targeted source/resolver/queue/audio tests; all existing unit tests; content verification and strict build. Independent UI review and final release CI/readback remain coordinator gates. Root source review prompted five fixes: scoped proxy stop, recovery ramp, priority promotion, catalog source base, immutable image-effect key.
+
+Learning: a local Python CA failure can imitate a service outage; classify TLS transport separately from conversion failures. Representative native tests qualify a codec pipeline only when every file retains its own byte/decode/source checks. A completed derivative never implies a completed offline pack.

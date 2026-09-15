@@ -1,3 +1,4 @@
+import useMediaImage from './useMediaImage.js';
 import SourceHighlight from './SourceHighlight.jsx';
 import ResourceAttribution from './ResourceAttribution.jsx';
 import { GlassSurface } from '../vendor/glass/components/glass/GlassSurface.jsx';
@@ -6,16 +7,16 @@ import React, { useEffect, useRef, useState } from 'react';
 import { GlassButton } from '../vendor/glass/components/glass/GlassButton.jsx';
 import SourceDetails, { SafeHtml } from './SourceDetails.jsx';
 export default function ResourceDialog({ selection, onClose,transport,localPlayer,skipReturn,playback }) {
-  const openerRef=useRef(document.activeElement); const dialog = useRef(null); const [imageError, setImageError] = useState(false); const [imageLoaded, setImageLoaded] = useState(false);
+  const openerRef=useRef(document.activeElement); const dialog = useRef(null); const [imageErrorSrc, setImageErrorSrc] = useState(null); const [imageLoadedSrc, setImageLoadedSrc] = useState(null);
   useEffect(() => { const opener = openerRef.current; const element = dialog.current; element.showModal();element.querySelector('[aria-label="Close resource"]')?.focus(); return () => { element.close(); if (!skipReturn?.current&&opener?.isConnected) opener.focus();if(skipReturn)skipReturn.current=false; }; }, []);
-  const item = selection.item;
-  useEffect(()=>{setImageError(false);setImageLoaded(false);const body=dialog.current?.querySelector('.dialog-body');if(body)body.scrollTop=0;},[item?.content_id,item?.id]);
+  const item = selection.item;const image=useMediaImage(item?.assetPath);const activeSrc=useRef();activeSrc.current=image.src;const imageError=!!image.src&&imageErrorSrc===image.src;const imageLoaded=!!image.src&&imageLoadedSrc===image.src;
+  useEffect(()=>{setImageErrorSrc(null);setImageLoadedSrc(null);const body=dialog.current?.querySelector('.dialog-body');if(body)body.scrollTop=0;},[item?.content_id,item?.id]);
   return <dialog ref={dialog} className="resource-dialog" aria-labelledby="dialog-title" onCancel={e => { e.preventDefault(); onClose(); }}>
     <GlassSurface level={4} radius="2xl" style={{background:'var(--material-floating)'}}><div className="dialog-header"><h2 id="dialog-title">{selection.title ?? (item && resourceLabel(item))}</h2><div className="dialog-header-actions">{localPlayer}<GlassButton autoFocus variant="quiet" onClick={onClose} aria-label="Close resource">Close</GlassButton></div></div>
-    <div className="dialog-body">
+    <div ref={image.ref} className="dialog-body">
       {selection.children}
       {item && <>
-        {['map','image'].includes(item.kind) && <>{!imageLoaded && !imageError && <p role="status">Loading image…</p>}{imageError ? <p role="alert">This image could not be displayed. Close and try again.</p> : <a href={item.assetPath} target="_blank" rel="noreferrer" className={`image-open image-open-${item.kind}`}><img src={item.assetPath} alt={resourceLabel(item)} onLoad={() => setImageLoaded(true)} onError={() => setImageError(true)}/><span>Open full-size image to inspect labels</span></a>}</>}
+        {['map','image'].includes(item.kind) && <>{!imageLoaded && !imageError && !image.failed && <p role="status">Loading image…</p>}{imageError || image.failed ? <p role="alert">This image could not be displayed. Close and try again.</p> : <a href={item.assetPath} target="_blank" rel="noreferrer" className={`image-open image-open-${item.kind}`}>{image.src&&<img key={image.src} src={image.src} alt={resourceLabel(item)} onLoad={() => {if(activeSrc.current===image.src){setImageLoadedSrc(image.src);setImageErrorSrc(null);}}} onError={() => {if(activeSrc.current===image.src)setImageErrorSrc(image.src);}}/>}<span>Open full-size original to inspect labels</span></a>}</>}
         {item.kind === 'video' ? <><SafeHtml externalLinks html={item.content??item.originalHtml}/><p>This video opens online. It is not downloaded with the passage.</p><a className="external-video" href={item.mediaUrl} target="_blank" rel="noreferrer">Open {item.title} video (connection required)</a></> : item.kind === 'term' ? <><SourceHighlight as="div" state={playback} domain="resources" sourceIds={item.playbackSourceIds??[`term-${item.content_id}`]} label="Resource source body"><SafeHtml html={item.content}/></SourceHighlight><p className="reading-note">Cross-reference text is preserved. Open available terms from this passage’s Resources.</p></> : null}
         {item.notice&&<p>{item.notice}</p>}{item.supplementContent}<ResourceAttribution records={item.attributions??[item]}/>
       </>}

@@ -1,0 +1,13 @@
+{
+  "quality": "medium",
+  "revision": "a98f02cc59c65b7186ebe3b71a4b84ef920ea3c5852017d0904015493380b25a",
+  "entries": 211,
+  "bytes": 53445675,
+  "coldLaunch": true,
+  "proxyCacheRead": {
+    "sourcePath": "/audio/mark-1-1-13/S01-U001.mp3",
+    "bytes": 8962,
+    "mime": "audio/ogg"
+  },
+  "errors": []
+}

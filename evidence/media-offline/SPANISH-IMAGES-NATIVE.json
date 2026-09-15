@@ -1,0 +1,46 @@
+{
+  "stamp": "0.1.11+53c2b8e",
+  "count": 8,
+  "images": [
+    {
+      "src": "blob:http://127.0.0.1:4794/184a129a-e1cf-446f-9fdf-56063038b292",
+      "width": 1000,
+      "height": 699
+    },
+    {
+      "src": "blob:http://127.0.0.1:4794/a2fcc1f0-cd48-4142-9ddd-6c2fb698ac86",
+      "width": 1000,
+      "height": 563
+    },
+    {
+      "src": "blob:http://127.0.0.1:4794/72f995cc-30a0-4cbc-a834-d12da24c68d8",
+      "width": 1000,
+      "height": 563
+    },
+    {
+      "src": "blob:http://127.0.0.1:4794/2a929e45-ee55-4625-81dc-064b3021d284",
+      "width": 1000,
+      "height": 563
+    },
+    {
+      "src": "blob:http://127.0.0.1:4794/8710fba1-1794-4c95-a7d2-5e83eedd4651",
+      "width": 4000,
+      "height": 3000
+    },
+    {
+      "src": "blob:http://127.0.0.1:4794/b1fb1ae5-59a0-4dfc-a1e1-28cfe4f7cea4",
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "src": "blob:http://127.0.0.1:4794/c5cbfa70-daf2-45d4-ac87-3f88cee42b63",
+      "width": 3000,
+      "height": 4000
+    },
+    {
+      "src": "blob:http://127.0.0.1:4794/8d90d296-fd0e-4edb-bbc8-7c6a2629afc7",
+      "width": 3000,
+      "height": 4000
+    }
+  ]
+}
