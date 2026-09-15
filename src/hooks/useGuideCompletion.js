@@ -1,0 +1,7 @@
+import {useEffect,useRef,useState} from 'react';
+import {completionSources,completionCatalog,readCompletion,writeCompletion,reduceCompletion,sectionComplete,stepComplete} from '../lib/guide-completion.js';
+export default function useGuideCompletion(pack,language){
+ const [state,setState]=useState({catalog:null,value:null,warning:''}),current=useRef(state);current.current=state;
+ useEffect(()=>{let active=true;completionCatalog(completionSources(pack,language),language).then(catalog=>{if(!active)return;let loaded;try{loaded=readCompletion(globalThis.localStorage,catalog);}catch{loaded=readCompletion(null,catalog);}const next={catalog,...loaded};current.current=next;setState(next);}).catch(()=>{if(active)setState({catalog:null,value:null,warning:'Completion marks are unavailable for this source.'});});return()=>{active=false;};},[pack,language]);
+ return {ready:!!state.catalog,warning:state.warning,isComplete:id=>sectionComplete(state.value,id),stepComplete:id=>stepComplete(state.value,id,state.catalog),toggle(id){const previous=current.current;if(!previous.catalog)return;const value=reduceCompletion(previous.value,{type:sectionComplete(previous.value,id)?'undo':'mark',sectionId:id},previous.catalog);let warning;try{warning=writeCompletion(globalThis.localStorage,value);}catch{warning=writeCompletion(null,value);}const next={...previous,value,warning};current.current=next;setState(next);}};
+}
