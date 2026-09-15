@@ -1,6 +1,7 @@
 import {createDisclosureStore} from '../lib/disclosures.js';
 import {useEffect,useRef,useState,useCallback} from 'react';
 import {AudioController} from '../lib/audio.js';
+import {selectNarration} from '../lib/narration.js';
 import {browserStorage} from '../lib/session.js';
 import {spanishQueue,spanishIntroduction,restoreSpanishAudio,saveSpanishAudio,spanishAudioCheckpointKey} from '../lib/spanish-audio.js';
 const empty={entries:[]};
@@ -14,8 +15,9 @@ export default function useSpanishAudio(pack){
  const saved=restoreSpanishAudio(browserStorage(),pack,manifest,disclosure.current.noticeOwners());if(saved?.warning)setStorageWarning(saved.warning);else if(saved){selected.current=saved.selection;queue.current=saved.queue;setSelection(saved.selection);c.restore(saved.queue,saved.checkpoint,end);}
  const persist=()=>{if(!introduction.current&&!saveSpanishAudio(browserStorage(),selected.current,c))setStorageWarning('Spanish audio progress cannot be stored on this device.');};window.addEventListener('pagehide',persist);
  return()=>{persist();alive.current=false;window.removeEventListener('pagehide',persist);c.stop();};},[pack,manifest,end]);
- const available=selection=>spanishQueue(pack,selection,manifest,new Set(),disclosure.current.noticeOwners()).length>0;
- const start=selection=>{introduction.current=null;const items=spanishQueue(pack,selection,manifest,new Set(),disclosure.current.noticeOwners());if(!items.length)return false;setCompleted(false);selected.current=selection;queue.current=items;setSelection(selection);engine.current.speak(items,null,end);return true;};
+ const playable=items=>items.length>0&&items.every(item=>selectNarration(manifest.entries.find(entry=>entry.id===item.id)));
+ const available=selection=>playable(spanishQueue(pack,selection,manifest,new Set(),disclosure.current.noticeOwners()));
+ const start=selection=>{introduction.current=null;const items=spanishQueue(pack,selection,manifest,new Set(),disclosure.current.noticeOwners());if(!playable(items))return false;setCompleted(false);selected.current=selection;queue.current=items;setSelection(selection);engine.current.speak(items,null,end);return true;};
  const stop=()=>{introduction.current=null;setCompleted(false);selected.current=null;queue.current=[];setSelection(null);engine.current?.stop();try{browserStorage()?.removeItem(spanishAudioCheckpointKey);}catch{setStorageWarning('Spanish audio progress cannot be stored on this device.');}};
  const restart=()=>{setCompleted(false);if(!introduction.current&&engine.current?.item?.notice&&selected.current)start(selected.current);else engine.current?.restart();};
  const replayIntroduction=()=>{const items=spanishIntroduction(manifest);if(!items.length)return;if(!introduction.current&&selected.current){const checkpoint=engine.current.checkpoint();if(checkpoint){saveSpanishAudio(browserStorage(),selected.current,engine.current);introduction.current={selection:selected.current,queue:engine.current.items.slice(engine.current.itemIndex),checkpoint};}}if(!introduction.current)introduction.current={selection:null,queue:[],checkpoint:null};setCompleted(false);engine.current.speak(items,null,end);};
