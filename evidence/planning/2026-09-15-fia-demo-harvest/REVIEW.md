@@ -44,3 +44,12 @@ DEBRIEF describes actual producer-reported lens/challenge work and three levels 
 No audio/recording/screens were inspected. Visual targets, transcription omissions, uncertain attribution and later source edits remain outside this review. Participant platform-policy claims remain unverified; no legal/platform fact is established by this harvest. Current delivery capacity and authoritative dates must be verified by the responsible coordinator.
 
 This review supersedes the earlier SOURCE-REVIEW's checklist binding for the revised index/geography-minimized checklist; its independently observed source receipt remains valid. Writer should land these exact artifacts and review, read them back, and retain the source revision and unresolved capture/count limits. Further semantic changes require fresh affected review. No implementation, calendar update, external message or automation was performed.
+
+## Systemic UX amendment — independent affected-file review
+
+Parent CoS independently read the complete revised sidecar and debrief after operator correction, then the final fresh-challenge paragraph. PASS for affected content; parent supplied scope constraints/recommendations but did not author or edit the files. This is narrow content review, not full-source re-review, owner acceptance or actual UX design validation. Earlier source fidelity review continues to bind unchanged source/checklist/existing-work cargo.
+
+- DELIVERY-SIDECAR.md SHA256:93f9611c3d382c192422b3c1697dea076f32145276f85efae0bdc83ffa8f40e6.
+- DEBRIEF.md SHA256:7cfd635701512d884f9078e554a9d5d1f4baa36d5acea6a71ce8ff1d559d0c3c.
+
+Checked explicit supersession of40patch framing, six hypothesis clusters rather than claimed root causes, stable40IDs, competent whole-journey/state/prototype design and independent review before coherent implementation, conditional dates/minimal attention, no new source/disclosure expansion. Final paragraph accurately records challenge as CHALLENGED/not approval and names uncertainty/disconfirmers. These hashes supersede the earlier bindings for these two files only.
