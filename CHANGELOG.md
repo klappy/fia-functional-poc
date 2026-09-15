@@ -1,3 +1,7 @@
+# 0.1.16
+
+Give Offline passage distinct preference and saved-status surfaces in both themes using existing studio and glass materials. Preserve shared English/Spanish controls and concise disclosure.
+
 # 0.1.15
 
 Qualify Medium Opus for eight Spanish visual descriptions, retaining Original fallback and source-policy offline selection.
