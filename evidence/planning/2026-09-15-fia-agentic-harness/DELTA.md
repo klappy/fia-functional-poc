@@ -30,3 +30,7 @@ Parent supplied an actual two-page native-preview observation receipt. Re-applie
 ## Revision 4 lens
 
 Applied the same prompt again after current CI failure and coordinator bindings arrived. Changed AUDIT and meeting brief to lead with the failed exact-main check, proposal to require reconciliation with existing active service, and neutral TICKET/MEAL to bind real cumulative promise, paths and actual prior-art receipt. Rejected speculative root-cause diagnosis and duplicate repair orders. System picture now explicitly begins from observed baseline status, not release prose. Fresh challenge follows; no implementation fire.
+
+## Revision 5 — operator correction, ordered before editing
+
+Amendment recorded/read back on the actual rail at 2e7094ebcd514c03924938b46d4fce9bd6a165d5 before edits. Applied the live-fetched driver's-seat prompt to the full design set again. Rewrote MEETING-BRIEF to protect free critique and a raw-feedback outcome; added a distinct capture/interpretation/authority boundary in PLANNING-PROPOSAL. Moved known technical failure into internal preparation so it does not seed attendees' criticism. Rejected forced consensus, pilot selection, in-meeting classification and treating suggestions or silence as commitments. As the later operator, I need faithful source pointers and uncertainty, not premature action assignments. No original voice or raw source was edited or copied. Fresh challenge follows.
