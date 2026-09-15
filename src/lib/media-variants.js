@@ -6,14 +6,14 @@ export function variantMatchesCheckpoint(entry,checkpoint,index=catalog){return 
 export function resolveMedia(source,preference='medium',display={},index=catalog,proxyBase=mediaProxyBase){
  const original={url:source.path,expectedDescriptor:source,originalDescriptor:source,variant:'original'};
  if(preference==='original'&&!display.outputSha256||display.outputSha256===source.sha256)return original;
- let entries=index.entries.filter(d=>d.eligible===true&&d.sourcePath===source.path&&d.sourceSha256===source.sha256&&d.sourceBytes===source.bytes&&d.bytes>0&&d.bytes<source.bytes&&/^[a-f0-9]{64}$/.test(d.sha256));
+ let entries=index.entries.filter(d=>d.eligible===true&&d.sourceSha256===source.sha256&&d.sourceBytes===source.bytes&&d.bytes>0&&d.bytes<source.bytes&&/^[a-f0-9]{64}$/.test(d.sha256));
  if(display.outputSha256)entries=entries.filter(d=>d.sha256===display.outputSha256);
  if(source.mime?.startsWith('image/')){
   const target=Math.min(source.width??Infinity,Math.ceil((display.cssWidth??320)*Math.min(2,Math.max(1,display.dpr??1))));
   entries=entries.filter(d=>d.mime==='image/webp'&&d.width<=source.width&&d.height<=source.height&&d.width>=target).sort((a,b)=>a.bytes-b.bytes);
  }else entries=entries.filter(d=>['audio/ogg','audio/opus','application/ogg'].includes(d.mime)&&d.recipe==='preset=voice,q=medium,f=opus');
  const d=entries[0];if(!d)return original;
- const expectedPath=`/${d.kind}/${d.recipe}/${index.sourceBase??'https://fia.klappy.dev'}${source.path}`;
+ const expectedPath=`/${d.kind}/${d.recipe}/${index.sourceBase??'https://fia.klappy.dev'}${d.sourcePath}`;
  if(d.proxyPath!==expectedPath||d.kind==='image'&&!/^w=\d+,q=medium,f=webp$/.test(d.recipe))return original;
  let base;try{base=new URL(proxyBase);if(base.protocol!=='https:'||base.username||base.password||base.search||base.hash)return original;}catch{return original;}
  return{url:base.href.replace(/\/$/,'')+d.proxyPath,expectedDescriptor:{...d,path:d.proxyPath},originalDescriptor:source,variant:'medium'};
