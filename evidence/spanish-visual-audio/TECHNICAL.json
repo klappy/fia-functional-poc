@@ -1,0 +1,77 @@
+{
+  "stagedManifestSha256": "32bdb91b947b78f268921ad03687264645c44ed20ea676a0e978e53091ae166b",
+  "entries": [
+    {
+      "id": "visual-description-a111",
+      "sha256": "8965e0535a82169b1967c0b28659d5a493ea8458abf25e8da6ed6d198051407e",
+      "bytes": 332695,
+      "codec": "mp3",
+      "sampleRate": "44100",
+      "duration": 20.793438,
+      "fullDecode": true
+    },
+    {
+      "id": "visual-description-a204",
+      "sha256": "9f94d8a2e734d3d0d66db98f15de109be00054c35c8f3fa4062e9042bfb70f7b",
+      "bytes": 178886,
+      "codec": "mp3",
+      "sampleRate": "44100",
+      "duration": 11.180375,
+      "fullDecode": true
+    },
+    {
+      "id": "visual-description-a112",
+      "sha256": "3cf75124917728072c3768520ea02f7e3d0e3ded0848f546d2655c0a4714996d",
+      "bytes": 239072,
+      "codec": "mp3",
+      "sampleRate": "44100",
+      "duration": 14.942,
+      "fullDecode": true
+    },
+    {
+      "id": "visual-description-c202",
+      "sha256": "a395035a43a7fc49d5d97d4a1d9356893a58ce4792c852c5ebbe0d3f1a475f28",
+      "bytes": 379506,
+      "codec": "mp3",
+      "sampleRate": "44100",
+      "duration": 23.719125,
+      "fullDecode": true
+    },
+    {
+      "id": "visual-description-ai-spa-from-a203",
+      "sha256": "f46d6760907dc9d8a14ab2faba78c792127a30915a68c303b26290349e269eba",
+      "bytes": 272509,
+      "codec": "mp3",
+      "sampleRate": "44100",
+      "duration": 17.031813,
+      "fullDecode": true
+    },
+    {
+      "id": "visual-description-c197",
+      "sha256": "4e82fa1dcceb8634615b7d203a4b8bb1e33f70df50fed40ea997d2e5b9e6a148",
+      "bytes": 690886,
+      "codec": "mp3",
+      "sampleRate": "44100",
+      "duration": 43.180375,
+      "fullDecode": true
+    },
+    {
+      "id": "visual-description-ai-spa-from-c201",
+      "sha256": "8b4ba4ac0168d3c3daf7156807e95f5308537d3811070bc845b5a6ecbd32915b",
+      "bytes": 364042,
+      "codec": "mp3",
+      "sampleRate": "44100",
+      "duration": 22.752625,
+      "fullDecode": true
+    },
+    {
+      "id": "visual-description-ai-spa-from-c168",
+      "sha256": "e0687e52b9ccfa044b65ee13a66c5a8463204371ce33bc2d19fb6355f2a328d7",
+      "bytes": 491102,
+      "codec": "mp3",
+      "sampleRate": "44100",
+      "duration": 30.693875,
+      "fullDecode": true
+    }
+  ]
+}
