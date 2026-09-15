@@ -1,14 +1,35 @@
 # Next-delivery sidecar
 
-## Recommendation
+## Recommendation — coherent UX design before patches
 
-Aim for a **September 22 internal candidate**, with **September 29 fallback**, centered on obvious next actions, coherent guided activities, usable media and a proven assisted offline installation. These are proposed targets, not delivery promises. Every one of the 40 meeting topics is accounted for below; accounting includes explicit defer/context dispositions, not a promise to implement every suggestion. No work is fired by this document.
+**Operator correction:** the 40 topics are traceable observations and acceptance cases, not 40 implementation tickets. The earlier piecemeal core-fix framing is superseded. Preserve a fixed visual/runtime baseline, then commission a bounded diagnosis and interaction design by a competent UX designer. A coherent candidate should address shared causes across whole journeys; implementation follows reviewed design in coherent vertical slices.
 
-The meeting separately reported September 25 alpha, October 7 feedback, October 8 beta and first-week October field testing. Those statements need owner/calendar reconciliation; they do not become commitments through this harvest. The original feedback remains valid even when an option is deferred.
+September 22 is a proposed internal-candidate target, September 29 a fallback, subject to design findings and capacity. Neither is a delivery promise. The meeting separately reported September 25 alpha, October 7 feedback, October 8 beta and first-week October field testing; owner/calendar reconciliation remains necessary. No snapshot or design order changes those dates.
+
+## Root-problem hypotheses and proving cases
+
+These are hypotheses to test, not established root causes or six new implementation tickets.
+
+| Shared system | Feedback cases | Diagnosis/design outcome | How to challenge it |
+|---|---|---|---|
+| Primary navigation and action hierarchy | 3, 4, 5, 22, 23, 25, 32 | One coherent hierarchy for recommended action, secondary navigation and recovery across the whole journey; accessible layout and cues | Fresh user advances, deliberately skips/returns and reaches resources without coaching, on small/large-text/poor-screen conditions |
+| Unified progress and playback state | 6, 15, 20, 21, 26 | Explicit state map for playing, stopped-for-discussion, completed playback, next-ready, backtracked and resumed; stage versus within-stage progress | Look away and return; replay/backtrack; no surprise sound or claim that listening means comprehension |
+| Semantic guide structure and overview | 3, 8, 16, 21, 24, 27 | Meaningful activity chunks and list boundaries; guided flow with a considered overview tradeoff, not sentence-by-sentence screens | Run full dramatization and discussion, preserve lists/stops; compare overview usefulness against process-bypass risk |
+| Consistent media affordances | 9, 10, 11, 13, 14, 15 | Distinct image-open/audio-play behavior, direct zoom/return and consistent long-audio control, with content-context links | Open/zoom/return on phone; seek long resource, handle partial timing and avoid incidental playback |
+| Offline installation and readiness | 18, 19, 22, 23, 33, 36 | Assisted install/download/restart journey with accurate saved/update/storage expectations | Actual designated device cold-starts offline and completes required flow; no silent removal of needed content |
+| Content provenance and confidence | 2, 12, 17, 28, 30, 31 | Understandable independent text/audio/description provenance and review status | Unfamiliar user can distinguish source, generated fallback and missing content without knowing a voice or backend label |
+
+Cross-cutting and operational cases remain in the all-topic disposition table below. Multiple cases can test one shared design; one case may challenge several systems without becoming duplicate work.
+
+## Proposed diagnosis/design dish — not yet cooking
+
+After baseline evidence is pinned, a separately ordered and gated UX dish should deliver: current whole-journey/state map; observed failures versus root-cause hypotheses; coherent interaction specification and reviewable prototype; mapping of all 40 IDs to design, acceptance or explicit defer/context; persona-based walkthroughs; and independent competent design review. The coordinator must verify the designer's capability and availability rather than appoint a generic coding worker by title. Preserve contrary views and compare alternatives before converging.
+
+Only an accepted design produces implementation orders. Split by coherent vertical journeys or shared components/state behavior, never mechanically by the 40 symptoms. Existing PR37–39 retain their owners; reconcile their effect with the baseline and design, without silently halting or rewriting them.
 
 ## Proposed cutline if capacity is tight
 
-Sequence first: next action/progress, core media handling and meaningful activity chunking. Require actual offline cold-start and large-text regression evidence for the chosen field candidate. Include representative provenance clarity; broader narration replacement, extra modes, content expansion and architecture remain week-two/deferred work. This is a proposed order of effort, not evidence that the whole core fits a week. Reduce scope visibly before weakening the field-readiness gate.
+First establish coherent action/progress/media/guide behavior in a reviewable candidate. Actual offline cold-start and large-text regression evidence remain readiness gates for the selected field candidate. Include representative provenance clarity; broader replacement content, extra modes, expansion and architecture remain week-two/deferred work. This sequences diagnosis and design, not one-off patches, and is not proof the scope fits a week. Reduce scope visibly before weakening field-readiness evidence.
 
 ## Smallest attention request
 
@@ -16,7 +37,7 @@ One bundled scope/date review only if required to authorize the next build order
 
 ## Delivery groups and all-topic disposition
 
-Numbers refer to DELIVERY-CHECKLIST.md, which retains source spans, uncertainty, proposed owner, dependency and individual retest. Owners below are proposed roles, not assignments. Core items remain subject to bounded implementation orders, existing work reconciliation and available capacity.
+Numbers refer to DELIVERY-CHECKLIST.md, which retains source spans, uncertainty, proposed owner, dependency and individual retest. Owners below are proposed roles, not assignments. “Core” below identifies priority acceptance coverage for the shared design, not a standalone fix order. All implementation remains downstream of coherent design review, existing work reconciliation and capacity.
 
 | Group | Items | Proposed disposition and acceptance evidence | Proposed owner / dependencies |
 |---|---|---|---|
