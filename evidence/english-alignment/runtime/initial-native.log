@@ -1,0 +1,34 @@
+[WebServer] (node:89973) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 4 tests using 1 worker
+
+(node:89990) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/english-alignment.spec.js:3:52 › BSB native timed words, all verse boundaries, pause and owner guard (1.9s)
+  ✘  2 tests/english-alignment.spec.js:3:52 › ULT native timed words, all verse boundaries, pause and owner guard (23.9s)
+
+
+  1) tests/english-alignment.spec.js:3:52 › ULT native timed words, all verse boundaries, pause and owner guard 
+
+    Test was interrupted.
+
+    Error: locator.click: Test ended.
+    Call log:
+      - waiting for getByRole('button', { name: 'ULT', exact: true })
+
+
+      1 | import{test,expect}from'@playwright/test';import fs from'node:fs';
+      2 | const labels={BereanStandardBible:'BSB',unfoldingWordLiteral:'ULT',unfoldingWordSimplified:'UST'};
+    > 3 | for(const [edition,label]of Object.entries(labels))test(`${label} native timed words, all verse boundaries, pause and owner guard`,async({page})=>{const data=JSON.parse(fs.readFileSync(`public/alignment/scripture-${edition}.json`));await page.addInitScript(()=>{const A=window.Audio;window.Audio=class extends A{constructor(...args){super(...args);window.__audio=this;}};});await page.goto('/');await page.getByRole('tab',{name:'Scripture',exact:true}).click();if(label!=='BSB')await page.getByRole('radio',{name:label,exact:true}).click();await expect(page.locator('[data-alignment-verse]')).toHaveCount(13);await page.getByRole('button',{name:`Play Scripture ${label}`,exact:true}).click();await expect.poll(()=>page.evaluate(()=>window.__audio?.currentTime??0)).toBeGreaterThan(0);await page.evaluate(()=>window.__audio.pause());for(const v of data.verses){const w=v.words[0];await page.evaluate(t=>{window.__audio.currentTime=t;},(w.start+w.end)/2);await expect(page.locator(`[data-alignment-verse="${v.sourceId}"]`)).toHaveAttribute('data-alignment-active','paused');await expect(page.locator(`[data-alignment-verse="${v.sourceId}"] [data-alignment-word="0"]`)).toHaveAttribute('data-alignment-active','paused');}const gap=data.verses.flatMap(v=>v.words.slice(0,-1).map((w,i)=>({a:w.end,b:v.words[i+1].start}))).find(g=>g.b>g.a+.02);await page.evaluate(t=>window.__audio.currentTime=t,(gap.a+gap.b)/2);await expect(page.locator('[data-alignment-word][data-alignment-active]')).toHaveCount(0);await page.screenshot({path:`evidence/english-alignment/${label}-native.png`});await page.getByRole('tab',{name:'Guide',exact:true}).click();await page.getByRole('button',{name:'Play guide',exact:true}).click();await page.getByRole('tab',{name:'Scripture',exact:true}).click();await expect(page.locator('[data-alignment-active]')).toHaveCount(0);});
+        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ^
+      4 | test('missing sidecar retains passage and playback',async({page})=>{await page.route('**/alignment/*.json',r=>r.fulfill({status:404,body:''}));await page.goto('/');await page.getByRole('tab',{name:'Scripture',exact:true}).click();await expect(page.locator('[data-alignment-verse]')).toHaveCount(0);await page.getByRole('button',{name:'Play Scripture BSB',exact:true}).click();await expect(page.locator('[data-playback-highlight="playing"]').first()).toBeVisible();});
+      5 |
+        at /private/tmp/fia-english-alignment-runtime/tests/english-alignment.spec.js:3:534
+
+    Error Context: test-results/english-alignment-ULT-nati-1ab2f-aries-pause-and-owner-guard/error-context.md
+
+  1 interrupted
+    tests/english-alignment.spec.js:3:52 › ULT native timed words, all verse boundaries, pause and owner guard 
+  2 did not run
+  1 passed (26.9s)

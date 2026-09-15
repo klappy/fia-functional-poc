@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.10
+
+Add source-bound English Scripture word and verse timing to the shared Scripture view for BSB, ULT and UST. Preserve the recordings and Spanish clip highlighting. Missing or invalid timing falls back to passage-level indication.
+
 ## 0.1.6
 
 Highlight the actual playing Guide source, Spanish verse or resource body. English Scripture remains passage-level; paused playback retains its location without moving focus.
