@@ -1,0 +1,63 @@
+{
+  "observedAt": 1789492892.4264991,
+  "publicReleaseCommit": "cd692371c6e3af43497e5e2593f329a6eea3babd",
+  "jobsSha256": "9ced18318982fabba49178f6f3de1e4e6e72783871a3eb6659e9b8a01c41ae9e",
+  "entries": [
+    {
+      "id": "visual-description-a111",
+      "status": 200,
+      "mime": "audio/mpeg",
+      "bytes": 332695,
+      "sha256": "8965e0535a82169b1967c0b28659d5a493ea8458abf25e8da6ed6d198051407e"
+    },
+    {
+      "id": "visual-description-a204",
+      "status": 200,
+      "mime": "audio/mpeg",
+      "bytes": 178886,
+      "sha256": "9f94d8a2e734d3d0d66db98f15de109be00054c35c8f3fa4062e9042bfb70f7b"
+    },
+    {
+      "id": "visual-description-a112",
+      "status": 200,
+      "mime": "audio/mpeg",
+      "bytes": 239072,
+      "sha256": "3cf75124917728072c3768520ea02f7e3d0e3ded0848f546d2655c0a4714996d"
+    },
+    {
+      "id": "visual-description-c202",
+      "status": 200,
+      "mime": "audio/mpeg",
+      "bytes": 379506,
+      "sha256": "a395035a43a7fc49d5d97d4a1d9356893a58ce4792c852c5ebbe0d3f1a475f28"
+    },
+    {
+      "id": "visual-description-ai-spa-from-a203",
+      "status": 200,
+      "mime": "audio/mpeg",
+      "bytes": 272509,
+      "sha256": "f46d6760907dc9d8a14ab2faba78c792127a30915a68c303b26290349e269eba"
+    },
+    {
+      "id": "visual-description-c197",
+      "status": 200,
+      "mime": "audio/mpeg",
+      "bytes": 690886,
+      "sha256": "4e82fa1dcceb8634615b7d203a4b8bb1e33f70df50fed40ea997d2e5b9e6a148"
+    },
+    {
+      "id": "visual-description-ai-spa-from-c201",
+      "status": 200,
+      "mime": "audio/mpeg",
+      "bytes": 364042,
+      "sha256": "8b4ba4ac0168d3c3daf7156807e95f5308537d3811070bc845b5a6ecbd32915b"
+    },
+    {
+      "id": "visual-description-ai-spa-from-c168",
+      "status": 200,
+      "mime": "audio/mpeg",
+      "bytes": 491102,
+      "sha256": "e0687e52b9ccfa044b65ee13a66c5a8463204371ce33bc2d19fb6355f2a328d7"
+    }
+  ]
+}

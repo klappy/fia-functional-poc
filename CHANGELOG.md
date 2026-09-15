@@ -1,3 +1,7 @@
+# 0.1.15
+
+Qualify Medium Opus for eight Spanish visual descriptions, retaining Original fallback and source-policy offline selection.
+
 # 0.1.14
 
 Add eight source-bound Spanish visual descriptions, including distinct sandal images, with exact recording checkpoints and selected offline saving. Retain historical recordings and use verified originals until compressed derivatives are qualified. Spanish playback availability now follows the global narration preference.
