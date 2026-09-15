@@ -1,0 +1,76 @@
+{
+  "records": [
+    {
+      "sourcePath": "/audio/spa/visual-description-ai-spa-from-a203.mp3",
+      "sha256": "7d9ac9fa11e525a955caff444b5c37abac29f8ae7198ec284060d5b8a0bdd0b1",
+      "duration": 17.038375,
+      "seeked": true,
+      "advanced": true,
+      "paused": true,
+      "ended": true
+    },
+    {
+      "sourcePath": "/audio/spa/visual-description-a111.mp3",
+      "sha256": "17cb0ee78b89855afedeb3102cc1635571c54ea8c0eb008138c1ada0c2eefb13",
+      "duration": 20.8,
+      "seeked": true,
+      "advanced": false,
+      "paused": false,
+      "ended": false
+    },
+    {
+      "sourcePath": "/audio/spa/visual-description-c197.mp3",
+      "sha256": "d5fdbbb0cdcc9d58702d6df3707dd39e4eeca9f3755bc154a5b94d2463c6fa14",
+      "duration": 43.186938,
+      "seeked": true,
+      "advanced": false,
+      "paused": false,
+      "ended": false
+    },
+    {
+      "sourcePath": "/audio/spa/visual-description-a204.mp3",
+      "sha256": "ee2272d058648a035caec13f7b2f40dd1d39ad7873a04ea923352c9b59379036",
+      "duration": 11.186938,
+      "seeked": true,
+      "advanced": true,
+      "paused": true,
+      "ended": true
+    },
+    {
+      "sourcePath": "/audio/spa/visual-description-ai-spa-from-c201.mp3",
+      "sha256": "7e5b47640568084493a94893249716ecf208c46691731236509c284c6a941ee0",
+      "duration": 22.759188,
+      "seeked": true,
+      "advanced": false,
+      "paused": false,
+      "ended": false
+    },
+    {
+      "sourcePath": "/audio/spa/visual-description-a112.mp3",
+      "sha256": "aa4430222f533db6cbbe9d7ef343e68bd73bee23eae580e84f11bed9bb9b420c",
+      "duration": 14.948563,
+      "seeked": true,
+      "advanced": false,
+      "paused": false,
+      "ended": false
+    },
+    {
+      "sourcePath": "/audio/spa/visual-description-c202.mp3",
+      "sha256": "2545ccb21f31e28db91c055b19ebf8ce6e748baed21419a04320dd81ec14143b",
+      "duration": 23.725688,
+      "seeked": true,
+      "advanced": true,
+      "paused": true,
+      "ended": true
+    },
+    {
+      "sourcePath": "/audio/spa/visual-description-ai-spa-from-c168.mp3",
+      "sha256": "5ef03544725e42594b110af40b161fbb35e0f5a35fa19ed05213e15833116e58",
+      "duration": 30.700375,
+      "seeked": true,
+      "advanced": false,
+      "paused": false,
+      "ended": false
+    }
+  ]
+}
