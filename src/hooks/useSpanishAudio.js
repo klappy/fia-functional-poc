@@ -1,3 +1,4 @@
+import {completionContext} from '../lib/completion-parts.js';
 import {createDisclosureStore} from '../lib/disclosures.js';
 import {useEffect,useRef,useState,useCallback} from 'react';
 import {AudioController} from '../lib/audio.js';
@@ -5,19 +6,20 @@ import {selectNarration} from '../lib/narration.js';
 import {browserStorage} from '../lib/session.js';
 import {spanishQueue,spanishIntroduction,restoreSpanishAudio,saveSpanishAudio,spanishAudioCheckpointKey} from '../lib/spanish-audio.js';
 const empty={entries:[]};
-export default function useSpanishAudio(pack){
+export default function useSpanishAudio(pack,onPartEnded,version){
+ const completionCallback=useRef(onPartEnded);completionCallback.current=onPartEnded;
  const disclosure=useRef(null);if(!disclosure.current)disclosure.current=createDisclosureStore(browserStorage());
  const manifest=pack.preparedAudio??empty;
  const [state,setState]=useState({status:'idle'}),[selection,setSelection]=useState(null),[completed,setCompleted]=useState(false),[storageWarning,setStorageWarning]=useState('');
  const engine=useRef(null),selected=useRef(null),queue=useRef([]),alive=useRef(false),introduction=useRef(null);
  const end=useCallback(item=>{if(item.notice){const saved=introduction.current;if(saved){introduction.current=null;selected.current=saved.selection;queue.current=saved.queue;setSelection(saved.selection);if(saved.checkpoint)engine.current.restore(saved.queue,saved.checkpoint,end);}return;}if(item===queue.current.at(-1))setCompleted(true);},[]);
- useEffect(()=>{alive.current=true;const c=new AudioController(window.Audio,s=>{if(!alive.current)return;if(s.status==='playing'&&c.item?.notice)disclosure.current.presented(c.item.sourceOwnerId);setState(s);if(!introduction.current&&!saveSpanishAudio(browserStorage(),selected.current,c))setStorageWarning('Spanish audio progress cannot be stored on this device.');},{manifest});engine.current=c;
- const saved=restoreSpanishAudio(browserStorage(),pack,manifest,disclosure.current.noticeOwners());if(saved?.warning)setStorageWarning(saved.warning);else if(saved){selected.current=saved.selection;queue.current=saved.queue;setSelection(saved.selection);c.restore(saved.queue,saved.checkpoint,end);}
+ useEffect(()=>{alive.current=true;const c=new AudioController(window.Audio,s=>{if(!alive.current)return;if(s.status==='playing'&&c.item?.notice)disclosure.current.presented(c.item.sourceOwnerId);setState(s);if(!introduction.current&&!saveSpanishAudio(browserStorage(),selected.current,c))setStorageWarning('Spanish audio progress cannot be stored on this device.');},{manifest});engine.current=c;c.onPartEnded=receipt=>completionCallback.current?.(receipt);
+ const saved=restoreSpanishAudio(browserStorage(),pack,manifest,disclosure.current.noticeOwners());if(saved?.warning)setStorageWarning(saved.warning);else if(saved){selected.current=saved.selection;queue.current=saved.queue.map(item=>({...item,completionContext:completionContext(pack,'spa',saved.selection.domain==='guide'?saved.selection.id:saved.selection.anchor,version)}));setSelection(saved.selection);c.restore(queue.current,saved.checkpoint,end);}
  const persist=()=>{if(!introduction.current&&!saveSpanishAudio(browserStorage(),selected.current,c))setStorageWarning('Spanish audio progress cannot be stored on this device.');};window.addEventListener('pagehide',persist);
  return()=>{persist();alive.current=false;window.removeEventListener('pagehide',persist);c.stop();};},[pack,manifest,end]);
  const playable=items=>items.length>0&&items.every(item=>selectNarration(manifest.entries.find(entry=>entry.id===item.id)));
  const available=selection=>playable(spanishQueue(pack,selection,manifest,new Set(),disclosure.current.noticeOwners()));
- const start=selection=>{introduction.current=null;const items=spanishQueue(pack,selection,manifest,new Set(),disclosure.current.noticeOwners());if(!playable(items))return false;setCompleted(false);selected.current=selection;queue.current=items;setSelection(selection);engine.current.speak(items,null,end);return true;};
+ const start=selection=>{introduction.current=null;const items=spanishQueue(pack,selection,manifest,new Set(),disclosure.current.noticeOwners());if(!playable(items))return false;const context=completionContext(pack,'spa',selection.domain==='guide'?selection.id:selection.anchor,version);for(const item of items)item.completionContext=context;setCompleted(false);selected.current=selection;queue.current=items;setSelection(selection);engine.current.speak(items,null,end);return true;};
  const stop=()=>{introduction.current=null;setCompleted(false);selected.current=null;queue.current=[];setSelection(null);engine.current?.stop();try{browserStorage()?.removeItem(spanishAudioCheckpointKey);}catch{setStorageWarning('Spanish audio progress cannot be stored on this device.');}};
  const restart=()=>{setCompleted(false);if(!introduction.current&&engine.current?.item?.notice&&selected.current)start(selected.current);else engine.current?.restart();};
  const replayIntroduction=()=>{const items=spanishIntroduction(manifest);if(!items.length)return;if(!introduction.current&&selected.current){const checkpoint=engine.current.checkpoint();if(checkpoint){saveSpanishAudio(browserStorage(),selected.current,engine.current);introduction.current={selection:selected.current,queue:engine.current.items.slice(engine.current.itemIndex),checkpoint};}}if(!introduction.current)introduction.current={selection:null,queue:[],checkpoint:null};setCompleted(false);engine.current.speak(items,null,end);};

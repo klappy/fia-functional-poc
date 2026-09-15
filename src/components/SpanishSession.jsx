@@ -43,7 +43,7 @@ export default function SpanishSession({pack:sourcePack,onLanguage,busy,error,en
  useEffect(()=>{const c=new OfflineController(setOfflineState,'spa');offline.current=c;c.init();return()=>c.dispose();},[]);
  const lastContent=useRef(entryView??(boot.view==='languages'?'guide':boot.view));
  const update=delta=>setState(s=>({...s,...delta}));const groups=pack.guide.groups.filter(g=>g.ordinaryQueue),index=groups.findIndex(g=>g.id===state.groupId),group=groups[index];const sectionGroups=groups.filter(g=>g.section===group.section),sectionIndex=sectionGroups.findIndex(g=>g.id===group.id);const sectionTitles=pack.guide.blocks.filter(b=>b.element==='h2');const scroll=useRef(null);useEffect(()=>{if(scroll.current)scroll.current.scrollTop=0;},[state.groupId]);const allResources=[...pack.terms,...pack.media];const resources=pack.resourceOrder?pack.resourceOrder.map(id=>allResources.find(r=>r.id===id)).filter(Boolean):allResources;const resourceFilter=state.resourceFilter??'all';const visible=resources.filter(r=>(resourceFilter==='all'||r.kind===resourceFilter)&&r.title.toLowerCase().includes(state.query.toLowerCase()));
- const playback=useSpanishAudio(pack);
+ const playback=useSpanishAudio(pack,completion.ended,state.version);
  const descriptor=(domain,id,title,anchor=null)=>({domain,id,title,anchor});
  const guideSelection=descriptor('guide',group.id,`${sectionTitles.find(b=>b.section===group.section)?.text??''}`);
  const bible=pack.scripture.find(b=>b.id===state.version);
