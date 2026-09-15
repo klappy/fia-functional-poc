@@ -108,10 +108,13 @@ html[data-theme="dark"] .scripture-version{background:var(--material-floating)!i
 [data-theme=dark] { color-scheme: dark; }
 
 /* Restore the glass fill ladder against the existing studio backing inside settings. */
-.offline-controls{background:var(--studio-bg);border-radius:var(--r-xl);padding:14px;color:var(--text-body)}
+.offline-controls{color:var(--text-body)}
+.resource-dialog:has(.offline-controls)>div{background:var(--studio-bg)!important}
+.resource-dialog:has(.offline-controls) .dialog-header{background:transparent}
+[data-theme="dark"] .resource-dialog:has(.offline-controls)>div{background:var(--material-floating)!important}
 .offline-preferences{background:var(--material-card);border:var(--border-glass);border-radius:var(--r-lg);box-shadow:var(--shadow-card),var(--inner-top);padding:12px;margin-bottom:14px;display:grid;gap:12px}
 .offline-preferences .reading-note{margin:0;padding-inline:2px}
 .offline-controls select:focus-visible{outline:3px solid var(--link);outline-offset:2px}
 .offline-controls .offline-status{margin-top:0}
 .offline-controls>.offline-help{margin:12px 2px}
-@media(max-width:360px){.offline-controls{padding:10px}.offline-preferences{padding:10px}.offline-controls select{padding-left:12px!important;font-size:14px!important}}
+@media(max-width:360px){.offline-preferences{padding:10px}.offline-controls select{padding-left:12px!important;font-size:14px!important}}

@@ -1,0 +1,15 @@
+[WebServer] (node:3634) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 6 tests using 1 worker
+
+(node:3651) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/offline-surface.spec.js:2:107 › Offline surface 390 light eng (5.0s)
+  ✓  2 tests/offline-surface.spec.js:2:107 › Offline surface 390 light spa (905ms)
+  ✓  3 tests/offline-surface.spec.js:2:107 › Offline surface 390 dark eng (837ms)
+  ✓  4 tests/offline-surface.spec.js:2:107 › Offline surface 390 dark spa (942ms)
+  ✓  5 tests/offline-surface.spec.js:2:107 › Offline surface 320 light eng (806ms)
+  ✓  6 tests/offline-surface.spec.js:2:107 › Offline surface 320 light spa (795ms)
+
+  6 passed (10.4s)
