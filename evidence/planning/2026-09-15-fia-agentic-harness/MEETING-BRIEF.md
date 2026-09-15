@@ -1,28 +1,26 @@
-# FIA meeting — September 15, 4–5 p.m. Eastern
+# FIA PoC demo — September 15, 4–5 p.m. Eastern
 
-## Recommendation
+## Purpose: show the “ugly baby” and collect raw feedback
 
-Prove two narrow loops first: one persona journey through testing and retest, and one completed meeting source through interpretation, authorized work and returned evidence. Expand according to observed outcomes.
+Invite candid criticism: what expectations did we miss, what feels wrong, and what gets in the way? Raw feedback is a valid meeting outcome. No consensus, pilot choice, harness approval or action list is required today.
 
-## What we know
+## During the demo
 
-The current main CI run failed one offline-audio E2E test (133 passed). Cause is unverified; existing service is being notified, and this must be reconciled before treating the baseline as green.
+- Make room for flaws and missed expectations. Demonstrate the observed app without defending it or pressuring people to propose solutions.
+- Capture what people expected versus what they saw, with the task, context and demo moment when available.
+- Preserve disagreement, uncertainty, questions and unfinished statements. Ask for clarification when useful without completing someone’s thought for them.
+- Do not treat silence as satisfaction, a suggestion as commitment, or the speaker as evidence of persona membership.
 
-The current PoC release has substantial automated, native playback and offline evidence. Direct auditory review and participant usability remain separate unverified obligations.
+Capture first; derive categories afterward. When possible, keep an authorized source pointer to the exact moment and the demonstrated build. Raw sensitive recordings, transcripts and verbatim feedback remain in their original authorized source home; do not copy them into public or project Git.
 
-The completed persona/test-plan document was observed on both pages. It adds concrete group, device, connectivity and guided-experience contexts. Its proposed field groups are not completed testing.
+## After the meeting — separate work
 
-The existing cookbook already has a harvest procedure and feedback-to-iteration journey. Neither proves an automated operating loop.
+Later triage distinguishes a demo-observed flaw, stakeholder report, desired expectation, suggestion or question. Keep original-source pointers, interpretation and uncertainty separate. Reconcile duplicates and existing work, contextualize against persona evidence, and propose next steps through actual decision authority. None of this changes today’s goal into a planning-decision meeting.
 
-## Proposed discussion
+## Internal preparation only
 
-1. Confirm priority persona/task contexts and remaining unknowns: shared device, multiple-device co-use, interrupted connectivity/power and audio-led understanding.
-2. Inspect actual success/failure evidence. Choose one journey with an observable outcome and retain human comprehension checks separately from automated behavior.
-3. Identify decision authority and the boundary for autonomous starts: what may be researched, proposed, tested or built under standing authority?
-4. Agree the first proving slice and responsible owner. Keep source revisions, duplicates, failures and returned outcomes visible.
+Current main has one observed offline-audio E2E failure; root cause remains unverified and existing service has received it. Keep this internal evidence visible during preparation, but do not use it to lead or narrow attendees’ initial criticism. Direct auditory quality and participant usability remain separate from technical evidence.
 
-## Desired meeting result
+**Meeting result:** raw feedback captured with context.
 
-One bounded proving choice, its owner and success evidence; explicit unresolved decisions for the full planning dish. The planning order has a 90-minute cumulative active-work promise after accepted gated dispatch. It does not authorize implementation.
-
-This is a proposed agenda. It has not been sent, added to a calendar or presented as stakeholder agreement.
+This corrected brief supersedes the earlier planning-oriented agenda. It has not been sent to attendees or added to a calendar.
