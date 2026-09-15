@@ -1,4 +1,4 @@
-import {variantMatchesCheckpoint} from './media-variants.js';
+import {narrationMatchesCheckpoint as variantMatchesCheckpoint,selectNarration} from './narration.js';
 import catalog from '../data/spanish-audio-catalog.json' with {type:'json'};
 export const spanishAudioCatalog=catalog;
 export const spanishAudioCheckpointKey='fia-audio-checkpoint/spa/v1';
@@ -25,7 +25,7 @@ export function spanishQueue(pack,selection,manifest,introduced=new Set(),introd
  const ids=spanishOwnerIds(pack,selection);if(!ids.length)return [];
  const entries=new Map((manifest?.entries??[]).map(e=>[e.id,e]));const result=[];const groups=new Set(introduced),notices=new Set(introducedNotices);
  const add=(o,notice=false,forGroup=null)=>{if(!o)return false;const r=o.request,e=entries.get(r.id);if(!e||e.sourceSha256!==r.sourceSha256||e.processedTextSha256&&e.processedTextSha256!==r.processedTextSha256||!e.sha256||!e.bytes)return false;result.push({id:r.id,text:r.text,owner:selection.domain==='guide'?'guide':selection.domain==='scripture'?'scripture':'resources',title:selection.title,fullTitle:selection.title,sourceOwnerId:o.ownerId,playbackGroupId:forGroup??o.playbackGroupId,notice,stop:false});return true;};
- for(const id of ids){const o=ownerIndex.get(id);if(!o)return [];if(!groups.has(o.playbackGroupId)){for(const n of o.spokenNoticeOwnerIds??[]){if(notices.has(n))continue;if(!add(ownerIndex.get(n),true,o.playbackGroupId)&&!manifest?.partialWrittenNotices)return [];notices.add(n);}groups.add(o.playbackGroupId);}if(!add(o))return [];}
+ for(const id of ids){const o=ownerIndex.get(id);if(!o)return [];if(selectNarration(entries.get(o.request.id))?.recordingSource!=='aquifer'&&!groups.has(o.playbackGroupId)){for(const n of o.spokenNoticeOwnerIds??[]){if(notices.has(n))continue;if(!add(ownerIndex.get(n),true,o.playbackGroupId)&&!manifest?.partialWrittenNotices)return [];notices.add(n);}groups.add(o.playbackGroupId);}if(!add(o))return [];}
  if(result.length)result[result.length-1].stop=selection.domain==='guide'||selection.domain==='example';
  return result;
 }

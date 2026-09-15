@@ -1,3 +1,7 @@
+# 0.1.13
+
+Global Aquifer + AI fallback, Aquifer only, and AI only narration; exact source checkpoints and selected offline recordings.
+
 # Changelog
 
 ## 0.1.12
