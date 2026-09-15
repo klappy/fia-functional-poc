@@ -206,5 +206,8 @@
   "icons/apple-touch-icon.png",
   "content/spa/mark-1-1-13/assets/a203.jpg",
   "content/spa/mark-1-1-13/assets/c201.png",
-  "content/spa/mark-1-1-13/assets/c168.png"
+  "content/spa/mark-1-1-13/assets/c168.png",
+  "alignment/scripture-BereanStandardBible.json",
+  "alignment/scripture-unfoldingWordLiteral.json",
+  "alignment/scripture-unfoldingWordSimplified.json"
 ]
