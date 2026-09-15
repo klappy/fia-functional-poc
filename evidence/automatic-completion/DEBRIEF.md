@@ -15,3 +15,7 @@ The Spanish pure inventory test initially omitted the real prepared manifest; at
 Learning: completion inventories must derive from the exact rendered source cue contract. Dialogs need captured origin rather than current-view inference. Playback completion events and navigation callbacks have different authority: a restored gap may advance without constituting newly completed playback.
 
 Root independently reviews source and screenshots; exact CI/Bugbot and public readback remain coordinator gates. Main411e normal merge retains released settings and Medium source work.
+
+## Second source return and final checks
+
+Root caught an accidental ambient origin reference in English dialog navigation.852868b now preserves the captured page only when the next resource belongs to that page's current source-part inventory. Native dialog Next→Play completes both referenced resources. A separate catalog playback case verifies the guide's playedParts remain exactly unchanged; its initial fixture used the contextual button label instead of the catalog's Open label, then corrected the locator without production changes. Final native coverage is21 distinct cases (the prior20 plus catalog non-backfill); the English modal case is strengthened with Next navigation, not counted twice. Final full unit run116/116 and explicit13-test audio suite pass, including restored-gap nonreceipt.

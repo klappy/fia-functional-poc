@@ -1,0 +1,30 @@
+[WebServer] (node:19704) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+
+(node:19721) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 tests/automatic-completion.spec.js:11:1 › unrelated catalog playback does not backfill the guide page (30.0s)
+
+
+  1) tests/automatic-completion.spec.js:11:1 › unrelated catalog playback does not backfill the guide page 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for locator('.resource-tile').filter({ has: getByRole('button', { name: 'Jordan River', exact: true }) }).getByRole('button', { name: 'Jordan River', exact: true })
+
+
+       9 |  await page.screenshot({path:`evidence/automatic-completion/${language}-${kind}.png`});
+      10 | });
+    > 11 | test('unrelated catalog playback does not backfill the guide page',async({page})=>{await page.addInitScript(()=>{const Native=Audio;window.__partCount=0;window.Audio=class extends Native{constructor(...a){super(...a);window.__partAudio=this;window.__partCount++;}};localStorage.setItem('fia.media-quality.v1','original');});await page.goto('/');await page.getByRole('combobox',{name:'Guide step',exact:true}).selectOption('S02');await page.getByRole('button',{name:/^Section .* · Browse$/}).click();await page.getByRole('dialog').locator('[data-unit-id="S02-U005"]').click();await page.locator('.guide-footer .owner-toggle').click();await endQueue(page);const before=await page.evaluate(()=>JSON.parse(localStorage.getItem('fia.guide-completion.v1.eng.mark-1-1-13')).records.find(r=>r.sectionId==='S02-U005').playedParts);await page.getByRole('tab',{name:'Resources',exact:true}).click();await page.locator('.resource-tile').filter({has:page.getByRole('button',{name:'Open Jordan River image',exact:true})}).getByRole('button',{name:'Open Jordan River image',exact:true}).click();await page.getByRole('dialog').locator('.dialog-header-actions').getByRole('button',{name:/^Play /}).click();await endQueue(page);await page.keyboard.press('Escape');await page.getByRole('tab',{name:'Guide',exact:true}).click();await expect(page.getByRole('button',{name:'Mark section complete',exact:true})).toBeVisible();expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('fia.guide-completion.v1.eng.mark-1-1-13')).records.find(r=>r.sectionId==='S02-U005').playedParts)).toEqual(before);});
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ^
+      12 |
+        at /private/tmp/fia-auto-completion/tests/automatic-completion.spec.js:11:1051
+
+    Error Context: test-results/automatic-completion-unrel-4bea2-not-backfill-the-guide-page/error-context.md
+
+  1 failed
+    tests/automatic-completion.spec.js:11:1 › unrelated catalog playback does not backfill the guide page 
