@@ -1,0 +1,4 @@
+import React,{useState}from'react';
+import{GlassSelect}from'../vendor/glass/components/forms/GlassSelect.jsx';
+import{MEDIA_QUALITY_KEY,storedMediaQuality}from'../lib/media-variants.js';
+export default function MediaQuality(){const[value,setValue]=useState(()=>storedMediaQuality());const[error,setError]=useState('');return <><GlassSelect label="Media quality" aria-label="Media quality" value={value} options={[{value:'medium',label:'Smaller downloads (Medium)'},{value:'original',label:'Original files'}]} onChange={next=>{setValue(next);try{localStorage.setItem(MEDIA_QUALITY_KEY,next);window.dispatchEvent(new Event('fia-media-quality'));setError('');}catch{setError('Media quality could not be saved on this device.');}}}/>{error&&<p role="status">{error}</p>}<p className="reading-note">Applies to the next recording or image. Saved offline files remain unchanged until you save again.</p></>}

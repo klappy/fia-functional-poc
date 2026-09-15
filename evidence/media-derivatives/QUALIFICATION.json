@@ -1,0 +1,1133 @@
+{
+  "audioRepresentativePass": true,
+  "spanishRepresentativePass": true,
+  "records": [
+    {
+      "sourcePath": "/assets/mark-1-1-13/a111.jpg",
+      "sha256": "ba23d03249cbedc57aa38f981eff9f046a213b2d9b9762b04244f6d8db5275a3",
+      "valid": true,
+      "eligible": true,
+      "reason": "root representative photo/map visual acceptance plus individual dimension/aspect/decode/hash"
+    },
+    {
+      "sourcePath": "/assets/mark-1-1-13/a203.jpg",
+      "sha256": "75f5ed6f017de8f92c17b1320d3ddb09dac9cdfcaeb3e1ae88ffd44d6a20d449",
+      "valid": true,
+      "eligible": true,
+      "reason": "root representative photo/map visual acceptance plus individual dimension/aspect/decode/hash"
+    },
+    {
+      "sourcePath": "/assets/mark-1-1-13/a203.jpg",
+      "sha256": "3b773fcb15c62cdfd1ae98f125a20b17dd8b98740fc4924f9225c0d97ffa3fa7",
+      "valid": true,
+      "eligible": true,
+      "reason": "root representative photo/map visual acceptance plus individual dimension/aspect/decode/hash"
+    },
+    {
+      "sourcePath": "/assets/mark-1-1-13/a204.jpg",
+      "sha256": "49cf102f65158b19ef01fdcea0ef894bb050ab4798d9f2d11db0e1245a6a6df2",
+      "valid": true,
+      "eligible": true,
+      "reason": "root representative photo/map visual acceptance plus individual dimension/aspect/decode/hash"
+    },
+    {
+      "sourcePath": "/assets/mark-1-1-13/a111.jpg",
+      "sha256": "ceeb7c8114845df3e1149c32f04a77bf52e8f6ce7afe5a2179b0bd0d4b32cc9e",
+      "valid": true,
+      "eligible": true,
+      "reason": "root representative photo/map visual acceptance plus individual dimension/aspect/decode/hash"
+    },
+    {
+      "sourcePath": "/assets/mark-1-1-13/a112.jpg",
+      "sha256": "9503a1a0dc2cf1895513377cde1bae9d8af9befffce1aa89ddc14070690797a5",
+      "valid": true,
+      "eligible": true,
+      "reason": "root representative photo/map visual acceptance plus individual dimension/aspect/decode/hash"
+    },
+    {
+      "sourcePath": "/assets/mark-1-1-13/a204.jpg",
+      "sha256": "c236ba13463a7801dd5eab1cfa40579830aa7aaf2deea6dc17fd570c5d4a74c2",
+      "valid": true,
+      "eligible": true,
+      "reason": "root representative photo/map visual acceptance plus individual dimension/aspect/decode/hash"
+    },
+    {
+      "sourcePath": "/assets/mark-1-1-13/a112.jpg",
+      "sha256": "4e72e3e3cf419cd40cfc9f43fc02aa58a1dc2ed214789229d63c507465bc8664",
+      "valid": true,
+      "eligible": true,
+      "reason": "root representative photo/map visual acceptance plus individual dimension/aspect/decode/hash"
+    },
+    {
+      "sourcePath": "/assets/mark-1-1-13/c197.png",
+      "sha256": "453a7ea810ce56f3a4db5b7669bb6d84f60745f618ddd968de03915e72fcced2",
+      "valid": true,
+      "eligible": true,
+      "reason": "root representative photo/map visual acceptance plus individual dimension/aspect/decode/hash"
+    },
+    {
+      "sourcePath": "/assets/mark-1-1-13/c202.png",
+      "sha256": "566f020bf2e84784f640c55310fa5a9021e241c5f5d4544313e33ec55721a8b3",
+      "valid": true,
+      "eligible": true,
+      "reason": "root representative photo/map visual acceptance plus individual dimension/aspect/decode/hash"
+    },
+    {
+      "sourcePath": "/assets/mark-1-1-13/c202.png",
+      "sha256": "cc50ea796d66a56d2131fe1804c75c6d1f1aadc97ae494f43597c649cee166a9",
+      "valid": true,
+      "eligible": true,
+      "reason": "root representative photo/map visual acceptance plus individual dimension/aspect/decode/hash"
+    },
+    {
+      "sourcePath": "/assets/mark-1-1-13/c201.png",
+      "sha256": "1fbdd0e6774551fb9014365551958f14360219860d67a2ac9c2a9be2a377962f",
+      "valid": true,
+      "eligible": true,
+      "reason": "root representative photo/map visual acceptance plus individual dimension/aspect/decode/hash"
+    },
+    {
+      "sourcePath": "/assets/mark-1-1-13/c168.png",
+      "sha256": "eccd05890ef2e2d8594f4787da277a967ea531eaae3e1385016519d63f91f52e",
+      "valid": true,
+      "eligible": true,
+      "reason": "root representative photo/map visual acceptance plus individual dimension/aspect/decode/hash"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S01-U001.mp3",
+      "sha256": "a664dd97f1aabdb4fb732ed9966fe12a1450d0cd71c4b0ef667c28335b2e200d",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/assets/mark-1-1-13/c201.png",
+      "sha256": "f0acad5657a386653fd4da7b6ffde9bd78710570efe502ef635697a988541230",
+      "valid": true,
+      "eligible": true,
+      "reason": "root representative photo/map visual acceptance plus individual dimension/aspect/decode/hash"
+    },
+    {
+      "sourcePath": "/assets/mark-1-1-13/c197.png",
+      "sha256": "d235dc7291c1e32e2ccb2f21b66b22811956f9472a8970c50ef8426430f09900",
+      "valid": true,
+      "eligible": true,
+      "reason": "root representative photo/map visual acceptance plus individual dimension/aspect/decode/hash"
+    },
+    {
+      "sourcePath": "/assets/mark-1-1-13/c168.png",
+      "sha256": "8c00dba6293853d98e5b3677c43f599322d472314db1f929c4db4d99950742c6",
+      "valid": true,
+      "eligible": true,
+      "reason": "root representative photo/map visual acceptance plus individual dimension/aspect/decode/hash"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S01-U003.mp3",
+      "sha256": "96d70b61cab3123f57fb3b10add75b86a1769a7958dd914a6e502c2187b3ee63",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/activity-transitions/S06-U006-with-pause.mp3",
+      "sha256": "0faaf2a2dad0ac6259196dafd67777dbc0b2feafe989a1a88d7efa867826c1c1",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/activity-transitions/S06-U004-with-pause.mp3",
+      "sha256": "d722c947a6f54fc4b4ebf2a19178f1884c8b33d4e5ec095eb8c0a0b9752e94d7",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S01-U005.mp3",
+      "sha256": "5c2a5d3ebdc9e8e6127aa4bd90c8643691f65d006bde3285714526d16067a9c0",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/activity-transitions/S06-U008-with-pause.mp3",
+      "sha256": "aa23ec13209b27f0d591b198c8957c6019266511c308a00cbdedc197254e9a81",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S01-U002.mp3",
+      "sha256": "2b7f46d15b802c9166799b00f2b0bedd7c91b1131b2de8e653ca316f7a160550",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S01-U006.mp3",
+      "sha256": "980f59431525fb216d48429c6cb80b334373e3814607774308e62e8d4cdf1a58",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S01-U007.mp3",
+      "sha256": "9108f068a70af86617860812c4885f59704a05b7f3a5227d0e0512ba76719356",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S02-U001.mp3",
+      "sha256": "0533bfddf2695e9cc0376bb788f6db9dfcd309603a8202e9664dc2bc43119dbb",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/activity-transitions/S02-U011-with-pause.mp3",
+      "sha256": "cccf3f04fab2eb448851094c1d641e45cf10ad008b0f94fc05c0945e4e062960",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S02-U003.mp3",
+      "sha256": "e76e9f3758ba1f0ce5ae56962b179e288f9a495c1a402c5dd4cf12ac9c64e488",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S02-U005.mp3",
+      "sha256": "02751af6c4da3ebeea7d2a10bd07481aed936e9b66e09b7a8a5946a2451e36c1",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S01-U008.mp3",
+      "sha256": "a93cc21ac7a477b6c134962b40bccb5e7ab4bf9e51597236eeb8df511278aa91",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S01-U004.mp3",
+      "sha256": "99f9b28646ed2752cd2cd41f2d408a3f4ddc8cfb9e1d3667eff6ba6117b69148",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S02-U002.mp3",
+      "sha256": "4f78ee215c9e4d5a4309cdaff31e3c76064b65843022bd825bbc488e2141b1ea",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S02-U004.mp3",
+      "sha256": "eecf23f8ed2239ca73a5e7db6a440e6873e23679775ce98d852356c029e67971",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S02-U009.mp3",
+      "sha256": "2863489dc387dfb6c233f34e9435b7fb71b42805aadcdae1fb1ed02d3c6dd64a",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S02-U008.mp3",
+      "sha256": "cfea3e6ccb99bf9912d5acadb3937e6329bcb217f9ea1a1566b08b840101d628",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S02-U012.mp3",
+      "sha256": "ccac5e64bca895ed42a94f4936fece02f9413dcb5e021475b9f086d57afc30e8",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S02-U011.mp3",
+      "sha256": "6897bcd899236142a9484e93f3446cc055dff9392b720513378bec3306aa3ef0",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S03-U002.mp3",
+      "sha256": "cc5669bbadff48662990f89087fb2ddf908fae998a9ee32ae0a4eaeebc2d7553",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S03-U003.mp3",
+      "sha256": "0ee26587f56334a11916f42ade8ef598ddd23d5faac956f4d19d6161621c9998",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S02-U006.mp3",
+      "sha256": "d15e1420b05e553ebafddce308ac457330d5142d4d69e326f5526d6756d8443f",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S02-U007.mp3",
+      "sha256": "87579361f42b3b0d8fb9ff6384d0f116220fcd45966ae9861a75f1a36fd4861e",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S03-U004.mp3",
+      "sha256": "8894a3a238833dc2fc07c28809ae5521f43d67e45e96269f38057d54ee3f665d",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S03-U008.mp3",
+      "sha256": "f71bbdd9b334e8bcd92a62d31468b52bdca971f5126022cd7b31972bfc36cfa5",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S03-U007.mp3",
+      "sha256": "468714a18ca580d8c974ae104e0db4628245cef16ba06fa37ceac9fb9d119428",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S03-U011.mp3",
+      "sha256": "e7a15b0333513e825d526ab018f8d5ad30cc59054009116b715fe4aa1d16c325",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S03-U010.mp3",
+      "sha256": "17b04839922d2191f18c36ebe5a24930a176a472b0d20a3b970064d7f647e4c1",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S03-U009.mp3",
+      "sha256": "327c3f81ab880e8720dd4ba76032d633bc28a86c8ff53ec57a42a621c50a0cb0",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S03-U012.mp3",
+      "sha256": "7a79607e320193580088c0e081c8b61fefe14cc9af19c4baae39ffca3a3716ba",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S03-U014.mp3",
+      "sha256": "0f4be9d258e9b86c82bedf5525c3be2dde15be91ff0c3030b16e947f9c72941a",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S03-U016.mp3",
+      "sha256": "704a52bf49124441886367b4da7b2fb04ae17ecfdd87d7f3034d7fb435f4bb30",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S03-U017.mp3",
+      "sha256": "635b96e869022959143a92e2be907f16d88d9154166f8fe7e1381969360f7616",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S03-U019.mp3",
+      "sha256": "03b0c153caebd74bb82bdfbcef7cb4cda55c4d423611212d7e5c6bf221410baa",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S03-U013.mp3",
+      "sha256": "12f9db6c54042413720a94e93e4874ff5e7120706b581ea1fb4e8df6fc8595ca",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S03-U015.mp3",
+      "sha256": "2f735ef288325fa67b9579268515a09d14c9cbbe9f74690f1e1d93423d240758",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S03-U005.mp3",
+      "sha256": "9745226b45af112a5a6a037320041eb4c559ee1750507a5c0b15375370a927fd",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S02-U013.mp3",
+      "sha256": "8e391a392bc07af1171cbffcc25b82d3a2d6c45bd8c68893bb1605abc3950c54",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S03-U006.mp3",
+      "sha256": "9337c659373089a20cd8d0599500ba9712842ce97786eb4e7d26566637b8569c",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S02-U010.mp3",
+      "sha256": "9f847d4d6f23be71e1b003c38d796ab70038c4e52bcf8d047e0561fa545bfda6",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S03-U021.mp3",
+      "sha256": "e08bf3d1819b8f7f68c1e0f4fa310b3dca3b0ccb58407433ba60fb10405d76bf",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S04-U002.mp3",
+      "sha256": "250901a7950000756e9432685fd4199d04fdb6ccdc7f0f5440ffef831d6555cd",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S03-U018.mp3",
+      "sha256": "1c77317545f73624183ad0454f1e92fb292aa224ee8b9fa5057a55efe96254be",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S03-U025.mp3",
+      "sha256": "66fe603b7a2b1e01dc262e94b7e8c025dd91a769cc722279d11947b519485e38",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S04-U005.mp3",
+      "sha256": "a348b086016e9d304dfbb646c641ed1c074e3ccedee914035c5ee1efddcd8ade",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S04-U004.mp3",
+      "sha256": "d77d1a995419b7d05182dbb58b2defe5b8d3b136125025eb46ab21379ecd16c4",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S04-U003.mp3",
+      "sha256": "88e367db06cf6acf883509e310cc35daae77e4002b754bfc7d5bca5b1434f75f",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S03-U023.mp3",
+      "sha256": "0e85a3090b03c0e52f6479309b50eb6897cdd13b779a36885e900a4b00c68d44",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S03-U024.mp3",
+      "sha256": "15562ec4d8510e952b933da9ef1d9c1d9d43e1307c1886811cce5aee36cd82e9",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S04-U009.mp3",
+      "sha256": "151b3898856a77a0dcab7125bc034f6b41259d0c2fd7100e67e946b0a90f1d90",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S04-U006.mp3",
+      "sha256": "868b14fdc70a49506ed9e54ce3dbb6cc167971cd3dc13ba65bcec4537d80ce84",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S04-U007.mp3",
+      "sha256": "a20dff9187afbbf35194fe9cf010e71d339429c900ceb6f4be78315ed081b49c",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S04-U008.mp3",
+      "sha256": "191b0e22ecbc1bde9beb6fe987900c495d19d4a94fb9ebb1346d926378318be8",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S03-U020.mp3",
+      "sha256": "ff8c7b3eee8932a5d5ffa3bf8649fa7386b1702fbead356515ce617bdb4cea8a",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S04-U011.mp3",
+      "sha256": "955b93563e54455133aa9cc06f95f720bd4d1a7fd878e65ff952aaf72319dbbb",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S04-U012.mp3",
+      "sha256": "a5c0603ccc2fb9bc1ec1e23d357812f41644cb324aca74a211641a2526f69695",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U002.mp3",
+      "sha256": "dba4ed0d206e3a12c309cf2ba299754d2d797789447607bd37c5c1f88f6d486b",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S04-U013.mp3",
+      "sha256": "1adc77dba952b5508b069cb7df828955cc37cf0526d7a3f1da6ee92416143aa4",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S04-U015.mp3",
+      "sha256": "3b26fe53ed09ac90c2da70ab2837697b1a2280e58f0a51f96688760f189c6817",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U003.mp3",
+      "sha256": "2e9b08084d3014efe0ad6aad2ce32cfa0bd41e69622ba07e17e16d375f809da8",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U005.mp3",
+      "sha256": "c4cf3499b245502c0cd62c52fbb10e4c2ac71d570aaff33ed803602ebf2387f9",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S04-U010.mp3",
+      "sha256": "59e4c8b884889d044b798455615c9f9eb80039be04e08f1941f77f27b26175ee",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U009.mp3",
+      "sha256": "8bc1ccf2ceb975e5f514b17cceced9cbcf34247085c56d412a3904fc8250aa92",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U007.mp3",
+      "sha256": "2061b7beb7394f29d5f53354e2103e24db97b04231ec19d575a9556534fa17eb",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S04-U016.mp3",
+      "sha256": "d42a9635450ce46bb79fbe39750e962ddef9d625ceffec46cab5ce9db5c4a05c",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S04-U014.mp3",
+      "sha256": "856d6adcb455467973e015a08c5454619667db70945767dc644982cf1c489fe2",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U010.mp3",
+      "sha256": "c500e2bc852d27e93cdaa504fd3843264646500eb5cb7a896518aaa7af0640a1",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U011.mp3",
+      "sha256": "4520206c724786f0fd55bd6fbf8b1239657eb8082642cd64eecbea6223778bdb",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U012.mp3",
+      "sha256": "eb9a7cccfae7d7e68c4a66d6285942d0b5a8240392a03a14cd4ca6ed5612f0ef",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U016.mp3",
+      "sha256": "79ffb25edfe2a1bfa99b9b9de9217bd5f9c1b00b82e51cb6eca50080ca998920",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U015.mp3",
+      "sha256": "155ead67ff5f401aa4797f833bd605086bbd891e44a3138b0d69fd6dd407e748",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U017.mp3",
+      "sha256": "f6b11518d8682962877609701d5b76a835e5e22820f695ca8b7ee7e11bf3dca5",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U014.mp3",
+      "sha256": "33ef1ca982569f3bbbdbc836b1f5fb8ab58d51b69bee2231fc07fab00a41a255",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U006.mp3",
+      "sha256": "0abd5d004b8d9841130714cb39ce17cc272d792d9260aff942856539a1cb0ef1",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U021.mp3",
+      "sha256": "d14330f3688174587c44415fa1d88230b8711de7439aa62f4e23b9dd0ca97c34",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U004.mp3",
+      "sha256": "cebf979cf769fd0bcc9736a0f74766d2719b3b5ab6f2a415a1f13901ca69b3f5",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U008.mp3",
+      "sha256": "e831a0bee3f8170792578d72ff470c5eae309574f8d16911fb35e9028b44d56c",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U019.mp3",
+      "sha256": "58fd719983d8b54d225df69375815c6577fc6a595fc62dba36a247d54ab56154",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U013.mp3",
+      "sha256": "466215e77fabfe1c6cee1b7aac69401b45d171a8939ad277bb5ab263140385a8",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U023.mp3",
+      "sha256": "24df63a934daee22675144f3b7a6d0c5e33362924629f4c73a06146b0adefc9a",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U025.mp3",
+      "sha256": "956fd41e6de91ef355314ad6e40f1faca3fe47466e076d3684db806e5d9a78d3",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U027.mp3",
+      "sha256": "c11d4e5f74ee99f0bdd17b91a9e424af503e84da41bdb5ea43befa9b329e48b7",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U028.mp3",
+      "sha256": "5eb7443a1d4af547d9a5577c263e794b1ba2d5d2b7f4bde2696fa1ca44a2f11c",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U026.mp3",
+      "sha256": "15fdf4f2ad7650dff9c5fb3ccdbcdd7e44e00bedb1044be4df20b614babd07e7",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U024.mp3",
+      "sha256": "0ed7a0ed7c481d6c55ad93837aa332922b0780217da0a32e1779665d87a6cc70",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U022.mp3",
+      "sha256": "dcec5c64e69f71bee9c6b4b8713a7604e5372a249aeab2653cfc12b817cef2aa",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U018.mp3",
+      "sha256": "0b0551b12c223a82162032a9799117a9a902c056e191ee10930ff756784db6ab",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U031.mp3",
+      "sha256": "a81080a83f18129904415cdc149f1ef8524f0bd0c050a8439b1d9a9713abac45",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U020.mp3",
+      "sha256": "0fc3638aa30cdb01bcebebaaa810009fce3783c9225fa6ec808dbedd03d472bb",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U034.mp3",
+      "sha256": "1f39d28fb2e603c1c719391d11e8ca9fda2c35f3afe0c8003636943cec184423",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U037.mp3",
+      "sha256": "d5806524b9201fff7eadfc3f51dc64c4b6d35cc463b201c6b16b1754eeda80c8",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U030.mp3",
+      "sha256": "668ebe5628286066078d7e122e407a71d7d02ece48fdaf6aa40ad11cd86194cb",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U038.mp3",
+      "sha256": "bd0a40c870719429b9a1960506bbcc56d474d2fb6c1c07cfa769a6a2f39a9525",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U033.mp3",
+      "sha256": "4ebd154800317ba75172a0217dd1898f289371151a66f133c381bb7404067574",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U032.mp3",
+      "sha256": "e9e9cd3b1615221947a272aaa1f44a8b78dcd723e3bb10a4ae926f07b79dcafd",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U035.mp3",
+      "sha256": "774a8775f4a531d3aa3f54802e7ef7743e1d26156bab63f7a300aafdce7a9def",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U029.mp3",
+      "sha256": "f7f2a1d97de42741aa1ff920c0c7ff53486e2280ef0bd3cb126630ae7d5caa2f",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U040.mp3",
+      "sha256": "ad3b3a2c85f6c253f3fc34e635dd0bfd673d8a1b00b9c1e62e7d94911d19dc28",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U041.mp3",
+      "sha256": "c51c1bf372f3c2eba01af3342826466afc61c4f3398693382277015ce41c8fb3",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U036.mp3",
+      "sha256": "185175887c0e5db69855a1bc8c4bc083f59812f9f0ad1777170e8932ce4bd9da",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U039.mp3",
+      "sha256": "84163533bb8c5b7c65754bfc76a6b53481a86806a8b3be09c12d8ca0c810367f",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U044.mp3",
+      "sha256": "2de7853f9abc370c68074fd664e5ead4a01402a51c8647e60770645f61808699",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S06-U002.mp3",
+      "sha256": "fd55a6d161ee89bc56bf12c2d3b707e1c728b61437a85e7d745e4eee5af56190",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U043.mp3",
+      "sha256": "f39bba03f448aef1f7ae5dbe18a49d386fa07cee437195fd60f1f5e960ab069f",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U045.mp3",
+      "sha256": "f70dac2b67c9f12538911977bf2f0a5098aba57e3268f2eef0a3dd04d1de23c0",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S06-U001.mp3",
+      "sha256": "b0d8468c5afeed1a8ef5aab96afbbe1d975522059dcda212aa4e3c01ef9aa3dc",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S06-U003.mp3",
+      "sha256": "3439a8a9e92d6fef56204a4d40c52b877f85fc0ecbfe79b5aedde70f0fa20804",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S06-U005.mp3",
+      "sha256": "f6f2305b0c969bed0e907abd656ecf0acaec4fdf88d3de373bc5a99ea8695360",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S06-U007.mp3",
+      "sha256": "3738679cdc612b7e8dc528a3c17bd0d26fb9842fc7db3488438dc17d596779a8",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S06-U006.mp3",
+      "sha256": "218970e429107574974562dcaa185d448c4a7e2a9feee0743f665279c380c799",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S05-U042.mp3",
+      "sha256": "608d057be815116ee2e14f1871ffdc1da465ed55316fb934f77af6ec7089b9d8",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/next-actions/S03-U007.mp3",
+      "sha256": "620861218f747a440742b93e0273472d7a557625a50ce4538a72071457d81325",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S06-U009.mp3",
+      "sha256": "7ba5ef2dbdccd1c0aeb96e5e6415f0135544f152f479902141b5f1259d1cb672",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S06-U004.mp3",
+      "sha256": "185a91a395b12fa4330dae2a73e29cf968743e0846239864644fa72a3c69d4c6",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S06-U010.mp3",
+      "sha256": "f94d2355f57d4f08ffaf2eeaea44f8d9a397379ae3069b00645edc0e8e42fd56",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/next-actions/S02-U005.mp3",
+      "sha256": "8d1b3d84c1d5d5ff758bf72d9911b9e074e6759f00d872d44ea423352bc21aa7",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/next-actions/S04-U014.mp3",
+      "sha256": "fc05c0bf296a93f97345a46e1b9ed25382eb321372f64f0e5f1b3bc1263c2ff5",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/next-actions/S04-U016.mp3",
+      "sha256": "6f7c40915a0e53ab4d876faa7c57eddc8a2ce277629f635f1cb68f0b696acf17",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/mark-1-1-13/S06-U008.mp3",
+      "sha256": "d1cc626b851e54160d5d6a46e9b4c19e7e80d726ac2c654ea0ecb93cb6a13757",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/next-actions/S02-U008.mp3",
+      "sha256": "c5c671c139242f0ba62c0b8bcc8e716f7126aae5143535a6a37d1bfccada8139",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/next-actions/S03-U021.mp3",
+      "sha256": "2674581af7d1e6356d5a87f709870ae39dddf1099329d9fc9b4eb33fa31a90d5",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/next-actions/S05-U008.mp3",
+      "sha256": "4a5cb7f549e95b6dec0b788a45e47a638b71a76144cb993aff1fc802168a48e5",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/next-actions/S03-U019.mp3",
+      "sha256": "9685b50436d8f74a051896674696dfbcd212c790946db87b356f6a8ada66d9ef",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/next-actions/S05-U013.mp3",
+      "sha256": "0ef3963a73ad526f1ebd3554b5ee13e899b28b6ee1517ca0d0715da083b21585",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/next-actions/S05-U004.mp3",
+      "sha256": "ce91dcc9dfd3cb7978dfbcbe8de73a1960bcc6dd000aa88dce81286f2ea07f39",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/next-actions/S05-U017.mp3",
+      "sha256": "3bdf8cf832589c25e6773762bcf8d1dad265d7e529a5ff5d05f2f80b619d39b0",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/next-actions/S05-U006.mp3",
+      "sha256": "444af2cea1da9fc2b4cb64a2b5bc263c22d282f1e50a59a50ad2e1c6c6bba9b0",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/next-actions/S05-U031.mp3",
+      "sha256": "6a768684c14e89122462123ee9e5af1542621fe9093d207dfc53bcb2ef2719d1",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/next-actions/S05-U038.mp3",
+      "sha256": "9de925c489647ea24731fc629487006a0b436a11bf1c44ff491f86fdb8b584cf",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/next-actions/S05-U041.mp3",
+      "sha256": "1050d7674ff270ba467c2f258cb5c2b3e9bd926349afb991f4bfa2416fa93f9e",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/next-actions/S05-U015.mp3",
+      "sha256": "d3e1bfd4c70f8e89f3215706fcd0ffe070e17f31949af11b4c10713f36d71af5",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/next-actions/S05-U035.mp3",
+      "sha256": "d804aa4776dc2106fe7ebff0b6dd73644858f5e84fbfbabaed6ebe1a17e59763",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/next-actions/S05-U019.mp3",
+      "sha256": "22237026698144085d1529501e7022b0fdb2521e1f28c493a5baf46a0943c701",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-0701ab6155dad8a51088.mp3",
+      "sha256": "a3e004aaae4fd2c2e497f2a9ff41d2dde156c219433386c3ad2e28d012b2a44b",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-09c2652e37d70bd7505d.mp3",
+      "sha256": "13d11671a99e1db164fb1f76651252f060cdc54c3eace1f53f71c30834c92bd4",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/next-actions/S05-U043.mp3",
+      "sha256": "d0fbccf030680f8329a7a596c9667b585ec28e32ed114139892a181197c3fa80",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-06c24ec382679df35569.mp3",
+      "sha256": "4cf2d33502bb75ec86166bbb24a608f92dc994a0981af8304b7a59efc4d4927a",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-056bb7f37975753e8168.mp3",
+      "sha256": "b2703be1c722256c3887b6c29746b441d14dcbbaf1083b97680254932653647d",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-05ed266a6c9c550d288a.mp3",
+      "sha256": "02e3d93f9e201d23c3ce132c39352371806c9c4323c0e8e297b76ab1773cdc8e",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-05591bcda121c7d54a28.mp3",
+      "sha256": "87a6a6b0db4afa353a59d0f97f49fc67074f85eed01aca126f18a3fbbaaca76c",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-10009c2e5bc72fe96222.mp3",
+      "sha256": "94ad63c81085e4d4378f1a0563409cb77a707d33ada1c5ae4c71b5670781c85d",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-07ba5c1aadbd7264b559.mp3",
+      "sha256": "6730d8f8a915ce0ae5a4c311414d9158b1b144187c75d5ebb4c05e9dc6d51d8e",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    },
+    {
+      "sourcePath": "/audio/spa/spa-12486d31c8cc1cc44e13.mp3",
+      "sha256": "432f4ef53a11cb376bfb6694f804837567f09f32ac950f0cad1a6ca10355ca22",
+      "valid": true,
+      "eligible": true,
+      "reason": "native representative codec plus individual decode/hash/duration"
+    }
+  ]
+}
