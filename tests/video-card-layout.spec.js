@@ -2,9 +2,9 @@ import {test,expect} from '@playwright/test';
 test.use({viewport:{width:466,height:987},serviceWorkers:'block'});
 for(const language of ['English','Español'])for(const theme of ['light','dark'])test(`video title and independent actions ${language} ${theme}`,async({page})=>{
  await page.addInitScript(()=>{const A=window.Audio;window.Audio=class extends A{constructor(...args){super(...args);window.__audio=this;}};});
- await page.goto('/');
+ await page.goto('/');await expect(page.getByRole('tab',{name:'Resources',exact:true})).toBeVisible();
  if(language==='Español'){await page.getByRole('tab',{name:'Languages',exact:true}).click();await page.getByRole('button',{name:/Español/}).click();}
- const toggle=page.getByRole('button',{name:`Switch to ${theme} theme`});if(await toggle.count())await toggle.click();
+ const toggle=page.getByRole('button',{name:`Switch to ${theme} theme`});if(await toggle.count())await toggle.click();await expect(page.locator('html')).toHaveAttribute('data-theme',theme);
  await page.getByRole('tab',{name:'Resources',exact:true}).click();
  const cards=page.locator('.resource-video');expect(await cards.count()).toBeGreaterThan(0);
  const card=cards.filter({hasText:language==='Español'?'Desierto o lugar deshabitado':'Wilderness'}).first();
