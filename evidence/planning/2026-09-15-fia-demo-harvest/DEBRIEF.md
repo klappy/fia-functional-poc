@@ -23,3 +23,9 @@ Learning machinery: order and readback preceded dispatch, correcting the earlier
 ## State
 
 Planning cargo only. No feature implementation, native distribution setup, automated monitoring, Cursor dispatch or production release. Final Git/readback receipts and pass state will be recorded in the rail after verified landing. Human delivery/date/content/field authority remains distinct from source fidelity review.
+
+## Operator correction after initial delivery
+
+The original sidecar grouped many core fixes but did not explicitly require systemic UX diagnosis, allowing a reader to turn40 symptoms into40 patches. Operator caught the producing-system error. Repair: sidecar now makes root-system hypotheses, whole-journey/state design, competent UX capability and independent design review explicit before implementation. The40 source cases remain stable and source fidelity review still applies. Learning machinery gap: completeness review protected against omitted feedback but did not by itself prevent fragmented solution design. Future design review should inspect causal coherence as well as coverage. This is a proposed review improvement, not a newly enacted law. Correction was bound in rail UX-CORRECTION.md before this amendment; old version remains in Git history.
+
+Affected driver-seat rerun imagined the UX designer inheriting a symptom checklist: revised actual sidecar to six shared-system hypotheses and coherent design outputs before implementation. Fresh Oddkit planning challenge run after revision returned CHALLENGED, block_until_addressed=false; no tool approval implied. Confidence is working hypothesis only. Whole-journey/persona failures or evidence of independent causes disconfirm the grouping; design effort can exceed the target, so scope/date remain conditional. Coverage review and causal-coherence review are separate. Rejected alternatives:40patch orders, unreviewed redesign, or requiring abstract decisions before a prototype.
