@@ -1,3 +1,8 @@
+# 0.1.18
+
+- Add verified word timing for RV1909 Mark1:1–3, retaining verse highlighting for other Spanish recordings.
+- Save those three exact originals with their timing sidecars; preserve playable previously saved compressed audio with verse fallback.
+
 # 0.1.17
 
 Complete guide pages when their referenced playable parts end, including nested resources and the selected Scripture edition. A shared heading check toggles persistent manual completion; navigation and Finish eligibility remain unchanged.
@@ -20,10 +25,6 @@ Global Aquifer + AI fallback, Aquifer only, and AI only narration; exact source 
 
 # Changelog
 
-## 0.1.18
-
-- Add verified word timing for RV1909 Mark1:1–3, retaining verse highlighting for other Spanish recordings.
-- Save those three exact originals with their timing sidecars; preserve playable previously saved compressed audio with verse fallback.
 
 ## 0.1.12
 
