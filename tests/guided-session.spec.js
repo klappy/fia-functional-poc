@@ -27,7 +27,7 @@ test('examples require explicit reveal and every resource type is available',asy
  await page.keyboard.press('Escape');await page.getByRole('tab',{name:'Resources',exact:true}).click();await expect(page.locator('.resource-card')).toHaveCount(32);
  await page.getByRole('button',{name:'Key terms',exact:true}).click();await expect(page.locator('.resource-card')).toHaveCount(21);
  await page.getByRole('button',{name:'Open gospel term'}).click();await expect(page.getByRole('dialog')).toContainText('gospel');await page.keyboard.press('Escape');
- await page.getByRole('button',{name:'Video links',exact:true}).click();await expect(page.locator('.resource-card')).toHaveCount(3);await page.locator('button.resource-card').first().click();await expect(page.getByRole('dialog')).toContainText('not downloaded');
+ await page.getByRole('button',{name:'Video links',exact:true}).click();await expect(page.locator('.resource-card')).toHaveCount(3);await page.getByRole('button',{name:'Open Jordan River video',exact:true}).click();await expect(page.getByRole('dialog')).toContainText('not downloaded');
 });
 test('narrow layout, keyboard dialog and large text remain usable',async({page})=>{
  await page.setViewportSize({width:320,height:844});await expect(page.locator('body')).toBeVisible();
