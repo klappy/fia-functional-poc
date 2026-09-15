@@ -1,0 +1,72 @@
+[WebServer] (node:69510) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 3 tests using 1 worker
+
+(node:69527) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 tests/spanish-visual-audio.spec.js:5:1 › all8 exact visual descriptions play; map and distinct sandals seek/end; source policy and written attribution remain honest (13.3s)
+(node:70154) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 tests/spanish-visual-audio.spec.js:11:1 › new visual checkpoint restores paused exact source while title-only offset is rejected (7.3s)
+(node:70162) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  3 tests/spanish-visual-audio.spec.js:15:1 › selected offline pack excludes historical audio and cold-plays a new raw fallback description (4.6s)
+
+
+  1) tests/spanish-visual-audio.spec.js:5:1 › all8 exact visual descriptions play; map and distinct sandals seek/end; source policy and written attribution remain honest 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('#panel-resources .resource-tile').nth(4).getByRole('button', { name: /^Play / })
+    Expected: 0
+    Received: 1
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('#panel-resources .resource-tile').nth(4).getByRole('button', { name: /^Play / }) with timeout 5000ms
+      - waiting for locator('#panel-resources .resource-tile').nth(4).getByRole('button', { name: /^Play / })
+        14 × locator resolved to 1 element
+           - unexpected value "1"
+
+
+       7 |  if(['c202','a204','ai-spa-from-a203'].includes(source.resourceId)){await page.evaluate(()=>window.__visualAudio.currentTime=window.__visualAudio.duration/2);await page.locator('.playback-dock .owner-toggle').click();await page.evaluate(()=>window.__visualAudio.currentTime=window.__visualAudio.duration-.1);await expect.poll(()=>page.evaluate(()=>window.__visualAudio.ended)).toBe(true);await tile(page,source.resourceId).getByRole('button',{name:/^Open /}).click();await expect(page.getByRole('dialog').getByText('Descripción traducida del inglés con IA',{exact:true})).toBeVisible();await expect(page.getByRole('dialog')).toContainText(pack.media.find(m=>m.id===source.resourceId).visualNarration.text);if(source.resourceId==='c202')await expect(page.getByRole('dialog')).toContainText('Map labels remain English');await page.screenshot({path:`evidence/spanish-visual-audio/${source.resourceId}.png`});await page.keyboard.press('Escape');}
+       8 |  }
+    >  9 |  await expect(page.locator('[data-alignment-active]')).toHaveCount(0);await page.getByRole('button',{name:'Offline passage and settings'}).click();await page.getByRole('combobox',{name:'Narration',exact:true}).selectOption('aquifer-only');await page.keyboard.press('Escape');for(const source of binding.sourceOwners)await expect(tile(page,source.resourceId).getByRole('button',{name:/^Play /})).toHaveCount(0);
+         |                                                                                                                                                                                                                                                                                                                                                                                                            ^
+      10 | });
+      11 | test('new visual checkpoint restores paused exact source while title-only offset is rejected',async({page})=>{
+      12 |  const source=binding.sourceOwners.find(s=>s.resourceId==='c202');await tile(page,source.resourceId).getByRole('button',{name:/^Play /}).click();await expect.poll(()=>page.evaluate(()=>window.__visualAudio?.currentTime??0)).toBeGreaterThan(.1);await page.locator('.playback-dock .owner-toggle').click();await page.evaluate(()=>window.__visualAudio.currentTime=3);await page.waitForTimeout(300);await page.reload();await expect.poll(()=>page.evaluate(()=>window.__visualAudio?.currentTime??0)).toBe(3);expect(await page.evaluate(()=>window.__visualAudio.paused)).toBe(true);expect(await page.evaluate(()=>window.__visualPlays)).toBe(0);
+        at /private/tmp/fia-visual-audio-integration/tests/spanish-visual-audio.spec.js:9:396
+
+    Error Context: test-results/spanish-visual-audio-all8--a48ad-n-attribution-remain-honest/error-context.md
+
+  2) tests/spanish-visual-audio.spec.js:11:1 › new visual checkpoint restores paused exact source while title-only offset is rejected 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByText('Saved Spanish audio position could not be restored. Play the selected source to continue.', { exact: true })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByText('Saved Spanish audio position could not be restored. Play the selected source to continue.', { exact: true }) with timeout 5000ms
+      - waiting for getByText('Saved Spanish audio position could not be restored. Play the selected source to continue.', { exact: true })
+
+
+      11 | test('new visual checkpoint restores paused exact source while title-only offset is rejected',async({page})=>{
+      12 |  const source=binding.sourceOwners.find(s=>s.resourceId==='c202');await tile(page,source.resourceId).getByRole('button',{name:/^Play /}).click();await expect.poll(()=>page.evaluate(()=>window.__visualAudio?.currentTime??0)).toBeGreaterThan(.1);await page.locator('.playback-dock .owner-toggle').click();await page.evaluate(()=>window.__visualAudio.currentTime=3);await page.waitForTimeout(300);await page.reload();await expect.poll(()=>page.evaluate(()=>window.__visualAudio?.currentTime??0)).toBe(3);expect(await page.evaluate(()=>window.__visualAudio.paused)).toBe(true);expect(await page.evaluate(()=>window.__visualPlays)).toBe(0);
+    > 13 |  const old=JSON.parse(fs.readFileSync('src/data/spanish-audio-catalog.json')).historicalRequests.find(r=>r.owners.some(o=>o.ownerId===source.ownerId)),entry=JSON.parse(fs.readFileSync('public/audio/spa/manifest.json')).historicalEntries.find(e=>e.id===old.id);await page.addInitScript(({source,entry})=>localStorage.setItem('fia-audio-checkpoint/spa/v1',JSON.stringify({selection:{domain:'resources',id:source.resourceId,title:'Old title'},sourceOwnerId:source.ownerId,checkpoint:{clipId:entry.id,sourceSha256:entry.sourceSha256,outputSha256:entry.sha256,offsetSeconds:3,phase:'unfinished'}})),{source,entry});await page.reload();await expect(page.getByText('Saved Spanish audio position could not be restored. Play the selected source to continue.',{exact:true})).toBeVisible();expect(await page.evaluate(()=>window.__visualPlays)).toBe(0);
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ^
+      14 | });
+      15 | test('selected offline pack excludes historical audio and cold-plays a new raw fallback description',async({page,context})=>{
+      16 |  test.setTimeout(90000);await page.getByRole('button',{name:'Offline passage and settings'}).click();await page.getByRole('combobox',{name:'Media quality',exact:true}).selectOption('original');await page.getByRole('button',{name:'Save for offline',exact:true}).click();await expect(page.locator('.offline-status')).toContainText('saved on this device',{timeout:60000});const active=await page.evaluate(async()=>await(await(await caches.open('fia-meta-v1')).match('/__fia_spa__')).json());for(const e of binding.sourceOwners)expect(active.entries.some(a=>a.path===e.path&&a.sha256===e.sha256)).toBe(true);for(const e of binding.historicalFiles)expect(active.entries.some(a=>a.path===e.path)).toBe(false);expect(new Set(active.entries.map(e=>e.path)).size).toBe(active.entries.length);await page.keyboard.press('Escape');await context.setOffline(true);await page.reload();const source=binding.sourceOwners.find(s=>s.resourceId==='a204');await tile(page,source.resourceId).getByRole('button',{name:/^Play /}).click();await expect.poll(()=>page.evaluate(()=>window.__visualAudio?.currentTime??0)).toBeGreaterThan(.1);
+        at /private/tmp/fia-visual-audio-integration/tests/spanish-visual-audio.spec.js:13:761
+
+    Error Context: test-results/spanish-visual-audio-new-v-1f09b-tle-only-offset-is-rejected/error-context.md
+
+  2 failed
+    tests/spanish-visual-audio.spec.js:5:1 › all8 exact visual descriptions play; map and distinct sandals seek/end; source policy and written attribution remain honest 
+    tests/spanish-visual-audio.spec.js:11:1 › new visual checkpoint restores paused exact source while title-only offset is rejected 
+  1 passed (27.5s)

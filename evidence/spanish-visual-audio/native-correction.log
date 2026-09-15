@@ -1,0 +1,11 @@
+[WebServer] (node:74162) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 2 tests using 1 worker
+
+(node:74179) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/spanish-visual-audio.spec.js:5:1 › all8 exact visual descriptions play; map and distinct sandals seek/end; source policy and written attribution remain honest (7.8s)
+  ✓  2 tests/spanish-visual-audio.spec.js:11:1 › new visual checkpoint restores paused exact source while title-only offset is rejected (1.7s)
+
+  2 passed (10.6s)

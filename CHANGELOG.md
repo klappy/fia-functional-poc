@@ -1,3 +1,7 @@
+# 0.1.14
+
+Add eight source-bound Spanish visual descriptions, including distinct sandal images, with exact recording checkpoints and selected offline saving. Retain historical recordings and use verified originals until compressed derivatives are qualified. Spanish playback availability now follows the global narration preference.
+
 # 0.1.13
 
 Global Aquifer + AI fallback, Aquifer only, and AI only narration; exact source checkpoints and selected offline recordings. Both resource lists reserve the measured floating player and navigation height so the final row remains reachable.
