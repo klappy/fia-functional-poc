@@ -1,3 +1,7 @@
+# 0.1.17
+
+Complete guide pages when their referenced playable parts end, including nested resources and the selected Scripture edition. A shared heading check toggles persistent manual completion; navigation and Finish eligibility remain unchanged.
+
 # 0.1.16
 
 Give the entire light Offline passage modal its existing studio backing, retain the original dark modal backing, and distinguish preference and saved-status groups without an extra outer card. Preserve shared English/Spanish controls and concise disclosure.

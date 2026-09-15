@@ -1,0 +1,90 @@
+TAP version 13
+# Subtest: simulated HTMLAudio events advance only ended source units and suppress canceled callbacks
+ok 1 - simulated HTMLAudio events advance only ended source units and suppress canceled callbacks
+  ---
+  duration_ms: 772.960041
+  type: 'test'
+  ...
+# Subtest: simulated HTMLAudio pause resumes same source and media errors do not advance
+ok 2 - simulated HTMLAudio pause resumes same source and media errors do not advance
+  ---
+  duration_ms: 6.075625
+  type: 'test'
+  ...
+# Subtest: selected audio integrity failure and changed source fail before playback
+ok 3 - selected audio integrity failure and changed source fail before playback
+  ---
+  duration_ms: 11.432666
+  type: 'test'
+  ...
+# Subtest: pure synthesis guards count uncertain attempts and reject changed input, repeated IDs and cumulative caps without network
+ok 4 - pure synthesis guards count uncertain attempts and reject changed input, repeated IDs and cumulative caps without network
+  ---
+  duration_ms: 1.055875
+  type: 'test'
+  ...
+# Subtest: complete prepared audio binds exactly117 visible guide units and3 Scripture passages to immutable source bytes
+ok 5 - complete prepared audio binds exactly117 visible guide units and3 Scripture passages to immutable source bytes
+  ---
+  duration_ms: 58.37425
+  type: 'test'
+  ...
+# Subtest: a late resume rejection cannot overwrite a stopped session
+ok 6 - a late resume rejection cannot overwrite a stopped session
+  ---
+  duration_ms: 7.38425
+  type: 'test'
+  ...
+# Subtest: actual shell builder refuses missing, duplicate and source-mismatched mandatory narration manifests
+ok 7 - actual shell builder refuses missing, duplicate and source-mismatched mandatory narration manifests
+  ---
+  duration_ms: 101.107875
+  type: 'test'
+  ...
+# Subtest: media timing follows native metadata/time events and restart reuses the recording
+ok 8 - media timing follows native metadata/time events and restart reuses the recording
+  ---
+  duration_ms: 5.164042
+  type: 'test'
+  ...
+# Subtest: 750ms pending gap is held, canceled and restarted without ghost advancement
+ok 9 - 750ms pending gap is held, canceled and restarted without ghost advancement
+  ---
+  duration_ms: 2721.31175
+  type: 'test'
+  ...
+# (node:16379) ExperimentalWarning: The MockTimers API is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: fake clock holds automatic advancement until exactly750ms
+ok 10 - fake clock holds automatic advancement until exactly750ms
+  ---
+  duration_ms: 14.06325
+  type: 'test'
+  ...
+# Subtest: live completion resets on restart stop speak restore and ignores stale ended
+ok 11 - live completion resets on restart stop speak restore and ignores stale ended
+  ---
+  duration_ms: 10.959042
+  type: 'test'
+  ...
+# Subtest: part receipt comes from ordinary ended including seek, not stop/error/stale callbacks
+ok 12 - part receipt comes from ordinary ended including seek, not stop/error/stale callbacks
+  ---
+  duration_ms: 10.584208
+  type: 'test'
+  ...
+# Subtest: restoring a saved gap advances existing queue without fabricating a part-ended receipt
+ok 13 - restoring a saved gap advances existing queue without fabricating a part-ended receipt
+  ---
+  duration_ms: 17.809084
+  type: 'test'
+  ...
+1..13
+# tests 13
+# suites 0
+# pass 13
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3795.951
