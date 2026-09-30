@@ -1,6 +1,6 @@
 # Content attribution and adaptation notices
 
-Selected source content remains under its supplied terms. This private app does not relicense content. Formatting/segmentation, local media paths and cue metadata are app adaptations; applicable CC BY-SA terms remain. No theological correctness certification.
+Selected source content remains under its supplied terms. App source code is MIT-licensed (see `LICENSE`); source content, Scripture, media and derived audio are not relicensed and stay under the supplied terms listed below. Formatting/segmentation, local media paths and cue metadata are app adaptations; applicable CC BY-SA terms remain. No theological correctness certification.
 
 FIAMaps holder discrepancy remains unresolved: license_info names Biblica; adaptation_notice names Word Collective. Both supplied fields are preserved verbatim below. Matching license strings do not constitute comprehensive legal clearance.
 

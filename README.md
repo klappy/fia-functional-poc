@@ -16,7 +16,7 @@ Save offline verifies the complete 195-file required pack before replacing a pri
 
 ## Release boundary
 
-The release configuration targets Cloudflare Workers Builds for `fia.klappy.dev`, serving only `dist`. Reviewed main pushes are the deployment mechanism; local deployment commands and manual build triggers are not part of this workflow. Wrangler is pinned to 4.131.0. The build fails on unapproved files, changed approved audio bytes, private voice identifiers or the private provider route. Private narration/source-review evidence is retained in this private repository and must never be deployed. Configuration and local build success are not proof of publication.
+The release configuration targets Cloudflare Workers Builds for `fia.klappy.dev`, serving only `dist`. Reviewed main pushes are the deployment mechanism; local deployment commands and manual build triggers are not part of this workflow. Wrangler is pinned to 4.131.0. The build fails on unapproved files, changed approved audio bytes, private voice identifiers or the private provider route. Narration/source-review evidence is retained in this repository (public since 2026-09-29) and must never be deployed. Configuration and local build success are not proof of publication.
 
 ## Verified limits
 
